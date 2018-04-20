@@ -1,9 +1,9 @@
 This class reader is a collaborative project and EVERY reasonable input will improve the quality of the reader. 
 
-#Objective
+# Goal
 The class reader is the virtual extension of the classroom. You use the class reader to collaboratively develop a deeper understanding of the conceptual and technical fundamentals of data visualization. 
 
-#Objective
+# Objective
 Your objective is to contribute in a meaningful way to the class reader on a weekly basis. Meaningful contribution is defined as the following set of activities:
 
 1. Add and annotate a unique reference to the class reader. The annotation should consist of a short summary of the key points, a critical analysis, and a personal reflection.
