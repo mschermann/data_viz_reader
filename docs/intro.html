@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-12">
+<meta name="date" content="2018-04-19">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -136,7 +136,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="intro" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> Introduction</h1>
-<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="#methods"><strong>??</strong></a>.</p>
+<p><strong>##Data Visualization</strong> Data visualization refers to representing data in a visual context, like a chart or a map, to help people understand the significance of that data. Making sense of facts, numbers, and measurements is a form of art – the art of data visualization.</p>
+<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="#methods"><strong>??</strong></a>. <a href="https://eagereyes.org/" class="uri">https://eagereyes.org/</a> <a href="https://research.tableau.com/user/robert-kosara" class="uri">https://research.tableau.com/user/robert-kosara</a> <a href="https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor</a> <a href="http://flowingdata.com/" class="uri">http://flowingdata.com/</a></p>
 <p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))
 <span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre></div>
@@ -147,7 +148,7 @@ Figure 2.1: Here is a nice figure!
 </p>
 </div>
 <p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro.html#tab:nice-tab">2.1</a>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">kable</span>(
   <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,
   <span class="dt">booktabs =</span> <span class="ot">TRUE</span>
 )</code></pre></div>
@@ -364,19 +365,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
