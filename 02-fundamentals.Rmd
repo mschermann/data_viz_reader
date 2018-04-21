@@ -160,3 +160,80 @@
   
  
  + Contemporary research results
+  + Contemporary research results
+reference---fundamentals--example-USDATA
+  
+An example to back some of our theories on ‘how to tell stories using data visualization’ / ‘exploratory data visualization’
+  
+[DATA USA] :     https://datausa.io
+
+MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data from various sources and mines information to generate trends and stories about cities, jobs, industries etc. to the common man.
+
+Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is amazing to see how they have brought it all together on a single platform in a very easy to decipher format.
+
+What caught my attention here is the categorization of Information on the website that enables the following – 
+
+1.	Easy browsing of various categories of information available at a single glance
+2.	Easy search on any topic of interest and get deeper information on each
+3.	Logical construction of information using data and visuals under each category
+4.	Comparative Analysis of cities
+5.	Variety of exploratory visualizations to learn from 
+6.	Most important – Stories that these data tell For e.g. Evolution of the American Worker, Poverty is bad for your health, Men still dominate in the highest paying industries, Opioid addiction damage and so many others. 
+
+We think of a topic, and its possible it’s there! 
+
+Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website
+
+And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
+
+There is also other similar websites, that has some good visualizations on census data: https://www.census.gov/dataviz/ 
+
+Do explore!
+
+References:
+https://datausa.io/about/
+
+
+
+Pick the Right Chart Type!
+
+  Data divusalization is combining the art and science. As for the art, we can say there are no correct answers for doing the visualization. There are many ways to present the data. However, how to making sense of facts, numbers and measurement for better understanding is still have a logical path to follow. 
+  
+  To determine which kind of chart is hard for those people new to data visulization. Most people learn it by refering some other people's work without understanding the logic behind. So they don't have the theory in their mind to make the judgement. Here , I will introduce some guidance to choose the charts. 
+  
+  When we about to choose the type of chart, we need to answer some questions.
+  - How many features would you like to show in a chart?
+  - how many data points do you want to display for each variable? 
+  - Will you display time serious data or among items or groups. 
+  
+  After answered this question, you shoul able to get a better imagenation of your ideal graph. The simple guidance for using different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
+  
+  Let's review the most commonly used chart types and expalin the pros and conts of each  type of chart.
+  
+  Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is  http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+   
+Reference:
+Data Visualization – How to Pick the Right Chart Type? , By Jānis Gulbis https://eazybi.com/blog/data_visualization_and_chart_types/
+
+Data Visualization Best Practices by melindasantos | Sep 19, 2017
+http://paristech.com/blog/data-visualization-best-practices/
+
+http://paristech.com/blog/data-visualization-best-practices/
+http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+
+
+ Misleading graphs:
+  Misleading graphs or distorted graphs, are graphs created which skews the data, intentionally or unintentionally, resulting in a representation of incorrect conclusions.
+There are some ways in which distorted graphs can be created:
+1.	Improper scaling of y axis: This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, y axis is scaled conveniently to highlight the differences among bins.
+2.	Improper labelling of graphs:  Lack of labels make the graph hard to interpret for the reader and lead to wrong conclusions.
+3.	Paired graphs on different scale: It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
+4.	Dual axis with different scales: If we are plotting two elements on the same graph with different scales, even if the axes are properly labeled, it is assumed that both axes are on the same scale.
+5.	Incomplete data: Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to just show a trend within a particular period to create a more favorable visual impression.
+
+Please find the references below.
+http://hypsypops.com/axes-evil-lie-graphs/
+http://www.statisticshowto.com/misleading-graphs/
+
+  
+
