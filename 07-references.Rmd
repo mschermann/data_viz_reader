@@ -1,3 +1,17 @@
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
+1. 3 Expert Data Visualization Tips for Grabbing Readers' Attention
+URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
+
+*Summary*: This article found on Medium explores three important aspects to focus on when creating a data visualization.  The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience.  Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they're looking at a data visual, which offers a unique and useful perspective.
+
+Here is an outline of each of the 3 aspects:
+1. Know what you really want to say.  We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.
+
+2. Design.  Visuals should be kept as simple as possible without leaving out key points.  This makes sense because then the audience can focus on what's really important.
+
+3. Labeling.  This section of the article shows a nice comparison of before and after removing labels from a chart, and the 'after' chart looks much cleaner and easier to interpret.
+
+I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.
+
