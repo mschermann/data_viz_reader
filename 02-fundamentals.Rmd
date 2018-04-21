@@ -140,7 +140,6 @@ http://paristech.com/blog/data-visualization-best-practices/
 http://paristech.com/blog/data-visualization-best-practices/
 http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
 
-
  Misleading graphs:
   Misleading graphs or distorted graphs, are graphs created which skews the data, intentionally or unintentionally, resulting in a representation of incorrect conclusions.
 There are some ways in which distorted graphs can be created:
@@ -154,6 +153,32 @@ Please find the references below.
 http://hypsypops.com/axes-evil-lie-graphs/
 http://www.statisticshowto.com/misleading-graphs/
 
++ Theoretical background of data visualization
   
+  **Definions of Date Deception and Graphic Integrity**
   
+  **Reference** 
+  (1) Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., & Bertini, E. (2015). How deceptive are deceptive visualizations? An empirical analysis of common distortion techniques. In CHI 2015 - Proceedings of the 33rd Annual CHI Conference on Human Factors in Computing Systems: Crossings (Vol. 2015-April, pp. 1469-1478). Association for Computing Machinery. DOI: 10.1145/2702123.2702608
+  (2) Tufte, E. R., and Graves-Morris, P. The visual display of quantitative information, vol. 2. Graphics press Cheshire, CT, 1983.
+
+Data visualization becomes more and more pupular to communicate and support arguments nowdays. There are lots of great resources online to create and design amazing data products, in the same time, there are some poorly-designed misleading deceptive data visualizations.
+
+So what does **data deception** mean? 
+Data deception, defined by School of Law at the New York University, as “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.”
+
+In reality, decades ago, Edward Tufte already introduced the concept of graphical intergrity in his book and presented six principles of graphic integrity. Here are the principles from book:
+
+1. The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the numerical quantities measured.
+
+2. Clear, detailed, and thorough labeling should be used to defeat graphical distortion and ambiguity. Write out explanations of the data on the graphic itself. Label important events in the data.
+
+3. Show data variation, not design variation.
+
+4. In time-series displays of money, deﬂated and standardized units of monetary measurement are nearly always better than nominal units.
+
+5. The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
+
+6.Graphics must not quote data out of context.
+
+
 
