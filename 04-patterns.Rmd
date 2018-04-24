@@ -3,6 +3,16 @@
  + Reusable solutions to everyday data visualization questions
  + Applied by multiple members of the course
 
-## Pattern one
+## Why pie chart is bad: a comparison with bar chart
+
+Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
+
+1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
+
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
+
+3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart).
+
+4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers!
 
 ## Pattern two

@@ -1,3 +1,56 @@
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
+1. 3 Expert Data Visualization Tips for Grabbing Readers' Attention
+URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
+
+*Summary*: This article found on Medium explores three important aspects to focus on when creating a data visualization.  The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience.  Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they're looking at a data visual, which offers a unique and useful perspective.
+
+Here is an outline of each of the 3 aspects:
+1. Know what you really want to say.  We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.
+
+2. Design.  Visuals should be kept as simple as possible without leaving out key points.  This makes sense because then the audience can focus on what's really important.
+
+3. Labeling.  This section of the article shows a nice comparison of before and after removing labels from a chart, and the 'after' chart looks much cleaner and easier to interpret.
+
+I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.
+
+2. Choose best colors for cartography visualization in a professional manner
+URL: http://colorbrewer.org
+
+*Summary*: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.
+
+It will automatically recommend the color schemes in the following aspects:
+
+1: Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.
+
+2: Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
+
+3: You can also change the settings to colorblind-friendly on this site.
+
+2.Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations.
+This website lists lots of tools to do different type of visualizations, check it out.
+URL:https://guides.library.harvard.edu/c.php?g=310952&p=2073191
+
+3. Visual Capitalist
+URL:http://www.visualcapitalist.com/category/politics/
+This company/website creates visual contents in the field of business and marketing.
+
+
+
+*Misleading Graph*
+As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.
+
+1. Omitting Baselines
+
+In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece. 
+
+ A example of using good data in a misleading graph to fool readers comes from Fox News. 
+ 
+ ![](1.png)
+
+Reference:
+How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
+https://venngage.com/blog/misleading-graphs/
+Misleading graph, wikipedia
+https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph

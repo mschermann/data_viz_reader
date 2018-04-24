@@ -2,3 +2,30 @@
 
 + Implications of (good and bad) data visualization
     + The role of data visualization in politics, society, and business
+
+
+Tableau: Viz of the Day
+
+Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/gallery
+) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
+
+One interesting example I found is Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+
+
+**1. Data visualization in political and social sciences**
+   - (Reference: https://github.com/mschermann/data_viz_reader/files/1933699/Zinovyev_Data_Visualization.pdf)
+
+   The basic objective of data visualization is to provide an efficient graphical display for summarizing and reasoning about    quantitative information. And during the last decades, political science has accumulated a large corpus of various kinds      of data, which makes it gradually become a more quantitative scientific field and requires using quantitative information      in the analysis and reasoning. 
+
+   Data visualization plays several important roles in it: 1) helps create informative illustrations of the data,                recapitulating large amount of quantitative information on a diagram; 2) helps formulate new or supporting existing            hypotheses from quantitative data; 3) guides a statistical analysis of data and checks its validity.
+
+   Some useful visualization methods are: 1) _Statistical graphics and infographics_; 2) _Geographical information systems        (GIS)_; 3) _Graph visualization or network maps_; 4) _Data cartography_.
+
+**Misrepresentation through Data Visualization**
+       - (Reference: https://venngage.com/blog/misleading-graphs/)
+
+While the ideal purpose of data visualization is to improve others' understanding of the data presented, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and going against graphing convention.
+
+Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
+
+
