@@ -15,8 +15,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers!
 
-## Pattern two
-###Title: Chose the right baseline in data visualization###
+## Chose the right baseline in data visualization
 
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
@@ -129,4 +128,4 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
 
 Reference: https://flowingdata.com/2013/11/26/the-baseline/
-####################################################################################
+
