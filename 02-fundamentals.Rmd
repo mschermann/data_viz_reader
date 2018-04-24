@@ -1,4 +1,117 @@
+
+Besides of tableau, there are also several other software can use for data visualization. like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, Qlikview. This article is from forbes and have a briefly clear introduction about those 7 powerful software for data visualization. I think this could be helpful for me because for different purpose, I may need to create different graphs. There are several disadvantages of using tableau, a little explore of other 6 softwares may help me in the future if I’m seeking for substitutes of tableau. 
+
+https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
 # Fundamentals
 
+  + Theoretical background of data visualization
+  
+  **Practitioners Guide to Best Practices in Data Visualization**
+  
+  **Reference**
+    Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
+    Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
+  
+  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
+  then focus your visualization with respect to those questions. 
+  
+  Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
+  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
+  such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
+  impact in a most efficient manner. The three best practices of data visualization are as follows: - 
+
+** 1. Design and layout matter **
+      The design and layout should facilitate ease of understanding to convey your message to the viewer.
+** 2.	Avoid Clutter **
+      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+      the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
+      means, avoid ink which do not add any information.
+** 3.	Use color purposely and effectively **
+      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+      in conveying your message. 
+      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
+      in more meaningful and practical way in the article. It also gives various advantages of using the above 
+      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
+      prescriptive. 
+
+  
   + Theoretical background of data visualization  
+    * https://www.klipfolio.com/blog/intuitive-dashboard-design
+    Three rules to follow in order to develop intuitive dashboards:
+    
+    1. the dashboard should read left to right
+    2. group related information together
+    3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+    
+    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data. 
+    
+    Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+    
+    Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+    
+    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+    
+  + Theoretical background of data visualization
+  
+    1.  Fundamental Components of Design
+          
+          Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and 
+          unity as the design foundation of any work. If you want to take your data visualization from an 
+          everyday dashboard to a compelling data story, incorporate the 9 principles of design from graphic 
+          designer Melissa Anderson's article:
+                  https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/
+  
+          Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the
+          elements of the dashboard/visualiaztion distributed evenly. And it important to remember the non-data elements, such
+          as a logo, title, caption, etc., that can affect the balance of the display. 
+          
+          Another closely related component to balance is variety which could seem counter to balance, but when done
+          correctly, variety can help increase the recall of information. However if overdone, too much variety can feel
+          cluttered and blur together the images and data in the mind of the viewer.
+          
+          Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to
+          enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be
+          easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the
+          dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results
+          and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on
+          the image. This is why it is important we take care to accurately reflect proportion in our data visualization and 
+          remain critical of how others use proportion in their visualization.
+          
+          Emphasis was the component that I most related to when reading through the nine principles of design in this
+          article. From prior experience with art through photography I understand it is key to be concious of what I am 
+          drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very
+          important to remain keen on the main point of your story and how the entire visualization is either drawing the
+          viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+          
   + Contemporary research results
+
+Pick the Right Chart Type!
+
+  Data divusalization is combining the art and science. As for the art, we can say there are no correct answers for doing the visualization. There are many ways to present the data. However, how to making sense of facts, numbers and measurement for better understanding is still have a logical path to follow. 
+  
+  To determine which kind of chart is hard for those people new to data visulization. Most people learn it by refering some other people's work without understanding the logic behind. So they don't have the theory in their mind to make the judgement. Here , I will introduce some guidance to choose the charts. 
+  
+  When we about to choose the type of chart, we need to answer some questions.
+  - How many features would you like to show in a chart?
+  - how many data points do you want to display for each variable? 
+  - Will you display time serious data or among items or groups. 
+  
+  After answered this question, you shoul able to get a better imagenation of your ideal graph. The simple guidance for using different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
+  
+  Let's review the most commonly used chart types and expalin what circumstance should better use typical chart and the pros and conts of each type of chart. Before introduce differnt types of charts, you can use the following website to familiar with different types of charts. 
+  [The Data Visualisation Catalogue](https://datavizcatalogue.com/) 
+  
+  ## Type 1 Column Charts. 
+  This should be the most popular chart type. This chart is good to do comparison between different values when specific values are important. TBD 
+
+  
+  Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is  http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+
+Reference:
+Data Visualization – How to Pick the Right Chart Type? , By Jānis Gulbis https://eazybi.com/blog/data_visualization_and_chart_types/
+
+Data Visualization Best Practices by melindasantos | Sep 19, 2017
+http://paristech.com/blog/data-visualization-best-practices/
+
+http://paristech.com/blog/data-visualization-best-practices/
+http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html

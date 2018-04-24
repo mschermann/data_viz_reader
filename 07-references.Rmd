@@ -1,3 +1,34 @@
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
+1. 3 Expert Data Visualization Tips for Grabbing Readers' Attention
+URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
+
+*Summary*: This article found on Medium explores three important aspects to focus on when creating a data visualization.  The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience.  Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they're looking at a data visual, which offers a unique and useful perspective.
+
+Here is an outline of each of the 3 aspects:
+1. Know what you really want to say.  We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.
+
+2. Design.  Visuals should be kept as simple as possible without leaving out key points.  This makes sense because then the audience can focus on what's really important.
+
+3. Labeling.  This section of the article shows a nice comparison of before and after removing labels from a chart, and the 'after' chart looks much cleaner and easier to interpret.
+
+I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.
+
+
+*Misleading Graph*
+As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.
+
+1. Omitting Baselines
+
+In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece. 
+
+ A example of using good data in a misleading graph to fool readers comes from Fox News. 
+ 
+ ![](1.png)
+
+Reference:
+How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
+https://venngage.com/blog/misleading-graphs/
+Misleading graph, wikipedia
+https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph
