@@ -20,8 +20,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
-Reference: https://flowingdata.com/2013/11/26/the-baseline/
-
+Here I use the same method for a new dataset to .
 ```{r}
 # Load the data.
 setwd("/Users/boxiao/Desktop")
@@ -34,7 +33,7 @@ data$Quarter <-NULL
 
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
-# Regular time series for gas price
+# Regular time series for sales
 par(cex.axis=0.7)
 data.ts <- ts(data$sales, start=c(2010, 1), frequency=4)
 plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
@@ -42,7 +41,7 @@ plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 
 2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
 ```{r}
- # Monthly change
+ # Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
 quaChange <- 100 * round( (curr-prev) / prev, 2 )
@@ -57,7 +56,7 @@ barCols <- sapply(quaChange,
 #monChange.ts <- ts(monChange, start=c(1976, 2), frequency=12)
 barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quaterly")
 ```
-There are some noise here.
+
 
 ```{r}
 # Year-over-year change
@@ -74,11 +73,11 @@ barCols <- sapply(annChange,
 	})
 barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annual")
 ```
-From this plot, it is very clear that the magnitude of drops in sales.
+From this plot, it is very clear that the magnitude of drops in sales for some quaters.
 
 3. The sales difference compare to now. **The baseline here is the current sales.**
 ```{r}
-# Relative to current 2013
+# Relative to current 2015
 curr <- as.numeric(data$sales[length(data$sales)])
 salesDiff <- as.numeric(data$sales) - curr
 barCols.diff <- sapply(salesDiff,
@@ -92,6 +91,42 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
+4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
+```{r}
+# Relative to first quater
+ori <- as.numeric(data$sales[1])
+salesDiff <- as.numeric(data$sales) - ori
+barCols.diff <- sapply(salesDiff,
+	function(x) {
+		if (x < 0) {
+			return("gray")
+		} else {
+			return("black")
+		}
+	}
+)
+barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from first quater 2010")
+```
+
+5. The difference between quater sales and mean. ** The baseline is mean now.**
+```{r}
+# difference from the mean
+mean <- mean(as.numeric(data$sales))
+salesDiff <- as.numeric(data$sales) - mean
+barCols.diff <- sapply(salesDiff,
+	function(x) {
+		if (x < 0) {
+			return("gray")
+		} else {
+			return("black")
+		}
+	}
+)
+barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from mean")
+```
+
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+
+Reference: https://flowingdata.com/2013/11/26/the-baseline/
 ####################################################################################
