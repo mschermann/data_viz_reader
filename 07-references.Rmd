@@ -24,3 +24,20 @@ URL:http://www.visualcapitalist.com/category/politics/
 This company/website creates visual contents in the field of business and marketing.
 
 
+
+*Misleading Graph*
+As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.
+
+1. Omitting Baselines
+
+In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece. 
+
+ A example of using good data in a misleading graph to fool readers comes from Fox News. 
+ 
+ ![](1.png)
+
+Reference:
+How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
+https://venngage.com/blog/misleading-graphs/
+Misleading graph, wikipedia
+https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph
