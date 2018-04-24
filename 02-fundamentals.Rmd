@@ -82,6 +82,90 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
           drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very
           important to remain keen on the main point of your story and how the entire visualization is either drawing the
           viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+          
+          
+ + Theoretical background of data visualization   
+    
+    **A Brief History of Data Visualization **
+    
+    **Reference**
+  
+      Michael Friendly,2006,A Brief History of Data Visualization,York University.http://www.datavis.ca/papers/hbook.pdf
+   
+    The only new thing in the world is the history you don’t know. — Harry S Truman
+    
+    This paper provides an overview of the intellectual history of data visualization from medieval to modern times,
+    describing and illustrating some significant advances along the way.
+    
+   1. Data Visualization: modern product?
+    
+       It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
+       In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
+       the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
+       medicine, and other fields.
+       
+       Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and  
+       recording, enabled the wider use of graphics and new advances in form and content.
+
+    2. Milestones Tour
+    
+       2.1 Pre-17th Century: Early maps and diagrams
+          
+          The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other
+          celestial bodies, and in the making of maps to aid in navigation and exploration. 
+       
+       2.2 1600-1699: Measurement and theory
+       
+          Among the most important problems of the 17th century were those concerned with physical measurement— of time,
+          distance,and space— for astronomy, surveying, map making, navigation and territorial expansion. This century also
+          saw great new growth in theory and the dawnof practical application.
+       
+       2.3 1700-1799: New graphic forms
+       
+          With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation
+          at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new
+          graphic forms. 
+          
+       2.4 1800-1850: Beginnings of modern graphics  
+       
+          With the fertilization provided by the previous innovations of design and technique, the first half of the 19th
+          century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be
+          equalled until modern times.
+       
+       2.5 1850–1900: The Golden Age of statistical graphics
+       
+          By the mid-1800s, all the conditions for the rapid growth of visualization had been established— a “perfect storm”
+          for data graphics. Official state statistical offices were established throughout Europe, in recognition of the
+          growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+          
+           2.5.1 Escaping flatland
+           2.5.2 Graphical innovations
+           2.5.3 Galton’s contributions
+           2.5.4 Statistical Atlases
+           
+       2.6 1900-1950: The modern dark ages
+       
+          If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be
+          called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the
+          enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification
+          and formal, often statistical, models in the social sciences.
+       
+       2.7 1950–1975: Re-birth of data visualization
+       
+          Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to
+          rise from dormancy in the mid 1960s. 
+          
+       2.8 1975–present: High-D, interactive and dynamic data visualization
+       
+          During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multi
+          disciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization
+          methods and data types are available for every desktop computer.
+   
+  
+ 
+ + Contemporary research results
+  + Contemporary research results
+reference---fundamentals--example-USDATA
        
   
   
@@ -100,7 +184,7 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
      
   3. Research Methods Training
   + Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on Designing Computer Science Experiments(http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
-=======
+
   + Contemporary research results
 
 Pick the Right Chart Type!
@@ -149,6 +233,7 @@ http://www.statisticshowto.com/misleading-graphs/
 
 + Theoretical background of data visualization
   
+
  
 
   **Definions of Date Deception and Graphic Integrity**
