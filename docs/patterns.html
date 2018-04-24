@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-12">
+<meta name="date" content="2018-04-23">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -105,15 +105,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
-<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a></li>
-<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a></li>
-<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
-<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#pattern-one"><i class="fa fa-check"></i><b>5.1</b> Pattern one</a></li>
-<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>5.2</b> Pattern two</a></li>
+<li class="chapter" data-level="3" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>3</b> Case Studies</a></li>
+<li class="chapter" data-level="4" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>4</b> Patterns</a><ul>
+<li class="chapter" data-level="4.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>4.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="4.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>4.2</b> Pattern two</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="5" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>5</b> Ethics</a></li>
+<li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="7" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>7</b> Fundamentals</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -135,17 +135,36 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
             <section class="normal" id="section-">
 <div id="patterns" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Patterns</h1>
+<h1><span class="header-section-number">Chapter 4</span> Patterns</h1>
 <ul>
 <li>Reusable solutions to everyday data visualization questions</li>
 <li>Applied by multiple members of the course</li>
 </ul>
-<div id="pattern-one" class="section level2">
-<h2><span class="header-section-number">5.1</span> Pattern one</h2>
+<div id="why-pie-chart-is-bad-a-comparison-with-bar-chart" class="section level2">
+<h2><span class="header-section-number">4.1</span> Why pie chart is bad: a comparison with bar chart</h2>
+<p>Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using pie chart to convey information and compare its effectiveness to bar chart <span class="citation">(Hickey <a href="#ref-hickey-pie-worst">2013</a>)</span> <span class="citation">(Henry <a href="#ref-henry-defense-pie">2017</a>)</span> <span class="citation">(Quach <a href="#ref-quach-penny">2016</a>)</span>.</p>
+<ol style="list-style-type: decimal">
+<li><p>Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.</p></li>
+<li><p>It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.</p></li>
+<li><p>Pie chart is easy to be manipulated (e.g. using a 3D pie chart).</p></li>
+<li><p>Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers!</p></li>
+</ol>
 </div>
 <div id="pattern-two" class="section level2">
-<h2><span class="header-section-number">5.2</span> Pattern two</h2>
+<h2><span class="header-section-number">4.2</span> Pattern two</h2>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-hickey-pie-worst">
+<p>Hickey, Walter. 2013. “The Worst Chart in the World.” Blog. <em>Business Insider</em>. <a href="http://www.businessinsider.com/pie-charts-are-the-worst-2013-6" class="uri">http://www.businessinsider.com/pie-charts-are-the-worst-2013-6</a>.</p>
+</div>
+<div id="ref-henry-defense-pie">
+<p>Henry, Kristin. 2017. “In Defense of Pie Charts, and Why You Shouldn’t Use Them.” Blog. <em>Medium</em>. <a href="https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76" class="uri">https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76</a>.</p>
+</div>
+<div id="ref-quach-penny">
+<p>Quach, Alex. 2016. “Why Pie Charts Often Suck: And How We Did Better.” Blog. <em>The Mission</em>. <a href="https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a" class="uri">https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a</a>.</p>
 </div>
 </div>
             </section>

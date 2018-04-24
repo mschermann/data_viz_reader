@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-12">
+<meta name="date" content="2018-04-23">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,7 +33,7 @@
   
   
 <link rel="prev" href="conclusion.html">
-
+<link rel="next" href="fundamentals.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -105,15 +105,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
-<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a></li>
-<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a></li>
-<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
-<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#pattern-one"><i class="fa fa-check"></i><b>5.1</b> Pattern one</a></li>
-<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>5.2</b> Pattern two</a></li>
+<li class="chapter" data-level="3" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>3</b> Case Studies</a></li>
+<li class="chapter" data-level="4" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>4</b> Patterns</a><ul>
+<li class="chapter" data-level="4.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>4.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="4.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>4.2</b> Pattern two</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="5" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>5</b> Ethics</a></li>
+<li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="7" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>7</b> Fundamentals</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -136,23 +136,48 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
+<ol style="list-style-type: decimal">
+<li>3 Expert Data Visualization Tips for Grabbing Readers’ Attention URL: <a href="https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf" class="uri">https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf</a></li>
+</ol>
+<p><em>Summary</em>: This article found on Medium explores three important aspects to focus on when creating a data visualization. The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience. Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they’re looking at a data visual, which offers a unique and useful perspective.</p>
+<p>Here is an outline of each of the 3 aspects: 1. Know what you really want to say. We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Design. Visuals should be kept as simple as possible without leaving out key points. This makes sense because then the audience can focus on what’s really important.</p></li>
+<li><p>Labeling. This section of the article shows a nice comparison of before and after removing labels from a chart, and the ‘after’ chart looks much cleaner and easier to interpret.</p></li>
+</ol>
+<p>I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Choose best colors for cartography visualization in a professional manner URL: <a href="http://colorbrewer.org" class="uri">http://colorbrewer.org</a></li>
+</ol>
+<p><em>Summary</em>: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.</p>
+<p>It will automatically recommend the color schemes in the following aspects:</p>
+<p>1: Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.</p>
+<p>2: Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.</p>
+<p>3: You can also change the settings to colorblind-friendly on this site.</p>
+<p>2.Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations. This website lists lots of tools to do different type of visualizations, check it out. URL:<a href="https://guides.library.harvard.edu/c.php?g=310952&amp;p=2073191" class="uri">https://guides.library.harvard.edu/c.php?g=310952&amp;p=2073191</a></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Visual Capitalist URL:<a href="http://www.visualcapitalist.com/category/politics/" class="uri">http://www.visualcapitalist.com/category/politics/</a> This company/website creates visual contents in the field of business and marketing.</li>
+</ol>
+<p><em>Misleading Graph</em> As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.</p>
+<ol style="list-style-type: decimal">
+<li>Omitting Baselines</li>
+</ol>
+<p>In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece.</p>
+<p>A example of using good data in a misleading graph to fool readers comes from Fox News.</p>
+<div class="figure">
+<img src="1.png" />
 
-<div id="refs" class="references">
-<div>
-<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
 </div>
-<div>
-<p>———. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
-</div>
-</div>
+<p>Reference: How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017 <a href="https://venngage.com/blog/misleading-graphs/" class="uri">https://venngage.com/blog/misleading-graphs/</a> Misleading graph, wikipedia <a href="https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph" class="uri">https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph</a></p>
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="conclusion.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="conclusion.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="fundamentals.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
