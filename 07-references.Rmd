@@ -15,6 +15,19 @@ Here is an outline of each of the 3 aspects:
 
 I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.
 
+2. Choose best colors for cartography visualization in a professional manner
+URL: http://colorbrewer.org
+
+*Summary*: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.
+
+It will automatically recommend the color schemes in the following aspects:
+
+1: Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.
+
+2: Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
+
+3: You can also change the settings to colorblind-friendly on this site.
+
 2.Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations.
 This website lists lots of tools to do different type of visualizations, check it out.
 URL:https://guides.library.harvard.edu/c.php?g=310952&p=2073191
