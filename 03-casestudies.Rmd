@@ -60,7 +60,7 @@ Misleading graphs are sometimes deliberately misleading and sometimes it’s jus
 
 For example, the Vertical scale is too big or too small, or skips numbers, or doesn’t start at zero, like the graph below:
 
-http://www.statisticshowto.com/wp-content/uploads/2014/01/misleading-graph-2.jpg
+![Figure1](http://www.statisticshowto.com/wp-content/uploads/2014/01/misleading-graph-2.jpg)
 
 You might be thinking that the graph on the right shows The Times makes double the sales of The Daily Telegraph. But take a closer look at the scale and you’ll see although The Times does make more sales, it’s only beating the competition by about 10%.
 
@@ -86,7 +86,7 @@ Only include part of the data like using temperatures of the first half of the y
 
 
 
-
+There are many 
 
 
 ```{r include=FALSE}
