@@ -1,19 +1,26 @@
 # Introduction {#intro}
 
-**#Data Visualization** 
-Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.
+**Data Visualization** 
+Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.Below is a link for different types of plots used in data visualization.
 
 Plot links:
 https://datavizcatalogue.com/search.html
 
+Infogram helps a user make different types of plots and learn the art of visualization. Below is the link: 
 https://infogram.com/page/data-visualization
 
+<!--
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).-->
+Some useful links are mentioned below:
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 https://eagereyes.org/
 https://research.tableau.com/user/robert-kosara
 https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
 http://flowingdata.com/
+
+**Why is data visualization important?**
+
+
 https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html
 
 The article , written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
@@ -35,9 +42,6 @@ This article is a brief introduction to Information Visualization. It explains b
 
 
 
-
-
-
 About David McCandless’s TED talk on data visualization: https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization
 
 Visuals help us understand concepts that would otherwise be difficult to contextualize—for example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes.  Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way.  Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details.  And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns.  
@@ -47,6 +51,9 @@ The billion dollar-o-gram is extremely readable and rather pretty, but it seems 
 Beyond its ability to make information from several different sources and in large amounts more quickly and easily understood, data visualization can also reveal smaller interesting patterns—allowing us to play the “data detective” as McCandless calls it.  In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool.    
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information.  This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder.  So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design.  
+
+
+Basic Guidelines:
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
