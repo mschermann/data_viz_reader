@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-23">
+<meta name="date" content="2018-04-24">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -108,7 +108,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>3</b> Case Studies</a></li>
 <li class="chapter" data-level="4" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>4</b> Patterns</a><ul>
 <li class="chapter" data-level="4.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>4.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
-<li class="chapter" data-level="4.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>4.2</b> Pattern two</a></li>
+<li class="chapter" data-level="4.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>4.2</b> Chose the right baseline in data visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>5</b> Ethics</a></li>
 <li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
@@ -150,8 +150,112 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><p>Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers!</p></li>
 </ol>
 </div>
-<div id="pattern-two" class="section level2">
-<h2><span class="header-section-number">4.2</span> Pattern two</h2>
+<div id="chose-the-right-baseline-in-data-visualization" class="section level2">
+<h2><span class="header-section-number">4.2</span> Chose the right baseline in data visualization</h2>
+<p>Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways.</p>
+<p>Here I use the same method for a new dataset to .</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Load the data.</span>
+<span class="kw">setwd</span>(<span class="st">&quot;/Users/boxiao/Desktop&quot;</span>)
+data&lt;-<span class="kw">read.csv</span>(<span class="st">&quot;galaxy_sales.csv&quot;</span>,<span class="dt">header =</span> <span class="ot">TRUE</span>)
+data &lt;-<span class="st"> </span><span class="kw">rbind</span>(data[<span class="dv">1</span><span class="op">:</span><span class="dv">19</span>,],<span class="kw">c</span>(<span class="st">&quot;Q4 &#39;14&quot;</span>,<span class="dv">80</span>),data[<span class="dv">20</span><span class="op">:</span><span class="dv">22</span>,],<span class="kw">c</span>(<span class="st">&quot;da&quot;</span>, <span class="dv">83</span>))</code></pre></div>
+<pre><code>## Warning in `[&lt;-.factor`(`*tmp*`, ri, value = &quot;Q4 &#39;14&quot;): invalid factor
+## level, NA generated
+
+## Warning in `[&lt;-.factor`(`*tmp*`, ri, value = &quot;Q4 &#39;14&quot;): invalid factor
+## level, NA generated</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">data<span class="op">$</span>year &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="kw">c</span>(<span class="dv">2010</span>,<span class="dv">2011</span>,<span class="dv">2012</span>,<span class="dv">2013</span>,<span class="dv">2014</span>,<span class="dv">2015</span>),<span class="dt">each =</span> <span class="dv">4</span>)
+data<span class="op">$</span>qua &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">24</span>)
+data<span class="op">$</span>Quarter &lt;-<span class="ot">NULL</span></code></pre></div>
+<ol style="list-style-type: decimal">
+<li>Regular quaterly sales. We can see sales decreased a lot around 2014. <strong>The baseline here is historical sales.</strong></li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Regular time series for sales</span>
+<span class="kw">par</span>(<span class="dt">cex.axis=</span><span class="fl">0.7</span>)
+data.ts &lt;-<span class="st"> </span><span class="kw">ts</span>(data<span class="op">$</span>sales, <span class="dt">start=</span><span class="kw">c</span>(<span class="dv">2010</span>, <span class="dv">1</span>), <span class="dt">frequency=</span><span class="dv">4</span>)
+<span class="kw">plot</span>(data.ts, <span class="dt">xlab=</span><span class="st">&quot;&quot;</span>, <span class="dt">ylab=</span><span class="st">&quot;&quot;</span>, <span class="dt">main=</span><span class="st">&quot;sales per quater&quot;</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">bty=</span><span class="st">&quot;n&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Quaterly and yearly change sales. <strong>The baseline here is zero and look at the percentage changes.</strong></li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"> <span class="co"># Quaterly change</span>
+curr &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="op">-</span><span class="dv">1</span>])
+prev &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="dv">1</span><span class="op">:</span>(<span class="kw">length</span>(data<span class="op">$</span>sales)<span class="op">-</span><span class="dv">1</span>)])
+quaChange &lt;-<span class="st"> </span><span class="dv">100</span> <span class="op">*</span><span class="st"> </span><span class="kw">round</span>( (curr<span class="op">-</span>prev) <span class="op">/</span><span class="st"> </span>prev, <span class="dv">2</span> )
+barCols &lt;-<span class="st"> </span><span class="kw">sapply</span>(quaChange, 
+    <span class="cf">function</span>(x) { 
+        <span class="cf">if</span> (x <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+            <span class="kw">return</span>(<span class="st">&quot;#2cbd25&quot;</span>)
+        } <span class="cf">else</span> {
+            <span class="kw">return</span>(<span class="st">&quot;gray&quot;</span>)
+        }
+    })
+<span class="co">#monChange.ts &lt;- ts(monChange, start=c(1976, 2), frequency=12)</span>
+<span class="kw">barplot</span>(quaChange, <span class="dt">border=</span><span class="ot">NA</span>, <span class="dt">space=</span><span class="dv">0</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">col=</span>barCols, <span class="dt">main=</span><span class="st">&quot;% change, quaterly&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Year-over-year change</span>
+curr &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="op">-</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">4</span>)])
+prev &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="dv">1</span><span class="op">:</span>(<span class="kw">length</span>(data<span class="op">$</span>sales)<span class="op">-</span><span class="dv">4</span>)])
+annChange &lt;-<span class="st"> </span><span class="dv">100</span> <span class="op">*</span><span class="st"> </span><span class="kw">round</span>( (curr<span class="op">-</span>prev) <span class="op">/</span><span class="st"> </span>prev, <span class="dv">2</span> )
+barCols &lt;-<span class="st"> </span><span class="kw">sapply</span>(annChange, 
+    <span class="cf">function</span>(x) { 
+        <span class="cf">if</span> (x <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+            <span class="kw">return</span>(<span class="st">&quot;#2cbd25&quot;</span>)
+        } <span class="cf">else</span> {
+            <span class="kw">return</span>(<span class="st">&quot;gray&quot;</span>)
+        }
+    })
+<span class="kw">barplot</span>(annChange, <span class="dt">border=</span><span class="ot">NA</span>, <span class="dt">space=</span><span class="dv">0</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">col=</span>barCols, <span class="dt">main=</span><span class="st">&quot;% change, annual&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-6-1.png" width="672" /> From this plot, it is very clear that the magnitude of drops in sales for some quaters.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>The sales difference compare to now. <strong>The baseline here is the current sales.</strong></li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Relative to current 2015</span>
+curr &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="kw">length</span>(data<span class="op">$</span>sales)])
+salesDiff &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales) <span class="op">-</span><span class="st"> </span>curr
+barCols.diff &lt;-<span class="st"> </span><span class="kw">sapply</span>(salesDiff,
+    <span class="cf">function</span>(x) {
+        <span class="cf">if</span> (x <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+            <span class="kw">return</span>(<span class="st">&quot;gray&quot;</span>)
+        } <span class="cf">else</span> {
+            <span class="kw">return</span>(<span class="st">&quot;black&quot;</span>)
+        }
+    }
+)
+<span class="kw">barplot</span>(salesDiff, <span class="dt">border=</span><span class="ot">NA</span>, <span class="dt">space=</span><span class="dv">0</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">col=</span>barCols.diff, <span class="dt">main=</span><span class="st">&quot;Sales difference from last quater 2015&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-7-1.png" width="672" /> 4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Relative to first quater</span>
+ori &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales[<span class="dv">1</span>])
+salesDiff &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales) <span class="op">-</span><span class="st"> </span>ori
+barCols.diff &lt;-<span class="st"> </span><span class="kw">sapply</span>(salesDiff,
+    <span class="cf">function</span>(x) {
+        <span class="cf">if</span> (x <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+            <span class="kw">return</span>(<span class="st">&quot;gray&quot;</span>)
+        } <span class="cf">else</span> {
+            <span class="kw">return</span>(<span class="st">&quot;black&quot;</span>)
+        }
+    }
+)
+<span class="kw">barplot</span>(salesDiff, <span class="dt">border=</span><span class="ot">NA</span>, <span class="dt">space=</span><span class="dv">0</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">col=</span>barCols.diff, <span class="dt">main=</span><span class="st">&quot;Sales difference from first quater 2010&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<ol start="5" style="list-style-type: decimal">
+<li>The difference between quater sales and mean. ** The baseline is mean now.**</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># difference from the mean</span>
+mean &lt;-<span class="st"> </span><span class="kw">mean</span>(<span class="kw">as.numeric</span>(data<span class="op">$</span>sales))
+salesDiff &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(data<span class="op">$</span>sales) <span class="op">-</span><span class="st"> </span>mean
+barCols.diff &lt;-<span class="st"> </span><span class="kw">sapply</span>(salesDiff,
+    <span class="cf">function</span>(x) {
+        <span class="cf">if</span> (x <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+            <span class="kw">return</span>(<span class="st">&quot;gray&quot;</span>)
+        } <span class="cf">else</span> {
+            <span class="kw">return</span>(<span class="st">&quot;black&quot;</span>)
+        }
+    }
+)
+<span class="kw">barplot</span>(salesDiff, <span class="dt">border=</span><span class="ot">NA</span>, <span class="dt">space=</span><span class="dv">0</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">col=</span>barCols.diff, <span class="dt">main=</span><span class="st">&quot;Sales difference from mean&quot;</span>)</code></pre></div>
+<p><img src="Data_Viz_Reader_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.</p>
+<p>Reference: <a href="https://flowingdata.com/2013/11/26/the-baseline/" class="uri">https://flowingdata.com/2013/11/26/the-baseline/</a></p>
 
 </div>
 </div>
