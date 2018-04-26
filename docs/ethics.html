@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-24">
+<meta name="date" content="2018-04-26">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -103,17 +103,23 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="./">A Reader on Data Visualization</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
-<li class="chapter" data-level="3" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>3</b> Case Studies</a></li>
-<li class="chapter" data-level="4" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>4</b> Patterns</a><ul>
-<li class="chapter" data-level="4.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>4.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
-<li class="chapter" data-level="4.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>4.2</b> Chose the right baseline in data visualization</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>5</b> Ethics</a></li>
-<li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="chapter" data-level="7" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>7</b> Fundamentals</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a></li>
+<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#deceptive-data-graphs-examples"><i class="fa fa-check"></i><b>4.1</b> Deceptive data graphs examples</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>5.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Chose the right baseline in data visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="8" data-path="fundamentals-1.html"><a href="fundamentals-1.html"><i class="fa fa-check"></i><b>8</b> Fundamentals</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -135,7 +141,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
             <section class="normal" id="section-">
 <div id="ethics" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Ethics</h1>
+<h1><span class="header-section-number">Chapter 6</span> Ethics</h1>
 <ul>
 <li>Implications of (good and bad) data visualization
 <ul>
@@ -152,6 +158,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p><strong>Misrepresentation through Data Visualization</strong> - (Reference: <a href="https://venngage.com/blog/misleading-graphs/" class="uri">https://venngage.com/blog/misleading-graphs/</a>)</p>
 <p>While the ideal purpose of data visualization is to improve others’ understanding of the data presented, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and going against graphing convention.</p>
 <p>Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader’s associations of colors and temperature to create a graph where hot is blue and cold is red.</p>
+<p><strong>A basis for why we should pursue ethical data visualization</strong> Reference: Cairo, Alberto. “Ethical Infographics: In data visualization, journalism meets engineering.” The IRE Journal, Spring 2014. <a href="https://www.scribd.com/document/230474170/Ethical-Info-Graphics-In-data-visualization-journalism-meets-engineering" class="uri">https://www.scribd.com/document/230474170/Ethical-Info-Graphics-In-data-visualization-journalism-meets-engineering</a> Cairo, Alberto. The Functional Art weblog. 19 June 2016. <a href="http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html" class="uri">http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html</a></p>
+<p>Alberto Cairo addresses into the ethical ‘why’ of data visualization in this article, while still grounding the discussion in straightforward analysis of what to do and what not to do. He emphasizes that the effectiveness of the communicative display is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.</p>
+<p>Cairo sees data visualization as a harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and honesty and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is clearly and concisely conveyed. Cairo describes himself as a “rule utilitarian” and uses this to explain why it is ethical or, in his words, “morally right,” to create graphics in this way. Here, it very useful to review his blogpost introducing the article.</p>
+<p>Essentially, the goal is to create the most good while doing the least harm. As such, conveying truthful and honest relevant information increases a persons understanding. Increased understanding and knowledge positively correlates with personal well-being.</p>
+<p>So, the information presented must be accurate and relevant. Cairo briefly addresses guidelines for this which are applicable in all information gathering fields: beware of selection bias when choosing preexisting datasets, validate the data, and include important context. False or irrelevant information doesn’t improve anyone’s decision-making capacity, so it cannot enhance well-being.</p>
+<p>Even if the information is both accurate and relevant, moral engineering pitfalls may remain. To avoid the unethical trap of inscrutable (or misleading) graphics, Cairo exhorts us to take an evidenced based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity.</p>
+<p>Again, since the ethical purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it actually creates misunderstanding for the audience. While it can be a bit jarring to think of an poorly designed graphic as “morally wrong”, it is important to think of the unintended consequences of visuals which have a powerful impact on their viewers.</p>
 
 </div>
             </section>
@@ -201,19 +214,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

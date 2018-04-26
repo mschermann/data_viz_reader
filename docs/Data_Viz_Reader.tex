@@ -124,7 +124,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-04-24}
+  \date{2018-04-26}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -156,28 +156,81 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter{Prerequisites}\label{prerequisites}
+\chapter{Preface}\label{preface}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use
-anything that Pandoc's Markdown supports, e.g., a math equation
-\(a^2 + b^2 = c^2\).
+This is a collaborative writing project as part of the course MSIS 2629
+``Data Visualization'' at \href{http://www.scu.edu}{Santa Clara
+University}. The purpose of the class reader is to collaboratively
+engage with and reflect on data visualizations, to establish a solid
+theoretical background, and to collect useful practices and showcases.
+More information on the background of this project is available in the
+\href{https://mschermann.github.io/msis2629spring2018}{syllabus}.
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
+The following text serves explains how we organize ourselves.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+\section{References}\label{references}
 
-Remember each Rmd file contains one and only one chapter, and a chapter
-is defined by the first-level heading \texttt{\#}.
+\textbf{EVERY} references must be included in the \texttt{book.bib}
+file. This file uses the bibtex notation (Learn how to use bibtex
+\href{http://www.bibtex.org/Using/}{here}.). Most literature search
+engines allow you to export the reference information in Bibtex. For
+websites we use the following minimal notation (you may add further
+information - usually the more the better is a good strategy):
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to
-install TinyTeX (which includes XeLaTeX):
-\url{https://yihui.name/tinytex/}.
+\begin{verbatim}
+@misc{great_viz,
+  author = {{A great visualizer}},
+  year = {1982},
+  title = {A ficticious web page title},
+  howpublished = {\url{http://great_viz_org/}},
+  note = {Accessed: 2018-04-26}
+}
+\end{verbatim}
+
+Particularly important is the \texttt{note} field. Websites change
+frequently, so links will break. If we do this correctly,
+\texttt{{[}@great\_viz{]}} will produce \citep{great_viz}.
+
+\section{Images}\label{images}
+
+Images should not be loaded from external website because the links may
+change. Instead download a version of the image and create a reference
+that contains the link to the image. For example the following image is
+a deceptive visualization (the bars do start at zero).
+
+\begin{figure}
+\centering
+\includegraphics{images/halper_welfare.jpg}
+\caption{An Example of a deceptive visualization}
+\end{figure}
+
+Source: \citep{halper_2012} referenced in \citep{andale_2014}
+
+The citation for the image looks like this.
+
+\begin{verbatim}
+@misc{halper_2012,
+  author={Halper, Daniel},
+  year={2012},
+  title = {Over 100 Million Now Receiving Federal Welfare},
+  url={https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare},
+  note = {Accessed: 2018-04-26}
+}
+\end{verbatim}
+
+You have probably found this image through a different website that
+explains the visualization. For example the following website explains
+some problematic aspects of this visualization:
+
+\begin{verbatim}
+@misc{andale_2014,
+  author={Andalde, Stephanie},
+  year={2014},
+  title = {Misleading Graphs: Real Life Examples},
+  url={http://www.statisticshowto.com/misleading-graphs/},
+  note = {Accessed: 2018-04-26}
+}
+\end{verbatim}
 
 \chapter{Introduction}\label{intro}
 
@@ -344,18 +397,54 @@ You can write citations, too. For example, we are using the
 \textbf{bookdown} package \citep{R-bookdown} in this sample book, which
 was built on top of R Markdown and \textbf{knitr} \citep{xie2015}.
 
-Besides of tableau, there are also several other software can use for
-data visualization. like Sisense, Plotly, FusionCharts, Highcharts,
-Datawrapper, Qlikview. This article is from forbes and have a briefly
-clear introduction about those 7 powerful software for data
-visualization. I think this could be helpful for me because for
-different purpose, I may need to create different graphs. There are
-several disadvantages of using tableau, a little explore of other 6
-softwares may help me in the future if I'm seeking for substitutes of
-tableau.
+\chapter{Fundamentals}\label{fundamentals}
+
+Due to the rise of big data analytics, there has been an increased need
+for data visualization tools to help understand the data. Besides
+Tableau, there are several other software tools one can use for data
+visualization like Sisense, Plotly, FusionCharts, Highcharts,
+Datawrapper, and Qlikview. This article is from forbes and has a brief,
+clear introduction about these 7 powerful software options for data
+visualization. This could be helpful for future reference because for
+different purposes I may need to use different tools. Each option has
+its advantages and disadvantages and this article helps highlight them.
+
+Tableau is the most popular of the group and has many users. It is
+simple to use, making it easy to learn and can handle large datasets.
+Tableau can handle big data thanks to integration with database handling
+applications such as MySQL, Hadoop, and Amazon AWS.
+
+Qlikview is the main competitor to Tableau and is also quite popular.
+Qlikview is customizable and has a wide range of features which can be a
+double-edged sword. These features take more time to learn and get
+acquianted with. However, once one gets past the learning curve, they
+have a powerful tool at their disposal.
+
+The distinctive aspect of FusionCharts is that graphics do not have to
+be created from scratch. Users can start with a template and insert
+their own data from their project.
+
+Highcharts proudly claims to be used by 72\% of the 100 biggest
+companies in the world. It is a simple tool that does not require
+specialized training and quickly generates the desired output. Unlike
+some tools, Highcharts focuses on cross-browser support, allowing for
+greater access and use.
+
+Datawrapper is making a name for itself in the media industry. It has a
+simple user interface making it easy to generate charts and embed into
+reports.
+
+Plotly can create more sophisticated visuals thanks to integration with
+programming languages such as Python and R. The danger is creating
+something more complicated than necessary. The whole point of data
+visualization is to quickly and clearly convey information.
+
+Sisense can bring together multiple sources of data for easier access.
+It can even work with large datasets. Sisense makes it easy to share
+finished products across departments, ensuring everyone can get the
+information they need.
 
 \url{https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/\#3a12b8ea6c30}
-\# Fundamentals
 
 \begin{itemize}
 \tightlist
@@ -624,7 +713,7 @@ all the 3 types of analytics: descriptive, predictive and prescriptive.
   references:
   \url{https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349}
 
-  With the~development, studies and new tools~applied in data
+  With the development, studies and new tools applied in data
   visualization, more people understand it matters. But given its youth
   and interdisciplinary nature, research methods and training in the
   field of data visualization are still developing. So, we asked
@@ -638,7 +727,7 @@ all the 3 types of analytics: descriptive, predictive and prescriptive.
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Adapting the Publication and Review~Process
+  Adapting the Publication and Review Process
 \end{enumerate}
 
 \begin{itemize}
@@ -671,7 +760,7 @@ all the 3 types of analytics: descriptive, predictive and prescriptive.
 \setcounter{enumi}{2}
 \tightlist
 \item
-  Research Methods~Training
+  Research Methods Training
 \end{enumerate}
 
 \begin{itemize}
@@ -826,7 +915,211 @@ integrity. Here are the principles from book:
 \tightlist
 \item
   Description and replication of great examples of data visualization
+  \#\#\# Description and replication of great examples of data
+  visualization
 \end{itemize}
+
+reference:\url{http://blog.visme.co/best-information-graphics-2016/\#e030mFiF7wCpk7Ld.99}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Connecting the Dots Behind the Election
+\end{enumerate}
+
+\url{https://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html?_r=1}
+
+This article by the New York Times lists several different candidates
+and creates compelling visuals that link their campaigns to previous
+ones.
+
+Each visual contains several different-sized dots that represent a
+specific campaign, administration, or other governmental organization
+related to the candidate's current campaign, which are then connected by
+arrows.
+
+Hovering over a specific dot highlights the connections between the
+groups. The visual is a great way to put what would otherwise be a long
+slog through years of information into an easily accessible, easily
+viewable format so that voters can figure out where the candidates'
+experiences lie.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Spies in the Skies
+\end{enumerate}
+
+\url{https://www.buzzfeed.com/peteraldhous/spies-in-the-skies?utm_term}=.so1GQ6ZGDo\#.ec8kL3WkZe
+
+The map is filled with red and blue lines (representing FBI and DHS
+aircraft, respectively) which illustrate the flight paths of the planes.
+When planes circle an area more than once, the circles become darker.
+The circles change in accordance to day and time, and individual cities
+can be typed into a search bar to see the flight patterns over them.
+
+The visualization, rather creatively, almost looks like a hand-drawn
+map. While presenting a normally uncomfortable topic, this allows
+individuals to check things for themselves, hopefully providing some
+peace of mind.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Green Honey
+\end{enumerate}
+
+\url{http://muyueh.com/greenhoney/?es_p=1228877}
+
+The visualization spans a webpage. As you scroll down, the text changes,
+as do many colored dots that move over the white background. The dots
+are used to represent not only each colors' hue, but the numbers that
+fall into each category---for example, what colors are the most popular
+``base'' colors for English and Chinese.
+
+The continuous flow of this visualization helps really bring it
+together, allowing users to scroll through the information at their own
+pace, but also creating a seamless, creative work.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  How People Like You Spend Their Time
+\end{enumerate}
+
+\url{http://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time/}
+
+The visual lists several categories along one side of a graph---such as
+``personal care'' and ``work''---with a line illustrating the amount of
+time the average person in a certain demographic spends on each subject.
+Entering different statistics at the top---such as changing gender or
+age---causes the lines to shift to feature that demographic.
+
+The simplicity of this visualization really helps the information get
+across and avoids bogging down the statistics. Sometimes, less is more.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Is it Better to Rent or Buy?
+\end{enumerate}
+
+\url{https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0}
+
+The calculator includes several sloping charts. Each chart includes a
+factor that'll affect how much you'll have to pay, such as the
+individual cost of your home and your mortgage rates. A movable scale
+along the bottom of each chart allows you to enter different data,
+changing the ``cost of rent per month'' on the side. If you can find a
+similar house to rent for that much per month or less, it's more cost
+effective to just rent the home.
+
+This visualization is incredibly thorough and a useful tool for
+homeowners of any age and status.
+
+\section{Deceptive data graphs
+examples}\label{deceptive-data-graphs-examples}
+
+references: **Misleading Graphs: Real Life Examples
+\url{http://www.statisticshowto.com/misleading-graphs/**}
+
+Misleading graphs are sometimes deliberately misleading and sometimes
+it's just a case of people not understanding the data behind the graph
+they create. But some real life misleading graphs go above and beyond
+the classic types. Some are intended to mislead, others are intended to
+shock. The ``classic'' types of misleading graphs include cases where:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{The Missing Baseline.}
+\end{itemize}
+
+For example, the Vertical scale is too big or too small, or skips
+numbers, or doesn't start at zero, like the graph below:
+
+You might be thinking that the graph on the right shows The Times makes
+double the sales of The Daily Telegraph. But take a closer look at the
+scale and you'll see although The Times does make more sales, it's only
+beating the competition by about 10\%.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{The graph isn't labeled properly.}
+\end{itemize}
+
+Graghs can have the correct figures, but still can mislead you.
+
+This one used a BIG HEADLINE makes you think that 5.3\% of children get
+spinal cord injuries which is a pretty scary statistic for parents. But
+the real figure is about .0000003\% (based on 2000 injuries per year out
+of a population of around 74,000,000).
+
+And for the figure 1 used in this article: Misleading Graphs: Displaying
+a Change in One Variable Using Area or Volume
+\url{https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/\#696674551781},
+the label for the smaller triangle in this graph says \$26.4 while the
+label for the larger triangle says \$114.6. \$114.6 is 4.34 times
+\$26.4. It certainly looks to me as if more than 4.34 smaller triangles
+will fit in the larger triangle. It is the altitudes of the triangles
+that are proportional to the numbers in the labels.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Data is left out.}
+\end{itemize}
+
+Only include part of the data like the following graph which using
+temperatures of the first half of the year to prove it was rising
+dramatically.
+
+For more examples of misleading graphs or deceptive graphs you can read
+the following articles for more inspirations:
+
+\begin{itemize}
+\tightlist
+\item
+  bar charts without zero \& evenly spaced tick marks for uneven
+  intervals:
+  \url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/\#502ab1a42a33}
+\item
+  graphs not drawn to scale:
+  \url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/\#351dcf9c15ef}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  What's really warming the world?
+\end{enumerate}
+
+\url{https://www.bloomberg.com/graphics/2015-whats-warming-the-world/}
+
+In this case study, it first claimed the background story and the
+analytical questions clearly. Then it analyzed each different factors
+separately using both verbal explanations and dynamic graphics to
+compare with the observed temperature movements, and then grouped
+related factors into Natural factors category or Human factors category.
+After that, it combined all the dynamic graphics into one and made the
+results more straightforward in terms of comparisons. In the end, the
+authors also provided more detailed methodology explanations with
+dataset sources to support the results shown above.
+
+Overall, this case study is straightforward, easy to understand but also
+with enough information shown on each graphics.
 
 \chapter{Patterns}\label{patterns}
 
@@ -877,22 +1170,9 @@ Here I use the same method for a new dataset to .
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{# Load the data.}
-\KeywordTok{setwd}\NormalTok{(}\StringTok{"/Users/boxiao/Desktop"}\NormalTok{)}
+\CommentTok{#setwd("/Users/boxiao/Desktop")}
 \NormalTok{data<-}\KeywordTok{read.csv}\NormalTok{(}\StringTok{"galaxy_sales.csv"}\NormalTok{,}\DataTypeTok{header =} \OtherTok{TRUE}\NormalTok{)}
 \NormalTok{data <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(data[}\DecValTok{1}\OperatorTok{:}\DecValTok{19}\NormalTok{,],}\KeywordTok{c}\NormalTok{(}\StringTok{"Q4 '14"}\NormalTok{,}\DecValTok{80}\NormalTok{),data[}\DecValTok{20}\OperatorTok{:}\DecValTok{22}\NormalTok{,],}\KeywordTok{c}\NormalTok{(}\StringTok{"da"}\NormalTok{, }\DecValTok{83}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Warning in `[<-.factor`(`*tmp*`, ri, value = "Q4 '14"): invalid factor
-## level, NA generated
-
-## Warning in `[<-.factor`(`*tmp*`, ri, value = "Q4 '14"): invalid factor
-## level, NA generated
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \NormalTok{data}\OperatorTok{$}\NormalTok{year <-}\StringTok{ }\KeywordTok{rep}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\DecValTok{2010}\NormalTok{,}\DecValTok{2011}\NormalTok{,}\DecValTok{2012}\NormalTok{,}\DecValTok{2013}\NormalTok{,}\DecValTok{2014}\NormalTok{,}\DecValTok{2015}\NormalTok{),}\DataTypeTok{each =} \DecValTok{4}\NormalTok{)}
 \NormalTok{data}\OperatorTok{$}\NormalTok{qua <-}\StringTok{ }\KeywordTok{seq}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\DecValTok{24}\NormalTok{)}
 \NormalTok{data}\OperatorTok{$}\NormalTok{Quarter <-}\OtherTok{NULL}
@@ -915,8 +1195,6 @@ Here I use the same method for a new dataset to .
 \KeywordTok{plot}\NormalTok{(data.ts, }\DataTypeTok{xlab=}\StringTok{""}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{""}\NormalTok{, }\DataTypeTok{main=}\StringTok{"sales per quater"}\NormalTok{, }\DataTypeTok{las=}\DecValTok{1}\NormalTok{, }\DataTypeTok{bty=}\StringTok{"n"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
-
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-4-1.pdf}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -946,8 +1224,6 @@ Here I use the same method for a new dataset to .
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-5-1.pdf}
-
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{# Year-over-year change}
@@ -966,7 +1242,6 @@ Here I use the same method for a new dataset to .
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-6-1.pdf}
 From this plot, it is very clear that the magnitude of drops in sales
 for some quaters.
 
@@ -997,9 +1272,14 @@ for some quaters.
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-7-1.pdf}
-4. Sales difference compared to the first quater. ** The baseline here
-is the first quater sales.**
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Sales difference compared to the first quater. ** The baseline here is
+  the first quater sales.**
+\end{enumerate}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1018,8 +1298,6 @@ is the first quater sales.**
 \KeywordTok{barplot}\NormalTok{(salesDiff, }\DataTypeTok{border=}\OtherTok{NA}\NormalTok{, }\DataTypeTok{space=}\DecValTok{0}\NormalTok{, }\DataTypeTok{las=}\DecValTok{1}\NormalTok{, }\DataTypeTok{col=}\NormalTok{barCols.diff, }\DataTypeTok{main=}\StringTok{"Sales difference from first quater 2010"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
-
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-8-1.pdf}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1047,8 +1325,6 @@ is the first quater sales.**
 \KeywordTok{barplot}\NormalTok{(salesDiff, }\DataTypeTok{border=}\OtherTok{NA}\NormalTok{, }\DataTypeTok{space=}\DecValTok{0}\NormalTok{, }\DataTypeTok{las=}\DecValTok{1}\NormalTok{, }\DataTypeTok{col=}\NormalTok{barCols.diff, }\DataTypeTok{main=}\StringTok{"Sales difference from mean"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
-
-\includegraphics{Data_Viz_Reader_files/figure-latex/unnamed-chunk-9-1.pdf}
 
 So before we start to plot, we should decide the baseline we want to
 use. Different baseline will lead to totally different graphs.
@@ -1127,11 +1403,61 @@ conveying the opposite message, for example, by using the reader's
 associations of colors and temperature to create a graph where hot is
 blue and cold is red.
 
+\textbf{A basis for why we should pursue ethical data visualization}
+Reference: Cairo, Alberto. ``Ethical Infographics: In data
+visualization, journalism meets engineering.'' The IRE Journal, Spring
+2014.
+\url{https://www.scribd.com/document/230474170/Ethical-Info-Graphics-In-data-visualization-journalism-meets-engineering}
+Cairo, Alberto. The Functional Art weblog. 19 June 2016.
+\url{http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html}
+
+Alberto Cairo addresses into the ethical `why' of data visualization in
+this article, while still grounding the discussion in straightforward
+analysis of what to do and what not to do. He emphasizes that the
+effectiveness of the communicative display is as important as the
+information itself. This makes intuitive sense because useful
+information is rendered utterly useless if no one can understand it.
+
+Cairo sees data visualization as a harmonization of journalism and
+engineering. From these two disciplines, he takes the journalist ethos
+of truth-telling and honesty and combines this with an engineering focus
+on efficacy and efficiency. The result is a data visualization that
+contains accurate and relevant information which is clearly and
+concisely conveyed. Cairo describes himself as a ``rule utilitarian''
+and uses this to explain why it is ethical or, in his words, ``morally
+right,'' to create graphics in this way. Here, it very useful to review
+his blogpost introducing the article.
+
+Essentially, the goal is to create the most good while doing the least
+harm. As such, conveying truthful and honest relevant information
+increases a persons understanding. Increased understanding and knowledge
+positively correlates with personal well-being.
+
+So, the information presented must be accurate and relevant. Cairo
+briefly addresses guidelines for this which are applicable in all
+information gathering fields: beware of selection bias when choosing
+preexisting datasets, validate the data, and include important context.
+False or irrelevant information doesn't improve anyone's decision-making
+capacity, so it cannot enhance well-being.
+
+Even if the information is both accurate and relevant, moral engineering
+pitfalls may remain. To avoid the unethical trap of inscrutable (or
+misleading) graphics, Cairo exhorts us to take an evidenced based
+approach when possible. The purpose of the graphic dictates the form it
+takes; aesthetic preferences should never override clarity.
+
+Again, since the ethical purpose is to improve well-being through
+understanding, a graphic which is confusing or misleading is unethical,
+regardless of intent, since it actually creates misunderstanding for the
+audience. While it can be a bit jarring to think of an poorly designed
+graphic as ``morally wrong'', it is important to think of the unintended
+consequences of visuals which have a powerful impact on their viewers.
+
 \chapter{Conclusion}\label{conclusion}
 
 Reflection, Key Learnings, Outlook
 
-\chapter*{References}\label{references}
+\chapter*{References}\label{references-1}
 \addcontentsline{toc}{chapter}{References}
 
 \textbf{1. 3 Expert Data Visualization Tips for Grabbing Readers'
@@ -1258,7 +1584,7 @@ MCCREADY, AUG 10, 2017
 wikipedia
 \url{https://en.wikipedia.org/wiki/Misleading_graph\#Truncated_graph}
 
-\chapter{Fundamentals}\label{fundamentals}
+\chapter{Fundamentals}\label{fundamentals-1}
 
 History Data visualization has comes a long way. Prior to the 17th
 century, data visualization already exists. Though display in other

@@ -60,7 +60,7 @@ Misleading graphs are sometimes deliberately misleading and sometimes it’s jus
 
 For example, the Vertical scale is too big or too small, or skips numbers, or doesn’t start at zero, like the graph below:
 
-![](http://www.statisticshowto.com/wp-content/uploads/2014/01/misleading-graph-2.jpg)
+<!-- ![Graph](http://www.statisticshowto.com/wp-content/uploads/2014/01/misleading-graph-2.jpg) -->
 
 You might be thinking that the graph on the right shows The Times makes double the sales of The Daily Telegraph. But take a closer look at the scale and you’ll see although The Times does make more sales, it’s only beating the competition by about 10%.
 
@@ -69,7 +69,7 @@ You might be thinking that the graph on the right shows The Times makes double t
 
 Graghs can have the correct figures, but still can mislead you. 
 
-![](http://www.statisticshowto.com/wp-content/uploads/2014/01/usa-today-1.png)
+<!-- [](http://www.statisticshowto.com/wp-content/uploads/2014/01/usa-today-1.png) -->
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
@@ -80,7 +80,7 @@ And for the figure 1 used in this article: Misleading Graphs: Displaying a Chang
 
 Only include part of the data like the following graph which using temperatures of the first half of the year to prove it was rising dramatically.
 
-![](http://www.statisticshowto.com/wp-content/uploads/2014/01/new-haven-ct-300x145.jpg)
+<!--[](http://www.statisticshowto.com/wp-content/uploads/2014/01/new-haven-ct-300x145.jpg) -->
 
 For more examples of misleading graphs or deceptive graphs you can read the following articles for more inspirations:
 
@@ -102,13 +102,3 @@ Overall, this case study is straightforward, easy to understand but also with en
 
 
 
-
-
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
