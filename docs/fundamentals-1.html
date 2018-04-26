@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="references-1.html">
 
-<link rel="next" href="intro.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -140,65 +140,36 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">A Reader on Data Visualization</h1>
-<h4 class="author"><em>MSIS 2629 Spring 2018</em></h4>
-<h4 class="date"><em>2018-04-26</em></h4>
-</div>
-<div id="preface" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Preface</h1>
-<p>This is a collaborative writing project as part of the course MSIS 2629 “Data Visualization” at <a href="http://www.scu.edu">Santa Clara University</a>. The purpose of the class reader is to collaboratively engage with and reflect on data visualizations, to establish a solid theoretical background, and to collect useful practices and showcases. More information on the background of this project is available in the <a href="https://mschermann.github.io/msis2629spring2018">syllabus</a>.</p>
-<p>The following text serves explains how we organize ourselves.</p>
-<div id="references" class="section level2">
-<h2><span class="header-section-number">1.1</span> References</h2>
-<p><strong>EVERY</strong> references must be included in the <code>book.bib</code> file. This file uses the bibtex notation (Learn how to use bibtex <a href="http://www.bibtex.org/Using/">here</a>.). Most literature search engines allow you to export the reference information in Bibtex. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):</p>
-<pre><code>@misc{great_viz,
-  author = {{A great visualizer}},
-  year = {1982},
-  title = {A ficticious web page title},
-  howpublished = {\url{http://great_viz_org/}},
-  note = {Accessed: 2018-04-26}
-}
-</code></pre>
-<p>Particularly important is the <code>note</code> field. Websites change frequently, so links will break. If we do this correctly, <code>[@great_viz]</code> will produce <span class="citation">(A great visualizer <a href="#ref-great_viz">1982</a>)</span>.</p>
-</div>
-<div id="images" class="section level2">
-<h2><span class="header-section-number">1.2</span> Images</h2>
-<p>Images should not be loaded from external website because the links may change. Instead download a version of the image and create a reference that contains the link to the image. For example the following image is a deceptive visualization (the bars do start at zero).</p>
-<div class="figure">
-<img src="images/halper_welfare.jpg" alt="An Example of a deceptive visualization" />
-<p class="caption">An Example of a deceptive visualization</p>
-</div>
-<p>Source: <span class="citation">(Halper <a href="#ref-halper_2012">2012</a>)</span> referenced in <span class="citation">(Andalde <a href="#ref-andale_2014">2014</a>)</span></p>
-<p>The citation for the image looks like this.</p>
-<pre><code>@misc{halper_2012,
-  author={Halper, Daniel},
-  year={2012},
-  title = {Over 100 Million Now Receiving Federal Welfare},
-  url={https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare},
-  note = {Accessed: 2018-04-26}
-}</code></pre>
-<p>You have probably found this image through a different website that explains the visualization. For example the following website explains some problematic aspects of this visualization:</p>
-<pre><code>@misc{andale_2014,
-  author={Andalde, Stephanie},
-  year={2014},
-  title = {Misleading Graphs: Real Life Examples},
-  url={http://www.statisticshowto.com/misleading-graphs/},
-  note = {Accessed: 2018-04-26}
-}</code></pre>
+<div id="fundamentals-1" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Fundamentals</h1>
+<p>History Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today’s visualization, which mostly presented geologic, economic, and medical data. Here is useful link: <a href="http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx" class="uri">http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx</a></p>
+<p>Current research: Deceptive visualizations Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. More people than ever before are making their own charts and infographics, which is presenting a unique problem. Despite the availability of some great charting resources, we are witnessing an influx of poorly-designed misleading or downright deceptive data visualizations. Here are useful links: <a href="https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239" class="uri">https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239</a> <a href="https://www.datapine.com/blog/misleading-data-visualization-examples/" class="uri">https://www.datapine.com/blog/misleading-data-visualization-examples/</a></p>
 
-</div>
-</div>
-<h3>References</h3>
 <div id="refs" class="references">
-<div id="ref-great_viz">
+<div>
 <p>A great visualizer. 1982. “A Ficticious Web Page Title.” <a href="http://great_viz_org/" class="uri">http://great_viz_org/</a>.</p>
 </div>
-<div id="ref-halper_2012">
+<div>
+<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+</div>
+<div>
 <p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare" class="uri">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
 </div>
-<div id="ref-andale_2014">
-<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+<div>
+<p>Henry, Kristin. 2017. “In Defense of Pie Charts, and Why You Shouldn’t Use Them.” Blog. <em>Medium</em>. <a href="https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76" class="uri">https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76</a>.</p>
+</div>
+<div>
+<p>Hickey, Walter. 2013. “The Worst Chart in the World.” Blog. <em>Business Insider</em>. <a href="http://www.businessinsider.com/pie-charts-are-the-worst-2013-6" class="uri">http://www.businessinsider.com/pie-charts-are-the-worst-2013-6</a>.</p>
+</div>
+<div>
+<p>Quach, Alex. 2016. “Why Pie Charts Often Suck: And How We Did Better.” Blog. <em>The Mission</em>. <a href="https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a" class="uri">https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a</a>.</p>
+</div>
+<div>
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+</div>
+<div>
+<p>———. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
+</div>
 </div>
 </div>
             </section>
@@ -206,8 +177,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
+<a href="references-1.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -237,7 +208,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/Fundamental.Rmd",
 "text": "Edit"
 },
 "download": ["Data Viz Reader.pdf", "Data Viz Reader.epub"],
