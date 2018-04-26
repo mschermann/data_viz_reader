@@ -59,7 +59,15 @@ Another trick of misleading graph is axis change: Changing thy y-axis maximum af
 ![](Line_graph1.svg.png)
 ![](175px-Line_graph1-3.svg)
 ![](200px-Line_graph1-4.svg)
+
 Axis manipulation is the opposite of truncating data, because they include the axis and baselines but change them so much that they lose meaning. This type of graph manipulation can be used to push a false narrative.
+
+3.Cherry Picking Data
+This is to pick the data that shows a typical viewpoint. For example, we know house price in Bay area kept increasing since 2011. However, for those house agencies who want convince buyers that house prices has decreased , they might select some areas in typical months that house prices happend to decreased.  
+
+It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
+![](Good_graph_extraction.png)
+![](Bad_graph_extraction.png)
 
 
 Reference:
@@ -67,3 +75,6 @@ How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 20
 https://venngage.com/blog/misleading-graphs/
 Misleading graph, wikipedia
 https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph
+Data Analysis: Displaying Data - Deception with Graphs
+https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf
+
