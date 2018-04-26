@@ -54,9 +54,13 @@ Figures and tables with captions will be placed in `figure` and `table` environm
 **Key Figures in the History of Data Visualization**
 
 **Reference**
-Infogram.Jun 14, 2016.https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c
+
+Infogram,Jun 14,2016.Key Figures in the History of Data Visualization,Medium.
+https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. 
+
+![](https://github.com/lpyuan/AddPics/blob/master/1.png)
 
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
