@@ -64,5 +64,18 @@ While style is one form of customization, layering unique data sets on a single 
 
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do. 
 
-References: https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design 
-http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html
+References: [@https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design ]
+[@http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html]
+
+#Tips for Tableau
+1. Running totals
+2. Common Baseline
+3. Weighted averages
+4. Moving average
+5. Grouping by aggregates 
+6. Different years comparison
+7. Appending excel sheets
+8. Bar chart totals
+9. Fixed axis when re-drawing charts
+10. Auto-fitting screen behavior depending on data selection
+References: [@http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf]
