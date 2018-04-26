@@ -50,12 +50,31 @@ As a student to learn how to be a good data scientis or business analytics profe
 
 In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece. 
 
- A example of using good data in a misleading graph to fool readers comes from Fox News. 
- 
- ![](1.png)
+ A example of using good data in a misleading graph to fool readers comes from Fox News.
+![](1.png)
+
+2. Axis Manipulation
+
+Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph's dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs.
+![](Line_graph1.svg.png)
+![](175px-Line_graph1-3.svg)
+![](200px-Line_graph1-4.svg)
+
+Axis manipulation is the opposite of truncating data, because they include the axis and baselines but change them so much that they lose meaning. This type of graph manipulation can be used to push a false narrative.
+
+3.Cherry Picking Data
+This is to pick the data that shows a typical viewpoint. For example, we know house price in Bay area kept increasing since 2011. However, for those house agencies who want convince buyers that house prices has decreased , they might select some areas in typical months that house prices happend to decreased.  
+
+It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
+![](Good_graph_extraction.png)
+![](Bad_graph_extraction.png)
+
 
 Reference:
 How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
 https://venngage.com/blog/misleading-graphs/
 Misleading graph, wikipedia
 https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph
+Data Analysis: Displaying Data - Deception with Graphs
+https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf
+
