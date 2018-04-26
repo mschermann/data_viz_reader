@@ -48,6 +48,17 @@ Beyond its ability to make information from several different sources and in lar
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information.  This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder.  So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design.  
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
+
+
+
+**Key Figures in the History of Data Visualization**
+
+**Reference**
+Infogram.Jun 14, 2016.https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c
+
+The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. 
+
+
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
