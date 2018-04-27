@@ -1,6 +1,8 @@
 # Fundamentals
 
+  + Theoretical background of data visualization
 
+**1. Survey of Popular Data Visualization Tools**
 
 Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
 
@@ -20,11 +22,10 @@ Sisense can bring together multiple sources of data for easier access. It can ev
 
 https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
 
-  + Theoretical background of data visualization
   
-  **Practitioners Guide to Best Practices in Data Visualization**
+**2. Practitioners Guide to Best Practices in Data Visualization**
   
-  **Reference**
+**Reference**
     Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
     Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
   
@@ -34,7 +35,7 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
   Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
   uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
   such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
-  impact in a most efficient manner. The three best practices of data visualization are as follows: - 
+  impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
 ** 1. Design and layout matter **
       The design and layout should facilitate ease of understanding to convey your message to the viewer.
@@ -50,9 +51,10 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
       principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
       prescriptive. 
 
-  
-  + Theoretical background of data visualization  
-    * https://www.klipfolio.com/blog/intuitive-dashboard-design
+
+**3. Guide for Developing Dashboards**
+
+https://www.klipfolio.com/blog/intuitive-dashboard-design
     Three rules to follow in order to develop intuitive dashboards:
     
     1. the dashboard should read left to right
@@ -67,9 +69,8 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
     
     Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
     
-  + Theoretical background of data visualization
   
-    1.  Fundamental Components of Design
+**4. Fundamental Components of Design**
           
           Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and 
           unity as the design foundation of any work. If you want to take your data visualization from an 
@@ -99,14 +100,10 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
           important to remain keen on the main point of your story and how the entire visualization is either drawing the
           viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
           
-          
- + Theoretical background of data visualization   
     
-    **A Brief History of Data Visualization **
-    
-    **Reference**
-  
-      Michael Friendly,2006,A Brief History of Data Visualization,York University.http://www.datavis.ca/papers/hbook.pdf
+**5. A Brief History of Data Visualization **
+
+Michael Friendly,2006,A Brief History of Data Visualization,York University.http://www.datavis.ca/papers/hbook.pdf
    
     The only new thing in the world is the history you don’t know. — Harry S Truman
     
@@ -123,7 +120,7 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
        Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and  
        recording, enabled the wider use of graphics and new advances in form and content.
 
-    2. Milestones Tour
+  2. Milestones Tour
     
        2.1 Pre-17th Century: Early maps and diagrams
           
@@ -177,15 +174,8 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
           disciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization
           methods and data types are available for every desktop computer.
    
-  
- 
- + Contemporary research results
-  + Contemporary research results
-reference---fundamentals--example-USDATA
-       
-  
-  
-  **Contemporary research results**
+
+**6. Contemporary Research Results**
   
   + Next Steps for Data Visualization Research
   + references: https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
@@ -201,9 +191,9 @@ reference---fundamentals--example-USDATA
   3. Research Methods Training
   + Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on Designing Computer Science Experiments(http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
 
-  + Contemporary research results
 
-Pick the Right Chart Type!
+
+**7. Pick the Right Chart Type!**
 
   Data divusalization is combining the art and science. As for the art, we can say there are no correct answers for doing the visualization. There are many ways to present the data. However, how to making sense of facts, numbers and measurement for better understanding is still have a logical path to follow. 
   
@@ -247,12 +237,8 @@ Please find the references below.
 http://hypsypops.com/axes-evil-lie-graphs/
 http://www.statisticshowto.com/misleading-graphs/
 
-+ Theoretical background of data visualization
-  
 
- 
-
-  **Definions of Date Deception and Graphic Integrity**
+**8. Definions of Date Deception and Graphic Integrity**
   
   **Reference** 
   (1) Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., & Bertini, E. (2015). How deceptive are deceptive visualizations? An empirical analysis of common distortion techniques. In CHI 2015 - Proceedings of the 33rd Annual CHI Conference on Human Factors in Computing Systems: Crossings (Vol. 2015-April, pp. 1469-1478). Association for Computing Machinery. DOI: 10.1145/2702123.2702608

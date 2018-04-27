@@ -100,5 +100,15 @@ In the end, the authors also provided more detailed methodology explanations wit
 
 Overall, this case study is straightforward, easy to understand but also with enough information shown on each graphics.
 
+7. The Strengths of Animated Data Visualization
+
+http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite
 
 
+The page linked above includes a great example of animated data visualization showing the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+
+One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to each individual and follow them throughout the day.  The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both an individual and aggregate insights.
+
+A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots.  The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day.  This represents people's movements from one activity to another without overwhelming the reader.
+
+Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
