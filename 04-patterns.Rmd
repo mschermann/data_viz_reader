@@ -21,13 +21,12 @@ Baseline is very important to data visualization. If baseline is different, the 
 
 Here I use the same method for a new dataset to .
 ```{r}
-# Load the data.
-setwd("/Users/boxiao/Desktop")
-data<-read.csv("galaxy_sales.csv",header = TRUE)
-data <- rbind(data[1:19,],c("Q4 '14",80),data[20:22,],c("da", 83))
-data$year <- rep(c(2010,2011,2012,2013,2014,2015),each = 4)
-data$qua <- seq(1:24)
-data$Quarter <-NULL
+# Create the data.
+a <-rep(c(2010,2011,2012,2013,2014,2015),each = 4)
+b <- seq(1:24)
+c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,100.66,107.53,117.06,119.21,110.05,97.42,93.62,97.99,80,88.74,102.06,83)
+data <- as.data.frame(cbind(a,b,c))
+colnames(data) <-c("year","quater","sales")
 ```
 
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
