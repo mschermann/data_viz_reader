@@ -20,6 +20,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
 Here I use the same method for a new dataset to .
+
 ```{r}
 # Create the data.
 a <-rep(c(2010,2011,2012,2013,2014,2015),each = 4)
@@ -28,9 +29,8 @@ c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,1
 data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
-
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
-```{r}
+```{r eval=FALSE}
 # Regular time series for sales
 par(cex.axis=0.7)
 data.ts <- ts(data$sales, start=c(2010, 1), frequency=4)
@@ -38,7 +38,7 @@ plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 ```
 
 2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
-```{r}
+```{r eval=FALSE}
  # Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
@@ -56,7 +56,7 @@ barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quate
 ```
 
 
-```{r}
+```{r eval=FALSE}
 # Year-over-year change
 curr <- as.numeric(data$sales[-(1:4)])
 prev <- as.numeric(data$sales[1:(length(data$sales)-4)])
@@ -74,7 +74,7 @@ barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annua
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
 
 3. The sales difference compare to now. **The baseline here is the current sales.**
-```{r}
+```{r eval=FALSE}
 # Relative to current 2015
 curr <- as.numeric(data$sales[length(data$sales)])
 salesDiff <- as.numeric(data$sales) - curr
@@ -90,7 +90,7 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
 4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
-```{r}
+```{r eval=FALSE}
 # Relative to first quater
 ori <- as.numeric(data$sales[1])
 salesDiff <- as.numeric(data$sales) - ori
@@ -107,7 +107,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 ```
 
 5. The difference between quater sales and mean. ** The baseline is mean now.**
-```{r}
+```{r eval=FALSE}
 # difference from the mean
 mean <- mean(as.numeric(data$sales))
 salesDiff <- as.numeric(data$sales) - mean

@@ -1,8 +1,24 @@
+# Fundamentals
 
-Besides of tableau, there are also several other software can use for data visualization. like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, Qlikview. This article is from forbes and have a briefly clear introduction about those 7 powerful software for data visualization. I think this could be helpful for me because for different purpose, I may need to create different graphs. There are several disadvantages of using tableau, a little explore of other 6 softwares may help me in the future if I’m seeking for substitutes of tableau. 
+
+
+Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
+
+Tableau is the most popular of the group and has many users. It is simple to use, making it easy to learn and can handle large datasets. Tableau can handle big data thanks to integration with database handling applications such as MySQL, Hadoop, and Amazon AWS.
+
+Qlikview is the main competitor to Tableau and is also quite popular.  Qlikview is customizable and has a wide range of features which can be a double-edged sword. These features take more time to learn and get acquianted with. However, once one gets past the learning curve, they have a powerful tool at their disposal.
+
+The distinctive aspect of FusionCharts is that graphics do not have to be created from scratch. Users can start with a template and insert their own data from their project.
+
+Highcharts proudly claims to be used by 72% of the 100 biggest companies in the world. It is a simple tool that does not require specialized training and quickly generates the desired output. Unlike some tools, Highcharts focuses on cross-browser support, allowing for greater access and use.
+
+Datawrapper is making a name for itself in the media industry. It has a simple user interface making it easy to generate charts and embed into reports.
+
+Plotly can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.
+
+Sisense can bring together multiple sources of data for easier access. It can even work with large datasets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
 
 https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
-# Fundamentals
 
   + Theoretical background of data visualization
   
@@ -174,15 +190,15 @@ reference---fundamentals--example-USDATA
   + Next Steps for Data Visualization Research
   + references: https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
   
-    With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches:
+    With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches:
   
-  1. Adapting the Publication and Review Process
+  1. Adapting the Publication and Review Process
   + As the article states, "both 'good' and 'bad' reviews could serve as valuable guides", so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
      
   2. Promoting Discussion and Accretion
   + Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum. 
      
-  3. Research Methods Training
+  3. Research Methods Training
   + Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on Designing Computer Science Experiments(http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
 
   + Contemporary research results
@@ -260,4 +276,24 @@ In reality, decades ago, Edward Tufte already introduced the concept of graphica
 5. The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
 
 6.Graphics must not quote data out of context.
+
+
+ **the Future of Data Visualization**
+  **Reference** 
+  https://www.quora.com/What-is-the-future-of-data-visualization/answer/Amolie-Sharma?share=b747885e&srid=tk2i
+  
+  1. Better Tools
+  With this prevalence of data access comes a need for data tools to become more approachable and easier to use.
+  
+  2. Data Visualization For All
+  With these newer, easier-to-use tools comes the ability for everyone, from the data-savvy to the data-averse to visualize information that pertains to their specific business needs
+  
+  3. More Common Chart Types
+  With the increasing literacy in data analysis comes an increasing comfort with various chart types. 
+  
+  4. Increase in Interactivity/Animation
+  Interactivity and animation within data analysis encourages exploration and discovery of a certain dataset. 
+  
+  5. Portable Data
+  Google reported that 48% of all its traffic in 2014 came through mobile. As we all become more mobile in general, the expectations are that users should be able to access any information they need on the go, from a mobile device. This portability extends to data as well. In fact, mobile dashboards can help individuals like sales reps make data-driven decisions as they’re on the go.
 
