@@ -1,7 +1,8 @@
 # Case Studies
 
 + Description and replication of great examples of data visualization
-### Description and replication of great examples of data visualization
+
+## Description and replication of great examples of data visualization
 
 reference:http://blog.visme.co/best-information-graphics-2016/#e030mFiF7wCpk7Ld.99
 
@@ -49,6 +50,29 @@ The calculator includes several sloping charts. Each chart includes a factor tha
 
 This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
 
+6. What's really warming the world?
+
+https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
+
+In this case study, it first claimed the background story and the analytical questions clearly.
+Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
+After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons.
+In the end, the authors also provided more detailed methodology explanations with dataset sources to support the results shown above.
+
+Overall, this case study is straightforward, easy to understand but also with enough information shown on each graphics.
+
+7. The Strengths of Animated Data Visualization
+
+http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite
+
+
+The page linked above includes a great example of animated data visualization showing the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+
+One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to each individual and follow them throughout the day.  The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both an individual and aggregate insights.
+
+A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots.  The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day.  This represents people's movements from one activity to another without overwhelming the reader.
+
+Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
 ## Deceptive data graphs examples
 
@@ -86,33 +110,6 @@ For more examples of misleading graphs or deceptive graphs you can read the foll
 
 + bar charts without zero & evenly spaced tick marks for uneven intervals: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
 + graphs not drawn to scale: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
-
-
-
-6. What's really warming the world?
-
-https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
-
-In this case study, it first claimed the background story and the analytical questions clearly.
-Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
-After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons.
-In the end, the authors also provided more detailed methodology explanations with dataset sources to support the results shown above.
-
-Overall, this case study is straightforward, easy to understand but also with enough information shown on each graphics.
-
-7. The Strengths of Animated Data Visualization
-
-http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite
-
-
-The page linked above includes a great example of animated data visualization showing the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
-
-One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to each individual and follow them throughout the day.  The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both an individual and aggregate insights.
-
-A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots.  The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day.  This represents people's movements from one activity to another without overwhelming the reader.
-
-Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
-
 
 > Some Interesting Visualizations:
 https://blog.hubspot.com/marketing/great-data-visualization-examples
