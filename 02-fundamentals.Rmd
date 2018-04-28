@@ -429,4 +429,46 @@ I feel this is a great starting point to create effective charts and we may use 
 
 contributions
 
+###Interactive Data Visualization
+
+Interactive or Dynamic data visualization delivers today’s complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive.
+
+####Benefits of Interactive Data Visualization Software:
+
+1. Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making.
+2. Visualize relationships and patterns: Helps in  better understanding of correlations among operational data and business performance.
+3. Identify and act on emerging trends faster: Helps decision makers to grasp shifts in behaviors and trends across multiple data sets much more quickly.
+4. Manipulate and interact directly with data: Enables users to engage data more frequently.
+5. Foster a new business language : Ability to tell a story through data that instantly relates the performance of a business and its assets.
+
+[@benefits_interactive_viz]
+
+There are multiple ways by which interactive data visualizations can be developed:
+1. D3.js  2.Tableau  3.R shiny
+
+####D3.js:
+
+D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers(From Wikipedia). It is highly functional, meaning you can reuse the code and add functions relevant to your project. Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them.
+
+Some of the key advantages are: It is dynamic, free and open source and very flexible with all web technologies, the abiity to handle big data and the functional style allows to reuse the codes.
+
+[@d3_interactive_viz]
+
+####Tableau:
+
+Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
+
+The key advantages are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.
+
+[@tableau_interactive_viz]
+
+####R Shiny :
+
+R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web.
+
+The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and Javascript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
+
+[@shiny_interactive_viz]
+
+
 
