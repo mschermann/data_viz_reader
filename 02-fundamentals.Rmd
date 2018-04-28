@@ -172,27 +172,27 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
   https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
 
 
-## 5. Pick the Right Chart Type!
+## 5. Picking the Right Chart Type
 
-  Data divusalization is combining the art and science. As for the art, we can say there are no correct answers for doing the
-  visualization. There are many ways to present the data. However, how to making sense of facts, numbers and measurement for
-  better understanding is still have a logical path to follow. 
+  Data visualization combines art and science. As far as the art side goes, there are no single correct answers for doing the
+  visualization. There are many ways to present the data and many considerations for that process. However there is a science, or at least a logical path, for making sense of the facts, numbers, and measurements you use. 
   
-  To determine which kind of chart is hard for those people new to data visulization. Most people learn it by refering some
-  other people's work without understanding the logic behind. So they don't have the theory in their mind to make the
-  judgement. Here , I will introduce some guidance to choose the charts. 
+  For those new to data visualization, determining which kind of chart to use can be hard. Many people decide this simply by refering to
+  other people's work. But this tactic ignores the theory behind the choice of a chart. Without this thoughtful, logical process we can't be sure of the correctness of our judgement. Here, I will introduce some guidelines for choosing charts. 
   
-  When we about to choose the type of chart, we need to answer some questions.
-  - How many features would you like to show in a chart?
-  - how many data points do you want to display for each variable? 
-  - Will you display time serious data or among items or groups. 
+  First, you need to be able to answer some questions:
+  - Is the data in a times series or is it grouped in categories?
+  - How many features would you like to show in the chart?
+  - How many data points do you want to display for each variable?
   
-  After answered this question, you shoul able to get a better imagenation of your ideal graph. The simple guidance for using
-  different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for
-  joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare
-  parts of a whole.
+  After answering these questions you should have a better idea of your ideal graph. Here is a simplified guide for which type of chart pairs best with different types of data or use conditions. 
+  line charts for tracking trends over time
+  column or bar charts to compare quantities 
+  scatter plots for  joint variation of two data items 
+  bubble charts showing joint variation of three data items 
+  pie charts to compare parts of a whole.
   
-  Let's review the most commonly used chart types and expalin what circumstance should better use typical chart and the pros
+  Let's review the most commonly used chart types and explain what circumstances should better use typical chart and the pros
   and conts of each type of chart. Before introduce differnt types of charts, you can use the following website to familiar 
   with different types of charts. 
   [The Data Visualisation Catalogue](https://datavizcatalogue.com/) 
@@ -244,7 +244,7 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
   to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
     
 
-## 7. Definions of Date Deception and Graphic Integrity
+## 7. Definions of Data Deception and Graphic Integrity
 
   Data visualization becomes more and more pupular to communicate and support arguments nowdays. There are lots of great
   resources online to create and design amazing data products, in the same time, there are some poorly-designed misleading 
