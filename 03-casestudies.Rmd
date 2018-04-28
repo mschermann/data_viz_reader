@@ -135,6 +135,12 @@ The visualization is interactive and we can click on each attribute like ‘Hair
 Similarly, the visualization gives information about the different aspects of movies that are more likely to win, like ‘Length’ ,’Month’ ,’Budget’, etc.
 ![Best Picture](##2_2_2.PNG)
 
+##Application of Data Visualization
 
+**Data Preprocessing**
+
+We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect.
+
+[@outliar]
 
 
