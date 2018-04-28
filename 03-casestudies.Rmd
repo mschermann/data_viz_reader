@@ -74,33 +74,33 @@ A drawback of the plot is that it is hard for our eyes to keep track of 1000 sim
 
 Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
-8. Case studies: An Aging Population
+8. Case studies: **An Aging Population**
 
 Aging population is always a hot topic in social economics and politics. I collect several different data visualizations that show aging population in the world. They are good examples to learn and apply to census data. 
 
 8.1 An Aging Nation: Projected Number of Children and Older Adults
-[link](https://www.census.gov/library/visualizations/2018/comm/historic-first.html)
+[Source](https://www.census.gov/library/visualizations/2018/comm/historic-first.html)
 
 ![](images/aging_nation.jpg)
 
 This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
 8.2 From Pyramid to Pillar: A Century of Change, Population of the U.S.
-[link](https://www.census.gov/library/visualizations/2018/comm/century-of-change.html)
+[Source](https://www.census.gov/library/visualizations/2018/comm/century-of-change.html)
 
-![](images/Pyramid to Pillar.jpg)
+![](images/Pyramid.jpg)
 
 This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”.
 
 It is a good candidate to compare changes in population distributions (sex, age, year). Also the shape of pyramid is used to interpret a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool in the census data.
 
-8.3 Animated pyramid [link](https://fathom.info/aging/)
+8.3 Animated pyramid [Source](https://fathom.info/aging/)
 ![](images/##3_1.png)
 
 This is an animated and multiple population pyramids. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes year by year, which is useful for countinous time-series comparison.
 
 Similar projected with R code is provided for references:
-[R code](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/)
+[link](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/)
 
 
 ## Deceptive data graphs examples
