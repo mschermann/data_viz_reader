@@ -1,23 +1,10 @@
-### Ethics
+# Ethics
 
-Data Visualization is a relatively new  and maturing field. And part of that process is determining what is acceptable practice. A visible code of ethics is very important, because it establishes a standard of quality, helps us garner trust from clients, users and viewers, and gives the user a sense of confidence and pride in their work.
-
-We find a lot of debates all over websites about big data causing big problems. On the other hand, some people see big data ushering in and era where businesses have the analytics they need to optimize their returns on investment (ROI).
-
-I recently went through a post defending big data, so you know what side of the debate I’m gonna take. Data is never the problem, in my opinion, it’s the way we use data that causes big problems. 
-
-The look and feel is made such that the essence of data is gone. Here are the major problems cited related to big data visualization:
-
-- Manipulation of consumers
-- Violating the privacy of consumers
-- Tweaking the data set too much
-- Overwhelming volume, velocity, and variation
-- Poor decisions
-
-**The role of data visualization in politics, society, and business**
++ Implications of (good and bad) data visualization
+    + The role of data visualization in politics, society, and business
 
 
-_Tableau: Viz of the Day_
+Tableau: Viz of the Day
 
 Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/gallery
 ) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
@@ -31,6 +18,7 @@ One interesting example I found is Describe Artists with Emoji (https://public.t
    The basic objective of data visualization is to provide an efficient graphical display for summarizing and reasoning about    quantitative information. And during the last decades, political science has accumulated a large corpus of various kinds      of data, which makes it gradually become a more quantitative scientific field and requires using quantitative information      in the analysis and reasoning. 
 
    Data visualization plays several important roles in it: 1) helps create informative illustrations of the data,                recapitulating large amount of quantitative information on a diagram; 2) helps formulate new or supporting existing            hypotheses from quantitative data; 3) guides a statistical analysis of data and checks its validity.
+
 
    Some useful visualization methods are: 
    1) _Statistical graphics and infographics_; 
@@ -65,6 +53,9 @@ Reference: [@image_bad]
 <!--![Bad Infograph- Airplane](http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08b7e4b0f3ea27e4d46d/1447954615218/confusing-infographic2.png?format=original) -->
 
 
+   Some useful visualization methods are: 1) _Statistical graphics and infographics_; 2) _Geographical information systems        (GIS)_; 3) _Graph visualization or network maps_; 4) _Data cartography_.
+
+
 **Misrepresentation through Data Visualization**
        - (Reference: https://venngage.com/blog/misleading-graphs/)
 
@@ -90,5 +81,21 @@ Even if the information is both accurate and relevant, moral engineering pitfall
 
 Again, since the ethical purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it actually creates misunderstanding for the audience. While it can be a bit jarring to think of an poorly designed graphic as "morally wrong", it is important to think of the unintended consequences of visuals which have a powerful impact on their viewers.
 
+##Importance of ethics in visualization
+Ref:
 
+
+https://backspace.com/notes/2016/01/ethics-in-data-visualization.php
+
+
+Over the years, researchers and lawyers have come up with rules and practices for proper data collection and utilization, with particular attention on human subject research.
+
+Consent of the subjects to use their data, evaluating any risk with use or collection of data or protecting anonymity of data are some of the rules that must be considered for ethical research methods. Under U.S.law for research institutions receiving federal funding, ethical aspects must be considered. These rules continue to evolve.
+
+Research have found that even if viewers do not support an idea,  data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used for deception and there are lot of techniques that can produce dangerous visualization.Techniques such as truncated axis (where the y-axis does not start at zero) or using area to represent quantity (for instance comparing the size of two adjacent circles) were found to lead to wrong conclusions.
+
+
+
+
+Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. Its ethical responsibility to create visualizations to give correct and faithful representation of data and subjects.
 
