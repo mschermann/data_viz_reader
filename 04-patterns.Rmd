@@ -7,13 +7,37 @@
 
 Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
 
-1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
+1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different. See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
+```{r hickey-before, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='Are there any differences among the pollings at points A, B and C?'}
+knitr::include_graphics("img/hickey-before.jpg")
+```
 
-3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart).
+```{r hickey-after, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='The differences can be clearly told from the bar charts.'}
+knitr::include_graphics("img/hickey-after.jpg")
+```
 
-4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers!
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories. See figure \@ref(fig:hickey-breakdown) for example.
+
+```{r hickey-breakdown, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='It is hard to compare the size of the slides.'}
+knitr::include_graphics("img/hickey-breakdown.jpg")
+```
+
+3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example.
+
+```{r hickey-3D, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='S&D (red) appears to be roughly even with EPP (teal) in a 3D pie chart!'}
+knitr::include_graphics("img/hickey-3D.jpg")
+```
+
+4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
+
+```{r henry-quarter, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='25%:75% VS 28%:72%'}
+knitr::include_graphics("img/henry-quarter.jpeg")
+```
+
+```{r henry-half, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='50%:50% VS 48%:52%'}
+knitr::include_graphics("img/henry-half.jpeg")
+```
 
 ## Chose the right baseline in data visualization
 
