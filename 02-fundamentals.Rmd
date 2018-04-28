@@ -4,6 +4,24 @@
   + Contemporary research results
   
   
+Building advanced analytics application with TabPy
+
+https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
+
+@misc{great_viz,
+  author = {{Bora Beran}},
+  year = {2017},
+  title = {Building advanced analytics applications with TabPy},
+  howpublished = {\url{https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916}},
+  note = {Accessed: 2018-04-28}
+}
+
+
+Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.  The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+
 
 
 
