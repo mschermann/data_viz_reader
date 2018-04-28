@@ -140,6 +140,14 @@ For more examples of misleading graphs or deceptive graphs you can read the foll
 + bar charts without zero & evenly spaced tick marks for uneven intervals: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
 + graphs not drawn to scale: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
 
++ **Treating correlation as causation.**
+
+Even if the labels and data in your graph is correct, it does not mean that the conclusion is logically correct. A correlation between X and Y does not automatically indicate that the change in one variable is caused by the change in the values of the other one, whereas the causation means that one event is the result of the occurrence of the other event. From the graph, we should bear in mind that it only presents the correlation between ice cream sold and murders, rather than causation.
+
+```{r harlin-ice-cream, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='A strange correlation between ice cream sales and murders (Source: [@harlin-coorelation])'}
+knitr::include_graphics("images/harlin-ice-cream.png")
+```
+
 > Some Interesting Visualizations:
 https://blog.hubspot.com/marketing/great-data-visualization-examples
 http://blog.visme.co/data-visualizations-current-events/
