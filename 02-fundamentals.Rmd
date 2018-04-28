@@ -108,27 +108,21 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
           
 ## 3. Guide to Best Practices in Data Visualization
   
-  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
-  then focus your visualization with respect to those questions. 
+  Here are some best practices in data visualization. Above all, try to anticipate in advance what kind of questions the audience will ask and then focus your visualization with respect to those questions. 
   
-  The brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
-  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
-  such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
-  impact in a most efficient manner. The three best practices of data visualization are as follows: 
+  The brain processes stimuli from our environment in two ways – unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function such as solving math problems). Data visualization leverages the characteristics of System 1 to efficiently create a quick and correct impression. The three best practices of data visualization are as follows: 
 
 ** 1. Design and layout matter **
-      The design and layout should facilitate ease of understanding to convey your message to the viewer.
+      The design and layout should facilitate ease of understanding when conveying your message to the viewer.
 ** 2.	Avoid Clutter **
-      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+      Keep it simple. To implement this always take into account the data-ink ratio – the ratio of ink required to convey
       the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
-      means, avoid ink which do not add any information.
+      means, avoid ink which does not add any information.
 ** 3.	Use color purposely and effectively **
-      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
-      in conveying your message. 
-      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
-      in more meaningful and practical way in the article. It also gives various advantages of using the above 
-      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
-      prescriptive. 
+      Color may be prettier and more attractive but it can also be distracting. Thus, color should be used only if it assists
+      in conveying your message.
+    
+   These best practices can be applied to all three types of analytics: descriptive, predictive, and prescriptive. For a more detailed illustration of these three principles, including helpful scenarios and examples you can explore the article. You will also learn the advantages of putting these principles to use.  
 
   **Reference**
     Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
@@ -185,27 +179,23 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
   - How many features would you like to show in the chart?
   - How many data points do you want to display for each variable?
   
-  After answering these questions you should have a better idea of your ideal graph. Here is a simplified guide for which type of chart pairs best with different types of data or use conditions. 
-  line charts for tracking trends over time
-  column or bar charts to compare quantities 
-  scatter plots for  joint variation of two data items 
-  bubble charts showing joint variation of three data items 
-  pie charts to compare parts of a whole.
+  After answering these questions you should have a better idea of your ideal graph. Here is a simplified guide for which type of chart pairs best with different types of data or use conditions.
   
-  Let's review the most commonly used chart types and explain what circumstances should better use typical chart and the pros
-  and conts of each type of chart. Before introduce differnt types of charts, you can use the following website to familiar 
-  with different types of charts. 
-  [The Data Visualisation Catalogue](https://datavizcatalogue.com/) 
+  - **Line charts** to show change over *time*
+  - **Scatter plots** to show the *relationship* between *two* variables 
+  - **Bubble charts** to show the *relationship* among *three* variables  
+  - **Column or bar charts** to compare *quantities* 
+  - **Pie charts** to compare *parts* to a whole
+  
+  Let's review the most commonly used chart types, including the best circumstances for their use as well as their relative pros and cons. You can use the following website, [The Data Visualisation Catalogue](https://datavizcatalogue.com/), to familiarize yourself with different types of charts before we begin. 
   
   **Type 1 Column Charts.** 
-  This should be the most popular chart type. This chart is good to do comparison between different values when specific
-  values are important. TBD 
+  This is the most popular chart type. It is good for doing comparisons between different values when the specific
+  value is important. TBD 
 
   
-  Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela
-  create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is
-  http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
-
+  Still having a hard time to choosing the right chart? There are many resources online that can help you make a decision. For example, Dr. Andre Abela created a [chart selection diagram](http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html) that is helpful for picking the right chart for your data type.  
+  
   Reference:
   Data Visualization – How to Pick the Right Chart Type? , By Jānis Gulbis
   https://eazybi.com/blog/data_visualization_and_chart_types/
@@ -219,22 +209,19 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
   
 ## 6. Guide for Developing Dashboards
 
-  https://www.klipfolio.com/blog/intuitive-dashboard-design
+  https://www.klipfolio.com/blog/intuitive-dashboard-design  
   Three rules to follow in order to develop intuitive dashboards:
     
-    1. the dashboard should read left to right
-    2. group related information together
-    3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+    1. The dashboard should read left to right
+    2. Group related information together
+    3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship
     
-  Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
-  dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the
-  data. 
+  A designer can easily get bogged down in creating a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data. 
     
-  Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The
+  Because English is read from top to bottom and left to right, a reader's eyes will naturally look toward the upper left of a page. The
   content should therefore flow like words in a book. It is important to note that the information at the top of the page does
   not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could
-  be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used
-  as a quick convenient way to look up data.
+  be useful in the day-to-day. These practical considerations should be kept in mind when designing a dashboard since they are often used as a quick, convenient reference.
     
   Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have
   to search in different areas to find the information they need.
@@ -244,19 +231,18 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
   to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
     
 
-## 7. Definions of Data Deception and Graphic Integrity
+## 7. Defintions of Data Deception and Graphic Integrity
 
-  Data visualization becomes more and more pupular to communicate and support arguments nowdays. There are lots of great
-  resources online to create and design amazing data products, in the same time, there are some poorly-designed misleading 
+  Data visualization is an increasingly popular way to communicate and support arguments. There are lots of great
+  resources online to create and design amazing data products. At the same time, there are some poorly-designed, misleading, and 
   deceptive data visualizations.
 
   So what does **data deception** mean? 
-  Data deception, defined by School of Law at the New York University, as “a graphical depiction of information, designed with
+  Data deception, as defined by the School of Law at the New York University, is “a graphical depiction of information, designed with
   or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the
   actual message.”
 
-  In reality, decades ago, Edward Tufte already introduced the concept of graphical intergrity in his book and presented six
-  principles of graphic integrity. Here are the principles from book:
+  Decades ago, Edward Tufte introduced the concept of graphical intergrity in his book, *The Visual Display of Quantitative Information* and presented six principles of graphic integrity. Here are those principles:
 
     1. The representation of numbers, as physically measured on the surface of the graphic itself, should be directly
     proportional to the numerical quantities measured.
@@ -272,7 +258,7 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
     5. The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the
     data.
 
-    6.Graphics must not quote data out of context.
+    6. Graphics must not quote data out of context.
     
   **Reference** 
  (1) Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., & Bertini, E. (2015). How deceptive are deceptive visualizations?
