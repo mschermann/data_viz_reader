@@ -1,7 +1,28 @@
-# Ethics
+### Ethics
 
-+ Implications of (good and bad) data visualization
-    + The role of data visualization in politics, society, and business
+Data Visualization is a relatively new  and maturing field. And part of that process is determining what is acceptable practice. A visible code of ethics is very important, because it establishes a standard of quality, helps us garner trust from clients, users and viewers, and gives the user a sense of confidence and pride in their work.
+
+We find a lot of debates all over websites about big data causing big problems. On the other hand, some people see big data ushering in and era where businesses have the analytics they need to optimize their returns on investment (ROI).
+
+I recently went through a post defending big data, so you know what side of the debate I’m gonna take. Data is never the problem, in my opinion, it’s the way we use data that causes big problems. 
+
+The look and feel is made such that the essence of data is gone. Here are the major problems cited related to big data visualization:
+
+- Manipulation of consumers
+- Violating the privacy of consumers
+- Tweaking the data set too much
+- Overwhelming volume, velocity, and variation
+- Poor decisions
+
+**The role of data visualization in politics, society, and business**
+
+
+_Tableau: Viz of the Day_
+
+Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/gallery
+) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
+
+One interesting example I found is Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
 
 **1. Data visualization in political and social sciences**
@@ -11,7 +32,41 @@
 
    Data visualization plays several important roles in it: 1) helps create informative illustrations of the data,                recapitulating large amount of quantitative information on a diagram; 2) helps formulate new or supporting existing            hypotheses from quantitative data; 3) guides a statistical analysis of data and checks its validity.
 
+
    Some useful visualization methods are: 1) _Statistical graphics and infographics_; 2) _Geographical information systems(GIS)_; 3) _Graph visualization or network maps_; 4) _Data cartography_.
+
+   Some useful visualization methods are: 
+   1) _Statistical graphics and infographics_; 
+   2) _Geographical information systems (GIS)_; 
+   3) _Graph visualization or network maps_; 
+   4) _Data cartography_.
+
+**Implications of (good and bad) data visualization**
+
+Raw data is often meaningless or their meaning is not easily concluded. When people face a large set of measurements they are unable or unwilling to spend the time required to process it. Our modern living contributes to an ever-growing pool of “big data” and our ability to collect this type of information becomes easier and easier.  Thus filtering, visualization, and interpretation of data become increasingly important.
+
+We should understand what to do with data, but first we should understand why their presentation in graphical format is so powerful.
+
+- EASY RECALL - People can process images more quickly than words.As data are transformed into imagery, the readability and cognition of the content greatly improve. While people can only seem to remember just 10% of what they hear and only 20% of what they read, retention jumps up to 80% when they see visual ingormation and do some modifications in them.
+
+- PROVIDES WINDOW FOR PERSPECTIVE- With infographics you can pack a lot of information into a small space. Colors, shape, movement, contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding.
+Below is an example for a good graph:
+
+![Detailed Data represented through the Graph](http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08a4e4b0f3ea27e4d10c/1447954596926/DepthoftheProblem.png?format=original)
+
+- ENABLES QUALITATIVE ANALYSIS-
+Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the big picture and understand how the information fits within a larger context. 
+
+- INCREASE iN USER PARTICIPATION-
+Interactive infographics can substantially increase the amount of time someone will spend with the content.
+
+Because of their impact, infographics are widely used nowadays. A quick google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layperson, it doesn’t mean that they’re all successful or even necessary.
+
+In the example below, the information would be better presented does not easily answer the simple question: How many airplane seats are left empty each year? It could have been more clear with the  numbers and comparisons.
+
+![Bad Infograph- Airplane](http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08b7e4b0f3ea27e4d46d/1447954615218/confusing-infographic2.png?format=original)
+
+
 
 **2. Misrepresentation through Data Visualization**
    - (Reference: https://venngage.com/blog/misleading-graphs/)
@@ -20,3 +75,24 @@ While the ideal purpose of data visualization is to improve others' understandin
 
 Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
 
+**A basis for why we should pursue ethical data visualization**
+Reference: 
+Cairo, Alberto. "Ethical Infographics: In data visualization, journalism meets engineering." The IRE Journal, Spring 2014. https://www.scribd.com/document/230474170/Ethical-Info-Graphics-In-data-visualization-journalism-meets-engineering
+Cairo, Alberto. The Functional Art weblog. 19 June 2016. http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html
+
+Alberto Cairo addresses into the ethical 'why' of data visualization in this article, while still grounding the discussion in straightforward analysis of what to do and what not to do. He emphasizes that the effectiveness of the communicative display is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it. 
+
+Cairo sees data visualization as a harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and honesty and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is clearly and concisely conveyed.
+Cairo describes himself as a "rule utilitarian" and uses this to explain why it is ethical or, in his words, "morally right," to create graphics in this way. Here, it very useful to review his blogpost introducing the article.
+
+Essentially, the goal is to create the most good while doing the least harm. As such, conveying truthful and honest relevant information increases a persons understanding. Increased understanding and knowledge positively correlates with personal well-being.
+
+So, the information presented must be accurate and relevant. Cairo briefly addresses guidelines for this which are applicable in all information gathering fields: beware of selection bias when choosing preexisting datasets, validate the data, and include important context. False or irrelevant information doesn't improve anyone's decision-making capacity, so it cannot enhance well-being.
+
+Even if the information is both accurate and relevant, moral engineering pitfalls may remain. To avoid the unethical trap of inscrutable (or misleading) graphics, Cairo exhorts us to take an evidenced based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. 
+
+Again, since the ethical purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it actually creates misunderstanding for the audience. While it can be a bit jarring to think of an poorly designed graphic as "morally wrong", it is important to think of the unintended consequences of visuals which have a powerful impact on their viewers.
+
+
+Image Reference:
+https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professionals/
