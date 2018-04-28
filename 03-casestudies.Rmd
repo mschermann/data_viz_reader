@@ -169,7 +169,6 @@ The visualization is interactive and we can click on each attribute like ‘Hair
 Similarly, the visualization gives information about the different aspects of movies that are more likely to win, like ‘Length’ ,’Month’ ,’Budget’, etc.
 ![Best Picture](##2_2_2.PNG)
 
-<<<<<<< HEAD
 ##Application of Data Visualization
 
 **Data Preprocessing**
@@ -177,7 +176,7 @@ Similarly, the visualization gives information about the different aspects of mo
 We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect.
 
 [@outliar]
-=======
+
 8. Young voters, class and turnout: how Britain voted in 2017
 
 Reference: https://www.theguardian.com/politics/datablog/ng-interactive/2017/jun/20/young-voters-class-and-turnout-how-britain-voted-in-2017
@@ -201,7 +200,23 @@ Besides, this blog also includes great tips and showcases for Tableau.
 7. Uber: Crafting Data-Driven Maps
 
 Map visualization is very important for companies like Uber that needs to track metrics using geo space points. In this article, the designer from Uber talks about the challenges of design such visualization and their solutions. While a lot of the problems are related to the large scale of the data, there are some insights on using scatter plots and hex bins, adding trip lines and making custom tools to help make decisions. The visualization in this article is beneficial for developing geo spatial graphics. 
->>>>>>> 8ba74188d4d29bff99014e29c371643940cbf404
 
 Reference: https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554
+
+Kissmetrics blog: visualization of metrics
+
+Kissmetrics blog is a place where people talk about analytics, marketing and testing through narratives and metrics visualization. Metrics are important in real-life world especially when developing/promoting products. Visualization of metrics are also essential so that stakeholders can monitor performance, identify problems and deep dive into potential issues. 
+
+A good example from the Kiss metrics blog is about Facebook’s Organic Reach. One important point in the blog discussed whether the Facebook’s organic reach is decreasing drastically. 
+The general trend shows that there is a huge decline in Facebook’s page organic reach.
+
+The following graphs show that the engagement is actually increasing, meaning while the quantity of content is decreasing, the quality is increasing. 
+![](images/average-facebook-reach.png)
+
+![](images/average-facebook-daily-reach.png)
+
+
+This resonates with what we have learnt at class in terms of how different perspectives of interpreting data can lead to different conclusions. 
+
+Reference:https://blog.kissmetrics.com/is-facebook-organic-reach-dead/
 
