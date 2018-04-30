@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2018">
 
 
-<meta name="date" content="2018-04-12">
+<meta name="date" content="2018-04-26">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -103,17 +103,23 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="./">A Reader on Data Visualization</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
 <li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a></li>
-<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a></li>
+<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#deceptive-data-graphs-examples"><i class="fa fa-check"></i><b>4.1</b> Deceptive data graphs examples</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
-<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#pattern-one"><i class="fa fa-check"></i><b>5.1</b> Pattern one</a></li>
-<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#pattern-two"><i class="fa fa-check"></i><b>5.2</b> Pattern two</a></li>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>5.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Chose the right baseline in data visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="8" data-path="fundamentals-1.html"><a href="fundamentals-1.html"><i class="fa fa-check"></i><b>8</b> Fundamentals</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -137,18 +143,63 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="header">
 <h1 class="title">A Reader on Data Visualization</h1>
 <h4 class="author"><em>MSIS 2629 Spring 2018</em></h4>
-<h4 class="date"><em>2018-04-12</em></h4>
+<h4 class="date"><em>2018-04-26</em></h4>
 </div>
-<div id="prerequisites" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)
-<span class="co"># or the development version</span>
-<span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.name/tinytex/" class="uri">https://yihui.name/tinytex/</a>.</p>
+<div id="preface" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Preface</h1>
+<p>This is a collaborative writing project as part of the course MSIS 2629 “Data Visualization” at <a href="http://www.scu.edu">Santa Clara University</a>. The purpose of the class reader is to collaboratively engage with and reflect on data visualizations, to establish a solid theoretical background, and to collect useful practices and showcases. More information on the background of this project is available in the <a href="https://mschermann.github.io/msis2629spring2018">syllabus</a>.</p>
+<p>The following text serves explains how we organize ourselves.</p>
+<div id="references" class="section level2">
+<h2><span class="header-section-number">1.1</span> References</h2>
+<p><strong>EVERY</strong> references must be included in the <code>book.bib</code> file. This file uses the bibtex notation (Learn how to use bibtex <a href="http://www.bibtex.org/Using/">here</a>.). Most literature search engines allow you to export the reference information in Bibtex. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):</p>
+<pre><code>@misc{great_viz,
+  author = {{A great visualizer}},
+  year = {1982},
+  title = {A ficticious web page title},
+  howpublished = {\url{http://great_viz_org/}},
+  note = {Accessed: 2018-04-26}
+}
+</code></pre>
+<p>Particularly important is the <code>note</code> field. Websites change frequently, so links will break. If we do this correctly, <code>[@great_viz]</code> will produce <span class="citation">(A great visualizer <a href="#ref-great_viz">1982</a>)</span>.</p>
+</div>
+<div id="images" class="section level2">
+<h2><span class="header-section-number">1.2</span> Images</h2>
+<p>Images should not be loaded from external website because the links may change. Instead download a version of the image and create a reference that contains the link to the image. For example the following image is a deceptive visualization (the bars do start at zero).</p>
+<div class="figure">
+<img src="images/halper_welfare.jpg" alt="An Example of a deceptive visualization" />
+<p class="caption">An Example of a deceptive visualization</p>
+</div>
+<p>Source: <span class="citation">(Halper <a href="#ref-halper_2012">2012</a>)</span> referenced in <span class="citation">(Andalde <a href="#ref-andale_2014">2014</a>)</span></p>
+<p>The citation for the image looks like this.</p>
+<pre><code>@misc{halper_2012,
+  author={Halper, Daniel},
+  year={2012},
+  title = {Over 100 Million Now Receiving Federal Welfare},
+  url={https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare},
+  note = {Accessed: 2018-04-26}
+}</code></pre>
+<p>You have probably found this image through a different website that explains the visualization. For example the following website explains some problematic aspects of this visualization:</p>
+<pre><code>@misc{andale_2014,
+  author={Andalde, Stephanie},
+  year={2014},
+  title = {Misleading Graphs: Real Life Examples},
+  url={http://www.statisticshowto.com/misleading-graphs/},
+  note = {Accessed: 2018-04-26}
+}</code></pre>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-great_viz">
+<p>A great visualizer. 1982. “A Ficticious Web Page Title.” <a href="http://great_viz_org/" class="uri">http://great_viz_org/</a>.</p>
+</div>
+<div id="ref-halper_2012">
+<p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare" class="uri">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
+</div>
+<div id="ref-andale_2014">
+<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+</div>
 </div>
             </section>
 
@@ -197,19 +248,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

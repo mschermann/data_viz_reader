@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Reader on Data Visualization</title>
+  <meta name="description" content="This is the class reader for MSIS 2629.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Reader on Data Visualization" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the class reader for MSIS 2629." />
+  <meta name="github-repo" content="mschermann/data_viz_reader" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Reader on Data Visualization" />
+  
+  <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
+  
+
+<meta name="author" content="MSIS 2629 Spring 2018">
+
+
+<meta name="date" content="2018-04-26">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="references-1.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Reader on Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a></li>
+<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#deceptive-data-graphs-examples"><i class="fa fa-check"></i><b>4.1</b> Deceptive data graphs examples</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>5.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Chose the right baseline in data visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="8" data-path="fundamentals-1.html"><a href="fundamentals-1.html"><i class="fa fa-check"></i><b>8</b> Fundamentals</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Reader on Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="fundamentals-1" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Fundamentals</h1>
+<p>History Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today’s visualization, which mostly presented geologic, economic, and medical data. Here is useful link: <a href="http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx" class="uri">http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx</a></p>
+<p>Current research: Deceptive visualizations Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. More people than ever before are making their own charts and infographics, which is presenting a unique problem. Despite the availability of some great charting resources, we are witnessing an influx of poorly-designed misleading or downright deceptive data visualizations. Here are useful links: <a href="https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239" class="uri">https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239</a> <a href="https://www.datapine.com/blog/misleading-data-visualization-examples/" class="uri">https://www.datapine.com/blog/misleading-data-visualization-examples/</a></p>
+
+<div id="refs" class="references">
+<div>
+<p>A great visualizer. 1982. “A Ficticious Web Page Title.” <a href="http://great_viz_org/" class="uri">http://great_viz_org/</a>.</p>
+</div>
+<div>
+<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+</div>
+<div>
+<p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare" class="uri">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
+</div>
+<div>
+<p>Henry, Kristin. 2017. “In Defense of Pie Charts, and Why You Shouldn’t Use Them.” Blog. <em>Medium</em>. <a href="https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76" class="uri">https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76</a>.</p>
+</div>
+<div>
+<p>Hickey, Walter. 2013. “The Worst Chart in the World.” Blog. <em>Business Insider</em>. <a href="http://www.businessinsider.com/pie-charts-are-the-worst-2013-6" class="uri">http://www.businessinsider.com/pie-charts-are-the-worst-2013-6</a>.</p>
+</div>
+<div>
+<p>Quach, Alex. 2016. “Why Pie Charts Often Suck: And How We Did Better.” Blog. <em>The Mission</em>. <a href="https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a" class="uri">https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a</a>.</p>
+</div>
+<div>
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+</div>
+<div>
+<p>———. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="references-1.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/Fundamental.Rmd",
+"text": "Edit"
+},
+"download": ["Data Viz Reader.pdf", "Data Viz Reader.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
