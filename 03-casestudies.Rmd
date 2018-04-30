@@ -221,88 +221,88 @@ This resonates with what we have learnt at class in terms of how different persp
 Reference:https://blog.kissmetrics.com/is-facebook-organic-reach-dead/
 
 
-## 15 Data Visualizations That Will Blow Your Mind
+### 15 Data Visualizations That Will Blow Your Mind
 
 **Reference**
 
 Allison Stadd,January 21, 2015.15 Data Visualizations That Will Blow Your Mind,Udacity.
 https://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html
 
-+ If a picture is worth a thousand words, a data visualization is worth at least a million.
+If a picture is worth a thousand words, a data visualization is worth at least a million.
 
 As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good.
 
-+ 1. Every Satellite Orbiting Earth
+1. Every Satellite Orbiting Earth
 + https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/
 
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
 
-+ 2. Simpson’s Paradox
+2. Simpson’s Paradox
 + http://vudlab.com/simpsons/
 
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual look at data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. That’s called a Simpson’s Paradox. 
 
-+ 3. Charles Minard’s Visualization of Napoleon’s 1812 March
+3. Charles Minard’s Visualization of Napoleon’s 1812 March
 + https://www.edwardtufte.com/tufte/minard
 
 This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.
 
-+ 4. Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+4. Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
 + https://www.youtube.com/watch?feature=player_embedded&v=jbkSRLYSojo
 
 Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. One segment in particular is pretty mind-blowing. In “200 Countries, 200 Years, 4 Minutes,” Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes.
 
-+ 5. Renting vs. Buying
+5. Renting vs. Buying
 + https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html
 
 Mike Bostock, New York Times graphics department editor and inventor of D3.js, built a complex interactive data calculator that offers a cost/benefit analysis for prospective homebuyers. Along with his colleagues Shan Charter and Archie Tse, Bostock tapped into everything from home price and mortgage-interest tax deduction to property tax rate and inflation to help you determine whether to rent or buy a home.
 
-+ 6. Music Timeline
+6. Music Timeline
 + https://research.google.com/bigpicture/music/
 
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates. 
 
-+ 7. State of the Union 2014 Minute by Minute on Twitter
+7. State of the Union 2014 Minute by Minute on Twitter
 + http://twitter.github.io/interactive/sotu2014/#p1
 
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state. Pretty powerful.
 
-+ 8. NYC Street Trees
+8. NYC Street Trees
 + https://www.cloudred.com/labprojects/nyctrees/#about
 
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
 
-+ 9. Millennial Generation Diversity
+9. Millennial Generation Diversity
 + http://money.cnn.com/interactive/economy/diversity-millennials-boomers/
 
 CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
-+ 10. Goldilocks Exoplanets
+10. Goldilocks Exoplanets
 + https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
-+ 11. Washington Wizards’ Shooting Stars
+11. Washington Wizards’ Shooting Stars
 + http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/
 
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
 
-+ 12. U.S. Migration Patterns
+12. U.S. Migration Patterns
 + https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0
 
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to play around with. You can see where people living in each state were born, and to what states people move from others. 
 
-+ 13. Selfie City
+13. Selfie City
 + http://selfiecity.net/
 
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in, say, New York and Berlin, as well as those between men and women across the world.
 
-+ 14. The American Workday
+14. The American Workday
 + https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph?/templates/story/story_php=
 
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
 
-+ 15. Global Carbon Emissions
+15. Global Carbon Emissions
 + https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive
 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
