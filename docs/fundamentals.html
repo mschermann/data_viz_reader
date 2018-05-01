@@ -346,12 +346,74 @@ Furthermore, as in typography and cartography, use of typographic attributes in 
 <li><p>Variety: Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.</p></li>
 <li><p>Unity: Unity across design will happen naturally if all other design principles are implemented.</p></li>
 </ol>
+<p><strong>Using Data Visualization to Find Insights in Data</strong></p>
+<p><strong>Reference Link</strong> <a href="http://datajournalismhandbook.org/1.0/en/understanding_data_7.html" class="uri">http://datajournalismhandbook.org/1.0/en/understanding_data_7.html</a></p>
+<p>This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation.</p>
+<p>The author then proceeds by stating that data visualization will not always unleash a readymade story on its own. Sometimes the insights are known before the visualization and sometimes an insight can be completely new. The author has given a process for finding insights in the following way:</p>
+<p>Visualize Data-&gt; Analyze -&gt; Document Insights -&gt; Transform Datasets -&gt;Visualize Data</p>
+<p>Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each type of visualization such as bar charts, maps, scatterplots, graphs, etc. are used. This gives a thorough understanding of when to use which type of visualization. Once we visualize the data we need to ask the following questions:</p>
+<p>1 What can I see in this image? Is it what I expected? 2 Are there any interesting patterns? 3 What does this mean in the context of the data?</p>
+<p>The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data. Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the visualization. Once we document the data insights based on the above question we need to have the following points into consideration:</p>
+<p>1 Why have I created this chart? 2 What have I done to the data to create it? 3 What does this chart tell me?</p>
+<p>The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach help to stay focused. The author then mentions that based on the above insights we might have some idea about some interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a more detailed view of our insights.</p>
+<p>Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire process given above is explained in depth with the help of examples. The technical approach listed above is practical and can be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated the step-by-step process of finding insights with the technical way of handling datasets using tools such as Tableau, Python, etc. And the process can be repeated many times till we find the insights we are looking for.</p>
+<p>Building advanced analytics application with TabPy</p>
+<p><a href="https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916" class="uri">https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916</a></p>
+<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="misc"><strong>???</strong></span>)</span>{great_viz, author = {{Bora Beran}}, year = {2017}, title = {Building advanced analytics applications with TabPy}, howpublished = {}, note = {Accessed: 2018-04-28} }</p>
+<p>Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle’s police department’s 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out.</p>
+<pre><code>+ Theoretical background of data visualization  </code></pre>
+<ul>
+<li>Contemporary research results</li>
+</ul>
+<p>Some best practices for visualization:</p>
+<p><a href="http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf" class="uri">http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf</a></p>
+<p>Here is free pdf to some best practices in visual analysis. It talks about the right charts to be used for various kinds of analysis. It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story.</p>
+<p>Some of key areas for which the author highlights some best practices are for visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc.</p>
+<p>The author gives examples on how simple graphs can also become more effective by just adding a few more elements or some simple adjustments.</p>
+<p>I feel this is a great starting point to create effective charts and we may use these principles also when we start doing advanced analytics.</p>
+<p>contributions</p>
+<p>###Interactive Data Visualization</p>
+<p>Interactive or Dynamic data visualization delivers today’s complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive.</p>
+<p>####Benefits of Interactive Data Visualization Software:</p>
+<ol style="list-style-type: decimal">
+<li>Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making.</li>
+<li>Visualize relationships and patterns: Helps in better understanding of correlations among operational data and business performance.</li>
+<li>Identify and act on emerging trends faster: Helps decision makers to grasp shifts in behaviors and trends across multiple data sets much more quickly.</li>
+<li>Manipulate and interact directly with data: Enables users to engage data more frequently.</li>
+<li>Foster a new business language : Ability to tell a story through data that instantly relates the performance of a business and its assets.</li>
+</ol>
+<p><span class="citation">(Internet <a href="#ref-benefits_interactive_viz">2017</a>)</span></p>
+<p>There are multiple ways by which interactive data visualizations can be developed: 1. D3.js 2.Tableau 3.R shiny</p>
+<p>####D3.js:</p>
+<p>D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers(From Wikipedia). It is highly functional, meaning you can reuse the code and add functions relevant to your project. Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them.</p>
+<p>Some of the key advantages are: It is dynamic, free and open source and very flexible with all web technologies, the abiity to handle big data and the functional style allows to reuse the codes.</p>
+<p><span class="citation">(Blog <a href="#ref-d3_interactive_viz">2017</a>)</span></p>
+<p>####Tableau:</p>
+<p>Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.</p>
+<p>The key advantages are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.</p>
+<p><span class="citation">(AbsentData <a href="#ref-tableau_interactive_viz">2017</a>)</span></p>
+<p>####R Shiny :</p>
+<p>R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web.</p>
+<p>The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and Javascript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.</p>
+<p><span class="citation">(Castañón <a href="#ref-shiny_interactive_viz">2016</a>)</span></p>
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-data-insights">
 <p>Aischx, Gregor. 2017. “Using Data Visualization to Find Insights in Data.” Book. <em>Data Journalism Handbook - Open Knowledge Foundation</em>. <a href="http://datajournalismhandbook.org/1.0/en/understanding_data_7.html" class="uri">http://datajournalismhandbook.org/1.0/en/understanding_data_7.html</a>.</p>
+</div>
+<div id="ref-benefits_interactive_viz">
+<p>Internet. 2017. “Reasons to Have Dynamic Data Reporting.” <a href="http://www.convergesolution.com/blog/blog-post/5-reasons-why-you-should-have-dynamic-data-reporting-solution-datavisualization/" class="uri">http://www.convergesolution.com/blog/blog-post/5-reasons-why-you-should-have-dynamic-data-reporting-solution-datavisualization/</a>.</p>
+</div>
+<div id="ref-d3_interactive_viz">
+<p>Blog, Cabot Solutions. 2017. “D3.js for Dynamic Data Reporting.” <a href="https://hackernoon.com/d3-js-the-perfect-dynamic-platform-to-build-amazing-data-visualizations-ebe930f0648f" class="uri">https://hackernoon.com/d3-js-the-perfect-dynamic-platform-to-build-amazing-data-visualizations-ebe930f0648f</a>.</p>
+</div>
+<div id="ref-tableau_interactive_viz">
+<p>AbsentData. 2017. “Advantages and Disadvantages of Tableau.” <a href="https://www.absentdata.com/advantages-and-disadvantages-of-tableau/" class="uri">https://www.absentdata.com/advantages-and-disadvantages-of-tableau/</a>.</p>
+</div>
+<div id="ref-shiny_interactive_viz">
+<p>Castañón, Jorge. 2016. “Shiny: A Data Scientist’s Best Friend.” <a href="https://medium.com/ibm-data-science-experience/shiny-a-data-scientists-best-friend-883274c9d047" class="uri">https://medium.com/ibm-data-science-experience/shiny-a-data-scientists-best-friend-883274c9d047</a>.</p>
 </div>
 </div>
             </section>
