@@ -195,3 +195,51 @@ Map visualization is very important for companies like Uber that needs to track 
 
 Reference: https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554
 
+**Applications**
+
+##Data Augmentation
+
+Computer interfacing is changing everyday, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
+
+Creating a mechanism to become aware of the user’s intention by analyzing the gaze through reactive design, we achieved developing a complex system for demonstrating massive amount of data and organizing it in a spatial system. The user could walk through and explore the data and interact with different data visualizations. Moving through space is used to provide different levels of detail for specific data through Z axis.
+Ref: [@ref_pdf_ar]
+
+Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
+
+By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? A simple answer would be the link : http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271 .
+
+
+##Outliar Detection
+A simple example is mentioned below. Outliar treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
+
+```{r}
+# Inject outliers into data.
+cars1 <- cars[1:30, ]  # original data
+cars_outliers <- data.frame(speed=c(19,19,20,20,20), dist=c(190, 186, 210, 220, 218))  # introduce outliers.
+cars2 <- rbind(cars1, cars_outliers)  # data with outliers.
+
+# Plot of data with outliers.
+par(mfrow=c(1, 2))
+plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
+plot(cars2$dist,cars2$speed)
+
+
+# Plot of original data without outliers. Note the change in slope (angle) of best fit line.
+plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
+```
+Detection of Outliers is prformed using:
+
++ Univariate approach
++ Multivariate approach
++ Multivariate Model Approach
+
+##GEnetic Network Reconstruction
+
+Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional.It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
+
+Ref: [@ref_genetic]
+
+
+
+
+
