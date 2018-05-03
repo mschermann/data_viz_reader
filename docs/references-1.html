@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Reader on Data Visualization</title>
+  <meta name="description" content="This is the class reader for MSIS 2629.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Reader on Data Visualization" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the class reader for MSIS 2629." />
+  <meta name="github-repo" content="mschermann/data_viz_reader" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Reader on Data Visualization" />
+  
+  <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
+  
+
+<meta name="author" content="MSIS 2629 Spring 2018">
+
+
+<meta name="date" content="2018-04-30">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="conclusion.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Reader on Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a><ul>
+<li class="chapter" data-level="3.1" data-path="fundamentals.html"><a href="fundamentals.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>3.1</b> 1. A Brief History of Data Visualization</a></li>
+<li class="chapter" data-level="3.2" data-path="fundamentals.html"><a href="fundamentals.html#fundamental-components-of-design"><i class="fa fa-check"></i><b>3.2</b> 2. Fundamental Components of Design</a></li>
+<li class="chapter" data-level="3.3" data-path="fundamentals.html"><a href="fundamentals.html#guide-to-best-practices-in-data-visualization"><i class="fa fa-check"></i><b>3.3</b> 3. Guide to Best Practices in Data Visualization</a></li>
+<li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#survey-of-popular-data-visualization-tools"><i class="fa fa-check"></i><b>3.4</b> 4. Survey of Popular Data Visualization Tools</a></li>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#pick-the-right-chart-type"><i class="fa fa-check"></i><b>3.5</b> 5. Pick the Right Chart Type!</a></li>
+<li class="chapter" data-level="3.6" data-path="fundamentals.html"><a href="fundamentals.html#guide-for-developing-dashboards"><i class="fa fa-check"></i><b>3.6</b> 6. Guide for Developing Dashboards</a></li>
+<li class="chapter" data-level="3.7" data-path="fundamentals.html"><a href="fundamentals.html#definions-of-date-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>3.7</b> 7. Definions of Date Deception and Graphic Integrity</a></li>
+<li class="chapter" data-level="3.8" data-path="fundamentals.html"><a href="fundamentals.html#contemporary-research-results-whats-next"><i class="fa fa-check"></i><b>3.8</b> 8. Contemporary Research Results &amp; What’s Next</a></li>
+<li class="chapter" data-level="3.9" data-path="fundamentals.html"><a href="fundamentals.html#typography-and-data-visualization"><i class="fa fa-check"></i><b>3.9</b> Typography and Data Visualization</a></li>
+<li class="chapter" data-level="3.10" data-path="fundamentals.html"><a href="fundamentals.html#this-article-explains-9-design-principles-which-can-be-used-for-vizulation.-these-9-design-principles-are"><i class="fa fa-check"></i><b>3.10</b> This article explains 9 design principles which can be used for vizulation. These 9 design principles are:</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="avoiding-common-mistakes-with-time-series.html"><a href="avoiding-common-mistakes-with-time-series.html"><i class="fa fa-check"></i><b>4</b> Avoiding Common Mistakes with Time Series</a></li>
+<li class="chapter" data-level="5" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>5</b> Case Studies</a><ul>
+<li class="chapter" data-level="5.1" data-path="case-studies.html"><a href="case-studies.html#description-and-replication-of-great-examples-of-data-visualization"><i class="fa fa-check"></i><b>5.1</b> Description and replication of great examples of data visualization</a></li>
+<li class="chapter" data-level="5.2" data-path="case-studies.html"><a href="case-studies.html#deceptive-data-graphs-examples"><i class="fa fa-check"></i><b>5.2</b> Deceptive data graphs examples</a></li>
+<li class="chapter" data-level="5.3" data-path="case-studies.html"><a href="case-studies.html#application-of-data-visualization"><i class="fa fa-check"></i><b>5.3</b> Application of Data Visualization</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="case-studies.html"><a href="case-studies.html#data-visualizations-that-will-blow-your-mind"><i class="fa fa-check"></i><b>5.3.1</b> 15 Data Visualizations That Will Blow Your Mind</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>6</b> Patterns</a><ul>
+<li class="chapter" data-level="6.1" data-path="patterns.html"><a href="patterns.html#why-pie-chart-is-bad-a-comparison-with-bar-chart"><i class="fa fa-check"></i><b>6.1</b> Why pie chart is bad: a comparison with bar chart</a></li>
+<li class="chapter" data-level="6.2" data-path="patterns.html"><a href="patterns.html#chose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>6.2</b> Chose the right baseline in data visualization</a></li>
+<li class="chapter" data-level="6.3" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>6.3</b> Tips to improve Data Visualization</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="patterns.html"><a href="patterns.html#comparison"><i class="fa fa-check"></i><b>6.3.1</b> 1.Comparison</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="patterns.html"><a href="patterns.html#tips-for-tableau"><i class="fa fa-check"></i><b>6.4</b> Tips for Tableau</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="tips-to-improve-data-visualization-1.html"><a href="tips-to-improve-data-visualization-1.html"><i class="fa fa-check"></i><b>7</b> Tips to improve Data Visualization</a></li>
+<li class="chapter" data-level="8" data-path="tips-for-tableau-1.html"><a href="tips-for-tableau-1.html"><i class="fa fa-check"></i><b>8</b> Tips for Tableau</a></li>
+<li class="chapter" data-level="9" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>9</b> Ethics</a><ul>
+<li class="chapter" data-level="9.1" data-path="ethics.html"><a href="ethics.html#importance-of-ethics-in-visualization"><i class="fa fa-check"></i><b>9.1</b> Importance of ethics in visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>10</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Reader on Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="references-1" class="section level1 unnumbered">
+<h1>References</h1>
+<p><strong>1. 3 Expert Data Visualization Tips for Grabbing Readers’ Attention</strong></p>
+<p>URL: <a href="https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf" class="uri">https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf</a></p>
+<p><em>Summary</em>: This article found on Medium explores three important aspects to focus on when creating a data visualization. The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience. Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they’re looking at a data visual, which offers a unique and useful perspective.</p>
+<p>Here is an outline of each of the 3 aspects: 1. Know what you really want to say. We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Design. Visuals should be kept as simple as possible without leaving out key points. This makes sense because then the audience can focus on what’s really important.</p></li>
+<li><p>Labeling. This section of the article shows a nice comparison of before and after removing labels from a chart, and the ‘after’ chart looks much cleaner and easier to interpret.</p></li>
+</ol>
+<p>I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.</p>
+<p><strong>2. Choose best colors for cartography visualization in a professional manner</strong></p>
+<p>URL: <a href="http://colorbrewer.org" class="uri">http://colorbrewer.org</a></p>
+<p><em>Summary</em>: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.</p>
+<p>It will automatically recommend the color schemes in the following aspects:</p>
+<p>1: Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.</p>
+<p>2: Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.</p>
+<p>3: You can also change the settings to colorblind-friendly on this site.</p>
+<p><strong>3. Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations.</strong></p>
+<p>URL:<a href="https://guides.library.harvard.edu/c.php?g=310952&amp;p=2073191" class="uri">https://guides.library.harvard.edu/c.php?g=310952&amp;p=2073191</a></p>
+<p>This website lists lots of tools to do different type of visualizations, check it out.</p>
+<p><strong>4. Visual Capitalist</strong></p>
+<p>URL:<a href="http://www.visualcapitalist.com/category/politics/" class="uri">http://www.visualcapitalist.com/category/politics/</a></p>
+<p>This company/website creates visual contents in the field of business and marketing.</p>
+<p><strong>5. Misleading Graph</strong></p>
+<p>As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.</p>
+<ol style="list-style-type: decimal">
+<li>Omitting Baselines</li>
+</ol>
+<p>In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece.</p>
+<p>A example of using good data in a misleading graph to fool readers comes from Fox News. <img src="images/1.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Axis Manipulation</li>
+</ol>
+<p>Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph’s dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs. <img src="images/Line_graph1.svg.png" /> <img src="images/175px-Line_graph1-3.svg.png" /> <img src="images/200px-Line_graph1-4.svg.png" /></p>
+<p>Axis manipulation is the opposite of truncating data, because they include the axis and baselines but change them so much that they lose meaning. This type of graph manipulation can be used to push a false narrative.</p>
+<p>3.Cherry Picking Data This is to pick the data that shows a typical viewpoint. For example, we know house price in Bay area kept increasing since 2011. However, for those house agencies who want convince buyers that house prices has decreased , they might select some areas in typical months that house prices happend to decreased.</p>
+<p>It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is. <img src="images/Bad_graph_extraction.png" /> <img src="images/Good_graph_extraction.png" /></p>
+<p>Reference: How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017 <a href="https://venngage.com/blog/misleading-graphs/" class="uri">https://venngage.com/blog/misleading-graphs/</a> Misleading graph, wikipedia <a href="https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph" class="uri">https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph</a> Data Analysis: Displaying Data - Deception with Graphs <a href="https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf" class="uri">https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf</a></p>
+<ol start="4" style="list-style-type: decimal">
+<li>The Year in Visual Stories and Graphics: New York Times</li>
+</ol>
+<p><a href="http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/index.html#dataviz" class="uri">http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/index.html#dataviz</a></p>
+<p>Every year, New York Times will select a collection of the year’s best storyteller visualizations, which includes different forms of state-of-the-art news visualizations. Personally, I think it can be a good inspiration when we feel like “I don’t know how to be creative on this”.</p>
+
+<div id="refs" class="references">
+<div>
+<p>A great visualizer. 1982. “A Ficticious Web Page Title.” <a href="http://great_viz_org/" class="uri">http://great_viz_org/</a>.</p>
+</div>
+<div>
+<p>AbsentData. 2017. “Advantages and Disadvantages of Tableau.” <a href="https://www.absentdata.com/advantages-and-disadvantages-of-tableau/" class="uri">https://www.absentdata.com/advantages-and-disadvantages-of-tableau/</a>.</p>
+</div>
+<div>
+<p>Aischx, Gregor. 2017. “Using Data Visualization to Find Insights in Data.” Book. <em>Data Journalism Handbook - Open Knowledge Foundation</em>. <a href="http://datajournalismhandbook.org/1.0/en/understanding_data_7.html" class="uri">http://datajournalismhandbook.org/1.0/en/understanding_data_7.html</a>.</p>
+</div>
+<div>
+<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+</div>
+<div>
+<p>Blog, Cabot Solutions. 2017. “D3.js for Dynamic Data Reporting.” <a href="https://hackernoon.com/d3-js-the-perfect-dynamic-platform-to-build-amazing-data-visualizations-ebe930f0648f" class="uri">https://hackernoon.com/d3-js-the-perfect-dynamic-platform-to-build-amazing-data-visualizations-ebe930f0648f</a>.</p>
+</div>
+<div>
+<p>Castañón, Jorge. 2016. “Shiny: A Data Scientist’s Best Friend.” <a href="https://medium.com/ibm-data-science-experience/shiny-a-data-scientists-best-friend-883274c9d047" class="uri">https://medium.com/ibm-data-science-experience/shiny-a-data-scientists-best-friend-883274c9d047</a>.</p>
+</div>
+<div>
+<p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare" class="uri">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
+</div>
+<div>
+<p>Harlin, Ky. 2013. “The 10 Most Bizarre Correlations.” Blog. <em>BuzzFeedNews</em>. <a href="https://www.buzzfeed.com/kjh2110/the-10-most-bizarre-correlations" class="uri">https://www.buzzfeed.com/kjh2110/the-10-most-bizarre-correlations</a>.</p>
+</div>
+<div>
+<p>Henry, Kristin. 2017. “In Defense of Pie Charts, and Why You Shouldn’t Use Them.” Blog. <em>Medium</em>. <a href="https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76" class="uri">https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76</a>.</p>
+</div>
+<div>
+<p>Hickey, Walter. 2013. “The Worst Chart in the World.” Blog. <em>Business Insider</em>. <a href="http://www.businessinsider.com/pie-charts-are-the-worst-2013-6" class="uri">http://www.businessinsider.com/pie-charts-are-the-worst-2013-6</a>.</p>
+</div>
+<div>
+<p>Internet. 2017. “Reasons to Have Dynamic Data Reporting.” <a href="http://www.convergesolution.com/blog/blog-post/5-reasons-why-you-should-have-dynamic-data-reporting-solution-datavisualization/" class="uri">http://www.convergesolution.com/blog/blog-post/5-reasons-why-you-should-have-dynamic-data-reporting-solution-datavisualization/</a>.</p>
+</div>
+<div>
+<p>Mullis, Lisa. 2012a. “The Impact of Data Visualization.” <a href="http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08a4e4b0f3ea27e4d10c/1447954596926/DepthoftheProblem.png?format=original" class="uri">http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08a4e4b0f3ea27e4d10c/1447954596926/DepthoftheProblem.png?format=original</a>.</p>
+</div>
+<div>
+<p>———. 2012b. “The Impact of Data Visualization.” <a href="http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08b7e4b0f3ea27e4d46d/1447954615218/confusing-infographic2.png?format=original" class="uri">http://static1.squarespace.com/static/56392b2ce4b0632f2c6d74a4/564e06cae4b0f3ea27e47d7a/564e08b7e4b0f3ea27e4d46d/1447954615218/confusing-infographic2.png?format=original</a>.</p>
+</div>
+<div>
+<p>Quach, Alex. 2016. “Why Pie Charts Often Suck: And How We Did Better.” Blog. <em>The Mission</em>. <a href="https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a" class="uri">https://medium.com/the-mission/to-pie-charts-3b1f57bcb34a</a>.</p>
+</div>
+<div>
+<p>Unwin, Antony. 2008. “The Applications of Data Visualization.” <a href="https://academic.oup.com/biostatistics/article/15/4/603/266279" class="uri">https://academic.oup.com/biostatistics/article/15/4/603/266279</a>.</p>
+</div>
+<div>
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+</div>
+<div>
+<p>———. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="conclusion.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/07-references.Rmd",
+"text": "Edit"
+},
+"download": ["Data Viz Reader.pdf", "Data Viz Reader.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
