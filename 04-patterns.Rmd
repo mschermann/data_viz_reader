@@ -408,3 +408,42 @@ http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html
 References: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
 
 
+**Word Cloud**
+
+A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
+
+Word clouds can add clarity during text analysis in order to effectively communicate your data results.It is an effective tool for Q researchers, marketers, Non-profits, Human resources ,Educators, Politicians and journalists.
+
+### Pros of Word Clouds:
+
+1. It is easy to understand and make an impact.
+2. It can easily be shared.
+3. It is visually engaging than a table data.
+4. It is fast and reveals the essential. 
+5. They delight and provide emotional connection..
+
+### Flaws of Word Clouds:
+
+1. Emphasis based on length of the words.
+2. Words whose letters contain many ascenders and descenders may receive more attention.
+3. They're not very accurate.
+4. Lot of data cleaning required before generating word cloud.
+5. Context is lost.
+
+[@wordcloud]
+
+### Ways of generating a word cloud:
+
+### R:
+The procedure of creating word clouds is very simple in R with text mining package (tm) and the word cloud generator package. The major steps involved are :text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
+[@r]
+
+### Wordle:
+Wordle is a toy for generating “word clouds” from text that you provide.It is very popular, free and easy to use. You do need Java though Chrome. In Wordle, you generate word clouds from text you input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused.
+[@wordle]
+
+Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
+
+
+
+
