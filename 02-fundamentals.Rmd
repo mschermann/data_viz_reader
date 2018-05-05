@@ -519,3 +519,16 @@ https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundame
 https://www.svds.com/avoiding-common-mistakes-with-time-series/
 
 This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".  In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+
+# Story Telling with Data
+Story telling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather (2013)’s article talked about how a visual designer tells a story with a visualization. Mainly there are five strategies that can be applied during visualization:
+
+1. Find the compelling narrative.
+2. Think about the audience (e.g., novice, generalist, managerial, export, exectitve)
+3. Be objective and offer balance
+4. Don’t censor
+5. Finally, Edit, Edit, Edit.
+
+Many of the points can be related to the gun issue project we are doing now. For example, some of the graphs showed are using selective data (against Rule 4) to state a point and thus are not objective (against Rule 3). Keeping these strategies in mind while doing visualization will help solve such problems and make graphs more convincing. 
+
+reference: [@storytelling]
