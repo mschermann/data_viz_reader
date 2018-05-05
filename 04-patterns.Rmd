@@ -163,7 +163,7 @@ Patterns based on function can help you see differences and similarities more cl
 
 ### Comparisons
 
-```{r pressure, echo=FALSE, out.width = '100%'}
+```{r pressure1, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
 ```
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
@@ -171,7 +171,7 @@ As shown in Figure 1, the bar chart with sparkline enables you to review the dat
 
 ### Connections
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
-```{r pressure, echo=FALSE, out.width = '100%'}
+```{r pressure2, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/2.jpg')
 ```
 Similar to sounds waves, the symmetrical area charts grow equidistant from the source (the zero line) at each time interval to accentuate the returns even further. Here, the y-axis is shown in percentage. Instead of using the zero line to indicate positive or negative returns, it uses color to denote if the category returns are positive (black) or negative (red). For example, Multi Cap Russell 3000 Growth produced 20% positive returns within the one-year time period and is shown with color fill in both directions from the zero line to purposefully duplicate the large gains and specifically uses black color fill to indicate the returns are positive. As evident from the name, the symmetrical chart doubles the returns to emphasize the amount with color fill.
@@ -181,7 +181,7 @@ What else can you derive from organizing the information in a spectrum of negati
 Next, you might wonder how you would have fared if you had invested in certain funds. You might ask: if I had purchased this fund five years ago, what would my return be? And what about the YTD returns? Since market timing is key to investment choices, the following presentation of hypothetical investments represents a range of results. 
 
 ### Conclusions
-```{r pressure, echo=FALSE, out.width = '100%'}
+```{r pressure3, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
 ```
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
@@ -189,6 +189,82 @@ In Figure 3, varied performance results become clear with a layered approach to 
 The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.
 
 reference: https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data
+
+## Example Visualizations of Time Series Data
+
+Reference: [@aya-time-series]
+
+What are some of the most common data visualizations you see in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.
+
+Temporal visualizations are one of the simplest, quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
+
+1. *Line Graph*. A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
+
+2. *Stacked Area Chart* is an area chart similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable.
+
+Figure \@ref(fig:aya-stacked) is a stacked area chart showing time series data:
+
+```{r aya-stacked, echo=FALSE, out.width='60%', fig.align="center", fig.cap='Student enrollments in India from 2001-10. (Source: [@aya-time-series])'}
+knitr::include_graphics("images/aya-stacked.png")
+```
+
+Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.
+
+The order in which we stack the variables is crucial because there can sometimes be a difference in the actual plot versus human perception. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart. For instance, in the figure below, a bar graph would be a cleaner alternative.
+
+```{r aya-stacked-perception, echo=FALSE, out.width='30%', fig.align="center", fig.cap='Human perception vs actual value. (Source: [@aya-time-series])'}
+knitr::include_graphics("images/aya-stacked-perception.jpg")
+```
+
+3. *Bar Charts* represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice for you when you wish to look at how the variable moved over time or when you wish to compare variables versus each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive.
+
+For instance, this grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
+
+```{r aya-bar, echo=FALSE, out.width='40%', fig.align="center", fig.show='hold', fig.cap='Two different bar charts to represent time series data. (Source: [@aya-time-series])'}
+knitr::include_graphics(c("images/aya-bar1.png", "images/aya-bar2.png"))
+```
+
+To avoid clutter and confusion, make sure to not use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart. Also, check out our blog on 5 common mistakes that lead to bad data visualization to learn why the base axis for your bar charts should start from zero.
+
+4. A *Gantt Chart* is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management.
+
+```{r aya-gantt, echo=FALSE, out.width='50%', fig.align="center", fig.show='hold', fig.cap='A typical Gantt chart. (Source: [@aya-time-series])'}
+knitr::include_graphics("images/aya-gantt.png")
+```
+
+Assume you're planning the logistics for a dance concert. There are lots of activities to be completed, some of which will take place simultaneously while some can be done only after another activity has been completed. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
+
+Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
+
+5. A *Stream Graph* is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name.
+
+```{r aya-stream, echo=FALSE, out.width='60%', fig.align="center", fig.cap='A stream graph showing a randomly chosen listener\'s last.fm music-listening habits over time. (Source: [@aya-time-series])'}
+knitr::include_graphics("images/aya-stream.png")
+```
+
+Stream graphs are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
+
+6. *Heat Map* Geospatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array.
+
+This heat map visualizes birthdays for babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the later half of July, August, and September.
+
+```{r aya-heat-map, echo=FALSE, out.width='40%', fig.align="center", fig.cap='Heat map can be useful to present 2-D time data. (Source: [@aya-time-series])'}
+knitr::include_graphics("images/aya-heat-map.png")
+```
+
+Heat maps are perfect for a two-tiered time frame -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
+
+7. *Polar Area Diagram*. Think beyond the straight line! Sometimes, time series data can be cyclical -- a season in a year, time of the day, and so on. Polar area diagrams help represent the cyclical nature time series data cleanly. A polar diagram looks like a traditional pie chart, but the sectors differ from each other not by the size of their angles but by how far they extend out from the centre of the circle.
+
+This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the the text legend for more details.)
+
+```{r aya-polar, echo=FALSE, out.width='50%', fig.align="center", fig.cap='Source: [@aya-time-series]'}
+knitr::include_graphics("images/aya-polar.jpg")
+```
+
+Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.
+
+It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since area of a circle is proportional to the square of the radius).
 
 ## Tips to improve Data Visualization
 ### 1.Comparison
