@@ -777,3 +777,56 @@ knitr::include_graphics('./Maps1.jpg')
 The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
 
 
+http://paristech.com/blog/data-visualization-best-practices/
+http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+
++ Tufte's Design Principles 
+  * Reference: "The visual display of Quantitative information", Edward R.Tufte
+  * Note: all figure without another source mark, it comes from the book above.
+  A graph should be impressive and can obtain audience's attention. How can we achieve this? We must follow some principles for statistical graphics:
+  **Principle 1: Maximizing the data-ink ratio, within reason.**
+  Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented.
+
+   ** Data-ink ratio = data-ink/total ink used to print the graphic = proportion of graphic’s ink devoted to the non-redundant display of data-information**
+	
+	 This basic principle follows by two principles:
+	 ** 1. Erase non-data-ink, within reason. **
+	 ** 2. Erase redundant data-ink, within reason.**
+	 Examples:
+	
+1. 
+	 
+figure1:
+	 
+2. 
+figure2
+figure3
+source: https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab
+	 
+   **3. always revise and edit**
+	 Example:
+	 figure 4
+	 
+	 ** Principle 2: Multifuncitioning elements**
+	 “Mobilize every graphical element, perhaps several >mes over, to show the data”
+Vol1, pg 139
+   In other words, try to make all present graphical elements data encoding elements.
+	 Example:
+	 figure 5
+	 
+	 ** Principle 3: maximize data density**
+	 Maximize data density and the size of the data matrix within reason.
+	 Data Density = # entries in data matrix /area of data graphic
+	 
+	 1. Maximize data density and the size of the data matrix within reason
+	 Example:
+	 figure 6
+	 
+	 2. Reduce the size of the graphic = the Shrink Principle.
+	 Example:
+	 figure 7
+	 
+	 
+
+
+	 
