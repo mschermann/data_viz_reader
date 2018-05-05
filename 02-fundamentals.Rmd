@@ -862,7 +862,35 @@ https://guns.periscopic.com/?year=2013
 
 
 
-	 
+Ref:https://www.tableau.com/about/blog/2016/5/5-tips-effective-visual-data-communication-54174
+
+ 
+
+We want visualizations to speak about the data. This article is about some tips that can help visualizations to speak:
+
+Keep it simple:  Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
+ 
+
+Pretty doesn't mean effective: There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
+ 
+
+Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.For data with geographical fields, it may be tempting to use maps. But maps may not be very effective for the following reasons:
+
+As mentioned above, color perception can be tricky.
+
+Choosing the right charts type is very critical. For comparison based on numerical scale bar chart can be more effective than maps.
+
+Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+
+Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+
+Maps: Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+
+5 Second Rule: Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer
+
+Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+
+
 
 
 	 
