@@ -12,27 +12,29 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
     Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
     Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
   
-  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
-  then focus your visualization with respect to those questions. 
-  
-  Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
-  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
-  such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
-  impact in a most efficient manner. The three best practices of data visualization are as follows: - 
+  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will
+  ask and then focus your visualization with respect to those questions. Brain processes stimuli from our environment to
+  process what is important in 2 ways – unconscious (System 1 represents uncontrolled functions such as facial expressions,
+  reactions) and conscious (System 2 – represents controlled function such as solving math problems). Data Visualization
+  leverage attributes of System -1 which has can have quick and correct impact in a most efficient manner. The three best
+  practices of data visualization are as follows: - 
 
 ** 1. Design and layout matter **
       The design and layout should facilitate ease of understanding to convey your message to the viewer.
+      
 ** 2.	Avoid Clutter **
-      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
-      the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
-      means, avoid ink which do not add any information.
+      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to
+      convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as
+      possible. That means, avoid ink which do not add any information.
+      
 ** 3.	Use color purposely and effectively **
-      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
-      in conveying your message. 
-      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
-      in more meaningful and practical way in the article. It also gives various advantages of using the above 
-      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
-      prescriptive. 
+      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it
+      assists in conveying your message. 
+      
+      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend
+      the topic in more meaningful and practical way in the article. It also gives various advantages of using the above 
+      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive,
+      predictive and prescriptive. 
 
   
   + Theoretical background of data visualization  
@@ -43,13 +45,24 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
     2. group related information together
     3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
     
-    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data. 
+    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
+    dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the
+    data. 
     
-    Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+    Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The
+    content should therefore flow like words in a book. It is important to note that the information at the top of the page
+    does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data
+    could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are
+    often used as a quick convenient way to look up data.
     
-    Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+    Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to
+    have to search in different areas to find the information they need.
     
-    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously
+    observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories
+    need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change
+    together.
+    
     
   + Theoretical background of data visualization
   
@@ -260,4 +273,55 @@ In reality, decades ago, Edward Tufte already introduced the concept of graphica
 5. The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
 
 6.Graphics must not quote data out of context.
+
+
+
+** Visual Lies: Usability in Deceptive Data Visualizations **
+ Reference - [@visual-lies]
+
+
+The article focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
+
+** Size **
+Size signifies quantity, volume or degree of variables within a data. In first figure the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right. 
+
+Figure 1:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Size1.jpg')
+```
+
+Quantity is the measure of size. When depicting points on a scatter plot, the author suggest that it is helpful to manipulate the size the points to represent differing values of a variable that is not represented on the x and y axes. Following graph shows quantity as a two completely different measure. One chart uses quantity as Area and other uses it as radius. The result is that the differences in quantity between points on such a scatter plot would appear more dramatic than they should be.
+
+Figure 2:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Quantity1.jpg')
+```
+
+** Segmentation **
+Figure shows an example of this with a deceptive instance of binning given in the legend on the left.
+Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can enable users to enhance understanding and if used incorrectly can be deceptive. It is shown here binning is different in both and since in the left figure binning is not done appropriately it is difficult to come up with actual values of the data.
+
+Figure 3:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Segmentation1.jpg')
+```
+
+** Graph **
+Two graphs that are most often misrepresented are pie-charts and maps. The author explains that in the following figure Pie charts can’t be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers weren’t given.
+
+Figure 4:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./PieCharts.jpg')
+```
+
+The author then states that when showing spatial data analysis always show population density when visualizing values that are person-dependent. On a heat map where color signifies quantity, The author suggests that a user will be drawn to the colors that a legend indicates are most extreme. 
+In following figure, areas that are darkest are simply the most population-dense regions of the United States. Without accounting for population density, the newly created map may look the same as hundreds of maps bearing a striking resemblance to the figure, which are falsely considered informative and are regularly shared across social media sites.
+
+Figure 5:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Maps1.jpg')
+```
+
+The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
+
 
