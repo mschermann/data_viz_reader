@@ -1,5 +1,49 @@
 # Fundamentals
 
+reference-fundamentals-Tableau-Groups
+
+  + Theoretical background of data visualization  
+  + Contemporary research results
+  
+  
+Now that we have all learnt the basics of working with Tableau, we may think of following groups or joining communities to explore tableau further.
+
+The benefits:
+
+-	It will help us enhance our learning
+-	Get answers for most of your doubts In tableau
+-	Post new questions and crowd source answers
+-	Attend events, seminars and join conferences conducted locally/ globally
+-	Give back to the community once you become an expert in that field
+
+Some useful communities for Tableau users:
+
+Tableau Community - [@Tableau_Community]
+
+Blogs : Here is a list of the top 10 blogs that Tableau itself suggests following:
+
+[@Top_10_Blogs]
+
+1.	Storytelling with Data
+2.	Information is Beautiful
+3.	Flowing Data
+4.	Visualising Data
+5.	Junk Charts
+6.	The Pudding
+7.	The Atlas
+8.	Graphic Detail
+9.	US Census and FEMA
+10.	Tableau Blog
+
+Tableau Social Media Groups: Some of the biggest and the most active groups
+
+Tableau Enthusiasts: Linkedin Group (19K members)
+
+Tableau Software Fans & Friends: LinkedIn Group (45kK members)
+
+[@LinkedIn_Groups] 
+
+
 
 https://www.educba.com/data-mining-vs-data-visualization/
 
@@ -358,7 +402,7 @@ Michael Friendly,2006,A Brief History of Data Visualization,York University.http
 
   Reference: https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
   
-## Typography and Data Visualization
+## 9. Typography and Data Visualization
   
 This article discusses less common applications of typography in data visualization.  While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.  
 
@@ -375,7 +419,7 @@ Furthermore, as in typography and cartography, use of typographic attributes in 
 
 There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic” visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived.  It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers’ names.  
 
-<!-- ![](https://ars.els-cdn.com/content/image/1-s2.0-S2405872616300107-gr19.jpg)-->
+![](/images/TypographicTitanic.jpg)
 
 The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.  Another criticism is that textual representations are not as visually appealing even when used effectively.  However, the authors counter that “this criticism indicates both the strength and weakness of type,” that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.  Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels.  This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.    
 
@@ -519,3 +563,33 @@ https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundame
 https://www.svds.com/avoiding-common-mistakes-with-time-series/
 
 This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".  In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+master
+
+
+## 10. Corporate Scorecards and Data Visualization
+  - (reference: http://www.boostlabs.com/corporate-scorecards-data-visualization/)
+
+Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process–easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star. 
+
+The growth of corporate transparency is not only important internally, but externally as well. Corporate certifications like B Corporations certifications (B Corp), require companies to provide a transparent view on their social conscious efforts to the general public. Achieving the certification is one step of the process; the true goal is to show the world how and why the certification is truly deserved.
+
+How does data visualization play a part? Data Visualization helps reveal insights and patterns that aren’t immediately visible in the raw data. 
+Here’s the process on how to get it done:
+
+**Step 1: Perform Data Discovery and Determine The Story**
+Before this step it is easy to underestimate the effort level it takes to pull the best insights from the data. Data manipulation products like Tableau, Domo, Pentaho, IBM’s Many Eyes, and R, among others, make insight extraction that much easier to gain understanding of data using a visual medium.
+
+The key is to start with a simple portion of your data and to start pulling basic insights to visualize and correlate with each other. This process leads towards a compound series of questions, which helps provide an overall vision to the end product. We see the effect during our discovery process, which leads to unforeseen avenues for data intelligence.
+
+**Step 2: Data Infrastructure Setup**
+Data infrastructures can be simple or complex depending what the end goal is. Many clients prefer to go the route of complete data integration in order to centralize their data repositories. Technologies such as Hadoop have helped by unifying disparate data sources, but other options such as data cloud environments can help produce API’s for future product deployments. Why is this important? Accessibility of data is an important foundation not only within the context of dashboards, but also the possibility of branching out to other products.
+
+**Step 3: Product Design & Development**
+Wireframing, prototyping, and application development are the main engines to transform an idea into a final product. Products can range from static presentations/reports to full interactive applications. Mobile, tablet, TV, and workstation platforms can all be mediums to help deliver the final product. The secret to a great end product is how well the data story is conceptualized. If the story is weak then the end product will also suffer. 
+
+**Step 4: QA & Product Release**
+The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.
+
+
+
+
