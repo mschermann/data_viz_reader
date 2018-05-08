@@ -799,6 +799,23 @@ Tableau Software Fans & Friends: LinkedIn Group (45kK members)
 
 A one-stop shop for Big Data visualization. Jupyter is an open-source project enabling Big Data analysis, visualization and real-time collaboration on software development across more than a dozen of programming languages. The interface holds the field for code input, and the tool runs the code to deliver the visually-readable image based on the visualization technique chosen.
 
+
+This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".  In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+
+
+# Story Telling with Data
+Story telling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather (2013)’s article talked about how a visual designer tells a story with a visualization. Mainly there are five strategies that can be applied during visualization:
+
+1. Find the compelling narrative.
+2. Think about the audience (e.g., novice, generalist, managerial, export, exectitve)
+3. Be objective and offer balance
+4. Don’t censor
+5. Finally, Edit, Edit, Edit.
+
+Many of the points can be related to the gun issue project we are doing now. For example, some of the graphs showed are using selective data (against Rule 4) to state a point and thus are not objective (against Rule 3). Keeping these strategies in mind while doing visualization will help solve such problems and make graphs more convincing. 
+
+reference: [@storytelling]
+
 However, this is barely the tip of the iceberg. Jupyter notebooks can be shared amongst the team to enable internal collaboration and boost the teamwork on the data analysis. They can be uploaded to GitHub or Gitlab to enable public collaboration on the results, they can be included in a Docker container using Kubernetes and can be run on any other machine with Jupyter. While being initially using Python and R, Jupyter Notebook is actively introducing kernels for other programming languages like Java, Go, C#, Ruby, and many others.
 
 The ability to interact with multiple frameworks like Spark turns Jupyter into an all-around capable solution for processing the data from large, data-intensive applications with disparate sources of input.
@@ -938,6 +955,3 @@ Maps: Use of maps can be tricky. Geographical data doesn't imply a map. Maps can
 Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
 
 
-
-
-	 
