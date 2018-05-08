@@ -816,36 +816,56 @@ The tool is rendering the resulting charts to HTML5/SVG, so they are compatible 
 
 
 # Tufte's Design Principles 
-  * Reference: "The visual display of Quantitative information", Edward R.Tufte
-  * Note: all figure without another source mark, it comes from the book above.
-  A graph should be impressive and can obtain audience's attention. How can we achieve this? We must follow some principles for statistical graphics:
-  **Principle 1: Maximizing the data-ink ratio, within reason.**
-  Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented.
+@misc{Tufte_2001,
+  author = {{Edward R.Tufte}},
+  year = {2001},
+  title = {The Visual Display of Quantitative Information(Second Edition)},
+  note = {Accessed: 2018-05-07}
+}
 
-   ** Data-ink ratio = data-ink/total ink used to print the graphic = proportion of graphic’s ink devoted to the non-redundant display of data-information**
+A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects:efficiency, complexity, structure, density and beauty. We also should consider the audience whether they will be confused about the design.Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.
+
+Here we must follow some principles for statistical graphics:
+
+**Principle 1: Maximizing the data-ink ratio, within reason.**
+
+    Data-ink is the non-erasable core of a graphic, the non-redundant ink  arranged in response to variation in the numbers represented.
+
+    Data-ink ratio = data-ink/total ink used to print the graphic = proportion of graphic’s ink devoted to the non-redundant display of data-information
 	
 	 This basic principle follows by two principles:
-	 ** 1. Erase non-data-ink, within reason. **
-	 ** 2. Erase redundant data-ink, within reason.**
-	 Examples:
-	
-1. 
-	 
-figure1:
-	 
-2. 
-figure2
-figure3
-source: https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab
-	 
-   **3. always revise and edit**
-	 Example:
-	 figure 4
-	 
-	 ** Principle 2: Multifuncitioning elements**
-	 “Mobilize every graphical element, perhaps several >mes over, to show the data”
-Vol1, pg 139
-   In other words, try to make all present graphical elements data encoding elements.
+	 1. Erase non-data-ink, within reason.
+	 2. Erase redundant data-ink, within reason.
+	 3. always revise and edit.
+
+Examples:
+1.Erase non-data-ink and redundant data-ink.
+![](/images/Tufte_figure1.png)	 
+source:Tufte_2001
+2. Erase non-data-ink and redundant data-ink.
+![](/images/Tufte_figure2.png)
+source: appli_2017
+![](/images/Tufte_figure3.png)
+source: appli_2017
+@misc{appli_2017,
+  author = {{plotly}},
+  year = {2017},
+  title = {Maximizing the Data-Ink Ratio in Dashboards and Slide Decks},
+  howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
+  note = {Accessed: 2018-05-07}
+}	 
+
+3. always revise and edit.
+![](/images/Tufte_figure4.png)
+source: appli_2017	
+
+4.boxplot redesign to maximize data ink ratio.
+![](/images/Tufte_figure5.png)
+source: appli_2017
+
+** Principle 2: Multifuncitioning elements**
+It is that “Mobilize every graphical element, perhaps several times over, to show the data” --Edward Tufte.
+In other words, we should try to make all present graphical elements data encoding elements.
 	 Example:
 	 figure 5
 	 
