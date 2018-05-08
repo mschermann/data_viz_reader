@@ -816,13 +816,14 @@ The tool is rendering the resulting charts to HTML5/SVG, so they are compatible 
 
 
 # Tufte's Design Principles 
+```{r}
 @misc{Tufte_2001,
   author = {{Edward R.Tufte}},
   year = {2001},
   title = {The Visual Display of Quantitative Information(Second Edition)},
   note = {Accessed: 2018-05-07}
 }
-
+```
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects:efficiency, complexity, structure, density and beauty. We also should consider the audience whether they will be confused about the design.Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.
 
 Here we must follow some principles for statistical graphics:
@@ -842,11 +843,13 @@ Examples:
 1.Erase non-data-ink and redundant data-ink.
 ![](/images/Tufte_figure1.png)	 
 source:Tufte_2001
+
 2. Erase non-data-ink and redundant data-ink.
 ![](/images/Tufte_figure2.png)
 source: appli_2017
 ![](/images/Tufte_figure3.png)
 source: appli_2017
+```{r}
 @misc{appli_2017,
   author = {{plotly}},
   year = {2017},
@@ -854,6 +857,7 @@ source: appli_2017
   howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
   note = {Accessed: 2018-05-07}
 }	 
+```
 
 3. always revise and edit.
 ![](/images/Tufte_figure4.png)
