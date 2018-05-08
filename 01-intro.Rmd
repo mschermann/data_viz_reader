@@ -1,10 +1,15 @@
-# Introduction {#intro}
+# Introduction
 
-**Data Visualization** 
+
+## What is Data Visualization? 
 Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.Below is a link for different types of plots used in data visualization.
 
-Plot links:
-https://datavizcatalogue.com/search.html
+Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us. You can find different types of plots used in data visualization here: https://datavizcatalogue.com/search.html.
+
+
+**Infograms**
+An infogram helps a user make different types of plots and learn the art of visualization: https://infogram.com/page/data-visualization
+
 
 Infogram helps a user make different types of plots and learn the art of visualization. Below is the link: 
 https://infogram.com/page/data-visualization
@@ -18,13 +23,22 @@ https://research.tableau.com/user/robert-kosara
 https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
 http://flowingdata.com/
 
-**Why is data visualization important?**
+
+**2. Why is data visualization important?**
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 https://research.tableau.com/user/robert-kosara
 https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
 
+**Useful Links:**
+https://eagereyes.org/  
+https://research.tableau.com/user/robert-kosara  
+https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor  
+http://flowingdata.com/  
 
+## Why is data visualization important?
+
+**Chris Pittenturf's article on the importance of data visualization to businesses**
 https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html
 
 The article , written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
@@ -39,14 +53,17 @@ One extremely simple example used by Chris is that of an energy bill. Chris stat
 The article ends with Chris emphasizing the importance of data visualizations in our businesses as well as in our daily lives.
 According to me, the article gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. It shows that data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
-  
-  
+**A brief introduction to information visualization**
+
 https://www.interaction-design.org/literature/article/information-visualization-a-brief-introduction
+
+About David McCandless’s TED talk on data visualization: https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization
+
 This article is a brief introduction to Information Visualization. It explains briefly how information visualization helps to make sense of data, how it helps to find relationships between data and confirm ideas.
 
 
-
-About David McCandless’s TED talk on data visualization: https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization
+**About David McCandless’s TED talk on data visualization:** 
+https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization
 
 Visuals help us understand concepts that would otherwise be difficult to contextualize—for example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes.  Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way.  Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details.  And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns.  
 
@@ -61,12 +78,7 @@ Basic Guidelines:
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
 
-
-
-
-
-
-**Key Figures in the History of Data Visualization**
+**3. Key Figures in the History of Data Visualization**
 
 **Reference**
 
@@ -75,13 +87,18 @@ https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. I present several figures names with their famous works and you can find other stories in the article.
 
+## Key Figures in the History of Data Visualization
+
+The history of data visualization is full of incredible stories marked by major events led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. I present several figures names with their famous works and you can find other stories in the article.
+
+
 **William Playfair (1759–1823)**
 
 William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published The Commercial and Political Atlas in 1786.
 
 This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
 
-![](https://github.com/lpyuan/AddPics/blob/master/1.png)
+![](/images/Playfair.png)
 
 **John Snow (1813–1858)**
 
@@ -89,7 +106,7 @@ In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Str
 
 Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, helping to find the cause of the infection.
 
-![](https://github.com/lpyuan/AddPics/blob/master/3.png)
+![](/images/Snow.jpg)
 
 **Charles Joseph Minard (1781–1870)**
 
@@ -97,10 +114,12 @@ Charles Joseph Minard was a French civil engineer famous for his representation 
 
 You can see how many soldiers are still marching and how many died. Drawn in 1869, it is described by many as the best statistical graphic ever drawn. It represents the earliest beginnings of data journalism.
 
-![](https://github.com/lpyuan/AddPics/blob/master/4.png)
+![](/images/Minard.png)
 
+**Reference**
 
-
+Infogram,Jun 14,2016.Key Figures in the History of Data Visualization,Medium.
+https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c
 
 
 
