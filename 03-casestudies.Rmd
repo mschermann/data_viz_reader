@@ -100,6 +100,7 @@ Aging population is always a hot topic in social economics and politics. I colle
 [Source](https://www.census.gov/library/visualizations/2018/comm/historic-first.html)
 
 ![](images/aging_nation.jpg)
++reference: [@aging_nation]
 
 This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
@@ -107,6 +108,7 @@ This one includes bar chart and line graph to demonstrate the aging population c
 [Source](https://www.census.gov/library/visualizations/2018/comm/century-of-change.html)
 
 ![](images/Pyramid.jpg)
++reference: [@population_pyramid]
 
 This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”.
 
@@ -114,6 +116,7 @@ It is a good candidate to compare changes in population distributions (sex, age,
 
 9.3 Animated pyramid [Source](https://fathom.info/aging/)
 ![](images/3_1.png)
++reference: [@animated_pyramid]
 
 This is an animated and multiple population pyramids. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes year by year, which is useful for countinous time-series comparison.
 
@@ -382,6 +385,8 @@ Detection of Outliers is prformed using:
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
+
+
 TWO AWESOME VIZUALISTS 
 1.	DAVID McCANDLESS
 a.	David McCandless is a British data-journalist and his blog “Information is Beautiful” (https://informationisbeautiful.net/) hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
@@ -403,5 +408,5 @@ a.	Hans Rosling took his interest in Global Health and developed stunning visual
 Hans was the co-founder and developer of the foundation “Gapminder”( https://www.gapminder.org/) which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
 
-
+An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 

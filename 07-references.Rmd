@@ -1,4 +1,14 @@
 # References {-}
+Stunning Data Visualization in the Allosphere.
+
+https://www.ted.com/talks/joann_kuchera_morin_tours_the_allosphere
+
+
+
+For data visualization, I always think about line plots, scatter plots, histograms, etc. however, in this video, there’s a new way of data visualization.
+
+
+This presentation is very interesting; she put musicians, engineers, and physicists together in the same group. I am studying data visualization now, and this impressed me very much because I never thought the data visualization could be something like this. I also am a big picture thinker and can see that this is going to help us leap forward in science as never before. 
 
 **1. 3 Expert Data Visualization Tips for Grabbing Readers' Attention** 
 
@@ -69,7 +79,45 @@ It is not technically wrong but it is definitely misleading.This is often called
 ![](images/Bad_graph_extraction.png)
 ![](images/Good_graph_extraction.png)
 
+4.
+4. Using The Wrong Graphs
+So far, we have intentional misinformation tactics that writers use to push their agendas.
 
+Now we take a look at types of misinformation that can happen through sheer incompetence.
+
+This usually involves picking a type of graph or chart that does not fit the data you are trying to present. And more often than not, the misunderstood pie chart is to blame for this.
+
+It is not the pie chart’s fault that it can be so misleading–it’s the people who think it can be used for any and every type of data.
+
+For example, take a look at this pie chart from the NFL Draft:
+![](images/4.misleading-graphs-17.png)
+First, in what world is 64 prospects half of 69 prospects? And second, why did they not use a bar graph for this data?
+
+If you were scrolling through your Twitter feed and saw misleading graphs like this, it would make sense that you thought USC blew the others out of the water.
+
+But if they wanted to share a more accurate graph, they should have created a column chart like this:
+
+![](images/4.misleading-graphs-18.png)
+It may not be as flashy as the first one but at least it is accurate.
+
+5. Altering Norms
+To conclude our list of misleading data visualization tactics, I thought it would be a good idea to look at misleading graphs and charts that alter long-held conventions or associations.  
+
+If you are a little confused with what I am talking about, think about a graph where red represents Democrats and blue represents Republicans.
+
+It would be pandemonium!
+
+Or a simpler example is using green for losses, and red for profits.
+![](images/5.misleading-graphs-24.png)
+
+
+That would make no sense to a competent graph maker, but would be a great tool to manipulate an audience.
+
+In this map about STI rates across the country, they choose to use a dark color to denote low levels and a light color for high levels:
+
+This use of color goes against almost every map data visualization I have even seen. So I do think it was created to intentionally mislead the reader.
+
+And to make things even more mind-boggling, the higher the number is, the lower the rates are, supposedly. So the map is confusing all around, which could make someone rightly think that Idaho is a hotbed for STIs, when it is really the southern states.
 
 Reference:
 How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
