@@ -24,18 +24,6 @@ https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eau
 http://flowingdata.com/
 
 
-**2. Why is data visualization important?**
-
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-https://research.tableau.com/user/robert-kosara
-https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-
-**Useful Links:**
-https://eagereyes.org/  
-https://research.tableau.com/user/robert-kosara  
-https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor  
-http://flowingdata.com/  
-
 ## Why is data visualization important?
 
 **Chris Pittenturf's article on the importance of data visualization to businesses**
@@ -53,7 +41,7 @@ One extremely simple example used by Chris is that of an energy bill. Chris stat
 The article ends with Chris emphasizing the importance of data visualizations in our businesses as well as in our daily lives.
 According to me, the article gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. It shows that data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
-**A brief introduction to information visualization**
+## A brief introduction to information visualization
 
 https://www.interaction-design.org/literature/article/information-visualization-a-brief-introduction
 
@@ -78,7 +66,7 @@ Basic Guidelines:
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
 
-**3. Key Figures in the History of Data Visualization**
+##Key Figures in the History of Data Visualization
 
 **Reference**
 
@@ -87,18 +75,13 @@ https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. I present several figures names with their famous works and you can find other stories in the article.
 
-## Key Figures in the History of Data Visualization
-
-The history of data visualization is full of incredible stories marked by major events led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. I present several figures names with their famous works and you can find other stories in the article.
-
-
 **William Playfair (1759–1823)**
 
 William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published The Commercial and Political Atlas in 1786.
 
 This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
 
-![](/images/Playfair.png)
+![](images/Playfair.png)
 
 **John Snow (1813–1858)**
 
@@ -106,7 +89,7 @@ In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Str
 
 Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, helping to find the cause of the infection.
 
-![](/images/Snow.jpg)
+![](images/Snow.png)
 
 **Charles Joseph Minard (1781–1870)**
 
@@ -114,12 +97,12 @@ Charles Joseph Minard was a French civil engineer famous for his representation 
 
 You can see how many soldiers are still marching and how many died. Drawn in 1869, it is described by many as the best statistical graphic ever drawn. It represents the earliest beginnings of data journalism.
 
-![](/images/Minard.png)
+![](images/Minard.png)
 
 **Reference**
 
 Infogram,Jun 14,2016.Key Figures in the History of Data Visualization,Medium.
-https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c
+<!--  https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c -->
 
 
 
