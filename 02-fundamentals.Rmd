@@ -1,69 +1,16 @@
 # Fundamentals
 
 
-## Theoretical background of data visualization
-    
-### Practitioners Guide to Best Practices in Data Visualization**
+## Theoretical background of data visualization 
 
-These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and then focus your visualization with respect to those questions. Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct impact in a most efficient manner. The three best practices of data visualization are as follows: - 
-
-  **1. Design and layout matter**
-      The design and layout should facilitate ease of understanding to convey your message to the viewer.
-      
-  **2.	Avoid Clutter**
-      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to
-      convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as
-      possible. That means, avoid ink which do not add any information.
-      
-  **3.	Use color purposely and effectively**
-      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it
-      assists in conveying your message. 
-      
-      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend
-      the topic in more meaningful and practical way in the article. It also gives various advantages of using the above 
-      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive,
-      predictive and prescriptive. 
-[@best-practices]
-  
-### Three rules to follow in order to develop intuitive dashboards:
-      * [@intuitive_dash]
-    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
-    dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data.
-    
-
-  **1. The dashboard should read left to right**
-  
-      Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
-  
-  **2. Group related information together**
-  
-      Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
-  
-  **3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
-    
-    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
-    
-[@intuitive-dash] 
-
-**A Brief History of Data Visualization **
-
-**Reference**
-
-reference-fundamentals-Tableau-Groups
-
-+ Theoretical background of data visualization
-+ Contemporary research results
-
-## 1. A Brief History of Data Visualization
-
-[@data_viz_history]
+## A Brief History of Data Visualization
  
-The only new thing in the world is the history you don’t know. — Harry S Truman
+"The only new thing in the world is the history you don’t know." — Harry S Truman
 
 This paper provides an overview of the intellectual history of data visualization from medieval to modern times,
 describing and illustrating some significant advances along the way.
 
- 1. Data Visualization: modern product?
+ **1. Data Visualization: modern product?**
 
  It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
  In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
@@ -73,7 +20,7 @@ describing and illustrating some significant advances along the way.
  Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and
  recording, enabled the wider use of graphics and new advances in form and content.
 
-2. Milestones Tour
+**2. Milestones Tour**
 
  2.1 Pre-17th Century: Early maps and diagrams
 
@@ -132,8 +79,30 @@ During the last quarter of the 20th century data visualization has blossomed int
 disciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization
 methods and data types are available for every desktop computer.
 
+**Reference**
+[@data_viz_history]
 
-## 2. Fundamental Components of Design
+## Fundamental Components of Design
+
+This article explains 9 design principles which can be used for visualization. These 9 design principles are:
+
+1.Balance: A design is said to be balanced if key visual elements such as color, shape, texture, and negative spaceare uniformly distributed.
+
+2.Emphasis: Draw viewers attention towards important data by using key visual elements.
+
+3.Movement: Ideally movement should mimic the way people usually read, starting at the top of the page, movingacross it, and then down.Movement can also be created by using complimentary colors to pull the user's attentionacross the page.
+
+4.Pattern: Patterns are ideal for displaying similar sets of information, or for sets of data that equal in value.Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
+
+5.Repetition: Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
+
+6.Proportion: If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
+
+7.Rhythm: A design has proper rhythm when the design elements create movement that is pleasing to the eye. If thedesign is not able to do so,rearranging visual elements may help.
+
+8.Variety: Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
+
+9.Unity: Unity across design will happen naturally if all other design principles are implemented. 
 
 Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design
 foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story,
@@ -161,8 +130,10 @@ attention to in my art. When thinking about the art design of data visualization
 the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how
 they are being distracted or drawn elsewhere.
 
+**Reference**
+[@design_principles]
 
-## 3. Guide to Best Practices in Data Visualization
+## Practitioners' Guide to Best Practices in Data Visualization
 
 These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
 then focus your visualization with respect to those questions. 
@@ -172,15 +143,17 @@ uncontrolled functions such as facial expressions, reactions) and conscious (Sys
 such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
 impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
-** 1. Design and layout matter **
-The design and layout should facilitate ease of understanding to convey your message to the viewer.
-** 2.Avoid Clutter **
-Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+  **1. Design and layout matter**
+    The design and layout should facilitate ease of understanding to convey your message to the viewer.
+    
+  **2. Avoid Clutter**
+    Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
 the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
 means, avoid ink which do not add any information.
-** 3.Use color purposely and effectively **
-Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+  **3. Use color purposely and effectively**
+    Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
 in conveying your message. 
+
 The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
 in more meaningful and practical way in the article. It also gives various advantages of using the above 
 principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
@@ -189,24 +162,29 @@ prescriptive.
 **Reference**
 [@practitioners_guide]
 
-## 3.1 Visualization and Graphics Principles to Refocus and Guide You
+## Visualization and Graphics Principles to Refocus and Guide You
 
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create, design visualizations that explain material originally created for a certain audience, i.e. the scienctific community, but now is to be relayed to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminative examples by themselves. There is also great power in the broader themes that he is trying to convey.
+
 First of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:
-Focusing the attention:
+
+**Focusing the attention:**
 What can be removed? Realize that consistency can help eliminate unecessary distractions. There may be a trade off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
-Involve your audience:
+
+**Involving your audience:**
 Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
-Explain why:
+
+**Explaining why:**
 Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
 
-Reference: [@audience_design]
+**Reference** 
+[@audience_design]
 
-## 4. Survey of Popular Data Visualization Tools
+## Survey of Popular Data Visualization Tools
 
 Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the
 data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly,
-FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from forbes and has a brief, clear introduction about
+FusionCharts, Highcharts, Datawrapper, and Qlikview. This article from forbes has a brief, clear introduction about
 these 7 powerful software options for data visualization. This could be helpful for future reference because for different
 purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps
 highlight them.
@@ -236,86 +214,65 @@ clearly convey information.
 **Sisense** can bring together multiple sources of data for easier access. It can even work with large datasets. Sisense
 makes it easy to share finished products across departments, ensuring everyone can get the information they need.
 
-https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
+**Reference**
+[@tools_survey]
 
+## Pick the Right Chart Type!
 
-## 5. Pick the Right Chart Type!
+Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurement, better understanding is promoted by a logical path to follow. 
 
-Data divusalization is combining the art and science. As for the art, we can say there are no correct answers for doing the
-visualization. There are many ways to present the data. However, how to making sense of facts, numbers and measurement for
-better understanding is still have a logical path to follow. 
+To determine the best type of chart is hard for those new to data visulization. Most people learn it by referring to
+other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the
+judgement. Here, I will introduce some guidance on how to select the best chart for the objective. 
 
-To determine which kind of chart is hard for those people new to data visulization. Most people learn it by refering some
-other people's work without understanding the logic behind. So they don't have the theory in their mind to make the
-judgement. Here , I will introduce some guidance to choose the charts. 
-
-When we about to choose the type of chart, we need to answer some questions.
+When we are choosing the type of chart, we need to answer some questions:
 - How many features would you like to show in a chart?
 - how many data points do you want to display for each variable? 
 - Will you display time serious data or among items or groups. 
 
-After answered this question, you shoul able to get a better imagenation of your ideal graph. The simple guidance for using
-different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for
-joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare
-parts of a whole.
+After answering these questions, you should have a better grasp of what your ideal graph looks like. Some rules of thumb are line charts for tracking trends over time, bar charts to compare quantities, scatter plots for joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
 
-Let's review the most commonly used chart types and expalin what circumstance should better use typical chart and the pros
-and conts of each type of chart. Before introduce differnt types of charts, you can use the following website to familiar 
-with different types of charts. 
-[The Data Visualisation Catalogue](https://datavizcatalogue.com/) 
+Let's review the most commonly used chart types and explain the ideal circumstances for different types of charts and the pros
+and cons of each. Before introducing different types of charts, you can use the following reference to familiarize yourself with different types of charts. 
+[@charts_viz]
 
-**Type 1 Column Charts.** 
+**Type 1 Column Charts** 
 This should be the most popular chart type. This chart is good to do comparison between different values when specific
 values are important. TBD 
 
 
-Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela
-create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is
-http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+Still having a hard time choosing? There are many resources online that can help you with the decision. For example, Dr. Andre Abela has created a helpful chart selection diagram depending on your data type. The link of website is
+[@chooser]
 
-Reference:
-Data Visualization – How to Pick the Right Chart Type? , By Jānis Gulbis
-https://eazybi.com/blog/data_visualization_and_chart_types/
+**References**
+[@pick_chart]
 
-Data Visualization Best Practices by melindasantos | Sep 19, 2017
-http://paristech.com/blog/data-visualization-best-practices/
+[@dv_best_prac]
 
-http://paristech.com/blog/data-visualization-best-practices/
-http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+### Three rules to follow in order to develop intuitive dashboards:
 
+  Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data.
+    
+  **1. The dashboard should read left to right**
+  
+  Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+  
+  **2. Group related information together**
+  
+  Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+  
+  **3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
+    
+  Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
 
-## 6. Guide for Developing Dashboards
+**Reference**
+[@intuitive-dash]
 
-https://www.klipfolio.com/blog/intuitive-dashboard-design
-Three rules to follow in order to develop intuitive dashboards:
+## Definions of Date Deception and Graphic Integrity
 
-1. the dashboard should read left to right
-2. group related information together
-3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
-
-Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
-dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the
-data. 
-
-Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The
-content should therefore flow like words in a book. It is important to note that the information at the top of the page does
-not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could
-be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used
-as a quick convenient way to look up data.
-
-Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have
-to search in different areas to find the information they need.
-
-Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously
-observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories need
-to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
-
-
-## 7. Definions of Date Deception and Graphic Integrity
-
-Data visualization becomes more and more pupular to communicate and support arguments nowdays. There are lots of great
-resources online to create and design amazing data products, in the same time, there are some poorly-designed misleading 
-deceptive data visualizations.
+Data visualization is becoming more and more popular to communicate and support arguments nowdays. There are lots of great
+resources online to create and design amazing data products, but at the same time, there are some poorly-designed, misleading 
+deceptive, data visualizations.
 
 So what does **data deception** mean? 
 Data deception, defined by School of Law at the New York University, as “a graphical depiction of information, designed with
@@ -339,43 +296,50 @@ nominal units.
 5. The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the
 data.
 
-6.Graphics must not quote data out of context.
+6. Graphics must not quote data out of context.
 
-+reference: [@visual_deception]
-+reference: [@visual_display]
+**References**
 
- **Misleading graphs:**
+[@visual_deception]
+[@visual_display]
+
+ ## Misleading graphs
  
 Misleading graphs or distorted graphs, are graphs created which skews the data, intentionally or unintentionally, resulting
 in a representation of incorrect conclusions.
 
 There are some ways in which distorted graphs can be created:
-1.Improper scaling of y axis: This is one of the classic misleading graphs. Instead of scale starting from zero or a 
+
+1. Improper scaling of y axis: This is one of the classic misleading graphs. Instead of scale starting from zero or a 
 baseline, y axis is scaled conveniently to highlight the differences among bins.
-2.Improper labelling of graphs:Lack of labels make the graph hard to interpret for the reader and lead to wrong 
+
+2. Improper labelling of graphs: Lack of labels make the graph hard to interpret for the reader and lead to wrong 
 conclusions.
-3.Paired graphs on different scale: It is not a fair comparison if two elements are plotted side-by-side, on a different
+
+3. Paired graphs on different scale: It is not a fair comparison if two elements are plotted side-by-side, on a different
 scale and compared. This makes one graph look better than the other, even when it is not.
-4.Dual axis with different scales: If we are plotting two elements on the same graph with different scales, even if the
+
+4. Dual axis with different scales: If we are plotting two elements on the same graph with different scales, even if the
 axes are properly labeled, it is assumed that both axes are on the same scale.
-5.Incomplete data: Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data
+
+5. Incomplete data: Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data
 are cut intentionally to just show a trend within a particular period to create a more favorable visual impression.
 
 Please find the references below.
-http://hypsypops.com/axes-evil-lie-graphs/
-http://www.statisticshowto.com/misleading-graphs/
+[@evil_axes]
+[@mislead_graph_ex]
 
 Current research: Deceptive visualizations
+
 Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and
 engaging. More people than ever before are making their own charts and infographics, which is presenting a unique problem.
 Despite the availability of some great charting resources, we are witnessing an influx of poorly-designed misleading or 
-downright deceptive data visualizations.
-Here are useful links: https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239
-https://www.datapine.com/blog/misleading-data-visualization-examples/
+downright deceptive data visualizations. Here are additional references on this topic: 
+[@decept_study]
+[@rose_tint]
 
- **Visual-Lies**
-** Visual Lies: Usability in Deceptive Data Visualizations **
- Reference - [@visual-lies]
+**Reference**
+[@visual-lies]
 
 
 The article focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
@@ -413,10 +377,80 @@ Figure 5:
 The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
 
 
-http://paristech.com/blog/data-visualization-best-practices/
-http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+## Typography and Data Visualization
 
-## 8. Contemporary Research Results & What's Next
+This article discusses less common applications of typography in data visualization.While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
+
+Highlighted in the article are preattentive visual attributes; preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed.Therefore, “preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load.”Examples of preattentive attributes are size/area, hue, and curvature.
+
+This brings us to the disparateness of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold.The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.
+Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages.Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.
+
+Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively.While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community.I would say that it is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias—if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken.
+However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming “have a rich history with type and font attributes that informs the scope of the parameter space.”
+
+The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes.For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.
+Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words.Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
+
+There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic” visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived.It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers’ names.
+
+![](images/TypographicTitanic.jpg)
+
+The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.Another criticism is that textual representations are not as visually appealing even when used effectively.However, the authors counter that “this criticism indicates both the strength and weakness of type,” that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels.This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.
+
+All in all, this article has an interesting take on a somewhat less fashionable tool and puts forth the idea that text and typographic attributes can convey additional important information in data visualizations when used innovatively and correctly.
+
+
+**Reference**
+[@typ_viz]
+
+
+
+## Using Data Visualization to Find Insights in Data
+
+[@data-insights]
+
+https://www.educba.com/data-mining-vs-data-visualization/
+
+This article gives me a clear understanding of data mining and data visualization.
+
+In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
+
+In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
+
+
+## Data Journalism
+ 
+ This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation.
+ 
+ The author then proceeds by stating that data visualization will not always unleash a readymade story on its own. Sometimes the insights are known before the visualization and sometimes an insight can be completely new. The author has given a process for finding insights in the following way:
+ 
+ Visualize Data-> Analyze -> Document Insights -> Transform Datasets ->Visualize Data
+ 
+ Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each type of visualization such as bar charts, maps, scatterplots, graphs, etc. are used. This gives a thorough understanding of when to use which type of visualization. Once we visualize the data we need to ask the following questions:
+ 
+ 1. What can I see in this image? Is it what I expected?
+ 2. Are there any interesting patterns?
+ 3. What does this mean in the context of the data?
+ 
+ The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data. Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the visualization. Once we document the data insights based on the above question we need to have the following points into consideration:
+ 
+ 1. Why have I created this chart?
+ 2. What have I done to the data to create it?
+ 3. What does this chart tell me?
+ 
+ The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach help to stay focused. The author then mentions that based on the above insights we might have some idea about some interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a more detailed view of our insights. 
+ 
+ Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire process given above is explained in depth with the help of examples. The technical approach listed above is practical and can be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated the step-by-step process of finding insights with the technical way of handling datasets using tools such as Tableau, Python, etc. And the process can be repeated many times till we find the insights we are looking for.
+ 
+**Reference**
+[@data_journ]
+ 
+## Contemporary Research Results & What's Next
 
 Next Steps for Data Visualization Research
 
@@ -441,104 +475,8 @@ resources could be reinforced with a catalog of learning resources, ranging from
 courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for
 reforming statistical practice.
 
-Reference: https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
-
-## 9. Typography and Data Visualization
-
-This article discusses less common applications of typography in data visualization.While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
-
-Highlighted in the article are preattentive visual attributes; preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed.Therefore, “preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load.”Examples of preattentive attributes are size/area, hue, and curvature.
-
-This brings us to the disparateness of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold.The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.
-Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages.Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.
-
-Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively.While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community.I would say that it is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias—if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken.
-However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming “have a rich history with type and font attributes that informs the scope of the parameter space.”
-
-The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes.For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.
-Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words.Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
-
-There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic” visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived.It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers’ names.
-
-![](images/TypographicTitanic.jpg)
-
-The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.Another criticism is that textual representations are not as visually appealing even when used effectively.However, the authors counter that “this criticism indicates both the strength and weakness of type,” that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels.This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.
-
-All in all, this article has an interesting take on a somewhat less fashionable tool and puts forth the idea that text and typographic attributes can convey additional important information in data visualizations when used innovatively and correctly.
-
-
-Reference: Banissi, Ebad, & Brath, Richard. (2016).Using Typography to Expand the Design Space of Data Visualization. She Ji: The Journal of Design, Economics and Innovation, 2(1), pp 59-87. https://www.sciencedirect.com/science/article/pii/S2405872616300107.
-
-[@data-insights]
-
-
-This article explains 9 design principles which can be used for vizulation. These 9 design principles are:
-https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/
-
-1.Balance: A design is said to be balanced if key visual elements such as color, shape, texture, and negative spaceare uniformly distributed.
-
-2.Emphasis: Draw viewers attention towards important data by using key visual elements.
-
-3.Movement: Ideally movement should mimic the way people usually read, starting at the top of the page, movingacross it, and then down.Movement can also be created by using complimentary colors to pull the user's attentionacross the page.
-
-4.Pattern: Patterns are ideal for displaying similar sets of information, or for sets of data that equal in value.Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
-
-5.Repetition: Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
-
-6.Proportion: If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
-
-7.Rhythm: A design has proper rhythm when the design elements create movement that is pleasing to the eye. If thedesign is not able to do so,rearranging visual elements may help.
-
-8.Variety: Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
-
-9.Unity: Unity across design will happen naturally ifall other design principles are implemented. 
-
-
-**Using Data Visualization to Find Insights in Data**
-
-
-https://www.educba.com/data-mining-vs-data-visualization/
-
-This article gives me a clear understanding of data mining and data visualization.
-
-https://www.educba.com/data-mining-vs-data-visualization/
-
-This article gives me a clear understanding of data mining and data visualization.
-
-In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
-In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
-
-In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
-In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
-
- **Reference Link**
- http://datajournalismhandbook.org/1.0/en/understanding_data_7.html 
- 
- This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation.
- 
- The author then proceeds by stating that data visualization will not always unleash a readymade story on its own. Sometimes the insights are known before the visualization and sometimes an insight can be completely new. The author has given a process for finding insights in the following way:
- 
- Visualize Data-> Analyze -> Document Insights -> Transform Datasets ->Visualize Data
- 
- Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each type of visualization such as bar charts, maps, scatterplots, graphs, etc. are used. This gives a thorough understanding of when to use which type of visualization. Once we visualize the data we need to ask the following questions:
- 
- 1 What can I see in this image? Is it what I expected?
- 2Are there any interesting patterns?
- 3What does this mean in the context of the data?
- 
- The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data. Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the visualization. Once we document the data insights based on the above question we need to have the following points into consideration:
- 
- 1 Why have I created this chart?
- 2What have I done to the data to create it?
- 3What does this chart tell me?
- 
- The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach help to stay focused. The author then mentions that based on the above insights we might have some idea about some interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a more detailed view of our insights. 
- 
- Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire process given above is explained in depth with the help of examples. The technical approach listed above is practical and can be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated the step-by-step process of finding insights with the technical way of handling datasets using tools such as Tableau, Python, etc. And the process can be repeated many times till we find the insights we are looking for.
- 
- 
+**Reference**
+[@next_steps] 
  
  Building advanced analytics application with TabPy
  
@@ -569,7 +507,7 @@ This article explains how time series data visualization can sometimes be decept
 master
 
 
-## 10. Corporate Scorecards and Data Visualization
+## Corporate Scorecards and Data Visualization
 - (reference: http://www.boostlabs.com/corporate-scorecards-data-visualization/)
 
 Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process–easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star. 
@@ -593,8 +531,8 @@ Wireframing, prototyping, and application development are the main engines to tr
 **Step 4: QA & Product Release**
 The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.
 
-## 11. Data Visualization Tools
-### Brief Introduction -- Lisa Rost's article 
+## Data Visualization Tools
+ 
 Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools.The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R.She links her github page on the project which details the dataset she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well has her process and results of visualizing the data using each tool.However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths.She also provides her own graphics to help illustrate her lessons learned.
 
 Rost’s first takeaway: **“There Are No Perfect Tools, Just Good Tools for People with Certain Goals”**
@@ -623,7 +561,7 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 
 ![](images/tools_force_paths.png)
 
-### Compare of different tools
+### Comparison of different tools
 
 ####Interactive Data Visualization
  
