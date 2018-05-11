@@ -1,11 +1,6 @@
 # Fundamentals
 
 
-https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f
-
-
-This article gives us an introduction of 5 quick and easy data visualizations in python with code, Its scatter plots, line plots, histograms, bar plots and box plots. For every plot, it provided the code and also an example of the graph, it gives me a clear understanding that for different dataset and different purpose, which graph performs the best. 
-
 ## Theoretical background of data visualization
 
 **Practitioners Guide to Best Practices in Data Visualization**
@@ -16,6 +11,59 @@ Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide
 These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and then focus your visualization with respect to those questions. Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct impact in a most efficient manner. The three best practices of data visualization are as follows: - 
 
 ** 1. Design and layout matter **
+      The design and layout should facilitate ease of understanding to convey your message to the viewer.
+      
+** 2.	Avoid Clutter **
+      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to
+      convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as
+      possible. That means, avoid ink which do not add any information.
+      
+** 3.	Use color purposely and effectively **
+      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it
+      assists in conveying your message. 
+      
+      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend
+      the topic in more meaningful and practical way in the article. It also gives various advantages of using the above 
+      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive,
+      predictive and prescriptive. 
+
+  
+  + Theoretical background of data visualization  
+    * https://www.klipfolio.com/blog/intuitive-dashboard-design
+    Three rules to follow in order to develop intuitive dashboards:
+    
+    1. the dashboard should read left to right
+    2. group related information together
+    3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+    
+    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
+    dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the
+    data. 
+    
+    Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The
+    content should therefore flow like words in a book. It is important to note that the information at the top of the page
+    does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data
+    could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are
+    often used as a quick convenient way to look up data.
+    
+    Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to
+    have to search in different areas to find the information they need.
+    
+    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously
+    observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories
+    need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change
+    together.
+    
+    
+  + Theoretical background of data visualization
+  
+ + Theoretical background of data visualization   
+    
+      **Reference**
+
+reference-fundamentals-Tableau-Groups
+
+
 The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
 ** 2.Avoid Clutter **
@@ -57,7 +105,6 @@ reference-fundamentals-Tableau-Groups
 
 + Theoretical background of data visualization
 + Contemporary research results
- contributions
 
 ## 1. A Brief History of Data Visualization
 
