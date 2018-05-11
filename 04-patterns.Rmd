@@ -2,13 +2,6 @@
 
  + Reusable solutions to everyday data visualization questions
  + Applied by multiple members of the course
- 
-
-## 5 quick and easy data visualizations in python
- 
-https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f
-
-This article gives us an introduction of 5 quick and easy data visualizations in python with code, Its scatter plots, line plots, histograms, bar plots and box plots. 
 
 ## Why pie chart is bad: a comparison with bar chart
 
@@ -282,7 +275,8 @@ While style is one form of customization, layering unique data sets on a single 
 ### 7.Keep it simple
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do.
 
-References: https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
++reference: [@French]
++reference: [@Steier]
 
 ## More ways to improve your visualization design
 ### Free eBooks All Designers Should Read
@@ -316,85 +310,6 @@ References: https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f7
 
 
 ## Tips for Tableau
-Running totals
-
-Common Baseline
-
-Weighted averages
-
-Moving average
-
-Grouping by aggregates
-
-Different years comparison
-
-Appending excel sheets
-
-Bar chart totals
-
-Fixed axis when re-drawing charts
-
-Auto-fitting screen behavior depending on data selection 
-
-References: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
-
-
-#Tips to improve Data Visualization 
-1.Comparison
-
-Include a zero baseline if possibleAlthough a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances;
-Always choose the most efficient visualization;
-Watch your placement
-You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost;
-Tell the whole story
-Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
-
-2.Copy
-
-Don’t over explain
-If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it;
-Keep chart and graph headers simple and to the point
-There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension;
-Use callouts wisely
-Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context;
-Don’t use distracting fonts or elements
-Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
-
-3.Color
-
-Use a single color to represent the same type of data;
-Watch out for positive and negative numbers
-Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind;
-Make sure there is sufficient contrast between colors;
-Avoid patterns
-Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes);
-Select colors appropriately;
-Don’t use more than 6 colors in a single layout.
-
-4.Ordering
-
-Order data intuitively
-There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value;
-Order consistently;
-Order evenly
-Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
-
-5.Audience perspective
-
-Let the users lead;Know your audience,Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
-
-6.Use layers to tell a story
-
-While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts. 
-
-7.Keep it simple 
-
-Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do. 
-
-References: https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
-http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html
-
-#Tips for Tableau
 1. Running totals
 2. Common Baseline
 3. Weighted averages
@@ -445,90 +360,5 @@ Wordle is a toy for generating “word clouds” from text that you provide.It i
 Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 
 
-### Calendar View 
-(Redproducable code for reference)
-
-[@Calendar_Layout]
-We have all seen the calendar views in the various data products that we worked on.  Please find below an open source code that I found, this will help you replicate and create your own calendar:
-[@CalendarView]
- 
-This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
-
-<!DOCTYPE html>
-<body>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
-var width = 960,
-    height = 136,
-    cellSize = 17;
-
-var formatPercent = d3.format(".1%");
-
-var color = d3.scaleQuantize()
-    .domain([-0.05, 0.05])
-    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
-
-var svg = d3.select("body")
-  .selectAll("svg")
-  .data(d3.range(1990, 2011))
-  .enter().append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
-
-svg.append("text")
-    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", 10)
-    .attr("text-anchor", "middle")
-    .text(function(d) { return d; });
-
-var rect = svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#ccc")
-  .selectAll("rect")
-  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("rect")
-    .attr("width", cellSize)
-    .attr("height", cellSize)
-    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
-    .attr("y", function(d) { return d.getDay() * cellSize; })
-    .datum(d3.timeFormat("%Y-%m-%d"));
-
-svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#000")
-  .selectAll("path")
-  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("path")
-    .attr("d", pathMonth);
-
-d3.csv("dji.csv", function(error, csv) {
-  if (error) throw error;
-
-  var data = d3.nest()
-      .key(function(d) { return d.Date; })
-      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
-    .object(csv);
-
-  rect.filter(function(d) { return d in data; })
-      .attr("fill", function(d) { return color(data[d]); })
-    .append("title")
-      .text(function(d) { return d + ": " + formatPercent(data[d]); });
-});
-
-function pathMonth(t0) {
-  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
-      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
-      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
-  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
-      + "H" + w0 * cellSize + "V" + 7 * cellSize
-      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
-      + "H" + (w1 + 1) * cellSize + "V" + 0
-      + "H" + (w0 + 1) * cellSize + "Z";
-}
-</script>
 
 
