@@ -865,7 +865,7 @@ source: Tufte_2001
 4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
 
-** Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+**Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
 
 The danger of multifunctioning elements is that they  tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements.
 
@@ -875,7 +875,7 @@ Example:
 ![](/images/Tufte_figure6.png)
 source: Tufte_2001
 
-** Principle 3: maximize data density and the size of the data matrix, within reason. **
+**Principle 3: maximize data density and the size of the data matrix, within reason. **
 High performation graphics should be design with special care. As volume of data increases, data measures must shrink (smaller dots ofr scatters,thinner lines for busy time-series).
     
    Data Density = # entries in data matrix /area of data graphic
