@@ -790,7 +790,7 @@ The tool is rendering the resulting charts to HTML5/SVG, so they are compatible 
 
 
 ## Tufte's Design Principles 
-```
+
 ** Segmentation **
 Figure shows an example of this with a deceptive instance of binning given in the legend on the left.
 Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can enable users to enhance understanding and if used incorrectly can be deceptive. It is shown here binning is different in both and since in the left figure binning is not done appropriately it is difficult to come up with actual values of the data.
