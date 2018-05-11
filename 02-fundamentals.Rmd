@@ -790,7 +790,7 @@ The tool is rendering the resulting charts to HTML5/SVG, so they are compatible 
 
 
 ## Tufte's Design Principles 
-```
+
 ** Segmentation **
 Figure shows an example of this with a deceptive instance of binning given in the legend on the left.
 Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can enable users to enhance understanding and if used incorrectly can be deceptive. It is shown here binning is different in both and since in the left figure binning is not done appropriately it is difficult to come up with actual values of the data.
@@ -826,7 +826,7 @@ http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser
 
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-• Design principle of graphical excellence
+**• Design principle of graphical excellence**
 Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.Here we must follow some principles for statistical graphics:
 
 **Principle 1: Maximizing the data-ink ratio, within reason.**
@@ -855,18 +855,18 @@ source: appli_2017
 ![](/images/Tufte_figure4.png)
 source: Tufte_2001	
 
-4.boxplot redesign to maximize data ink ratio.
-![](/images/Tufte_figure5.png)
-source: Tufte_2001
+**Conclusion**
+1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
 
-Conclusion:
-  1). The graphs will be better for more information per unit of space an d per unit of ink is displayed.
-  2). Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options.
-  3). Try to figure out whehter the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
-  4). Some of the new designs may appear odd, but this is probably because we have not seen them before.
+2. Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options.
+
+3. Try to figure out whehter the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
+
+4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
 
 ** Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+
 The danger of multifunctioning elements is that they  tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements.
 
 In other words, we should try to make all present graphical elements data encoding elements.We must make every graphical element effective.
@@ -881,7 +881,7 @@ High performation graphics should be design with special care. As volume of data
    Data Density = # entries in data matrix /area of data graphic
 
 
-• Conclusion: composition of design principles
+**• Conclusion: composition of design principles**
 
 **Principle 1: Escape flatland – small multiples, parallel sequencing.**
 Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
