@@ -569,28 +569,16 @@ Also, the author listed the top 7 comparisons between data mining and data visua
  
  Building advanced analytics application with TabPy
  
- https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
- 
- @misc{great_viz,
- author = {{Bora Beran}},
- year = {2017},
- title = {Building advanced analytics applications with TabPy},
- howpublished = {\url{https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916}},
- note = {Accessed: 2018-04-28}
- }
- 
+ [@TabPy]
  
  Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
  Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
  There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
  
-+ Theoretical background of data visualization
- + Contemporary research results
+**Some best practices for visualization:**
  
- Some best practices for visualization:
- 
- http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf
+[@DataVizBestPrac]
  
  Here is free pdf to some best practices in visual analysis. It talks about the right charts to be used for various kinds of analysis. It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story. 
  
