@@ -843,17 +843,17 @@ Data-ink ratio = data-ink/total ink used to print the graphic = proportion of gr
 Examples:
 1.Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure1.png) 
-source:Tufte_2001
+(source:[@Tufte_2001])
 
 2. Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure2.png)
-source: appli_2017
+(source: [@appli_2017])
 ![](images/Tufte_figure3.png)
-source: appli_2017
+(source: [@appli_2017])
 
 3. always revise and edit.
 ![](/images/Tufte_figure4.png)
-source: Tufte_2001	
+(source:[@Tufte_2001])
 
 **Conclusion**
 1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
@@ -873,9 +873,9 @@ In other words, we should try to make all present graphical elements data encodi
 
 Example:
 ![](/images/Tufte_figure6.png)
-source: Tufte_2001
+(source:[@Tufte_2001])
 
-**Principle 3: maximize data density and the size of the data matrix, within reason. **
+**Principle 3: maximize data density and the size of the data matrix, within reason.**
 High performation graphics should be design with special care. As volume of data increases, data measures must shrink (smaller dots ofr scatters,thinner lines for busy time-series).
     
    Data Density = # entries in data matrix /area of data graphic
@@ -888,18 +888,20 @@ Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhan
 
 1. Example for small multiples.
 ![](/images/Tufte_figure8.png)
-source: Tufte_2001
+(source:[@Tufte_2001])
+
 
 2. Example for parallel sequencing
 ![](/images/Tufte_figure7.png)
-source: Tufte_2001
+(source:[@Tufte_2001])
+
 
 **Principle 2: Macro/Micro-Provide the user with both views (overview and detail).**
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 Example: 
 ![](/images/Tufte_figure9.png)
-source: Tufte_2001
+(source:[@Tufte_2001])
 
 **Principle 3: Utilize Layering & Separation.**
 Supported by Gestalt laws (The principles of grouping):
@@ -909,16 +911,16 @@ Supported by Gestalt laws (The principles of grouping):
 
 Example:
 ![](/images/Tufte_figure10.png)
-source: Tufte_2001
+(source:[@Tufte_2001])
 
 **Principle 4: Utilize narratives of space and time.**
 Tell a story of position and chronology through visual elements.
 
 Example:
 ![](/images/Tufte_figure11.png)
-source: narratives_2017
+(source: [@narratives_2017])
 ![](/images/Tufte_figure12.png)
-source: narratives_2017
+(source: [@narratives_2017])
 
 ```{r}
 @misc{Tufte_2001,
