@@ -2,6 +2,13 @@
 
  + Reusable solutions to everyday data visualization questions
  + Applied by multiple members of the course
+ 
+
+## 5 quick and easy data visualizations in python
+ 
+https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f
+
+This article gives us an introduction of 5 quick and easy data visualizations in python with code, Its scatter plots, line plots, histograms, bar plots and box plots. 
 
 ## Why pie chart is bad: a comparison with bar chart
 
@@ -9,37 +16,30 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different. See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
-```{r hickey-before, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='Are there any differences among the pollings at points A, B and C? (Source: [@hickey-pie-worst])'}
-library(knitr)
+![](images/hickey-before.jpg)
+Source: [@hickey-pie-worst]
 
-knitr::include_graphics("images/hickey-before.jpg")
-```
-
-```{r hickey-after, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='The differences can be clearly told from the bar charts. (Source: [@hickey-pie-worst])'}
-knitr::include_graphics("images/hickey-after.jpg")
-```
+![](images/hickey-after.jpg)
+Source: [@hickey-pie-worst]
 
 2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories. See figure \@ref(fig:hickey-breakdown) for example.
 
-```{r hickey-breakdown, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='It is hard to compare the size of the slides. (Source: [@hickey-pie-worst])'}
-knitr::include_graphics("images/hickey-breakdown.jpg")
-```
+![](images/hickey-breakdown.jpg)
+
+(Source: [@hickey-pie-worst])
 
 3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example.
 
-```{r hickey-3D, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='S and D (red) appears to be roughly even with EPP (teal) in a 3D pie chart. (Source: [@hickey-pie-worst])'}
-knitr::include_graphics("images/hickey-3D.jpg")
-```
+![](images/hickey-3D.jpg)
+Source: [@hickey-pie-worst]
 
 4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
 
-```{r eval=FALSE, henry-quarter, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='25 Percent and 75 Percent VS 28 Percent and 72 Percent (Source: [@henry-defense-pie])'}
-knitr::include_graphics("images/henry-quarter.jpg")
-```
+![](images/henry-quarter.png)
+(Source: [@henry-defense-pie])
 
-```{r eval=FALSE, henry-half, echo=FALSE, out.width='70%', fig.show='hold', fig.cap='50 Percent and 50 Percent VS 48 Percent and 52 Percent (Source: [@henry-defense-pie])'}
-knitr::include_graphics("images/henry-half.jpg")
-```
+![](images/henry-half.png)
+(Source: [@henry-defense-pie])
 
 ## Chose the right baseline in data visualization
 
@@ -47,7 +47,7 @@ Baseline is very important to data visualization. If baseline is different, the 
 
 Here I use the same method for a new dataset to .
 
-```{r eval=FALSE}
+```{r}
 # Create the data.
 a <-rep(c(2010,2011,2012,2013,2014,2015),each = 4)
 b <- seq(1:24)
@@ -56,7 +56,7 @@ data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
-```{r eval=FALSE}
+```{r}
 # Regular time series for sales
 par(cex.axis=0.7)
 data.ts <- ts(data$sales, start=c(2010, 1), frequency=4)
@@ -64,7 +64,7 @@ plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 ```
 
 2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
-```{r eval=FALSE}
+```{r}
  # Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
@@ -82,7 +82,7 @@ barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quate
 ```
 
 
-```{r eval=FALSE}
+```{r}
 # Year-over-year change
 curr <- as.numeric(data$sales[-(1:4)])
 prev <- as.numeric(data$sales[1:(length(data$sales)-4)])
@@ -100,7 +100,7 @@ barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annua
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
 
 3. The sales difference compare to now. **The baseline here is the current sales.**
-```{r eval=FALSE}
+```{r}
 # Relative to current 2015
 curr <- as.numeric(data$sales[length(data$sales)])
 salesDiff <- as.numeric(data$sales) - curr
@@ -116,7 +116,7 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
 4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
-```{r eval=FALSE}
+```{r}
 # Relative to first quater
 ori <- as.numeric(data$sales[1])
 salesDiff <- as.numeric(data$sales) - ori
@@ -133,7 +133,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 ```
 
 5. The difference between quater sales and mean. ** The baseline is mean now.**
-```{r eval=FALSE}
+```{r}
 # difference from the mean
 mean <- mean(as.numeric(data$sales))
 salesDiff <- as.numeric(data$sales) - mean
@@ -163,7 +163,7 @@ Patterns based on function can help you see differences and similarities more cl
 
 ### Comparisons
 
-```{r pressure1, echo=FALSE, out.width = '100%'}
+```{r pressure1, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
 ```
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
@@ -171,7 +171,7 @@ As shown in Figure 1, the bar chart with sparkline enables you to review the dat
 
 ### Connections
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
-```{r pressure2, echo=FALSE, out.width = '100%'}
+```{r pressure2, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/2.jpg')
 ```
 Similar to sounds waves, the symmetrical area charts grow equidistant from the source (the zero line) at each time interval to accentuate the returns even further. Here, the y-axis is shown in percentage. Instead of using the zero line to indicate positive or negative returns, it uses color to denote if the category returns are positive (black) or negative (red). For example, Multi Cap Russell 3000 Growth produced 20% positive returns within the one-year time period and is shown with color fill in both directions from the zero line to purposefully duplicate the large gains and specifically uses black color fill to indicate the returns are positive. As evident from the name, the symmetrical chart doubles the returns to emphasize the amount with color fill.
@@ -181,7 +181,7 @@ What else can you derive from organizing the information in a spectrum of negati
 Next, you might wonder how you would have fared if you had invested in certain funds. You might ask: if I had purchased this fund five years ago, what would my return be? And what about the YTD returns? Since market timing is key to investment choices, the following presentation of hypothetical investments represents a range of results. 
 
 ### Conclusions
-```{r pressure3, echo=FALSE, out.width = '100%'}
+```{r pressure3, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
 ```
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
@@ -291,17 +291,17 @@ From online surveys to beefed-up analytics, we’re able to gather and analyze m
 
 There’s a wealth of free resources out there in the form of handy little design ebooks.
 
-* **Design’s Iron Fist** — Jarrod Drysdale
+* **Design’s Iron Fist** — Jarrod Drysdale
 https://studiofellow.com/newsletter/
 
 The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
 
-* **The Creative Aid Handbook** — Kooroo Kooroo
+* **The Creative Aid Handbook** — Kooroo Kooroo
 https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid
 
 Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
 
-* **Designbetter.co** — InVision
+* **Designbetter.co** — InVision
 https://www.designbetter.co/
 
 InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
