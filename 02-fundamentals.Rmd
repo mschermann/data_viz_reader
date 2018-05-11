@@ -1,53 +1,74 @@
 # Fundamentals
 
 
-https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f
-
-
-This article gives us an introduction of 5 quick and easy data visualizations in python with code, Its scatter plots, line plots, histograms, bar plots and box plots. For every plot, it provided the code and also an example of the graph, it gives me a clear understanding that for different dataset and different purpose, which graph performs the best. 
-
 ## Theoretical background of data visualization
 
-**Practitioners Guide to Best Practices in Data Visualization**
-
-**Reference**
-Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data Visualization. Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
+### Practitioners Guide to Best Practices in Data Visualization**
 
 These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and then focus your visualization with respect to those questions. Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct impact in a most efficient manner. The three best practices of data visualization are as follows: - 
 
-** 1. Design and layout matter **
+  **1. Design and layout matter**
+      The design and layout should facilitate ease of understanding to convey your message to the viewer.
+      
+  **2.	Avoid Clutter**
+      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to
+      convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as
+      possible. That means, avoid ink which do not add any information.
+      
+  **3.	Use color purposely and effectively**
+      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it
+      assists in conveying your message. 
+      
+      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend
+      the topic in more meaningful and practical way in the article. It also gives various advantages of using the above 
+      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive,
+      predictive and prescriptive. 
+[@best-practices]
+  
+### Three rules to follow in order to develop intuitive dashboards:
+
+    Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A
+    dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data.
+    
+  **1. The dashboard should read left to right**
+  
+      Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+  
+  **2. Group related information together**
+  
+      Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+  
+  **3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
+    
+    Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+    
+[@intuitive-dash] 
+    
+      **Reference**
+
+reference-fundamentals-Tableau-Groups
+
+
 The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
-** 2.Avoid Clutter **
+**2.Avoid Clutter**
 Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid ink which do not add any information.
 
-** 3.Use color purposely and effectively **
+**3.Use color purposely and effectively**
 Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists in conveying your message. 
 
 The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and prescriptive. 
 
-https://www.klipfolio.com/blog/intuitive-dashboard-design
+### Fundamental Components of Design
 
-Three rules to follow in order to develop intuitive dashboards:
-
-1. the dashboard should read left to right
-2. group related information together
-3. find relationships between seemingly unrelated areas and display visuals together to show the relationship.
-
-
-Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data.Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
-
-Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data is trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
-
-## Fundamental Components of Design
-Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the 9 principles of design from graphic designer Melissa Anderson's article: https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/
+Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the 9 principles of design from graphic designer Melissa Anderson's article.
 
 Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualiaztion distributed evenly. And it important to remember the non-data elements, such as a logo, title, caption, etc., that can affect the balance of the display. Another closely related component to balance is variety which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.
 
 Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization andremain critical of how others use proportion in their visualization.
 
 Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography I understand it is key to be concious of what I am drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
-
+[@design_princ]
 
 **A Brief History of Data Visualization **
 
@@ -57,7 +78,6 @@ reference-fundamentals-Tableau-Groups
 
 + Theoretical background of data visualization
 + Contemporary research results
- contributions
 
 ## 1. A Brief History of Data Visualization
 
@@ -770,19 +790,46 @@ The tool is rendering the resulting charts to HTML5/SVG, so they are compatible 
 
 
 ## Tufte's Design Principles 
-```
-@misc{Tufte_2001,
-author = {{Edward R.Tufte}},
-year = {2001},
-title = {The Visual Display of Quantitative Information(Second Edition)},
-note = {Accessed: 2018-05-07}
-}
-```
-A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects:efficiency, complexity, structure, density and beauty. We also should consider the audience whether they will be confused about the design.Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.
 
-Here we must follow some principles for statistical graphics:
+** Segmentation **
+Figure shows an example of this with a deceptive instance of binning given in the legend on the left.
+Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can enable users to enhance understanding and if used incorrectly can be deceptive. It is shown here binning is different in both and since in the left figure binning is not done appropriately it is difficult to come up with actual values of the data.
 
-###Principle 1: Maximizing the data-ink ratio, within reason.
+Figure 3:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Segmentation1.jpg')
+```
+
+** Graph **
+Two graphs that are most often misrepresented are pie-charts and maps. The author explains that in the following figure Pie charts can’t be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers weren’t given.
+
+Figure 4:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./PieCharts.jpg')
+```
+
+The author then states that when showing spatial data analysis always show population density when visualizing values that are person-dependent. On a heat map where color signifies quantity, The author suggests that a user will be drawn to the colors that a legend indicates are most extreme. 
+In following figure, areas that are darkest are simply the most population-dense regions of the United States. Without accounting for population density, the newly created map may look the same as hundreds of maps bearing a striking resemblance to the figure, which are falsely considered informative and are regularly shared across social media sites.
+
+Figure 5:
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./Maps1.jpg')
+```
+
+The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
+
+
+http://paristech.com/blog/data-visualization-best-practices/
+http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+
+# Tufte's Design Principles 
+
+A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
+
+**• Design principle of graphical excellence**
+Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.Here we must follow some principles for statistical graphics:
+
+**Principle 1: Maximizing the data-ink ratio, within reason.**
 
 Data-ink is the non-erasable core of a graphic, the non-redundant inkarranged in response to variation in the numbers represented.
 
@@ -796,74 +843,114 @@ Data-ink ratio = data-ink/total ink used to print the graphic = proportion of gr
 Examples:
 1.Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure1.png) 
-source:Tufte_2001
+(source:[@Tufte_2001])
 
 2. Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure2.png)
-source: appli_2017
+(source: [@appli_2017])
 ![](images/Tufte_figure3.png)
-source: appli_2017
-```
-@misc{appli_2017,
-author = {{plotly}},
-year = {2017},
-title = {Maximizing the Data-Ink Ratio in Dashboards and Slide Decks},
-howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
-note = {Accessed: 2018-05-07}
-} 
-```
+(source: [@appli_2017])
 
 3. always revise and edit.
-![](images/Tufte_figure4.png)
-source: appli_2017
+![](/images/Tufte_figure4.png)
+(source:[@Tufte_2001])
 
-4.boxplot redesign to maximize data ink ratio.
-![](images/Tufte_figure5.png)
-source: appli_2017
+**Conclusion**
+1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
 
-### Principle 2: Multifuncitioning elements
-It is that “Mobilize every graphical element, perhaps several times over, to show the data” --Edward Tufte.
-In other words, we should try to make all present graphical elements data encoding elements.
+2. Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options.
+
+3. Try to figure out whehter the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
+
+4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
+
+
+**Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+
+The danger of multifunctioning elements is that they  tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements.
+
+In other words, we should try to make all present graphical elements data encoding elements.We must make every graphical element effective.
 
 Example:
-figure 5
- 
-### Principle 3: maximize data density
-Maximize data density and the size of the data matrix within reason.
-Data Density = # entries in data matrix /area of data graphic
- 
- 1. Maximize data density and the size of the data matrix within reason
- Example:
- figure 6
- 
- 2. Reduce the size of the graphic = the Shrink Principle.
- Example:
- figure 7
- 
- Composition of design principles
-1. Escape flatland – small multiples, parallel sequencing
-Data is multivariate.Doesn’t necessarily mean 3D projection
-How can we enhance mulitvariate data on inherently 2D surfaces?
-figure 8 small multiples
-figure 9 parallel sequencing
+![](/images/Tufte_figure6.png)
+(source:[@Tufte_2001])
 
-2. Macro/Micro-Provide the user with both views (overview and detail)
-figure 10 Envisioning Information
+**Principle 3: maximize data density and the size of the data matrix, within reason.**
+High performation graphics should be design with special care. As volume of data increases, data measures must shrink (smaller dots ofr scatters,thinner lines for busy time-series).
+    
+   Data Density = # entries in data matrix /area of data graphic
 
-3.Utilize Layering & Separation
-Supported by Gestalt laws
-•Grouping with colors
-•Using Color to separate
-•1+1 = 3 (clutter)
-figure 11 Utilize Layering & Separation
 
-4.Utilize narratives of space and time
+**• Conclusion: composition of design principles**
+
+**Principle 1: Escape flatland – small multiples, parallel sequencing.**
+Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
+
+1. Example for small multiples.
+![](/images/Tufte_figure8.png)
+(source:[@Tufte_2001])
+
+
+2. Example for parallel sequencing
+![](/images/Tufte_figure7.png)
+(source:[@Tufte_2001])
+
+
+**Principle 2: Macro/Micro-Provide the user with both views (overview and detail).**
+Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
+
+Example: 
+![](/images/Tufte_figure9.png)
+(source:[@Tufte_2001])
+
+**Principle 3: Utilize Layering & Separation.**
+Supported by Gestalt laws (The principles of grouping):
+  1. Grouping with colors
+  2. Using Color to separate
+  3. 1+1 = 3 (clutter)
+
+Example:
+![](/images/Tufte_figure10.png)
+(source:[@Tufte_2001])
+
+**Principle 4: Utilize narratives of space and time.**
 Tell a story of position and chronology through visual elements.
-figure 12 
-https://guns.periscopic.com/?year=2013
+
+Example:
+![](/images/Tufte_figure11.png)
+(source: [@narratives_2017])
+![](/images/Tufte_figure12.png)
+(source: [@narratives_2017])
+
+```{r}
+@misc{Tufte_2001,
+  author = {{Edward R.Tufte}},
+  year = {2001},
+  title = {The Visual Display of Quantitative Information(Second Edition)},
+  note = {Accessed: 2018-05-07}
+}
+```
+
+```{r}
+@misc{appli_2017,
+  author = {{plotly}},
+  year = {2017},
+  title = {Maximizing the Data-Ink Ratio in Dashboards and Slide Decks},
+  howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
+  note = {Accessed: 2018-05-07}
+}	 
+```	 
+
+```{r}
+@misc{narratives_2017,
+  title = {US Gun death in 2010 and 2013},
+  howpublished = {\url{https://guns.periscopic.com/?year=2013}},
+  note = {Accessed: 2018-05-07}
+}	 
+```
 
 
-
+=======
 Ref:https://www.tableau.com/about/blog/2016/5/5-tips-effective-visual-data-communication-54174
 
  
@@ -891,5 +978,6 @@ Maps: Use of maps can be tricky. Geographical data doesn't imply a map. Maps can
 5 Second Rule: Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer
 
 Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+
 
 
