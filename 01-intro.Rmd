@@ -1,43 +1,50 @@
-# Introduction {#intro}
+# Introduction
 
-**#Data Visualization** 
+## What is Data Visualization? 
+
 Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.
 
-Plot links:
-https://datavizcatalogue.com/search.html
+According to Friedman (2008) the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
 
-https://infogram.com/page/data-visualization
-
-
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-https://research.tableau.com/user/robert-kosara
-https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-
-https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html
-
-The article , written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
-The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criterias that a data visualization should satisfy to be an effective visualization. These criterias and their brief meanings are as follows:
-1.	Informative: The visualization should be able to convey the information of the data to the reader
-2.	Efficient: The visualization should not be ambiguous.
-3.	Appealing: The visualization should be captivating and visually pleasing. 
-4.	(Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
-
-Chris goes on to give various day-to-day examples where visualization gives a better understanding of the data.
-One extremely simple example used by Chris is that of an energy bill. Chris states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Chris states that consumers are more likely to analyze and understand the visualizations before reading further along. 
-The article ends with Chris emphasizing the importance of data visualizations in our businesses as well as in our daily lives.
-According to me, the article gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. It shows that data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
-
-  
-  
-https://www.interaction-design.org/literature/article/information-visualization-a-brief-introduction
-This article is a brief introduction to Information Visualization. It explains briefly how information visualization helps to make sense of data, how it helps to find relationships between data and confirm ideas.
+[@viz]
 
 
+## Information Visualization
+
+Information visualization, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives. From business decision making to simple route navigation – there’s a huge (and growing) need for data to be presented so that it delivers value.
+
+This article is a brief introduction to Information Visualization. It explains briefly how information visualization helps to make sense of data, how it helps to find relationships between data and confirm ideas. Some examples and common uses of information visualization is discussed below: 
+
+[@info_viz]
 
 
+## Why is Data Visualization Important?
+
+Today more than ever, Data Visualization represents a simple, user-friendly approach to understand data and make business decisions quickly. Here are some articles on why it is important today.
+
+**Chris Pittenturf's article on the importance of data visualization to businesses**
+
+The article, written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
+
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Pittenturf goes on to explain the basic criterias that a data visualization should satisfy to be an effective visualization. The criterias and their brief meanings are as follows:
+
+1. Informative: The visualization should be able to convey the information of the data to the reader
+2. Efficient: The visualization should not be ambiguous.
+3. Appealing: The visualization should be captivating and visually pleasing. 
+4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
+
+Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data.
+
+One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Consumers are more likely to analyze and understand the visualizations before reading further along. 
+
+The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.
+
+This article gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. It shows that data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing the data.
+
+[@viz_importance]
 
 
-About David McCandless’s TED talk on data visualization: https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization
+**About David McCandless’s TED talk on data visualization:** 
 
 Visuals help us understand concepts that would otherwise be difficult to contextualize—for example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes.  Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way.  Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details.  And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns.  
 
@@ -46,7 +53,71 @@ The billion dollar-o-gram is extremely readable and rather pretty, but it seems 
 Beyond its ability to make information from several different sources and in large amounts more quickly and easily understood, data visualization can also reveal smaller interesting patterns—allowing us to play the “data detective” as McCandless calls it.  In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool.    
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information.  This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder.  So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design.  
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+[@viz_ted]
+
+
+<!--
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).-->
+
+
+## Key Figures in the History of Data Visualization
+
+The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. Below we have some figures names with their famous works, and you can find other stories in the article.
+
+**William Playfair (1759–1823)**
+
+William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published The Commercial and Political Atlas in 1786.
+
+This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
+
+![](images/Playfair.png)
+
+
+**John Snow (1813–1858)**
+
+In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Street area had seen over 600 dead, and the remaining residents and business owners had largely fled the terrible disease.
+
+Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, helping to find the cause of the infection.
+
+![](images/Snow.png)
+
+
+**Charles Joseph Minard (1781–1870)**
+
+Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 displaying the dramatic loss of his army over the advance on Moscow and the following retreat.
+
+You can see how many soldiers are still marching and how many died. Drawn in 1869, it is described by many as the best statistical graphic ever drawn. It represents the earliest beginnings of data journalism.
+
+![](images/Minard.png)
+
+[@history_viz]
+
+
+## Useful Links on Data Visualization Trends, Tutorials and Research Papers
+
+[@charts_viz] - You can find different types of plots used in data visualization at  [Data Catalogue](https://datavizcatalogue.com/search.html).
+
+[@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
+
+[@research_viz] - About Robert Kosara and his reserach papers.
+
+[@twitter_Kosara] - Robert Kosara's twitter handle.
+
+[@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
+
+
+**Infogram**
+
+An infogram helps a user making different types of plots and learning the art of visualization. 
+Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
+
+[@infogram]
+
+<!--
+Basic Guidelines:
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.-->
+
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
