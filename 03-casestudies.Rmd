@@ -420,14 +420,14 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@one_var_change], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
+And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@scaling_issues], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 ```
-@misc{one_var_change,
+@misc{scaling_issues,
   author = {{Naomi Robbins}},
   year = {2012},	
-  title = {Misleading Graphs: Displaying a Change in One Variable Using Area or Volume},
-  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781}},
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
   note = {Accessed: 2018-05-12}
 }
 ```
