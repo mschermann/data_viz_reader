@@ -37,6 +37,8 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
 
+## Choose the right baseline in data visualization
+
 ## 2. Chose the right baseline in data visualization
 
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
@@ -51,6 +53,7 @@ c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,1
 data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
+
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
@@ -61,7 +64,7 @@ plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 
 2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
 ```{r}
- # Quaterly change
+# Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
 quaChange <- 100 * round( (curr-prev) / prev, 2 )
@@ -73,7 +76,7 @@ barCols <- sapply(quaChange,
 			return("gray")
 		}
 	})
-#monChange.ts <- ts(monChange, start=c(1976, 2), frequency=12)
+
 barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quaterly")
 ```
 
@@ -91,6 +94,7 @@ barCols <- sapply(annChange,
 			return("gray")
 		}
 	})
+
 barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annual")
 ```
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
@@ -111,6 +115,7 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
+
 4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
 ```{r}
 # Relative to first quater
@@ -144,6 +149,18 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from mean")
 ```
+
+So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+
+```{}
+@misc{baseline,
+  author = {{Nathan Yau}},
+  title = {The Baseline and Working with Time Series in R},
+  howpublished = {\url{https://flowingdata.com/2013/11/26/the-baseline/}},
+  note = {Accessed: 2018-05-11}
+}	 
+```	
+
 
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.[@baseline]
