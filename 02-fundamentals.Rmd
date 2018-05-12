@@ -922,7 +922,7 @@ Example:
 ![](/images/Tufte_figure12.png)
 (source: [@narratives_2017])
 
-```{r}
+```{}
 @misc{Tufte_2001,
   author = {{Edward R.Tufte}},
   year = {2001},
@@ -931,7 +931,7 @@ Example:
 }
 ```
 
-```{r}
+```{}
 @misc{appli_2017,
   author = {{plotly}},
   year = {2017},
@@ -941,7 +941,7 @@ Example:
 }	 
 ```	 
 
-```{r}
+```{}
 @misc{narratives_2017,
   title = {US Gun death in 2010 and 2013},
   howpublished = {\url{https://guns.periscopic.com/?year=2013}},

@@ -154,7 +154,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
 
-```{r}
+```{}
 @misc{baseline,
   author = {{Nathan Yau}},
   title = {The Baseline and Working with Time Series in R},
