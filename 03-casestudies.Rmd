@@ -1,21 +1,19 @@
-
 # Case Studies
 
+**Description and Replication of Great Examples of Data Visualization**
+**Collections of Great Examples of Data Visualization**
 
-Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. Here are some very useful case studies:
+Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. This chapter contains some very useful case studies. Many of the case studies below come from the following articles:
 
-**Description and replication of great examples of data visualization**
-
-## Collections of great examples of data visualization
-
-
-Many of the case studies below come from the following articles:
+Visualization is like art. It speaks where words fail. There are phenomenas like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. 
+The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. 
+According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
 
 ## 1. 15 Cool Information Graphics and Data Viz from 2016 [@cool_data]
 
 The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.And the following six examples are from the articles:
 
-### 1.1 Connecting the Dots Behind the 2016 Presidential Candidates
+## 1.1 Connecting the Dots Behind the Election
 
 This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones.
 
@@ -197,8 +195,7 @@ Map visualization is very important for companies like Uber that needs to track 
 Reference: [@uber_maps]
 
 ## 10. Linguistic Concepts
-
-14. **Case Study on computational linguistics**
+**Case Study on computational linguistics**
 
 Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 
@@ -231,6 +228,7 @@ Reference: [@recession_economy]
 ## 13. Vizwiz blog: case studies about how to improve your visualizations
 
 This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical, but also full of insights.
+
 An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 
 My favorite part of this blog is so called “Makeover Monday”, which will develop a new visualization based on an original one. 
@@ -267,16 +265,19 @@ Reference: [@Satellite]
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
 
 ### 14.2. Simpson’s Paradox
+
 + http://vudlab.com/simpsons/
 
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual look at data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. That’s called a Simpson’s Paradox. 
 
 ### 14.3. Charles Minard’s Visualization of Napoleon’s 1812 March
+
 + https://www.edwardtufte.com/tufte/minard
 
 This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.
 
 ### 14.4. Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+
 reference[@hans_rosling]
 
 ```
@@ -291,11 +292,13 @@ reference[@hans_rosling]
 Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. One segment in particular is pretty mind-blowing. In “200 Countries, 200 Years, 4 Minutes,” Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes.
 
 ### 14.5. Music Timeline
+
 + https://research.google.com/bigpicture/music/
 
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates. 
 
 ### 14.6. State of the Union 2014 Minute by Minute on Twitter
+
 + http://twitter.github.io/interactive/sotu2014/#p1
 
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state. Pretty powerful.
@@ -327,11 +330,13 @@ Using data from NYC Open Data, this interactive visualization shows the variety 
 CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 ### 14.9. Goldilocks Exoplanets
+
 + https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
 ### 14.10 Washington Wizards’ Shooting Stars
+
 [@basketball]
 ```
 @misc{basketball,
@@ -345,6 +350,7 @@ Using data from the Planetary Habitability Laboratory at the University of Puert
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
 
 ### 14.11 U.S. Migration Patterns 
+
 [@migration]
 ```
 @misc{migration,
@@ -358,6 +364,7 @@ This detailed data visualization demonstrates D.C.’s basketball team’s shoot
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to play around with. You can see where people living in each state were born, and to what states people move from others. 
 
 ### 14.12 Selfie City
+
 [@selfie]
 ```
 @misc{selfie,
@@ -371,6 +378,7 @@ The New York Times data team mapped out Americans’ moving patterns from 1900 t
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in, say, New York and Berlin, as well as those between men and women across the world.
 
 ### 14.13 Global Carbon Emissions
+
 [@CO2_emission]
 ```
 @misc{CO2_emission,
@@ -385,13 +393,15 @@ This data visualization, based on data from the World Resource Institute’s Cli
 
 ## 15. Other sources of great visualization:
 
-Tableau: Viz of the Day
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
+
+**Tableau: Viz of the Day**
 
 Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
 
 **Some examples from Tableau Gallery:** 
 
-1. Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
 ## 16. Deceptive data graphs examples
 
@@ -415,7 +425,7 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
+And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@scaling_issues], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 ### 16.3 Data is left out
 
@@ -428,13 +438,17 @@ And for the figure 1 used in this article: Misleading Graphs: Displaying a Chang
   note = {Accessed: 2018-05-12}
 }
 ```
+
 Only includes part of the data like the following graph which uses temperatures of the first half of the year to prove it was rising dramatically.
 
 <!--[](http://www.statisticshowto.com/wp-content/uploads/2014/01/new-haven-ct-300x145.jpg) -->
 
 For more examples and inspirations on misleading graphs or deceptive graphs refer the following articles :
 
-+ graphs not drawn to scale:[@scaling_issues] 
+
+a) Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
+
+
 ```
 @misc{scaling_issues,
   author = {{Naomi Robbins}},
@@ -445,7 +459,8 @@ For more examples and inspirations on misleading graphs or deceptive graphs refe
 }
 ```
 
-+ bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
+
+b) Graphs not drawn to scale:[@scaling_issues] 
 ```
 @misc{whats_wrong,
   author = {{Naomi Robbins}},
@@ -455,6 +470,7 @@ For more examples and inspirations on misleading graphs or deceptive graphs refe
   note = {Accessed: 2018-05-12}
 }
 ```
+
 ### 16.4 Treating correlation as causation
 
 Even if the labels and data in your graph is correct, it does not mean that the conclusion is logically correct. A correlation between X and Y does not automatically indicate that the change in one variable is caused by the change in the values of the other one, whereas the causation means that one event is the result of the occurrence of the other event. From the graph, we should bear in mind that it only presents the correlation between ice cream sold and murders, rather than causation.
@@ -475,8 +491,6 @@ reduction.
 **Data Augmentation**
 [@outliar]
 
-## 18. Data Augmentation
-
 Computer interfacing is changing everyday, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
 
 Creating a mechanism to become aware of the user’s intention by analyzing the gaze through reactive design, we achieved developing a complex system for demonstrating massive amount of data and organizing it in a spatial system. The user could walk through and explore the data and interact with different data visualizations. Moving through space is used to provide different levels of detail for specific data through Z axis.
@@ -495,7 +509,9 @@ By using proper visualization, it is possible to discover a solution more easily
   note = {Accessed: 2018-05-12}
 }
 ```
-## 19. Outlier Detection
+## 18. Outlier Detection
+
+We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect. Ref:[@outliar]. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. 
 
 A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
 
@@ -520,13 +536,13 @@ Detection of Outliers is prformed using:
 + Multivariate approach
 + Multivariate Model Approach
 
-## 20. Genetic Network Reconstruction
+## 19. Genetic Network Reconstruction
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-## 21. Two Awesome Visualists 
+## 20. Two Awesome Visualists 
 
-### 21.1. DAVID McCANDLESS
+### 20.1. DAVID McCANDLESS
 
 David McCandless is a British data-journalist and his blog “Information is Beautiful” [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
 A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
@@ -543,13 +559,13 @@ Colombia    : Happiness
 
 The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
 
-### 22.2. HANS ROSLING 
+### 20.2. HANS ROSLING 
 
 Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is “Asia’s Rise: How and When” [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
 
 Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
-## 23. Using Shapes as Filters in Tableau When Your Fields Are Measures
+## 21. Using Shapes as Filters in Tableau When Your Fields Are Measures
 
 Reference: [@interworks]
 
@@ -561,7 +577,7 @@ https://www.targit.com/en/blog/2015/02/data-visualization-scatter-chart
 
 This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
 
-## 24. Visualization of big data security: a case study on the KDD99 cup data set
+## 22. Visualization of big data security: a case study on the KDD99 cup data set
 
 This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 data set:
 
