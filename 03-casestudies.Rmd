@@ -282,8 +282,17 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state. Pretty powerful.
 
-18.7. NYC Street Trees
-+ https://www.cloudred.com/labprojects/nyctrees/#about
+18.7. An Interactive Visualization of NYC Street Trees
+[@trees]
+```
+@misc{trees,
+  author = {{Cristian Zapata}},
+  year = {2014},
+  title = {An Interactive Visualization of NYC Street Trees},
+  howpublished = {\url{https://www.cloudred.com/labprojects/nyctrees/#about}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
 
