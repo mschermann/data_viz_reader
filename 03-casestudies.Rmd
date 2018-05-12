@@ -22,7 +22,7 @@ According to me, it is really interesting to see that almost anything in this wo
 
 The author picked top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
 
-**More Detailed Case Studies**
+**Collections of Great Examples of Data Visualization**
 
 ## 3.1 Connecting the Dots Behind the Election
 
@@ -375,6 +375,7 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
 
+
 ### 3.18.14 Global Carbon Emissions
 + https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive
 
@@ -392,7 +393,7 @@ Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emo
 
 ## 3.20 Case Studies for Deceptive Data Graphs 
 
-references: **Misleading Graphs: Real Life Examples http://www.statisticshowto.com/misleading-graphs/**
+Reference: http://www.statisticshowto.com/misleading-graphs/ (Stephanie, Jan 24, 2014)
 
 Misleading graphs are sometimes deliberately misleading and sometimes it’s just a case of people not understanding the data behind the graph they create. But some real life misleading graphs go above and beyond the classic types. Some are intended to mislead, others are intended to shock. The “classic” types of misleading graphs include cases where:
 
@@ -432,24 +433,28 @@ Only includes part of the data like the following graph which uses temperatures 
 
 For more examples and inspirations on misleading graphs or deceptive graphs refer the following articles :
 
-a) Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
-```
-@misc{whats_wrong,
-  author = {{Naomi Robbins}},
-  year = {2011},	
-  title = {What’s Wrong With this Graph?},
-  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33}},
-  note = {Accessed: 2018-05-12}
-}
-```
 
-b) Graphs not drawn to scale:[@scaling_issues] 
+a) Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
+
+
 ```
 @misc{scaling_issues,
   author = {{Naomi Robbins}},
   year = {2012},	
   title = {Misleading Graphs: Figures Not Drawn to Scale?},
   howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
+
+b) Graphs not drawn to scale:[@scaling_issues] 
+```
+@misc{whats_wrong,
+  author = {{Naomi Robbins}},
+  year = {2011},	
+  title = {What’s Wrong With this Graph?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33}},
   note = {Accessed: 2018-05-12}
 }
 ```
@@ -472,7 +477,6 @@ There are ways to use data visualization at every level of an organization. Thes
 Data preprocessing can greatly improve the quality of data mining results, no matter whether an algorithmic or a visual approach is considered. There are four different aspects of data preprocessing: Data cleaning, data integration, data transformation and data
 reduction. 
 
-
 ### Data Augmentation
 
 Computer interfacing is changing everyday, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
@@ -493,7 +497,9 @@ By using proper visualization, it is possible to discover a solution more easily
 }
 ```
 
+
 ### Outlier Detection
+
 We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect. Ref:[@outliar]. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. 
 
 A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
@@ -525,7 +531,6 @@ Detection of Outliers is prformed using:
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-##Graph designs by Visualists
 
 ## 3.22 Genetic Network Reconstruction
 
@@ -537,7 +542,6 @@ Data visualization techniques are used to reconstruct genetic networks from geno
 David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
 
 A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
-
 
 Some of the interesting findings are as follows:
 
