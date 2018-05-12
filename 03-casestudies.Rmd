@@ -22,6 +22,17 @@ The author picked top 10 projects for the best data visualization of 2015, for e
 
 
 
+15 Cool Information Graphics and Data Viz from 2016[@cool_data]
+```
+@misc{cool_data,
+  author = {{Kayla Darling}},
+  year = {2017},
+  title = {15 Cool Information Graphics and Data Viz from 2016},
+  howpublished = {\url{http://blog.visme.co/best-information-graphics-2016/#e030mFiF7wCpk7Ld.99}},
+  note = {Accessed: 2018-05-12}
+```
+
+
 ## 2. Connecting the Dots Behind the Election
 
 This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones.
@@ -60,10 +71,24 @@ The simplicity of this visualization really helps the information get across and
 +reference: [@spendingtime]
 
 
+<<<<<<< HEAD
+5. **Is it Better to Rent or Buy?**
+reference: [@rent_or_buy]
+```
+@misc{rent_or_buy,
+  author = {{Mike Bostock,Shan Carter, and Archie Tse}},
+  year = {2014},
+  title = {Is It Better to Rent or Buy?},
+  howpublished = {\url{https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0}},
+  note = {Accessed: 2018-05-12}
+}
+```
+=======
 ## 6.Is it Better to Rent or Buy?
 
 https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0
 
+>>>>>>> b127e42bab4f82f864c860a07803b4193e9d6d6f
 The calculator includes several sloping charts. Each chart includes a factor that’ll affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates. A movable scale along the bottom of each chart allows you to enter different data, changing the “cost of rent per month” on the side. If you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
 
 This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
