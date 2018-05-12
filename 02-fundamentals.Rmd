@@ -410,7 +410,7 @@ All in all, this article has an interesting take on a somewhat less fashionable 
 
 [@data-insights]
 
-https://www.educba.com/data-mining-vs-data-visualization/
+[@DataMiningVsViz]
 
 This article gives me a clear understanding of data mining and data visualization.
 
@@ -470,7 +470,7 @@ discussion is either ephemeral or non-public. So ongoing discussion might explic
 3. Research Methods Training
 Developing a core curriculum for data visualization research might help both cases, guiding students and instructors
 alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS
-faculty organized a new course on Designing Computer Science Experiments(http://sing.stanford.edu/cs303-sp11/). Also, online
+faculty organized a new course on Designing Computer Science Experiments([@StanfordExp]). Also, online
 resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online
 courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for
 reforming statistical practice.
@@ -501,14 +501,14 @@ reforming statistical practice.
  
 
 Avoiding Common Mistakes with Time Series
-https://www.svds.com/avoiding-common-mistakes-with-time-series/
+[@TimeSeries]
 
 This article explains how time series data visualization can sometimes be deceptive.It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 master
 
 
 ## Corporate Scorecards and Data Visualization
-- (reference: http://www.boostlabs.com/corporate-scorecards-data-visualization/)
+- (reference: [@Boostlabs])
 
 Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process–easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star. 
 
@@ -685,7 +685,7 @@ Google is the synonym for leadership nowadays, and just as Google Chrome is undo
 Google chart offers a plethora of visualization types, from simpler pie charts and time series, all the way up to multi-dimensional interactive matrixes. Adjustment options are numerous and an extensive help section is available if deep customization is requested.
 
 The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard.
-[https://towardsdatascience.com/top-4-popular-big-data-visualization-tools-4ee945fe207d]
+[@Top4VizTools]
 
 
 ## Tufte's Design Principles 
@@ -718,8 +718,8 @@ knitr::include_graphics('./Maps1.jpg')
 The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
 
 
-http://paristech.com/blog/data-visualization-best-practices/
-http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+[@VizBP]
+[@ExtremePre]
 
 # Tufte's Design Principles 
 
@@ -850,9 +850,7 @@ Example:
 
 
 =======
-Ref:https://www.tableau.com/about/blog/2016/5/5-tips-effective-visual-data-communication-54174
-
- 
+Ref:[@DataVizTips]
 
 We want visualizations to speak about the data. This article is about some tips that can help visualizations to speak:
 
