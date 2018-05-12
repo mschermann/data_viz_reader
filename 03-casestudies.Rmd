@@ -15,18 +15,18 @@ Case studies contain valuable information about development records. The evaluat
 
 Many of the case studies below come from the following articles:
 
-**15 Cool Information Graphics and Data Viz from 2016** [@cool_data]
++ **15 Cool Information Graphics and Data Viz from 2016** [@cool_data]
 
-The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.
+  + The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.
 
-**16 Captivating Data Visualization Examples** [@int_viz_1]
++ **16 Captivating Data Visualization Examples** [@int_viz_1]
 
-**15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events** [@int_viz_2]
++ **15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events** [@int_viz_2]
 Visualization is like art. It speaks where words fail. There are phenomenas like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. 
 The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. 
 According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
 
-**10 Best Data Visualization Projects of 2015** [@10_Best]
++ **10 Best Data Visualization Projects of 2015** [@10_Best]
 
 The author picked top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
 
@@ -243,7 +243,6 @@ My favorite part of this blog is so called “Makeover Monday”, which will dev
 For example, the author re-designed “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out “what works well”, “what could be improved” and also his goals for the new visualization (ref: http://www.vizwiz.com/2018/04/malaria.html)
 That’s how you can learn all the insight and reason behind a good visualization.
 
-
 Besides, this blog also includes great tips and showcases for Tableau.
 
 ## 18. 15 Data Visualizations That Will Blow Your Mind
@@ -392,7 +391,7 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
 
 18.14. Global Carbon Emissions
-+ https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive
++ Reference: https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive (Dec 1, 2014)
 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
 
@@ -405,12 +404,12 @@ Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/
 
 **Some examples from Tableau Gallery:** 
 
-i) Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+1. Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
 
 ## 20. Deceptive data graphs examples
 
-references: **Misleading Graphs: Real Life Examples http://www.statisticshowto.com/misleading-graphs/**
+Reference: http://www.statisticshowto.com/misleading-graphs/ (Stephanie, Jan 24, 2014)
 
 Misleading graphs are sometimes deliberately misleading and sometimes it’s just a case of people not understanding the data behind the graph they create. But some real life misleading graphs go above and beyond the classic types. Some are intended to mislead, others are intended to shock. The “classic” types of misleading graphs include cases where:
 
@@ -431,16 +430,7 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
-
-
 And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
-
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@one_var_change], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
-
-
-
-
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@scaling_issues], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 ```
 @misc{scaling_issues,
@@ -459,11 +449,16 @@ Only includes part of the data like the following graph which uses temperatures 
 
 For more examples and inspirations on misleading graphs or deceptive graphs refer the following articles :
 
-+ bar charts without zero & evenly spaced tick marks for uneven intervals: Ref: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
-
-
-+ graphs not drawn to scale: 
-Ref: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
++ graphs not drawn to scale:[@scaling_issues] 
+```
+@misc{scaling_issues,
+  author = {{Naomi Robbins}},
+  year = {2012},	
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 + bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
 ```
@@ -472,17 +467,6 @@ Ref: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figu
   year = {2011},	
   title = {What’s Wrong With this Graph?},
   howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33}},
-  note = {Accessed: 2018-05-12}
-}
-```
-
-+ graphs not drawn to scale:[@scaling_issues] 
-```
-@misc{scaling_issues,
-  author = {{Naomi Robbins}},
-  year = {2012},	
-  title = {Misleading Graphs: Figures Not Drawn to Scale?},
-  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
   note = {Accessed: 2018-05-12}
 }
 ```
@@ -533,7 +517,6 @@ By using proper visualization, it is possible to discover a solution more easily
 }
 ```
 
-
 ###Outlier Detection
 We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect. Ref:[@outliar]. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. 
 
@@ -569,7 +552,6 @@ Detection of Outliers is prformed using:
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-##Graph designs by Visualists
 
 ## 24. Genetic Network Reconstruction
 
@@ -581,7 +563,6 @@ Data visualization techniques are used to reconstruct genetic networks from geno
 David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
 
 A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
-
 
 Some of the interesting findings are as follows:
 
