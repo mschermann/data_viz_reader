@@ -2,15 +2,8 @@
 
  + Reusable solutions to everyday data visualization questions
  + Applied by multiple members of the course
- 
 
-## 5 quick and easy data visualizations in python
- 
-https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f
-
-This article gives us an introduction of 5 quick and easy data visualizations in python with code, Its scatter plots, line plots, histograms, bar plots and box plots. 
-
-## Why pie chart is bad: a comparison with bar chart
+## 1. Why pie chart is bad: a comparison with bar chart
 
 Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
 
@@ -41,7 +34,7 @@ Source: [@hickey-pie-worst]
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
 
-## Chose the right baseline in data visualization
+## 2. Chose the right baseline in data visualization
 
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
@@ -55,7 +48,7 @@ c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,1
 data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
-1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
+4.1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
 par(cex.axis=0.7)
@@ -63,7 +56,7 @@ data.ts <- ts(data$sales, start=c(2010, 1), frequency=4)
 plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 ```
 
-2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
+4.2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
 ```{r}
  # Quaterly change
 curr <- as.numeric(data$sales[-1])
@@ -99,7 +92,7 @@ barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annua
 ```
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
 
-3. The sales difference compare to now. **The baseline here is the current sales.**
+4.3. The sales difference compare to now. **The baseline here is the current sales.**
 ```{r}
 # Relative to current 2015
 curr <- as.numeric(data$sales[length(data$sales)])
@@ -115,7 +108,7 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
-4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
+4.4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
 ```{r}
 # Relative to first quater
 ori <- as.numeric(data$sales[1])
@@ -132,7 +125,7 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from first quater 2010")
 ```
 
-5. The difference between quater sales and mean. ** The baseline is mean now.**
+4.5. The difference between quater sales and mean. ** The baseline is mean now.**
 ```{r}
 # difference from the mean
 mean <- mean(as.numeric(data$sales))
@@ -152,16 +145,16 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
 
-Reference: https://flowingdata.com/2013/11/26/the-baseline/
 
 
-## Using design patterns to find greater meaning in your data
+
+## 5. Using design patterns to find greater meaning in your data
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity.
 
 
 Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
 
-### Comparisons
+** 5.1 Comparisons**
 
 ```{r pressure1, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
@@ -169,7 +162,7 @@ knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
 
-### Connections
+**5.2 Connections**
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
 ```{r pressure2, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/2.jpg')
@@ -180,7 +173,7 @@ What else can you derive from organizing the information in a spectrum of negati
 
 Next, you might wonder how you would have fared if you had invested in certain funds. You might ask: if I had purchased this fund five years ago, what would my return be? And what about the YTD returns? Since market timing is key to investment choices, the following presentation of hypothetical investments represents a range of results. 
 
-### Conclusions
+**5.3 Conclusions**
 ```{r pressure3, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
 ```
@@ -188,9 +181,9 @@ In Figure 3, varied performance results become clear with a layered approach to 
 
 The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.
 
-reference: https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data
 
-## Example Visualizations of Time Series Data
+
+## 6. Example Visualizations of Time Series Data
 
 Reference: [@aya-time-series]
 
@@ -266,25 +259,26 @@ Polar area diagrams are useful for representing seasonal or cyclical time series
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since area of a circle is proportional to the square of the radius).
 
-## Tips to improve Data Visualization
-### 1.Comparison
+## 8 Tips to improve Data Visualization
+**8.1.Comparison**
 Include a zero baseline if possibleAlthough a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
-### 2.Copy
+**8.2.Copy**
 Don’t over explain If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it; Keep chart and graph headers simple and to the point There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension; Use callouts wisely Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context; Don’t use distracting fonts or elements Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
-### 3.Color
+**8.3.Color**
 Use a single color to represent the same type of data; Watch out for positive and negative numbers Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind; Make sure there is sufficient contrast between colors; Avoid patterns Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes); Select colors appropriately; Don’t use more than 6 colors in a single layout.
-### 4.Ordering
+**8.4.Ordering**
 Order data intuitively There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value; Order consistently; Order evenly Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
-### 5.Audience perspective
+**8.5.Audience perspective**
 Let the users lead;Know your audience,Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
-### 6.Use layers to tell a story
+** 8.6.Use layers to tell a story**
 While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
-### 7.Keep it simple
+**8.7.Keep it simple**
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do.
 
-References: https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
++reference: [@French]
++reference: [@Steier]
 
-## More ways to improve your visualization design
+## 9. More ways to improve your visualization design
 ### Free eBooks All Designers Should Read
 
 From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
@@ -292,109 +286,23 @@ From online surveys to beefed-up analytics, we’re able to gather and analyze m
 There’s a wealth of free resources out there in the form of handy little design ebooks.
 
 * **Design’s Iron Fist** — Jarrod Drysdale
-https://studiofellow.com/newsletter/
 
 The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
 
 * **The Creative Aid Handbook** — Kooroo Kooroo
-https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid
 
 Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
 
 * **Designbetter.co** — InVision
-https://www.designbetter.co/
 
 InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
 
 * **Type Classification**
-http://justcreative.com/featured-articles/type-classification-ebook/
 
 Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.
 
 
-References: https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762
-
-
-## Tips for Tableau
-Running totals
-
-Common Baseline
-
-Weighted averages
-
-Moving average
-
-Grouping by aggregates
-
-Different years comparison
-
-Appending excel sheets
-
-Bar chart totals
-
-Fixed axis when re-drawing charts
-
-Auto-fitting screen behavior depending on data selection 
-
-References: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
-
-
-#Tips to improve Data Visualization 
-1.Comparison
-
-Include a zero baseline if possibleAlthough a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances;
-Always choose the most efficient visualization;
-Watch your placement
-You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost;
-Tell the whole story
-Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
-
-2.Copy
-
-Don’t over explain
-If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it;
-Keep chart and graph headers simple and to the point
-There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension;
-Use callouts wisely
-Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context;
-Don’t use distracting fonts or elements
-Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
-
-3.Color
-
-Use a single color to represent the same type of data;
-Watch out for positive and negative numbers
-Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind;
-Make sure there is sufficient contrast between colors;
-Avoid patterns
-Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes);
-Select colors appropriately;
-Don’t use more than 6 colors in a single layout.
-
-4.Ordering
-
-Order data intuitively
-There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value;
-Order consistently;
-Order evenly
-Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
-
-5.Audience perspective
-
-Let the users lead;Know your audience,Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
-
-6.Use layers to tell a story
-
-While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts. 
-
-7.Keep it simple 
-
-Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do. 
-
-References: https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
-http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html
-
-#Tips for Tableau
+## 10.Tips for Tableau
 1. Running totals
 2. Common Baseline
 3. Weighted averages
@@ -405,7 +313,6 @@ http://www.govtech.com/pcio/10-Tips-for-Data-Visualization.html
 8. Bar chart totals
 9. Fixed axis when re-drawing charts
 10. Auto-fitting screen behavior depending on data selection
-References: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
 
 
 **Word Cloud**
