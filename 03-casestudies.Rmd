@@ -432,17 +432,22 @@ Graghs can have the correct figures, but still can mislead you.
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
 
+
 And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@one_var_change], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 
+
+
+And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@scaling_issues], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
+
 ```
-@misc{one_var_change,
+@misc{scaling_issues,
   author = {{Naomi Robbins}},
   year = {2012},	
-  title = {Misleading Graphs: Displaying a Change in One Variable Using Area or Volume},
-  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781}},
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
   note = {Accessed: 2018-05-12}
 }
 ```
@@ -517,8 +522,16 @@ Ref: [@ref_pdf_ar]
 
 Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
 
-By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? A simple answer would be the link : http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271 .
-
+By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
+```
+@misc{vr_education,
+  author = {{Michael Phillips}},
+  year = {2017},	
+  title = {How virtual reality technology is changing the way students learn},
+  howpublished = {\url{http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 
 ###Outlier Detection

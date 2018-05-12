@@ -1,6 +1,6 @@
 # Introduction
 
-## What is Data Visualization? 
+## 1.1 What is Data Visualization? 
 
 Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.
 
@@ -16,7 +16,7 @@ https://infogram.com/page/data-visualization -->
 [@viz]
 
 
-## Information Visualization
+### Information Visualization
 
 
 Information visualization, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives. From business decision making to simple route navigation – there’s a huge (and growing) need for data to be presented so that it delivers value.
@@ -26,7 +26,7 @@ This article is a brief introduction to Information Visualization. It explains b
 [@info_viz]
 
 
-## Why is Data Visualization Important?
+## 1.2 Why is Data Visualization Important?
 
 Today more than ever, Data Visualization represents a simple, user-friendly approach to understand data and make business decisions quickly. Here are some articles on why it is important today.
 
@@ -86,7 +86,7 @@ Figures and tables with captions will be placed in `figure` and `table` environm
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).-->
 
 
-## Key Figures in the History of Data Visualization
+## 1.3 Key Figures in the History of Data Visualization
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. Below we have some figures names with their famous works, and you can find other stories in the article.
 
@@ -119,7 +119,7 @@ You can see how many soldiers are still marching and how many died. Drawn in 186
 [@history_viz]
 
 
-## Useful Links on Data Visualization Trends, Tutorials and Research Papers
+## 1.4 Useful Links on Data Visualization Trends, Tutorials and Research Papers
 
 [@charts_viz] - You can find different types of plots used in data visualization at  [Data Catalogue](https://datavizcatalogue.com/search.html).
 
@@ -136,13 +136,10 @@ You can see how many soldiers are still marching and how many died. Drawn in 186
 
 [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
 
-
-**Infogram**
-
-An infogram helps a user making different types of plots and learning the art of visualization. 
+[@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. 
 Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
 
-[@infogram]
+
 
 <!--
 Basic Guidelines:
