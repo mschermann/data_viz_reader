@@ -234,8 +234,17 @@ Besides, this blog also includes great tips and showcases for Tableau.
 As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." [@15_mindblowing]
 
 18.1. Every Satellite Orbiting Earth
-+ https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/
-By David Yanofsky and Tim Fernholz, Published:Nov17,2014
+[@Satellite]
+```
+@misc{Satellite,
+  author = {{@misc{hans_rosling,
+  author = {{Hans Rosling}},
+  year = {2015},
+  title = {https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/},
+  howpublished = {\url{https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
 
