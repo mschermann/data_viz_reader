@@ -67,8 +67,16 @@ Source: [@spendingtime] referenced in [@cool_data]
 
 
 ## 5. Is it Better to Rent or Buy?
-
-https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0(By MIKE BOSTOCK, SHAN CARTER and ARCHIE TSE)
+[@rent_or_buy]
+```
+@misc{rent_or_buy,
+  author = {{Mike Bostock,Shan Carter, and Archie Tse}},
+  year = {2014},
+  title = {Is It Better to Rent or Buy?},
+  howpublished = {\url{https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 The calculator includes several sloping charts. Each chart includes a factor that’ll affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates. A movable scale along the bottom of each chart allows you to enter different data, changing the “cost of rent per month” on the side. If you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
 
@@ -296,6 +304,7 @@ Twitter’s data team assembled an impressive interactive data hub that depicts 
 
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
 
+
 18.8. Millennial generation is bigger, more diverse than boomers
 [@age_groups]
 ```
@@ -316,22 +325,58 @@ CNNMoney’s interactive chart showing the size and diversity of the millennial 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
 18.10. Washington Wizards’ Shooting Stars
-+ http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/
+[@basketball]
+```
+@misc{basketball,
+  author = {{Todd Lindeman and Lazaro Gamio}},
+  year = {2014},
+  title = {The Wizards’ shooting stars},
+  howpublished = {\url{http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
 
 18.11. U.S. Migration Patterns 
-+ https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0
-(By GREGOR AISCH, ROBERT GEBELOFF and KEVIN QUEALY UPDATED August 19, 2014)
+[@migration]
+```
+@misc{migration,
+  author = {{Gregor Aisch, Robert Gebeloff, and Kevin Quealy}},
+  year = {2014},
+  title = {Where We Came From and Where We Went, State by State},
+  howpublished = {\url{https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to play around with. You can see where people living in each state were born, and to what states people move from others. 
 
 18.12. Selfie City
-+ http://selfiecity.net/
+[@selfie]
+```
+@misc{selfie,
+  author = {{DigitalThoughtFacility project}},
+  year = {2014},
+  title = {SelfieCity},
+  howpublished = {\url{http://selfiecity.net/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in, say, New York and Berlin, as well as those between men and women across the world.
 
 18.13. The American Workday
-+ https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph?/templates/story/story_php=
+[@CO2_emission]
+```
+@misc{CO2_emission,
+  author = {{World Resources Institute}},
+  year = {2014},	
+  title = {Carbon Emissions: past, present and future - interactive},
+  howpublished = {\url{https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
 
@@ -375,6 +420,7 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
+
 And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume [@scaling_issues], the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 ```
 @misc{scaling_issues,
@@ -385,7 +431,6 @@ And for the figure 1 used in this article: Misleading Graphs: Displaying a Chang
   note = {Accessed: 2018-05-12}
 }
 ```
-
 + **20.3 Data is left out.**
 
 Only include part of the data like the following graph which using temperatures of the first half of the year to prove it was rising dramatically.
@@ -394,8 +439,27 @@ Only include part of the data like the following graph which using temperatures 
 
 For more examples of misleading graphs or deceptive graphs you can read the following articles for more inspirations:
 
-+ bar charts without zero & evenly spaced tick marks for uneven intervals: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
-+ graphs not drawn to scale: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
++ bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
+```
+@misc{whats_wrong,
+  author = {{Naomi Robbins}},
+  year = {2011},	
+  title = {What’s Wrong With this Graph?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
++ graphs not drawn to scale:[@scaling_issues] 
+```
+@misc{scaling_issues,
+  author = {{Naomi Robbins}},
+  year = {2012},	
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 
 + **20.4 Treating correlation as causation.**
