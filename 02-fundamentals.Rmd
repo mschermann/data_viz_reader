@@ -143,15 +143,16 @@ uncontrolled functions such as facial expressions, reactions) and conscious (Sys
 such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
 impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
-  **1. Design and layout matter**
-    The design and layout should facilitate ease of understanding to convey your message to the viewer.
-    
-  **2. Avoid Clutter**
-    Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+1. **Design and layout matter**
+The design and layout should facilitate ease of understanding to convey your message to the viewer.
+
+2. **Avoid Clutter**
+Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
 the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
 means, avoid ink which do not add any information.
-  **3. Use color purposely and effectively**
-    Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+
+3. **Use color purposely and effectively**
+Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
 in conveying your message. 
 
 The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
@@ -820,34 +821,6 @@ Example:
 (source: [@narratives_2017])
 ![](/images/Tufte_figure12.png)
 (source: [@narratives_2017])
-
-```{r}
-@misc{Tufte_2001,
-  author = {{Edward R.Tufte}},
-  year = {2001},
-  title = {The Visual Display of Quantitative Information(Second Edition)},
-  note = {Accessed: 2018-05-07}
-}
-```
-
-```{r}
-@misc{appli_2017,
-  author = {{plotly}},
-  year = {2017},
-  title = {Maximizing the Data-Ink Ratio in Dashboards and Slide Decks},
-  howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
-  note = {Accessed: 2018-05-07}
-}	 
-```	 
-
-```{r}
-@misc{narratives_2017,
-  title = {US Gun death in 2010 and 2013},
-  howpublished = {\url{https://guns.periscopic.com/?year=2013}},
-  note = {Accessed: 2018-05-07}
-}	 
-```
-
 
 =======
 Ref:https://www.tableau.com/about/blog/2016/5/5-tips-effective-visual-data-communication-54174
