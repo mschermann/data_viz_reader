@@ -104,9 +104,17 @@ What makes this a good visualization is that it is engaging and easy to read and
 
 
 ## 8.What's really warming the world?
+reference: [@world_warming]
 
-https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
-
+```
+@misc{world_warming,
+  author = {{Eric Roston and Blacki Migliozzi}},
+  year = {2015},
+  title = {What’s Really Warming the World?},
+  howpublished = {\url{https://www.bloomberg.com/graphics/2015-whats-warming-the-world/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 In this case study, it first claimed the background story and the analytical questions clearly.
 Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
 After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons.
@@ -116,8 +124,17 @@ Overall, this case study is straightforward, easy to understand but also with en
 
 
 ## 9.The Strengths of Animated Data Visualization
+reference: [@American_life]
 
-http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite
+```
+@misc{American_life,
+  author = {{Nathan Yau}},
+  year = {2015},
+  title = {A Day in the Life of Americans},
+  howpublished = {\url{http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 The page linked above includes a great example of animated data visualization showing the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
 
@@ -128,15 +145,23 @@ A drawback of the plot is that it is hard for our eyes to keep track of 1000 sim
 Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
 
-## 10.An Aging Population
+## 10.An Aging Nation: Projected Number of Children and Older Adults
+reference: [@aging]
+```
+@misc{aging,
+  author = {{United States Census Bureau}},
+  year = {2018},
+  title = {An Aging Nation: Projected Number of Children and Older Adults},
+  howpublished = {\url{https://www.census.gov/library/visualizations/2018/comm/historic-first.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Aging population is always a hot topic in social economics and politics. I collect several different data visualizations that show aging population in the world. They are good examples to learn and apply to census data. 
 
 9.1 An Aging Nation: Projected Number of Children and Older Adults
-[Source](https://www.census.gov/library/visualizations/2018/comm/historic-first.html)
 
 ![](images/aging_nation.jpg)
-+reference: [@aging_nation]
 
 This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
@@ -144,7 +169,6 @@ This one includes bar chart and line graph to demonstrate the aging population c
 [Source](https://www.census.gov/library/visualizations/2018/comm/century-of-change.html)
 
 ![](images/Pyramid.jpg)
-+reference: [@population_pyramid]
 
 This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”.
 
