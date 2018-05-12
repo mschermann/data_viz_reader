@@ -66,8 +66,11 @@ In the data visulization terms, we call it truncated graph. A truncated graph (a
 2. Axis Manipulation
 
 Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph's dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs.
+
 ![](images/Line_graph1.svg.png)
+
 ![](images/175px-Line_graph1-3.svg.png)
+
 ![](images/200px-Line_graph1-4.svg.png)
 
 Axis manipulation is the opposite of truncating data, because they include the axis and baselines but change them so much that they lose meaning. This type of graph manipulation can be used to push a false narrative.
@@ -76,10 +79,12 @@ Axis manipulation is the opposite of truncating data, because they include the a
 This is to pick the data that shows a typical viewpoint. For example, we know house price in Bay area kept increasing since 2011. However, for those house agencies who want convince buyers that house prices has decreased , they might select some areas in typical months that house prices happend to decreased.  
 
 It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
+
 ![](images/Bad_graph_extraction.png)
+
 ![](images/Good_graph_extraction.png)
 
-4.
+
 4. Using The Wrong Graphs
 So far, we have intentional misinformation tactics that writers use to push their agendas.
 
