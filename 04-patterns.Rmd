@@ -39,6 +39,7 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 
 ## 2. Chose the right baseline in data visualization
 
+
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
 Here I use the same method for a new dataset to .
@@ -51,6 +52,7 @@ c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,1
 data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
+
 1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
@@ -61,7 +63,7 @@ plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 
 2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
 ```{r}
- # Quaterly change
+# Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
 quaChange <- 100 * round( (curr-prev) / prev, 2 )
@@ -73,7 +75,7 @@ barCols <- sapply(quaChange,
 			return("gray")
 		}
 	})
-#monChange.ts <- ts(monChange, start=c(1976, 2), frequency=12)
+
 barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quaterly")
 ```
 
@@ -91,6 +93,7 @@ barCols <- sapply(annChange,
 			return("gray")
 		}
 	})
+
 barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annual")
 ```
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
@@ -111,6 +114,7 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
+
 4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
 ```{r}
 # Relative to first quater
@@ -144,6 +148,18 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from mean")
 ```
+
+So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+
+```{}
+@misc{baseline,
+  author = {{Nathan Yau}},
+  title = {The Baseline and Working with Time Series in R},
+  howpublished = {\url{https://flowingdata.com/2013/11/26/the-baseline/}},
+  note = {Accessed: 2018-05-11}
+}	 
+```	
+
 
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.[@baseline]
@@ -373,3 +389,140 @@ Word clouds can add clarity during text analysis in order to effectively communi
 [@wordle]
 
 Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
+
+### Calendar View 
+(Redproducable code for reference)
+
+[@Calendar_Layout]
+We have all seen the calendar views in the various data products that we worked on.  Please find below an open source code that I found, this will help you replicate and create your own calendar:
+[@CalendarView]
+ 
+This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
+
+<!DOCTYPE html>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+</script>
+
+## An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
+DATA USA :     [@DataUSA]
+MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data from various sources and mines information to generate trends and stories about cities, jobs, industries etc. to the common man.
+Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is amazing to see how they have brought it all together on a single platform in a very easy to decipher format.
+What caught my attention here is the categorization of Information on the website that enables the following - 
+1.	Easy browsing of various categories of information available at a single glance
+2.	Easy search on any topic of interest and get deeper information on each
+3.	Logical construction of information using data and visuals under each category
+4.	Comparative Analysis of cities
+5.	Variety of exploratory visualizations to learn from 
+6.	Most important - Stories that these data tell For e.g. Evolution of the American Worker, Poverty is bad for your health, Men still dominate in the highest paying industries, Opioid addiction damage and so many others. 
+
+We think of a topic, and its possible it's there! 
+Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website
+And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
+There is also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
+
+Do explore!
+
+
+Ref:
+
+https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/
+
+https://yseop.com/blog/automation-making-data-visualization-smarter/
+
+http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools
+
+https://www.quora.com/What-is-the-future-of-data-visualization
+
+Plug in any dataset into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
+
+ 
+
+Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any dataset is farfetched at this point, because this requires automatic analysis. Automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+
+ 
+
+The focus in today's world has been on open source tools and technologies and these tools although being free for most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
+
+ 
+
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
+
+ 
+
+At the end its not only about the tool its more about what you are trying to do; what your professor, client, business or whatever needs.
+
+ 
+

@@ -3,6 +3,91 @@
 Reference_clean_w4
   + Theoretical background of data visualization
   
+
+##  **Practitioners Guide to Best Practices in Data Visualization**
+  
+  [@best-practice]
+    
+  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
+  then focus your visualization with respect to those questions. 
+  
+  Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
+  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
+  such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
+  impact in a most efficient manner. The three best practices of data visualization are as follows: - 
+  
+  1. Design and layout matter
+     The design and layout should facilitate ease of understanding to convey your message to the viewer.
+  2. Avoid Clutter
+     Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+     the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
+    means, avoid ink which do not add any information.
+  3. Use color purposely and effectively
+     Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+     in conveying your message. The above three principles are illustrated with the help of scenarios and examples which helps
+     to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the
+     above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive
+     and prescriptive. 
+
+reference-fundamentals-Tableau-Groups
+
+
+  + Theoretical background of data visualization  
+  + Contemporary research results
+  
+  
+Now that we have all learnt the basics of working with Tableau, we may think of following groups or joining communities to explore tableau further.
+
+The benefits:
+
+-	It will help us enhance our learning
+-	Get answers for most of your doubts In tableau
+-	Post new questions and crowd source answers
+-	Attend events, seminars and join conferences conducted locally/ globally
+-	Give back to the community once you become an expert in that field
+
+Some useful communities for Tableau users:
+
+### Tableau Community 
+Ref: [@Tableau_Community]
+
+
+1. The dashboard should read left to right.
+2. Group related information together.
+3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+
+Blogs : Here is a list of the top 10 blogs that Tableau itself suggests following:
+
+
+[@Top_10_Blogs]
+
+1.	Storytelling with Data
+2.	Information is Beautiful
+3.	Flowing Data
+4.	Visualising Data
+5.	Junk Charts
+6.	The Pudding
+7.	The Atlas
+8.	Graphic Detail
+9.	US Census and FEMA
+10.	Tableau Blog
+
+Tableau Social Media Groups: Some of the biggest and the most active groups
+
+Tableau Enthusiasts: Linkedin Group (19K members)
+
+Tableau Software Fans & Friends: LinkedIn Group (45kK members)
+
+[@LinkedIn_Groups] 
+
+https://www.educba.com/data-mining-vs-data-visualization/
+
+This article gives me a clear understanding of data mining and data visualization.
+
+In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
+
 ## 1. Theoretical background of data visualization
   
 1.1 History
@@ -62,7 +147,7 @@ During the last quarter of the 20th century data visualization has blossomed int
       
 ## 3. Fundamental Components of Design
           
-Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the 9 principles of design from graphic designer Melissa Anderson's article
+Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. To take the data visualization from an everyday dashboard to a compelling data story, we must incorporate the 9 principles of design from graphic designer Melissa Anderson's article.
     
   
 Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualiaztion distributed evenly. And it important to remember the non-data elements, such as a logo, title,caption, etc., that can affect the balance of the display. 
@@ -84,7 +169,7 @@ Emphasis was the component that I most related to when reading through the nine 
 
 4.1. Design and layout matter 
 
-The design and layout should facilitate ease of understanding to convey your message to the viewer.
+The design and layout should facilitate ease of understanding to convey the message to the viewer.
 
 ** 2.Avoid Clutter **
 Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
@@ -350,7 +435,7 @@ All in all, this article has an interesting take on a somewhat less fashionable 
 9.	**Unity**: Unity across design will happen naturally if  all other design principles are implemented. 
 
 
-## 12. Using Data Visualization to Find Insights in Data
+## 12. Using Data Visualization to find insights in data
  
  This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation.
  
@@ -385,10 +470,10 @@ All in all, this article has an interesting take on a somewhat less fashionable 
  }
  
  
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ <!--Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
  Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.  The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. -->
  
 
 + Theoretical background of data visualization
@@ -530,6 +615,110 @@ The above pointers are very helpful when creating a deceptive version of a data 
 
   [@best-practice]
     
+   Data Density = # entries in data matrix /area of data graphic
+
+
+**• Conclusion: composition of design principles**
+
+**Principle 1: Escape flatland – small multiples, parallel sequencing.**
+Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
+
+1. Example for small multiples.
+![](/images/Tufte_figure8.png)
+(source:[@Tufte_2001])
+
+
+2. Example for parallel sequencing
+![](/images/Tufte_figure7.png)
+(source:[@Tufte_2001])
+
+
+**Principle 2: Macro/Micro-Provide the user with both views (overview and detail).**
+Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
+
+Example: 
+![](/images/Tufte_figure9.png)
+(source:[@Tufte_2001])
+
+**Principle 3: Utilize Layering & Separation.**
+Supported by Gestalt laws (The principles of grouping):
+  1. Grouping with colors
+  2. Using Color to separate
+  3. 1+1 = 3 (clutter)
+
+Example:
+![](/images/Tufte_figure10.png)
+(source:[@Tufte_2001])
+
+**Principle 4: Utilize narratives of space and time.**
+Tell a story of position and chronology through visual elements.
+
+Example:
+![](/images/Tufte_figure11.png)
+(source: [@narratives_2017])
+![](/images/Tufte_figure12.png)
+(source: [@narratives_2017])
+
+```{}
+@misc{Tufte_2001,
+  author = {{Edward R.Tufte}},
+  year = {2001},
+  title = {The Visual Display of Quantitative Information(Second Edition)},
+  note = {Accessed: 2018-05-07}
+}
+```
+
+```{}
+@misc{appli_2017,
+  author = {{plotly}},
+  year = {2017},
+  title = {Maximizing the Data-Ink Ratio in Dashboards and Slide Decks},
+  howpublished = {\url{https://medium.com/@plotlygraphs/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab}},
+  note = {Accessed: 2018-05-07}
+}	 
+```	 
+
+```{}
+@misc{narratives_2017,
+  title = {US Gun death in 2010 and 2013},
+  howpublished = {\url{https://guns.periscopic.com/?year=2013}},
+  note = {Accessed: 2018-05-07}
+}	 
+```
+
+
+
+Ref:https://www.tableau.com/about/blog/2016/5/5-tips-effective-visual-data-communication-54174
+
+ 
+
+We want visualizations to speak about the data. This article is about some tips that can help visualizations to speak:
+
+Keep it simple:Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
+ 
+
+Pretty doesn't mean effective: There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
+ 
+
+Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.For data with geographical fields, it may be tempting to use maps. But maps may not be very effective for the following reasons:
+
+As mentioned above, color perception can be tricky.
+
+Choosing the right charts type is very critical. For comparison based on numerical scale bar chart can be more effective than maps.
+
+Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+
+Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+
+Maps: Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+
+5 Second Rule: Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer
+
+Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+
+
+
+
   These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
   then focus your visualization with respect to those questions. 
   
