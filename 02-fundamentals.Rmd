@@ -8,10 +8,8 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
   
   **Practitioners Guide to Best Practices in Data Visualization**
   
-  **Reference**
-    Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
-    Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
-  
+  [@best-practice]
+    
   These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
   then focus your visualization with respect to those questions. 
   
@@ -19,20 +17,19 @@ https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualizatio
   uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
   such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
   impact in a most efficient manner. The three best practices of data visualization are as follows: - 
-
-** 1. Design and layout matter **
-      The design and layout should facilitate ease of understanding to convey your message to the viewer.
-** 2.	Avoid Clutter **
-      Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
-      the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
-      means, avoid ink which do not add any information.
-** 3.	Use color purposely and effectively **
-      Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
-      in conveying your message. 
-      The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
-      in more meaningful and practical way in the article. It also gives various advantages of using the above 
-      principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
-      prescriptive. 
+  
+  1. Design and layout matter
+     The design and layout should facilitate ease of understanding to convey your message to the viewer.
+  2. Avoid Clutter
+     Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+     the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
+    means, avoid ink which do not add any information.
+  3. Use color purposely and effectively
+     Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+     in conveying your message. The above three principles are illustrated with the help of scenarios and examples which helps
+     to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the
+     above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive
+     and prescriptive. 
 
   
   + Theoretical background of data visualization  
