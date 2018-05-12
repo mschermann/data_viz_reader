@@ -495,3 +495,34 @@ There is also other similar websites, that has some good visualizations on censu
 
 Do explore!
 
+
+Ref:
+
+https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/
+
+https://yseop.com/blog/automation-making-data-visualization-smarter/
+
+http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools
+
+https://www.quora.com/What-is-the-future-of-data-visualization
+
+Plug in any dataset into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
+
+ 
+
+Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any dataset is farfetched at this point, because this requires automatic analysis. Automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+
+ 
+
+The focus in today's world has been on open source tools and technologies and these tools although being free for most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
+
+ 
+
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
+
+ 
+
+At the end its not only about the tool its more about what you are trying to do; what your professor, client, business or whatever needs.
+
+ 
+
