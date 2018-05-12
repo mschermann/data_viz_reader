@@ -4,7 +4,8 @@
     + The role of data visualization in politics, society, and business
 
 ##Importance of ethics in visualization
-reference: [@poli_social_science]
+[@poli_social_science]
+
 ```
 @misc{poli_social_science,
   author = {{Andrei Zinovyev}},
@@ -41,7 +42,7 @@ Misleading, incomprehensible, or incredible data visualization can jeopardize pe
    4) _Data cartography_.
 
 **2. Role of data visualization in business**
-reference: [@biz_strategy]
+[@biz_strategy]
 ```
 @misc{biz_strategy,
   author = {{Katherine Lazarevich}},
@@ -105,7 +106,7 @@ Reference: [@image_bad]
 
 
 **Misrepresentation through Data Visualization**
-reference: [@misleading_graphs]
+[@misleading_graphs]
 ```
 @misc{misleading_graphs,
   author = {{Ryan McCready}},
@@ -121,7 +122,7 @@ While the ideal purpose of data visualization is to improve others' understandin
 Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
 
 **A basis for why we should pursue ethical data visualization**
-Reference: [@ethical_infographics]
+[@ethical_infographics]
 ```
 @misc{ethical_infographics,
   author = {{Alberto Cairo}},
