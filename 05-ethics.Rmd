@@ -4,7 +4,16 @@
     + The role of data visualization in politics, society, and business
 
 ##Importance of ethics in visualization
-Ref:https://backspace.com/notes/2016/01/ethics-in-data-visualization.php(Published:11 January 2016)
+reference: [@poli_social_science]
+```
+@misc{poli_social_science,
+  author = {{Andrei Zinovyev}},
+  year = {N/A},	
+  title = {Data visualization in political and social sciences},
+  howpublished = {\url{https://github.com/mschermann/data_viz_reader/files/1933699/Zinovyev_Data_Visualization.pdf}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Over the years, researchers and lawyers have come up with rules and practices for proper data collection and utilization, with particular attention on human subject research.
 
@@ -32,7 +41,16 @@ Misleading, incomprehensible, or incredible data visualization can jeopardize pe
    4) _Data cartography_.
 
 **2. Role of data visualization in business**
- -(Reference:https://www.iotforall.com/data-visualization-strategy-for-business/) By Katherine Lazarevich -April 3, 2018
+reference: [@biz_strategy]
+```
+@misc{biz_strategy,
+  author = {{Katherine Lazarevich}},
+  year = {2018},	
+  title = {How Data Visualization Impacts Your Business Strategy},
+  howpublished = {\url{https://www.iotforall.com/data-visualization-strategy-for-business/}},
+  note = {Accessed: 2018-05-12}
+}
+```
  
 According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
@@ -87,15 +105,33 @@ Reference: [@image_bad]
 
 
 **Misrepresentation through Data Visualization**
-         - (Reference: https://venngage.com/blog/misleading-graphs/) BY RYAN MCCREADY, AUG 10, 2017
+reference: [@misleading_graphs]
+```
+@misc{misleading_graphs,
+  author = {{Ryan McCready}},
+  year = {2017},	
+  title = {How Writers Use Misleading Graphs to Manipulate You},
+  howpublished = {\url{https://venngage.com/blog/misleading-graphs/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 While the ideal purpose of data visualization is to improve others' understanding of the data presented, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and going against graphing convention.
 
 Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
 
 **A basis for why we should pursue ethical data visualization**
-Reference: 
-Cairo, Alberto. "Ethical Infographics: In data visualization, journalism meets engineering." The IRE Journal, Spring 2014. https://www.scribd.com/document/230474170/Ethical-Info-Graphics-In-data-visualization-journalism-meets-engineering
+Reference: [@ethical_infographics]
+```
+@misc{ethical_infographics,
+  author = {{Alberto Cairo}},
+  year = {2014},	
+  title = {Ethical Infographics: In data visualization, journalism meets engineering},
+  howpublished = {\url{http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
 Cairo, Alberto. The Functional Art weblog. 19 June 2016. http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html  
 
 Alberto Cairo addresses into the ethical 'why' of data visualization in this article, while still grounding the discussion in straightforward analysis of what to do and what not to do. He emphasizes that the effectiveness of the communicative display is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it. 
@@ -113,8 +149,16 @@ Again, since the ethical purpose is to improve well-being through understanding,
 
 
 ##General guidelines to ethical visuals
-- Author:Drew Skew, Published 2012(Reference:https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professionals/) -- 
-
+reference: [ethics_code]
+```
+@misc{ethics_code,
+  author = {{Drew Skau}},
+  year = {2012},	
+  title = {A Code of Ethics for Data Visualization Professionals},
+  howpublished = {\url{https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professionals/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 Data visualization is an up and coming field that currently doesn't have many regulations. This makes it easy to manipulate readers without technically reporting false information. However, certain standards should be followed in order to generate meaningful visuals. The process can be broken down into three steps, each with its own set of guiding rules.
 
 1)_Data Collection_
