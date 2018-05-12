@@ -242,7 +242,16 @@ The Visualizing Urban Data Idealab (VUDlab) out of the University of California-
 This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.
 
 18.4. Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
-+ https://www.youtube.com/watch?feature=player_embedded&v=jbkSRLYSojo
+reference[@hans_rosling]
+```
+@misc{hans_rosling,
+  author = {{Hans Rosling}},
+  year = {2010},
+  title = {Hans Rosling’s 200 Countries, 200 Years, 4 Minutes - The Joy of States- BBC Four},
+  howpublished = {\url{https://www.youtube.com/watch?feature=player_embedded&v=jbkSRLYSojo}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. One segment in particular is pretty mind-blowing. In “200 Countries, 200 Years, 4 Minutes,” Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes.
 
