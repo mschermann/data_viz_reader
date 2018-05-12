@@ -143,8 +143,16 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 ```
 
 
-So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
-
+So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.[@baseline]
+```
+@misc{baseline,
+  author = {{Nathan Yau}},
+  year = {2013},	
+  title = {The Baseline and Working with Time Series in R},
+  howpublished = {\url{https://flowingdata.com/2013/11/26/the-baseline/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 
 
@@ -179,8 +187,16 @@ knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
 ```
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
 
-The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.
-
+The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@data_meaning]
+```
+@misc{data_meaning,
+  author = {{Julie Rodriguez and Piotr Kaczmarek}},
+  year = {2016},	
+  title = {Using design patterns to find greater meaning in your data},
+  howpublished = {\url{https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 
 ## 6. Example Visualizations of Time Series Data
@@ -299,9 +315,16 @@ InVision released three fantastic design books that are available for free. Each
 
 * **Type Classification**
 
-Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.
-
-
+Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
+``` 
+@misc{design_ebooks,
+  author = {{Michael Abehsera}},
+  year = {N/A},	
+  title = {Free eBooks All Designers Should Read},
+  howpublished = {\url{https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ## 10.Tips for Tableau
 1. Running totals
 2. Common Baseline

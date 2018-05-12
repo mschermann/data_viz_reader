@@ -71,43 +71,36 @@ Another closely related component to balance is variety which could seem counter
 to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization.
           
 Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography I understand it is key to be concious of what I am  drawing the viewer attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+                    
+## 4. Guide to Best Practices in Data Visualization
+  
+  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
+  then focus your visualization with respect to those questions. 
+  
+  The brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
+  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
+  such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
+  impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
-## 4. Survey of Popular Data Visualization Tools
+4.1. Design and layout matter 
 
-Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the
-data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly,
-FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from forbes and has a brief, clear introduction about
-these 7 powerful software options for data visualization. This could be helpful for future reference because for different
-purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps
-highlight them.
+The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
-**Tableau** is the most popular of the group and has many users. It is simple to use, making it easy to learn and can handle
-large datasets. Tableau can handle big data thanks to integration with database handling applications such as MySQL, Hadoop,
-and Amazon AWS.
+** 2.Avoid Clutter **
+Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
+means, avoid ink which do not add any information.
+** 3.Use color purposely and effectively **
+Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
+in conveying your message. 
+The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic
+in more meaningful and practical way in the article. It also gives various advantages of using the above 
+principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and 
+prescriptive. 
 
-**Qlikview** is the main competitor to Tableau and is also quite popular.Qlikview is customizable and has a wide range of
-features which can be a double-edged sword. These features take more time to learn and get acquianted with. However, once
-one gets past the learning curve, they have a powerful tool at their disposal.
-
-The distinctive aspect of **FusionCharts** is that graphics do not have to be created from scratch. Users can start with a
-template and insert their own data from their project.
-
-**Highcharts** proudly claims to be used by 72% of the 100 biggest companies in the world. It is a simple tool that does not
-require specialized training and quickly generates the desired output. Unlike some tools, Highcharts focuses on cross-
-browser support, allowing for greater access and use.
-
-**Datawrapper** is making a name for itself in the media industry. It has a simple user interface making it easy to generate
-charts and embed into reports.
-
-
-4.2.	Avoid Clutter 
-
-Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to conveythe intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid ink which do not add any information.
-
-4.3.	Use color purposely and effectively 
-      
-Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assist in conveying your message. 
-The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and prescriptive. 
+**Reference**
+Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
+Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
 
 ## 5. Data Visualization Tools
 
@@ -462,7 +455,16 @@ statistical testing the two do not show any relationship, this is an example of 
 
 
 ## 15. Corporate Scorecards and Data Visualization
-  - (reference: http://www.boostlabs.com/corporate-scorecards-data-visualization/)
+[@SCORECARDS]
+```
+@misc{SCORECARDS,
+  author = {{BOOST LABS}},
+  year = {2015},	
+  title = {CORPORATE SCORECARDS AND DATA VISUALIZATION},
+  howpublished = {\url{http://www.boostlabs.com/corporate-scorecards-data-visualization/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process–easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star. 
 
@@ -546,16 +548,3 @@ The above pointers are very helpful when creating a deceptive version of a data 
 **Reference**
 Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
 Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
-
-### Visualization and Graphics Principles to Refocus and Guide You
-
-Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create, design visualizations that explain material originally created for a certain audience, i.e. the scienctific community, but now is to be relayed to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminative examples by themselves. There is also great power in the broader themes that he is trying to convey.
-First of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:
-Focusing the attention:
-What can be removed? Realize that consistency can help eliminate unecessary distractions. There may be a trade off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
-Involve your audience:
-Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
-Explain why:
-Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
-
-Ref: Jonathon Corum. Presentation to the University of Copenhagen’s Faculty of Health Sciences. http://style.org/ku/
