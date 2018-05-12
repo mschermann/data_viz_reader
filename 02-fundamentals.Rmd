@@ -1,86 +1,5 @@
 # Fundamentals
 
-Reference_clean_w4
-  + Theoretical background of data visualization
-  
-  **Practitioners Guide to Best Practices in Data Visualization**
-  
-  [@best-practice]
-    
-  These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
-  then focus your visualization with respect to those questions. 
-  
-  Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
-  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
-  such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
-  impact in a most efficient manner. The three best practices of data visualization are as follows: - 
-  
-  1. Design and layout matter
-     The design and layout should facilitate ease of understanding to convey your message to the viewer.
-  2. Avoid Clutter
-     Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
-     the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
-    means, avoid ink which do not add any information.
-  3. Use color purposely and effectively
-     Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists
-     in conveying your message. The above three principles are illustrated with the help of scenarios and examples which helps
-     to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the
-     above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive
-     and prescriptive. 
-=======
-reference-fundamentals-Tableau-Groups
-
-
-  + Theoretical background of data visualization  
-  + Contemporary research results
-  
-  
-Now that we have all learnt the basics of working with Tableau, we may think of following groups or joining communities to explore tableau further.
-
-The benefits:
-
--	It will help us enhance our learning
--	Get answers for most of your doubts In tableau
--	Post new questions and crowd source answers
--	Attend events, seminars and join conferences conducted locally/ globally
--	Give back to the community once you become an expert in that field
-
-Some useful communities for Tableau users:
-
-Tableau Community - [@Tableau_Community]
-
-Blogs : Here is a list of the top 10 blogs that Tableau itself suggests following:
-
-[@Top_10_Blogs]
-
-1.	Storytelling with Data
-2.	Information is Beautiful
-3.	Flowing Data
-4.	Visualising Data
-5.	Junk Charts
-6.	The Pudding
-7.	The Atlas
-8.	Graphic Detail
-9.	US Census and FEMA
-10.	Tableau Blog
-
-Tableau Social Media Groups: Some of the biggest and the most active groups
-
-Tableau Enthusiasts: Linkedin Group (19K members)
-
-Tableau Software Fans & Friends: LinkedIn Group (45kK members)
-
-[@LinkedIn_Groups] 
-
-https://www.educba.com/data-mining-vs-data-visualization/
-
-This article gives me a clear understanding of data mining and data visualization.
-
-In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
-In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
-
-
 ## 1. Theoretical background of data visualization
   
 1.1 History
@@ -161,18 +80,23 @@ Emphasis was the component that I most related to when reading through the nine 
   such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
   impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
-4.1. Design and layout matter 
+  4.1. Design and layout matter 
 
-The design and layout should facilitate ease of understanding to convey your message to the viewer.
+  The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
-4.2.	Avoid Clutter 
+  4.2.	Avoid Clutter 
 
-Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to conveythe intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid ink which do not add any information.
+  Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey the 
+  intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid
+  ink which do not add any information.
 
-4.3.	Use color purposely and effectively 
+  4.3.	Use color purposely and effectively 
       
-Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assist in conveying your message. 
-The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the above principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and prescriptive. 
+  Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assist in
+  conveying your message. The above three principles are illustrated with the help of scenarios and examples which helps to
+  comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the above
+  principles.And the above best practices could be applied to all the 3 types of analytics: descriptive, predictive and
+  prescriptive. 
 
 ## 5. Survey of Popular Data Visualization Tools
 
@@ -392,40 +316,52 @@ All in all, this article has an interesting take on a somewhat less fashionable 
 
 ## 12. Using Data Visualization to Find Insights in Data
  
- This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation.
+  This article is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The
+  author starts the article by introducing a very simple idea that loading any dataset into a spreadsheet can also be a form of
+  visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we
+  need data visualization or not but should be on which form of data visualization is best in which situation.
  
- The author then proceeds by stating that data visualization will not always unleash a readymade story on its own. Sometimes the insights are known before the visualization and sometimes an insight can be completely new. The author has given a process for finding insights in the following way:
+  The author then proceeds by stating that data visualization will not always unleash a readymade story on its own. Sometimes
+  the insights are known before the visualization and sometimes an insight can be completely new. The author has given a
+  process for finding insights in the following way:
  
  Visualize Data-> Analyze -> Document Insights -> Transform Datasets ->Visualize Data
  
- Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each type of visualization such as bar charts, maps, scatterplots, graphs, etc. are used. This gives a thorough understanding of when to use which type of visualization. Once we visualize the data we need to ask the following questions:
+  Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one
+  dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each
+  type of visualization such as bar charts, maps, scatterplots, graphs, etc. are used. This gives a thorough understanding of
+  when to use which type of visualization. Once we visualize the data we need to ask the following questions:
  
- 1 What can I see in this image? Is it what I expected?
+ 1  What can I see in this image? Is it what I expected?
  2	Are there any interesting patterns?
  3	What does this mean in the context of the data?
  
- The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data. Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the visualization. Once we document the data insights based on the above question we need to have the following points into consideration:
+  The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data.
+  Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the
+  visualization. Once we document the data insights based on the above question we need to have the following points into
+  consideration:
  
- 1 Why have I created this chart?
+ 1  Why have I created this chart?
  2	What have I done to the data to create it?
  3	What does this chart tell me?
+
+  The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many
+  times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach
+  help to stay focused. The author then mentions that based on the above insights we might have some idea about some
+  interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in
+  more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a
+  more detailed view of our insights. 
  
- The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach help to stay focused. The author then mentions that based on the above insights we might have some idea about some interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a more detailed view of our insights. 
- 
- Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire process given above is explained in depth with the help of examples. The technical approach listed above is practical and can be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated the step-by-step process of finding insights with the technical way of handling datasets using tools such as Tableau, Python, etc. And the process can be repeated many times till we find the insights we are looking for.
+  Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire
+  process given above is explained in depth with the help of examples. The technical approach listed above is practical and can
+  be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated
+  the step-by-step process of finding insights with the technical way of handling datasets using tools such as Tableau, Python,
+  etc. And the process can be repeated many times till we find the insights we are looking for.
  
 
- 
- @misc{great_viz,
-   author = {{Bora Beran}},
-   year = {2017},
-   title = {Building advanced analytics applications with TabPy},
-   howpublished = {\url{https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916}},
-   note = {Accessed: 2018-04-28}
- }
- 
- 
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ [@great_viz]
+  Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y
+  variable!!! 
  Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.  The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
  There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
@@ -447,7 +383,7 @@ All in all, this article has an interesting take on a somewhat less fashionable 
  
  Interactive or Dynamic data visualization delivers today’s complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive.
  
-13.1 enefits of Interactive Data Visualization Software:
+ Benefits of Interactive Data Visualization Software:
  
  1. Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making.
  2. Visualize relationships and patterns: Helps in  better understanding of correlations among operational data and business performance.
@@ -489,3 +425,58 @@ All in all, this article has an interesting take on a somewhat less fashionable 
 
 This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".  In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 master
+
+
+
+reference-fundamentals-Tableau-Groups
+
+
+  + Theoretical background of data visualization  
+  + Contemporary research results
+  
+  
+Now that we have all learnt the basics of working with Tableau, we may think of following groups or joining communities to explore tableau further.
+
+The benefits:
+
+-	It will help us enhance our learning
+-	Get answers for most of your doubts In tableau
+-	Post new questions and crowd source answers
+-	Attend events, seminars and join conferences conducted locally/ globally
+-	Give back to the community once you become an expert in that field
+
+Some useful communities for Tableau users:
+
+Tableau Community - [@Tableau_Community]
+
+Blogs : Here is a list of the top 10 blogs that Tableau itself suggests following:
+
+[@Top_10_Blogs]
+
+1.	Storytelling with Data
+2.	Information is Beautiful
+3.	Flowing Data
+4.	Visualising Data
+5.	Junk Charts
+6.	The Pudding
+7.	The Atlas
+8.	Graphic Detail
+9.	US Census and FEMA
+10.	Tableau Blog
+
+Tableau Social Media Groups: Some of the biggest and the most active groups
+
+Tableau Enthusiasts: Linkedin Group (19K members)
+
+Tableau Software Fans & Friends: LinkedIn Group (45kK members)
+
+[@LinkedIn_Groups] 
+
+https://www.educba.com/data-mining-vs-data-visualization/
+
+This article gives me a clear understanding of data mining and data visualization.
+
+In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
+
