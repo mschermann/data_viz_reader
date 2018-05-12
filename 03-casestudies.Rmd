@@ -434,3 +434,16 @@ I found this article quite useful for my individual project. This article introd
 
 An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 
+
+##Visualization of big data security: a case study on the KDD99 cup data set
+
+This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 data set:
+
+**Abstract**  
+Cyber security has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Keycyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 data set has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
+
+To read the full paper, please follow the reference link: [@KDD99]
+
+
+
+
