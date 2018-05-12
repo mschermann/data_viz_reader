@@ -6,6 +6,10 @@ Data visualization refers to representing data in a visual context to help peopl
 
 According to Friedman (2008) the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
 
+
+[@viz]
+
+
 ### Information Visualization
 
 
@@ -24,12 +28,12 @@ Today more than ever, Data Visualization represents a simple, user-friendly appr
 
 The article , written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
 
-The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Pittenturf goes on to explain the basic criterias that a data visualization should satisfy to be an effective visualization. These criterias and their brief meanings are as follows:
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criterias that a data visualization should satisfy to be an effective visualization. These criterias and their brief meanings are as follows:
+1. Informative: The visualization should be able to convey the information of the data to the reader
+2. Efficient: The visualization should not be ambiguous.
+3. Appealing: The visualization should be captivating and visually pleasing. 
+4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
 
-1.	Informative: The visualization should be able to convey the information of the data to the reader.
-2.	Efficient: The visualization should not be ambiguous.
-3.	Appealing: The visualization should be captivating and visually pleasing. 
-4.	(Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
 
 Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data.
 One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. 
@@ -45,7 +49,6 @@ The article begins with a definition of data visualization in simple terms and g
 4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
 
 Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data.
-
 
 One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Consumers are more likely to analyze and understand the visualizations before reading further along. 
 
@@ -67,14 +70,6 @@ Beyond its ability to make information from several different sources and in lar
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information.  This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder.  So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design.  
 
 [@viz_ted]
-
-<!--Basic Guidelines:
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.-->
-
-
-<!--
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).-->
-
 
 ## 1.3 Key Figures in the History of Data Visualization
 
@@ -121,7 +116,6 @@ You can see how many soldiers are still marching and how many died. Drawn in 186
 
 [@research_viz] - About Robert Kosara and his reserach papers.
 
-
 [@twitter_Kosara] - Robert Kosara's twitter handle.
 
 [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
@@ -134,7 +128,6 @@ Engaging infographics, reports, charts, dashboards and maps can be easily create
 <!--
 Basic Guidelines:
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.-->
-
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
@@ -150,4 +143,5 @@ knitr::kable(
 )
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015]. -->
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
