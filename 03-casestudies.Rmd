@@ -1,6 +1,8 @@
 # Case Studies
 
-+ Description and replication of great examples of data visualization
+Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. Here are some very useful case studies:
+
+**Description and replication of great examples of data visualization**
 
 
 http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/
@@ -71,10 +73,7 @@ What makes this a good visualization is that it is engaging and easy to read and
 
 https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
-In this case study, it first claimed the background story and the analytical questions clearly.
-Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
-After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons.
-In the end, the authors also provided more detailed methodology explanations with dataset sources to support the results shown above.
+In this case study, it first claimed the background story and the analytical questions clearly. Then it analyzed each different factor separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category. After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons. In the end, the authors also provided more detailed explanations with dataset sources to support the results shown above.
 
 Overall, this case study is straightforward, easy to understand but also with enough information shown on each graphics.
 
@@ -176,7 +175,7 @@ Map visualization is very important for companies like Uber that needs to track 
 
 Reference: https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554
 
-14. **Case Study**
+14. **Case Study on computational linguistics**
 Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 [@lingui_data]
 
@@ -204,6 +203,8 @@ https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped
 A big chart combines 255 lines to show how the number of job has changed for every industry in American. Using color to highlight the lines and letting viewer to know the story in different secenarios. By pointing the line, the detailed information of typical industry will show up. It makes readers easier to get the information in huge data.
 
 Below the big chart on top. 255 charts was categorized by sectors and sub-industries. Readers can choose the industry or sector they are interseted and know the change of job number and salary information by having mouse on typical the chart.
+
+17.An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 
 ### 15 Data Visualizations That Will Blow Your Mind
 
@@ -313,19 +314,21 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
+And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 
 + **Data is left out.**
 
-Only include part of the data like the following graph which using temperatures of the first half of the year to prove it was rising dramatically.
+Only includes part of the data like the following graph which uses temperatures of the first half of the year to prove it was rising dramatically.
 
 <!--[](http://www.statisticshowto.com/wp-content/uploads/2014/01/new-haven-ct-300x145.jpg) -->
 
-For more examples of misleading graphs or deceptive graphs you can read the following articles for more inspirations:
+For more examples and inspirations on misleading graphs or deceptive graphs refer the following articles :
 
-+ bar charts without zero & evenly spaced tick marks for uneven intervals: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
-+ graphs not drawn to scale: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
++ bar charts without zero & evenly spaced tick marks for uneven intervals: Ref: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
+
++ graphs not drawn to scale: 
+Ref: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
 
 + **Treating correlation as causation.**
 
@@ -335,17 +338,16 @@ Even if the labels and data in your graph is correct, it does not mean that the 
 knitr::include_graphics("images/harlin-ice-cream.png")
 ```
 
-##Application of Data Visualization
+##Applications of Data Visualization
 
-Data visualization isn’t just for your resident data scientist. There are ways to use it at every level of an organization. Data Visualization applications lets us quickly create insightful data visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
+There are ways to use data visualization at every level of an organization. These applications lets us quickly create insightful visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
 
-**Data Preprocessing**
+###**Data Preprocessing**
 
-We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect.
+Data preprocessing can greatly improve the quality of data mining results, no matter whether an algorithmic or a visual approach is considered. There are four different aspects of data preprocessing: Data cleaning, data integration, data transformation and data
+reduction. 
 
-[@outliar]
-
-##Data Augmentation
+###Data Augmentation
 
 Computer interfacing is changing everyday, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
 
@@ -357,8 +359,10 @@ Analytical engineer Steluta Iordache states virtual reality is changing the envi
 By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? A simple answer would be the link : http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271 .
 
 
-##Outlier Detection
-A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
+###Outlier Detection
+We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect. Ref:[@outliar]. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. 
+
+A simple example is illustrated below: 
 
 ```{r}
 # Inject outliers into data.
@@ -381,11 +385,11 @@ Detection of Outliers is prformed using:
 + Multivariate approach
 + Multivariate Model Approach
 
-##Genetic Network Reconstruction
+###Genetic Network Reconstruction
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-
+##Graph designs by Visualists
 
 TWO AWESOME VIZUALISTS 
 1.	DAVID McCANDLESS
@@ -417,7 +421,7 @@ Hans was the co-founder and developer of the foundation “Gapminder”( https:/
    note = {Accessed:2018-05-05}
 }
 
-I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+This article is very useful to analyze and redesign the different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts". Ref:[@gunviolence]. This article introduces the methodologies on how to use shapes as filters in Tableau when the fields are Measures. Basically, it teaches us how to load custom shape as action filters and use them for showing different graphs with those filters which can make the visualization more interesting and interactive. You can also download the tableau file for practice.
 
-An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
+Case studies document the development record of a project.They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and allow their own system to be better simply by learning from what others have done.
 
