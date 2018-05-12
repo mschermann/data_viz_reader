@@ -726,7 +726,6 @@ reference: [@different_tools]
 
 
 
-
  Reference--Visual-Lies
 ** Visual Lies: Usability in Deceptive Data Visualizations **
  Reference - [@visual-lies]
@@ -738,41 +737,34 @@ The article focuses on a few methods that data visualizers utilize to mislead us
 Size signifies quantity, volume or degree of variables within a data. In first figure the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right. 
 
 Figure 1:
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('./Size1.jpg')
-```
+![](/images/Size1.jpg)
 
 Quantity is the measure of size. When depicting points on a scatter plot, the author suggest that it is helpful to manipulate the size the points to represent differing values of a variable that is not represented on the x and y axes. Following graph shows quantity as a two completely different measure. One chart uses quantity as Area and other uses it as radius. The result is that the differences in quantity between points on such a scatter plot would appear more dramatic than they should be.
 
 Figure 2:
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('./Quantity1.jpg')
-```
+
+![](/images/Quantity1.jpg)
+``
 
 ** Segmentation **
 Figure shows an example of this with a deceptive instance of binning given in the legend on the left.
 Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can enable users to enhance understanding and if used incorrectly can be deceptive. It is shown here binning is different in both and since in the left figure binning is not done appropriately it is difficult to come up with actual values of the data.
 
 Figure 3:
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('./Segmentation1.jpg')
-```
+![](/images/Segmentation1.jpg)
+
 
 ** Graph **
 Two graphs that are most often misrepresented are pie-charts and maps. The author explains that in the following figure Pie charts can’t be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers weren’t given.
 
 Figure 4:
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('./PieCharts.jpg')
-```
+![](/images/PieCharts1.jpg)
 
 The author then states that when showing spatial data analysis always show population density when visualizing values that are person-dependent. On a heat map where color signifies quantity, The author suggests that a user will be drawn to the colors that a legend indicates are most extreme. 
 In following figure, areas that are darkest are simply the most population-dense regions of the United States. Without accounting for population density, the newly created map may look the same as hundreds of maps bearing a striking resemblance to the figure, which are falsely considered informative and are regularly shared across social media sites.
 
 Figure 5:
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('./Maps1.jpg')
-```
+![](/images/Maps1.jpg)
 
 The above pointers are very helpful when creating a deceptive version of a data product. However, as data visualizers we carefully need to draw the line between creating misleading graphs that tells a different story and deceptive version which is meant for exaggeration. The above can be applied in our projects and can also be used to enhance our understanding of great data visualization product.
 
