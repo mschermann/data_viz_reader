@@ -443,12 +443,15 @@ This paper utilized visualization algorithm together with big data analysis in o
 **Abstract**  
 Cyber security has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Keycyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 data set has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
+To read the full paper, please follow the reference link: [@KDD99]
+
 ## 28. Britain's diet in data
 
 This is a very good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still making it interesting to look at. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food categories into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to toggle and change to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
-
+![](images/britain-diet-data-trends.PNG)
+![](images/britain-diet-data-typical_diet.png)
 
 Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. As such, it is difficult to cater to both types of viewers in such a satisfactory capacity, which is what makes it so alluring and effective.
 
-To read the full paper, please follow the reference link: [@KDD99]
+
