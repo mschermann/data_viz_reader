@@ -1,10 +1,23 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Case Studies
 
 ## 1. Description and replication of great examples of data visualization
 
+10 Best Data Visualization Projects of 2015 [@10_Best]
 
-http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/
-
+```
+@misc{10_Best,
+  author = {{Nathan Yau}},
+  year = {2015},
+  title = {10 Best Data Visualization Projects of 2015},
+  howpublished = {\url{http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 The author picked top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
 
 
