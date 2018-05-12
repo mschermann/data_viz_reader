@@ -177,7 +177,8 @@ Reference: [@uber_maps]
 ## 10. Linguistic Concepts
 
 Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
-[@lingui_data]
+
+Reference: [@lingui_data]
 
 ## 11. Kissmetrics blog: visualization of metrics
 
@@ -200,6 +201,7 @@ Reference: [@facebook_organic]
 The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America. Using color to highlight the lines lets viewers see the specifics for each industry. By hovering over a line, the detailed information of that industry's job trend will show up. Keeping this extra data hidden until needed makes it easier for readers to absorb information from this otherwise huge data visualization.
 
 Below the overall chart on top are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
+
 Reference: [@recession_economy]
 
 ## 13. Vizwiz blog: case studies about how to improve your visualizations
@@ -218,7 +220,9 @@ Besides, this blog also includes great tips and showcases for Tableau.
 
 "If a picture is worth a thousand words, a data visualization is worth at least a million.
 
-As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." [@15_mindblowing]
+As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
+
+Reference: [@15_mindblowing]
 
 ### 14.1. Every Satellite Orbiting Earth
 + https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/
@@ -299,7 +303,6 @@ NPR tapped into American Time Use Survey data to ascertain the share of workers 
 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
 
-
 ## 15. Other sources of great visualization:
 
 Tableau: Viz of the Day
@@ -324,7 +327,6 @@ For example, the Vertical scale is too big or too small, or skips numbers, or do
 <!-- ![Graph](http://www.statisticshowto.com/wp-content/uploads/2014/01/misleading-graph-2.jpg) -->
 
 You might be thinking that the graph on the right shows The Times makes double the sales of The Daily Telegraph. But take a closer look at the scale and you’ll see although The Times does make more sales, it’s only beating the competition by about 10%.
-
 
 ### 16.2 The graph isn’t labeled properly
 
@@ -378,8 +380,8 @@ Analytical engineer Steluta Iordache states virtual reality is changing the envi
 
 By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? A simple answer would be the link : http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271 .
 
-
 ## 19. Outlier Detection
+
 A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
 
 ```{r}
@@ -431,6 +433,7 @@ a.	Hans Rosling took his interest in Global Health and developed stunning visual
 Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
 ## 23. Using Shapes as Filters in Tableau When Your Fields Are Measures
+
 Reference: [@interworks]
 
 I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
@@ -447,6 +450,7 @@ This article explains how data visualization can enhance awareness of the data a
 This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 data set:
 
 **Abstract**  
+
 Cyber security has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Keycyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 data set has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
 To read the full paper, please follow the reference link: [@KDD99]
