@@ -22,7 +22,8 @@ The author picked top 10 projects for the best data visualization of 2015, for e
 
 
 
-15 Cool Information Graphics and Data Viz from 2016[@cool_data]
+15 Cool Information Graphics and Data Viz from 2016
+reference:[@cool_data]
 ```
 @misc{cool_data,
   author = {{Kayla Darling}},
@@ -70,9 +71,8 @@ The simplicity of this visualization really helps the information get across and
 <!-- ![](images/SpendingTime.png) -->
 +reference: [@spendingtime]
 
-
-<<<<<<< HEAD
-5. **Is it Better to Rent or Buy?**
+=======
+## 6.Is it Better to Rent or Buy?
 reference: [@rent_or_buy]
 ```
 @misc{rent_or_buy,
@@ -83,10 +83,6 @@ reference: [@rent_or_buy]
   note = {Accessed: 2018-05-12}
 }
 ```
-=======
-## 6.Is it Better to Rent or Buy?
-
-https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0
 
 >>>>>>> b127e42bab4f82f864c860a07803b4193e9d6d6f
 The calculator includes several sloping charts. Each chart includes a factor that’ll affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates. A movable scale along the bottom of each chart allows you to enter different data, changing the “cost of rent per month” on the side. If you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
@@ -104,8 +100,16 @@ What makes this a good visualization is that it is engaging and easy to read and
 
 
 ## 8.What's really warming the world?
+reference:[@world_warming]
+```
+@misc{world_warming,
+  author = {{Eric Roston and Blacki Migliozzi}},
+  year = {2015},
+  title = {What’s Really Warming the World?},
+  howpublished = {\url{https://www.bloomberg.com/graphics/2015-whats-warming-the-world/}},
+  note = {Accessed: 2018-05-12}
+}
 
-https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
 In this case study, it first claimed the background story and the analytical questions clearly.
 Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
@@ -116,8 +120,16 @@ Overall, this case study is straightforward, easy to understand but also with en
 
 
 ## 9.The Strengths of Animated Data Visualization
-
-http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite
+reference:[@American_life]
+```
+@misc{American_life,
+  author = {{Nathan Yau}},
+  year = {2015},
+  title = {A Day in the Life of Americans},
+  howpublished = {\url{http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 The page linked above includes a great example of animated data visualization showing the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
 
@@ -128,8 +140,17 @@ A drawback of the plot is that it is hard for our eyes to keep track of 1000 sim
 Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
 
-## 10.An Aging Population
-
+## 10.An Aging Nation: Projected Number of Children and Older Adults
+reference:[@pyramid]
+```
+@misc{pyramid,
+  author = {{United States Census Bureau}},
+  year = {2018},
+  title = {From Pyramid to Pillar: A Century of Change, Population of the U.S.},
+  howpublished = {\url{https://www.census.gov/library/visualizations/2018/comm/century-of-change.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
 Aging population is always a hot topic in social economics and politics. I collect several different data visualizations that show aging population in the world. They are good examples to learn and apply to census data. 
 
 9.1 An Aging Nation: Projected Number of Children and Older Adults
@@ -141,10 +162,17 @@ Aging population is always a hot topic in social economics and politics. I colle
 This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
 9.2 From Pyramid to Pillar: A Century of Change, Population of the U.S.
-[Source](https://www.census.gov/library/visualizations/2018/comm/century-of-change.html)
-
+reference:[@pyramid]
+```
+@misc{pyramid,
+  author = {{United States Census Bureau}},
+  year = {2018},
+  title = {From Pyramid to Pillar: A Century of Change, Population of the U.S.},
+  howpublished = {\url{https://www.census.gov/library/visualizations/2018/comm/century-of-change.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ![](images/Pyramid.jpg)
-+reference: [@population_pyramid]
 
 This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”.
 
