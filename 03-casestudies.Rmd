@@ -1,7 +1,13 @@
 
 # Case Studies
 
+
+Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. Here are some very useful case studies:
+
+**Description and replication of great examples of data visualization**
+
 ## Collections of great examples of data visualization
+
 
 Many of the case studies below come from the following articles:
 
@@ -53,10 +59,17 @@ Source: [@spendingtime] referenced in [@cool_data]
 
 ### 1.5 Is it Better to Rent or Buy?
 
-https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0(By MIKE BOSTOCK, SHAN CARTER and ARCHIE TSE)
+```
+@misc{rent_or_buy,
+  author = {{Mike Bostock,Shan Carter, and Archie Tse}},
+  year = {2014},
+  title = {Is It Better to Rent or Buy?},
+  howpublished = {\url{https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=0}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 The calculator includes several sloping charts. Each chart includes a factor that’ll affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates. A movable scale along the bottom of each chart allows you to enter different data, changing the “cost of rent per month” on the side. If you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
-
 This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
 
 ![](images/rentcalc.png)
@@ -76,10 +89,7 @@ Source: [@Immigration] referenced in [@cool_data]
 
 ### 2.1 What's really warming the world?
 
-In this case study, it first claimed the background story and the analytical questions clearly.
-Then it analyzed each different factors separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category.
-After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons.
-In the end, the authors also provided more detailed methodology explanations with dataset sources to support the results shown above.
+In this case study, it first claimed the background story and the analytical questions clearly. Then it analyzed each different factor separately using both verbal explanations and dynamic graphics to compare with the observed temperature movements, and then grouped related factors into Natural factors category or Human factors category. After that, it combined all the dynamic graphics into one and made the results more straightforward in terms of comparisons. In the end, the authors also provided more detailed explanations with dataset sources to support the results shown above.
 
 Overall, this case study is straightforward, easy to understand but also with enough information shown on each graphics.
 
@@ -88,7 +98,9 @@ Source: [@world_warming] referenced in [@int_viz_1]
 ## 3. 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events** [@int_viz_2]
 
 Visualization is like art. It speaks where words fail. There are phenomenas like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. 
+
 The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. 
+
 According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
 
 ### 3.1 The Strengths of Animated Data Visualization
@@ -138,6 +150,7 @@ Reference: [@animated_pyramid]
 This is an animated and multiple population pyramids. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes year by year, which is useful for countinous time-series comparison.
 
 Similar projected with R code is provided for references:
+
 [link](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/)
 
 ## 6. A guide to Who is Fighting Whom in Syria
@@ -185,6 +198,8 @@ Reference: [@uber_maps]
 
 ## 10. Linguistic Concepts
 
+14. **Case Study on computational linguistics**
+
 Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 
 Reference: [@lingui_data]
@@ -209,7 +224,6 @@ Reference: [@facebook_organic]
 ## 12. How the Recession Reshaped the Economy, in 255 Charts
 
 The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America. Using color to highlight the lines lets viewers see the specifics for each industry. By hovering over a line, the detailed information of that industry's job trend will show up. Keeping this extra data hidden until needed makes it easier for readers to absorb information from this otherwise huge data visualization.
-
 Below the overall chart on top are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
 Reference: [@recession_economy]
@@ -217,12 +231,12 @@ Reference: [@recession_economy]
 ## 13. Vizwiz blog: case studies about how to improve your visualizations
 
 This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical, but also full of insights.
+An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 
 My favorite part of this blog is so called “Makeover Monday”, which will develop a new visualization based on an original one. 
 For example, the author re-designed “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out “what works well”, “what could be improved” and also his goals for the new visualization 
 
 That’s how you can learn all the insight and reason behind a good visualization.
-
 Besides, this blog also includes great tips and showcases for Tableau.
 
 Reference: [@vizwiz_malaria]
@@ -230,14 +244,25 @@ Reference: [@vizwiz_malaria]
 ## 14. 15 Data Visualizations That Will Blow Your Mind
 
 "If a picture is worth a thousand words, a data visualization is worth at least a million.
-
 As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
 
 Reference: [@15_mindblowing]
 
 ### 14.1. Every Satellite Orbiting Earth
-+ https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/
+
 By David Yanofsky and Tim Fernholz, Published:Nov17,2014
+
+```
+@misc{Satellite,
+  author = {{@misc{hans_rosling,
+  author = {{Hans Rosling}},
+  year = {2015},
+  title = {https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/},
+  howpublished = {\url{https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/}},
+  note = {Accessed: 2018-05-12}
+}
+```
+Reference: [@Satellite]
 
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
 
@@ -253,6 +278,7 @@ This classic lithograph dates back to 1869, displaying the number of men in Napo
 
 ### 14.4. Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
 reference[@hans_rosling]
+
 ```
 @misc{hans_rosling,
   author = {{Hans Rosling}},
@@ -275,13 +301,29 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state. Pretty powerful.
 
 ### 14.7. NYC Street Trees
-+ https://www.cloudred.com/labprojects/nyctrees/#about
 
+```
+@misc{trees,
+  author = {{Cristian Zapata}},
+  year = {2014},
+  title = {An Interactive Visualization of NYC Street Trees},
+  howpublished = {\url{https://www.cloudred.com/labprojects/nyctrees/#about}},
+  note = {Accessed: 2018-05-12}
+}
+```
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
 
 ### 14.8. Millennial Generation Diversity
-+ http://money.cnn.com/interactive/economy/diversity-millennials-boomers/
 
+```
+@misc{age_groups,
+  author = {{Annalyn Kurtz and Tal Yellin}},
+  year = {N/A},
+  title = {Millennial generation is bigger, more diverse than boomers},
+  howpublished = {\url{http://money.cnn.com/interactive/economy/diversity-millennials-boomers/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 ### 14.9. Goldilocks Exoplanets
@@ -289,29 +331,56 @@ CNNMoney’s interactive chart showing the size and diversity of the millennial 
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
-### 14.10. Washington Wizards’ Shooting Stars
-+ http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/
-
+### 14.10 Washington Wizards’ Shooting Stars
+[@basketball]
+```
+@misc{basketball,
+  author = {{Todd Lindeman and Lazaro Gamio}},
+  year = {2014},
+  title = {The Wizards’ shooting stars},
+  howpublished = {\url{http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
 
-### 14.11. U.S. Migration Patterns 
-+ https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0
-(By GREGOR AISCH, ROBERT GEBELOFF and KEVIN QUEALY UPDATED August 19, 2014)
+### 14.11 U.S. Migration Patterns 
+[@migration]
+```
+@misc{migration,
+  author = {{Gregor Aisch, Robert Gebeloff, and Kevin Quealy}},
+  year = {2014},
+  title = {Where We Came From and Where We Went, State by State},
+  howpublished = {\url{https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0}},
+  note = {Accessed: 2018-05-12}
+}
+```
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to play around with. You can see where people living in each state were born, and to what states people move from others. 
 
-### 14.12. Selfie City
-+ http://selfiecity.net/
-
+### 14.12 Selfie City
+[@selfie]
+```
+@misc{selfie,
+  author = {{DigitalThoughtFacility project}},
+  year = {2014},
+  title = {SelfieCity},
+  howpublished = {\url{http://selfiecity.net/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in, say, New York and Berlin, as well as those between men and women across the world.
 
-### 14.13. The American Workday
-+ https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph?/templates/story/story_php=
-
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
-
-### 14.14. Global Carbon Emissions
-+ https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive
-
+### 14.13 Global Carbon Emissions
+[@CO2_emission]
+```
+@misc{CO2_emission,
+  author = {{World Resources Institute}},
+  year = {2014},	
+  title = {Carbon Emissions: past, present and future - interactive},
+  howpublished = {\url{https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive}},
+  note = {Accessed: 2018-05-12}
+}
+```
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
 
 ## 15. Other sources of great visualization:
@@ -322,12 +391,11 @@ Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/
 
 **Some examples from Tableau Gallery:** 
 
-i) Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
-
+1. Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
 ## 16. Deceptive data graphs examples
 
-references: **Misleading Graphs: Real Life Examples http://www.statisticshowto.com/misleading-graphs/**
+Reference: http://www.statisticshowto.com/misleading-graphs/ (Stephanie, Jan 24, 2014)
 
 Misleading graphs are sometimes deliberately misleading and sometimes it’s just a case of people not understanding the data behind the graph they create. But some real life misleading graphs go above and beyond the classic types. Some are intended to mislead, others are intended to shock. The “classic” types of misleading graphs include cases where:
 
@@ -347,22 +415,46 @@ Graghs can have the correct figures, but still can mislead you.
 
 This one used a BIG HEADLINE makes you think that 5.3% of children get spinal cord injuries which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000).
 
-And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
-
+And for the figure 1 used in this article: Misleading Graphs: Displaying a Change in One Variable Using Area or Volume https://www.forbes.com/sites/naomirobbins/2012/02/28/misleading-graphs-displaying-a-change-in-one-variable-using-area-or-volume/#696674551781, the label for the smaller triangle in this graph says $26.4 while the label for the larger triangle says $114.6.  $114.6 is 4.34 times $26.4. It certainly looks as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 ### 16.3 Data is left out
 
-Only include part of the data like the following graph which using temperatures of the first half of the year to prove it was rising dramatically.
+```
+@misc{scaling_issues,
+  author = {{Naomi Robbins}},
+  year = {2012},	
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
+  note = {Accessed: 2018-05-12}
+}
+```
+Only includes part of the data like the following graph which uses temperatures of the first half of the year to prove it was rising dramatically.
 
 <!--[](http://www.statisticshowto.com/wp-content/uploads/2014/01/new-haven-ct-300x145.jpg) -->
 
-For more examples of misleading graphs or deceptive graphs you can read the following articles for more inspirations:
+For more examples and inspirations on misleading graphs or deceptive graphs refer the following articles :
 
-+ bar charts without zero & evenly spaced tick marks for uneven intervals: https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33
++ graphs not drawn to scale:[@scaling_issues] 
+```
+@misc{scaling_issues,
+  author = {{Naomi Robbins}},
+  year = {2012},	
+  title = {Misleading Graphs: Figures Not Drawn to Scale?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
-+ graphs not drawn to scale: https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-graphs-figures-not-drawn-to-scale/#351dcf9c15ef
-
-
++ bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
+```
+@misc{whats_wrong,
+  author = {{Naomi Robbins}},
+  year = {2011},	
+  title = {What’s Wrong With this Graph?},
+  howpublished = {\url{https://www.forbes.com/sites/naomirobbins/2011/11/17/whats-wrong-with-this-graph/#502ab1a42a33}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ### 16.4 Treating correlation as causation
 
 Even if the labels and data in your graph is correct, it does not mean that the conclusion is logically correct. A correlation between X and Y does not automatically indicate that the change in one variable is caused by the change in the values of the other one, whereas the causation means that one event is the result of the occurrence of the other event. From the graph, we should bear in mind that it only presents the correlation between ice cream sold and murders, rather than causation.
@@ -373,13 +465,15 @@ knitr::include_graphics("images/harlin-ice-cream.png")
 
 ## 17. Application of Data Visualization
 
-Data visualization isn’t just for your resident data scientist. There are ways to use it at every level of an organization. Data Visualization applications lets us quickly create insightful data visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
+There are ways to use data visualization at every level of an organization. These applications lets us quickly create insightful visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
 
 **Data Preprocessing**
 
-We use data visualization for outliar detection in the dataset. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect.
+Data preprocessing can greatly improve the quality of data mining results, no matter whether an algorithmic or a visual approach is considered. There are four different aspects of data preprocessing: Data cleaning, data integration, data transformation and data
+reduction. 
 
-Reference:[@outliar]
+**Data Augmentation**
+[@outliar]
 
 ## 18. Data Augmentation
 
@@ -391,8 +485,16 @@ Reference:[@ref_pdf_ar]
 
 Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
 
-By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? A simple answer would be the link : http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271 .
-
+By using proper visualization, it is possible to discover a solution more easily. By using proper visualisation, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualisation of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
+```
+@misc{vr_education,
+  author = {{Michael Phillips}},
+  year = {2017},	
+  title = {How virtual reality technology is changing the way students learn},
+  howpublished = {\url{http://theconversation.com/how-virtual-reality-technology-is-changing-the-way-students-learn-63271}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ## 19. Outlier Detection
 
 A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
@@ -426,22 +528,24 @@ Data visualization techniques are used to reconstruct genetic networks from geno
 
 ### 21.1. DAVID McCANDLESS
 
-a.	David McCandless is a British data-journalist and his blog “Information is Beautiful” [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
-b.	A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
+David McCandless is a British data-journalist and his blog “Information is Beautiful” [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
+A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
+
 Some of the interesting findings are as follows:
-‘Country’ : ‘No.1 in’ 
-Canada: Doughnuts
-USA: Spam Emails
-India: Bananas
-Norway: Pizza Eaters
-Togo: Unhappiness
-Colombia: Happiness	
+
+**‘Country’ : ‘No.1 in’ **
+Canada      : Doughnuts
+USA         : Spam Emails
+India       : Bananas
+Norway      : Pizza Eaters
+Togo        : Unhappiness
+Colombia    : Happiness	
 
 The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
 
 ### 22.2. HANS ROSLING 
 
-a.	Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is “Asia’s Rise: How and When” [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is “Asia’s Rise: How and When” [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
 
 Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
@@ -449,14 +553,13 @@ Hans was the co-founder and developer of the foundation “Gapminder”[@gapmind
 
 Reference: [@interworks]
 
-I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+This article is very useful to analyze and redesign the different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts". Ref:[@gunviolence]. This article introduces the methodologies on how to use shapes as filters in Tableau when the fields are Measures. Basically, it teaches us how to load custom shape as action filters and use them for showing different graphs with those filters which can make the visualization more interesting and interactive. You can also download the tableau file for practice.
 
-An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
+Case studies document the development record of a project.They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and allow their own system to be better simply by learning from what others have done.
 
 https://www.targit.com/en/blog/2015/02/data-visualization-scatter-chart
 
 This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
-
 
 ## 24. Visualization of big data security: a case study on the KDD99 cup data set
 
