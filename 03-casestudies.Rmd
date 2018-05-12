@@ -1,10 +1,23 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Case Studies
 
 + Description and replication of great examples of data visualization
 
+10 Best Data Visualization Projects of 2015 [@10_Best]
 
-http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/
-
+```
+@misc{10_Best,
+  author = {{Nathan Yau}},
+  year = {2015},
+  title = {10 Best Data Visualization Projects of 2015},
+  howpublished = {\url{http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 The author picked top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
 
 ## Description and replication of great examples of data visualization
@@ -124,14 +137,14 @@ Similar projected with R code is provided for references:
 [link](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/)
 
 10. **Some Interesting Visualizations**
-https://blog.hubspot.com/marketing/great-data-visualization-examples
-http://blog.visme.co/data-visualizations-current-events/
+[@int_viz_1]
+[@int_viz_2]
 Visualization is like art. It speaks where words fail. There are phenomenas like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. 
 The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. 
 According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues. 
 
-1.	Picking up from one of the charts shown in the above mentioned links, the visualization of ‘A guide to Who is Fighting Whom in Syria’ is one of the most interesting charts in the list. The visualization and its report can be seen at http://www.slate.com/blogs/the_slatest/2015/10/06/syrian_conflict_relationships_explained.html
-
+1.	Picking up from one of the charts shown in the above mentioned links, the visualization of ‘A guide to Who is Fighting Whom in Syria’ is one of the most interesting charts in the list. The visualization and its report can be seen at 
+[@syria_chart]
 <!-- ![Who is Fighting Whom in Syria](images/2_1.png) -->
 
 This visualization makes an extremely complicated topic like the Syrian War easily understandable. It consists of 3 different emojis in three different colours, with each (colour+facial expression) combination showing the relationship between the various groups involved in the Syrian War. When you click on each of the emoji, a small dialogue box pops up which explains the relationship between the various countries and rebel groups involved in the war. This is not only easy to understand, but it is also pleasing to the eyes.
@@ -142,7 +155,7 @@ This visualization makes an extremely complicated topic like the Syrian War easi
 
 <!-- ![Yellow emoji shows ‘Complicated’ relationship](images/2_4.PNG) -->
 
-2.	The second visualization ‘Adding up the White Oscars Winners’ can be seen here (https://www.bloomberg.com/graphics/2016-oscar-winners/) in an article by Bloomberg. The writes of this article developed the attributes of the future winners of Oscars by taking up the attributes of the past winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
+2.	The second visualization ‘Adding up the White Oscars Winners’ can be seen here [@oscars_sowhite_chart] in an article by Bloomberg. The writes of this article developed the attributes of the future winners of Oscars by taking up the attributes of the past winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see what are the features of the actors and actresses who are more likely to win the Oscars.
 
 <!--![Best Actor and Best Actress](images/2_2_1.PNG) -->
@@ -291,6 +304,19 @@ NPR tapped into American Time Use Survey data to ascertain the share of workers 
 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
 
+
+## Other sources of great visualization:
+
+1. Tableau: Viz of the Day
+
+Tableau has a gallery called Viz of the Day (https://public.tableau.com/en-us/s/gallery
+) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
+
+**Some examples from Tableau Gallery:** 
+
+i) Describe Artists with Emoji (https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+
+
 ## Deceptive data graphs examples
 references: **Misleading Graphs: Real Life Examples http://www.statisticshowto.com/misleading-graphs/**
 
@@ -389,8 +415,8 @@ Data visualization techniques are used to reconstruct genetic networks from geno
 
 TWO AWESOME VIZUALISTS 
 1.	DAVID McCANDLESS
-a.	David McCandless is a British data-journalist and his blog “Information is Beautiful” (https://informationisbeautiful.net/) hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
-b.	A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. https://informationisbeautiful.net/visualizations/because-every-country-is-the-best-at-something/
+a.	David McCandless is a British data-journalist and his blog “Information is Beautiful” [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
+b.	A chart on this blog,”International Number Ones: Because every country is good at something (according to data)” is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
 Some of the interesting findings are as follows:
 ‘Country’ : ‘No.1 in’ 
 Canada: Doughnuts
@@ -400,12 +426,12 @@ Norway: Pizza Eaters
 Togo: Unhappiness
 Colombia: Happiness	
 
-The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: http://infobeautiful4.s3.amazonaws.com/2010/05/1276_international_number_ones.png
+The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
 
 2.	HANS ROSLING 
-a.	Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is “Asia’s Rise: How and When” (https://www.ted.com/talks/hans_rosling_asia_s_rise_how_and_when#t-926764). In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+a.	Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is “Asia’s Rise: How and When” [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
 
-Hans was the co-founder and developer of the foundation “Gapminder”( https://www.gapminder.org/) which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
+Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
 ##Using Shapes as Filters in Tableau When Your Fields Are Measures
 
@@ -421,3 +447,6 @@ I found this article quite useful for my individual project. This article introd
 
 An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
 
+https://www.targit.com/en/blog/2015/02/data-visualization-scatter-chart
+
+This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
