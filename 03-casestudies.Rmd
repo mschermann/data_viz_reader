@@ -199,8 +199,6 @@ What makes this a good visualization is that it is very easy to read and interpr
 
 ## 15. Vizwiz blog: casestudies about how to improve your visualizations
 
-http://www.vizwiz.com/
-
 This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical, but also full of insights.
 
 My favorite part of this blog is so called “Makeover Monday”, which will develop a new visualization based on an original one. 
@@ -208,6 +206,14 @@ For example, the author re-designed “The Seasonality of Confirmed Malaria Case
 That’s how you can learn all the insight and reason behind a good visualization.
 
 Besides, this blog also includes great tips and showcases for Tableau.
+
+@misc{VizWiz,
+   author= {Andy, Kriebel},
+   year = {2009},
+   title = {VizWiz},
+   url ={http://www.vizwiz.com/}
+   note = {Accessed:2018-05-011}
+}
 
 ## 16.Uber: Crafting Data-Driven Maps
 
@@ -469,10 +475,9 @@ Hans was the co-founder and developer of the foundation “Gapminder”[@gapmind
    note = {Accessed:2018-05-05}
 }
 
-I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. 
+Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
 
 An intersting case study could be [@case_thesis]. It is a thesis but it has intersting insights about visualization using mobile data.
-
-https://www.targit.com/en/blog/2015/02/data-visualization-scatter-chart
 
 This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
