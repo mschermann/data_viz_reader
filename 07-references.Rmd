@@ -1,134 +1,524 @@
 # References {-}
 
 ## Chapter 2-fundamentals
+
 **2.1 The History of Data Visualization**
 **Author: Dashboard Insight, Dashboard Insight, 2013**
 URL: http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx
 
-**2.2 Current research: Deceptive visualizations**
-**Author:Infogram, 2016**
-URL:https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239
+[@The_History_of_Data_Visualization]
 
+```
+@misc{The_History_of_Data_Visualization,
+  author = {{Dashboard Insight}},
+  year = {2013},
+  title = The History of Data Visualization},
+  howpublished = {\url{http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
+**2.2 Current research: Deceptive visualizations**
+**Author: Infogram, 2016**
+URL:https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239
+[@Deceptive_visualization]
+```
+@misc{Deceptive_visualizations,
+  author = {{Infogram}},
+  year = {2016},
+  title = {Deceptive visualizations},
+  howpublished = {\url{https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **Author: Agata Kwapien in Data Visualization, 2015**
 URL: https://www.datapine.com/blog/misleading-data-visualization-examples/
-
+[@Data_Visualization]
+```
+@misc{Data_Visualization,
+  author = {{Agata kwapien}},
+  year = {2015},
+  title = {Agata Kwapien in Data Visualization},
+  howpublished = {\url{https://www.datapine.com/blog/misleading-data-visualization-examples/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **2.3 A Brief History of Data Visualization,York University.**
-**Auhtor: Michael Friendly,2006**
+**Auhtor: Michael Friendly, 2006**
 URL:http://www.datavis.ca/papers/hbook.pdf
+[@A_Brief_History_of_Data_Visualization]
+```
+@misc{A_Brief_History_of_Data_Visualization,
+  author = {{Micharl Friendly}},
+  year = {2006},
+  title = {A Brief History of Data Visualization,York University},
+  howpublished = {\url{http://www.datavis.ca/papers/hbook.pdf}},
+  note = {Accessed: 2018-05-12}
+}
+
+```
 *Summary: * This paper provides an overview of the intellectual history of data visualization from medieval to modern times,describing and illustrating some significant advances along the way.
 
 ** 2.4 Data Visualization and the 9 Fundamental Design Principles**
-**Auhthot: Melissa Anderson,2017**
+**Auhthor: Melissa Anderson, 2017**
 URL:https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/
+[@Data_Visualization_and_the_9_Fundamental_Design_Principles]
+```
+@misc{ta_Visualization_and_the_9_Fundamental_Design_Principles,
+  author = {{Melissa Anderson}},
+  year = {2017},
+  title = {a_Visualization_and_the_9_Fundamental_Design_Principles},
+  howpublished = {\url{https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.5 A Practitioner’s Guide to Best Practices in Data Visualization.Interfaces 47(6):473-488.**
-** Auhtor: Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) ** URL: https://doi.org/10.1287/inte.2017.0916
+** Auhtor: Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer, 2017 ** 
+URL: https://doi.org/10.1287/inte.2017.0916
 
+[@A_Practitioner_Guide_to_Best_Practices_in_Data_Visualization]
+
+```
+@misc{A_Practitioner_Guide_to_Best_Practices_in_Data_Visualization,
+  author = {{Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer}},
+  year = {2017},
+  title = {A_Practitioner_Guide_to_Best_Practices_in_Data_Visualization},
+  howpublished = {\url{Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 2.6 The 7 Best Data Visualization Tools In 2017**
-** Author: Bernard Marr,2017**
+** Author: Bernard Marr, 2017**
 URL: https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30
 
-** 2.7 The Data Visualisation Catalogue**
-URL: https://datavizcatalogue.com
+[@The_7_Best_Data_Visualization_Tools_In_2017]
+```
+@misc{The_7_Best_Data_Visualization_Tools_In_2017,
+  author = {{Bernard Marr}},
+  year = {2017},
+  title = {The_7_Best_Data_Visualization_Tools_In_2017},
+  howpublished = {\url{https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30}},
+  note = {Accessed: 2018-05-12}
+}
 
+```
+** 2.7 The Data Visualisation Catalogue**
+
+
+**2.7 The Data Visualisation Catalogue**
+
+URL: https://datavizcatalogue.com
+[@The_Data_Visualisation_Catalogue]
+```
+@misc{he_Data_Visualisation_Catalogue,
+  howpublished = {\url{https://datavizcatalogue.com}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 2.8 The Extreme Presentation(tm) Method **
-** Dr. Abela,2015 **
+** Aurthor: Dr. Abela, 2015 **
 URL: http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+[@The_Extreme_Presentation]
+```
+@misc{The_Extreme_Presentation,
+  author = {{Dr. Abela}},
+  year = {2015},
+  title = {The_Extreme_Presentation},
+  howpublished = {\url{The_Extreme_Presentation}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.9 Data Visualization – How to Pick the Right Chart Type? **
+
 **Jānis Gulbis, 2016**
 https://eazybi.com/blog/data_visualization_and_chart_types/
+[@How_to_Pick_the_Right_Chart_Type]
+```
+@misc{How_to_Pick_the_Right_Chart_Type,
+  author = {{Jānis Gulbis}},
+  year = {2016},
+  title = {How_to_Pick_the_Right_Chart_Type?},
+  howpublished = {\url{https://eazybi.com/blog/data_visualization_and_chart_types/}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
+** Author: AJānis Gulbis, 2016 **
+URL: https://eazybi.com/blog/data_visualization_and_chart_types/
+
 
 ** 2.10 Data Visualization Best Practices**
-** Author: melindasantos,2017**
+** Author: melindasantos, 2017**
+URL: 
 http://paristech.com/blog/data-visualization-best-practices/
-http://paristech.com/blog/data-visualization-best-practices/
+[@Data_Visualization_Best_Practices]
+```
+@misc{Data_Visualization_Best_Practices,
+  author = {{melindasantos}},
+  year = {2017},
+  title = {Data_Visualization_Best_Practices},
+  howpublished = {\url{http://paristech.com/blog/data-visualization-best-practices/
+}},
+  note = {Accessed: 2018-05-12}
+}
+```
 http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
+【@extreme_presentation]
+```
+@misc{extreme_presentation,
+  author = {{Dr. Abela}},
+  year = {2015},
+  title = {extreme_presentation},
+  howpublished = {\url{http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.11 3 simple rules for intuitive dashboard design**
-** Happy Dashboarding, 2017 **
+** Author: Happy Dashboarding, 2017 **
 URL: https://www.klipfolio.com/blog/intuitive-dashboard-design
+[@3_simple_rules_for_intuitive_dashboard_design]
+```
+@misc{3_simple_rules_for_intuitive_dashboard_design,
+  author = {{Happy Dashboarding}},
+  year = {2017},
+  title = {3_simple_rules_for_intuitive_dashboard_design},
+  howpublished = {\url{https://www.klipfolio.com/blog/intuitive-dashboard-design}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
-** 2.12 Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., & Bertini, E. (2015). How deceptive are deceptive visualizations?**
+** 2.12 How deceptive are deceptive visualizations?**
+** Author: Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., & Bertini, E. ,2015 **
  
-** 2.13 An empirical analysis of common distortion techniques. In CHI 2015 - Proceedings of the 33rd Annual CHI Conference on Human**
+** 2.13 An empirical analysis of common distortion techniques**
+** Author: 	Anshul Vikram Pandey, 2015 **
  
-** 2.14 Factors in Computing Systems: Crossings (Vol. 2015-April, pp. 1469-1478). Association for Computing Machinery. DOI: 10.1145/2702123.2702608 (2) Tufte, E. R., and Graves-Morris, P. The visual display of quantitative information, vol. 2. Graphics press Cheshire, CT,1983.**
+**2.14 Factors in Computing Systems: Crossings (Vol. 2015-April, pp. 1469-1478). Association for Computing Machinery. DOI: 10.1145/2702123.2702608 (2) Tufte, E. R., and Graves-Morris, P. The visual display of quantitative information, vol. 2. Graphics press Cheshire, CT,1983.**
 
 ** 2.15 Axes of evil: How to lie with graphs**
+
 **ANDREA ROBERTSON**
 http://hypsypops.com/axes-evil-lie-graphs/
+[@how_to_lie_with_graphs]
+```
+@misc{how_to_lie_with_graphs,
+  author = {{Andrea Robertson}},
+  title = {how_to_lie_with_graphs},
+  howpublished = {\url{http://hypsypops.com/axes-evil-lie-graphs/}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
+**Author: ANDREA ROBERTSON**
+URL: http://hypsypops.com/axes-evil-lie-graphs/
+
 
 ** 2.16 Misleading Graphs: Real Life Examples**
+**Author: Stephanie, February 28th, 2016**
+URL: http://www.statisticshowto.com/misleading-graphs/ 
 
-**February 28th, 2018 by Stephanie**
-http://www.statisticshowto.com/misleading-graphs/ 
+[@Misleading_Graphs]
+
+```
+@misc{Misleading_Graphs,
+  author = {{Stephanie}},
+  year = {2018},
+  title = {Misleading_Graphs},
+  howpublished = {\url{http://www.statisticshowto.com/misleading-graphs/ }},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.17 Next Steps for Data Visualization Research**
+
 ** UW Interactive Data Lab,2015**
 https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
-
+[@17_Next_Steps_for_Data_Visualization_Research]
+```
+@misc{17_Next_Steps_for_Data_Visualization_Research,
+  author = {{ UW Interactive Data Lab}},
+  year = {2015},
+  title = {17_Next_Steps_for_Data_Visualization_Research},
+  howpublished = {\url{https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 2.18 Using Typography to Expand the Design Space of Data Visualization. She Ji: The Journal of Design, Economics and Innovation, 2(1), pp 59-87. **
 
 ** 2.19 Using Typography to Expand the Design Space of Data Visualization**
 **Banissi, Ebad, & Brath, Richard. (2016). ** https://www.sciencedirect.com/science/article/pii/S2405872616300107. 
+[@Using_Typography_to_Expand_the_Design_Space_of_Data_Visualization]
+```
+@misc{Using_Typography_to_Expand_the_Design_Space_of_Data_Visualization,
+  author = {{Banissi, Ebad, & Brath, Richard}},
+  year = {2016},
+  title = {Using_Typography_to_Expand_the_Design_Space_of_Data_Visualization},
+  howpublished = {\url{https://www.sciencedirect.com/science/article/pii/S2405872616300107}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.20 Using Data Visualization to Find Insights in Data**
- http://datajournalismhandbook.org/1.0/en/understanding_data_7.html 
+**Gregor Aisch, Open Knowledge Foundation**
+http://datajournalismhandbook.org/1.0/en/understanding_data_7.html 
+[@Using_Data_Visualization_to_Find_Insights_in_Data]
+```
+@misc{Using_Data_Visualization_to_Find_Insights_in_Data,
+  author = {{Gregor Aisch}},
+  title = {Using_Data_Visualization_to_Find_Insights_in_Data},
+  howpublished = {\url{http://datajournalismhandbook.org/1.0/en/understanding_data_7.html }},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.21  Building advanced analytics application with TabPy**
 https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
+[@Building_advanced_analytics_application_with_TabPy]
+```
+@misc{Building_advanced_analytics_application_with_TabPy,
+  author = {{BORA BERAN}},
+  year = {2017},
+  title = {Building_advanced_analytics_application_with_TabPye},
+  howpublished = {\url{https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ** 2.22 Some best practices for visualization:**
 http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf
-
+[@Visual_Analysis_Best_Practices]
+```
+@misc{Visual_Analysis_Best_Practices,
+  author = {{tableau}},
+  title = {AVisual_Analysis_Best_Practices},
+  howpublished = {\url{http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 2.23 Avoiding Common Mistakes with Time Series**
 ** TOM FAWCETT,2015**
 https://www.svds.com/avoiding-common-mistakes-with-time-series/
-
+[@Avoiding_Common_Mistakes_with_Time_Series]
+```
+@misc{Avoiding_Common_Mistakes_with_Time_Series,
+  author = {{Tom fawcett}},
+  year = {2015},
+  title = {Avoiding_Common_Mistakes_with_Time_Series},
+  howpublished = {\url{https://www.svds.com/avoiding-common-mistakes-with-time-series/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 ## Chapter 4 patterns
 ** 4.1 The Baseline and Working with Time Series in R**
 ** Nathan Yau, 2013**
 https://flowingdata.com/2013/11/26/the-baseline/
-
+[@The_Baseline_and_Working_with_Time_Series_in_R]
+```
+@misc{he_Baseline_and_Working_with_Time_Series_in_R,
+  author = {{Nathan Yau}},
+  year = {2013},
+  title = {he_Baseline_and_Working_with_Time_Series_in_R},
+  howpublished = {\url{https://flowingdata.com/2013/11/26/the-baseline/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 4.2 Using design patterns to find greater meaning in your data**
 **Julie RodriguezPiotr Kaczmarek May 11, 2016**
 https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data
-
+[@Using_design_patterns_to_find_greater_meaning_in_your_data]
+```
+@misc{Using_design_patterns_to_find_greater_meaning_in_your_data,
+  author = {{Julie RodriguezPiotr Kaczmarek}},
+  year = {2016},
+  title = {Using_design_patterns_to_find_greater_meaning_in_your_data},
+  howpublished = {\url{https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **4.3Design’s Iron Fist** 
 **Jarrod Drysdale**
 https://studiofellow.com/newsletter/
-
+[@Design_Iron_Fist]
+```
+@misc{Design_Iron_Fist,
+  author = {{Jarrod Drysdale}},
+  title = {Design_Iron_Fist},
+  howpublished = {\url{https://studiofellow.com/newsletter/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **4.4The Creative Aid Handbook** 
 **Kooroo Kooroo**
 https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid
-
+[@The_Creative_Aid_Handbook]
+```
+@misc{the_Creative_Aid_Handbook,
+  author = {{Kooroo Kooroo}},
+  title = {the_Creative_Aid_Handbook},
+  howpublished = {\url{https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **4.5Designbetter.co** 
 **InVision**
 https://www.designbetter.co/
-
+[@Designbetter]
+```
+@misc{Designbetter,
+  title = {Designbetter},
+  howpublished = {\url{https://www.designbetter.co/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **4.6 Type Classification**
 http://justcreative.com/featured-articles/type-classification-ebook/
-
+[@Classification_type]
+```
+@misc{Classification_type,
+  title = {Classification_type},
+  howpublished = {\url{http://justcreative.com/featured-articles/type-classification-ebook/}},
+  note = {Accessed: 2018-05-12}
+}
+```
 ** 4.7 Free eBooks All Designers Should Read**
 ** Michael Abehsera,2018**
  https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762
-
+ [@Free_eBooks_All_Designers_Should_Read]
+```
+@misc{Free_eBooks_All_Designers_Should_Read,
+  author = {{Michael Abehsera}},
+  year = {2018},
+  title = {Free_eBooks_All_Designers_Should_Read},
+  howpublished = {\url{https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762}},
+  note = {Accessed: 2018-05-12}
+}
+```
 **4.8**
 **Javier Guillen**  
  http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
+[@USEFUL_TABLEAU_TECHNIQUES]
+```
+@misc{USEFUL_TABLEAU_TECHNIQUES,
+  author = {{Javier Guillen}},
+  title = {USEFUL_TABLEAU_TECHNIQUES},
+  howpublished = {\url{http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
+** Author: UW Interactive Data Lab, 2015**
+URL: https://medium.com/@uwdata/next-steps-for-data-visualization-research-3ef5e1a5e349
+
+**2.18 Using Typography to Expand the Design Space of Data Visualization. She Ji: The Journal of Design, Economics and Innovation, 2(1), pp 59-87.**
+
+** 2.19 Using Typography to Expand the Design Space of Data Visualization**
+**Banissi, Ebad, & Brath, Richard. (2016). ** 
+URL: https://www.sciencedirect.com/science/article/pii/S2405872616300107. 
+
+** 2.20 Using Data Visualization to Find Insights in Data**
+URL: http://datajournalismhandbook.org/1.0/en/understanding_data_7.html 
+
+** 2.21  Building advanced analytics application with TabPy**
+URL: https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
+
+** 2.22 Some best practices for visualization:**
+URL: http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf
+
+** 2.23 Avoiding Common Mistakes with Time Series**
+**Author: TOM FAWCETT,2015**
+URL: https://www.svds.com/avoiding-common-mistakes-with-time-series/
 
 
+## Chapter 4 patterns
+** 4.1 The Baseline and Working with Time Series in R**
+**Author: Nathan Yau, 2013**
+URL: https://flowingdata.com/2013/11/26/the-baseline/
+
+** 4.2 Using design patterns to find greater meaning in your data**
+**Author: Julie RodriguezPiotr Kaczmarek May 11, 2016**
+URL: https://www.oreilly.com/ideas/using-design-patterns-to-find-greater-meaning-in-your-data
+
+**4.3Design’s Iron Fist** 
+**Author: Jarrod Drysdale**
+URL: https://studiofellow.com/newsletter/
+
+**4.4The Creative Aid Handbook** 
+URL: https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid
 
 
+Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph's dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs.
+
+![](images/Line_graph1.svg.png)
+
+![](images/175px-Line_graph1-3.svg.png)
+
+![](images/200px-Line_graph1-4.svg.png)
+
+**4.5Designbetter.co** 
+URL: https://www.designbetter.co/
+
+
+**4.6 Type Classification**
+URL: http://justcreative.com/featured-articles/type-classification-ebook/
+
+** 4.7 Free eBooks All Designers Should Read**
+** Author: Michael Abehsera, 2018**
+URL: https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762
+
+
+It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
+
+![](images/Bad_graph_extraction.png)
+
+![](images/Good_graph_extraction.png)
+
+
+4. Using The Wrong Graphs
+So far, we have intentional misinformation tactics that writers use to push their agendas.
+
+**4.8**
+**Author: Javier Guillen**  
+URL: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
+
+## Chapter 5
+
+
+**5.1 Importance of Ethics in Visualization**
+Data visualization in political and social sciences, author: Andrei Zinovyev, year: N/A, https://github.com/mschermann/data_viz_reader/files/1933699/Zinovyev_Data_Visualization.pdf 
+
+Ethical Infographics: In data visualization, journalism meets engineering, author: Alberto Cairo, year: 2014, http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html
+
+
+**5.2 Data Visualization in Political and Social Sciences**
+Data visualization in political and social sciences, author: Andrei Zinovyev, year: N/A, https://github.com/mschermann/data_viz_reader/files/1933699/Zinovyev_Data_Visualization.pdf 
+
+**5.3 Data Visualization in Business**
+How Data Visualization Impacts Your Business Strategy, author: Katherine Lazarevich, year: 2018, https://www.iotforall.com/data-visualization-strategy-for-business/ 
+
+**5.4 Implications of (Good/Bad) Data Visualization**
+How Writers Use Misleading Graphs to Manipulate You, author: Ryan McCready, year: 2017, https://venngage.com/blog/misleading-graphs/ 
+
+**5.5 General Guidelines to Ethical Visuals**
+A Code of Ethics for Data Visualization Professionals, author: Drew Skau, year: 2012, https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professionals/ 
 
 ## Others
 **1. 3 Expert Data Visualization Tips for Grabbing Readers' Attention** 
 **Author: Payman Taei,2017**
-
 URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
-
+[@3_Expert_Data_Visualization_Tips]
+```
+@misc{3_Expert_Data_Visualization_Tips,
+  author = {{Payman Taei}},
+  year = {2017},
+  title = {3_Expert_Data_Visualization_Tips},
+  howpublished = {\url{https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf}},
+  note = {Accessed: 2018-05-12}
+}
+```
 *Summary*: This article found on Medium explores three important aspects to focus on when creating a data visualization.  The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience.  Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they're looking at a data visual, which offers a unique and useful perspective.
 
 Here is an outline of each of the 3 aspects:
@@ -143,74 +533,67 @@ I think often when working with data, we tend to gravitate toward including more
 **2. Choose best colors for cartography visualization in a professional manner**
 **Author: © Cynthia Brewer, Mark Harrower and The Pennsylvania State University**
 URL: http://colorbrewer.org
+[@best_colors_for_cartography_visualization]
+```
+@misc{best_colors_for_cartography_visualization,
+  author = {{Cynthia Brewer, Mark Harrower and The Pennsylvania State University}},
+  title = {best_colors_for_cartography_visualization},
+  howpublished = {\url{http://colorbrewer.org}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 *Summary*: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.
 
 It will automatically recommend the color schemes in the following aspects:
 
-1: Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.
+1. Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.
 
-2: Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
+2. Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers’). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
 
-3: You can also change the settings to colorblind-friendly on this site.
+3. You can also change the settings to colorblind-friendly on this site.
 
 **3. Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations.**
 **Author:Jess Rios, 2017**
-
 URL:https://guides.library.harvard.edu/c.php?g=310952&p=2073191
+[@Visualization_Tools]
+```
+@misc{Visualization_Tools,
+  author = {{Jess Rios}},
+  title = {Visualization_Tools},
+  howpublished = {\url{https://guides.library.harvard.edu/c.php?g=310952&p=2073191}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 This website lists lots of tools to do different type of visualizations, check it out.
 
-
 **4. Visual Capitalist**
-
 URL:http://www.visualcapitalist.com/category/politics/
+[@Visual_Capitalist]
+```
+@misc{Visual_Capitalist,
+  title = {Visual_Capitalist},
+  howpublished = {\url{Visual Capitalist}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 This company/website creates visual contents in the field of business and marketing.
 
-**5. Misleading Graph**
-URLs:
-How Writers Use Misleading Graphs To Manipulate You BY RYAN MCCREADY, AUG 10, 2017
-https://venngage.com/blog/misleading-graphs/
-Misleading graph, wikipedia
-https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph
-Data Analysis: Displaying Data - Deception with Graphs
-https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf
-*Summary*: As a student to learn how to be a good data scientis or business analytics professional, it is important to learn how to read the chart and interpret the statistic. Graphs can be one of the best ways to present statistical information, but they can also be one of the most misleading, even when they are completely accurate. Here, I would like to share how to detect misleading graphs.Furthermore, we can learn how to improve our data visualization skills.
-
-
-5.1. Omitting Baselines
-
-In the data visulization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs make the readers to change their judement for something that is not significant looks like a huge differece. 
-
- A example of using good data in a misleading graph to fool readers comes from Fox News.
-![](images/1.png)
-
-5.2. Axis Manipulation
-
-Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph's dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs.
-![](images/Line_graph1.svg.png)
-![](images/175px-Line_graph1-3.svg.png)
-![](images/200px-Line_graph1-4.svg.png)
-
-Axis manipulation is the opposite of truncating data, because they include the axis and baselines but change them so much that they lose meaning. This type of graph manipulation can be used to push a false narrative.
-
-5.3.Cherry Picking Data
-This is to pick the data that shows a typical viewpoint. For example, we know house price in Bay area kept increasing since 2011. However, for those house agencies who want convince buyers that house prices has decreased , they might select some areas in typical months that house prices happend to decreased.  
-
-It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
-![](images/Bad_graph_extraction.png)
-![](images/Good_graph_extraction.png)
-
-
-
-
-
-**6. The Year in Visual Stories and Graphics: New York Times**
+**5. The Year in Visual Stories and Graphics: New York Times**
 **Author:The New York Times, 2013**
-
 URL: http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/index.html#dataviz
+[@The_Year_in_Visual_Stories_and_Graphics]
+```
+@misc{The_Year_in_Visual_Stories_and_Graphics,
+  author = {{The New York Times}},
+  year = {2013},
+  title = {The_Year_in_Visual_Stories_and_Graphics},
+  howpublished = {\url{http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/index.html#dataviz}},
+  note = {Accessed: 2018-05-12}
+}
+```
 
 *Summary: *Every year, New York Times will select a collection of the year’s best storyteller visualizations, which includes different forms of state-of-the-art news visualizations. 
 Personally, I think it can be a good inspiration when we feel like “I don’t know how to be creative on this”.
-
