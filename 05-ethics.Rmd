@@ -14,15 +14,12 @@
 }
 ```
 
-Over the years, researchers and lawyers have come up with rules and practices for proper data collection and utilization, with particular attention on human subject research.
+Over the years, researchers and lawyers have come up with rules and practices for proper data collection and utilization, with particular attention on human subject research. Consent of the subjects to use their data, evaluation of any risk with use or collection of data, and protecting anonymity of data are some of the rules that must be considered for ethical research methods. Under U.S. law, research institutions receiving federal funding, must consider ethical aspects of their research. These rules continue to evolve.
 
-Consent of the subjects to use their data, evaluating any risk with use or collection of data or protecting anonymity of data are some of the rules that must be considered for ethical research methods. Under U.S.law for research institutions receiving federal funding, ethical aspects must be considered. These rules continue to evolve.
+Data presented in charts can persuade viewers on the subject matter, even if viewers do not support the idea presented. This means that visualizations can also be used to deceive and there are many techniques for this leading viewers to wrong conclusions. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. Its ethical responsibility to create visualizations to give correct and faithful representation of data and subjects.
 
-Research have found that even if viewers do not support an idea,  data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used for deception and there are lot of techniques that can produce dangerous visualization.Techniques such as truncated axis (where the y-axis does not start at zero) or using area to represent quantity (for instance comparing the size of two adjacent circles) were found to lead to wrong conclusions.
 
-Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. Its ethical responsibility to create visualizations to give correct and faithful representation of data and subjects.
-
-#### **A basis for why we should pursue ethical data visualization**
+#### **Ethical Theory and Practice from Journalism and Engineering**
 
 [@ethical_infographics]
 ```
@@ -35,19 +32,17 @@ Misleading, incomprehensible, or incredible data visualization can jeopardize pe
 }
 ```
 
-Alberto Cairo addresses into the ethical 'why' of data visualization in this article, while still grounding the discussion in straightforward analysis of what to do and what not to do. He emphasizes that the effectiveness of the communicative display is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it. 
+Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in straightforward analysis of what to do and what not to do. He emphasizes that the effectiveness of the communicative display is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it. 
 
 Cairo sees data visualization as a harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and honesty and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is clearly and concisely conveyed.
 
-Cairo describes himself as a "rule utilitarian" and uses this to explain why it is ethical or, in his words, "morally right," to create graphics in this way. Here, it very useful to review his blogpost introducing the article.
+Cairo describes himself as a "rule utilitarian" and uses this to explain why it is ethical or, in his words, "morally right," to create graphics in this way. Here, it very useful to review his blogpost introducing the article. Essentially, the goal is to create the most good while doing the least harm. As such, conveying truthful and honest relevant information increases a persons understanding. Increased understanding and knowledge positively correlates with personal well-being.
 
-Essentially, the goal is to create the most good while doing the least harm. As such, conveying truthful and honest relevant information increases a persons understanding. Increased understanding and knowledge positively correlates with personal well-being.
-
-So, the information presented must be accurate and relevant. Cairo briefly addresses guidelines for this which are applicable in all information gathering fields: beware of selection bias when choosing preexisting datasets, validate the data, and include important context. False or irrelevant information doesn't improve anyone's decision-making capacity, so it cannot enhance well-being.
+The information presented must be accurate and relevant. Cairo briefly addresses guidelines for this which are applicable in all information gathering fields: beware of selection bias when choosing preexisting datasets, validate the data, and include important context. False or irrelevant information doesn't improve anyone's decision-making capacity, so it cannot enhance well-being.
 
 Even if the information is both accurate and relevant, moral engineering pitfalls may remain. To avoid the unethical trap of inscrutable (or misleading) graphics, Cairo exhorts us to take an evidenced based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. 
 
-Again, since the ethical purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it actually creates misunderstanding for the audience. While it can be a bit jarring to think of an poorly designed graphic as "morally wrong", it is important to think of the unintended consequences of visuals which have a powerful impact on their viewers.
+Again, since the ethical purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it actually creates misunderstanding for the audience. While it can be a bit jarring to think of a poorly designed graphic as "morally wrong", it is important to think of the unintended consequences of visuals which have a powerful impact on their viewers.
 
 ## 5.2 Data Visualization in **Political and Social Sciences**
 
@@ -83,7 +78,7 @@ Some useful visualization methods are:
  
 According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
-**1. Cleansing**
+**1. Cleaning**
 
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 
@@ -112,7 +107,7 @@ We should understand what to do with data, but first we should understand why th
 
 **1. Easy Recall**
 
-People can process images more quickly than words.As data are transformed into imagery, the readability and cognition of the content greatly improve. While people can only seem to remember just 10% of what they hear and only 20% of what they read, retention jumps up to 80% when they see visual ingormation and do some modifications in them.
+People can process images more quickly than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% when they for visual information with interaction.
 
 **2. Providing Window for Perspective**
 
