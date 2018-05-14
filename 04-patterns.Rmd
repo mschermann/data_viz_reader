@@ -7,7 +7,8 @@
 
 Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
 
-1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different. See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
+1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
+See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 ![](images/hickey-before.jpg)
 Source: [@hickey-pie-worst]
@@ -15,18 +16,20 @@ Source: [@hickey-pie-worst]
 ![](images/hickey-after.jpg)
 Source: [@hickey-pie-worst]
 
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories. See figure \@ref(fig:hickey-breakdown) for example.
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories. **
+See figure \@ref(fig:hickey-breakdown) for example.
 
 ![](images/hickey-breakdown.jpg)
 
 (Source: [@hickey-pie-worst])
 
-3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example.
+3. Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
 
 ![](images/hickey-3D.jpg)
 Source: [@hickey-pie-worst]
 
-4. Pie chart may be useful when comparing 2 different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
+4. Pie chart may be useful when comparing 2 different categories with different amounts of information.
+Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
 
 ![](images/henry-quarter.png)
 (Source: [@henry-defense-pie])
@@ -35,6 +38,7 @@ Source: [@hickey-pie-worst]
 (Source: [@henry-defense-pie])
 
 ## 2. Chose the right baseline in data visualization
+
 
 Baseline is very important to data visualization. If baseline is different, the meanning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
@@ -48,7 +52,8 @@ c <- c(64.9,65.33,71.67,79.17,68.78,69.83,78.61,92.68,89.28,90.43,97.96,106.96,1
 data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
-4.1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
+
+1. Regular quaterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
 par(cex.axis=0.7)
@@ -56,9 +61,9 @@ data.ts <- ts(data$sales, start=c(2010, 1), frequency=4)
 plot(data.ts, xlab="", ylab="", main="sales per quater", las=1, bty="n")
 ```
 
-4.2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
+2. Quaterly and yearly change sales. **The baseline here is zero and look at the percentage changes.**
 ```{r}
- # Quaterly change
+# Quaterly change
 curr <- as.numeric(data$sales[-1])
 prev <- as.numeric(data$sales[1:(length(data$sales)-1)])
 quaChange <- 100 * round( (curr-prev) / prev, 2 )
@@ -70,7 +75,7 @@ barCols <- sapply(quaChange,
 			return("gray")
 		}
 	})
-#monChange.ts <- ts(monChange, start=c(1976, 2), frequency=12)
+
 barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quaterly")
 ```
 
@@ -88,11 +93,12 @@ barCols <- sapply(annChange,
 			return("gray")
 		}
 	})
+
 barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annual")
 ```
 From this plot, it is very clear that the magnitude of drops in sales for some quaters.
 
-4.3. The sales difference compare to now. **The baseline here is the current sales.**
+3. The sales difference compare to now. **The baseline here is the current sales.**
 ```{r}
 # Relative to current 2015
 curr <- as.numeric(data$sales[length(data$sales)])
@@ -108,7 +114,8 @@ barCols.diff <- sapply(salesDiff,
 )
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from last quater 2015")
 ```
-4.4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
+
+4. Sales difference compared to the first quater. ** The baseline here is the first quater sales.**
 ```{r}
 # Relative to first quater
 ori <- as.numeric(data$sales[1])
@@ -125,7 +132,7 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from first quater 2010")
 ```
 
-4.5. The difference between quater sales and mean. ** The baseline is mean now.**
+5. The difference between quater sales and mean. ** The baseline is mean now.**
 ```{r}
 # difference from the mean
 mean <- mean(as.numeric(data$sales))
@@ -142,6 +149,18 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from mean")
 ```
 
+So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+
+```{}
+@misc{baseline,
+  author = {{Nathan Yau}},
+  title = {The Baseline and Working with Time Series in R},
+  howpublished = {\url{https://flowingdata.com/2013/11/26/the-baseline/}},
+  note = {Accessed: 2018-05-11}
+}	 
+```	
+
+
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.[@baseline]
 ```
@@ -154,15 +173,13 @@ So before we start to plot, we should decide the baseline we want to use. Differ
 }
 ```
 
-
-
-## 5. Using design patterns to find greater meaning in your data
+## 3. Using design patterns to find greater meaning in your data
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity.
 
 
 Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
 
-** 5.1 Comparisons**
+** 3.1 Comparisons**
 
 ```{r pressure1, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
@@ -170,7 +187,7 @@ knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
 
-**5.2 Connections**
+**3.2 Connections**
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
 ```{r pressure2, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/2.jpg')
@@ -181,7 +198,7 @@ What else can you derive from organizing the information in a spectrum of negati
 
 Next, you might wonder how you would have fared if you had invested in certain funds. You might ask: if I had purchased this fund five years ago, what would my return be? And what about the YTD returns? Since market timing is key to investment choices, the following presentation of hypothetical investments represents a range of results. 
 
-**5.3 Conclusions**
+**3.3 Conclusions**
 ```{r pressure3, eval=FALSE, echo=FALSE, out.width = '100%'}
 knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
 ```
@@ -198,8 +215,7 @@ The line weights help to identify each entry point and show the range of differe
 }
 ```
 
-
-## 6. Example Visualizations of Time Series Data
+## 4. Example Visualizations of Time Series Data
 
 Reference: [@aya-time-series]
 
@@ -275,26 +291,26 @@ Polar area diagrams are useful for representing seasonal or cyclical time series
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since area of a circle is proportional to the square of the radius).
 
-## 8 Tips to improve Data Visualization
-**8.1.Comparison**
+## 5 Tips to improve Data Visualization
+** 5.1 Comparison **
 Include a zero baseline if possibleAlthough a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
-**8.2.Copy**
+** 5.2 Copy **
 Don’t over explain If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it; Keep chart and graph headers simple and to the point There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension; Use callouts wisely Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context; Don’t use distracting fonts or elements Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
-**8.3.Color**
+** 5.3 Color **
 Use a single color to represent the same type of data; Watch out for positive and negative numbers Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind; Make sure there is sufficient contrast between colors; Avoid patterns Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes); Select colors appropriately; Don’t use more than 6 colors in a single layout.
-**8.4.Ordering**
+** 5.4 Ordering **
 Order data intuitively There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value; Order consistently; Order evenly Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
-**8.5.Audience perspective**
+** 5.5 Audience perspective **
 Let the users lead;Know your audience,Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
-** 8.6.Use layers to tell a story**
+** 5.6 Use layers to tell a story **
 While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
-**8.7.Keep it simple**
+** 5.7 Keep it simple **
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do.
 
 +reference: [@French]
 +reference: [@Steier]
 
-## 9. More ways to improve your visualization design
+## 6. More ways to improve your visualization design
 ### Free eBooks All Designers Should Read
 
 From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
@@ -325,7 +341,7 @@ Type Classification is a helpful beginner’s guide to typography. It should giv
   note = {Accessed: 2018-05-12}
 }
 ```
-## 10.Tips for Tableau
+## 7.Tips for Tableau
 1. Running totals
 2. Common Baseline
 3. Weighted averages
@@ -338,13 +354,13 @@ Type Classification is a helpful beginner’s guide to typography. It should giv
 10. Auto-fitting screen behavior depending on data selection
 
 
-**Word Cloud**
+## 8.Word Cloud
 
 A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
 
 Word clouds can add clarity during text analysis in order to effectively communicate your data results.It is an effective tool for Q researchers, marketers, Non-profits, Human resources ,Educators, Politicians and journalists.
 
-### Pros of Word Clouds:
+** 8.1 Pros of Word Clouds **
 
 1. It is easy to understand and make an impact.
 2. It can easily be shared.
@@ -352,7 +368,7 @@ Word clouds can add clarity during text analysis in order to effectively communi
 4. It is fast and reveals the essential. 
 5. They delight and provide emotional connection..
 
-### Flaws of Word Clouds:
+** 8.2 Cons of Word Clouds **
 
 1. Emphasis based on length of the words.
 2. Words whose letters contain many ascenders and descenders may receive more attention.
@@ -362,20 +378,152 @@ Word clouds can add clarity during text analysis in order to effectively communi
 
 [@wordcloud]
 
-### Ways of generating a word cloud:
+** 8.3 Ways of generating a word cloud **
 
-### R:
-The procedure of creating word clouds is very simple in R with text mining package (tm) and the word cloud generator package. The major steps involved are :text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
++ R 
+  +The procedure of creating word clouds is very simple in R with text mining package (tm) and the word cloud generator package. The major steps involved   are :text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
 [@r]
 
-### Wordle:
-Wordle is a toy for generating “word clouds” from text that you provide.It is very popular, free and easy to use. You do need Java though Chrome. In Wordle, you generate word clouds from text you input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused.
++ Wordle
+  +Wordle is a toy for generating “word clouds” from text that you provide.It is very popular, free and easy to use. You do need Java though Chrome. In Wordle, you generate word clouds from text you input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused.
 [@wordle]
 
 Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 
+### Calendar View 
+(Redproducable code for reference)
 
-## 11. Reusable Data Visualization Code in R
+[@Calendar_Layout]
+We have all seen the calendar views in the various data products that we worked on.  Please find below an open source code that I found, this will help you replicate and create your own calendar:
+[@CalendarView]
+ 
+This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
+
+<!DOCTYPE html>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+</script>
+
+## 11. An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
+DATA USA :     [@DataUSA]
+MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data from various sources and mines information to generate trends and stories about cities, jobs, industries etc. to the common man.
+Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is amazing to see how they have brought it all together on a single platform in a very easy to decipher format.
+What caught my attention here is the categorization of Information on the website that enables the following - 
+1.	Easy browsing of various categories of information available at a single glance
+2.	Easy search on any topic of interest and get deeper information on each
+3.	Logical construction of information using data and visuals under each category
+4.	Comparative Analysis of cities
+5.	Variety of exploratory visualizations to learn from 
+6.	Most important - Stories that these data tell For e.g. Evolution of the American Worker, Poverty is bad for your health, Men still dominate in the highest paying industries, Opioid addiction damage and so many others. 
+
+We think of a topic, and its possible it's there! 
+Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website
+And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
+There is also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
+
+Do explore!
+
+
+Ref:
+
+https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/
+
+https://yseop.com/blog/automation-making-data-visualization-smarter/
+
+http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools
+
+https://www.quora.com/What-is-the-future-of-data-visualization
+
+Plug in any dataset into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
+
+ 
+
+Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any dataset is farfetched at this point, because this requires automatic analysis. Automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+
+ 
+
+The focus in today's world has been on open source tools and technologies and these tools although being free for most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
+
+ 
+
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
+
+At the end its not only about the tool its more about what you are trying to do; what your professor, client, business or whatever needs.
+
+
+## 12. Reusable Data Visualization Code in R
 [@viz_R]
 
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles and labels are added on using extra code.  For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
@@ -391,4 +539,6 @@ plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), s
 plot(plot1)  #we have to actually call the plot() function on the plot object we created
 ```
 The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
+
+
 
