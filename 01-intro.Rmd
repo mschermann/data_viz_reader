@@ -1,14 +1,19 @@
 # Introduction
 
-## What is Data Visualization? 
+## 1.1 What is Data Visualization? 
 
 Data visualization refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us.
 
 According to Friedman (2008) the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
 
+
 [@viz]
 
 ## Information Visualization
+
+
+### Information Visualization
+
 
 Information visualization, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives. From business decision making to simple route navigation – there’s a huge (and growing) need for data to be presented so that it delivers value.
 
@@ -17,11 +22,24 @@ This article is a brief introduction to Information Visualization. It explains b
 [@info_viz]
 
 
-## Why is Data Visualization Important?
+## 1.2 Why is Data Visualization Important?
 
 Today more than ever, Data Visualization represents a simple, user-friendly approach to understand data and make business decisions quickly. Here are some articles on why it is important today.
 
 **Chris Pittenturf's article on the importance of data visualization to businesses**
+
+The article , written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
+
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criterias that a data visualization should satisfy to be an effective visualization. These criterias and their brief meanings are as follows:
+1. Informative: The visualization should be able to convey the information of the data to the reader
+2. Efficient: The visualization should not be ambiguous.
+3. Appealing: The visualization should be captivating and visually pleasing. 
+4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
+
+
+Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data.
+One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. 
+The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. Data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
 The article, written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
 
@@ -55,12 +73,7 @@ McCandless also postulates that we all have a latent “design literacy” that 
 
 [@viz_ted]
 
-
-<!--
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).-->
-
-
-## Key Figures in the History of Data Visualization
+## 1.3 Key Figures in the History of Data Visualization
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. Below we have some figures names with their famous works, and you can find other stories in the article.
 
@@ -93,11 +106,15 @@ You can see how many soldiers are still marching and how many died. Drawn in 186
 [@history_viz]
 
 
-## Useful Links on Data Visualization Trends, Tutorials and Research Papers
+## 1.4 Useful Links on Data Visualization Trends, Tutorials and Research Papers
 
 [@charts_viz] - You can find different types of plots used in data visualization at  [Data Catalogue](https://datavizcatalogue.com/search.html).
 
 [@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
+
+
+<!--Infogram,Jun 14,2016.Key Figures in the History of Data Visualization,Medium.
+  https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c -->
 
 [@research_viz] - About Robert Kosara and his reserach papers.
 
@@ -105,24 +122,20 @@ You can see how many soldiers are still marching and how many died. Drawn in 186
 
 [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
 
-
-**Infogram**
-
-An infogram helps a user making different types of plots and learning the art of visualization. 
+[@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. 
 Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
 
-[@infogram]
+
 
 <!--
 Basic Guidelines:
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.-->
 
-
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
 ```
-
+<!--
 Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
 ```{r nice-tab, tidy=FALSE}
@@ -133,3 +146,4 @@ knitr::kable(
 ```
 
 You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
