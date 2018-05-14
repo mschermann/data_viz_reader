@@ -75,15 +75,15 @@ disciplinary research area, as may be seen in this Handbook, and software tools 
   These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
   then focus your visualization with respect to those questions. 
   
-  Brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
-  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
+  Brain processes stimuli from our environment to process what is important in 2 ways �? unconscious (System 1 represents
+  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 �? represents controlled function
   such as solving math problems). Data Visualization leverage attributes of System -1 which has can have quick and correct
   impact in a most efficient manner. The three best practices of data visualization are as follows: - 
   
   1. Design and layout matter
      The design and layout should facilitate ease of understanding to convey your message to the viewer.
   2. Avoid Clutter
-     Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
+     Keep it simple. To implement this always keep into account the data-ink ratio �? the ratio of ink required to convey
      the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
     means, avoid ink which do not add any information.
   3. Use color purposely and effectively
@@ -202,7 +202,7 @@ Data visualization is a powerful communication tool to support arguments with nu
 
 ## 2. A Brief History of Data Visualization
 
-The only new thing in the world is the history you don’t know. — Harry S Truman
+The only new thing in the world is the history you don’t know. �? Harry S Truman
 
 2.1. Data Visualization: modern product?
     
@@ -253,7 +253,7 @@ Providing context, adding time sequence details, showing movement, change and me
        
 2.2.2 1600-1699: Measurement and theory
        
-Among the most important problems of the 17th century were those concerned with physical measurement— of time,distance,and space— for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawnof practical application.
+Among the most important problems of the 17th century were those concerned with physical measurement�? of time,distance,and space�? for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawnof practical application.
        
 2.2.3 1700-1799: New graphic forms
        
@@ -263,9 +263,9 @@ With some rudiments of statistical theory, data of interest and importance, and 
        
 With the fertilization provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be equalled until modern times.
        
-2.2.5 1850–1900: The Golden Age of statistical graphics
+2.2.5 1850�?1900: The Golden Age of statistical graphics
        
-By the mid-1800s, all the conditions for the rapid growth of visualization had been established— a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+By the mid-1800s, all the conditions for the rapid growth of visualization had been established�? a “perfect storm�? for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
           
 2.2.5.1 Escaping flatland
 2.2.5.2 Graphical innovations
@@ -274,9 +274,9 @@ By the mid-1800s, all the conditions for the rapid growth of visualization had b
            
 2.2.6 1900-1950: The modern dark ages
        
-If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
+If the late 1800s were the “golden age�? of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages�? of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
        
-2.2.7 1950–1975: Re-birth of data visualization
+2.2.7 1950�?1975: Re-birth of data visualization
        
 Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
           
@@ -302,8 +302,8 @@ Emphasis was the component that I most related to when reading through the nine 
   These are the best practices of data visualization. Anticipate in advance what kind of questions the viewers will ask and
   then focus your visualization with respect to those questions. 
   
-  The brain processes stimuli from our environment to process what is important in 2 ways – unconscious (System 1 represents
-  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 – represents controlled function
+  The brain processes stimuli from our environment to process what is important in 2 ways �? unconscious (System 1 represents
+  uncontrolled functions such as facial expressions, reactions) and conscious (System 2 �? represents controlled function
   such as solving math problems). Data Visualization leverage attributes of System -1 which can have a quick and correct
   impact in a most efficient manner. The three best practices of data visualization are as follows: 
 
@@ -311,6 +311,7 @@ Emphasis was the component that I most related to when reading through the nine 
 
 The design and layout should facilitate ease of understanding to convey the message to the viewer.
 
+Keep it simple. To implement this always keep into account the data-ink ratio �? the ratio of ink required to conveythe intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid ink which do not add any information.
 ** 2.Avoid Clutter **
 Keep it simple. To implement this always keep into account the data-ink ratio – the ratio of ink required to convey
 the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That
@@ -541,7 +542,7 @@ Three rules to follow in order to develop intuitive dashboards:
   So what does **data deception** mean? 
   Data deception, defined by School of Law at the New York University, as “a graphical depiction of information, designed with
   or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the
-  actual message.”
+  actual message.�?
 
   In reality, decades ago, Edward Tufte already introduced the concept of graphical intergrity in his book and presented six
   principles of graphic integrity. Here are the principles from book:
@@ -709,21 +710,22 @@ Furthermore, as in typography and cartography, use of typographic attributes in 
   
 This article discusses less common applications of typography in data visualization.  While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.  
 
-Highlighted in the article are preattentive visual attributes; preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed.  Therefore, “preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load.”  Examples of preattentive attributes are size/area, hue, and curvature.  
+Highlighted in the article are preattentive visual attributes; preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed.  Therefore, “preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load.�?  Examples of preattentive attributes are size/area, hue, and curvature.  
 
 This brings us to the disparateness of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold.  The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.  However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.    
 Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages.  Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.  
 
 Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively.  While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community.  I would say that it is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias—if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken.  
-However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming “have a rich history with type and font attributes that informs the scope of the parameter space.”
+However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming “have a rich history with type and font attributes that informs the scope of the parameter space.�?
 
 The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes.  For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.  
 Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words.  Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
 
-There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic” visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived.  It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers’ names.  
+There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic�? visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived.  It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers�? names.  
 
 <!-- ![](https://ars.els-cdn.com/content/image/1-s2.0-S2405872616300107-gr19.jpg)-->
 
+The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.  Another criticism is that textual representations are not as visually appealing even when used effectively.  However, the authors counter that “this criticism indicates both the strength and weakness of type,�? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.  Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels.  This problem was encountered in the Titanic visualization with the varying lengths representations of passengers�? names, and was corrected by only including a given name and a surname, the length of which could only vary so much.    
 
 The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that “this criticism indicates both the strength and weakness of type,” that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.
 The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand.  Another criticism is that textual representations are not as visually appealing even when used effectively.  However, the authors counter that “this criticism indicates both the strength and weakness of type,” that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns.  Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels.  This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.    
@@ -1040,6 +1042,30 @@ The main advantages of using R Shiny are : Its flexibility of pulling in whateve
 
 
 ## 14. Avoiding Common Mistakes with Time Series
+
+This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation".  In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+master
+
+##15.The Hitchhiker��s Guide to d3.js
+
+This is a wonderful guide for self-teaching d3.js.
+This guide is meant to prepare readers mentally as well as give readers some fruitful directions to pursue. There is a lot to learn besides the d3.js API, both technical knowledge around web standards like HTML, SVG, CSS and JavaScript as well as communication concepts and data visualization principles. Chances are you know something about some of those things, so this guide will attempt to give you good starting points for the things you want to learn more about.
+
+It starts from the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.
+
+My favorite part of this guide is it lists a lot of useful resources links for learning d3.js.
+For example, it recommends d3 API Reference, 2000+ d3 case studies and tutorials for d3.
+I did my exploratory analysis version of group project on d3. And I found this guide helpful during the progress.
+It also includes some meetup groups here in the bay area. So, maybe we can meet data friends through the group.
+
+@jmisc{Medium,
+   author= {Ian, Johnson},
+   year = {2017},
+   title = {The Hitchhiker��s Guide to d3.js},
+   url ={https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a}
+   note = {Accessed:2018-05-011}
+}
+
 
 This article explains how time series data visualization can sometimes be deceptive.  It first takes an example of two random 
 time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some
