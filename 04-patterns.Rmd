@@ -476,7 +476,7 @@ function pathMonth(t0) {
 }
 </script>
 
-## An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
+## 11. An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
 DATA USA :     [@DataUSA]
 MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data from various sources and mines information to generate trends and stories about cities, jobs, industries etc. to the common man.
 Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is amazing to see how they have brought it all together on a single platform in a very easy to decipher format.
@@ -520,9 +520,25 @@ The focus in today's world has been on open source tools and technologies and th
 
 D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
 
- 
-
 At the end its not only about the tool its more about what you are trying to do; what your professor, client, business or whatever needs.
 
- 
+
+## 12. Reusable Data Visualization Code in R
+[@viz_R]
+
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles and labels are added on using extra code.  For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
+
+To provide an example the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars dataset in R base, using this website's code as a template:
+```{r}
+library(ggplot2)
+
+theme_set(theme_bw())  #set background theme
+
+plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
+
+plot(plot1)  #we have to actually call the plot() function on the plot object we created
+```
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
+
+
 
