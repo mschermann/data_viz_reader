@@ -1461,3 +1461,26 @@ Includes clear titles and instructions and tell people succinctly what the visua
 **Reference**
 Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer (2017) A Practitioner’s Guide to Best Practices in Data 
 Visualization.Interfaces 47(6):473-488. https://doi.org/10.1287/inte.2017.0916
+
+
+## Gestalt Principles for Data Viz
+[@principles-fusioncharts]
+
+This is a pretty detailed white paper PDF from FusionCharts that explores key aspects of effective data visualization in the business world, from goals to preattentive attributes to applying Gestalt Principles.  Because some of the aspects such as using color and design effectively have been covered earlier on in the Fundamentals section, this summary will mainly focus on the Gestalt Principles.
+
+Data is simply a collection of many individual elements (ie, observations, typically represented as rows in a data table).  In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies.  Described this way, it makes sense that Gestalt Principles are a good set of guidelines for data viz, because these principles describe how we assemble different elements into groups.
+
+**Gestalt Principles include the following:**
+1. Proximity - white space can be used to group elements together and separate others
+2. Similarity - objects that look similar are instinctively grouped together in our minds
+3. Enclosure - helps distinguish between groups
+4. Symmetry
+5. Closure - we tend to complete shapes and paths even if part of them is missing
+6. Continuity - similar to closure
+7. Connection - helps group elements together as well
+8. Figure and ground - we typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background".  This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
+
+Examples of each of the above are presented on page 11 of the PDF.  
+
+The principles are quite theoretical and in practice, preattentive attributes such as spatial position, size, and color are means of applying the principles.
+
