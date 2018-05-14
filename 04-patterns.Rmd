@@ -375,5 +375,20 @@ Wordle is a toy for generating “word clouds” from text that you provide.It i
 Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 
 
+## 11. Reusable Data Visualization Code in R
+[@viz_R]
 
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles and labels are added on using extra code.  For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
+
+To provide an example the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars dataset in R base, using this website's code as a template:
+```{r}
+library(ggplot2)
+
+theme_set(theme_bw())  #set background theme
+
+plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
+
+plot(plot1)  #we have to actually call the plot() function on the plot object we created
+```
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
