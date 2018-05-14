@@ -8,6 +8,16 @@ Let us have a look at some good examples of graphs, visuals and data products th
 **Collections of Great Examples of Data Visualization**
 
 
+15 Cool Information Graphics and Data Viz from 2016
+reference:[@cool_data]
+```
+@misc{cool_data,
+  author = {{Kayla Darling}},
+  year = {2017},
+  title = {15 Cool Information Graphics and Data Viz from 2016},
+  howpublished = {\url{http://blog.visme.co/best-information-graphics-2016/#e030mFiF7wCpk7Ld.99}},
+  note = {Accessed: 2018-05-12}
+```
 Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. This chapter contains some very useful case studies. Many of the case studies below come from the following articles:
 
 Visualization is like art. It speaks where words fail. There are phenomenas like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. 
@@ -56,6 +66,8 @@ The visual lists several categories along one side of a graph—such as “perso
 
 The simplicity of this visualization really helps the information get across and avoids bogging down the statistics. Sometimes, less is more.
 
+## 6.Is it Better to Rent or Buy?
+reference: [@rent_or_buy]
 ![](images/SpendingTime.png)
 
 Source: [@spendingtime] referenced in [@cool_data]
@@ -88,6 +100,18 @@ What makes this a good visualization is that it is engaging and easy to read and
 
 Source: [@Immigration] referenced in [@cool_data]
 
+## 8.What's really warming the world?
+reference:[@world_warming]
+```
+@misc{world_warming,
+  author = {{Eric Roston and Blacki Migliozzi}},
+  year = {2015},
+  title = {What’s Really Warming the World?},
+  howpublished = {\url{https://www.bloomberg.com/graphics/2015-whats-warming-the-world/}},
+  note = {Accessed: 2018-05-12}
+}
+
+
 ## 2. 16 Captivating Data Visualization Examples [@int_viz_1]
 
 ### 2.1 What's really warming the world?
@@ -104,6 +128,18 @@ Visualization is like art. It speaks where words fail. There are phenomenas like
 
 The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. 
 
+## 9.The Strengths of Animated Data Visualization
+reference:[@American_life]
+```
+@misc{American_life,
+  author = {{Nathan Yau}},
+  year = {2015},
+  title = {A Day in the Life of Americans},
+  howpublished = {\url{http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/?platform=hootsuite}},
+  note = {Accessed: 2018-05-12}
+}
+```
+
 According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
 
 ### 3.1 The Strengths of Animated Data Visualization
@@ -117,6 +153,19 @@ A drawback of the plot is that it is hard for our eyes to keep track of 1000 sim
 Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
 Source: [@American_life] referenced in [@int_viz_2]
+
+## 10.An Aging Nation: Projected Number of Children and Older Adults
+reference:[@pyramid]
+```
+@misc{pyramid,
+  author = {{United States Census Bureau}},
+  year = {2018},
+  title = {From Pyramid to Pillar: A Century of Change, Population of the U.S.},
+  howpublished = {\url{https://www.census.gov/library/visualizations/2018/comm/century-of-change.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
+Aging population is always a hot topic in social economics and politics. I collect several different data visualizations that show aging population in the world. They are good examples to learn and apply to census data. 
 
 ## 4. 10 Best Data Visualization Projects of 2015 [@10_Best]
 
@@ -134,6 +183,18 @@ Reference: [@aging_nation]
 
 This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
+9.2 From Pyramid to Pillar: A Century of Change, Population of the U.S.
+reference:[@pyramid]
+```
+@misc{pyramid,
+  author = {{United States Census Bureau}},
+  year = {2018},
+  title = {From Pyramid to Pillar: A Century of Change, Population of the U.S.},
+  howpublished = {\url{https://www.census.gov/library/visualizations/2018/comm/century-of-change.html}},
+  note = {Accessed: 2018-05-12}
+}
+```
+![](images/Pyramid.jpg)
 ### 5.2 From Pyramid to Pillar: A Century of Change, Population of the U.S.
 
 ![](images/Pyramid.jpg)
