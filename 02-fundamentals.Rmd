@@ -1,7 +1,19 @@
 # Fundamentals
 
 ## A Brief History of Data Visualization
+
+**1. Data Visualization: modern product?**
+
+ It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
+ In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
+ the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
+ medicine, and other fields.
  
+ Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and
+ recording, enabled the wider use of graphics and new advances in form and content.
+
+
+**2. Milestones Tour**
 
 "The only new thing in the world is the history you don’t know." — Harry S Truman
 
@@ -17,75 +29,6 @@ Pre-17th Century: Early maps and diagrams | Data visualization has comes a long 
 1900-1950: The modern dark ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
 1950–1975: Re-birth of data visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
 1975–present: High-D, interactive and dynamic data visualization | During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multidisciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization methods and data types are available for every desktop computer.
-
- **1. Data Visualization: modern product?**
-
- It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
- In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
- the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
- medicine, and other fields.
- 
- Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and
- recording, enabled the wider use of graphics and new advances in form and content.
-
-**2. Milestones Tour**
-
- 2.1 Pre-17th Century: Early maps and diagrams
-
-Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though
-display in other format such as maps, the content are much similar to today's visualization, which mostly presented
-geologic, economic, and medical data.
-
-Here is useful link: [data_viz_history]
-The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other
-celestial bodies, and in the making of maps to aid in navigation and exploration. 
- 
- 2.2 1600-1699: Measurement and theory
- 
-Among the most important problems of the 17th century were those concerned with physical measurement— of time,
-distance,and space— for astronomy, surveying, map making, navigation and territorial expansion. This century also
-saw great new growth in theory and the dawnof practical application.
- 
- 2.3 1700-1799: New graphic forms
- 
-With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation
-at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new
-graphic forms. 
-
- 2.4 1800-1850: Beginnings of modern graphics
- 
-With the fertilization provided by the previous innovations of design and technique, the first half of the 19th
-century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be
-equalled until modern times.
- 
- 2.5 1850–1900: The Golden Age of statistical graphics
- 
-By the mid-1800s, all the conditions for the rapid growth of visualization had been established— a “perfect storm”
-for data graphics. Official state statistical offices were established throughout Europe, in recognition of the
-growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
-
- 2.5.1 Escaping flatland
- 2.5.2 Graphical innovations
- 2.5.3 Galton’s contributions
- 2.5.4 Statistical Atlases
- 
- 2.6 1900-1950: The modern dark ages
- 
-If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be
-called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the
-enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification
-and formal, often statistical, models in the social sciences.
- 
- 2.7 1950–1975: Re-birth of data visualization
- 
-Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to
-rise from dormancy in the mid 1960s. 
-
- 2.8 1975–present: High-D, interactive and dynamic data visualization
- 
-During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multi
-disciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization
-methods and data types are available for every desktop computer.
 
 **Reference**
 [@data_viz_history]
@@ -190,7 +133,7 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
     o	Figure and ground: we typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
 
 
-####B)Analyze/ Interpret:
+#### B)Analyze/ Interpret:
   
   Once you have visualized your data, the next step is to learn something from the picture you created. You could ask yourself:
   .	What can I see in this image? Is it what I expected?
@@ -198,7 +141,7 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
   .	What does this mean in the context of the data?
   Sometimes you might end up with visualization that, in spite of its beauty, might seem to tell you nothing of interest about your data. But there is almost always something that you can learn from any visualization, however trivial.
 
-####C)	Document Your Insights and Steps
+#### C)	Document Your Insights and Steps
 
   If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.
   In most cases when we start to work with a previously unseen dataset we are already full of expectations and assumptions about the data. Usually there is a reason why we are interested that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of mis-interpretation of the data by just finding what we originally wanted to find.
@@ -207,7 +150,7 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
   .	What have I done to the data to create it?
   .	What does this chart tell me?
 
-####D)	Transform Data
+#### D)	Transform Data
 
   Naturally, with the insights that you have gathered from the last visualization you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail.
   Possible transformations are:
@@ -347,26 +290,6 @@ Give them opportunities to connect their own general knowledge on the topic. Use
 
 **Explaining why:**
 Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
-
-## Practitioners Guide to Best Practices in Data Visualization
-
-These are the best practices of data visualization [@best-practice]. Anticipate in advance what kind of questions the viewers will ask and then focus your visualization with respect to those questions. 
-Brain processes stimuli from our environment to process what is important in 2 ways: 
-
-* unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and 
-* conscious (System 2 represents controlled function such as solving math problems). 
-
-Data Visualization leverage attributes of System 1, which has can have quick and correct impact in a most efficient manner. 
-
-Three best practices of data visualization are as follows:
-
-**Phase** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Design and layout matter | The design and layout should facilitate ease of understanding to convey your message to the viewer.
-Avoid Clutter | Keep it simple. To implement this always keep into account the data-ink ratio, the ratio of ink required to convey the intended meaning to the total amount of ink used in the table or chart should be as close to 1 as possible. That means, avoid ink which do not add any information.
-Use color purposely and effectively | Use of color may be prettier and attractive but can be distracting too. Thus, color should be used only if it assist in conveying your message. The above three principles are illustrated with the help of scenarios and examples which helps to comprehend the topic in more meaningful and practical way in the article. It also gives various advantages of using the above principles.
-
-And the above best practices could be applied to all the three types of analytics: descriptive, predictive, and prescriptive. 
 
 ### Three Rules to Follow in order to Develop Intuitive Dashboards:
 
