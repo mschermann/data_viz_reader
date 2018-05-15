@@ -2,6 +2,329 @@
 
 ## A Brief History of Data Visualization
  
+
+"The only new thing in the world is the history you don’t know." — Harry S Truman
+
+This paper provides an overview of the intellectual history of data visualization from medieval to modern times,
+describing and illustrating some significant advances along the way.
+
+ **1. Data Visualization: modern product?**
+
+ It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
+ In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
+ the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
+ medicine, and other fields.
+ 
+ Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and
+ recording, enabled the wider use of graphics and new advances in form and content.
+
+**2. Milestones Tour**
+
+ 2.1 Pre-17th Century: Early maps and diagrams
+
+Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though
+display in other format such as maps, the content are much similar to today's visualization, which mostly presented
+geologic, economic, and medical data.
+
+Here is useful link: [data_viz_history]
+The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other
+celestial bodies, and in the making of maps to aid in navigation and exploration. 
+ 
+ 2.2 1600-1699: Measurement and theory
+ 
+Among the most important problems of the 17th century were those concerned with physical measurement— of time,
+distance,and space— for astronomy, surveying, map making, navigation and territorial expansion. This century also
+saw great new growth in theory and the dawnof practical application.
+ 
+ 2.3 1700-1799: New graphic forms
+ 
+With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation
+at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new
+graphic forms. 
+
+ 2.4 1800-1850: Beginnings of modern graphics
+ 
+With the fertilization provided by the previous innovations of design and technique, the first half of the 19th
+century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be
+equalled until modern times.
+ 
+ 2.5 1850–1900: The Golden Age of statistical graphics
+ 
+By the mid-1800s, all the conditions for the rapid growth of visualization had been established— a “perfect storm”
+for data graphics. Official state statistical offices were established throughout Europe, in recognition of the
+growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+
+ 2.5.1 Escaping flatland
+ 2.5.2 Graphical innovations
+ 2.5.3 Galton’s contributions
+ 2.5.4 Statistical Atlases
+ 
+ 2.6 1900-1950: The modern dark ages
+ 
+If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be
+called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the
+enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification
+and formal, often statistical, models in the social sciences.
+ 
+ 2.7 1950–1975: Re-birth of data visualization
+ 
+Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to
+rise from dormancy in the mid 1960s. 
+
+ 2.8 1975–present: High-D, interactive and dynamic data visualization
+ 
+During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multi
+disciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization
+methods and data types are available for every desktop computer.
+
+**Reference**
+[@data_viz_history]
+
+## Best Practices in Data Visualization
+
+[@best-practice]
+Our brain processes stimuli from our environment to process what is important in 2 ways:
+  .	unconscious (System 1 represents uncontrolled functions such as facial expressions, reactions) and
+  .	conscious (System 2 represents controlled function such as solving math problems).
+Data Visualization leverage attributes of System 1, which can have quick and correct impact in a most efficient manner.
+
+### I)Determine the story with insights:
+
+Story telling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather (2013)'s article talked about how a visual designer tells a story with a visualization.
+
+  1.	Find the compelling narrative.
+  2.	Think about the audience (e.g., novice, generalist, managerial, export,    executive)
+  3.	Be objective and offer balance
+  4.	Don't censor
+
+Data visualization will not always unleash a ready-made story on its own. There are no rules, no 'protocol' that will guarantee us a story. Instead, it makes more sense to look for 'insights', which can be artfully woven into stories in the hands of a good journalist.
+
+Here is a process that may be followed for finding insights to tell your story:
+
+[@VisualizeToInsights]
+
+
+![](/images/DataInsights.jpg)
+
+**references**
+
+[@data_journ]
+[@design_principles]
+[@DataVizTips]
+[@practitioners_guide]
+
+####A)Visualize: 
+
+Loading any data set into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation. 
+
+**1. 5 Second Rule**
+
+    Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer. Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+
+
+**2. Design and layout matter**
+    
+    The design and layout should facilitate ease of understanding to convey your message to the viewer.
+
+    Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the following nine principles of design from graphic designer Melissa Anderson [@design_principles].
+
+    **Criteria** | **Description**
+    ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+    Balance | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed.
+    Emphasis | Draw viewers attention towards important data by using key visual elements.
+    Movement | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complimentary colors to pull the user's attention across the page.
+    Pattern | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
+    Repetition | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
+    Proportion | If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
+    Rhythm | A design has proper rhythm when the design elements create movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
+    Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
+    Unity | Unity across design will happen naturally if all other design principles are implemented. 
+
+    Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display. Another closely related component to balance is variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer. Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization. Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography, I understand it is the key to be conscious of what I am drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+
+           
+**3. Keep it simple:** 
+    
+    Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
+ 
+
+**4. Pretty doesn't mean effective:** 
+    
+    There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
+
+**5. Use color purposely and effectively**
+    
+    Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists in conveying your message. 
+    
+    a. Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
+
+    b. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+
+    c. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+
+**6. Maps:**
+    
+    Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+
+**7. Gesalt Principles:**
+[@principles-fusioncharts]
+  
+    Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups
+    o	Proximity: white space can be used to group elements together and separate others
+    o	Similarity: objects that look similar are instinctively grouped together in our minds
+    o	Enclosure: helps distinguish between groups
+    o	Symmetry
+    o	Closure: we tend to complete shapes and paths even if part of them is missing
+    o	Continuity: similar to closure
+    o	Connection: helps group elements together as well
+    o	Figure and ground: we typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
+
+
+####B)Analyze/ Interpret:
+  
+  Once you have visualized your data, the next step is to learn something from the picture you created. You could ask yourself:
+  .	What can I see in this image? Is it what I expected?
+  .	Are there any interesting patterns?
+  .	What does this mean in the context of the data?
+  Sometimes you might end up with visualization that, in spite of its beauty, might seem to tell you nothing of interest about your data. But there is almost always something that you can learn from any visualization, however trivial.
+
+####C)	Document Your Insights and Steps
+
+  If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.
+  In most cases when we start to work with a previously unseen dataset we are already full of expectations and assumptions about the data. Usually there is a reason why we are interested that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of mis-interpretation of the data by just finding what we originally wanted to find.
+  I really think that the documentation is the most important step of the process; and it is also the one we're most likely to tend to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
+  .	Why have I created this chart?
+  .	What have I done to the data to create it?
+  .	What does this chart tell me?
+
+####D)	Transform Data
+
+  Naturally, with the insights that you have gathered from the last visualization you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail.
+  Possible transformations are:
+  .	Zooming
+  To have look at a certain detail in the visualization Aggregation To combine many data points into a single group
+  .	Filtering
+  To (temporarily) remove data points that are not in our major focus
+  .	Outlier removal
+  To get rid of single points that are not representative for 99% of the dataset.
+  Let's consider that you have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount.
+
+### Few Examples to show how these best practices can be effectively used:
+
+#### Tufte's Design Principles 
+
+A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
+
+**• Design principle of graphical excellence**
+Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.Here we must follow some principles for statistical graphics:
+
+**Principle 1: Maximizing the data-ink ratio, within reason.**
+
+Data-ink is the non-erasable core of a graphic, the non-redundant inkarranged in response to variation in the numbers represented.
+
+Data-ink ratio = data-ink/total ink used to print the graphic = proportion of graphic’s ink devoted to the non-redundant display of data-information
+
+ This basic principle follows by two principles:
+ 1. Erase non-data-ink, within reason.
+ 2. Erase redundant data-ink, within reason.
+ 3. always revise and edit.
+
+Examples:
+1.Erase non-data-ink and redundant data-ink.
+![](images/Tufte_figure1.png) 
+(source:[@Tufte_2001])
+
+2. Erase non-data-ink and redundant data-ink.
+![](images/Tufte_figure2.png)
+(source: [@appli_2017])
+![](images/Tufte_figure3.png)
+(source: [@appli_2017])
+
+3. always revise and edit.
+![](/images/Tufte_figure4.png)
+(source:[@Tufte_2001])
+
+**Conclusion**
+1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
+
+2. Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options.
+
+3. Try to figure out whehter the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
+
+4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
+
+
+**Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+
+The danger of multifunctioning elements is that they  tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements.
+
+In other words, we should try to make all present graphical elements data encoding elements.We must make every graphical element effective.
+
+Example:
+![](/images/Tufte_figure6.png)
+(source:[@Tufte_2001])
+
+**Principle 3: maximize data density and the size of the data matrix, within reason.**
+High performation graphics should be design with special care. As volume of data increases, data measures must shrink (smaller dots ofr scatters,thinner lines for busy time-series).
+    
+   Data Density = # entries in data matrix /area of data graphic
+
+
+**• Conclusion: composition of design principles**
+
+**Principle 1: Escape flatland – small multiples, parallel sequencing.**
+Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
+
+1. Example for small multiples.
+![](/images/Tufte_figure8.png)
+(source:[@Tufte_2001])
+
+
+2. Example for parallel sequencing
+![](/images/Tufte_figure7.png)
+(source:[@Tufte_2001])
+
+
+**Principle 2: Macro/Micro-Provide the user with both views (overview and detail).**
+Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
+
+Example: 
+![](/images/Tufte_figure9.png)
+(source:[@Tufte_2001])
+
+**Principle 3: Utilize Layering & Separation.**
+Supported by Gestalt laws (The principles of grouping):
+  1. Grouping with colors
+  2. Using Color to separate
+  3. 1+1 = 3 (clutter)
+
+Example:
+![](/images/Tufte_figure10.png)
+(source:[@Tufte_2001])
+
+**Principle 4: Utilize narratives of space and time.**
+Tell a story of position and chronology through visual elements.
+
+Example:
+![](/images/Tufte_figure11.png)
+(source: [@narratives_2017])
+![](/images/Tufte_figure12.png)
+(source: [@narratives_2017])
+
+#### Another Example
+[@DataVizBestPrac]
+ 
+ Here is free pdf to some best practices in visual analysis. It talks about the right charts to be used for various kinds of analysis. It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story. 
+ 
+ Some of key areas for which the author highlights some best practices are for visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. 
+ 
+ The author gives examples on how simple graphs can also become more effective by just adding a few more elements or some simple adjustments. 
+ 
+ I feel this is a great starting point to create effective charts and we may use these principles also when we start doing advanced analytics.
+ 
+
+
+## Adapting your story to a different set of audience
 > "The only new thing in the world is the history you don’t know." — Harry S Truman
 
 This paper provides an overview of the intellectual history of data visualization from medieval to modern times, it describes and illustrates some significant advances along the way. It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields. Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content [@data_viz_history].
@@ -52,21 +375,6 @@ Grouping unrelated data seems contradictory to the second rule, but the importan
 
 ## Fundamental Components of Design
 
-Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the following nine principles of design from graphic designer Melissa Anderson [@design_principles].
-
-**Criteria** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Balance | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed.
-Emphasis | Draw viewers attention towards important data by using key visual elements.
-Movement | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complimentary colors to pull the user's attention across the page.
-Pattern | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
-Repetition | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
-Proportion | If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
-Rhythm | A design has proper rhythm when the design elements create movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
-Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
-Unity | Unity across design will happen naturally if all other design principles are implemented. 
-
-Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display. Another closely related component to balance is variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer. Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization. Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography, I understand it is the key to be conscious of what I am drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
 
 ### Visualization and Graphics Principles to Refocus and Guide You
 
@@ -228,6 +536,10 @@ In the data visualization terms, we call it truncated graph. A truncated graph (
 ![](images/1.png)
 
 
+[@DataMiningVsViz]
+
+
+
 ## Data Visualization in Business
 
 [@biz_strategy]
@@ -237,15 +549,63 @@ In the data visualization terms, we call it truncated graph. A truncated graph (
 
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 
+## Contemporary Research Results & What's Next
+
+Next Steps for Data Visualization Research
+
+With the development, studies and new tools applied in data visualization, more people understand it matters. But given its
+youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing.
+So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and
+discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches:
+
+1. Adapting the Publication and Review Process
+As the article states, "both 'good' and 'bad' reviews could serve as valuable guides", so providing reviewer guidelines
+could be helpful for fledgling practitioners in the field.
+ 
+2. Promoting Discussion and Accretion
+Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this
+discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum. 
+ 
+3. Research Methods Training
+Developing a core curriculum for data visualization research might help both cases, guiding students and instructors
+alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS
+faculty organized a new course on Designing Computer Science Experiments([@StanfordExp]). Also, online
+resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online
+courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for
+reforming statistical practice.
+
+**Reference**
+[@next_steps] 
+ 
+ Building advanced analytics application with TabPy
+ 
+ [@TabPy]
+ 
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+ 
+
+
+Avoiding Common Mistakes with Time Series
+[@TimeSeries]
+
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
 
 **2. Extracting**
+
 
 Known versatile tools for data visualization and analytics – Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
 
+
+## Corporate Scorecards and Data Visualization
+- (reference: [@Boostlabs])
+
 **3. Strategizing**
+
 
 As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to business. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
 
@@ -302,39 +662,6 @@ With the development, studies and new tools applied in data visualization, more 
 * **Promoting Discussion and Accretion:** Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
 * **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on [Designing Computer Science Experiments](http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
 
-##Using Data Visualization to find insights in data
- 
-[@data_journ] is extracted from a book known as Data Journalism Handbook and this is one of the chapters of the book. The author starts the article by introducing a very simple idea that loading any data set into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation. The author then proceeds by stating that data visualization will not always unleash a ready made story on its own. Sometimes the insights are known before the visualization and sometimes an insight can be completely new. The author has given a process for finding insights in the following way: 
- 
-Visualize Data-> Analyze -> Document Insights -> Transform Datasets -> Visualize Data
-
-Each stage is explained in-depth further. Data Visualization can be done in many ways such as tables which are great for one dimensional data however they are bad for multi-dimensional data. Then he goes further to explain the situation where each type of visualization such as bar charts, maps, scatter plots, graphs, etc. are used. This gives a thorough understanding of when to use which type of visualization. Once we visualize the data we need to ask the following questions:
- 
-* What can I see in this image? Is it what I expected?
-* Are there any interesting patterns?
-* What does this mean in the context of the data?
- 
-The basic question answer format gives an idea to the viewers about what kind of perspectives can we look at the data. Sometimes we discover something and sometimes we don’t. But the author mentions that we always learn something from the visualization. Once we document the data insights based on the above question we need to have the following points into consideration:
- 
-* Why have I created this chart?
-* What have I done to the data to create it?
-* What does this chart tell me?
-
-The above question answer format compels the viewers to think deeper about what exactly we are trying to find. Because many times the viewers are simply too overwhelmed with the size of data that they lose the basic idea. Hence this kind of approach help to stay focused. The author then mentions that based on the above insights we might have some idea about some interesting patterns. Since we already have an idea we might want to see it in more detail and hence we transform data in more details such as Zooming, Filtering, Outlier Removal. The author then explains how transformed data can help us to see a more detailed view of our insights. 
- 
-Further the author gives a detailed explanation of which data visualization tool to use based on the situation. The entire process given above is explained in depth with the help of examples. The technical approach listed above is practical and can be implemented easily on our data visualization projects. I liked the author’s approach because he has cleverly integrated the step-by-step process of finding insights with the technical way of handling data sets using tools such as Tableau, Python, etc. And the process can be repeated many times till we find the insights we are looking for.
-
-## Best practices for visualization 
-This article talks about the right charts to be used for various kinds of analysis [@DataVizBestPrac]. It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story. Some of key areas for which the author highlights some best practices are for visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples on how simple graphs can also become more effective by just adding a few more elements or some simple adjustments. I feel this is a great starting point to create effective charts and we may use these principles also when we start doing advanced analytics.
- 
-## Story Telling with Data
-Story telling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather (2013)’s article talked about how a visual designer tells a story with a visualization. Mainly there are five strategies that can be applied during visualization:
-
-1. Find the compelling narrative. 
-2. Think about the audience (e.g., novice, generalist, managerial, export, executive) 
-3. Be objective and offer balance 
-4. Don’t censor 
-5. Finally, Edit, Edit, Edit.
  
 ### Corporate Scorecards and Data Visualization
 Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time [@SCORECARDS]. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process–easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star. The growth of corporate transparency is not only important internally, but externally as well. Corporate certifications like B Corporations certifications (B Corp), require companies to provide a transparent view on their social conscious efforts to the general public. Achieving the certification is one step of the process; the true goal is to show the world how and why the certification is truly deserved.
@@ -342,12 +669,17 @@ Corporate transparency, flat organizations, open book policies, etc. are terms e
 How does data visualization play a part? Data Visualization helps reveal insights and patterns that are not immediately visible in the raw data. 
 Here’s the process on how to get it done:
 
+
+The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard.
+[@Top4VizTools]
+
 **Step** | **Name** | **Description**
 -------- |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 1 |Perform Data Discovery and Determine The Story | Before this step it is easy to underestimate the effort level it takes to pull the best insights from the data. Data manipulation products like Tableau, Domo, Pentaho, IBM’s Many Eyes, and R, among others, make insight extraction that much easier to gain understanding of data using a visual medium. The key is to start with a simple portion of your data and to start pulling basic insights to visualize and correlate with each other. This process leads towards a compound series of questions, which helps provide an overall vision to the end product. We see the effect during our discovery process, which leads to unforeseen avenues for data intelligence.
 2 | Data Infrastructure Setup | Data infrastructures can be simple or complex depending what the end goal is. Many clients prefer to go the route of complete data integration in order to centralize their data repositories. Technologies such as Hadoop have helped by unifying disparate data sources, but other options such as data cloud environments can help produce API’s for future product deployments. Why is this important? Accessibility of data is an important foundation not only within the context of dashboards, but also the possibility of branching out to other products.
 3 | Product Design & Development | Wireframing, prototyping, and application development are the main engines to transform an idea into a final product. Products can range from static presentations/reports to full interactive applications. Mobile, tablet, TV, and workstation platforms can all be mediums to help deliver the final product. The secret to a great end product is how well the data story is conceptualized. If the story is weak then the end product will also suffer. 
 4 | QA & Product Release | The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.
+
 
 ### Comparison of Different Tools
 
@@ -387,6 +719,10 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
  
 The key advantages are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.
 
+
+[@VizBP]
+[@ExtremePre]
+
 ### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
  
@@ -396,118 +732,6 @@ R Shiny enables us to produce interactive data visualizations with a minimum kno
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard. 
 [https://towardsdatascience.com/top-4-popular-big-data-visualization-tools-4ee945fe207d](https://towardsdatascience.com/top-4-popular-big-data-visualization-tools-4ee945fe207d)
 
-
-## Tufte's Design Principles of graphical excellence
-A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design. Statistical graphics are kind of graphics we use a lot for data analysis so I want to summarize some principles mentioned in this Tufte's great book.Here we must follow some principles for statistical graphics:
-
-**Principle 1: Maximizing the data-ink ratio, within reason.**
-Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented.
-
-Data-ink ratio = data-ink/total ink used to print the graphic = proportion of graphic’s ink devoted to the non-redundant display of data-information
-
-This basic principle follows by two principles: 
-
-1. Erase non-data-ink, within reason. 
-2. Erase redundant data-ink, within reason. 
-3. always revise and edit.
-
-![Erase non-data-ink and redundant data-ink](images/Tufte_figure1.png) 
-(source:[@Tufte_2001])
-
-![](images/Tufte_figure2.png)
-(source: [@appli_2017])
-
-![](images/Tufte_figure3.png)
-(source: [@appli_2017])
-
-![](images/Tufte_figure4.png)
-(source:[@Tufte_2001])
-
-1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
-2. Graphics are almost always going to improve as they go through editing ,revision, and testing against different design options.
-3. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
-4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
-
-
-**Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
-The danger of multi-functioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multi-functioning elements. In other words, we should try to make all present graphical elements data encoding elements.We must make every graphical element effective.
-
-Example: 
-![](images/Tufte_figure6.png)
-(source:[@Tufte_2001])
-
-**Principle 3: maximize data density and the size of the data matrix, within reason.**
-High performance graphics should be design with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series) [@best-practice].
-
-Data Density = # entries in data matrix /area of data graphic
-
-
-**Principle 4: Escape flatland – small multiples, parallel sequencing.**
-Data is multivariate. Does not’t necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces?
-
-1. Example for small multiples. 
-![](images/Tufte_figure8.png)
-(source:[@Tufte_2001])
-
-2. Example for parallel sequencing 
-![](images/Tufte_figure7.png)
-(source:[@Tufte_2001])
-
-**Principle 5: Macro/Micro-Provide the user with both views (overview and detail).**
-Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
-
-Example:  
-![](images/Tufte_figure9.png)
-(source:[@Tufte_2001])
-
-**Principle 6: Utilize Layering & Separation.**
-Supported by Gestalt laws (The principles of grouping): 
-1. Grouping with colors 
-2. Using Color to separate 
-3. 1+1 = 3 (clutter)
-
-Example: 
-![](images/Tufte_figure10.png)
-(source:[@Tufte_2001])
-
-**Principle 7: Utilize narratives of space and time.**
-Tell a story of position and chronology through visual elements.
-
-Example: 
-![](images/Tufte_figure11.png)
-(source: [@narratives_2017]) 
-![](images/Tufte_figure12.png)
-(source: [@narratives_2017])
-
-
-## Visual Data Communication
-We want visualizations to speak about the data. This article is about some tips that can help visualizations to speak:
-
-* **Keep it simple:** Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
-* **Pretty doesn't mean effective:** There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
-* **Color for Numerical Scales:** Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.For data with geographical fields, it may be tempting to use maps. But maps may not be very effective for the following reasons:
-* **Leverage Color Associations:** When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
-* **Use Bright Colors to Highlight:** To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
-* **Maps** Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
-* **5 Second Rule:** Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer. Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
-
-## Gestalt Principles for Data Viz
-[@principles-fusioncharts] is a  detailed white paper PDF from FusionCharts that explores key aspects of effective data visualization in the business world, from goals to preattentive attributes to applying Gestalt Principles. Because some of the aspects such as using color and design effectively have been covered earlier on in the Fundamentals section, this summary will mainly focus on the Gestalt Principles.
-
-Data is simply a collection of many individual elements (i.e.,, observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines for data viz, because these principles describe how we assemble different elements into groups.
-
-**The Gestalt Principles include the following:**
-
-1. Proximity: white space can be used to group elements together and separate others
-2. Similarity: objects that look similar are instinctively grouped together in our minds
-3. Enclosure: helps distinguish between groups
-4. Symmetry
-5. Closure: we tend to complete shapes and paths even if part of them is missing
-6. Continuity: similar to closure
-7. Connection: helps group elements together as well
-8. Figure and ground: we typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
-
-The principles are quite theoretical and in practice, preattentive attributes such as spatial position, size, and color are means of applying the principles.
 
 ## Resources for Aspiring Data Visualists
 
@@ -537,3 +761,4 @@ Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_
 8. Graphic Detail
 9. US Census and FEMA
 10. Tableau Blog
+
