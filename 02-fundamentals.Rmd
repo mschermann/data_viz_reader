@@ -5,8 +5,18 @@
 
 "The only new thing in the world is the history you don’t know." — Harry S Truman
 
-This paper provides an overview of the intellectual history of data visualization from medieval to modern times,
-describing and illustrating some significant advances along the way.
+This paper provides an overview of the intellectual history of data visualization from medieval to modern times, it describes and illustrates some significant advances along the way. It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields. Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content [@data_viz_history].
+
+**Phase** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+Pre-17th Century: Early maps and diagrams | Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today's visualization, which mostly presented geologic, economic, and medical data. The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other celestial bodies, and in the making of maps to aid in navigation and exploration. 
+1600-1699: Measurement and theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawn of practical application.
+1700-1799: New graphic forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
+1800-1850: Beginnings of modern graphics | With the fertilization provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be equaled until modern times.
+1850–1900: The Golden Age of statistical graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had been established a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+1900-1950: The modern dark ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
+1950–1975: Re-birth of data visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
+1975–present: High-D, interactive and dynamic data visualization | During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multidisciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization methods and data types are available for every desktop computer.
 
  **1. Data Visualization: modern product?**
 
@@ -119,57 +129,57 @@ Loading any data set into a spreadsheet can also be a form of visualization as a
 
 **1. 5 Second Rule**
 
-    Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer. Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer. Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
 
 
 **2. Design and layout matter**
-    
-    The design and layout should facilitate ease of understanding to convey your message to the viewer.
+  
+The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
-    Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the following nine principles of design from graphic designer Melissa Anderson [@design_principles].
+Artists use balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity as the design foundation of any work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate the following nine principles of design from graphic designer Melissa Anderson [@design_principles].
 
-    **Criteria** | **Description**
-    ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-    Balance | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed.
-    Emphasis | Draw viewers attention towards important data by using key visual elements.
-    Movement | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complimentary colors to pull the user's attention across the page.
-    Pattern | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
-    Repetition | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
-    Proportion | If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
-    Rhythm | A design has proper rhythm when the design elements create movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
-    Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
-    Unity | Unity across design will happen naturally if all other design principles are implemented. 
+**Criteria** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+Balance | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed.
+Emphasis | Draw viewers attention towards important data by using key visual elements.
+Movement | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complimentary colors to pull the user's attention across the page.
+Pattern | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers attention; it naturally draws curiosity.
+Repetition | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
+Proportion | If a person is portrayed next to a house, the house is going look bigger. In data visualization, proportion can indicate the importance of data sets, along with the actual relationship between numbers. 
+Rhythm | A design has proper rhythm when the design elements create movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
+Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked.
+Unity | Unity across design will happen naturally if all other design principles are implemented. 
 
-    Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display. Another closely related component to balance is variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer. Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization. Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography, I understand it is the key to be conscious of what I am drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display. Another closely related component to balance is variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer. Arguably the most critical of the components is proportion. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization. Emphasis was the component that I most related to when reading through the nine principles of design in this article. From prior experience with art through photography, I understand it is the key to be conscious of what I am drawing the viewers attention to in my art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
 
            
 **3. Keep it simple:** 
     
-    Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
+Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
  
 
 **4. Pretty doesn't mean effective:** 
     
-    There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
+There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
 
 **5. Use color purposely and effectively**
     
-    Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists in conveying your message. 
+Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists in conveying your message. 
     
-    a. Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
+  a. Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
 
-    b. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+  b. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
 
-    c. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+  c. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
 
 **6. Maps:**
     
-    Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters they can be great for applications where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
 
 **7. Gesalt Principles:**
 [@principles-fusioncharts]
   
-    Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups
+  Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups
     o	Proximity: white space can be used to group elements together and separate others
     o	Similarity: objects that look similar are instinctively grouped together in our minds
     o	Enclosure: helps distinguish between groups
@@ -325,20 +335,18 @@ Example:
 
 
 ## Adapting your story to a different set of audience
-> "The only new thing in the world is the history you don’t know." — Harry S Truman
+Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
 
-This paper provides an overview of the intellectual history of data visualization from medieval to modern times, it describes and illustrates some significant advances along the way. It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields. Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content [@data_viz_history].
+First, of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:
 
-**Phase** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Pre-17th Century: Early maps and diagrams | Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today's visualization, which mostly presented geologic, economic, and medical data. The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other celestial bodies, and in the making of maps to aid in navigation and exploration. 
-1600-1699: Measurement and theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawn of practical application.
-1700-1799: New graphic forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
-1800-1850: Beginnings of modern graphics | With the fertilization provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be equaled until modern times.
-1850–1900: The Golden Age of statistical graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had been established a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
-1900-1950: The modern dark ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
-1950–1975: Re-birth of data visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
-1975–present: High-D, interactive and dynamic data visualization | During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multidisciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization methods and data types are available for every desktop computer.
+**Focusing the attention:**
+What can be removed? Realize that consistency can help eliminate unnecessary distractions. There may be a trade off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
+
+**Involving your audience:**
+Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
+
+**Explaining why:**
+Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
 
 ## Practitioners Guide to Best Practices in Data Visualization
 
@@ -372,24 +380,6 @@ Grouping related data together is an intuitive way to help the flow of the visua
  
 **3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
 Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
-
-## Fundamental Components of Design
-
-
-### Visualization and Graphics Principles to Refocus and Guide You
-
-Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
-
-First, of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:
-
-**Focusing the attention:**
-What can be removed? Realize that consistency can help eliminate unnecessary distractions. There may be a trade off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
-
-**Involving your audience:**
-Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
-
-**Explaining why:**
-Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
 
 ## Data Visualization Tools
 
