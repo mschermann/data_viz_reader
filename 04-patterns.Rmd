@@ -1,13 +1,29 @@
 # Patterns
 
-## Avoiding Common Mistakes with Time Series
-This article explains how time series data visualization can sometimes be deceptive. It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation". In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
-master
+
  
 ## Building advanced analytics application with TabPy** 
 [@TabPy]
  
 Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+
+## Pick the Right Chart Type
+Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurement, better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgement.
+
+When we are choosing the type of chart, we need to answer some questions: 
+
+* How many features would you like to show in a chart? 
+* How many data points do you want to display for each variable? 
+* Will you display time serious data or among items or groups. 
+
+After answered this question, you should able to get a better imagination of your ideal graph. The simple guidance for using different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
+ 
+Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introduce different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
+
+**Type 1 Column Charts.** 
+This should be the most popular chart type. This chart is good to do comparison between different values when specific values are important. TBD 
+
+Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is
 
 ## Why pie chart is bad: a comparison with bar chart
 
@@ -253,6 +269,12 @@ Polar area diagrams are useful for representing seasonal or cyclical time series
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since area of a circle is proportional to the square of the radius).
 
+
+## Avoiding Common Mistakes with Time Series
+This article explains how time series data visualization can sometimes be deceptive. It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation". In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+master
+
+
 ## 5 Tips to improve Data Visualization
 
 ### Comparison
@@ -279,28 +301,7 @@ Analytic results shouldn’t be presented to 10 decimal places when the user doe
 +reference: [@French]
 +reference: [@Steier]
 
-## More ways to improve your visualization design
-### Free eBooks All Designers Should Read
 
-From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
-
-There’s a wealth of free resources out there in the form of handy little design ebooks.
-
-* **Design’s Iron Fist** — Jarrod Drysdale
-
-The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
-
-* **The Creative Aid Handbook** — Kooroo Kooroo
-
-Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
-
-* **Designbetter.co** — InVision
-
-InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
-
-* **Type Classification**
-
-Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
 
 ## Tips for Tableau
 1. Running totals
