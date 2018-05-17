@@ -350,9 +350,14 @@ Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 (Reproducible code for reference)
 
 [@Calendar_Layout]
+
+We have all seen the calendar views in the various data products that we worked on.  Please find below an open source code that I found, this will help you replicate and create your own calendar:
+![](/images/CalendarView.jpg)
+
 We have all seen the calendar views in the various data products that we worked on. Please find below an open source code that I found, this will help you replicate and create your own calendar:
 [@CalendarView]
  
+
 This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
 
 <!DOCTYPE html>
@@ -449,14 +454,17 @@ What caught my attention here is the categorization of Information on the websit
 We think of a topic, and its possible it's there! Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
 There is also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
 
+Automatic visualization is a bad idea, generally speaking. Some (many?) might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
 
-https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/
+But full on automation where insight fountains out from any dataset is farfetched at this point, because this requires automatic analysis. Analysis is context-specific and requires more than boilerplate statistics. The most interesting visualization is context-specific.
 
-https://yseop.com/blog/automation-making-data-visualization-smarter/
+In 2016, Arden Manning believed Workplace Automation making Data Visualization Smarter. According to him, the goal of data visualization tools was to make understanding data easier, but more often than not it doesn’t quite go to plan. We’ve all been there. The software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. However, data visualization can’t explain data, leaving room for interpretation. The thought behind graphics makes sense – turn data into something easy to understand – but the reality is more complex, and we are left working late writing reports explaining how many trades were cancelled and by what desks or why sales fell in August of 2015. Whenever I am stuck doing a repetitive task, I always think ‘why can’t we automate this’? And now, finally, technology has caught up. Narrative generation software can run as a plug-in to your dashboards. Tools like Savvy actually install on your server and allow every dashboard user to get a written summary anytime they want. This software is fully plug and play, it takes seconds to install, and it’s easy to use. Today, it runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. In fact, the software even lets you copy and paste the text it generates so that you can use it in emails and reports explaining data. Yet again automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.
 
-http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools
+According to Alysson Ferreira, a UI Engineer, he published his idea of Data Visualization tools in 2017. In this new era of information, there's an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for meaningful sources of trustworthy information.  
 
-https://www.quora.com/What-is-the-future-of-data-visualization
+This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into convenient graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.
+
+We can also find topic of data visualization's future on Quora. Amolie Sharma thought in future trend of data visualization are better tools, open for all, Increase in Interactivity/Animation and Portable Data. 
 
 Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of start ups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
 
@@ -489,10 +497,20 @@ The ggplot2 package allows R users to go beyond the simple and often rudimentary
 
 ## Data Mining and Data Visualization
 
-https://www.educba.com/data-mining-vs-data-visualization/
+According to a paper in 2018, we can tell difference of data mining from data visualizations. Here is a chart that helps us understand this better.
 
-This article gives me a clear understanding of data mining and data visualization.
+**BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+Definition|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
+Preference|This is has different applications and preferred for web search engines|Preferred for data forecasting and predictions
+Area|Comes under data science|Comes under the area of data science
+Platform|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
+Generality|New technology but underdeveloped|More useful in real time data forecasting
+Algorithm|Many algorithms exist in using data mining|No need of using any algorithms
+Integration|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
 In Data Mining, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+
 In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+
 Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
