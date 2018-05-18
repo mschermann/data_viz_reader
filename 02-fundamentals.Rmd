@@ -90,22 +90,22 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
 **7. Gestalt Principles:**
 
   Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups
-    o	Proximity: White space can be used to group elements together and separate others
-    o	Similarity: Objects that look similar are instinctively grouped together in our minds
-    o	Enclosure: Helps distinguish between groups
-    o	Symmetry: Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
-    o	Closure: We tend to complete shapes and paths even if part of them is missing
-    o	Continuity: We tend to continue shapes beyond their ending points (similar to closure)
-    o	Connection: Helps group elements together
-    o	Figure and ground: We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
+     1.	Proximity: White space can be used to group elements together and separate others
+     2.	Similarity: Objects that look similar are instinctively grouped together in our minds
+     3.	Enclosure: Helps distinguish between groups
+     4.	Symmetry: Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
+     5.	Closure: We tend to complete shapes and paths even if part of them is missing
+     6.	Continuity: We tend to continue shapes beyond their ending points (similar to closure)
+     7.	Connection: Helps group elements together
+     8.	Figure and ground: We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
 [@principles-fusioncharts]
 
 #### B)Analyze/ Interpret:
   
   Once you have visualized your data, the next step is to learn something from the picture you created. You could ask yourself:
-  .	What can I see in this image? Is it what I expected?
-  .	Are there any interesting patterns?
-  .	What does this mean in the context of the data?
+  *	What can I see in this image? Is it what I expected?
+  *	Are there any interesting patterns?
+  *	What does this mean in the context of the data?
   Sometimes you might end up with visualization that, in spite of its beauty, might seem to tell you nothing of interest about your data. But there is almost always something that you can learn from any visualization, however trivial.
 
 #### C)	Document Your Insights and Steps
@@ -113,17 +113,17 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
   If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.
   In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually there is a reason why we are interested in that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of mis-interpretation of the data by just finding what we originally wanted to find.
   I really think that the documentation is the most important step of the process; and it is also the one we're most likely to tend to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
-  .	Why have I created this chart?
-  .	What have I done to the data to create it?
-  .	What does this chart tell me?
+  *	Why have I created this chart?
+  *	What have I done to the data to create it?
+  *	What does this chart tell me?
 
 #### D)	Transform Data
 
   Naturally, with the insights that you have gathered from the last visualization you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail.
   Possible transformations are:
-  .	Zooming- This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group
-  .	Filtering- This helps us to (temporarily) remove data points that are not in our major focus
-  .	Outlier removal- This allows us to get rid of single points that are not representative for 99% of the dataset.
+  *	Zooming- This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group
+  *	Filtering- This helps us to (temporarily) remove data points that are not in our major focus
+  *	Outlier removal- This allows us to get rid of single points that are not representative for 99% of the dataset.
 **Example**:
   Let's consider that you have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount.
 
@@ -377,32 +377,7 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 
 ![](images/tools_force_paths.png)
 
-### Avoiding Common Mistakes with Time Series
-[@TimeSeries]
-
-In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
-
-## Pick the Right Chart Type
-Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurement, better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgement.
-
-When we are choosing the type of chart, we need to answer some questions: 
-
-* How many features would you like to show in a chart? 
-* How many data points do you want to display for each variable? 
-* Will you display time serious data or among items or groups. 
-
-After answered this question, you should able to get a better imagination of your ideal graph. The simple guidance for using different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
- 
-Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introduce different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
-
-**Type 1 Column Charts.** 
-This should be the most popular chart type. This chart is good to do comparison between different values when specific values are important. TBD 
-
-Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela create a chart selection diagram that is helpful to pick the right chart depends on the data type. 
- 
-
 ## Typography and Data Visualization
-
 
 This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
 
