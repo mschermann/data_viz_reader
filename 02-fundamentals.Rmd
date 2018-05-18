@@ -10,14 +10,14 @@ Data Visualization leverage attributes of System 1, which can have quick and cor
 
 ### I) Determine the Story with Insights:
 
-Story telling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather (2013)'s article talked about how a visual designer tells a story with a visualization.
+Storytelling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather's article (2013) discussed the way in which a visual designer tells a story with a visualization.
 
-  1.	Find the compelling narrative.
-  2.	Think about the audience (e.g., novice, generalist, managerial, export,    executive)
+  1.	Find the compelling narrative
+  2.	Think about the audience (e.g., novice, generalist, managerial, export, executive)
   3.	Be objective and offer balance
   4.	Don't censor
 
-Data visualization will not always unleash a ready-made story on its own. There are no rules, no 'protocol' that will guarantee us a story. Instead, it makes more sense to look for 'insights', which can be artfully woven into stories in the hands of a good journalist.
+Data visualization will not always unleash a ready-made story on its own. There are no rules, no 'protocol' that will guarantee us a story. Instead, it makes more sense to look for 'insights,' which can be artfully woven into stories in the hands of a good journalist.
 
 Here is a process that may be followed for finding insights to tell your story:
 
@@ -34,11 +34,11 @@ Here is a process that may be followed for finding insights to tell your story:
 
 #### A)Visualize: 
 
-Loading any data set into a spreadsheet can also be a form of visualization as an invisible data becomes visible in a picture form into a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best in which situation. 
+Loading any data set into a spreadsheet can also be a form of visualization as the data becomes visible in a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best for the situation. 
 
 **1. 5 Second Rule**
 
-Research shows that on average modern attention span for looking at things online is less than 5 seconds. So if you can't grab attention within 5 minutes, you've likely lost your viewer. Includes clear titles and instructions and tell people succinctly what the visualization shows and how to interact with it.
+Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can't grab attention within 5 minutes, you've likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.
 
 
 **2. Design and layout matter**
@@ -49,15 +49,15 @@ Artists use design principles as the foundation of any visual work. If you want 
            
 **3. Keep it simple:** 
     
-Keep charts simple and easy to interpret. Instead of overloading peoples brain with lots of information, keep only the necessary things in the chart and help the audience understand quickly what's going on.
+Keep charts simple and easy to interpret. Instead of overloading viewers' brains with lots of information, keep only necessary elements in the chart and help the audience understand quickly what is going on.
 
 **4. Pretty doesn't mean effective:** 
     
-There is a misconception that aesthetically pleasing visualization is more effective.To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate that data properly, then you'll lose people's interest as quickly as you gained it.
+There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you'll lose your audience's interest as quickly as you gained it.
 
 **5. Use color purposely and effectively**
     
-Use of color may be prettier and attractive but can be distractive too. Thus, color should be used only if it assists in conveying your message. 
+Use of color may be prettier and attractive but can be distracting too. Thus, color should be used only if it assists in conveying your message. 
     
   a. Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
 
@@ -285,9 +285,10 @@ Example:
 (source: [@narratives_2017])
 ![](/images/Tufte_figure12.png)
 (source: [@narratives_2017])
- 
 
-## Adapting your story to a different set of audiences
+## Special Topics
+
+### Adapting your story to a different set of audiences
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
 
 First, of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:
@@ -301,7 +302,6 @@ Give them opportunities to connect their own general knowledge on the topic. Use
 **Explaining why:**
 Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
 
-## Special Topics
 ### Typography and Data Visualization
 
 This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
