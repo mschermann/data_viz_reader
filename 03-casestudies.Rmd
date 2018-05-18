@@ -1,23 +1,7 @@
 # Case Studies
 
-
-## 10 Best Data Visualization Projects of 2015 
-[@10_BEST] picks the top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
-
-## 15 Cool Information Graphics and Data Viz from 2016
-[@cool_data]
-The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.And the following six examples are from the articles:
-
-
-## 16 Captivating Data Visualization Examples
-[@int_viz_capt]
-
-## 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-[@int_viz_2]
-
 Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. This chapter contains some very useful case studies. Many of the case studies below come from the following articles:
 
-Visualization is like art. It speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
 
 ## Connecting the Dots Behind the Election
 This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different-sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to put what would otherwise be a long slog through years of information into an easily accessible, easily view-able format so that voters can figure out where the candidates’ experiences lie.
@@ -183,11 +167,7 @@ That’s how you can learn all the insight and reason behind a good visualizatio
 
 Besides, this blog also includes great tips and showcases for Tableau.
 
-## 15 Data Visualizations That Will Blow Your Mind
-[@15_mindblowing]
 
-"If a picture is worth a thousand words, a data visualization is worth at least a million.
-As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
 
 ### Every Satellite Orbiting Earth
 
@@ -315,30 +295,7 @@ Detection of Outliers is performed using:
 
 Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,micro array data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-## Two Awesome Visualists 
 
-###David McCandless
-David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
-
-A chart on this blog "International Number Ones: Because every country is good at something (according to data)" is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
-
-Some of the interesting findings are as follows:
-
-**Country ** | ** No.1 in **
--------------|---------------
-Canada |  Doughnuts
-USA | Spam Emails
-India | Bananas
-Norway | Pizza Eaters
-Togo |Unhappiness
-Colombia |Happiness	
-
-The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
-
-###Hans Rosling
-Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
-
-Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 Reference: [@interworks]
@@ -373,3 +330,50 @@ Source: [@britain-diet-data-typical_diet] referenced in [@britain_diet_2016]
 Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is very difficult to use the same visual/data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so alluring and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
 
 > Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
+
+## Articles to read to check out some cool visualizations are mentioned below :
+
+1. ## 10 Best Data Visualization Projects of 2015 
+[@10_BEST] picks the top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
+
+2. ## 15 Cool Information Graphics and Data Viz from 2016
+[@cool_data]
+The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.And the following six examples are from the articles:
+
+
+3. ## 16 Captivating Data Visualization Examples
+[@int_viz_capt]
+
+4.## 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
+[@int_viz_2]
+
+5. ## 15 Data Visualizations That Will Blow Your Mind
+[@15_mindblowing]
+
+"If a picture is worth a thousand words, a data visualization is worth at least a million.
+As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
+
+## Two Awesome Visualists 
+
+###David McCandless
+David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
+
+A chart on this blog "International Number Ones: Because every country is good at something (according to data)" is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
+
+Some of the interesting findings are as follows:
+
+**Country ** | ** No.1 in **
+-------------|---------------
+Canada |  Doughnuts
+USA | Spam Emails
+India | Bananas
+Norway | Pizza Eaters
+Togo |Unhappiness
+Colombia |Happiness	
+
+The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
+
+###Hans Rosling
+Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+
+Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.  
