@@ -31,6 +31,39 @@ Beyond its ability to make information from several different sources and in lar
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder. So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design [@viz_ted]. 
 
+## A Brief History of Data Visualization
+
+**1. Data Visualization: modern product?**
+
+ It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
+ In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of 
+ the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
+ medicine, and other fields.
+ 
+ Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and
+ recording, enabled the wider use of graphics and new advances in form and content.
+
+
+**2. Milestones Tour**
+
+"The only new thing in the world is the history you don’t know." — Harry S Truman
+
+This paper provides an overview of the intellectual history of data visualization from medieval to modern times, it describes and illustrates some significant advances along the way. It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. In fact, the graphic representation of quantitative information has deep roots.These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields. Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content [@data_viz_history].
+
+**Phase** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+Pre-17th Century: Early maps and diagrams | Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today's visualization, which mostly presented geologic, economic, and medical data. The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other celestial bodies, and in the making of maps to aid in navigation and exploration. 
+1600-1699: Measurement and theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawn of practical application.
+1700-1799: New graphic forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
+1800-1850: Beginnings of modern graphics | With the fertilization provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be equaled until modern times.
+1850–1900: The Golden Age of statistical graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had been established a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+1900-1950: The modern dark ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
+1950–1975: Re-birth of data visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
+1975–present: High-D, interactive and dynamic data visualization | During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multidisciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization methods and data types are available for every desktop computer.
+
+**Reference**
+[@data_viz_history]  
+
 ## Key Figures in the History of Data Visualization
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. Below we have some figures names with their famous works, and you can find other stories in the article [@history_viz].
@@ -63,3 +96,62 @@ Charles Joseph Minard was a French civil engineer famous for his representation 
 * [@twitter_Kosara] - Robert Kosara's twitter handle.
 * [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
 * [@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
+
+## Resources for Aspiring Data Visualists
+
+### Tableau Community 
+The following groups or communities help you to explore Tableau further [@Tableau_Community]: 
+* It will help us enhance our learning
+* Get answers for most of your doubts In tableau
+* Post new questions and crowd source answers
+* Attend events, seminars and join conferences conducted locally/ globally
+* Give back to the community once you become an expert in that field
+
+There are very active Tableau Social Media Groups [@LinkedIn_Groups]:
+
+* Tableau Enthusiasts: LinkedIn Group (19K members)
+* Tableau Software Fans & Friends: LinkedIn Group (45k members)
+
+###Blogs
+Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_10_Blogs]:
+
+1. Storytelling with Data
+2. Information is Beautiful
+3. Flowing Data
+4. Visualizing Data
+5. Junk Charts
+6. The Pudding
+7. The Atlas
+8. Graphic Detail
+9. US Census and FEMA
+10. Tableau Blog
+
+## Other sources of great visualization
+
+### Tableau: Viz of the Day
+Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
+
+[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+
+## More ways to improve your visualization design
+### Free eBooks All Designers Should Read
+
+From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
+
+There’s a wealth of free resources out there in the form of handy little design ebooks.
+
+* **Design’s Iron Fist** — Jarrod Drysdale
+
+The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
+
+* **The Creative Aid Handbook** — Kooroo Kooroo
+
+Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
+
+* **Designbetter.co** — InVision
+
+InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
+
+* **Type Classification**
+
+Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
