@@ -485,33 +485,6 @@ In the data visualization terms, we call it truncated graph. A truncated graph (
 
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
 
-
-## Data visualization in Business
-
-[@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
-
-**1. Cleaning**
-
-The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
-In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
-
-
-**2. Extracting**
-
-Known versatile tools for data visualization and analytics – Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
-
-Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
-
-**3. Strategizing**
-
-
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to business. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
-
-Data visualization is one of the initial steps made to derive value from data. It’s also one of the most important steps, as it determines how efficiently analysts can work with data assets, what insights they are able to extract and how their data strategy will develop over time.
-
-Therefore, the quality and capabilities of data visualization directly influence how data impacts your business strategy and what benefits data applications can bring to the companies and their industries._
-
-
 ## Pick the Right Chart Type
 Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurement, better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgement.
 
@@ -566,20 +539,15 @@ With the development, studies and new tools applied in data visualization, more 
 [@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
 **1. Cleaning**
-
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
 
-
 **2. Extracting**
-
 Known versatile tools for data visualization and analytics – Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
 
 **3. Strategizing**
-
-
 As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to business. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
 
 Data visualization is one of the initial steps made to derive value from data. It’s also one of the most important steps, as it determines how efficiently analysts can work with data assets, what insights they are able to extract and how their data strategy will develop over time.
@@ -591,7 +559,6 @@ Corporate transparency, flat organizations, open book policies, etc. are terms e
 
 How does data visualization play a part? Data Visualization helps reveal insights and patterns that are not immediately visible in the raw data. 
 Here’s the process on how to get it done:
-
 
 The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard.
 [@Top4VizTools]
