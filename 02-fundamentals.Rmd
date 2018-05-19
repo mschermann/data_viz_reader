@@ -23,7 +23,7 @@ Here is a process that may be followed for finding insights to tell your story:
 
 [@VisualizeToInsights]
 
-![](/images/DataInsights.JPG)
+![](images/DataInsights.JPG)
 
 **references**
 
@@ -127,11 +127,11 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
 **Example**:
   Let's consider that you have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount.
 
-#### Tufte's Design Principles 
+## Tufte's Design Principles 
 
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-**• Design principles of graphical excellence**
+### Design principles of graphical excellence
 Statistical graphics are kind of graphics we use a lot for data analysis.Here we must follow some principles for statistical graphics from Tufte's great book:
 
 **Principle 1: Maximizing the data-ink ratio, within reason.**
@@ -156,8 +156,8 @@ Examples:
 ![](images/Tufte_figure3.png)
 (source: [@appli_2017])
 
-3. always revise and edit.
-![](/images/Tufte_figure4.png)
+3. Always revise and edit.
+![](images/Tufte_figure4.png)
 (source:[@Tufte_2001])
 
 **Conclusion**
@@ -177,7 +177,7 @@ The danger of multifunctioning elements is that they tend to generate graphical 
 In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective.
 
 Example:
-![](/images/Tufte_figure6.png)
+![](images/Tufte_figure6.png)
 (source:[@Tufte_2001])
 
 **Principle 3: Maximize data density and the size of the data matrix, within reason.**
@@ -186,18 +186,18 @@ High performation graphics should be designed with special care. As volume of da
    Data Density = # entries in data matrix /area of data graphic
 
 
-**• Conclusion: composition of design principles**
+### Conclusion: composition of design principles
 
 **Principle 1: Escape flatland – small multiples, parallel sequencing.**
 Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
 
 1. Example for small multiples.
-![](/images/Tufte_figure8.png)
+![](images/Tufte_figure8.png)
 (source:[@Tufte_2001])
 
 
 2. Example for parallel sequencing
-![](/images/Tufte_figure7.png)
+![](images/Tufte_figure7.png)
 (source:[@Tufte_2001])
 
 
@@ -205,7 +205,7 @@ Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhan
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 Example: 
-![](/images/Tufte_figure9.png)
+![](images/Tufte_figure9.png)
 (source:[@Tufte_2001])
 
 **Principle 3: Utilize Layering & Separation.**
@@ -215,31 +215,31 @@ Supported by Gestalt laws (The principles of grouping):
   3. 1+1 = 3 (clutter)
 
 Example:
-![](/images/Tufte_figure10.png)
+![](images/Tufte_figure10.png)
 (source:[@Tufte_2001])
 
 **Principle 4: Utilize narratives of space and time.**
 Tell a story of position and chronology through visual elements.
 
 Example:
-![](/images/Tufte_figure11.png)
+![](images/Tufte_figure11.png)
 (source: [@narratives_2017])
-![](/images/Tufte_figure12.png)
+![](images/Tufte_figure12.png)
 (source: [@narratives_2017])
 
-#### Best practices in visual analysis- Examples
+## Best practices in visual analysis- Examples for Tableau
 [@DataVizBestPrac]
  
- Here is free pdf to some best practices in visual analysis. It talks about the right charts to be used for various kinds of analysis. It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story. 
+ Here is free pdf to some best practices in visual analysis. **It talks about the right charts to be used for various kinds of analysis.** It is very relevant for data science students as we would be interested in presenting our analysis using simple and effective visualizations that tell the complete story. 
  
- Some of key areas for which the author highlights some best practices are for visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. 
+ Some of key areas for which the **author highlights some best practices are for visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc.** 
  
  The author gives examples on how simple graphs can also become more effective by just adding a few more elements or some simple adjustments. 
  
  This is a great starting point to create effective charts and we may use these principles also when we start doing advanced analytics.
- 
 
 ## Adapting your story to a different set of audience
+
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
 
 First, of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involve:

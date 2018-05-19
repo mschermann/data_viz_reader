@@ -1,14 +1,21 @@
 # Patterns
 
-
- 
 ## Building advanced analytics application with TabPy** 
 [@TabPy]
  
 Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
 
+## Avoiding Common Mistakes with Time Series
+
+This article explains how time series data visualization can sometimes be deceptive. 
+
+It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of **"correlation does not necessary mean causation"**. 
+
+In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+
 ## Pick the Right Chart Type
 Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurement, better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgement.
+
 
 When we are choosing the type of chart, we need to answer some questions: 
 
@@ -21,7 +28,7 @@ After answered this question, you should able to get a better imagination of you
 Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introduce different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
 
 **Type 1 Column Charts.** 
-This should be the most popular chart type. This chart is good to do comparison between different values when specific values are important. TBD 
+This should be the most popular chart type. **This chart is good to do comparison between different values when specific values are important.** TBD 
 
 Still have hard time to choose? There are many resources on line can help you do the decision. For example, Dr. Andre Abela create a chart selection diagram that is helpful to pick the right chart depends on the data type. The link of website is
 
@@ -38,7 +45,7 @@ Source: [@hickey-pie-worst]
 ![](images/hickey-after.jpg)
 Source: [@hickey-pie-worst]
 
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories. **
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
 See figure \@ref(fig:hickey-breakdown) for example.
 
 ![](images/hickey-breakdown.jpg)
@@ -59,7 +66,7 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
 
-## Chose the right baseline in data visualization
+## Choose the right baseline in data visualization
 Baseline is very important to data visualization. If baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
 Here I use the same method for a new data set to .
@@ -96,7 +103,7 @@ barCols <- sapply(quaChange,
 		}
 	})
 
-barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% change, quaterly")
+barplot(quaChange, border=NA, space=0, las=1, col=barCols, main="% sales change, quaterly")
 ```
 
 
@@ -114,7 +121,7 @@ barCols <- sapply(annChange,
 		}
 	})
 
-barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% change, annual")
+barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% sales change, annual")
 ```
 From this plot, it is very clear that the magnitude of drops in sales for some quarters.
 
@@ -170,9 +177,10 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 ```
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+reference: [@Baseline_2013]
 
 ## Using design patterns to find greater meaning in your data
-Visualizations that show comparisons, connections, and conclusions offer analytical clarity. Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
+**Visualizations that show comparisons, connections, and conclusions offer analytical clarity. **Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
 
 ### Comparisons
 ```{r pressure1, eval=FALSE, echo=FALSE, out.width = '100%'}
@@ -204,7 +212,7 @@ The line weights help to identify each entry point and show the range of differe
 ## Example Visualizations of Time Series Data
 
 Reference: [@aya-time-series]
-What are some of the most common data visualizations you see in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.
+What are some of the most common data visualizations you see in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
 Temporal visualizations are one of the simplest, quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
 
@@ -221,7 +229,7 @@ Figure \@ref(fig:aya-stacked) is a stacked area chart showing time series data:
 knitr::include_graphics("images/aya-stacked.png")
 ```
 
-Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.
+**Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.**
 
 The order in which we stack the variables is crucial because there can sometimes be a difference in the actual plot versus human perception. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart. For instance, in the figure below, a bar graph would be a cleaner alternative.
 
@@ -243,13 +251,13 @@ knitr::include_graphics("images/aya-gantt.png")
 
 Assume you're planning the logistics for a dance concert. There are lots of activities to be completed, some of which will take place simultaneously while some can be done only after another activity has been completed. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
 
-Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
+**Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
 
 ```{r aya-stream, echo=FALSE, out.width='60%', fig.align="center", fig.cap='A stream graph showing a randomly chosen listener\'s last.fm music-listening habits over time. (Source: [@aya-time-series])'}
 knitr::include_graphics("images/aya-stream.png")
 ```
 
-Stream graphs are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
+**Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
 
 This heat map visualizes birthdays for babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the later half of July, August, and September.
 
@@ -257,7 +265,7 @@ This heat map visualizes birthdays for babies born in the United States between 
 knitr::include_graphics("images/aya-heat-map.png")
 ```
 
-Heat maps are perfect for a two-tiered time frame -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
+**Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
 
 This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the the text legend for more details.)
 
@@ -265,38 +273,32 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 knitr::include_graphics("images/aya-polar.jpg")
 ```
 
-Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.
+**Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.**
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since area of a circle is proportional to the square of the radius).
-
-
-## Avoiding Common Mistakes with Time Series
-This article explains how time series data visualization can sometimes be deceptive. It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing the two do not show any relationship, this is an example of "correlation does not necessary mean causation". In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
-master
-
 
 ## 5 Tips to improve Data Visualization
 
 ### Comparison
-Include a zero baseline if possible Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
+**Include a zero baseline if possible.** Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
 
 ### Copy
-Don’t over explain If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it; Keep chart and graph headers simple and to the point There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension; Use callouts wisely Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context; Don’t use distracting fonts or elements Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
+**Don’t over explain.** If the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it; Keep chart and graph headers simple and to the point There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. **Remember: Focus on the quickest path to comprehension; Use callouts wisely Callouts are not there to fill space.** They should be used intentionally to highlight relevant information or provide additional context; Don’t use distracting fonts or elements Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
 
 ### Color
-Use a single color to represent the same type of data; Watch out for positive and negative numbers Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind; Make sure there is sufficient contrast between colors; Avoid patterns Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes); Select colors appropriately; Don’t use more than 6 colors in a single layout.
+**Use a single color to represent the same type of data; Watch out for positive and negative numbers.** Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind; Make sure there is sufficient contrast between colors; Avoid patterns Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes); Select colors appropriately; Don’t use more than 6 colors in a single layout.
 
 ### Ordering
-Order data intuitively There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value; Order consistently; Order evenly Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
+**Order data intuitively should have a logical hierarchy.** Order categories alphabetically, sequentially, or by value; Order consistently; Order evenly Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
 
 ### Audience perspective
-Let the users lead;Know your audience,Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
+**Let the users lead; Know your audience.** Designers should consider the way users prefer to understand information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
 
 ### Use layers to tell a story
-While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
+**While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded.** On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
 
 ### Keep it simple
-Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do.
+**Keep it as simple as possible!**Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will do.
 
 +reference: [@French]
 +reference: [@Steier]
@@ -339,7 +341,7 @@ Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 [@Calendar_Layout]
 
 We have all seen the calendar views in the various data products that we worked on.  Please find below an open source code that I found, this will help you replicate and create your own calendar:
-![](/images/CalendarView.jpg)
+![](images/CalendarView.jpg)
 
 We have all seen the calendar views in the various data products that we worked on. Please find below an open source code that I found, this will help you replicate and create your own calendar:
 [@CalendarView]
@@ -441,7 +443,7 @@ What caught my attention here is the categorization of Information on the websit
 We think of a topic, and its possible it's there! Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
 There is also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
 
-Automatic visualization is a bad idea, generally speaking. Some (many?) might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
+**Automatic visualization is a bad idea, generally speaking.** Some (many?) might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
 
 But full on automation where insight fountains out from any dataset is farfetched at this point, because this requires automatic analysis. Analysis is context-specific and requires more than boilerplate statistics. The most interesting visualization is context-specific.
 
@@ -467,7 +469,7 @@ At the end its not only about the tool its more about what you are trying to do;
 ## Reusable Data Visualization Code in R
 [@viz_R]
 
-This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles and labels are added on using extra code.  For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using **"layering"**.  There is a base plot and then other aspects of the plot such as aesthetics, titles and labels are added on using extra code.  For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
 To provide an example the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
 ```{r}
