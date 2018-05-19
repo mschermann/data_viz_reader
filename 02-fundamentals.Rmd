@@ -19,7 +19,7 @@ Storytelling is an essential part of data visualization. It is extremely importa
 
 Data visualization will not always unleash a ready-made story on its own. There are no rules, no 'protocol' that will guarantee us a story. Instead, it makes more sense to look for 'insights,' which can be artfully woven into stories in the hands of a good journalist.
 
-Here is a process that may be followed for finding insights to tell your story:
+Here is a process that may be followed for finding insights to tell a story:
 
 [@VisualizeToInsights]
 
@@ -59,11 +59,11 @@ There is a misconception that aesthetically pleasing visualization is more effec
     
 Use of color may be prettier and attractive but can be distracting too. Thus, color should be used only if it assists in conveying your message. 
     
-  a. Color for Numerical Scales: Color for numerical scales should be used with caution.The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
+  1. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
 
-  b. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+  2. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
 
-  c. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+  3. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
 
 **6. Maps:**
     
@@ -79,16 +79,16 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
      5.	Closure: We tend to complete shapes and paths even if part of them is missing
      6.	Continuity: We tend to continue shapes beyond their ending points (similar to closure)
      7.	Connection: Helps group elements together
-     8.	Figure and ground: We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
-[@principles-fusioncharts]
+     8.	Figure and ground: We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose. [@principles-fusioncharts]
+
 
 #### B)Analyze/ Interpret:
   
-  Once you have visualized your data, the next step is to learn something from the picture you created. You could ask yourself:
-  *	What can I see in this image? Is it what I expected?
+Once the data is visualized, the next step is to learn something from the picture that is created. Questions that can be asked based on the picture can be:
+  *	What can be seen in this image? Is it what that was expected?
   *	Are there any interesting patterns?
   *	What does this mean in the context of the data?
-  Sometimes you might end up with visualization that, in spite of its beauty, might seem to tell you nothing of interest about your data. But there is almost always something that you can learn from any visualization, however trivial.
+Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
 
 #### C)	Document Your Insights and Steps
 
@@ -180,7 +180,7 @@ Data-ink ratio = data-ink/total ink used to print the graphic
 Examples:
 1.Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure1.png) 
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 2. Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure2.png)
@@ -193,7 +193,7 @@ Examples:
 (source:[@Tufte_2001])
 
 **Conclusion**
-1. The graphs will be better for more information per unit of space an d per unit of ink is displayed.
+1. The graphs will be better for more information per unit of space and per unit of ink is displayed.
 
 2. Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options.
 
