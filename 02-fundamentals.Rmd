@@ -24,44 +24,44 @@ Here is a process that may be followed for finding insights to tell a story:
 [@DataVizTips]
 [@practitioners_guide]
 
-#### A)Visualize: 
+#### 1. Visualize: 
 
 Loading any data set into a spreadsheet can also be a form of visualization as the data becomes visible in a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best for the situation. 
 
-**1. 5 Second Rule**
+**1.1 5 Second Rule**
 
 Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can't grab attention within 5 minutes, you've likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.
 
 
-**2. Design and layout matter**
+**1.2 Design and layout matter**
   
 The design and layout should facilitate ease of understanding to convey your message to the viewer.
 
 Artists use design principles as the foundation of any visual work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate graphic designer Melissa Anderson's principles of design: balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity, discussed in more detail in the design principles section [@design_principles].
            
-**3. Keep it simple:** 
+**1.3 Keep it simple:** 
     
 Keep charts simple and easy to interpret. Instead of overloading viewers' brains with lots of information, keep only necessary elements in the chart and help the audience understand quickly what is going on.
 
-**4. Pretty doesn't mean effective:** 
+**1.4 Pretty doesn't mean effective:** 
     
 There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you'll lose your audience's interest as quickly as you gained it.
 
-**5. Use color purposely and effectively**
+**1.5 Use color purposely and effectively**
     
 Use of color may be prettier and attractive but can be distracting too. Thus, color should be used only if it assists in conveying your message. 
     
-  1. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
+  A. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
 
-  2. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
+  B. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need legend to interpret things. Color can be used to leverage long-term memory very quickly.
 
-  3. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+  C. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
 
-**6. Maps:**
+**1.6 Maps:**
     
 Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
 
-**7. Gestalt Principles:**
+**1.7 Gestalt Principles:**
 
   Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups
      1.	Proximity: White space can be used to group elements together and separate others
@@ -73,7 +73,7 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
      7.	Connection: Helps group elements together
      8.	Figure and ground: We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose. [@principles-fusioncharts]
 
-#### B)Analyze/ Interpret:
+#### 2. Analyze/ Interpret:
   
 Once the data is visualized, the next step is to learn something from the picture that is created. Questions that can be asked based on the picture can be:
   *	What can be seen in this image? Is it what that was expected?
@@ -81,7 +81,7 @@ Once the data is visualized, the next step is to learn something from the pictur
   *	What does this mean in the context of the data?
 Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
 
-#### C)	Document Your Insights and Steps
+#### 3.	Document Your Insights and Steps
 
   If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.
   In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually there is a reason why we are interested in that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of mis-interpretation of the data by just finding what we originally wanted to find.
@@ -90,7 +90,7 @@ Sometimes we might end up with visualization that, in spite of its beauty, might
   *	What have I done to the data to create it?
   *	What does this chart tell me?
 
-#### D)	Transform Data
+#### 4. Transform Data
 
   Naturally, with the insights that you have gathered from the last visualization you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail.
   Possible transformations are:
@@ -115,13 +115,13 @@ This is a great starting point for creating effective charts and we may use thes
 
 Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data [@intuitive-dash].
   
-**1. The dashboard should read left to right** 
+#### 1. The dashboard should read left to right
 Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
  
-**2. Group related information together** 
+#### 2. Group related information together 
 Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
  
-**3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
+#### 3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
 Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
 
 ## Design Principles
@@ -156,7 +156,7 @@ A graph should be impressive and can obtain audience's attention. How can we ach
 ### Design principles of graphical excellence
 Statistical graphics are kind of graphics we use a lot for data analysis.Here we must follow some principles for statistical graphics from Tufte's great book:
 
-**Principle 1: Maximizing the data-ink ratio, within reason.**
+#### Principle 1: Maximizing the data-ink ratio, within reason.
 
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic’s ink devoted to the non-redundant display of data-information.
 
@@ -192,7 +192,7 @@ Examples:
 4. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
 
-**Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
 
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements.
 
@@ -206,7 +206,7 @@ Example:
 
 (source:[@Tufte_2001])
 
-**Principle 3: Maximize data density and the size of the data matrix, within reason.**
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
 High performation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).
     
    Data Density = # entries in data matrix /area of data graphic
@@ -214,7 +214,7 @@ High performation graphics should be designed with special care. As volume of da
 
 ### Conclusion: composition of design principles
 
-**Principle 1: Escape flatland – small multiples, parallel sequencing.**
+#### Principle 1: Escape flatland – small multiples, parallel sequencing.
 Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
 
 1. Example for small multiples.
@@ -227,14 +227,14 @@ Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhan
 (source:[@Tufte_2001])
 
 
-**Principle 2: Macro/Micro-Provide the user with both views (overview and detail).**
+#### Principle 2: Macro/Micro-Provide the user with both views (overview and detail).
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 Example: 
 ![](images/Tufte_figure9.png)
 (source:[@Tufte_2001])
 
-**Principle 3: Utilize Layering & Separation.**
+#### Principle 3: Utilize Layering & Separation.
 Supported by Gestalt laws (The principles of grouping):
   1. Grouping with colors
   2. Using Color to separate
@@ -244,7 +244,7 @@ Example:
 ![](images/Tufte_figure10.png)
 (source:[@Tufte_2001])
 
-**Principle 4: Utilize narratives of space and time.**
+#### Principle 4: Utilize narratives of space and time.
 Tell a story of position and chronology through visual elements.
 
 Example:
@@ -271,13 +271,13 @@ Providing context, adding time sequence details, showing movement, change and me
 
 Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data [@intuitive-dash].
   
-**1. The dashboard should read left to right** 
+#### 1. The dashboard should read left to right
 Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
  
-**2. Group related information together** 
+#### 2. Group related information together
 Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
  
-**3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** 
+#### 3. Find relationships between seemingly unrelated areas and display visuals together to show the relationship. 
 Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
 
 ## Data Visualization Tools
