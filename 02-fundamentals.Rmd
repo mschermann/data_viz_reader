@@ -112,14 +112,11 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
 **References**  
 [@DataVizBestPrac]
 
-
 #### Examples of Best Practices in Visual Analysis
  
 Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
  
-Some of key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. 
- 
-The author gives examples on how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
+Some of key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples on how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
  
 This is a great starting point for creating effective charts and we may use these principles also when we start doing advanced analytics.
 
@@ -239,6 +236,7 @@ In other words, we should try to make all present graphical elements data encodi
 
 Example:
 ![](/images/Tufte_figure6.png)
+
 (source:[@Tufte_2001])
 
 **Principle 3: Maximize data density and the size of the data matrix, within reason.**
