@@ -174,7 +174,7 @@ Visualizations that show comparisons, connections, and conclusions offer analyti
 
 ### Comparisons
 ```{r pressure1, eval=FALSE, echo=FALSE, out.width = '100%'}
-knitr::include_graphics('/Users/yuyingjie/Desktop/1.jpg')
+![](https://github.com/mschermann/data_viz_reader/blob/week4_contributions/images/pattern-design-1.jpg)
 ```
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
@@ -182,7 +182,7 @@ As shown in Figure 1, the bar chart with sparkline enables you to review the dat
 ### Connections
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
 ```{r pressure2, eval=FALSE, echo=FALSE, out.width = '100%'}
-knitr::include_graphics('/Users/yuyingjie/Desktop/2.jpg')
+![](https://github.com/mschermann/data_viz_reader/blob/week4_contributions/images/pattern-design-2.jpg)
 ```
 Similar to sounds waves, the symmetrical area charts grow equidistant from the source (the zero line) at each time interval to accentuate the returns even further. Here, the y-axis is shown in percentage. Instead of using the zero line to indicate positive or negative returns, it uses color to denote if the category returns are positive (black) or negative (red). For example, Multi Cap Russell 3000 Growth produced 20% positive returns within the one-year time period and is shown with color fill in both directions from the zero line to purposefully duplicate the large gains and specifically uses black color fill to indicate the returns are positive. As evident from the name, the symmetrical chart doubles the returns to emphasize the amount with color fill.
 
@@ -192,7 +192,7 @@ Next, you might wonder how you would have fared if you had invested in certain f
 
 ### Conclusions
 ```{r pressure3, eval=FALSE, echo=FALSE, out.width = '100%'}
-knitr::include_graphics('/Users/yuyingjie/Desktop/3.jpg')
+![](https://github.com/mschermann/data_viz_reader/blob/week4_contributions/images/pattern-design-3.png)
 ```
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
 
