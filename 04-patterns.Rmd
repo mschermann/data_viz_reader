@@ -1,3 +1,4 @@
+#Patterns
 
 ## Avoiding Common Mistakes with Time Series
 [@TimeSeries]
@@ -8,10 +9,11 @@ It first takes an example of two random time series data and plots them on a gra
 In another set of examples author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
+
 ### Tips to Improve Data Visualization
 
 #### Comparison
-Include a zero baseline if possible Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
+Include a zero baseline if possible. Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (example, in stock market data), you may truncate the scale to showcase these variances; Always choose the most efficient visualization; Watch your placement. You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost; Tell the whole story. Maybe you had a 30% sales increase in Quarter4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Quarter.,1.
 
 #### Copy
 Don’t over explain if the copy already mentions a fact, the subhead, callout, and chart header don’t have to reiterate it; Keep chart and graph headers simple and to the point. There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension; Use callouts wisely Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context; Don’t use distracting fonts or elements Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
@@ -52,7 +54,7 @@ When we are choosing the type of chart, we need to answer some questions:
 * How many data points do you want to display for each variable? 
 * Will you display time serious data or among items or groups. 
 
-After answering this question, you should able to get a better imagination of your ideal graph. The simple guidance for using the different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
+After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different type of chart is line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
  
 Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introducing different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
 
@@ -73,7 +75,7 @@ See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 Source: [@hickey-pie-worst]
 
 ![](images/hickey-after.jpg)
-Source: [@hickey-pie-worst]
+<sup>Source: [@hickey-pie-worst]</sup>
 
 2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
 See figure \@ref(fig:hickey-breakdown) for example.
@@ -98,7 +100,6 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 
 ## Chose the right baseline in data visualization
 The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
-=======
 
 Here I use the same method for a new data set to . (missing...?) 
 
@@ -242,16 +243,14 @@ The line weights help to identify each entry point and show the range of differe
 ## Example Visualizations of Time Series Data
 
 Reference: [@aya-time-series]
-What are some of the most common data visualizations you see in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
-
-What are some of the most common data visualizations you see in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.
+What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
 Temporal visualizations are one of the simplest, quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
 
 1. *Line Graph*. A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
 
 2. *Stacked Area Chart* is an area chart similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time. The order in which we stack the variables is crucial because there can sometimes be a difference in the actual plot versus human perception.
-=======
+
 
 The figure below is a stacked area chart showing time series data:
 ![](images/aya-stacked.png) 
