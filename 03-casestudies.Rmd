@@ -1,12 +1,35 @@
 # Case Studies
 
+## Best Data Visualizations cases
+
+## 10 Best Data Visualization Projects of 2015 
+[@10_BEST] picks the top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
+
+## 15 Cool Information Graphics and Data Viz from 2016
+[@cool_data]
+The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.And the following six examples are from the articles:
+
+## 16 Captivating Data Visualization Examples
+[@int_viz_capt]
+
+## 15 Data Visualizations That Will Blow Your Mind
+[@15_mindblowing]
+=======
+=======
+
 Case studies contain valuable information about development records. The evaluation and study of case study helps show that the new design is just as usable as existing techniques, making it suitable for future development. This chapter contains some very useful case studies. Many of the case studies below come from the following articles:
 
-Visualization is like art. It speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. The links show some intricate visualizations of the topics like those mentioned above, and speak volumes without requiring paragraphs to explain what is going on within these visualizations. According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues. 
+Visualization is like art. It speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write bundles of paragraphs, but they might still have scope for ambiguity. The links show some intricate visualizations of the topics like those mentioned above and speak volumes without requiring paragraphs to explain what is going on within these visualizations. According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues. 
+
+Some examples are presented below : 
+
+## Connecting the Dots Behind the Election
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different-sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to put what would otherwise be a long slog through years of information into an easily accessible, easily viewable format so that voters can figure out where the candidates’ experiences lie.
+contributions
 
 "If a picture is worth a thousand words, a data visualization is worth at least a million.
 As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
-
+=======
 Some examples are presented below: 
 
 ## Geographic Visualizations
@@ -19,17 +42,40 @@ cities can be typed into a search bar to see the flight patterns over them. The 
 
 ![New York Flight Patterns](images/NYCflights.png)
 
+
+## Green Honey
+[@green_honey] referenced in [@cool_data]
+
+The visualization spans a webpage. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue, but the numbers that fall into each category—for example, what colors are the most popular “base” colors for English and Chinese. The continuous flow of this visualization helps really bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.
+
+![](images/colorwords.png)
+
+## How People Like You Spend Their Time
+[@spendingtime] referenced in [@cool_data]
+The visual lists several categories along one side of a graph—such as “personal care” and “work”—with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different statistics at the top—such as changing gender or age—causes the lines to shift to feature that demographic. The simplicity of this visualization really helps the information get across and avoids bogging down the statistics. Sometimes, less is more.
+
+![](images/SpendingTime.png)
+
+## Is it Better to Rent or Buy?
+reference: [@rent_or_buy]
+=======
 ### Two Centuries of U.S. Immigration
 [@Immigration] referenced in [@cool_data]
 
 The interactive map shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Colored dots represent 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations.
 
+
 ![US Immigration](images/immigration.png)
 
 
+
+## Two Centuries of U.S. Immigration
+[@Immigration] referenced in [@cool_data]
+=======
 ### Uber: Crafting Data-Driven Maps
 [@uber_maps]
 Map visualization is very important for companies like Uber that needs to track metrics using geo space points. In this article, the designer from Uber talks about the challenges of design such visualization and their solutions. While a lot of the problems are related to the large scale of the data, there are some insights on using scatter plots and hex bins, adding trip lines and making custom tools to help make decisions. The visualization in this article is beneficial for developing geo spatial graphics. 
+
 
 ### Every Satellite Orbiting Earth
 
@@ -38,24 +84,43 @@ Reference: [@Satellite]
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
 
 
+
+## Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+=======
 ### An Interactive Visualization of NYC Street Trees
 [@trees]
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
+
 
 ### U.S. Migration Patterns 
 
 [@migration]
 
+## 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
+=======
+## 15 Data Visualizations That Explain Trump, the White Oscars ,and Other Crazy Current Events
+
+[@int_viz_2]
+=======
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to play around with. You can see where people living in each state were born, and to what states people move from others. 
 
 ### Selfie City
 
 [@selfie]
 
+## Connecting the Dots Behind the Election
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different-sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to put what would otherwise be a long slog through years of information into an easily accessible, easily view-able format so that voters can figure out where the candidates’ experiences lie.
+=======
+## 2.1 Connecting the Dots Behind the Election
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different-sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to put what would otherwise be a long slog through years of information into an easily accessible, easily viewable format so that voters can figure out where the candidates’ experiences lie.
+=======
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in, say, New York and Berlin, as well as those between men and women across the world.
 
-
+## What's really warming the world?
+[@world_warming] referenced in [@int_viz_1]
+=======
 ## Time-Based Visualizations
+
 
 ### How People Like You Spend Their Time
 [@spendingtime] referenced in [@cool_data]
@@ -63,7 +128,9 @@ The visual lists several categories along one side of a graph—such as “perso
 
 ![](images/SpendingTime.png)
 
-
+## The Strengths of Animated Data Visualization
+[@American_life] According to me, it is really interesting to see that almost anything in this world can be explained by visualizations. Visualizations are not just limited to businesses and their analytics. Wars, rescue operations, etc. can also be visualized to get a clear idea of all the details of the issues.
+=======
 ### A Day in the Life of Americans
 [@American_life]
 
@@ -75,31 +142,38 @@ A drawback of the plot is that it is hard for our eyes to keep track of 1000 sim
 
 Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
 
+## An Aging Nation: Projected Number of Children and Older Adults 
+=======
 ### The American Workday
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
-
-
 
 ## Demographics
 
 ### An Aging Nation: Projected Number of Children and Older Adults 
 
+
 [@aging_nation] Aging population is always a hot topic in social economics and politics. I collected several different data visualizations that show the aging population in the world. They are good examples to learn and apply to census data. 
 
 ![](images/aging_nation.jpg)
 
-This one includes bar chart and line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
+This one includes a bar chart and a line graph to demonstrate the aging population compared with population of children. The good things about this visualization: simple to see and compare, color to differentiate the category, highlight the intersection point.
 
+
+## From Pyramid to Pillar: A Century of Change, Population of the U.S.
+=======
 ### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+
 [@population_pyramid]
 
 ![](images/Pyramid.jpg)
 
-This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”. It is a good candidate to compare changes in population distributions (sex, age, year). Also the shape of pyramid is used to interpret a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool in the census data. [@animated_pyramid] offers an animated pyramid.
+This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender”. It is a good candidate to compare changes in population distributions (sex, age, year). Also the shape of a pyramid is used to interpret a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool in the census data. [@animated_pyramid] offers an animated pyramid.
 
 ![](images/3_1.png)
 This is an animated and multiple population pyramids. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes year by year, which is useful for continuous time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
+## A guide to Who is Fighting Whom in Syria 
+=======
 ### Young voters, class and turnout: how Britain voted in 2017
 [@UKvotes2017]
 The article's goal is to convey the change in party votes in the 2017 UK general election compared to votes in 2015. The change in party votes was shown with regards to three demographic factors: age, class, and ethnicity. For each factor, there are four graphs (one per political party), each illustrated in their party's standard color. The change in percent of votes is shown as an arrow where the arrow's shaft is the length of the difference from 2015 to 2017 while the x-axis is the demographic factor split into different bins.
@@ -158,6 +232,7 @@ In this case study, it first claimed the background story and the analytic quest
 
 
 ### A guide to Who is Fighting Whom in Syria 
+
 Picking up from one of the charts shown in the above mentioned link [@int_viz_1], the visualization of ‘A guide to Who is Fighting Whom in Syria’ is one of the most interesting charts in the list. The visualization and its report can be seen at 
 [@syria_chart] Picking up from one of the charts shown in the above mentioned link [@int_viz_1], the visualization of ‘A guide to Who is Fighting Whom in Syria’ is one of the most interesting charts in the list. The visualization and its report can be seen at 
 
@@ -171,7 +246,11 @@ This visualization makes an extremely complicated topic like the Syrian War easi
 
 ![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
 
+
+## Adding up the White Oscars Winners
+=======
 ### Adding up the White Oscars Winners
+
 [@oscars_sowhite_chart] referenced in [@int_viz_2]
 
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen here [@oscars_sowhite_chart] in an article by Bloomberg. The writers of this article developed the attributes of the future winners of Oscars by taking up the attributes of the past winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
@@ -186,6 +265,9 @@ Similarly, the visualization gives information about the different aspects of mo
 ![Best Picture](images/img_oscars_pic.PNG)
 
 
+=======
+
+
 ## Young voters, class and turnout: how Britain voted in 2017
 [@UKvotes2017]
 The article's goal is to convey the change in party votes in the 2017 UK general election compared to votes in 2015. The change in party votes was shown with regards to three demographic factors: age, class, and ethnicity. For each factor, there are four graphs (one per political party), each illustrated in their party's standard color. The change in percent of votes is shown as an arrow where the arrow's shaft is the length of the difference from 2015 to 2017 while the x-axis is the demographic factor split into different bins.
@@ -196,19 +278,20 @@ What makes this a good visualization is that it is very easy to read and interpr
 
 ## Uber: Crafting Data-Driven Maps
 [@uber_maps]
-Map visualization is very important for companies like Uber that needs to track metrics using geo space points. In this article, the designer from Uber talks about the challenges of design such visualization and their solutions. While a lot of the problems are related to the large scale of the data, there are some insights on using scatter plots and hex bins, adding trip lines and making custom tools to help make decisions. The visualization in this article is beneficial for developing geo spatial graphics. 
+Map visualization is very important for companies like Uber that needs to track metrics using geo space points. In this article, the designer from Uber talks about the challenges of design such visualization and their solutions. While a lot of the problems are related to the large scale of the data, there are some insights on using scatter plots and hex bins, adding trip lines and making custom tools to help make decisions. The visualization in this article is beneficial for developing geospatial graphics. 
 
 ## Linguistic Concepts
 [@lingui_data]
-Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
+Following the idea behind this article, it helped to understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 
 
 ## Kissmetrics blog: visualization of metrics
 
-### Kissmetrics blog: visualization of metrics
+=======
+
 
 [@facebook_organic]
-Kissmetrics blog is a place where people talk about analytics, marketing and testing through narratives and metrics visualization. Metrics are important in real-life world especially when developing/promoting products. Visualization of metrics are also essential so that stakeholders can monitor performance, identify problems and deep dive into potential issues. 
+Kissmetrics blog is a place where people talk about analytics, marketing ,and testing through narratives and metrics visualization. Metrics are important in the real-life world sespecially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and deep dive into potential issues. 
 
 A good example from the Kissmetrics blog is about Facebook’s Organic Reach. One important point in the blog discussed whether the Facebook’s organic reach is decreasing drastically. 
 The general trend shows that there is a huge decline in Facebook’s page organic reach.
@@ -219,20 +302,29 @@ The following graphs show that the engagement is actually increasing, meaning wh
 
 ![](images/average-facebook-daily-reach.png)
 
-This resonates with what we have learnt at class in terms of how different perspectives of interpreting data can lead to different conclusions. 
+This resonates with what we have learned at class in terms of how different perspectives of interpreting data can lead to different conclusions. 
 
 
+
+## How the Recession Reshaped the Economy, in 255 Charts
+=======
 ### How the Recession Reshaped the Economy, in 255 Charts
+
 [@recession_economy]
 
-The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America. Using color to highlight the lines lets viewers see the specifics for each industry. By hovering over a line, the detailed information of that industry's job trend will show up. Keeping this extra data hidden until needed makes it easier for readers to absorb information from this otherwise huge data visualization.
+
+The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America. Using color to highlight the lines let viewers see the specifics for each industry. By hovering over a line, the detailed information of that industry's job trend will show up. Keeping this extra data hidden until needed makes it easier for readers to absorb information from this otherwise huge data visualization.
 Below the overall chart on top are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
 
-### Vizwiz blog: case studies about how to improve your visualizations
-This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical, but also full of insights.
 
-My favorite part of this blog is so called “Makeover Monday”, which will develop a new visualization based on an original one. 
+## Vizwiz blog: case studies about how to improve your visualizations
+This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical, but also full of insights.
+=======
+## 14. Vizwiz blog: case studies about how to improve your visualizations
+This is a blog about Tableau based data visualization. The author is Andy Kriebel who is a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights.
+
+My favorite part of this blog is so-called “Makeover Monday”, which will develop a new visualization based on an original one. An interesting case study could be [@case_thesis]. It is a thesis but it has interesting insights about visualization using mobile data.
 
 For example, an author re-designed “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out “what works well”, “what could be improved” and also his goals for the new visualization (ref: http://www.vizwiz.com/2018/04/malaria.html)
 That’s how you can learn all the insight and reason behind a good visualization. [@vizwiz_malaria]
@@ -240,32 +332,72 @@ That’s how you can learn all the insight and reason behind a good visualizatio
 Besides, this blog also includes great tips and showcases for Tableau.
 
 
+## Data Visualization Examples
+
+## Every Satellite Orbiting Earth
+
+By David Yanofsky and Tim Fernholz, Published:Nov17,2014
+Reference: [@Satellite]
+This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites orbiting the Earth as you read this. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
+
+## Simpson’s Paradox
+[http://vudlab.com/simpsons/](http://vudlab.com/simpsons/)
+
+The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual look at data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. That’s called a Simpson’s Paradox. 
+
+
+## Charles Minard’s Visualization of Napoleon’s 1812 March
+=======
 ### Charles Minard’s Visualization of Napoleon’s 1812 March
+
 [https://www.edwardtufte.com/tufte/minard](https://www.edwardtufte.com/tufte/minard)
-This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your data set and sharp communication skills.
+This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.
 
 ### Music Timeline
 [https://research.google.com/bigpicture/music/](https://research.google.com/bigpicture/music/)
 
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates. 
 
-## 15.5 State of the Union 2014 Minute by Minute on Twitter
+## State of the Union 2014 Minute by Minute on Twitter
 [http://twitter.github.io/interactive/sotu2014/#p1](http://twitter.github.io/interactive/sotu2014/#p1)
 
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state. Pretty powerful.
 
+
+## An Interactive Visualization of NYC Street Trees
+[@trees]
+Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
+
+## Millennial Generation Diversity
+Millennial generation is bigger, more diverse than boomers [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
+
+## Goldilocks Exoplanets
+=======
+<# 15.6 An Interactive Visualization of NYC Street Trees
+[@trees]
+Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
+
+## 15.7 Millennial Generation Diversity
+The Millennial generation is bigger, more diverse than boomers [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
+
+## 15.8 Goldilocks Exoplanets
+=======
 ### Goldilocks Exoplanets
+
 [https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/](https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/)
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
-## 15.9 Washington Wizards’ Shooting Stars
+## Washington Wizards’ Shooting Stars
 
 [@basketball]
 
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
 
+## U.S. Migration Patterns 
+=======
 ### Global Carbon Emissions
+
 
 [@CO2_emission]
 [https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive](https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive)
@@ -273,15 +405,26 @@ This detailed data visualization demonstrates D.C.’s basketball team’s shoot
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
 
 
+## Selfie City
+=======
+
+
 ### Britain's diet in data
 
 This is a very good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still making it interesting to look at. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food categories into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to toggle and change to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
+
+## The American Workday
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
+
+## Global Carbon Emissions
+=======
 ![](images/britain-diet-data-trends.PNG)
 Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
 Source: [@britain-diet-data-typical_diet] referenced in [@britain_diet_2016]
+
 
 Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is very difficult to use the same visual/data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so alluring and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
 
@@ -291,22 +434,30 @@ Such a visualization is ideal for the layman wanting to walk away with a basic b
 ## Application of Data Visualization
 There are ways to use data visualization at every level of an organization. These applications lets us quickly create insightful visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
 
+
+## Data Augmentation
+=======
 ### Data Augmentation
 [@ref_pdf_ar]
 
-Computer interfacing is changing everyday, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
+Computer interfacing is changing every day, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
 
 Creating a mechanism to become aware of the user’s intention by analyzing the gaze through reactive design, we achieved developing a complex system for demonstrating massive amount of data and organizing it in a spatial system. The user could walk through and explore the data and interact with different data visualizations. Moving through space is used to provide different levels of detail for specific data through Z axis.
 
-Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
+Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organizations, too.
 
-By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
+By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyze data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
+Analytical engineer Steluta Iordache states virtual reality is changing the environment of the data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
+
+## Outlier Detection
+=======
 
 ### Outlier Detection
 [@outliar]
 
-We use data visualization for outliar detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. 
-In functional data analysis we observe curves deﬁned over a given realinterval and shape outliers may be deﬁned as those curves that exhibit a diﬀerent shape from the rest of the sample. Some more types of outliars observed are:
+
+We use data visualization for outlier detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. 
+In functional data analysis we observe curves deﬁned over a given realinterval and shape outliers may be deﬁned as those curves that exhibit a diﬀerent shape from the rest of the sample. Some more types of outliers observed are:
 
 **Type 1:** Global outliers (also called “point anomalies”): 
 A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
@@ -341,31 +492,76 @@ Detection of Outliers is performed using:
 * Multivariate Approach
 * Multivariate Model Approach
 
+
+## Genetic Network Reconstruction
+=======
 ### Genetic Network Reconstruction
 
-Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,micro array data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
+
+Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
 
-### Using Shapes as Filters in Tableau When Your Fields Are Measures
+## Two Awesome Visualists 
+
+###David McCandless
+David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts ,and maps on a wide range of topics like science, food, dogs and countries.
+
+A chart on this blog "International Number Ones: Because every country is good at something (according to data)" is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
+
+Some of the interesting findings are as follows:
+
+**Country ** | ** No.1 in **
+-------------|---------------
+Canada |  Doughnuts
+USA | Spam Emails
+India | Bananas
+Norway | Pizza Eaters
+Togo |Unhappiness
+Colombia |Happiness	
+
+The visualizations on this website are updated and revised whenever new data is available. The original version of the above-mentioned graph can be seen here: [@country_original]
+
+## Using Shapes as Filters in Tableau When Your Fields Are Measures
 Reference: [@interworks]
 
 I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. 
 Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
 This article is very useful to analyze and redesign the different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts". Ref:[@gunviolence]. This article introduces the methodologies on how to use shapes as filters in Tableau when the fields are Measures. Basically, it teaches us how to load custom shape as action filters and use them for showing different graphs with those filters which can make the visualization more interesting and interactive. You can also download the tableau file for practice.
 
-Case studies document the development record of a project.They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and allow their own system to be better simply by learning from what others have done.
+Case studies document the development record of a project. They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and allow their own system to be better simply by learning from what others have done.
 
 This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
 
+
+## Visualization of big data security: a case study on the KDD99 cup data set
+=======
 ### Visualization of big data security: a case study on the KDD99 cup data set
 
-This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 data set:
+
+This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 dataset:
 
 **Abstract**  
 
-Cyber security has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 data set has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
+Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
 To read the full paper, please follow the reference link: [@KDD99]
+
+
+## Britain's diet in data
+
+This is a very good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still making it interesting to look at. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food categories into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to toggle and change to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
+
+![](images/britain-diet-data-trends.PNG)
+Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
+![](images/britain-diet-data-typical_diet.png)
+
+Source: [@britain-diet-data-typical_diet] referenced in [@britain_diet_2016]
+
+Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is very difficult to use the same visual/data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so alluring and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
+
+> Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
+
+=======
 
 ## Articles to read to check out some cool visualizations are mentioned below :
 
