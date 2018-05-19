@@ -364,6 +364,7 @@ We have all seen the calendar views in the various data products that we worked 
  
 This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
 
+```html
 <!DOCTYPE html>
 <body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -440,6 +441,7 @@ function pathMonth(t0) {
       + "H" + (w0 + 1) * cellSize + "Z";
 }
 </script>
+```
 
 ## An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
 
