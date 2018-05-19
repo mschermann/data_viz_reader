@@ -64,7 +64,7 @@ Still have hard time to choose? There are many resources on-line can help you do
 
 ## Why pie chart is bad: a comparison with the bar chart
 
-Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie  chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
+Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
 
 1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
@@ -356,7 +356,7 @@ Word clouds can add clarity during text analysis in order to effectively communi
 2. It can easily be shared.
 3. It is visually engaging than a table data.
 4. It is fast and reveals the essential. 
-5. They delight and provide emotional connection..
+5. They delight and provide emotional connection.
 
 ** Cons of Word Clouds **
 
@@ -479,9 +479,9 @@ What caught my attention here is the categorization of Information on the websit
 3. Logical construction of information using data and visuals under each category
 4. Comparative Analysis of cities
 5. Variety of exploratory visualizations to learn from 
-6. Most important - Stories that these data tell For e.g. Evolution of the American Worker, Poverty is bad for your health, Men still dominate in the highest paying industries, Opioid addiction damage and so many others. 
+6. Most important - Stories that these data tell, e.g., Evolution of the American Worker, Poverty is bad for your health, Men still dominate in the highest paying industries, Opioid addiction damage and so many others. 
 
-We think of a topic, and its possible it's there! Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
+We think of a topic, and its possible it's there! Value add to students, organizations, governments etc. is better understanding of your consumers, talent pool, jobs, climate, and what not, that just improves our decision-making ability manifold by spending just a few seconds on the website. And for this class, the best part is that the data is also available for download. So, we can easily download this data, replicate the visuals and try to redesign and tell our own stories with this data.
 There is also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
 
 **Automatic visualization is a bad idea, generally speaking.** Some (many?) might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
@@ -496,7 +496,7 @@ This is where data visualization comes in. Data visualization is the art of disp
 
 We can also find the topic of data visualization's future on Quora. Amalie Sharma thought in future trend of data visualization are better tools, open for all, Increase in Interactivity/Animation and Portable Data. 
 
-Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of start ups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
+Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
 
 Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automatic analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
 
@@ -511,7 +511,6 @@ At the end, it's not only about the tool its more about what you are trying to d
 [@viz_R]
 
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles ,and labels are added to using extra code. For those who favor Python for data viz, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
-=======
 
 To provide an example the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
 ```{r}
