@@ -2,27 +2,27 @@
 
 ## What is Data Visualization? 
 
-**Data visualization** refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers, and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us. According to Friedman (2008) [@viz] the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
+**Data visualization** refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us. According to Friedman (2008) [@viz] the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
 
-**Information visualization**, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives. From business decision making to simple route navigation – there’s a huge (and growing) need for data to be presented so that it delivers value.
+**Information visualization**, the art of representing data in a way that it is easy to understand and manipulate, can help us make sense of information and thus make it useful. From business decision making to simple route navigation – there is a huge (and growing) need for data to be presented so that it delivers value.
 
-This article is a brief introduction to information visualization. It explains briefly how information visualization helps to make sense of data, how it helps to find relationships between data and confirm ideas. Some examples and common uses of information visualization is discussed below [@info_viz].
+This article is a brief introduction to information visualization. It explains briefly how information visualization helps to make sense of data as well as find relationships between data and confirm ideas. Some examples and common uses of information visualization are discussed below [@info_viz].
 
 ## Why is Data Visualization Important?
 
-Today more than ever, data visualization represents a simple, user-friendly approach to understand data and make business decisions quickly. Here are some articles on why it is important today.
+Today more than ever, data visualization represents a simple, user-friendly approach to understanding data and making business decisions quickly. Here are some references on why it is important today:
 
 ### Chris Pittenturf's article on the importance of data visualization to businesses
-The article [@viz_importance], written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, talks about what data visualization is and its importance to the businesses today.
+The article [@viz_importance], written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, explores data visualization and its importance to businesses today.
 
-The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criteria that a data visualization should satisfy to be an effective visualization. These criteria and their brief meanings are as follows:
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criteria that a data visualization should satisfy, to be an effective visualization. These criteria and their brief meanings are as follows:
 
-1. Informative: The visualization should be able to convey the information of the data to the reader
+1. Informative: The visualization should be able to convey the desired information from the data to the reader.
 2. Efficient: The visualization should not be ambiguous.
 3. Appealing: The visualization should be captivating and visually pleasing. 
-4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters for the users to interact with the visualizations in order to predict results of different scenarios.
+4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters with which the users may interact in order to predict results of different scenarios.
 
-Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. Data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by corporations is highly unstructured and these organizations can get a better understanding of their business by visualizing their data.
+Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. Data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
 ### David McCandless’s TED talk on data visualization
 Visuals help us understand concepts that would otherwise be difficult to contextualize—for example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details. And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns. The billion dollar-o-gram is extremely readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the “mushroomed” actual cost of Iraq and Afghanistan wars, since its purpose seems only to conflate two wars for dramatic effect [@viz_ted]. 
@@ -31,128 +31,61 @@ Beyond its ability to make information from several different sources and in lar
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder. So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design [@viz_ted]. 
 
+
 ## A Brief History of Data Visualization
+
+"The only new thing in the world is the history you don’t know." — Harry S Truman  
 
 **1. Data Visualization: modern product?**
 
- It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. 
- In fact, the graphic representation of quantitative information has deep roots. These roots reach into the histories of 
- the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics,
- medicine, and other fields.
- 
- The wider use of graphics and improvements to form and content have been aided over the years by the developments in
- technologies (printing and reproduction), advances in mathematical theory and practice, and improvements to empirical
- observation and recording.
+It is common to think of statistical graphics and data visualization as relatively modern developments in statistics, but in fact, the graphic representation of quantitative information has deep roots. These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields.  
 
+Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content. This paper provides an overview of the intellectual history of data visualization from medieval to modern times, as well as describes and illustrates some significant advances along the way.[@data_viz_history].
 
 **2. Milestones Tour**
 
-"The only new thing in the world is the history you don’t know." — Harry S Truman
-
-This paper provides an overview of the intellectual history of data visualization from medieval to modern times, it describes and illustrates some significant advances along the way. It is common to think of statistical graphics and data visualization as relatively modern developments in statistics. In fact, the graphic representation of quantitative information has deep roots. These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields. Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, enabled the wider use of graphics and new advances in form and content [@data_viz_history].
-
 **Phase** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Pre-17th Century: Early maps and diagrams | Data visualization has comes a long way. Prior to the 17th century, data visualization already exists. Though display in other format such as maps, the content are much similar to today's visualization, which mostly presented geologic, economic, and medical data. The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other celestial bodies, and in the making of maps to aid in navigation and exploration. 
-1600-1699: Measurement and theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw great new growth in theory and the dawn of practical application.
-1700-1799: New graphic forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation at least somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
-1800-1850: Beginnings of modern graphics | With the fertilization provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping, at a rate which would not be equaled until modern times.
-1850–1900: The Golden Age of statistical graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had been established a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
-1900-1950: The modern dark ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
-1950–1975: Re-birth of data visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
-1975–present: High-D, interactive and dynamic data visualization | During the last quarter of the 20th century data visualization has blossomed into a mature, vibrant and multidisciplinary research area, as may be seen in this Handbook, and software tools for a wide range of visualization methods and data types are available for every desktop computer.
+Pre-17th Century: Early Maps and Diagrams | Data visualization has come a long way. Prior to the 17th century, data visualization already existed. Though displayed in other format such as maps, the content is much similar to today's visualizations, which mostly presented geologic, economic, and medical data. The earliest seeds of visualization arose in geometric diagrams, in tables of the positions of stars and other celestial bodies, and in the making of maps to aid in navigation and exploration. 
+1600-1699: Measurement and Theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw considerable new growth in theory as well as the dawn of practical application.
+1700-1799: New Graphic Forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
+1800-1850: Beginnings of Modern Graphics | With the foundation provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping at a rate which would not be equaled until modern times.
+1850–1900: The Golden Age of Statistical Graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had generated a “perfect storm” for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+1900-1950: The Modern Dark Ages | If the late 1800s were the “golden age” of statistical graphics and thematic cartography, the early 1900s can be called the “modern dark ages” of visualization. There were few graphical innovations, and, by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
+1950–1975: Rebirth of Data Disualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
+1975–present: High-D, Interactive and Dynamic Data Visualization | During the last quarter of the 20th century, data visualization has blossomed into a mature, vibrant and multidisciplinary area of research, as seen in this handbook, and software tools for a wide range of visualization methods and data types are available for every computer.
 
 **Reference**
 [@data_viz_history]  
 
 ## Key Figures in the History of Data Visualization
 
-The history of data visualization is full of incredible stories marked by major events, led by a few key players. This article introduces some of the amazing men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 displayed in our class. Below are some major contributors with their famous works, and you can find other stories in the article [@history_viz].
+The history of data visualization is full of incredible stories marked by major events, led by a few key players. The article [@history_viz] introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 which could be used as a data product for Data Visualization. Below we have some figures names with their famous works, and other stories in the article [@history_viz].
 
 ### William Playfair (1759–1823)
 
-William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published The Commercial and Political Atlas in 1786. This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
+William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published "The Commercial and Political Atlas"" in 1786. This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
 
 ![](images/Playfair.png)
 
 
 ### John Snow (1813–1858)
 
-In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Street area had seen over 600 dead, and the remaining residents and business owners had largely fled the terrible disease. Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, helping to find the cause of the infection.
+In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Street area had seen over 600 dead, and the surviving residents and business owners had largely fled the terrible disease. Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, which helped find the cause of the infection.
 
 ![](images/Snow.png)
 
 
 ### Charles Joseph Minard (1781–1870)
 
-Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 displaying the dramatic loss of his army over the advance on Moscow and the following retreat. You can see how many soldiers are still marching and how many died. Drawn in 1869, it is described by many as the best statistical graphic ever drawn. It represents the earliest beginnings of data journalism.
+Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat. The map displays how many soldiers are still marching and how many have already died at different points in the army's march. Drawn in 1869, many consider it the best statistical graphic ever created. It represents the earliest beginnings of data journalism.
 
 ![](images/Minard.png)
-
-## Useful Links on Data Visualization Trends, Tutorials and Research Papers
-
-* [@charts_viz] - You can find different types of plots used in data visualization at [Data Catalogue](https://datavizcatalogue.com/search.html).
-* [@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
-* [@research_viz] - About Robert Kosara and his research papers.
-* [@twitter_Kosara] - Robert Kosara's twitter handle.
-* [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
-* [@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
-
-## Resources for Aspiring Data Visualists
-
-### Tableau Community 
-The following groups or communities help you to explore Tableau further [@Tableau_Community]: 
-* It will help us enhance our learning
-* Get answers for most of your doubts In tableau
-* Post new questions and crowd source answers
-* Attend events, seminars and join conferences conducted locally/ globally
-* Give back to the community once you become an expert in that field
-
-There are very active Tableau Social Media Groups [@LinkedIn_Groups]:
-
-* Tableau Enthusiasts: LinkedIn Group (19K members)
-* Tableau Software Fans & Friends: LinkedIn Group (45k members)
-
-### Blogs
-Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_10_Blogs]:
-
-1. Storytelling with Data
-2. Information is Beautiful
-3. Flowing Data
-4. Visualizing Data
-5. Junk Charts
-6. The Pudding
-7. The Atlas
-8. Graphic Detail
-9. US Census and FEMA
-10. Tableau Blog
 
 ## Other sources of great visualization
 
 ### Tableau: Viz of the Day
-Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
+Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is a great opportunity to see how others are using many different kinds of data to create informative yet fun data visuals. Source data is also attached, so recreation of the visualization is possible as well.  
 
-[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straightforward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
-## More ways to improve your visualization design
-### Free eBooks All Designers Should Read
-
-From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
-
-There’s a wealth of free resources out there in the form of handy little design ebooks.
-
-* **Design’s Iron Fist** — Jarrod Drysdale
-
-The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
-
-* **The Creative Aid Handbook** — Kooroo Kooroo
-
-Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
-
-* **Designbetter.co** — InVision
-
-InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
-
-* **Type Classification**
-
-Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
