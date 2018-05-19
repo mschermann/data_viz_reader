@@ -130,9 +130,8 @@ Map visualization is very important for companies like Uber that needs to track 
 
 ## Linguistic Concepts
 [@lingui_data]
-Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. The case study follows. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
+Following the idea behind this article, it helped understand the case study and its importance. [@article_case]. This case study is about the linguistic concepts usage. How the data is being used and how visual graphics is used to deliver the insight. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 
-Reference: [@lingui_data]
 
 ## Kissmetrics blog: visualization of metrics
 [@facebook_organic]
@@ -263,14 +262,24 @@ Creating a mechanism to become aware of the user’s intention by analyzing the 
 
 Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
 
-By using proper visualization, it is possible to discover a solution more easily. By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Using VR and AR you could build a more efficient visualization of the data. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
+By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyse data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
 
 ### Outlier Detection
 [@outliar]
 
-We use data visualization for outliar detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Whereas magnitude outliers, that is, curves that lie outside the range of the majority of the data, are in general easy to identify, shape outliers are often masked among the rest of the curves and thus difficult to detect. Ref:[@outliar]. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. 
+We use data visualization for outliar detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. 
+In functional data analysis we observe curves deﬁned over a given realinterval and shape outliers may be deﬁned as those curves that exhibit a diﬀerent shape from the rest of the sample. Some more types of outliars observed are:
 
-A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
+**Type 1:** Global outliers (also called “point anomalies”): 
+A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
+
+**Type 2:** Contextual (conditional) outliers: 
+A data point is considered a contextual outlier if its value significantly deviates from the rest the data points in the same context. Note that this means that same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. The contextual outliers are common in time series data.
+
+**Type 3:** Collective outliers: 
+A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as a normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series that is in an outlier state as a group.
+
+Ref:[@outliar]. A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
 
 ```{r}
 # Inject outliers into data.
@@ -290,8 +299,8 @@ plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers remo
 
 Detection of Outliers is performed using:
 
-* Univariate approach
-* Multivariate approach
+* Univariate Approach
+* Multivariate Approach
 * Multivariate Model Approach
 
 ### Genetic Network Reconstruction
