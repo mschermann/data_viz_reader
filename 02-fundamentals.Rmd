@@ -23,7 +23,7 @@ Here is a process that may be followed for finding insights to tell your story:
 
 [@VisualizeToInsights]
 
-![](/images/DataInsights.JPG)
+![](images/DataInsights.JPG)
 
 **references**
 
@@ -159,11 +159,11 @@ Unity | Unity across design will happen naturally if all other design principles
 **References**  
 [@design_principles]
 
-### Tufte's Design Principles 
+## Tufte's Design Principles 
 
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-**• Design principles of graphical excellence**
+### Design principles of graphical excellence
 Statistical graphics are kind of graphics we use a lot for data analysis.Here we must follow some principles for statistical graphics from Tufte's great book:
 
 **Principle 1: Maximizing the data-ink ratio, within reason.**
@@ -188,8 +188,8 @@ Examples:
 ![](images/Tufte_figure3.png)
 (source: [@appli_2017])
 
-3. always revise and edit.
-![](/images/Tufte_figure4.png)
+3. Always revise and edit.
+![](images/Tufte_figure4.png)
 (source:[@Tufte_2001])
 
 **Conclusion**
@@ -209,7 +209,7 @@ The danger of multifunctioning elements is that they tend to generate graphical 
 In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective.
 
 Example:
-![](/images/Tufte_figure6.png)
+![](images/Tufte_figure6.png)
 
 (source:[@Tufte_2001])
 
@@ -219,18 +219,18 @@ High performation graphics should be designed with special care. As volume of da
    Data Density = # entries in data matrix /area of data graphic
 
 
-**• Conclusion: composition of design principles**
+### Conclusion: composition of design principles
 
 **Principle 1: Escape flatland – small multiples, parallel sequencing.**
 Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhance mulitvariate data on inherently 2D surfaces?
 
 1. Example for small multiples.
-![](/images/Tufte_figure8.png)
+![](images/Tufte_figure8.png)
 (source:[@Tufte_2001])
 
 
 2. Example for parallel sequencing
-![](/images/Tufte_figure7.png)
+![](images/Tufte_figure7.png)
 (source:[@Tufte_2001])
 
 
@@ -238,7 +238,7 @@ Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhan
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 Example: 
-![](/images/Tufte_figure9.png)
+![](images/Tufte_figure9.png)
 (source:[@Tufte_2001])
 
 **Principle 3: Utilize Layering & Separation.**
@@ -248,16 +248,16 @@ Supported by Gestalt laws (The principles of grouping):
   3. 1+1 = 3 (clutter)
 
 Example:
-![](/images/Tufte_figure10.png)
+![](images/Tufte_figure10.png)
 (source:[@Tufte_2001])
 
 **Principle 4: Utilize narratives of space and time.**
 Tell a story of position and chronology through visual elements.
 
 Example:
-![](/images/Tufte_figure11.png)
+![](images/Tufte_figure11.png)
 (source: [@narratives_2017])
-![](/images/Tufte_figure12.png)
+![](images/Tufte_figure12.png)
 (source: [@narratives_2017])
 
 ## Special Topics
@@ -294,7 +294,7 @@ Furthermore, as in typography and cartography, use of typographic attributes in 
 
 There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic" visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived. It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers names. 
 
-![](/images/TypographicTitanic.jpg)
+![](images/TypographicTitanic.jpg)
 
 The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand. Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that “this criticism indicates both the strength and weakness of type? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns. Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers' names, and was corrected by only including a given name and a surname, the length of which could only vary so much.
 
