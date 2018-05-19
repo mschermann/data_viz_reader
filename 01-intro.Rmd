@@ -2,9 +2,9 @@
 
 ## What is Data Visualization? 
 
-**Data visualization** refers to representing data in a visual context to help people understand the significance of that data. The visual synthesis of information, numbers, and measurements in order to present an argument is a form of art – the art of data visualization. One vehicle for this sythesis is a graph. According to Friedman, the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way" [@viz].
+**Data visualization** refers to representing data in a visual context to help people understand the significance of that data. A way so that information, numbers and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us. According to Friedman (2008) [@viz] the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
 
-**Information visualization**, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus render it useful. From business decision making to simple route navigation, there’s a huge and growing need for data to be presented so that it delivers value.
+**Information visualization**, the art of representing data in a way that it is easy to understand and manipulate, can help us make sense of information and thus make it useful. From business decision making to simple route navigation – there is a huge (and growing) need for data to be presented so that it delivers value.
 
 This article is a brief introduction to information visualization. It explains briefly how information visualization helps to make sense of data as well as find relationships between data and confirm ideas. Some examples and common uses of information visualization are discussed below [@info_viz].
 
@@ -15,14 +15,14 @@ Today more than ever, data visualization represents a simple, user-friendly appr
 ### Chris Pittenturf's article on the importance of data visualization to businesses
 The article [@viz_importance], written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, explores data visualization and its importance to businesses today.
 
-The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Pittenturf continues with an explanation of the basic criteria a data visualization should satisfy to be an effective visualization. These criteria and their brief meanings are as follows:
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criteria that a data visualization should satisfy, to be an effective visualization. These criteria and their brief meanings are as follows:
 
 1. Informative: The visualization should be able to convey the desired information from the data to the reader.
 2. Efficient: The visualization should not be ambiguous.
 3. Appealing: The visualization should be captivating and visually pleasing. 
 4. (Optional) Interactive and Predictive: The visualizations can contain variables and filters with which the users may interact in order to predict results of different scenarios.
 
-Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives. It gives a simple, short, and crisp understanding of what data visualization is and how it is widely relevant. Data visualization is an aid to reaching a better understanding of the complex insights that any business data provides. Most of the data used by corporations are highly unstructured, and these organizations can get a better understanding of their business by visualizing their data.
+Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. Data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
 ### David McCandless’s TED talk on data visualization
 Visuals help us understand concepts that would otherwise be difficult to contextualize—for example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details. And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns. The billion dollar-o-gram is extremely readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the “mushroomed” actual cost of Iraq and Afghanistan wars, since its purpose seems only to conflate two wars for dramatic effect [@viz_ted]. 
@@ -30,6 +30,7 @@ Visuals help us understand concepts that would otherwise be difficult to context
 Beyond its ability to make information from several different sources and in large amounts more quickly and easily understood, data visualization can also reveal smaller interesting patterns—allowing us to play the “data detective” as McCandless calls it. In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool [@viz_ted].
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects—space, color, etc., but of course the time-honored adage tells us that beauty is in the eye of the beholder. So while it might be whimsical to claim that we are all designers, there is still, of course, great value in learning formal principles of design [@viz_ted]. 
+
 
 ## A Brief History of Data Visualization
 
@@ -59,11 +60,11 @@ Pre-17th Century: Early Maps and Diagrams | Data visualization has come a long w
 
 ## Key Figures in the History of Data Visualization
 
-The history of data visualization is full of incredible stories, extraordinary events, and a few remarkable key players. This article introduces some of these men and women who paved the way for data visualization by combining art, science, and statistics. Below are some major contributors and their most famous works, but you can find many more in the article [@history_viz].
+The history of data visualization is full of incredible stories marked by major events, led by a few key players. The article [@history_viz] introduces some of the amazing men and women who paved the way by combining art, science, and statistics.And one of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 which could be used as a data product for Data Visualization. Below we have some figures names with their famous works, and other stories in the article [@history_viz].
 
 ### William Playfair (1759–1823)
 
-William Playfair is considered the father of statistical graphics, having invented the line and bar chart used so often today. He is also credited with the creation of the area and pie chart. Playfair was a Scottish engineer and political economist who published The Commercial and Political Atlas in 1786, which featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
+William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published "The Commercial and Political Atlas"" in 1786. This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.
 
 ![](images/Playfair.png)
 
@@ -88,62 +89,3 @@ Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s
 
 [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straightforward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
-## Resources for Aspiring Data Visualists
-
-### Tableau Community 
-The following groups or communities help you to explore Tableau further [@Tableau_Community]: 
-* Enhance your learning
-* Get answers for many common problems in Tableau
-* Post new questions and crowd source answers
-* Attend events, seminars and conferences conducted locally/ globally
-* Give back to the community once you become an expert in that field
-
-There are very active Tableau Social Media Groups [@LinkedIn_Groups]:
-
-* Tableau Enthusiasts: LinkedIn Group (19K members)
-* Tableau Software Fans & Friends: LinkedIn Group (45k members)
-
-### Blogs
-Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_10_Blogs]:
-
-1. Storytelling with Data
-2. Information is Beautiful
-3. Flowing Data
-4. Visualizing Data
-5. Junk Charts
-6. The Pudding
-7. The Atlas
-8. Graphic Detail
-9. US Census and FEMA
-10. Tableau Blog
-
-### Useful Links on Data Visualization Trends, Tutorials and Research Papers
-
-* [@charts_viz] - You can find different types of plots used in data visualization at [Data Catalogue](https://datavizcatalogue.com/search.html).
-* [@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
-* [@research_viz] - About Robert Kosara and his research papers.
-* [@twitter_Kosara] - Robert Kosara's twitter handle.
-* [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
-* [@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
-
-### Free eBooks All Designers Should Read
-
-From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
-
-There’s a wealth of free resources out there in the form of handy little design ebooks.
-
-* **Design’s Iron Fist** — Jarrod Drysdale
-
-The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
-
-* **The Creative Aid Handbook** — Kooroo Kooroo
-
-Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
-
-* **Designbetter.co** — InVision
-
-InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
-
-* **Type Classification**
-
-Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
