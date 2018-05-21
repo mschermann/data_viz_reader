@@ -332,19 +332,18 @@ By using proper visualization, it is possible to simplify understanding of a pro
 ### Outlier Detection
 [@outliar]
 
-We use data visualization for outlier detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. 
-In functional data analysis we observe curves deﬁned over a given realinterval and shape outliers may be deﬁned as those curves that exhibit a diﬀerent shape from the rest of the sample. Some more types of outliers observed are:
+We can use data visualization for outlier detection in a data set. Different methods for outlier detection in functional data have been developed during the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
 **Type 1:** Global outliers (also called “point anomalies”): 
 A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
 
 **Type 2:** Contextual (conditional) outliers: 
-A data point is considered a contextual outlier if its value significantly deviates from the rest the data points in the same context. Note that this means that same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. The contextual outliers are common in time series data.
+A data point is considered a contextual outlier if its value significantly deviates from the rest the data points in the same context. Note that this means that same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data.
 
 **Type 3:** Collective outliers: 
-A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as a normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series that is in an outlier state as a group.
+A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group.
 
-Ref:[@outliar]. A simple example is mentioned below. Outlier treatment is important because, it can drastically bias/change the fit estimates and predictions. Illustration: 
+Ref:[@outliar]. Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions. Illustration: 
 
 ```{r Outliar Detection, echo=TRUE}
 # Inject outliers into data.
@@ -367,21 +366,20 @@ Detection of Outliers is performed using:
 * Multivariate Approach
 * Multivariate Model Approach
 
-
-## Genetic Network Reconstruction
-=======
 ### Genetic Network Reconstruction
 
+Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data, microarray data or DNA sequences. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus, visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
-Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data,microarray data or DNA sequence. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
+### Two Awesome Visualists 
 
+### Hans Rosling
+Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.
 
-## Two Awesome Visualists 
+#### David McCandless
+David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts, and maps on a wide range of topics like science, food, dogs and countries.
 
-###David McCandless
-David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts ,and maps on a wide range of topics like science, food, dogs and countries.
-
-A chart on this blog "International Number Ones: Because every country is good at something (according to data)" is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
+One such chart, "International Number Ones: Because every country is good at something (according to data)," is a captivating work that displays something at which each country is the best. [@country_chart]
 
 Some of the interesting findings are as follows:
 
@@ -396,88 +394,43 @@ Colombia |Happiness
 
 The visualizations on this website are updated and revised whenever new data is available. The original version of the above-mentioned graph can be seen here: [@country_original]
 
-## Using Shapes as Filters in Tableau When Your Fields Are Measures
+### Using Shapes as Filters in Tableau When Your Fields Are Measures
 Reference: [@interworks]
 
-I found this article quite useful for my individual project. This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. 
-Basically, it teaches you how to load custom shape as action filters and use them for showing different graphs with those filters which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
-This article is very useful to analyze and redesign the different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts". Ref:[@gunviolence]. This article introduces the methodologies on how to use shapes as filters in Tableau when the fields are Measures. Basically, it teaches us how to load custom shape as action filters and use them for showing different graphs with those filters which can make the visualization more interesting and interactive. You can also download the tableau file for practice.
-
-Case studies document the development record of a project. They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and allow their own system to be better simply by learning from what others have done.
-
-This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The Author explains a situation where poor data visualization led to bad decisions and the impact that these decisions had.
+This article is useful to analyze and redesign the different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields Are Measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
 
 
-## Visualization of big data security: a case study on the KDD99 cup data set
-=======
+
+Case studies document the development record of a project. They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and improve his or her own methodologies simply by learning from what others have done.
+
+This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The author explains a situation where poor data visualization led to bad decisions and the negative impact of these decisions.
+
+
+
 ### Visualization of big data security: a case study on the KDD99 cup data set
 
-
-This paper utilized visualization algorithm together with big data analysis in order to gain better insights into the KDD99 dataset:
+This paper utilized a visualization algorithm together with big data analysis in order to gain better insights into the KDD99 dataset:
 
 **Abstract**  
 
-Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, greater attention has been directed on being able deciphering better methods for identifying attack types to train IDSs more effectively. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data; volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
+Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, deciphering better methods for identifying attack types to train IDSs more effectively has become a field of great interest. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data: volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
 To read the full paper, please follow the reference link: [@KDD99]
 
-
-## Britain's diet in data
-
-This is a very good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still making it interesting to look at. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food categories into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to toggle and change to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
-
-![](images/britain-diet-data-trends.PNG)
-Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
-![](images/britain-diet-data-typical_diet.png)
-
-Source: [@britain-diet-data-typical_diet] referenced in [@britain_diet_2016]
-
-Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is very difficult to use the same visual/data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so alluring and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
-
-> Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
-
-=======
-
 ## Articles to read to check out some cool visualizations are mentioned below :
 
-1. 10 Best Data Visualization Projects of 2015 
-[@10_BEST] picks the top 10 projects for the best data visualization of 2015, for each pick, the author showed the project plot and also described the reason why he chose. So after reading this article, I have a basic understanding of what kind of characters should include in a good visualization project.
-
-2. 15 Cool Information Graphics and Data Viz from 2016
+15 Cool Information Graphics and Data Viz from 2016
 [@cool_data]
 The author chose fifteen of the best infographics and data visualizations from 2016 and described why they think these are the best.
 
-3. 16 Captivating Data Visualization Examples
+16 Captivating Data Visualization Examples
 [@int_viz_capt]
 
-4. 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
+15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
 [@int_viz_2]
 
-5. 15 Data Visualizations That Will Blow Your Mind
+15 Data Visualizations That Will Blow Your Mind
 [@15_mindblowing]
 "If a picture is worth a thousand words, a data visualization is worth at least a million.
 As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good." 
 
-## Two Awesome Visualists 
-
-### Hans Rosling
-Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
-Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.
-
-### David McCandless
-David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts and maps on a wide range of topics like science, food, dogs and countries.
-
-A chart on this blog "International Number Ones: Because every country is good at something (according to data)" is an interesting and captivating work that shows which country is No.1 in what. [@country_chart]
-
-Some of the interesting findings are as follows:
-
-**Country ** | ** No.1 in **
--------------|---------------
-Canada |  Doughnuts
-USA | Spam Emails
-India | Bananas
-Norway | Pizza Eaters
-Togo |Unhappiness
-Colombia |Happiness	
-
-The visualizations on this website are updated and revised whenever new data is available. The original version of the above mentioned graph can be seen here: [@country_original]
