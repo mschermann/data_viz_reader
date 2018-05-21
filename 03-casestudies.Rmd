@@ -84,8 +84,6 @@ The New York Times data team mapped out Americans’ moving patterns from 1900 t
 [@migration]
 
 ## 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-=======
-## 15 Data Visualizations That Explain Trump, the White Oscars ,and Other Crazy Current Events
 
 [@int_viz_2]
 
@@ -277,30 +275,16 @@ This classic lithograph dates back to 1869, displaying the number of men in Napo
 
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates. 
 
-## State of the Union 2014 Minute by Minute on Twitter
+### State of the Union 2014 Minute by Minute on Twitter
 [http://twitter.github.io/interactive/sotu2014/#p1](http://twitter.github.io/interactive/sotu2014/#p1)
 
-Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state. Pretty powerful.
+Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
 
 
-## An Interactive Visualization of NYC Street Trees
+### An Interactive Visualization of NYC Street Trees
 [@trees]
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
 
-## Millennial Generation Diversity
-Millennial generation is bigger, more diverse than boomers [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
-
-## Goldilocks Exoplanets
-=======
-<# 15.6 An Interactive Visualization of NYC Street Trees
-[@trees]
-Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs.
-
-## 15.7 Millennial Generation Diversity
-The Millennial generation is bigger, more diverse than boomers [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
-
-## 15.8 Goldilocks Exoplanets
-=======
 ### Goldilocks Exoplanets
 
 [https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/](https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/)
@@ -311,69 +295,42 @@ Using data from the Planetary Habitability Laboratory at the University of Puert
 
 [@basketball]
 
-This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using stats released by the NBA, the visualization lets you examine data for each of 15 players. See how successful each person was at a variety of types of shots from a range of spots on the court, compared with others in the league.
+This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewersare able to see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
 
-## U.S. Migration Patterns 
-=======
 ### Global Carbon Emissions
-
-
 [@CO2_emission]
 [https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive](https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive)
 
-This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. Explore emissions by country for a range of different scenarios.
-
-
-## Selfie City
-=======
-
+This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios.
 
 ### Britain's diet in data
 
-This is a very good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still making it interesting to look at. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food categories into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to toggle and change to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
+This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
-
-## The American Workday
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping you draw interesting conclusions.
-
-## Global Carbon Emissions
-=======
 ![](images/britain-diet-data-trends.PNG)
 Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Source: [@britain-diet-data-typical_diet] referenced in [@britain_diet_2016]
-
-
-Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, but also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is very difficult to use the same visual/data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so alluring and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
+Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, and also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display]
 
 > Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
 
-
-## Application of Data Visualization
+## Applications of Data Visualization
 There are ways to use data visualization at every level of an organization. These applications lets us quickly create insightful visualizations, in minutes. It allows users to visualize data and explore the vast domain interactively. Ref: [@app1] Some of them are mentioned below:
 
-
-## Data Augmentation
-=======
 ### Data Augmentation
 [@ref_pdf_ar]
 
-Computer interfacing is changing every day, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
+Because computer interfacing is changing every day, it is important for our clients to adapt the technology. The language of communicating data in 3D is explored to understand ways to take advantage of all dimensions in augmented reality and virtual reality to deliver information based on the user’s perspective, interest, and urgency.
 
 Creating a mechanism to become aware of the user’s intention by analyzing the gaze through reactive design, we achieved developing a complex system for demonstrating massive amount of data and organizing it in a spatial system. The user could walk through and explore the data and interact with different data visualizations. Moving through space is used to provide different levels of detail for specific data through Z axis.
 
-Analytical engineer Steluta Iordache states virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organizations, too.
+Analytical engineer Steluta Iordache states that virtual reality is changing the environment of data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are beginning to meet reality, and as tech giants such as Facebook, Samsung, and Google place heavy investments in these sectors, this seems inevitable. However, placing the headsets and gaming to one side (most experts believe AR and VR will most dynamically disrupt the gaming industry), these nascent technologies can be used by corporate organizations, too.
 
-By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, and it can allow the viewer to explore the data by interacting with it. But when we analyze data it can be difficult to see the big picture while also having access to the detail. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
-Analytical engineer Steluta Iordache states virtual reality is changing the environment of the data analysis. It has long been predicted that augmented reality (AR) and virtual reality (VR) will, sooner rather than later, dive head first into the mainstream of public consciousness. Now, expectations are to meeting reality, and heavy investment from tech giants such as Facebook, Samsung, and Google, this seems inevitable. However, placing the headsets and gaming – the industry most experts believe AR and VR will most dynamically disrupt – to one side, these nascent technologies can be used by corporate organisations, too.
-
-## Outlier Detection
-=======
+By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently, we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, as well as allow the viewer to explore the data by interacting with it. However, when we analyze data it can be difficult to see the big picture while also having access to finer details. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
 
 ### Outlier Detection
 [@outliar]
-
 
 We use data visualization for outlier detection in the data set. Different methods for outlier detection in functional data have been developed during the years. Among them, several rely on different notions of functional depth , on robust principal components, or on random projections of infinite-dimensional data into R. Also, some distributional approaches have been considered (Gervini, 2009).  In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. 
 In functional data analysis we observe curves deﬁned over a given realinterval and shape outliers may be deﬁned as those curves that exhibit a diﬀerent shape from the rest of the sample. Some more types of outliers observed are:
