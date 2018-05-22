@@ -38,7 +38,7 @@ URL: https://datavizcatalogue.com
 URL: http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
 
 **2.9 Data Visualization: How to Pick the Right Chart Type? **
-**Author: J��nis Gulbis, 2016 **
+**Author: J��nis Gulbis, 2016 **
 URL: https://eazybi.com/blog/data_visualization_and_chart_types/
 
 **2.10 Data Visualization Best Practices**
@@ -108,49 +108,80 @@ URL: https://studiofellow.com/newsletter/
 **4.4 The Creative Aid Handbook** 
 URL: https://issuu.com/koorookooroo/docs/kooroo_kooroo_creative_aid
 
+# References {-}
 
-Another trick of misleading graph is axis change: Changing thy y-axis maximum afftect how the graph look like. A higher maximum will make the grpha to appear less volatiliy ,less strrp than a lower maximum. The other way of axis change is changing the ratio of a graph's dimensions. This way will affect how the graph appears. We demostrate chaning the ratio of graph dimension for below graphs.
+## Useful Links on Data Visualization Trends, Tutorials and Research Papers
 
-![](images/Line_graph1.svg.png)
+* [@charts_viz] - You can find different types of plots used in data visualization at [Data Catalogue](https://datavizcatalogue.com/search.html).
+* [@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
+* [@research_viz] - About Robert Kosara and his research papers.
+* [@twitter_Kosara] - Robert Kosara's twitter handle.
+* [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
+* [@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards ,and maps can be easily created in minutes with it.
 
-![](images/175px-Line_graph1-3.svg.png)
+## Resources for Aspiring Data Visualists
 
-![](images/200px-Line_graph1-4.svg.png)
+### Tableau Community 
+The following groups or communities help you to explore Tableau further [@Tableau_Community]: 
+* It will help us enhance our learning
+* Get answers for most of your doubts in the tableau
+* Post new questions and crowd source answers
+* Attend events, seminars and join conferences conducted locally/ globally
+* Give back to the community once you become an expert in that field
 
-**4.5Designbetter.co** 
-URL: https://www.designbetter.co/
+There are very active Tableau Social Media Groups [@LinkedIn_Groups]:
 
+* Tableau Enthusiasts: LinkedIn Group (19K members)
+* Tableau Software Fans & Friends: LinkedIn Group (45k members)
 
-**4.6 Type Classification**
-URL: http://justcreative.com/featured-articles/type-classification-ebook/
+### Blogs
+Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_10_Blogs]:
 
-** 4.7 Free eBooks All Designers Should Read**
-** Author: Michael Abehsera, 2018**
-URL: https://uxplanet.org/free-ebooks-all-designers-should-read-60dbb63f762
+1. Storytelling with Data
+2. Information is Beautiful
+3. Flowing Data
+4. Visualizing Data
+5. Junk Charts
+6. The Pudding
+7. The Atlas
+8. Graphic Detail
+9. US Census and FEMA
+10. Tableau Blog
 
+## Other sources of great visualization
 
-It is not technically wrong but it is definitely misleading.This is often called improper extraction or tactic omitting data, when only a certain chunk of data is included.This is more common in graphs that have time as one of their axis. Here is the graph to show what it is.
+### Tableau: Viz of the Day
+Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
 
-![](images/Bad_graph_extraction.png)
+[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straightforward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
-![](images/Good_graph_extraction.png)
+## More ways to improve your visualization design
+### Free eBooks All Designers Should Read
 
+From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
 
-4. Using The Wrong Graphs
-So far, we have intentional misinformation tactics that writers use to push their agendas.
+There’s a wealth of free resources out there in the form of handy little design ebooks.
 
-**4.8**
-**Author: Javier Guillen**  
-URL: http://cdn2.hubspot.net/hubfs/257922/Docs/BlueGranite_whitepaper_10useful.pdf
+* **Design’s Iron Fist** — Jarrod Drysdale
 
-## Chapter 5
+The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
 
+* **The Creative Aid Handbook** — Kooroo Kooroo
+
+Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
+
+* **Designbetter.co** — InVision
+
+InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
 
 **5.1 Importance of Ethics in Visualization: Data visualization in political and social sciences**
 **Author: Andrei Zinovyev, year: N/A**
 URL: https://github.com/mschermann/data_viz_reader/files/1933699/Zinovyev_Data_Visualization.pdf 
+* **Type Classification**
 
-Ethical Infographics: In data visualization, journalism meets engineering, author: Alberto Cairo, year: 2014, http://www.thefunctionalart.com/2014/06/infographics-data-and-visualization.html
+Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
+
+# References {-}
 
 **5.2 Data Visualization in Political and Social Sciences: Data visualization in political and social sciences**
 **Author: Andrei Zinovyev, year: N/A**
@@ -173,45 +204,79 @@ URL: https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professional
 **Author: Payman Taei,2017**
 URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
 
-*Summary*: This article found on Medium explores three important aspects to focus on when creating a data visualization.  The importance of each aspect is explained along with helpful questions to ask and to help you evaluate your visualization to ensure it caters to your audience.  Although it primarily focuses on the appearance of visuals, it also discusses the psychology of the reader as they're looking at a data visual, which offers a unique and useful perspective.
+## Useful Links on Data Visualization Trends, Tutorials and Research Papers
 
-Here is an outline of each of the 3 aspects:
-1. Know what you really want to say.  We want to share patterns, trends, anomalies, etc. with others through data visuals but we must find the right things to represent.
+* [@charts_viz] - You can find different types of plots used in data visualization at [Data Catalogue](https://datavizcatalogue.com/search.html).
+* [@eagereyes_viz] - Robert Kosara's website which contains recent developments happening in visualization and are likely to have an impact.
+* [@research_viz] - About Robert Kosara and his research papers.
+* [@twitter_Kosara] - Robert Kosara's twitter handle.
+* [@flowingdata] - Website which offers courses, tutorials and happenings in viz. 
+* [@infogram] - An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.
 
-2. Design.  Visuals should be kept as simple as possible without leaving out key points.  This makes sense because then the audience can focus on what's really important.
+## Resources for Aspiring Data Visualists
 
-3. Labeling.  This section of the article shows a nice comparison of before and after removing labels from a chart, and the 'after' chart looks much cleaner and easier to interpret.
+### Tableau Community 
+The following groups or communities help you to explore Tableau further [@Tableau_Community]: 
+* It will help us enhance our learning
+* Get answers for most of your doubts In tableau
+* Post new questions and crowd source answers
+* Attend events, seminars and join conferences conducted locally/ globally
+* Give back to the community once you become an expert in that field
 
-I think often when working with data, we tend to gravitate toward including more information in a visual, so an important takeaway for me is that less is more, and not everything we want to show has to be crammed into one big-picture visual.
+There are very active Tableau Social Media Groups [@LinkedIn_Groups]:
+
+* Tableau Enthusiasts: LinkedIn Group (19K members)
+* Tableau Software Fans & Friends: LinkedIn Group (45k members)
+
+### Blogs
+Here is a list of the top 10 blogs that Tableau itself suggests following [@Top_10_Blogs]:
+
+1. [Storytelling with Data](http://www.storytellingwithdata.com/)
+2. [Information is Beautiful](https://informationisbeautiful.net/)
+3. [Flowing Data](https://flowingdata.com/)
+4. [Visualizing Data](http://www.visualisingdata.com/)
+5. [Junk Charts](http://junkcharts.typepad.com/)
+6. [The Pudding](https://pudding.cool/)
+7. [The Atlas](https://www.theatlas.com/)
+8. [Graphic Detail](https://www.economist.com/blogs/graphicdetail)
+9. [US Census](https://www.census.gov/dataviz/);[FEMA](https://www.fema.gov/data-visualization)
+10. [Tableau Blog](https://www.tableau.com/about/blog)
+
+## Other sources of great visualization
+
+### Tableau: Viz of the Day
+Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
 
 **2. Choose best colors for cartography visualization in a professional manner**
 **Author: Cynthia Brewer, Mark Harrower and The Pennsylvania State University**
 URL: http://colorbrewer.org
+=======
+[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
-*Summary*: It has been carefully designed to be a diagnostic tool for evaluating the robustness of individual color schemes. Full use of this tool will benefit your map designs because colors (even very similar colors) are easy to differentiate when they appear in a nicely ordered sequence (such as a legend). The task of differentiating the colors, however, becomes much harder when the patterns on the map are complex, such as in the lower left corner of the diagnostic map.
+## More ways to improve your visualization design
+### Free eBooks All Designers Should Read
 
-It will automatically recommend the color schemes in the following aspects:
+From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
 
-1. Can you easily distinguish every color in the random section of the map (the lower left)? If you have a ten-class map, you should be able to see clearly ten unique colors.
+There’s a wealth of free resources out there in the form of handy little design ebooks.
 
-2. Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers�?). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
+2. Within each large band of color on the map, we placed several polygons filled with each map color (‘outliers�?). For example, if you have a seven-class map, there will be six outlier colors per band, demonstrating the appearance of all map colors with each as a surrounding color. Can you see each outlier clearly? Do all pairs of outliers in the band look different? If not, perhaps you should choose a different scheme or fewer classes.
+=======
+* **Design’s Iron Fist** — Jarrod Drysdale
 
-3. You can also change the settings to colorblind-friendly on this site.
+The free ebook, Design’s Iron Fist, is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
 
-**3. Visualization Tools: An introduction to tools for creating infographics, timelines and other data visualizations.**
-**Author:Jess Rios, 2017**
-URL:https://guides.library.harvard.edu/c.php?g=310952&p=2073191
+* **The Creative Aid Handbook** — Kooroo Kooroo
 
-This website lists lots of tools to do different type of visualizations, check it out.
+Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
 
-**4. Visual Capitalist**
-URL:http://www.visualcapitalist.com/category/politics/
+* **Designbetter.co** — InVision
 
-This company/website creates visual contents in the field of business and marketing.
+InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
 
-**5. The Year in Visual Stories and Graphics: New York Times**
-**Author:The New York Times, 2013**
-URL: http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/index.html#dataviz
+* **Type Classification**
 
 *Summary: *Every year, New York Times will select a collection of the year best storyteller visualizations, which includes different forms of state-of-the-art news visualizations. 
 Personally, I think it can be a good inspiration when we feel like we don't know how to be creative on our visualizations?.
+=======
+Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
