@@ -590,33 +590,3 @@ In Data Mining, there are different processes involve carrying out the data mini
 In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
 
 Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
-
-
-## Creating A Diverging Bars Chart
-
-A diverging bars chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories in the bar chart, and there are two opposite ends of the spectrum for values.  These two sides are usually 'positive' vs. 'negative', but they can also be categorical values such as 'true' or 'false'.  
-
-Because these graphs can be more complicated to explain than to understand visually, below is a diverging bars chart created in R.  Reference for the code: [@viz_R]
-
-```{r}
-data("mtcars")  #use data from R base
-mtcars$`car name` <- rownames(mtcars)  # create new column for car names
-mtcars$mpg_z <- round((mtcars$mpg - mean(mtcars$mpg))/sd(mtcars$mpg), 2)  # compute normalized mpg
-mtcars$mpg_type <- ifelse(mtcars$mpg_z < 0, "below", "above")  # above / below avg 
-mtcars <- mtcars[order(mtcars$mpg_z), ]  # sort
-mtcars$`car name` <- factor(mtcars$`car name`, levels = mtcars$`car name`)  # convert to factor to retain sorted order in plot.
-
-# Diverging Barcharts
-library(ggplot2)
-ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) + 
-  geom_bar(stat='identity', aes(fill=mpg_type), width=.5)  +
-  scale_fill_manual(name="Mileage", 
-                    labels = c("Above Average", "Below Average"), 
-                    values = c("above"="#00ba38", "below"="#f8766d")) + 
-  labs(subtitle="Normalised mileage from 'mtcars'", 
-       title= "Diverging Bars") + 
-  coord_flip()
-```
-In addition to R, Tableau is another convenient tool for creating these diverging bar charts.  Below is an example of such a chart created using survey responses data:
-
-![](images/diverging_bar.png)
