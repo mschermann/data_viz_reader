@@ -437,6 +437,78 @@ Analytical engineer Steluta Iordache states that virtual reality is changing the
 
 By using proper visualization, it is possible to simplify understanding of a problem and discover a solution more easily. Recently, we have seen data integrated in the real world and users have been able to interact with that data, which is not possible with traditional methods such as plots and charts. We believe AR and VR can build the presentation of the data and show more information at the same time, as well as allow the viewer to explore the data by interacting with it. However, when we analyze data it can be difficult to see the big picture while also having access to finer details. So the question is: how can AR and VR be used to understand complex data by interacting with it within a virtual environment? You can find the answer here[@vr_education]
 
+## Toulmin Model of Argumentation
+
+Stephen Toulmin, originally a British logician, is now a professor at USC. He became frustrated with the inability of formal logic to explain everyday arguments, which prompted him to develop his own model of practical reasoning.
+
+The first triad of his model consists of three basic elements: the claim, ground, and warrant.
+
+**Claim:** A claim is the point an arguer is trying to make. The claim is the proposition or assertion an arguer wants another to accept. The claim answers the question "So, what is your point?" There are three basic types of claims:
+
+* Fact: claims which focus on empirically verifiable phenomena; a claim that is simply a fact is not appropriate as a thesis for an English  1A essay or research paper;
+* Judgment/value: claims involving opinions, attitudes, and subjective evaluations of things; a subjective, personal values-based claim is not appropriate as a thesis for an English  1A essay or research paper;
+* Policy: claims advocating courses of action that should be undertaken; this is the type of claim that is an appropriate thesis for an English 1A essay or research paper.
+
+**Grounds(Data):** It refers to the proof or evidence an arguer offers and answers the questions, "What is your proof?" or "How come?" or "Why?". It can consist of statistics, quotations, reports, findings, physical evidence, or various forms of reasoning.
+Grounds can be based on the following:
+
+* Evidence: facts, statistics, reports, or physical proof,
+* Source credibility: authorities, experts, celebrity endorsers, a close friend, or someone's say-so
+* Analysis and reasoning: reasons may be offered as proof.
+
+**Warrant:** It is the inferential leap that connects the claim with the grounds. The warrant is typically implicit (unstated) and requires the listener to recognize the underlying reasoning that makes sense of the claim in light of the grounds. It performs a "linking" function by establishing a mental connection between the grounds and the claim.
+
+Warrants are chains of reasoning that connect the claim and evidence/reason. A warrant is the principle, provision or chain of reasoning that connects the grounds/reason to the claim.  Warrants operate at a higher level of generality than a claim or reason, and they are not normally explicit.
+
+Warrants can be based on the following:
+
+* Ethos: source credibility, authority
+* Logos: reason-giving, induction, deduction
+* Pathos: emotional or motivational appeals
+* Shared values: free speech, right to know, fairness, etc.
+
+Note: these categories aren't mutually exclusive; there is considerable overlap.
+
+There are six main argumentative strategies via which the relationship between evidence and claim are often established. They have the acronym “GASCAP”(Generalization, Analogy Sign, Causality, Authority, Principle). These strategies are used at various different levels of generality within an argument, and rarely come in neat packages - typically they are interconnected and work in combination.
+
+**Common Warrants:**
+
+1. Argument based on Generalization
+
+A very common form of reasoning.  It assumes that what is true of a well chosen sample is likely to hold for a larger group or population, or that certain things consistent with the sample can be inferred of the group/population. 
+
+2. Argument based on Analogy
+
+Extrapolating from one situation or event based on the nature and outcome of a similar situation or event.  Has links to "case-based" and precedent-based reasoning used in legal discourse. What is important here is the extent to which relevant similarities can be established between two contexts.  Are there sufficient, typical, accurate, relevant similarities?
+
+3. Argument via Sign/Clue
+
+The notion that certain types of evidence are symptomatic of some wider principle or outcome.  For example, smoke is often considered a sign for fire.  Some people think high SAT scores are a sign a person is smart and will do well in college. 
+
+4. Causal Argument
+
+Arguing that a given occurrence or event is the result of, or is effected by, factor X.  Causal reasoning is the most complex of the different forms of warrant. The big dangers with it are:
+
+Mixing up correlation with causation
+Falling into the post hoc, ergo propter hoc trap.  Closely related to confusing correlation and causation, this involves inferring 'after the fact, therefore because of the fact').
+
+5. Argument from Authority
+
+Does person X or text X constitute an authoritative source on the issue in question?  What political, ideological or economic interests does the authority have?  Is this the sort of issue in which a significant number of authorities are likely to agree on? 
+
+6. Argument from Principle
+
+Locating a principle that is widely regarded as valid and showing that a situation exists in which this principle applies.  Evaluation: Is the principle widely accepted? Does it accurately apply to the situation in question? Are there commonly agreed on exceptions? Are there "rival" principles that lead to a different claim?  Are the practical consequences of following the principle sufficiently desirable? 
+
+The second triad of the Toulmin model involves three additional elements:
+
+**Backing** provides additional justification for the warrant. It usually consists of evidence to support the type of reasoning employed by the warrant. The qualifier states the degree of force or probability to be attached to the claim. It provides support, justification, reasons to back up the warrant.
+
+**Qualifier** states how sure the arguer is about his/her claim. It refers to specification of limits to claim, warrant and backing.  The degree of conditionality asserted.
+
+**Rebuttal** acknowledges exceptions or limitations to the argument. It admits to those circumstances or situations where the argument would not hold. It includes description and rebuttal of counter-examples and counter-arguments.
+[@arg_model]
+
 ## Research Results & What's Next
  
 With the development, studies and new tools applied in data visualization, more people understand it matters [@next_steps] . But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches [@next_steps]:
