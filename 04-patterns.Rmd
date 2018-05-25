@@ -124,6 +124,16 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
 
+## Use maps only when effective
+Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at first glance they seem like a great option.
+
+However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job of this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
+
+One good use of a map is to show points or specific locations. This style can show how points are distributed and reveal patterns such as certain areas having more high end restaurants. This is not the right approach if the points do not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. A map of this kind can also lose its meaning if there are too many points and the data blurs together.
+
+Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good vs. bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
+Source: [@Bradshaw]
+
 ## Chose the right baseline in data visualization
 The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
