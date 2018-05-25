@@ -41,7 +41,7 @@ Loading any data set into a spreadsheet can also be a form of visualization as t
 
 ### 5 Second Rule
 
-Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can't grab attention within 5 minutes, you've likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.
+Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can't grab attention within 5 seconds, you've likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.
 
 ### Design and layout matter
 
@@ -70,21 +70,6 @@ Use Bright Colors to Highlight | To attract attention to a certain part of data,
 ### Maps
 
 Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
-
-## Gestalt Principles
-
-Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups.
-
-**Criteria** | **Description**
--------------|---------------------------------------------------
-Proximity | White space can be used to group elements together and separate others
-Similarity | Objects that look similar are instinctively grouped together in our minds
-Enclosure | Helps distinguish between groups
-Symmetry | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
-Closure | We tend to complete shapes and paths even if part of them is missing
-Continuity | We tend to continue shapes beyond their ending points (similar to closure)
-Connection |Helps group elements together
-Figure and ground| We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose. [@principles-fusioncharts]
 
 ### Analyze and Interpret
 
@@ -157,6 +142,21 @@ Proportion | Proportion can be subtle but it can go a long way to enhancing a vi
 Rhythm | A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
 Unity | Unity across design will happen naturally if all other design principles are implemented. 
 
+### Gestalt Principles
+
+Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that Gestalt Principles are a good set of guidelines to assemble different elements into groups.
+
+**Criteria** | **Description**
+-------------|---------------------------------------------------
+Proximity | White space can be used to group elements together and separate others
+Similarity | Objects that look similar are instinctively grouped together in our minds
+Enclosure | Helps distinguish between groups
+Symmetry | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
+Closure | We tend to complete shapes and paths even if part of them is missing
+Continuity | We tend to continue shapes beyond their ending points (similar to closure)
+Connection |Helps group elements together
+Figure and ground| We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose. [@principles-fusioncharts]
+
 ### Tufte's Design Principles of Graphical Excellence
 
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
@@ -164,7 +164,6 @@ A graph should be impressive and can obtain audience's attention. How can we ach
 #### Principle 1: Maximizing the data-ink ratio, within reason.
 
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic’s ink devoted to the non-redundant display of data-information.
-
 $${Data \ Ink \ Ratio} = \frac{{Data \ Ink}}{{Total \ Ink}}$$
 
 This basic idea follows three principles:
@@ -180,13 +179,13 @@ Examples:
 
 2. Erase non-data-ink and redundant data-ink.
 ![](images/Tufte_figure2.png)
-(source: [@appli_2017])
+<sup>(source: [@appli_2017])</sup>
 ![](images/Tufte_figure3.png)
-(source: [@appli_2017])
+<sup>(source: [@appli_2017])</sup>
 
 3. Always revise and edit.
 ![](images/Tufte_figure4.png)
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 The graphs will be better for more information per unit of space and per unit of ink is displayed. Graphics are almost always going to improve as they go through editing ,revision, and testing against differernt design options. Try to figure out whehter the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something isgained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
@@ -201,12 +200,10 @@ Example:
 
 
 ![](images/Tufte_figure6.png)
-
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 #### Principle 3: Maximize data density and the size of the data matrix, within reason.
 High performation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).
-
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
 ### Composition of design principles
@@ -216,12 +213,12 @@ Data is multivariate. Doesn’t necessarily mean 3D projection. How can we enhan
 
 1. Example for small multiples.
 ![](images/Tufte_figure8.png)
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 
 2. Example for parallel sequencing
 ![](images/Tufte_figure7.png)
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 
 #### Macro/Micro: Provide the user with both views (overview and detail).
@@ -229,7 +226,7 @@ Carefully designed view can show a macro structure (overview) as well as micro s
 
 Example: 
 ![](images/Tufte_figure9.png)
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 #### Utilize Layering & Separation.
 Supported by Gestalt laws (The principles of grouping):
@@ -240,16 +237,16 @@ Supported by Gestalt laws (The principles of grouping):
 
 Example:
 ![](images/Tufte_figure10.png)
-(source:[@Tufte_2001])
+<sup>(source:[@Tufte_2001])</sup>
 
 #### Utilize narratives of space and time.
 Tell a story of position and chronology through visual elements.
 
 Example:
 ![](images/Tufte_figure11.png)
-(source: [@narratives_2017])
+<sup>(source: [@narratives_2017])</sup>
 ![](images/Tufte_figure12.png)
-(source: [@narratives_2017])
+<sup>(source: [@narratives_2017])</sup>
 
 ### Adapting your story to a different set of audiences
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
@@ -368,7 +365,7 @@ Also, the author listed the top 7 comparisons between data mining and data visua
 ### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today’s complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive[@benefits_interactive_viz].
 
-Interactive Data Visualization Software has the following benefits:
+**Interactive Data Visualization Software has the following benefits:**
 
 1. Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making. 
 2. Visualize relationships and patterns: Helps in better understanding of correlations among operational data and business performance. 
