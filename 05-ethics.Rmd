@@ -192,4 +192,12 @@ In the data visualization terms, we call it truncated graph. A truncated graph (
 ![](images/1.png)
 [@DataMiningVsViz]
 
+### Ethical Challenges in Data Visualization
 
+Matt Stempeck's article recaps a brainstorming session concerning data visualization ethics, and provides a fairly comprehensive list of considerations for data visualizers to use as a guide to evaluating how ethical their data products actually are.  From replicability of a data viz, to persuasiveness and ambiguity in the data, this article challenges data visualizers to assess how to ethically present data.  
+
+The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data.  Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims.  This may be counter to common opinion of data, since most people perhaps believe there is an inherent truth to data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argument to claim.  The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story.  Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good, when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may be counter to the data visualizer’s objective.  
+
+Of course, the challenge posed by the tug-of-war between ethics and utility remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
+
+[@dataviz_for_good]
