@@ -124,6 +124,16 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
 
+## Use maps only when effective
+Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at first glance they seem like a great option.
+
+However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job of this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
+
+One good use of a map is to show points or specific locations. This style can show how points are distributed and reveal patterns such as certain areas having more high end restaurants. This is not the right approach if the points do not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. A map of this kind can also lose its meaning if there are too many points and the data blurs together.
+
+Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good vs. bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
+Source: [@Bradshaw]
+
 ## Chose the right baseline in data visualization
 The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
@@ -532,13 +542,13 @@ There is also other similar websites, that has some good visualizations on censu
 
 **Automatic visualization is a bad idea, generally speaking.** Some (many?) might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
 
-But full-on automation where insight fountains out from any dataset are farfetched at this point, because this requires automatic analysis. The analysis is context-specific and requires more than boilerplate statistics. The most interesting visualization is context-specific.
+But full-on automation where insight fountains out from any dataset are farfetched at this point, because this requires automatic analysis. The analysis is context-specific and requires more than boilerplate statistics. The most interesting visualization is context-specific.[@auto_viz]
 
-In 2016, Arden Manning believed Workplace Automation making Data Visualization Smarter. According to him, the goal of data visualization tools was to make understanding data easier, but more often than not it doesn’t quite go to plan. We’ve all been there. The software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. However, data visualization can’t explain data, leaving room for interpretation. The thought behind graphics makes sense – turn data into something easy to understand – but the reality is more complex, and we are left working late writing reports explaining how many trades were canceled and by what desks or why sales fell in August of 2015. Whenever I am stuck doing a repetitive task, I always think ‘why can’t we automate this’? And now, finally, technology has caught up. Narrative generation software can run as a plug-in to your dashboards. Tools like Savvy actually install on your server and allow every dashboard user to get a written summary anytime they want. This software is fully plugged and play, it takes seconds to install, and it’s easy to use. Today, it runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. In fact, the software even lets you copy and paste the text it generates so that you can use it in emails and reports explaining data. Yet again automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.
+In 2016, Arden Manning believed Workplace Automation making Data Visualization Smarter. According to him, the goal of data visualization tools was to make understanding data easier, but more often than not it doesn’t quite go to plan. We’ve all been there. The software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. However, data visualization can’t explain data, leaving room for interpretation. The thought behind graphics makes sense – turn data into something easy to understand – but the reality is more complex, and we are left working late writing reports explaining how many trades were canceled and by what desks or why sales fell in August of 2015. Whenever I am stuck doing a repetitive task, I always think ‘why can’t we automate this’? And now, finally, technology has caught up. Narrative generation software can run as a plug-in to your dashboards. Tools like Savvy actually install on your server and allow every dashboard user to get a written summary anytime they want. This software is fully plugged and play, it takes seconds to install, and it’s easy to use. Today, it runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. In fact, the software even lets you copy and paste the text it generates so that you can use it in emails and reports explaining data. Yet again automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.[@work_place]
 
-According to Alysson Ferreira, a UI Engineer, he published his idea of Data Visualization tools in 2017. In this new era of information, there's an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for meaningful sources of trustworthy information.  
+According to Alysson Ferreira, a UI Engineer, he published his idea of Data Visualization tools in 2017. In this new era of information, there's an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for meaningful sources of trustworthy information.[@UI_engineer]
 
-This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into convenient graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.
+This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into convenient graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.[@future_viz]
 
 We can also find the topic of data visualization's future on Quora. Amalie Sharma thought in future trend of data visualization are better tools, open for all, Increase in Interactivity/Animation and Portable Data. 
 
@@ -573,7 +583,7 @@ The ggplot2 package allows R users to go beyond the simple and often rudimentary
 
 ## Data Mining and Data Visualization
 
-According to a paper in 2018, we can tell the difference of data mining from data visualizations. Here is a chart that helps us understand this better.
+According to a paper in 2018, we can tell the difference of data mining from data visualizations. Here is a chart that helps us understand this better. [@data_mining]
 
 **BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -590,3 +600,37 @@ In Data Mining, there are different processes involve carrying out the data mini
 In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
 
 Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
+
+
+##Creating a Diverging Bar Chart
+
+A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs. 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
+
+Below is the R code template one can use to create a diverging bar chart.  Reference for the code: [@viz_R]
+
+```{r}
+library(ggplot2)
+theme_set(theme_bw())  
+
+# Data Prep
+data("mtcars")  # load data
+mtcars$`car name` <- rownames(mtcars)  # create new column for car names
+mtcars$mpg_z <- round((mtcars$mpg - mean(mtcars$mpg))/sd(mtcars$mpg), 2)  # compute normalized mpg
+mtcars$mpg_type <- ifelse(mtcars$mpg_z < 0, "below", "above")  # above / below avg flag
+mtcars <- mtcars[order(mtcars$mpg_z), ]  # sort
+mtcars$`car name` <- factor(mtcars$`car name`, levels = mtcars$`car name`)  # convert to factor to retain sorted order in plot.
+
+# Diverging Barcharts
+ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) + 
+  geom_bar(stat='identity', aes(fill=mpg_type), width=.5)  +
+  scale_fill_manual(name="Mileage", 
+                    labels = c("Above Average", "Below Average"), 
+                    values = c("above"="#00ba38", "below"="#f8766d")) + 
+  labs(subtitle="Normalised mileage from 'mtcars'", 
+       title= "Diverging Bars") + 
+  coord_flip()
+```
+
+Diverging bar charts are also convenient to create in Tableau.  Below is an example using survey response data.
+
+![](images/diverging_bar.png)
