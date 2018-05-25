@@ -14,6 +14,7 @@ Case studies contain valuable information about development records. The examina
 Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs, but which might still fail to convince readers. The links show some intricate visualizations of some of these important and relevant topics--visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of the text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues. 
 
 ## Geographic Visualizations
+Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
 
 ### Spies in the Skies
 
@@ -37,61 +38,8 @@ Map visualization is very important for companies like Uber that need to track m
 
 ![Uber Route Maps](images/uber_mapping.png)
 
-### Every Satellite Orbiting Earth
-Reference: [@Satellite]
-
-This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
-
-![Low Earth Orbit Satellites](images/satellites.png)
-
-## Animated Data Visualization
-
-### A Day in the Life of Americans
-Reference: [@American_life]
-
-This animated data visualization shows the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
-
-One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
-
-A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day. This represents people's movements from one activity to another without overwhelming the reader.
-
-Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
-
-![](images/life_of_americans.png)
-
-## Demographics
-
-### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
-
-Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. In the remarkable segment “200 Countries, 200 Years, 4 Minutes”, Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
-
-![Screenshot from “200 Countries, 200 Years, 4 Minutes”](images/200_countries_years.png)
-
-### An Aging Nation: Projected Number of Children and Older Adults 
-Reference: [@aging_nation]
-
-Aging population is always a hot topic in social economics and politics. I collected several different data visualizations that show the aging population in the world.
-
-![](images/aging_nation.jpg)
-
-This one includes a bar chart and a line graph to demonstrate the aging population compared with population of children. The good things about this visualization are that it is simple to see and compare, employs color to differentiate the categories, and highlights the intersection point.
-
-### From Pyramid to Pillar: A Century of Change, Population of the U.S.
-
-Reference: [@population_pyramid]
-
-![](images/Pyramid.jpg)
-
-This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
-
-![Comparison of aging population in US and Japan](images/3_1.png)
-
-This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for continuous time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
-
-### Millennial Generation Diversity
-The millennial generation is bigger and more diverse than the baby boomer generation [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
-
-![Racial Diversity of US Generations](images/millenials_diversity.png)
+## Demographic Comparisons
+One common use of visualization is to compare different groups against each other, such as political parties or generations.
 
 ### Young voters, class and turnout: how Britain voted in 2017
 Reference: [@UKvotes2017]
@@ -125,10 +73,16 @@ This visual lists several categories such as “personal care” and “work” 
 
 ![](images/SpendingTime.png)
 
-### Simpson’s Paradox
-The [Visualizing Urban Data Idealab (VUDlab)](http://vudlab.com/simpsons/) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination [@15_mindblowing]. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+### Britain's diet in data
+This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
-![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
+![](images/britain-diet-data-trends.PNG)
+Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
+![](images/britain-diet-data-typical_diet.png)
+
+Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, and also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display].
+
+> Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
 
 ### Selfie City
 Reference: [@selfie]
@@ -137,24 +91,82 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
-## Uncategorized
+## Evolving Demographics
+Another common use is to look at how something changes over time. Time-series data can be shown many ways and these are some examples.
 
-### Connecting the Dots Behind the Election
-This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible, easily viewable format so that voters can figure out where the candidates’ experiences lie.
+### Millennial Generation Diversity
+The millennial generation is bigger and more diverse than the baby boomer generation [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
-![Clinton 2016 Campaign Staff](images/clinton_campaign.png)
+![Racial Diversity of US Generations](images/millenials_diversity.png)
 
-Source: [@campaign_staff] referenced in [@cool_data]
+### How the Recession Reshaped the Economy, in 255 Charts
+Reference: [@recession_economy]
 
+The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry. By hovering over a line, viewers can the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this huge data visualization.
+Below the overall chart are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
-### Malaria
-The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better [@malaria_cases_zambia] [@malaria_zambia_original].
+![](images/recession_jobs.png)
 
-![Original visualization of malaria cases](images/malaria_original.png)
+### An Aging Nation: Projected Number of Children and Older Adults 
+Reference: [@aging_nation]
 
-![Redesigned visualization of malaria cases](images/malaria_makeover.png)
+Aging population is always a hot topic in social economics and politics. I collected several different data visualizations that show the aging population in the world.
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories, however it is unclear what his intent was when adding the yearly data split by districts.
+![](images/aging_nation.jpg)
+
+This one includes a bar chart and a line graph to demonstrate the aging population compared with population of children. The good things about this visualization are that it is simple to see and compare, employs color to differentiate the categories, and highlights the intersection point.
+
+### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+
+Reference: [@population_pyramid]
+
+![](images/Pyramid.jpg)
+
+This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
+
+![Comparison of aging population in US and Japan](images/3_1.png)
+
+This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for continuous time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
+
+### Music Timeline
+Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music].
+
+One part of why this is a good visualization is that in addition to the general timeline of all music, the reader is able to drill down to one specific genre to see its subgenres. The drill-down interaction allows for more detail without creating one detailed and cluttered visualization.
+
+![](images/music_timeline.png)
+
+![](images/music_timeline_rock.png)
+
+### Global Carbon Emissions
+[@CO2_emission]
+
+This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios.
+
+![](images/carbon_emissions.png)
+
+## Animated Data Visualization
+Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
+
+### A Day in the Life of Americans
+Reference: [@American_life]
+
+This animated data visualization shows the time people spend on daily activities throughout the day. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+
+One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
+
+A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day. This represents people's movements from one activity to another without overwhelming the reader.
+
+Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
+
+![](images/life_of_americans.png)
+
+### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+
+Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. In the remarkable segment “200 Countries, 200 Years, 4 Minutes”, Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
+
+![Screenshot from “200 Countries, 200 Years, 4 Minutes”](images/200_countries_years.png)
+
+## Language
 
 ### Green Honey
 [@green_honey] referenced in [@cool_data]
@@ -167,6 +179,57 @@ The visualization spans a webpage. As you scroll down, the text changes, as do m
 Reference: [@lingui_data]
 
 This case study is about usage of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the main insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
+
+### State of the Union 2014 Minute by Minute on Twitter
+Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
+
+![](images/SotU2014.png)
+
+## Political Relationships
+
+### Connecting the Dots Behind the Election
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible, easily viewable format so that voters can figure out where the candidates’ experiences lie.
+
+![Clinton 2016 Campaign Staff](images/clinton_campaign.png)
+
+Source: [@campaign_staff] referenced in [@cool_data]
+
+### A Guide to Who is Fighting Whom in Syria 
+
+One of the charts shown in the link [@int_viz_1], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an interesting graphic to study. The visualization and its report can be seen at [@syria_chart].
+
+![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
+
+This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each of the emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand, but it is also pleasing to the eyes.
+
+![Green emoji shows ‘Friendly’ relationship](images/img_syria_friendly.PNG)
+
+![Red emoji shows  the ‘Enemies’ relationship](images/img_syria_enemies.PNG)
+
+![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
+
+## Uncategorized
+
+### Simpson’s Paradox
+The [Visualizing Urban Data Idealab (VUDlab)](http://vudlab.com/simpsons/) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination [@15_mindblowing]. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+
+![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
+
+### Every Satellite Orbiting Earth
+Reference: [@Satellite]
+
+This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass. 
+
+![Low Earth Orbit Satellites](images/satellites.png)
+
+### Malaria
+The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better [@malaria_cases_zambia] [@malaria_zambia_original].
+
+![Original visualization of malaria cases](images/malaria_original.png)
+
+![Redesigned visualization of malaria cases](images/malaria_makeover.png)
+
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories, however it is unclear what his intent was when adding the yearly data split by districts.
 
 ### Is it Better to Rent or Buy?
 There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the “cost of rent per month” on the side. This can be useful in price comparision: if you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
@@ -187,20 +250,6 @@ Reference: [@trees]
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
 
 ![NYC Street Trees](images/NY_trees.png)
-
-### A Guide to Who is Fighting Whom in Syria 
-
-One of the charts shown in the link [@int_viz_1], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an interesting graphic to study. The visualization and its report can be seen at [@syria_chart].
-
-![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
-
-This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each of the emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand, but it is also pleasing to the eyes.
-
-![Green emoji shows ‘Friendly’ relationship](images/img_syria_friendly.PNG)
-
-![Red emoji shows  the ‘Enemies’ relationship](images/img_syria_enemies.PNG)
-
-![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
 
 ### Adding up the White Oscars Winners
 
@@ -233,32 +282,10 @@ The following graphs show that the engagement is increasing; that is, while the 
 
 This resonates with what we have learned at class in terms of how different perspectives of interpreting data can lead to different conclusions. 
 
-### How the Recession Reshaped the Economy, in 255 Charts
-Reference: [@recession_economy]
-
-The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry. By hovering over a line, viewers can the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this huge data visualization.
-Below the overall chart are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
-
-![](images/recession_jobs.png)
-
-### Music Timeline
-Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music].
-
-One part of why this is a good visualization is that in addition to the general timeline of all music, the reader is able to drill down to one specific genre to see its subgenres. The drill-down interaction allows for more detail without creating one detailed and cluttered visualization.
-
-![](images/music_timeline.png)
-
-![](images/music_timeline_rock.png)
-
 ### Describe Artists with Emoji
 Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists [@artist_emoji]. The table being used in this visual is very straightforward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
 
 ![](images/artist_emoji.png)
-
-### State of the Union 2014 Minute by Minute on Twitter
-Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
-
-![](images/SotU2014.png)
 
 ### Goldilocks Exoplanets
 
@@ -273,24 +300,6 @@ Using data from the Planetary Habitability Laboratory at the University of Puert
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewersare able to see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
 
 ![](images/wizards_shooting.png)
-
-### Global Carbon Emissions
-[@CO2_emission]
-
-This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios.
-
-![](images/carbon_emissions.png)
-
-### Britain's diet in data
-This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
-
-![](images/britain-diet-data-trends.PNG)
-Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
-![](images/britain-diet-data-typical_diet.png)
-
-Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, and also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display].
-
-> Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
 
 ### Visualization of big data security: a case study on the KDD99 cup data set
 
