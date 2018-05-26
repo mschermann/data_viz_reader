@@ -106,8 +106,10 @@ Outlier removal | This allows us to get rid of single points that are not repres
 Let's consider that you have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount [@DataVizBestPrac].
 
 ### Examples of Best Practices in Visual Analysis
+
+[Visual Analysis Best Practices - Tableau]http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf
  
-Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
+Referenced above is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
  
 Some of the key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples of how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
  
