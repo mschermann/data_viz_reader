@@ -87,7 +87,7 @@ If you think of this process as a journey through the dataset, the documentation
 
 In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason we are interested in the dataset we are looking at. **It's a good idea to start the documentation by writing down these initial thoughts.** This helps us to identify our bias and reduces the risk of misinterpreting the data by simply finding what we originally wanted to find.
 
-**The documentation is the most important step of the process, and it is also the one we're most likely to skip.** As shown in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
+**The documentation is the most important step of the process, and it is also the one we're most likely to skip.** The visualization process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created , maybe sometime back , it might be very confusing to recall and understand, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
 
 *	Why have I created this chart?
 *	What have I done to the data to create it?
@@ -348,6 +348,8 @@ Lastly, a label length problem is common when using text in visualizations; diff
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
+
+The manual process is tiresome, limited, prone to human error and simply takes too long. Automated Data Visualization tools can manipulate data quickly and effectively. Different teams across the business can present their data in different forms and levels of detail, depending on their specific objectives and target audience. What’s more, the software can also pick up on important patterns and trends in the data that are easily missed by the human eye.
 
 #### Extracting
 Known versatile tools for data visualization and analytics – Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
