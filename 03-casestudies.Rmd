@@ -131,7 +131,7 @@ Reference: [@pyramid]
 
 ![](images/Pyramid.jpg)
 
-This is a **population pyramid**. “A **population pyramid** is a pair of back-to histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
+This is a **population pyramid**. “A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
@@ -163,7 +163,39 @@ This case study begins by clearly explaining necessary background information an
 
 ![](images/volcano_global_warming.png)
 
+### Understanding Plastic pollution using visualization:
 
+Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable they have a wide variety of usage in our everyday life. Since the 1950's an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled. [@Wiki_Plastic_Pollution]
+
+
+Usage of plastic in last few decades:[@Plastic_Pollution_visualizations]
+![](images/global_plastic_usage.png)
+
+Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environments. [@Plastic_Pollution_visualizations]
+
+What is plastic used for. [@Plastic_Pollution_visualizations]
+![](images/use_of_plastic.png)
+
+
+With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have a consumption that exceeds even that of the entire rest of Asia and Africa combined. [@Plastic Pollution visualizations]
+
+Plastic Use: Industrial nations top the charts [@Plastic_Pollution_visualizations]
+
+![](images/plastic_use.png)
+
+This world view visualization shows how much plastic is in our oceans.
+Visualization of Ocean Plastic collection. [@Ocean_Plastic_Pollution]
+![](images/Ocean_Plasticpollution.jpg)
+
+Infographic plastic pollution [@Plastic_Pollution_Infographics]
+![](images/infographic-plastic-buildup.jpg)
+
+Infographic plastic pollution [@Plastic_Pollution_Infographics]
+![](images/ocean_plastic.png)
+
+How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
+
+Is banning plastic a solution? People may argue that plastic has become an integral part of our lives that it's hard to imagine life without it. I think we can start small, first by using less single-use plastic. Single-use plastics are only used once and thrown away. (Example: straws, single-use plastic bottle, single-use plastic bags)
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
@@ -398,44 +430,3 @@ This is an interesting source and a good visual guide to data and development, i
 The data draw on the World Development Indicators the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
 
 This contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data are available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures are available on [Github](https://github.com/worldbank/sdgatlas2018). 
-
-### Tableau: Viz of the Day
-
-Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  A great example from Viz of the Day is [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
-![](images/describe_artists.png)
-
-
-
-##Understanding Plastic pollution using visualization:
-
-Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable they have a wide variety of usage in our everyday life. Since the 1950's an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled. [@Wiki_Plastic_Pollution]
-
-
-Usage of plastic in last few decades:[@Plastic_Pollution_visualizations]
-![](images/global_plastic_usage.png)
-
-Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environments. [@Plastic_Pollution_visualizations]
-
-What is plastic used for. [@Plastic_Pollution_visualizations]
-![](images/use_of_plastic.png)
-
-
-With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have a consumption that exceeds even that of the entire rest of Asia and Africa combined. [@Plastic Pollution visualizations]
-
-Plastic Use: Industrial nations top the charts [@Plastic_Pollution_visualizations]
-
-![](images/plastic_use.png)
-
-This world view visualization shows how much plastic is in our oceans.
-Visualization of Ocean Plastic collection. [@Ocean_Plastic_Pollution]
-![](images/Ocean_Plasticpollution.jpg)
-
-Infographic plastic pollution [@Plastic_Pollution_Infographics]
-![](images/infographic-plastic-buildup.jpg)
-
-Infographic plastic pollution [@Plastic_Pollution_Infographics]
-![](images/ocean_plastic.png)
-
-How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
-
-Is banning plastic a solution? People may argue that plastic has become an integral part of our lives that it's hard to imagine life without it. I think we can start small, first by using less single-use plastic. Single-use plastics are only used once and thrown away. (Example: straws, single-use plastic bottle, single-use plastic bags) 
