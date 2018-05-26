@@ -137,12 +137,24 @@ One part of why this is a good visualization is that in addition to the general 
 
 ![](images/music_timeline_rock.png)
 
+## Environmental Related Problems  
+There are many case studies working on visualizations of environmental related studies and issues.
+
 ### Global Carbon Emissions
 [@CO2_emission]
 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios.
 
 ![](images/carbon_emissions.png)
+
+### What's really warming the world?
+[@world_warming] referenced in [@int_viz_1]
+
+This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
+
+![](images/volcano_global_warming.png)
+
+
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
@@ -237,12 +249,6 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 
 ![](images/rentcalc.png)
 
-### What's really warming the world?
-[@world_warming] referenced in [@int_viz_1]
-
-This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
-
-![](images/volcano_global_warming.png)
 
 ### An Interactive Visualization of NYC Street Trees
 Reference: [@trees]
