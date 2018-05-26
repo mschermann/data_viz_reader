@@ -3,6 +3,10 @@
 ## What is Data Visualization? 
 
 **Data visualization** refers to representing data in a visual context to help people understand the significance of that data. A way that information, numbers and measurements makes sense is a form of art – the art of data visualization. Graphs do that for us. According to Friedman (2008) [@viz] the "main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way."
+=======
+**Data Visualization helps reveal insights and patterns that are not immediately visible in the raw data.**
+
+
 
 **Information visualization**, the art of representing data in a way that it is easy to understand and manipulate, can help us make sense of information and thus make it useful. From business decision making to simple route navigation – there is a huge (and growing) need for data to be presented so that it delivers value.
 
@@ -36,13 +40,13 @@ McCandless also postulates that we all have a latent “design literacy” that 
 
 "The only new thing in the world is the history you don’t know." — Harry S Truman  
 
-**1. Data Visualization: modern product?**
+### Data Visualization: modern product?
 
 It is common to think of statistical graphics and data visualization as relatively modern developments in statistics, but in fact, the graphic representation of quantitative information has deep roots. These roots reach into the histories of the earliest map-making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine, and other fields.  
 
 Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, and those developments enabled the wider use of graphics and new advances in form and content. This paper provides an overview of the intellectual history of data visualization from medieval to modern times, as well as describes and illustrates some significant advances along the way.[@data_viz_history].
 
-**2. Milestones Tour**
+### Milestones Tour [@data_viz_history]  
 
 **Phase** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -55,8 +59,6 @@ Pre-17th Century: Early Maps and Diagrams | Data visualization has come a long w
 1950–1975: Rebirth of Data Disualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid 1960s. 
 1975–present: High-D, Interactive and Dynamic Data Visualization | During the last quarter of the 20th century, data visualization has blossomed into a mature, vibrant and multidisciplinary area of research, as seen in this handbook, and software tools for a wide range of visualization methods and data types are available for every computer.
 
-**Reference**
-[@data_viz_history]  
 
 ## Key Figures in the History of Data Visualization
 
@@ -82,10 +84,28 @@ Charles Joseph Minard was a French civil engineer famous for his representation 
 
 ![](images/Minard.png)
 
-## Other sources of great visualization
+This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the “best statistical drawings ever created.” The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.
 
-### Tableau: Viz of the Day
-Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is a great opportunity to see how others are using many different kinds of data to create informative yet fun data visuals. Source data is also attached, so recreation of the visualization is possible as well.  
+## Contemporary Visualists 
 
-[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straightforward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+### Hans Rosling
+Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. In this video, he also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.
 
+### David McCandless
+David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts, and maps on a wide range of topics like science, food, dogs and countries.
+
+One such chart, "International Number Ones: Because every country is good at something (according to data)," is a captivating work that displays something at which each country is the best. [@country_chart]
+
+Some of the interesting findings are as follows:
+
+**Country ** | ** No.1 in **
+-------------|---------------
+Canada |  Doughnuts
+USA | Spam Emails
+India | Bananas
+Norway | Pizza Eaters
+Togo |Unhappiness
+Colombia |Happiness	
+
+The visualizations on this website are updated and revised whenever new data is available. The original version of the above-mentioned graph can be seen here: [@country_original]
