@@ -13,14 +13,14 @@ Obtaining the consent of the subjects to use their data, evaluating any risk wit
 
 Data presented in charts can persuade viewers on the subject matter, even if viewers do not support the idea presented. This means that visualizations can also be used to deceive and there are many techniques for this, leading viewers to wrong conclusions. 
 
-There are lot of techniques that can produce dangerous visualization. Techniques such as truncated axis (where the y-axis does not start at zero) or using the area to represent a quantity (for instance comparing the size of two adjacent circles) were found to lead to wrong conclusions.
+There are lots of techniques that can produce a dangerous visualization. Techniques such as truncated axis (where the y-axis does not start at zero) or using the area to represent a quantity (for instance comparing the size of two adjacent circles) were found to lead to wrong conclusions.
 
 Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. Its ethical responsibility to create visualizations to give a correct and faithful representation of data and subjects.
 
 Data visualization plays several important roles in it:
 
 1. It helps create informative illustrations of the data, recapitulating a large amount of quantitative information on a   diagram;
-2. It helps formulate new or support existing hypotheses from quantitative data;
+2. It helps formulate new or supports existing hypotheses from quantitative data;
 3. It guides a statistical analysis of data and checks its validity.
 
 
@@ -67,7 +67,7 @@ Graphs can also be designed to subvert convention so that at first glance the gr
 **Principle** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **1. Easy Recall** | People can process images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% for visual information with interaction.
-**2. Providing Window for Perspective** | With infographics you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
+**2. Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
 **3. Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the big picture and understand how the information fits within a larger context. 
 **4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content. Because of their impact, infographics are widely used nowadays. A quick Google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layman, it doesn’t mean that they’re all successful or even necessary.
 
@@ -78,13 +78,13 @@ Data visualization is an up-and-coming field that currently does not have many e
 
 ### Data Collection
 
-The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must ,therefore, be trustworthy and verifiable.
+The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable.
 
 ### Data Analysis
 
-This is the stage where the discoveries are made and it provids the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should make sense. Code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and find true stories from them.
+This is the stage where the discoveries are made and it provides the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should make sense. The code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and finds true stories from them.
 
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business.So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
+As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
 
 ### Design
 
@@ -92,13 +92,13 @@ Once a story is found, it must be presented in an honest way. This is where dece
 
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
-## Defintions of Data Deception and Graphic Integrity
+## Definitions of Data Deception and Graphic Integrity
 
 Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is becoming more and more popular to communicate and support arguments nowadays. More people than ever before are making their own charts and infographics, which is presenting a unique problem. Despite the availability of some great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed misleading or downright deceptive data visualizations [@decept_study],[@rose_tint].
 
 So what does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
 
-Edward Tufte already introduced the concept of graphical integrity in his book and presented six principles of graphic integrity. Here are the principles from the book:
+Edward Tufte already introduced the concept of graphical integrity in his book and presented six principles of graphic integrity. Here are the principles of the book:
 
 * The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the numerical quantities measured.
 * Clear, detailed, and thorough labeling should be used to defeat graphical distortion and ambiguity. Write out explanations of the data on the graphic itself. Label important events in the data.
@@ -111,8 +111,8 @@ There are some ways in which distorted graphs can be created [@evil_axes],[@misl
 
 **Tool** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Improper scaling of y-axis** | This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, y-axis is scaled conveniently to highlight the differences among bins.
-**Improper labeling of graphs** | Lack of labels make the graph hard to interpret for the reader and lead to wrong conclusions.
+**Improper scaling of y-axis** | This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and lead to wrong conclusions.
 **Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
 **Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, even if the axes are properly labeled, it is assumed that both axes are on the same scale.
 **Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
@@ -121,7 +121,7 @@ There are some ways in which distorted graphs can be created [@evil_axes],[@misl
 [@visual-lies] focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
 
 ### Size
-Size signifies quantity, volume or degree of variables within a data. In first figure, the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right.[@misleading_data]
+Size signifies quantity, volume or degree of variables within a data. In the first figure, the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right.[@misleading_data]
 
 ![](images/Size1.png)
 
