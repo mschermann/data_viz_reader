@@ -85,9 +85,9 @@ Sometimes we might end up with visualization that, in spite of its beauty, might
 
 If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.
 
-In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason we are interested in the dataset we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of misinterpreting the data by simply finding what we originally wanted to find.
+In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason we are interested in the dataset we are looking at. **It's a good idea to start the documentation by writing down these initial thoughts.** This helps us to identify our bias and reduces the risk of misinterpreting the data by simply finding what we originally wanted to find.
 
-The documentation is the most important step of the process, and it is also the one we're most likely to skip. As shown in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
+**The documentation is the most important step of the process, and it is also the one we're most likely to skip.** As shown in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. Hence you should take the time to make some notes on things like:
 
 *	Why have I created this chart?
 *	What have I done to the data to create it?
@@ -253,7 +253,7 @@ Providing context, adding time sequence details, showing movement, change and me
 
 ### Three Rules to Follow in order to Develop Intuitive Dashboards:
 
-Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data [@intuitive-dash]:
+Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to effective presentation of the data [@intuitive_dash]:
 
 #### The dashboard should read left to right
 Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
