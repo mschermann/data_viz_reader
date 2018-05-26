@@ -34,7 +34,16 @@ The interactive map shows the rate of immigration into the U.S. from other count
 ### Uber: Crafting Data-Driven Maps
 Reference: [@uber_maps]
 
-Map visualization is very important for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions. While a lot of the problems are related to the large scale of the data, there are some insights on scatter plots and hex bins, adding trip lines and making custom tools to help make decisions. The visualization in this article is beneficial for developing geospatial graphics. 
+Map visualization is very important for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions. 
+
+The challenges that Uber faced to craft geospatial visualizations include: 
+1). There are great individual maps but lack consistency as a company.
+2). Common graphing tooling like Sketch does not support GIS file, which is essential to Uber's insights.
+3). The scale of the framework includes more than 400 cities in the world with variety in different geographic features and data types.
+
+To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualziation how metrics and values differ across geographic areas. 
+
+The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people/startups to pinpoint and make appropriate visualization that support decision making process.  
 
 ![Uber Route Maps](images/uber_mapping.png)
 
