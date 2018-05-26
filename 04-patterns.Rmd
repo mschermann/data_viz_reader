@@ -96,9 +96,11 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 ![](images/hickey-before.jpg)
-Source: [@hickey-pie-worst]
+
+<sup>Source: [@hickey-pie-worst]</sup>
 
 ![](images/hickey-after.jpg)
+
 <sup>Source: [@hickey-pie-worst]</sup>
 
 2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
@@ -106,21 +108,23 @@ See figure \@ref(fig:hickey-breakdown) for example.
 
 ![](images/hickey-breakdown.jpg)
 
-(Source: [@hickey-pie-worst])
+<sup>Source: [@hickey-pie-worst]</sup>
 
 3. A Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
 
 ![](images/hickey-3D.jpg)
-Source: [@hickey-pie-worst]
+
+<sup>Source: [@hickey-pie-worst]</sup>
 
 4. A Pie chart may be useful when comparing 2 different categories with different amounts of information.
 Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
 
 ![](images/henry-quarter.png)
-(Source: [@henry-defense-pie])
+
+<sup>Source: [@henry-defense-pie]</sup>
 
 ![](images/henry-half.png)
-(Source: [@henry-defense-pie])
+<sup>Source: [@henry-defense-pie]</sup>
 
 ## Use maps only when effective
 Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at first glance they seem like a great option.
@@ -241,7 +245,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 ```
 
 So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
-reference: [@Baseline_2013]
+source: [@Baseline_2013]
 
 ## Using design patterns to find greater meaning in your data
 
@@ -274,10 +278,11 @@ The line weights help to identify each entry point and show the range of differe
 Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introducing different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
 
 ### Time Series Data
-[@aya-time-series]
+
 What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
 Temporal visualizations are one of the simplest, quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
+source: [@aya-time-series]
 
 ### Line Graph
 A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
@@ -287,13 +292,15 @@ Stacked area charts are area charts similar to a line chart. In an area chart, m
 
 The figure below is a stacked area chart showing time series data:
 ![](images/aya-stacked.png) 
-<su>(Source: [@aya-time-series])</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 ### Bar Charts
 represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice for you when you wish to look at how the variable moved over time or when you wish to compare variables versus each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
 For instance, in the figure below, a bar graph would be a cleaner alternative.
 ![](images/aya-stacked-perception.jpg) 
-<su>(Source: [@aya-time-series])</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 For instance, this grouped bar chart in this interactive visualization of a number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
 We can use two different bar charts to represent time series data.
@@ -305,10 +312,11 @@ Still have hard time to choose? There are many resources on-line can help you do
 
 ![](images/aya-bar1.png)
 
-<su>(Source: [@aya-time-series])</su>
+<sup>Source: [@aya-time-series]</sup>
 
 ![](images/aya-bar2.png)
-<su>(Source: [@aya-time-series])</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 To avoid clutter and confusion, make sure to not use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart. Also, check out our blog on 5 common mistakes that lead to bad data visualization to learn why the base axis for your bar charts should start from zero.
 
@@ -325,7 +333,6 @@ Gantt charts are a popular project management tool since they present a concise 
 ![](images/aya-gantt.png)
 
 
-
 ### Stream Graph
 
 **Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
@@ -340,14 +347,16 @@ A stream graph showing a randomly chosen listener's last.fm music-listening habi
 
 **Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
 ![](images/aya-stream.png)
-<su>(Source: [@aya-time-series])</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 Geo-spatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. Heat maps are perfect for a two-tiered time frame -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
 
 This heat map visualizes birthdays for babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the later half of July, August, and September.
 
 ![](images/aya-heat-map.png)
-<su>(Source: [@aya-time-series])</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 ### Polar Area Diagram
 Think beyond the straight line! Sometimes, time series data can be cyclical -- a season in a year, time of the day, and so on. Polar area diagrams help represent the cyclical nature time series data cleanly. A polar diagram looks like a traditional pie chart, but the sectors differ from each other not by the size of their angles but by how far they extend out from the center of the circle.
@@ -360,7 +369,8 @@ It is crucial to clarify whether the variable is proportional to the area or rad
 This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the the text legend for more details.)
 
 ![](images/aya-polar.jpg)
-<su>[@aya-time-series]</su>
+
+<sup>Source: [@aya-time-series]</sup>
 
 [@TimeSeries]
 This article explains how time series data visualization can sometimes be deceptive. 
@@ -433,7 +443,7 @@ Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
 We have all seen the calendar views in the various data products that we worked on.  Please find an open source code that I found, this will help you replicate and create your own calendar:
 ![](images/CalendarView.jpg)
 
-<su>[@CalendarView]</su>
+<sup>[@CalendarView]</sup>
  
 Reproducible code for reference: 
 This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
