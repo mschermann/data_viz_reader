@@ -390,7 +390,6 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 
 
 ## Typography and Data Visualization
-### Typography and Data Visualization
 
 This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
 
@@ -420,10 +419,32 @@ The authors round out the article by addressing the most common criticisms of ty
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
 
+Cleaning the data is usually the first step in data processing and is done to remove the unwanted elements as well as to reduce the size of the data sets, which will make it easier for the algorithms to analyze it. Data cleansing is typically done by using instance reduction techniques.
+
+Instance reduction helps reduce the size of the data set without compromising the quality of insights that can be extracted from the data. It removes instances and generates new ones to make the data set compact. There are two major instance reduction algorithms:
+
+Instance selection: Instance selection is used to identify the best examples from a very large data set with many instances in order to curate them as the input for the analytics system. It aims to select a subset of the data that can act as a replacement for the original data set while completely fulfilling the goal. It will also remove redundant instances and noise.
+
+Instance generation: Instance generation methods involve replacing the original data with artificially generated data in order to fill regions in the domain of an issue with no representative examples in the master data. A common approach is to relabel examples that appear to belong to wrong class labels. Instance generation thus makes the data clean and ready for the analysis algorithm.
+
+Tools you can use: Drake, DataWrangler, OpenRefine 
+
 2. Extracting
 Known versatile tools for data visualization and analytics – Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
+
+Data has shown phenomenal growth over the past decade and it’s widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity and variety of data calls for more efficient processing to make it machine-ready. Although there are a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. Data pre-processing techniques like:
+
++Data cleansing 
++Data Manipulation
++Data normalization
++Data Transformation
++Missing values imputation
++Noise identification
++Minimizing the pre-processing tasks
+ 
+play a key role in the process.
 
 3. Strategizing
 As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to businesses. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
