@@ -343,18 +343,21 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
 ### R for Data Visualization
 **Summary from book "R for Data Science" Chapter 3** [link](http://r4ds.had.co.nz/data-visualisation.html)
 #### Formula: layered Grammar of Graphics
-ggplot(data = <DATA>) +  
-<GEOM_FUNCTION> (mapping = aes(<MAPPINGS>),     
-                stat = <STAT>,     
-                position = <POSITION>  ) + 
+ggplot(data = \<DATA\>) +  
+
+<GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
+                stat = \<STAT\>,   
+                position = \<POSITION\>  ) + 
+
 <COORDINATE_FUNCTION> +  
+
 <FACET_FUNCTION>
 
 The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
 
 #### Explanations of Formula
 
-```{r}
+```{r message=FALSE, warning=FALSE, include=FALSE}
 # Install Packages
 install.packages("tidyverse")
 install.packages(c("nycflights13", "gapminder", "Lahman"))
@@ -363,24 +366,24 @@ library("gapminder")
 ```
 **Aes/Mapping: Global Mapping and Local Mapping**
 
-
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
 geom_point(mapping = aes(color = class)) +  
 geom_smooth()
 
-"mapping = aes(x = displ, y = hwy)" is a global mapping, where "mapping = aes(color = class)" is a local mapping.
+"mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
 
 ```{r}
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = aes(color = class)) +  geom_smooth()
 ```
 **Position Adjustment**
-"identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
 
-"fill" position works like stacking, but makes each set of stackedbars the same height. This makes it easier to compare proportions across groups.
+1. "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
 
-"dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
+2. "Fill" position works like stacking, but makes each set of stackedbars the same height. This makes it easier to compare proportions across groups.
 
-"jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
+3. "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
+
+4. "Jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
 
 **Coordinate Systems**
 1. default: Cartesian 
@@ -395,7 +398,7 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
 ```
 3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw map.
 
-4.coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
+4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
 
 
 
