@@ -220,6 +220,52 @@ This visualization helps elucidate an extremely complicated topic like the Syria
 
 ![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
 
+  
+### Graph visualization use cases: Law and fraud
+[@lawfraud]
+
+**Use cases for graph visualization**  
+“Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
+
+You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight?  
+Most of the time, the answer is through interactive graph visualization.
+
+**Why visualize graphs?**
+There are four reasons why graph visualization is such a powerful tool:
+
+  - It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.  
+  - It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.  
+  - It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.  
+  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or just looking at raw data.
+  
+In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
+
+**Law enforcement and security**  
+Graph visualization isn’t new. The police have been using it – or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+
+A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
+
+Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
+
+**Fraud detection and management**  
+Another early adopter of graph visualization techniques was the financial services industry.  
+Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph.
+
+Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction.
+
+In those cases, visualizations are simple, small and with limited interaction. To get a clear overview fast, analysts need effective layouts. Other functionality, like expand and filtering helps fraud analysts to see context on demand.
+
+**What do these use cases have in common?** 
+Three things are consistent across both graph visualization use cases:
+
+  1. They involve highly connected data (obviously)
+  2. That highly connected data conceals risk insight
+  3. That insight is needed to power quick and confident decision making
+
+When connected data insight is critical, only interactive and robust visualization tools are up to the task.
+  
+  
+  
 ## Uncategorized
 
 ### Simpson’s Paradox
@@ -327,45 +373,4 @@ Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponso
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
 
-### Graph visualization use cases: Law and fraud
-[@lawfraud]
 
-**Use cases for graph visualization**  
-“Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
-
-You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight?  
-Most of the time, the answer is through interactive graph visualization.
-
-**Why visualize graphs?**
-There are four reasons why graph visualization is such a powerful tool:
-
-  - It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.  
-  - It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.  
-  - It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.  
-  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or just looking at raw data.
-  
-In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
-
-**Law enforcement and security**  
-Graph visualization isn’t new. The police have been using it – or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
-
-A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
-
-Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
-
-**Fraud detection and management**  
-Another early adopter of graph visualization techniques was the financial services industry.  
-Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph.
-
-Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction.
-
-In those cases, visualizations are simple, small and with limited interaction. To get a clear overview fast, analysts need effective layouts. Other functionality, like expand and filtering helps fraud analysts to see context on demand.
-
-**What do these use cases have in common?** 
-Three things are consistent across both graph visualization use cases:
-
-  1. They involve highly connected data (obviously)
-  2. That highly connected data conceals risk insight
-  3. That insight is needed to power quick and confident decision making
-
-When connected data insight is critical, only interactive and robust visualization tools are up to the task.
