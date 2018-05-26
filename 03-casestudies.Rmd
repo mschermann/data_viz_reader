@@ -390,3 +390,7 @@ The data draw on the World Development Indicators the World Bank's compilation o
 
 This contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data are available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures are available on [Github](https://github.com/worldbank/sdgatlas2018). 
 
+### Tableau: Viz of the Day
+
+Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  A great example from Viz of the Day is [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+![](images/describe_artists.png)
