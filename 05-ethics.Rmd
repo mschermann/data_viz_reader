@@ -50,20 +50,26 @@ Again, since the ethical purpose is to improve well-being through understanding,
 
 ## Implications of (Good/Bad) Data Visualization
 
-Raw data is often meaningless or their meaning is not easily understood. When people face a large set of measurements, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and our ability to collect this type of information becomes easier and easier. Thus filtering, visualization, and interpretation of data become increasingly important.
+Raw data is often meaningless or their meaning is not easily understood. When people face a large set of measurements, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and our ability to collect this type of information becomes easier. Thus filtering, visualization, and interpretation of data becomes increasingly important.
 
-Raw data is often meaningless or their meaning is not easily concluded. When people face a large set of measurements they are unable or unwilling to spend the time required to process it. Our modern living contributes to an ever-growing pool of “big data” and our ability to collect this type of information becomes easier and easier.  Thus filtering, visualization, and interpretation of data become increasingly important.
+We should understand how to best derive meaning from data, but first we should understand why its presentation in graphical format is so powerful.
 
-We should understand how best to derive meaning from data, but first we should understand why its presentation in graphical format is so powerful.
+While the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. 
 
-While the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
+Omitting baselines is used to imply a greater difference between two categories, such as in poll results comparing political parties. 
+
+Axis manipulation by increasing the highest value on the y-axis affects the visibility of a slope, making data with an otherwise visible trend appear flat. 
+
+Omitting selected data points or narrowing the window of a graph is used to hide an overall trend, such as a graph of a stock only showing a current trend and hiding previous bubbles. 
+
+Graphs can also be designed to subvert convention so that at first glance the graph is conveying the opposite message, for example, by using the reader's associations of colors and temperature to create a graph where hot is blue and cold is red.
 
 **Principle** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**1. Easy Recall** | People can process images more quickly than words. When data is transformed into images, the readability and cognition of the content greatly improve. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% when they for visual information with interaction.
+**1. Easy Recall** | People can process images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% for visual information with interaction.
 **2. Providing Window for Perspective** | With infographics you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
 **3. Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the big picture and understand how the information fits within a larger context. 
-**4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content. Because of their impact, infographics are widely used nowadays. A quick google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layperson, it doesn’t mean that they’re all successful or even necessary.
+**4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content. Because of their impact, infographics are widely used nowadays. A quick Google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layman, it doesn’t mean that they’re all successful or even necessary.
 
 ## General Guidelines for Ethical Visuals
 [@ethics_code]
@@ -76,15 +82,15 @@ The first step in any project is gathering the data. This is relatively simple a
 
 ### Data Analysis
 
-This is the stage where the discoveries are made and provided the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulation should make sense. Code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here it is important to look at what the source data actually shows its ethical responsibility of presenters for careful analysis of the data and find true stories from them.
+This is the stage where the discoveries are made and it provids the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should make sense. Code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and find true stories from them.
 
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
+As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business.So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
 
 ### Design
 
 Once a story is found, it must be presented in an honest way. This is where deceptive techniques could be tempting to make a stronger argument. An experienced individual will know how to spot these deceptions and disregard any findings. This ultimately hurts the credibility of the author and anyone else involved in the publication.
 
-Visualization should not be used to intentionally hide or confuse the truth, it should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
+Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
 ## Defintions of Data Deception and Graphic Integrity
 
