@@ -9,7 +9,7 @@ Case studies contain valuable information about development records. The examina
 [@int_viz_capt] | 16 Captivating Data Visualization Examples
 [@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: "If a picture is worth a thousand words, a data visualization is worth at least a million. As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good."
 [@int_viz_2] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-[@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. Case studies about how to improve your visualizations written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the “Makeover Monday,” which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
+[@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. Case studies about how to improve your visualizations written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the “Makeover Monday,” which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
 
 Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs, but which might still fail to convince readers. The links show some intricate visualizations of some of these important and relevant topics--visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of the text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues. 
 
@@ -86,7 +86,7 @@ This visual lists several categories such as “personal care” and “work” 
 This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
 ![](images/britain-diet-data-trends.PNG)
-Source: [@britain-diet-data-trends] referenced in [@britain_diet_2016]
+Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
 Such a visualization is ideal for the layman wanting to walk away with a basic but accurate understanding of the dietary changes, and also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte [@visual_display].
@@ -127,7 +127,7 @@ This one includes a bar chart and a line graph to demonstrate the aging populati
 
 ### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 
-Reference: [@population_pyramid]
+Reference: [@pyramid]
 
 ![](images/Pyramid.jpg)
 
@@ -157,7 +157,7 @@ This data visualization, based on data from the World Resource Institute’s Cli
 ![](images/carbon_emissions.png)
 
 ### What's really warming the world?
-[@world_warming] referenced in [@int_viz_1]
+[@world_warming] referenced in [@int_viz_capt]
 
 This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
 
@@ -217,7 +217,7 @@ Source: [@campaign_staff] referenced in [@cool_data]
 
 ### A Guide to Who is Fighting Whom in Syria 
 
-One of the charts shown in the link [@int_viz_1], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an interesting graphic to study. The visualization and its report can be seen at [@syria_chart].
+One of the charts shown in the link [@int_viz_capt], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an interesting graphic to study. The visualization and its report can be seen at [@syria_chart].
 
 ![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
 
@@ -314,12 +314,12 @@ Using data from NYC Open Data, this interactive visualization shows the variety 
 
 ### Adding up the White Oscars Winners
 
-A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen here [@int_viz_2] in an article by Bloomberg. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
+A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
-Source: [@int_viz_2]
+Source: [@adding_oscars] referenced in [@int_viz_2]
 
 Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc.
 
