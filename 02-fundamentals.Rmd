@@ -398,15 +398,14 @@ Tips for Tableau:
 Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable! [@TabPy] shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
 
 ### R Shiny
-R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
+R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
  
 ### Jupyter
 
 ### Google chart
-A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard. 
+A free and powerful integration of all Google power, this tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important is that Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard. 
 [https://towardsdatascience.com/top-4-popular-big-data-visualization-tools-4ee945fe207d](https://towardsdatascience.com/top-4-popular-big-data-visualization-tools-4ee945fe207d)
 
-The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard.
 [@Top4VizTools]
 
 ### Corporate Scorecards and Data Visualization
@@ -458,28 +457,28 @@ Warrants can be based on the following:
 
 Note: these categories aren't mutually exclusive; there is considerable overlap.
 
-There are six main argumentative strategies via which the relationship between evidence and claim are often established. They have the acronym “GASCAP”(Generalization, Analogy Sign, Causality, Authority, Principle). These strategies are used at various different levels of generality within an argument, and rarely come in neat packages - typically they are interconnected and work in combination.
+There are six main argumentative strategies via which the relationship between evidence and claim are often established. They have the acronym “GASCAP”(Generalization, Analogy Sign, Causality, Authority, Principle). These strategies are used at various different levels of generality within an argument, and rarely come in neat packages. Typically they are interconnected and work in combination.
 
 **Common Warrants:**
 
 1. Argument based on Generalization
 
-A very common form of reasoning.  It assumes that what is true of a well chosen sample is likely to hold for a larger group or population, or that certain things consistent with the sample can be inferred of the group/population. 
+A very common form of reasoning, it assumes that what is true of a well chosen sample is likely to hold for a larger group or population, or that certain things consistent with the sample can be inferred of the group/population. 
 
 2. Argument based on Analogy
 
-Extrapolating from one situation or event based on the nature and outcome of a similar situation or event.  Has links to "case-based" and precedent-based reasoning used in legal discourse. What is important here is the extent to which relevant similarities can be established between two contexts.  Are there sufficient, typical, accurate, relevant similarities?
+It means extrapolating from one situation or event based on the nature and outcome of a similar situation or event.  It has links to "case-based" and precedent-based reasoning used in legal discourse. What is important here is the extent to which relevant similarities can be established between two contexts.  Are there sufficient, typical, accurate, relevant similarities?
 
 3. Argument via Sign/Clue
 
-The notion that certain types of evidence are symptomatic of some wider principle or outcome.  For example, smoke is often considered a sign for fire.  Some people think high SAT scores are a sign a person is smart and will do well in college. 
+It is the notion that certain types of evidence are symptomatic of some wider principle or outcome.  For example, smoke is often considered a sign for fire.  Some people think high SAT scores are a sign a person is smart and will do well in college. 
 
 4. Causal Argument
 
-Arguing that a given occurrence or event is the result of, or is effected by, factor X.  Causal reasoning is the most complex of the different forms of warrant. The big dangers with it are:
+It is arguing that a given occurrence or event is the result of, or is effected by, factor X.  Causal reasoning is the most complex of the different forms of warrant. The big dangers with it are:
 
-Mixing up correlation with causation
-Falling into the post hoc, ergo propter hoc trap.  Closely related to confusing correlation and causation, this involves inferring 'after the fact, therefore because of the fact').
+Mixing up correlation with causation 
+Falling into the post hoc, ergo propter hoc trap.  Closely related to confusing correlation and causation, this involves inferring 'after the fact, therefore because of the fact'.
 
 5. Argument from Authority
 
@@ -493,7 +492,7 @@ The second triad of the Toulmin model involves three additional elements:
 
 **Backing** provides additional justification for the warrant. It usually consists of evidence to support the type of reasoning employed by the warrant. The qualifier states the degree of force or probability to be attached to the claim. It provides support, justification, reasons to back up the warrant.
 
-**Qualifier** states how sure the arguer is about his/her claim. It refers to specification of limits to claim, warrant and backing.  The degree of conditionality asserted.
+**Qualifier** states how sure the arguer is about his/her claim. It refers to specification of limits to claim, warrant and backing.  The degree of conditionality is asserted.
 
 **Rebuttal** acknowledges exceptions or limitations to the argument. It admits to those circumstances or situations where the argument would not hold. It includes description and rebuttal of counter-examples and counter-arguments.
 [@arg_model]
@@ -507,5 +506,5 @@ With the development, studies and new tools applied in data visualization, more 
  
 * **Adapting the Publication and Review Process:** As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
 * **Promoting Discussion and Accretion:** Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
-* **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on [Designing Computer Science Experiments](http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
+* **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on [Designing Computer Science Experiments](http://sing.stanford.edu/cs303-sp11/). Online resources could also be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.
 
