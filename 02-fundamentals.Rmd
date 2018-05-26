@@ -343,10 +343,10 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
 ### R for Data Visualization
 **Summary from book "R for Data Science" Chapter 3** [link](http://r4ds.had.co.nz/data-visualisation.html)
 #### Formula: layered Grammar of Graphics
-ggplot(data = <DATA>) +  
-<GEOM_FUNCTION> (mapping = aes(<MAPPINGS>),     
-                stat = <STAT>,     
-                position = <POSITION>  ) + 
+ggplot(data = \<DATA\>) +  
+<GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),     
+                stat = \<STAT\>,     
+                position = \<POSITION\>  ) + 
 <COORDINATE_FUNCTION> +  
 <FACET_FUNCTION>
 
@@ -362,7 +362,6 @@ library("tidyverse")
 library("gapminder")
 ```
 **Aes/Mapping: Global Mapping and Local Mapping**
-
 
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
 geom_point(mapping = aes(color = class)) +  
