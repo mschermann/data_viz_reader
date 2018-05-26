@@ -8,28 +8,42 @@
 
 **Information visualization**, the art of representing data in a way that it is easy to understand and manipulate, can help us make sense of information and thus make it useful. From business decision making to simple route navigation – there is a huge (and growing) need for data to be presented so that it delivers value.
 
-This article is a brief introduction to information visualization. It explains briefly how information visualization helps to make sense of data as well as find relationships between data and confirm ideas. Some examples and common uses of information visualization are discussed below [@info_viz].
+This article is a brief introduction to information visualization. It explains briefly how information visualization helps to make sense of data as well as find relationships between data and confirm ideas. Some examples and common uses of information visualization are discussed. [@info_viz].
+
+**Common Uses for Information Visualization**
+
+• Presentation (for Understanding or Persuasion)
+
+• Explorative Analysis (to see where relationships in data may exist)
+
+• Confirmation Analysis(to help confirm our understanding and analysis of data)
 
 ## Why is Data Visualization Important?
 
 Today, more than ever, data visualization represents a simple, user-friendly approach to understand data and make quicker business decisions. Here are some references on why it is important today:
 
 ### Chris Pittenturf's article on the importance of data visualization to businesses
-The article [@viz_importance], written by Chris Pittenturf, VP-Data & Analytics, Palace Sports & Entertainment, explores data visualization and its importance to businesses today.
+The article [@viz_importance], written by **Chris Pittenturf**, VP-Data & Analytics, Palace Sports & Entertainment, explores data visualization and its importance to businesses today.
 
-The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. Chris goes on to explain the basic criteria that a data visualization should satisfy, to be an effective visualization. These criterias and their summaries are as follows:
+The article begins with a definition of data visualization in simple terms and goes on to explain how a good data visualization should be visually engaging to the reader. **Chris goes on to explain the basic criteria that a data visualization should satisfy, to be an effective visualization**. These criterias and their summaries are as follows:
 
-1. Informative: The visualization should be able to convey the desired information from the data to the reader.
-2. Efficient: The visualization should not be ambiguous.
-3. Appealing: The visualization should be captivating and visually pleasing. 
-4. Interactive and Predictive (Optional): The visualizations can contain variables and filters with which the users may interact in order to predict results of different scenarios.
+1. **Informative**: The visualization should be able to convey the desired information from the data to the reader.
+2. **Efficient**: The visualization should not be ambiguous.
+3. **Appealing**: The visualization should be captivating and visually pleasing. 
+4. **Interactive and Predictive (Optional)**: The visualizations can contain variables and filters with which the users may interact in order to predict results of different scenarios.
 
-Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along. The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. Data visualization is an aid to get a better understanding of the complex insights that any business data provides. Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
+Pittenturf goes on to give various day-to-day examples where visualization gives a better understanding of the data. One extremely simple example used by Pittenturf is that of an energy bill. Pittenturf states that as a consumer, when we receive an energy bill, we normally look at the graph in the bill first before proceeding to read the text in the bill. 
+
+**Pittenturf states that consumers are more likely to analyze and understand the visualizations before reading further along.** The article ends with Pittenturf emphasizing the importance of data visualizations in our businesses as well as in our daily lives.It gives a simple, short and crisp understanding of what data visualization is and how it is relevant to everyone. 
+
+**Data visualization is an aid to get a better understanding of the complex insights that any business data provides.** Most of the data used by the businesses is highly unstructured and these businesses can get a better understanding of their businesses by visualizing their data.
 
 ### David McCandless’s TED talk on data visualization
-Visuals help us understand concepts that would otherwise be difficult to contextualize. For example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details. And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns. The billion dollar-o-gram is extremely readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the “mushroomed” actual cost of Iraq and Afghanistan wars, since its purpose seems only to conflate two wars for dramatic effect [@viz_ted]. 
+**Visuals help us understand concepts that would otherwise be difficult to contextualize.**
 
-Beyond its ability to make information from several different sources and in large amounts easily understandable , data visualization can also reveal smaller interesting patterns , allowing us to play the “data detective” as McCandless calls it. In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool [@viz_ted].
+For example, expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. Furthermore, it allows synthesis of a breadth of information to be delivered in a small, easily-digestible, aesthetically pleasing way. **Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details.** And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns. The billion dollar-o-gram is extremely readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the “mushroomed” actual cost of Iraq and Afghanistan wars, since its purpose seems only to conflate two wars for dramatic effect [@viz_ted]. 
+
+**Beyond its ability to make information from several different sources and in large amounts easily understandable , data visualization can also reveal smaller interesting patterns , allowing us to play the “data detective”** as McCandless calls it. In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool[@viz_ted].
 
 McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects like space, color, etc..Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design [@viz_ted]. 
 
@@ -87,14 +101,14 @@ Charles Joseph Minard was a French civil engineer famous for his representation 
 ## Contemporary Visualists 
 
 ### Hans Rosling
-Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this video, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+**Hans Rosling took his interest in Global Health and developed stunning visualizations about it using statistical methods and data from the UN.** He was a noted TED speaker and one of his most interesting TED talks is *“Asia’s Rise: How and When”* [@hans]. In this video, Hans shows trends of the Western countries vs Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
 
 Hans was the co-founder and developer of the foundation “Gapminder”[@gapminder] which develops tools to help the people make sense of global data. One of the most important goals of Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to show how the world really is.
 
 ### David McCandless
 David McCandless is a British data-journalist and his blog *“Information is Beautiful”* [@info_beautiful] hosts some of the most visually stunning graphs, charts, and maps on a wide range of topics like science, food, dogs and countries.
 
-One such chart, "International Number Ones: Because every country is good at something (according to data)," is a captivating work that displays something each country is the best at. [@country_chart]
+One such chart, *"International Number Ones: Because every country is good at something (according to data),"* is a captivating work that displays something each country is the best at. [@country_chart]
 
 Some of the interesting findings are as follows:
 

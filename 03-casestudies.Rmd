@@ -103,7 +103,7 @@ The millennial generation is bigger and more diverse than the baby boomer genera
 ### How the Recession Reshaped the Economy, in 255 Charts
 Reference: [@recession_economy]
 
-The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry. By hovering over a line, viewers can the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this huge data visualization.
+The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this huge data visualization.  
 Below the overall chart are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
 ![](images/recession_jobs.png)
@@ -111,7 +111,7 @@ Below the overall chart are subsets categorized by job sector and sub-industries
 ### An Aging Nation: Projected Number of Children and Older Adults 
 Reference: [@aging_nation]
 
-Aging population is always a hot topic in social economics and politics. I collected several different data visualizations that show the aging population in the world.
+Aging population is always a hot topic in social economics and politics. There are several different data visualizations collected to show the aging population in the world.
 
 ![](images/aging_nation.jpg)
 
@@ -123,7 +123,7 @@ This one includes a bar chart and a line graph to demonstrate the aging populati
 
 ![](images/Pyramid.jpg)
 
-This is a **population pyramid**. “A **population pyramid** is a pair of back-to to histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
+This is a **population pyramid**. “A **population pyramid** is a pair of back-to histograms for each sex that displays the distribution of a population in all age groups and in gender.” It is a good candidate to visualizing changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sence of census data. [@animated_pyramid] offers an animated pyramid.
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
@@ -133,11 +133,14 @@ This is an animated and multiple-population pyramid. It used to compare differen
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates.
 [@google_music]
 
-One part of why this is a good visualization is that in addition to the general timeline of all music, the reader is able to drill down to one specific genre to see its subgenres. The drill-down interaction allows for more detail without creating one detailed and cluttered visualization.
+One part of why this is a good visualization is that in addition to the general timeline of all music, the reader is able to drill down to one specific genre to see its subgenres. The drill-down interaction allows for more details without creating one detailed and cluttered visualization.
 
 ![](images/music_timeline.png)
 
 ![](images/music_timeline_rock.png)
+
+## Environmental Related Problems  
+There are many case studies working on visualizations of environmental related studies and issues.
 
 ### Global Carbon Emissions
 [@CO2_emission]
@@ -145,6 +148,15 @@ One part of why this is a good visualization is that in addition to the general 
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios.
 
 ![](images/carbon_emissions.png)
+
+### What's really warming the world?
+[@world_warming] referenced in [@int_viz_1]
+
+This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
+
+![](images/volcano_global_warming.png)
+
+
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
@@ -210,6 +222,52 @@ This visualization helps elucidate an extremely complicated topic like the Syria
 
 ![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
 
+  
+### Graph visualization use cases: Law and fraud
+[@lawfraud]
+
+**Use cases for graph visualization**  
+“Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
+
+You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight?  
+Most of the time, the answer is through interactive graph visualization.
+
+**Why visualize graphs?**
+There are four reasons why graph visualization is such a powerful tool:
+
+  - It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.  
+  - It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.  
+  - It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.  
+  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or just looking at raw data.
+  
+In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
+
+**Law enforcement and security**  
+Graph visualization isn’t new. The police have been using it – or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+
+A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
+
+Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
+
+**Fraud detection and management**  
+Another early adopter of graph visualization techniques was the financial services industry.  
+Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph.
+
+Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction.
+
+In those cases, visualizations are simple, small and with limited interaction. To get a clear overview fast, analysts need effective layouts. Other functionality, like expand and filtering helps fraud analysts to see context on demand.
+
+**What do these use cases have in common?** 
+Three things are consistent across both graph visualization use cases:
+
+  1. They involve highly connected data (obviously)
+  2. That highly connected data conceals risk insight
+  3. That insight is needed to power quick and confident decision making
+
+When connected data insight is critical, only interactive and robust visualization tools are up to the task.
+  
+  
+  
 ## Uncategorized
 
 ### Simpson’s Paradox
@@ -244,12 +302,6 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 
 ![](images/rentcalc.png)
 
-### What's really warming the world?
-[@world_warming] referenced in [@int_viz_1]
-
-This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
-
-![](images/volcano_global_warming.png)
 
 ### An Interactive Visualization of NYC Street Trees
 Reference: [@trees]
@@ -333,6 +385,7 @@ Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponso
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
 
+
 ### Graph visualization use cases: Law and fraud
 
 [@lawfraud]
@@ -340,39 +393,4 @@ Today, data visualization solutions can be found everywhere in healthcare system
 **Use cases for graph visualization**  
 “Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
 
-You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight?  
-Most of the time, the answer is through interactive graph visualization.
 
-**Why visualize graphs?**
-There are four reasons why graph visualization is such a powerful tool:
-
-  - It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.  
-  - It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.  
-  - It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.  
-  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or just looking at raw data.
-  
-In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
-
-**Law enforcement and security**  
-Graph visualization isn’t new. The police have been using it – or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
-
-A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
-
-Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
-
-**Fraud detection and management**  
-Another early adopter of graph visualization techniques was the financial services industry.  
-Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph.
-
-Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction.
-
-In those cases, visualizations are simple, small and with limited interaction. To get a clear overview fast, analysts need effective layouts. Other functionality, like expand and filtering helps fraud analysts to see context on demand.
-
-**What do these use cases have in common?** 
-Three things are consistent across both graph visualization use cases:
-
-  1. They involve highly connected data (obviously)
-  2. That highly connected data conceals risk insight
-  3. That insight is needed to power quick and confident decision making
-
-When connected data insight is critical, only interactive and robust visualization tools are up to the task.
