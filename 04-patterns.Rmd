@@ -2,7 +2,11 @@
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
-This article [@interworks] is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+[@interworks]
+
+[@gunviolence]
+
+This article  is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" gun violence article referenced above .This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
 
 Case studies document the development record of a project. They provide the user with an insight into what occurred and relevant details of the process. A person can gain valuable knowledge that can be reused in their own projects and improve his or her own methodologies simply by learning from what others have done.
 
@@ -90,7 +94,13 @@ After answering these questions, you should able to get a better imagination of 
  
 ## Why pie chart is bad: a comparison with the bar chart
 
-Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to bar chart [@hickey-pie-worst] [@henry-defense-pie] [@quach-penny].
+Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to bar chart 
+
+[@hickey-pie-worst] 
+
+[@henry-defense-pie]
+
+[@quach-penny]
 
 1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.

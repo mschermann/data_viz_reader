@@ -8,6 +8,9 @@ Case studies contain valuable information about development records. The examina
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices. The following six examples are from the articles:
 [@int_viz_capt] | 16 Captivating Data Visualization Examples
 [@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: "If a picture is worth a thousand words, a data visualization is worth at least a million. As inspiration for your own work with data, check out these 15 data visualizations that will wow you. Taken together, this roundup is an at-a-glance representation of the range of uses data analysis has, from pop culture to public good."
+[@int_viz_capt] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
+[@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. Case studies about how to improve your visualizations written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the “Makeover Monday,” which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
+
 [@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
 [@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. Case studies about how to improve your visualizations written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the “Makeover Monday,” which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
 
@@ -25,7 +28,8 @@ The map is filled with red and blue lines (representing FBI and DHS aircraft, re
 ![New York Flight Patterns](images/NYCflights.png)
 
 ### Two Centuries of U.S. Immigration
-Reference: [@immigration] referenced in [@cool_data]
+[@immigration] 
+[@cool_data]
 
 The interactive map shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Colored dots represent 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations.
 
@@ -127,7 +131,7 @@ This one includes a bar chart and a line graph to demonstrate the aging populati
 
 ### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 
-Reference: [@pyramid]
+[@population_pyramid]
 
 ![](images/Pyramid.jpg)
 
@@ -138,7 +142,8 @@ This is a **population pyramid**. “A **population pyramid** is a pair of back-
 This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for continuous time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
 ### Music Timeline
-Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music].
+Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates.
+[@google_music]
 
 One part of why this is a good visualization is that in addition to the general timeline of all music, the reader is able to drill down to one specific genre to see its subgenres. The drill-down interaction allows for more details without creating one detailed and cluttered visualization.
 
@@ -330,7 +335,12 @@ This interactive graph, built using a database from the Union of Concerned Scien
 ![Low Earth Orbit Satellites](images/satellites.png)
 
 ### Malaria
-The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better [@malaria_cases_zambia] [@malaria_zambia_original].
+The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better 
+New Version:
+[@malaria_cases_zambia] 
+
+Original Version:
+[@malaria_zambia_original]
 
 ![Original visualization of malaria cases](images/malaria_original.png)
 
@@ -359,7 +369,8 @@ The visualization is interactive and we can click on each attribute like ‘Hair
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
-Source: [@adding_oscars] referenced in [@int_viz_current]
+[@oscars_sowhite_chart] 
+
 
 Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc.
 
@@ -409,9 +420,12 @@ This paper utilized a visualization algorithm together with big data analysis in
 **Abstract**  
 Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, deciphering better methods for identifying attack types to train IDSs more effectively has become a field of great interest. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data: volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
-To read the full paper, please follow the reference link: [@gapminder]
+To read the full paper, please follow the reference link:
+
+[@gapminder]
 
 ### How Data Visualization is Helping in Healthcare Decision Making?
+
 [@marksman]
 
 Healthcare service providers increasingly investigate different visual and interactive methods in creating and examining large graphs and charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
@@ -436,5 +450,13 @@ This is an interesting source and a good visual guide to data and development, i
 ![](images/case%20study%203.png)
 
 The data draw on the World Development Indicators the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
+
+### Graph visualization use cases: Law and fraud
+
+[@lawfraud]
+
+**Use cases for graph visualization**  
+“Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
+
 
 This contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data are available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures are available on [Github](https://github.com/worldbank/sdgatlas2018). 
