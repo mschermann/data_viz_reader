@@ -423,18 +423,18 @@ To read the full paper, please follow the reference link:
 
 [@marksman]
 
-Healthcare service providers increasingly investigate different visual and interactive methods in creating and examining large graphs and charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
+Healthcare service providers increasingly investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
  
 Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and effective interaction techniques which are being developed by researchers.
  
-Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and basic analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is effective at estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R, Python etc also helping healthcare a lot.
+Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and basic analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is effective in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R, Python, etc. also helping healthcare a lot.
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
 
 ### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
 [@Word_Bank_Data]
 
-This is an interesting source and a good visual guide to data and development, it discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they're informative and clean:
+This is an interesting source and a good visual guide to data and development. It discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they're informative and clean:
 
 ![](images/case%20study%201.png)
 
@@ -444,14 +444,11 @@ This is an interesting source and a good visual guide to data and development, i
 
 ![](images/case%20study%203.png)
 
-The data draw on the World Development Indicators the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
+The data draws on the World Development Indicators- the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
 
 ### Graph visualization use cases: Law and fraud
 
 [@lawfraud]
 
 **Use cases for graph visualization**  
-“Data is the new oil”– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood.  
-
-
-This contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data are available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures are available on [Github](https://github.com/worldbank/sdgatlas2018). 
+The contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data is available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures is available on [Github](https://github.com/worldbank/sdgatlas2018). 
