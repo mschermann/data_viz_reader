@@ -150,7 +150,7 @@ One part of why this is a good visualization is that in addition to the general 
 ![](images/music_timeline_rock.png)
 
 ## Environmental Related Problems  
-There are many case studies working on visualizations of environmental related studies and issues.
+There are many case studies on visualizations of environment related issues.
 
 ### Global Carbon Emissions
 [@CO2_emission]
@@ -162,19 +162,19 @@ This data visualization, based on data from the World Resource Institute’s Cli
 ### What's really warming the world?
 [@world_warming] referenced in [@int_viz_capt]
 
-This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide more detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand, but also informative.
+This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide further detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand and informative.
 
 ![](images/volcano_global_warming.png)
 
 ### Understanding Plastic pollution using visualization:
 
-Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable they have a wide variety of usage in our everyday life. Since the 1950's an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled. [@Wiki_Plastic_Pollution]
+Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, they have a wide variety of usage in our everyday life. Since the 1950's an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled. [@Wiki_Plastic_Pollution]
 
 
 Usage of plastic in last few decades:[@Plastic_Pollution_visualizations]
 ![](images/global_plastic_usage.png)
 
-Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environments. [@Plastic_Pollution_visualizations]
+Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environment. [@Plastic_Pollution_visualizations]
 
 What is plastic used for. [@Plastic_Pollution_visualizations]
 ![](images/use_of_plastic.png)
@@ -186,8 +186,7 @@ Plastic Use: Industrial nations top the charts [@Plastic_Pollution_visualization
 
 ![](images/plastic_use.png)
 
-This world view visualization shows how much plastic is in our oceans.
-Visualization of Ocean Plastic collection. [@Ocean_Plastic_Pollution]
+Visualization of Ocean Plastic collection : This world view visualization shows how much plastic is in our oceans.[@Ocean_Plastic_Pollution]
 ![](images/Ocean_Plasticpollution.jpg)
 
 Infographic plastic pollution [@Plastic_Pollution_Infographics]
@@ -197,8 +196,6 @@ Infographic plastic pollution [@Plastic_Pollution_Infographics]
 ![](images/ocean_plastic.png)
 
 How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
-
-Is banning plastic a solution? People may argue that plastic has become an integral part of our lives that it's hard to imagine life without it. I think we can start small, first by using less single-use plastic. Single-use plastics are only used once and thrown away. (Example: straws, single-use plastic bottle, single-use plastic bags)
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
@@ -212,7 +209,7 @@ One of the plot's biggest strengths is that by using one dot to represent each p
 
 A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day. This represents people's movements from one activity to another without overwhelming the reader.
 
-Overall, this is an engaging, informative, and fun animated plot that has relevance and tells a story.
+Overall, this is an engaging, informative, and a fun animated plot that has relevance and tells a story.
 
 ![](images/life_of_americans.png)
 
@@ -234,15 +231,14 @@ The visualization spans a webpage. As you scroll down, the text changes, as do m
 ### Linguistic Concepts
 Reference: [@lingui_data]
 
-This case study is about usage of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the main insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
+This case study is about the usage of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the main insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways.
 
 Reference: [@lingui_data1]
-HistoBankVis, is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work. In this paper, the visualization’s efficacy and power is illustrated by means
-of a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
+HistoBankVis, is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work. In this paper, the visualization’s efficacy and power is illustrated by means of a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
 Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limits their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation. 
 
-Visualizations can also be used as an aid in the process of research itself. There are special statistical methods, falling under the rubric of "exploratory data analysis", and visualization techniques just for this purpose, in fact, but these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
+Visualizations can also be used as an aid in the process of research itself. There are special statistical methods, falling under the rubric of "exploratory data analysis", and visualization techniques just for this purpose. But these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
 
 ### State of the Union 2014 Minute by Minute on Twitter
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
@@ -252,7 +248,7 @@ Twitter’s data team assembled an impressive interactive data hub that depicts 
 ## Political Relationships
 
 ### Connecting the Dots Behind the Election
-This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible, easily viewable format so that voters can figure out where the candidates’ experiences lie.
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible and viewable format so that voters can figure out where the candidates’ experiences lie.
 
 ![Clinton 2016 Campaign Staff](images/clinton_campaign.png)
 
@@ -264,7 +260,7 @@ One of the charts shown in the link [@int_viz_capt], the visualization of ‘A G
 
 ![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
 
-This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each of the emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand, but it is also pleasing to the eyes.
+This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand, but is also pleasing to the eyes.
 
 ![Green emoji shows ‘Friendly’ relationship](images/img_syria_friendly.PNG)
 
@@ -288,12 +284,12 @@ There are four reasons why graph visualization is such a powerful tool:
   - It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.  
   - It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.  
   - It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.  
-  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or just looking at raw data.
+  - It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or raw data.
   
 In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
 
 **Law enforcement and security**  
-Graph visualization isn’t new. The police have been using it – or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+The police have been using Graph visualization, or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
 
 A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
 
@@ -301,21 +297,21 @@ Lawful interception, the legally mandated interception of personal communication
 
 **Fraud detection and management**  
 Another early adopter of graph visualization techniques was the financial services industry.  
+
 Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph.
 
 Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction.
 
-In those cases, visualizations are simple, small and with limited interaction. To get a clear overview fast, analysts need effective layouts. Other functionality, like expand and filtering helps fraud analysts to see context on demand.
+In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering helps fraud analysts to see context on demand.
 
 **What do these use cases have in common?** 
 Three things are consistent across both graph visualization use cases:
 
-  1. They involve highly connected data (obviously)
-  2. That highly connected data conceals risk insight
-  3. That insight is needed to power quick and confident decision making
+  1. They involve highly connected data (obviously).
+  2. That highly connected data conceals risk insight.
+  3. That insight is needed to power quick and confident decision making.
 
 When connected data insight is critical, only interactive and robust visualization tools are up to the task.
-  
   
   
 ## Uncategorized
@@ -344,10 +340,10 @@ Original Version:
 
 ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories, however it is unclear what his intent was when adding the yearly data split by districts.
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories. However it is unclear what his intent was when adding the yearly data split by districts.
 
 ### Is it Better to Rent or Buy?
-There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the “cost of rent per month” on the side. This can be useful in price comparision: if you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
+There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the “cost of rent per month” on the side. This can be useful in price comparison: if you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
 This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
 
 ![](images/rentcalc.png)
@@ -363,6 +359,7 @@ Using data from NYC Open Data, this interactive visualization shows the variety 
 ### Adding up the White Oscars Winners
 
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
+
 The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
@@ -377,7 +374,7 @@ Similarly, the visualization gives also information about the different aspects 
 ### Kissmetrics blog: visualization of metrics
 
 [@facebook_organic]
-Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are important in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and deep dive into potential issues. 
+Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are important in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues. 
 
 A good example from the Kissmetrics blog is about Facebook’s organic reach. One important point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
 The general trend shows that there is a huge decline in Facebook’s page organic reach.
@@ -416,7 +413,7 @@ This detailed data visualization demonstrates D.C.’s basketball team’s shoot
 This paper utilized a visualization algorithm together with big data analysis in order to gain better insights into the KDD99 dataset:
 
 **Abstract**  
-Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, deciphering better methods for identifying attack types to train IDSs more effectively has become a field of great interest. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, we utilized this data set in our experiment. In this study, we utilized hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data: volume, variety, and velocity. By utilizing a visualization algorithm, we were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
+Cybersecurity has been thrust into the limelight in the modern technological era because of an array of attacks often bypassing untrained intrusion detection systems (IDSs). Therefore, deciphering better methods for identifying attack types to train IDSs more effectively has become a field of great interest. Key cyber-attack insights exist in big data; however, an efficient approach is required to determine strong attack types to train IDSs to become more effective in key areas. Despite the rising growth in IDS research, there is a lack of studies involving big data visualization, which is key. The KDD99 dataset has served as a strong benchmark since 1999; therefore, this data set was utilized in the experiment. This study utilized a hash algorithm, a weight table, and sampling method to deal with the inherent problems caused by analyzing big data: volume, variety, and velocity. By utilizing a visualization algorithm, the researchers were able to gain insights into the KDD99 data set with a clear identification of “normal” clusters and described distinct clusters of effective attacks.
 
 To read the full paper, please follow the reference link:
 
