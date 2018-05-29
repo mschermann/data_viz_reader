@@ -92,7 +92,7 @@ After answering these questions, you should able to get a better imagination of 
  
 ## Why pie chart is bad: a comparison with the bar chart
 
-Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to bar chart 
+Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
 
 [@hickey-pie-worst] 
 
@@ -100,7 +100,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 [@quach-penny]
 
-1. Some information may look nearly identical in pie chart. But if the data is presented with bar charts, the story is different.
+1. Some information may look nearly identical in a pie chart. But if the data is presented with bar charts, the story is different.
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 ![](images/hickey-before.jpg)
@@ -135,13 +135,13 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 <sup>Source: [@henry-defense-pie]</sup>
 
 ## Use maps only when effective
-Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at first glance they seem like a great option.
+Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at the first glance they seem like a great option.
 
-However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job of this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
+However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job at this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
 
 One good use of a map is to show points or specific locations. This style can show how points are distributed and reveal patterns such as certain areas having more high end restaurants. This is not the right approach if the points do not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. A map of this kind can also lose its meaning if there are too many points and the data blurs together.
 
-Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good vs. bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
+Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
 Source: [@Bradshaw]
 
 ## Chose the right baseline in data visualization
@@ -199,7 +199,7 @@ barCols <- sapply(annChange,
 
 barplot(annChange, border=NA, space=0, las=1, col=barCols, main="% sales change, annual")
 ```
-From this plot, it is very clear that the magnitude of drops in sales for some quarters.
+From this plot, it is very clear that the magnitude drops in sales for some quarters.
 
 3. The sales difference compare to now. **The baseline here is the current sales.**
 ```{r}
@@ -252,22 +252,24 @@ barCols.diff <- sapply(salesDiff,
 barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales difference from mean")
 ```
 
-So before we start to plot, we should decide the baseline we want to use. Different baseline will lead to totally different graphs.
+So before we start to plot, we should decide the baseline we want to use. Different baselines will lead to totally different graphs.
 source: [@Baseline_2013]
 
 ## Using design patterns to find greater meaning in your data
 
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity. 
 
-Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
+Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you - 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
 
 ### Comparisons
 ![](images/patten-1.jpg)
+
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
 
 ### Connections
 ![](images/pattern-2.jpg)
+
 The string of charts in Figure 2 shows 10-year to year-to-date (YTD) performance returns, which can be interpreted as individual charts or a group of category charts.
 
 Similar to sounds waves, the symmetrical area charts grow equidistant from the source (the zero line) at each time interval to accentuate the returns even further. Here, the y-axis is shown in percentage. Instead of using the zero line to indicate positive or negative returns, it uses color to denote if the category returns are positive (black) or negative (red). For example, Multi-Cap Russell 3000 Growth produced 20% positive returns within the one-year time period and is shown with color fill in both directions from the zero line to purposefully duplicate the large gains and specifically uses black color fill to indicate the returns are positive. As evident from the name, the symmetrical chart doubles the returns to emphasize the amount of color fill.
@@ -278,18 +280,19 @@ Next, you might wonder how you would have fared if you had invested in certain f
 
 ### Conclusions
 ![](images/pattern-3.png)
+
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
 
 The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@data_meaning]
 
 ## Chart types
-Let's review the most commonly used chart types and explain what circumstance should better use typical chart and the pros and cons of each type of chart. Before introducing different types of charts, you can use the following website to familiar with different types of charts [@charts_viz]. 
+Let's review the most commonly used chart types, where it would be appropriate to use the typical chart and the pros and cons of each type of charts. Before introducing different types of charts, you can use the following website to familiarize yourself with different types of charts [@charts_viz]. 
 
 ### Time Series Data
 
 What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
-Temporal visualizations are one of the simplest, quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
+Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
 source: [@aya-time-series]
 
 ### Line Graph
