@@ -2,6 +2,10 @@
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
+Reference:[@Measures]
+
+This article [@interworks] is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+=======
 [@interworks]
 
 [@gunviolence]
@@ -283,7 +287,7 @@ Next, you might wonder how you would have fared if you had invested in certain f
 
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
 
-The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@data_meaning]
+The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@greater]
 
 ## Chart types
 Let's review the most commonly used chart types, where it would be appropriate to use the typical chart and the pros and cons of each type of charts. Before introducing different types of charts, you can use the following website to familiarize yourself with different types of charts [@charts_viz]. 
