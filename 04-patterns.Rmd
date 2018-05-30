@@ -480,6 +480,32 @@ In Figure 3, varied performance results become clear with a layered approach to 
 
 The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@greater]
 
+## Takeaways from recreating one chart using 24 tools
+
+Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools [@different_tools]. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well has her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+
+### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals
+Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. And as the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer; so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something? 
+
+![](images/analysis_spectrum.png)
+
+The author also notes that the flexibility of a tool is a sticking point as well if you need to change your data while developing a data visualization, certain apps like Illustrator will not be ideal because changing the data even slightly requires you to build the graph again from scratch. Another thing to think about is the type of chart you are trying to create is a basic, canned bar or line graph all you need (in which case something like Excel will do the trick), or does your project necessitate a more innovative or custom chart (like something possible in D3.js)? Interactivity is another big question only certain tools will make this possible.
+
+![](images/interactivity.png)
+
+### Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets
+This section of the article is all about the difference in people's preferences and opinions; from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people. 
+
+### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'
+Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
+
+![](images/apps_vs_code.png)
+
+### Takeaway 4: Every Tool Forces You Down a Path
+Rost quotes her former NPR Visuals teammate for the final lesson header, pointing out that tools themselves influence the development of a data visualization with their respective features, strengths, and limitations. 
+
+![](images/tools_force_paths.png)
+
 
 ## Chart types
 This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each. The following website describes the chart types in detail [@charts_viz]. 
