@@ -113,6 +113,44 @@ In **Data Visualization**, the primary goal is to convey the information efficie
 Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
 
 
+## An example to back some of our theories on 'how to tell stories using data visualization' and 'exploratory data visualization'
+
+[@DataUSA]
+MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries etc.
+Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.
+What stands out is the categorization of information on the website which enables the following:
+
+1. Easy browsing of various categories of information available at a single glance
+2. An easy search on any topic of interest and get deeper information
+3. Logical construction of information using data and visuals under each category
+4. Comparative analysis of cities
+5. Variety of exploratory visualizations to learn from 
+6. Most important - Storytelling through data, such as the evolution of the American Worker, how poverty is bad for your health, how men still dominate in the highest paying industries, and opioid addiction damage. 
+
+We think of a topic, and it's possible it's there! The benefits is a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
+There are also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
+
+**Automatic visualization is a bad idea, generally speaking.** Some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
+
+But full-on automation where insight fountains out from any dataset are farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. The most interesting visualizations are context-specific.[@auto_viz]
+
+Data analytics software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. However, data visualization still leaves room for interpretation. However, technology is catching up. Narrative generation software can run as a plug-in to your dashboards. Tools like Savvy actually install on your server and allow every dashboard user to get a written summary on demand. This software is fully plugged and play, it takes seconds to install, and it’s easy to use. It runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. It is an example of how automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.[@work_place]
+
+According to Alysson Ferreira, a UI Engineer, there is an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for meaningful sources of trustworthy information.[@UI_engineer]
+
+This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into convenient graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.[@future_viz]
+
+Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
+
+Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automatic analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+
+The focus in today's world has been on open source tools and technologies and these tools although being free for the most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
+
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript-based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
+
+Ultimately, the focus should be on our goals rather than our tools.
+
+
 ## Additional Resources for Aspiring Data Visualists
 
 Data visualization domain is huge and an aspiring visualist, a person who has the capability to link between storytelling and data-experience design can further broaden his/her knowledge through:
