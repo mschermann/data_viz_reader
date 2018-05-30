@@ -1,11 +1,214 @@
 # Patterns
 
+##How to customize a legend in MATLAB
+Legend creates a legend with descriptive labels for each plotted data series. A good legend helps us to better understand the graph. For instance, we can accurately tell the meaning for a line of a plot or we can understand the extent range for certain colors from a legend. Without a legend, everything can be confusing for the readers.
+I would like to introduce some basic methods of customizing a legend. 
+
+**Add a basic legend**
+First, we use the legend() function to add a basic legend. For example, say we already have a line graph and there are several lines on that plot. We can simply add a legend to distinguish them from each other by using the ax.legend() function.
+
+```{html}
+<!DOCTYPE html>
+import matplotlib.pyplot as plt
+plt.style.use('classic')
+%matplotlib inline
+import numpy as np
+
+x = np.linspace(0, 10, 1000)
+fig, ax = plt.subplots()
+ax.plot(x, np.sin(x), '-b', label='Sine')
+ax.plot(x, np.cos(x), '--r', label='Cosine')
+ax.axis('equal')
+leg = ax.legend();
+</script>
+```
+
+![](images/legend1.png)
+**Add a legend on different position**
+If we want it on a specific position of the plot, we can use loc='upper left' inside the function to indicate where you want to put the legend at. 
+```{html}
+<!DOCTYPE html>
+ax.legend(loc='upper left', frameon=False)
+fig
+</script>
+```
+![](images/legend2.png)
+
+**Customize a box surrounding the legend**
+Also, we can decide whether you need a box surrounding the legend or not. 
+
+```{html}
+<!DOCTYPE html>
+ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
+fig
+</script>
+```
+![](images/legend3.png)
+
+**Legend for size of points**
+
+```{html}
+import pandas as pd
+cities = pd.read_csv('data/california_cities.csv')
+
+# Extract the data we're interested in
+lat, lon = cities['latd'], cities['longd']
+population, area = cities['population_total'], cities['area_total_km2']
+
+# Scatter the points, using size and color but no label
+plt.scatter(lon, lat, label=None,
+            c=np.log10(population), cmap='viridis',
+            s=area, linewidth=0, alpha=0.5)
+plt.axis(aspect='equal')
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.colorbar(label='log$_{10}$(population)')
+plt.clim(3, 7)
+
+# Here we create a legend:
+# we'll plot empty lists with the desired size and label
+for area in [100, 300, 500]:
+    plt.scatter([], [], c='k', alpha=0.3, s=area,
+                label=str(area) + ' km$^2$')
+plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
+
+plt.title('California Cities: Area and Population');
+</script>
+```
+![](images/legend4.png)
+
+**Multiple legends**
+```{html}
+<!DOCTYPE html>
+fig, ax = plt.subplots()
+
+lines = []
+styles = ['-', '--', '-.', ':']
+x = np.linspace(0, 10, 1000)
+
+for i in range(4):
+    lines += ax.plot(x, np.sin(x - i * np.pi / 2),
+                     styles[i], color='black')
+ax.axis('equal')
+
+# specify the lines and labels of the first legend
+ax.legend(lines[:2], ['line A', 'line B'],
+          loc='upper right', frameon=False)
+
+# Create the second legend and add the artist manually.
+from matplotlib.legend import Legend
+leg = Legend(ax, lines[2:], ['line C', 'line D'],
+             loc='lower right', frameon=False)
+ax.add_artist(leg);
+```
+![](images/legend5.png)
+
+
+
+
+### R for Data Visualization
+**Summary from book "R for Data Science" Chapter 3** [link](http://r4ds.had.co.nz/data-visualisation.html)
+#### Formula: layered Grammar of Graphics
+ggplot(data = \<DATA\>) +  
+
+<GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
+                stat = \<STAT\>,   
+                position = \<POSITION\>  ) + 
+
+<COORDINATE_FUNCTION> +  
+
+<FACET_FUNCTION>
+
+The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
+
+#### Explanations of Formula
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+# Install Packages
+library("tidyverse")
+library("gapminder")
+```
+**Aes/Mapping: Global Mapping and Local Mapping**
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
+geom_point(mapping = aes(color = class)) +  
+geom_smooth()
+
+"mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = aes(color = class)) +  geom_smooth()
+```
+**Position Adjustment**
+
+1. "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
+
+2. "Fill" position works like stacking, but makes each set of stackedbars the same height. This makes it easier to compare proportions across groups.
+
+3. "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
+
+4. "Jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
+
+**Coordinate Systems**
+1. default: Cartesian 
+
+2. coord_flip() switches the x- and y-axes. Very usefulif you want horizontal boxplots.
+
+```{r }
+ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
+
+ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
+  coord_flip()
+```
+3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw map.
+
+4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
+
+### Data Mining vs.Data Visualization
+In **Data Mining**, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
+
+**Building advanced analytics application with TabPy**
+ [@TabPy]
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+
+##Best Practices in Visual Analysis
+Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
+ 
+Some of the key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples of how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
+ 
+This is a great starting point for creating effective charts and we may use these principles also when we start doing advanced analytics.
+
+### Three Rules to Follow in order to Develop Intuitive Dashboards
+Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
+  
+#### The dashboard should read left to right
+Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+ 
+#### Group related information together 
+Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+ 
+#### Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+**Maps**
+    
+Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+
+## Color
+A. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
+B. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need a legend to interpret things. Color can be used to leverage long-term memory very quickly.
+C. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
 Reference:[@Measures]
 
 This article [@interworks] is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
-=======
+
 [@interworks]
 
 [@gunviolence]
