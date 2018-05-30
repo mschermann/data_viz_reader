@@ -1,11 +1,10 @@
 # Patterns
 
-##How to customize a legend in MATLAB
-Legend creates a legend with descriptive labels for each plotted data series. A good legend helps us to better understand the graph. For instance, we can accurately tell the meaning for a line of a plot or we can understand the extent range for certain colors from a legend. Without a legend, everything can be confusing for the readers.
-I would like to introduce some basic methods of customizing a legend. 
+## How to customize a legend in Python with matplotlib
+A legend shows descriptive labels and their respective color or shape for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
 **Add a basic legend**
-First, we use the legend() function to add a basic legend. For example, say we already have a line graph and there are several lines on that plot. We can simply add a legend to distinguish them from each other by using the ax.legend() function.
+First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, say we already have a line graph with multiple lines. We can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
 ```{html}
 <!DOCTYPE html>
@@ -24,8 +23,9 @@ leg = ax.legend();
 ```
 
 ![](images/legend1.png)
+
 **Add a legend on different position**
-If we want it on a specific position of the plot, we can use loc='upper left' inside the function to indicate where you want to put the legend at. 
+To specify the position of the legend, the 'loc' parameter inside the function can be used: 
 ```{html}
 <!DOCTYPE html>
 ax.legend(loc='upper left', frameon=False)
@@ -35,7 +35,7 @@ fig
 ![](images/legend2.png)
 
 **Customize a box surrounding the legend**
-Also, we can decide whether you need a box surrounding the legend or not. 
+We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
 ```{html}
 <!DOCTYPE html>
@@ -105,9 +105,9 @@ ax.add_artist(leg);
 
 
 
+## R for Data Visualization
+**Summary of Chapter 3 from book "R for Data Science" by Grolemund and Wickham** [link](http://r4ds.had.co.nz/data-visualisation.html)
 
-### R for Data Visualization
-**Summary from book "R for Data Science" Chapter 3** [link](http://r4ds.had.co.nz/data-visualisation.html)
 #### Formula: layered Grammar of Graphics
 ggplot(data = \<DATA\>) +  
 
@@ -152,7 +152,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 **Coordinate Systems**
 1. default: Cartesian 
 
-2. coord_flip() switches the x- and y-axes. Very usefulif you want horizontal boxplots.
+2. coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
@@ -164,27 +164,23 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
 
 4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
 
-### Data Mining vs.Data Visualization
-In **Data Mining**, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
-In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
 
-**Building advanced analytics application with TabPy**
+## Building advanced analytics application with TabPy
  [@TabPy]
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
- Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!
+ TabPy allows us to integrate and visualize data from Python in Tableau. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
  There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
-
-##Best Practices in Visual Analysis
-Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
  
-Some of the key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples of how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
- 
-This is a great starting point for creating effective charts and we may use these principles also when we start doing advanced analytics.
 
-### Three Rules to Follow in order to Develop Intuitive Dashboards
-Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
+## Best Practices in Visual Analysis
+Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful resource for those interested in using simple and effective visualizations that tell the complete story. 
+ 
+Some of the key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, and geographical data. The author gives examples of how simple graphs can be made more effective by adding a few more elements or making simple adjustments. 
+ 
+
+## Three Rules to Follow in order to Develop Intuitive Dashboards
+Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
   
 #### The dashboard should read left to right
 Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
@@ -194,28 +190,23 @@ Grouping related data together is an intuitive way to help the flow of the visua
  
 #### Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
 Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+
 **Maps**
-    
 Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
 
-## Color
+
+## Leveraging Color in Visuals
 A. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
 B. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need a legend to interpret things. Color can be used to leverage long-term memory very quickly.
 C. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
 Reference:[@Measures]
 
-This article [@interworks] is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
 
-[@interworks]
-
-[@gunviolence]
-
-This article  is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" referenced above .This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
-
-This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The author explains a situation where poor data visualization led to bad decisions and the negative impact of these decisions.
 
 ## Outlier Detection
 
@@ -253,9 +244,6 @@ Detection of Outliers is performed using:
 * Multivariate Approach
 * Multivariate Model Approach
 
-## Genetic Network Reconstruction
-
-Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data, microarray data or DNA sequences. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus, visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
 ## Tips to Improve Data Visualization
 
@@ -351,7 +339,7 @@ One good use of a map is to show points or specific locations. This style can sh
 Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
 Source: [@Bradshaw]
 
-## Chose the right baseline in data visualization
+## Choose the right baseline in data visualization
 The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
 
 ```{r}
