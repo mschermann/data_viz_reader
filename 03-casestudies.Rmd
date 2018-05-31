@@ -37,7 +37,7 @@ The challenges that Uber faced to craft geospatial visualizations include:
 
 To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. 
 
-The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people/startups to pinpoint and make appropriate visualization that support decision making process.  
+The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people/startups to pinpoint and make appropriate visualization that supports decision-making process.  
 
 ![Uber Route Maps](images/uber_mapping.png)
 
@@ -52,7 +52,7 @@ What makes this a good visualization is that it is very easy to read and interpr
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
 ### U.S. Migration Patterns 
-The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations varies based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between their charts for California and Pennsylvania.
+The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between their charts for California and Pennsylvania.
 
 ![Migration from California](images/CA_migration.png)
 
@@ -196,7 +196,7 @@ Much of what computational linguists fall back upon to improve natural language 
 Visualizations can also be used as an aid in the process of research itself. There are special statistical methods, falling under the rubric of "exploratory data analysis", and visualization techniques just for this purpose. But these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
 
 ### State of the Union 2014 Minute by Minute on Twitter
-Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hash tag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
+Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
 
 ![](images/SotU2014.png)
 
@@ -276,7 +276,7 @@ Original Version:
 
 ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories. However it is unclear what his intent was when adding the yearly data split by districts.
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories. However, it is unclear what his intent was when adding the yearly data split by districts.
 
 ### Is it Better to Rent or Buy?
 There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful in price comparison: if you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
