@@ -106,7 +106,8 @@ ax.add_artist(leg);
 
 
 ## R for Data Visualization
-**Summary of Chapter 3 from book "R for Data Science" by Grolemund and Wickham** [link](http://r4ds.had.co.nz/data-visualisation.html)
+### Summary of Chapter 3 from book "R for Data Science" by Grolemund and Wickham
+[link](http://r4ds.had.co.nz/data-visualisation.html)
 
 #### Formula: layered Grammar of Graphics
 ggplot(data = \<DATA\>) +  
@@ -163,30 +164,23 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
 3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw map.
 
 4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
+### Reusable Data Visualization Code
+[@viz_R]
 
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". There is a base plot and then other aspects of the plot such as aesthetics, titles ,and labels are added to using extra code. For those who favor Python for data visualization, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
-## Building advanced analytics application with TabPy
- [@TabPy]
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!
- TabPy allows us to integrate and visualize data from Python in Tableau. 
- The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
+```{r}
+library(ggplot2)
 
-## Three Rules to Follow in order to Develop Intuitive Dashboards
-Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
-  
-#### The dashboard should read left to right
-Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
- 
-#### Group related information together 
-Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
- 
-#### Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
-Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
+theme_set(theme_bw())  #set background theme
 
-**Maps**
-Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
 
+plot(plot1)  #we have to actually call the plot() function on the plot object we created
+```
+
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
 ## Leveraging Color in Visuals
 |Use Case | Tip | Rationale |
@@ -720,25 +714,6 @@ function pathMonth(t0) {
 </script>
 ```
 
-
-## Reusable Data Visualization Code in R
-[@viz_R]
-
-This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". There is a base plot and then other aspects of the plot such as aesthetics, titles ,and labels are added to using extra code. For those who favor Python for data visualization, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
-
-To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
-```{r}
-library(ggplot2)
-
-theme_set(theme_bw())  #set background theme
-
-plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
-
-plot(plot1)  #we have to actually call the plot() function on the plot object we created
-```
-
-The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
-
 ## Data Mining and Data Visualization
 
 According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. [@data_mining]
@@ -792,8 +767,8 @@ ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) +
 Diverging bar charts are also convenient to create in Tableau.  Below is an example using survey response data.
 
 ![](images/diverging_bar.png)
-
-## 10 Useful Python Data Visualization Libraries 
+## Python for Data Visualization
+### 10 Useful Python Data Visualization Libraries 
 
 [@PythonDataVizLibraries]
 
@@ -811,15 +786,34 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 **Gleam** | Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so users can filter and sort data. |
 **Missingno** | Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram. |
 **Leather** | Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic-but that's the intention. |
-
+### Building advanced analytics application with TabPy
+ [@TabPy]
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!
+ TabPy allows us to integrate and visualize data from Python in Tableau. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
 
 ##Top 5 best practices for creating effective dashboards and the 7 mistakes you don't want to make [@dashboard_practices]:
 
 What is a dashboard? 
 
 Stephen Few wrote: "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance."
+## Dashboards
+### Three Rules to Follow in order to Develop Intuitive Dashboards
+Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
+  
+#### The dashboard should read left to right
+Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
+ 
+#### Group related information together 
+Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
+ 
+#### Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
+Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
 
-**5 best practices to create effective dashboards:**
+**Maps**
+Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+### 5 best practices to create effective dashboards:
 
 1.	**Choose metrics based on why they matter**: Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. 
 
@@ -834,7 +828,7 @@ Interactive, highly visual dashboards should enable audience  to perform basic a
 
 5.	**Make it simple to access and use**: Making dashboards easily accessible is very critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is  posting files on websites, Wiki's or blogs.
 
-**7 mistakes to avoid :**
+### 7 mistakes to avoid:
 
 1.	**Starting off with too much complexity**: It's very tempting to  provide highly detailed, real-time dashboards. But instead of spending a lot of time working through the first iteration, it's better to work through several short cycles of prototyping, testing and adjusting. 
 
