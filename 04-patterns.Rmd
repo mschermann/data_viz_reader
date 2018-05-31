@@ -3,8 +3,8 @@
 ## How to customize a legend in Python with matplotlib
 A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
-**Add a basic legend**
-First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, say we already have a line graph with multiple lines. We can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
+### Add a basic legend
+First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
 ```{html}
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ leg = ax.legend();
 
 ![](images/legend1.png)
 
-**Add a legend on different position**
+### Add a legend on different position
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
 ```{html}
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ fig
 ```
 ![](images/legend2.png)
 
-**Customize a box surrounding the legend**
+### Customize a box surrounding the legend
 We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
 ```{html}
@@ -45,7 +45,7 @@ fig
 ```
 ![](images/legend3.png)
 
-**Legend for size of points**
+### Legend for size of points
 
 ```{html}
 import pandas as pd
@@ -77,7 +77,7 @@ plt.title('California Cities: Area and Population');
 ```
 ![](images/legend4.png)
 
-**Multiple legends**
+### Multiple legends
 ```{html}
 <!DOCTYPE html>
 fig, ax = plt.subplots()
@@ -106,10 +106,9 @@ ax.add_artist(leg);
 
 
 ## R for Data Visualization
-### Summary of Chapter 3 from book "R for Data Science" by Grolemund and Wickham
-[link](http://r4ds.had.co.nz/data-visualisation.html)
+[Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
 
-#### Formula: layered Grammar of Graphics
+### Formula: layered Grammar of Graphics
 ggplot(data = \<DATA\>) +  
 
 <GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
@@ -121,8 +120,6 @@ ggplot(data = \<DATA\>) +
 <FACET_FUNCTION>
 
 The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
-
-#### Explanations of Formula
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 # Install Packages
@@ -144,7 +141,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 
 1. "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
 
-2. "Fill" position works like stacking, but makes each set of stackedbars the same height. This makes it easier to compare proportions across groups.
+2. "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
 
 3. "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
 
@@ -161,13 +158,13 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
   coord_flip()
 ```
-3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw map.
+3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
 
-4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
+4. coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 ### Reusable Data Visualization Code
 [@viz_R]
 
-This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". There is a base plot and then other aspects of the plot such as aesthetics, titles ,and labels are added to using extra code. For those who favor Python for data visualization, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
 To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
 ```{r}
@@ -180,30 +177,27 @@ plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), s
 plot(plot1)  #we have to actually call the plot() function on the plot object we created
 ```
 
-The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
 Reference:[@Measures]
 
-This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 
 ## Outlier Detection
 
 We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
-**Type 1:** Global outliers (also called “point anomalies”): 
-A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
+| Outlier | Description |
+| ------- | ----------- |
+Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
+Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
+Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
 
-**Type 2:** Contextual (conditional) outliers: 
-A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data.
-
-**Type 3:** Collective outliers: 
-A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group.
-
-Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions. Illustration: 
+Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions.
 
 ```{r Outliar Detection, echo=TRUE}
 # Inject outliers into data.
@@ -269,9 +263,9 @@ When we are choosing the type of chart, we need to answer some questions:
 
 After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different types of chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
  
-## Why pie chart is bad: a comparison with the bar chart
+## Why Pie Charts are Bad: a Comparison with the Bar Chart
 
-Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
+Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
 
 [@hickey-pie-worst] 
 
@@ -279,7 +273,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 [@quach-penny]
 
-1. Some information may look nearly identical in a pie chart. But if the data is presented with bar charts, the story is different.
+1. Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 ![](images/hickey-before.jpg)
@@ -290,21 +284,21 @@ See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
 See figure \@ref(fig:hickey-breakdown) for example.
 
 ![](images/hickey-breakdown.jpg)
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-3. A Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
+3. A pie chart is easily manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
 
 ![](images/hickey-3D.jpg)
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-4. A Pie chart may be useful when comparing 2 different categories with different amounts of information.
-Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
+4. A pie chart may be useful when comparing two different categories with different amounts of information.
+Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
 
 ![](images/henry-quarter.png)
 
@@ -314,17 +308,17 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 <sup>Source: [@henry-defense-pie]</sup>
 
 ## Use maps only when effective
-Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at the first glance they seem like a great option.
+Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option.
 
-However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job at this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
+However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to conveying the desired message, then a visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
 
-One good use of a map is to show points or specific locations. This style can show how points are distributed and reveal patterns such as certain areas having more high end restaurants. This is not the right approach if the points do not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. A map of this kind can also lose its meaning if there are too many points and the data blurs together.
+One good use of a map is to show points or specific locations. This use of a map can show how points are distributed and reveal patterns, for example, certain areas having more high end restaurants. This is not the right approach if the geographic information does not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. Caution should also be exercised with map visualizations if there are too many points and the data blurs together, causing the data to lose its meaning. 
 
-Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
+Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly, but many people misuse them. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes does not significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
 Source: [@Bradshaw]
 
 ## Choose the right baseline in data visualization
-The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
+The baseline is very important to data visualization. If the baseline is different, the appearance of the data may change drastically. Here is a case study to show the importance of baseline:
 
 ```{r}
 # Create the data.
@@ -335,7 +329,7 @@ data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
 
-1. Regular quarterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
+1. Regular quarterly sales. We see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
 par(cex.axis=0.7)
@@ -434,7 +428,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 So before we start to plot, we should decide the baseline we want to use. Different baselines will lead to totally different graphs.
 source: [@Baseline_2013]
 
-## Using design patterns to find greater meaning in your data
+## Using Design Patterns to Find Greater Meaning in Your Data
 
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity. 
 
