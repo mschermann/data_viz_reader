@@ -1,7 +1,7 @@
 # Patterns
 
 ## How to customize a legend in Python with matplotlib
-A legend shows descriptive labels and their respective color or shape for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
+A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
 **Add a basic legend**
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, say we already have a line graph with multiple lines. We can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
@@ -210,7 +210,7 @@ This article [@interworks] introduces the methodologies on how to use shapes as 
 
 ## Outlier Detection
 
-We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed during the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
+We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
 **Type 1:** Global outliers (also called “point anomalies”): 
 A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
@@ -281,7 +281,7 @@ When we are choosing the type of chart, we need to answer some questions:
 
 * How many features would you like to show in a chart? 
 * How many data points do you want to display for each variable? 
-* Will you display time series data or other items or groups. 
+* Will you display time series data or other items or groups? 
 
 After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different types of chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
  
@@ -459,7 +459,7 @@ Patterns based on function can help you see differences and similarities more cl
 ### Comparisons
 ![](images/patten-1.jpg)
 
-As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
+As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large-Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
 
 ### Connections
@@ -482,7 +482,7 @@ The line weights help to identify each entry point and show the range of differe
 
 ## Takeaways from recreating one chart using 24 tools
 
-Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools [@different_tools]. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well has her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools [@different_tools]. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
 
 ### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals
 Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. And as the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer; so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something? 
@@ -598,7 +598,7 @@ Think beyond the straight line! Sometimes, time series data can be cyclical -- a
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since the area of a circle is proportional to the square of the radius).
 
-This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the the text legend for more details.)
+This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the  text legend for more details.)
 
 ![](images/aya-polar.jpg)
 
@@ -607,7 +607,7 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 [@TimeSeries]
 This article explains how time series data visualization can sometimes be deceptive. 
 
-It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessary mean causation"**. 
+It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
@@ -823,7 +823,7 @@ Seaborn harnesses the power of matplotlib to create beautiful charts in a few li
 ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.
 
 **4.	Bokeh**
-Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it's native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can be easily give the output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data.
+Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it's native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can easily give the output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data.
 
 **5.	Pygal**
 Like Bokeh and Plotly, pygal offers interactive plots that can be embedded in the web browser. Its prime differentiator is the ability to output charts as SVGs. As long as you're working with smaller datasets, SVGs will do you just fine. But if you're making charts with hundreds of thousands of data points, they'll have trouble rendering and SVG will become sluggish.
@@ -854,7 +854,7 @@ Stephen Few wrote: "A dashboard is a visual display of the most important inform
 
 1.	**Choose metrics based on why they matter**: Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. 
 
-2.	**Keep it visual**: Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the the translation of individual department objectives into broader organizations objective.
+2.	**Keep it visual**: Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the  translation of individual department objectives into broader organizations objective.
 Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. 
 
 3.	**Make it interactive**:  When different information is on the same page, different viewers will have different questions as per their area of interest. Dashboard should allow viewers to customize to get the information they need. 
