@@ -87,10 +87,10 @@ Rhythm | A design has proper rhythm when the design elements create the movement
 Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked. Variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.
 Unity | Unity across design will happen naturally if all other design principles are implemented.
 
-## Tufte's Design Principles of Graphical Excellence
+### Tufte's Design Principles of Graphical Excellence
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-### Principle 1: Maximizing the data-ink ratio, within reason
+#### Principle 1: Maximizing the data-ink ratio, within reason
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic's ink devoted to the non-redundant display of data-information.
 
 $${Data \ Ink \ Ratio} = \frac{{Data \ Ink}}{{Total \ Ink}}$$
@@ -114,18 +114,18 @@ This basic idea is illustrated in the following visualizations.
 
 The graphs will be better for more information per unit of space and per unit of ink is displayed. Graphics are almost always going to improve as they go through editing, revision, and testing against different design options. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
-### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
 ![](images/Tufte_figure6.png)
 (Source: [@Tufte_2001])
 
-### Principle 3: Maximize data density and the size of the data matrix, within reason.
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
 High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).
 
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
-### Principle 4: Escape flatland - small multiples, parallel sequencing.
+#### Principle 4: Escape flatland - small multiples, parallel sequencing.
 Data is multivariate. Doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces?
 
 ![Example for Small Multiples](images/Tufte_figure8.png)
@@ -135,13 +135,13 @@ Data is multivariate. Doesn't necessarily mean 3D projection. How can we enhance
 ![Example for parallel sequencing](images/Tufte_figure7.png)
 (Source: [@Tufte_2001])
 
-### Principle 5: Provide the user with an overview and details on demand.
+#### Principle 5: Provide the user with an overview and details on demand.
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 ![](images/Tufte_figure9.png)
 (Source: [@Tufte_2001])
 
-### Principle 6: Utilize Layering & Separation.
+#### Principle 6: Utilize Layering & Separation.
 Supported by Gestalt laws (The principles of grouping):
 
  1. Grouping with colors
@@ -151,7 +151,7 @@ Supported by Gestalt laws (The principles of grouping):
 ![](images/Tufte_figure10.png)
 (Source: [@Tufte_2001])
 
-### Principle 7: Utilize narratives of space and time.
+#### Principle 7: Utilize narratives of space and time.
 Tell a story of position and chronology through visual elements.
 
 ![](images/Tufte_figure11.png)
@@ -159,6 +159,18 @@ Tell a story of position and chronology through visual elements.
 (Source: [@narratives_2017])
 ![](images/Tufte_figure12.png)
 (Source: [@narratives_2017])
+
+### More ways to improve your visualization design
+From online surveys to beefed-up analytics, we're able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
+
+There's a wealth of free resources out there in the form of handy little design ebooks.
+
+| Title | Author | Description |
+|------|--------|-----------------------------------------------------------
+|Design's Iron Fist | Jarrod Drysdale | This free ebook is a collection of Drysdale's previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
+|The Creative Aid Handbook | Kooroo Kooroo | Creativity doesn't just happen overnight. It's something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
+|Designbetter.co | InVision | InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
+|Type Classification | | Type Classification is a helpful beginner's guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
 
 ## Adapt your story to a different set of audiences
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
@@ -184,6 +196,7 @@ Grouping related data together is an intuitive way to help the flow of the visua
 Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
 
 ## Data Visualization Tools
+### Brief Introduction
 Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
 
 **Tool** | **Description**
@@ -196,9 +209,9 @@ Due to the rise of big data analytics, there has been an increased need for data
 **Plotly**| It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.
 **Sisense**|It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
 
-## Comparison of Different Tools
+### Comparison of Different Tools
 
-### Interactive Data Visualization 
+#### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
  
 1. Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making. 
@@ -209,7 +222,7 @@ Interactive or Dynamic data visualization delivers today's complex sea of data i
  
 **There are multiple ways by which interactive data visualizations can be developed.**
  
-### D3.js 
+#### D3.js 
 D3.js stands for Data-Driven Document, a JS library for interactive Big Data visualization in literally ANY way required real-time[@d3_interactive_viz]. This is not a tool, mind you, so a user should have a solid understanding of JavaScript to work with the data and present it in a humanly-understandable form. To say more, this library renders the data into SVG and HTML5 formats, so older browsers like IE7 and 8 cannot leverage D3.js capabilities.
 
 The data gathered from disparate sources like huge-scale data sets is bind in real-time with DOM to produce interactive animations ( 2D and 3D alike) in an extremely rapid way. The D3 architecture allows the users to intensively reuse the codes across a variety of add-ons and plug-ins. Some of the key advantages are: It is dynamic, free and open source and very flexible with all web technologies, the ability to handle big data and the functional style allows to reuse the codes.
@@ -220,7 +233,7 @@ It starts from the insights of learning d3.js by showing interviews with those t
 
 My favorite part of this guide is it lists a lot of useful resources links for learning d3.js. For example, it recommends d3 API Reference, 2000+ d3 case studies and tutorials for d3. I did my exploratory analysis version of group project on d3. And I found this guide helpful during the progress. It also includes some meetup groups here in the bay area. So, maybe we can meet data friends through the group.
 
-### Tableau
+#### Tableau
 Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
 
 The following tips for Tableau are still missing:
@@ -237,13 +250,10 @@ The following tips for Tableau are still missing:
  
 **The key advantages** are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@ExtremePre].
 
-### R Shiny
+#### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
- 
-### Jupyter
-<TODO>
 
-### Google chart
+#### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@Top4VizTools].
 
 ## Typography and Data Visualization
@@ -326,15 +336,3 @@ Here's the process on how to get it done.
 * **Adapting the Publication and Review Process:** As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
 * **Promoting Discussion and Accretion:** Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
 * **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on [Designing Computer Science Experiments](http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock's Practical Statistics for HCI and Pierre Dragicevic's resources for reforming statistical practice.
-
-## More ways to improve your visualization design
-From online surveys to beefed-up analytics, we're able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
-
-There's a wealth of free resources out there in the form of handy little design ebooks.
-
-| Title | Author | Description |
-|------|--------|-----------------------------------------------------------
-|Design's Iron Fist | Jarrod Drysdale | This free ebook is a collection of Drysdale's previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
-|The Creative Aid Handbook | Kooroo Kooroo | Creativity doesn't just happen overnight. It's something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
-|Designbetter.co | InVision | InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
-|Type Classification | | Type Classification is a helpful beginner's guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
