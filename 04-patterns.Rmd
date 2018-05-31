@@ -258,10 +258,6 @@ Analytic results shouldn’t be presented to 10 decimal places when the user doe
 
 Reference: [@French] [@Steier]
 
-## Building Advanced Analytics Application with TabPy 
-[@TabPy]
-Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the dependent variable! Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. 
-
 ## Pick the Right Chart Type
 Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurements, the better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgment.
 
