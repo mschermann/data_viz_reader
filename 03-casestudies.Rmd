@@ -1,6 +1,6 @@
 # Case Studies
 
-Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs, but which might still fail to convince the readers. The links show some intricate visualizations of some of these important and relevant topics - visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of the text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues.
+Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs might still fail to convince the readers. The links below show some intricate visualizations of some of these important and relevant topics - visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of the text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues.
 
 This chapter contains some useful case studies on such visualizations. Case studies contain valuable information about development records. The examination and evaluation of case studies helps show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
 
@@ -9,7 +9,7 @@ This chapter contains some useful case studies on such visualizations. Case stud
 [@10_BEST] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices.
 [@int_viz_capt] | 16 Captivating Data Visualization Examples
-[@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to - from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
+[@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
 [@int_viz_capt][@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
 [@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve your visualizations, written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
 
@@ -29,15 +29,15 @@ The interactive map shows the rate of immigration into the U.S. from other count
 ### Uber: Crafting Data-Driven Maps
 Map visualization is very important for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps]. 
 
-The challenges that Uber faced to craft geospatial visualizations include:
+The challenges that Uber faced to craft geospatial visualizations:
 
-1. There are great individual maps but lack consistency as a company.
-2. Common graphing tooling like Sketch does not support GIS file, which is essential to Uber's insights.
-3. The scale of the framework includes more than 400 cities in the world with variety in different geographic features and data types.
+1. There are great individual maps but as a whole lack consistency across company.
+2. Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
+3. The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
 
 To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. 
 
-The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people/startups to pinpoint and make appropriate visualization that supports decision-making process.  
+The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
 
 ![Uber Route Maps](images/uber_mapping.png)
 
@@ -64,18 +64,18 @@ NPR tapped into American Time Use Survey data to ascertain the share of workers 
 ![](images/npr_workday.png)
 
 ### How People Like You Spend Their Time
-This visualization lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different statistics at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more [@spendingtime] referenced in [@cool_data].
+This visualization lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more ([@spendingtime] referenced in [@cool_data]).
 
 ![](images/SpendingTime.png)
 
 ### Britain's diet in data
-This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less and the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
+This is a good example about how to present a large amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last 4 decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and rich foods are being consumed less while the healthier and leaner foods are being consumed more. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every major food group.
 
 ![](images/britain-diet-data-trends.PNG)
 Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Such a visualization is ideal for the layman who would want to walk away with a basic but accurate understanding of the dietary changes. It also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte :"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." [@visual_display].
+Such a visualization is ideal for the layman who would want to walk away with a basic and accurate understanding of the dietary changes. It also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte :"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." [@visual_display].
 
 ### Selfie City
 Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies [@selfie]. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in New York and Berlin for example, as well as those between men and women across the world.
@@ -175,7 +175,7 @@ Overall, this is an engaging, informative, and a fun animated plot that has rele
 ![](images/life_of_americans.png)
 
 ### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
-Global health data expert Hans Rosling’s famous statistical documentary The Joy of Stats aired on BBC in 2010, but it’s still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
+Global health data expert Hans Rosling’s famous statistical documentary "The Joy of Stats" aired on BBC in 2010, but it’s still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
 
 ![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
 
@@ -191,7 +191,7 @@ This case study is about the usage of linguistic concepts; it discusses how the 
 
 HistoBankVis, is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work [@lingui_data1]. In this paper, the visualization’s efficacy and power is illustrated by means of a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
-Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limits their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation. 
+Much of what computational linguists falls back upon to improve natural language processing and model language "understanding" is structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limits their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation. 
 
 Visualizations can also be used as an aid in the process of research itself. There are special statistical methods, falling under the rubric of "exploratory data analysis", and visualization techniques just for this purpose. But these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
 
@@ -355,15 +355,15 @@ To read the full paper, please follow the reference link:
 
 [@gapminder]
 
-### How Data Visualization is Helping in Healthcare Decision Making?
+### How Data Visualization is Helping in Healthcare Decision Making
 
 [@marksman]
 
-Healthcare service providers increasingly investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
+Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
  
 Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and effective interaction techniques which are being developed by researchers.
  
-Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and basic analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is effective in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R, Python, etc. also helping healthcare a lot.
+Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and basic analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is effective in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R and Python are also helping healthcare a lot.
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
 
