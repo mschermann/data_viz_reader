@@ -48,11 +48,11 @@ Data visualization is also used across many different industries. One popular ar
 
 The paper highlights three types of data that can and should be visualized to help in decision-making: personal, clinical, and public health information. Examples include: exploration of prescription patterns of different drugs and tracking personal health and fitness statistics. (Even the nice, clean Fitbit app home screen is a comprehensive dashboard!) Importantly, making sense of all this data collected from individuals will help healthcare organizations and companies provide more personalized and effective health treatment.
 
-## A Brief History of Data Visualization
-
+## History of Data Visualization
+### Brief history
 >"The only new thing in the world is the history you don’t know." — Harry S Truman  
 
-### Data Visualization: A Modern Product?
+#### Data Visualization: A Modern Product?
 
 Given the recent explosion in data availability and in visualization tools, it would be natural to assume that statistical graphics and data visualizations are relatively modern developments. However, the graphic representation of quantitative information has deep roots that reach into the histories of the earliest map-making and visual depictions, and up to thematic cartography, statistics, medicine, and other fields.  
 
@@ -70,23 +70,23 @@ Pre-17th Century | Early Maps and Diagrams | Data visualization has come a long 
 1975–present | High-D, Interactive and Dynamic Data Visualization | During the last quarter of the 20th century, data visualization has blossomed into a mature, vibrant and multidisciplinary area of research, as seen in this handbook, and software tools for a wide range of visualization methods and data types are available for every computer.
 
 
-## Key Figures in the History of Data Visualization
+### Key Figures in the History of Data Visualization
 
 The history of data visualization is full of incredible stories marked by major events, led by a few key players. The article [@history_viz] introduces some of the amazing men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard, whose most famous work is the map of Napoleon’s Russian campaign of 1812 which could be used as a data product for Data Visualization. Below we have some visualists with their famous works, and other stories in the article [@history_viz].
 
-### William Playfair (1759–1823)
+#### William Playfair (1759–1823)
 
 William Playfair is considered the father of statistical graphics, having invented the line and bar chart we use so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published "The Commercial and Political Atlas" in 1786. This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780 [@history_data_viz].
 
 ![](images/Playfair.png)
 
-### John Snow (1813–1858)
+#### John Snow (1813–1858)
 
 In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Street area had seen over 600 dead, and the surviving residents and business owners had largely fled the terrible disease. Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw a clear concentration around the water pump on Broad Street, which helped find the cause of the infection.
 
 ![](images/Snow.png)
 
-### Charles Joseph Minard (1781–1870)
+#### Charles Joseph Minard (1781–1870)
 
 Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat.This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the "best statistical drawings ever created." The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.It represents the earliest beginning of data journalism.
  
