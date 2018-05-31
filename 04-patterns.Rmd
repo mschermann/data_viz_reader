@@ -196,9 +196,11 @@ Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be us
 
 
 ## Leveraging Color in Visuals
-A. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
-B. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need a legend to interpret things. Color can be used to leverage long-term memory very quickly.
-C. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+|Use Case | Tip | Rationale |
+| ------- | ----| --------- |
+Numerical Scales | Color for numerical scales should be used with caution. | The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions. |
+Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
+Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
 
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
