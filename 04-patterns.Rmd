@@ -161,6 +161,7 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
 3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
 
 4. coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+
 ### Reusable Data Visualization Code
 [@viz_R]
 
@@ -767,7 +768,7 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 
 [@PythonDataVizLibraries]
 
-[Sample charts for each]https://blog.modeanalytics.com/python-data-visualization-libraries/
+[Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
 | Library | Description | 
 | ------- | ----------- |
