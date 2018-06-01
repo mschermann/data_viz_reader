@@ -52,7 +52,9 @@ What makes this a good visualization is that it is very easy to read and interpr
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
 ### U.S. Migration Patterns 
-The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between their charts for California and Pennsylvania.
+The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between the charts for California and Pennsylvania.
+
+Overall this type of chart can work really well to visualize movement in data over time, such as with migration. However it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very descriptive visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by west, south, midwest, etc. However it is not completely clear why so many crossing lines are necessary in the Pennsylvania chart. The crossing lines, along with use of the same color for different categories can make it difficult for a reader to follow along with what the chart is trying to convey.
 
 ![Migration from California](images/CA_migration.png)
 
