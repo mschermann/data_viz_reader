@@ -1,11 +1,10 @@
 # Patterns
 
-##How to customize a legend in MATLAB
-Legend creates a legend with descriptive labels for each plotted data series. A good legend helps us to better understand the graph. For instance, we can accurately tell the meaning for a line of a plot or we can understand the extent range for certain colors from a legend. Without a legend, everything can be confusing for the readers.
-I would like to introduce some basic methods of customizing a legend. 
+## How to customize a legend in Python with matplotlib
+A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
-**Add a basic legend**
-First, we use the legend() function to add a basic legend. For example, say we already have a line graph and there are several lines on that plot. We can simply add a legend to distinguish them from each other by using the ax.legend() function.
+### Add a basic legend
+First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
 ```{html}
 <!DOCTYPE html>
@@ -24,8 +23,9 @@ leg = ax.legend();
 ```
 
 ![](images/legend1.png)
-**Add a legend on different position**
-If we want it on a specific position of the plot, we can use loc='upper left' inside the function to indicate where you want to put the legend at. 
+
+### Add a legend on different position
+To specify the position of the legend, the 'loc' parameter inside the function can be used: 
 ```{html}
 <!DOCTYPE html>
 ax.legend(loc='upper left', frameon=False)
@@ -34,8 +34,8 @@ fig
 ```
 ![](images/legend2.png)
 
-**Customize a box surrounding the legend**
-Also, we can decide whether you need a box surrounding the legend or not. 
+### Customize a box surrounding the legend
+We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
 ```{html}
 <!DOCTYPE html>
@@ -45,7 +45,7 @@ fig
 ```
 ![](images/legend3.png)
 
-**Legend for size of points**
+### Legend for size of points
 
 ```{html}
 import pandas as pd
@@ -77,7 +77,7 @@ plt.title('California Cities: Area and Population');
 ```
 ![](images/legend4.png)
 
-**Multiple legends**
+### Multiple legends
 ```{html}
 <!DOCTYPE html>
 fig, ax = plt.subplots()
@@ -105,10 +105,10 @@ ax.add_artist(leg);
 
 
 
+## R for Data Visualization
+[Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
 
-### R for Data Visualization
-**Summary from book "R for Data Science" Chapter 3** [link](http://r4ds.had.co.nz/data-visualisation.html)
-#### Formula: layered Grammar of Graphics
+### Formula: layered Grammar of Graphics
 ggplot(data = \<DATA\>) +  
 
 <GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
@@ -120,8 +120,6 @@ ggplot(data = \<DATA\>) +
 <FACET_FUNCTION>
 
 The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
-
-#### Explanations of Formula
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 # Install Packages
@@ -143,7 +141,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 
 1. "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
 
-2. "Fill" position works like stacking, but makes each set of stackedbars the same height. This makes it easier to compare proportions across groups.
+2. "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
 
 3. "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
 
@@ -152,7 +150,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 **Coordinate Systems**
 1. default: Cartesian 
 
-2. coord_flip() switches the x- and y-axes. Very usefulif you want horizontal boxplots.
+2. coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
@@ -160,77 +158,47 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
   coord_flip()
 ```
-3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw map.
+3. coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
 
-4. coord_polar() uses polar coordinates. Polar coordinates reveal an interesting connection between a bar chart and a Coxcomb chart.
+4. coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
-### Data Mining vs.Data Visualization
-In **Data Mining**, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
-In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
+### Reusable Data Visualization Code
+[@viz_R]
 
-**Building advanced analytics application with TabPy**
- [@TabPy]
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
- Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
- The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
-##Best Practices in Visual Analysis
-Referenced below is a free pdf with some examples of best practices in visual analysis. It discusses the most effective charts for various kinds of analysis. It is a helpful and relevant resource for data science students interested in presenting analyses using simple and effective visualizations that tell the complete story. 
- 
-Some of the key areas the author highlights are visualizing trends over time, comparison and ranking, correlation, distribution, geographical data etc. The author gives examples of how simple graphs can also be made more effective simply by adding a few more elements or making simple adjustments. 
- 
-This is a great starting point for creating effective charts and we may use these principles also when we start doing advanced analytics.
+To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
+```{r}
+library(ggplot2)
 
-### Three Rules to Follow in order to Develop Intuitive Dashboards
-Often a designer can become too concerned with coming up with a visual that is too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data [@intuitive-dash].
-  
-#### The dashboard should read left to right
-Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard as dashboards are often used as a quick convenient way to look up data.
- 
-#### Group related information together 
-Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need.
- 
-#### Find relationships between seemingly unrelated areas and display visuals together to show the relationship.
-Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together.
-**Maps**
-    
-Use of maps can be tricky. Geographical data doesn't imply a map. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective as large regions will draw attention easier than smaller regions due to more concentrated color.
+theme_set(theme_bw())  #set background theme
 
-## Color
-A. Color for Numerical Scales: Color for numerical scales should be used with caution. The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions.
-B. Leverage Color Associations: When we say strawberries we associate red color with it. If we can leverage the how people associate different colors for different things, we will not even need a legend to interpret things. Color can be used to leverage long-term memory very quickly.
-C. Use Bright Colors to Highlight: To attract attention to a certain part of data, bright colors can be used. Alarm colors draw the eye quickly to areas that need attention and help get that message across.
+plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
+
+plot(plot1)  #we have to actually call the plot() function on the plot object we created
+```
+
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
+
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
 Reference:[@Measures]
 
-This article [@interworks] is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" [@gunviolence].This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. Basically, it teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
+This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
-[@interworks]
-
-[@gunviolence]
-
-This article  is useful to analyze and redesign different graphs presented in the article "America’s unique gun violence problem, explained in 17 maps and charts" referenced above .This article introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the tableau file for practice.
-
-This article explains how data visualization can enhance awareness of the data available and its importance in business decisions. The author explains a situation where poor data visualization led to bad decisions and the negative impact of these decisions.
 
 ## Outlier Detection
 
-We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed during the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
+We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
-**Type 1:** Global outliers (also called “point anomalies”): 
-A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found.
+| Outlier | Description |
+| ------- | ----------- |
+Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
+Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
+Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
 
-**Type 2:** Contextual (conditional) outliers: 
-A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data.
-
-**Type 3:** Collective outliers: 
-A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group.
-
-Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions. Illustration: 
+Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions.
 
 ```{r Outliar Detection, echo=TRUE}
 # Inject outliers into data.
@@ -253,9 +221,6 @@ Detection of Outliers is performed using:
 * Multivariate Approach
 * Multivariate Model Approach
 
-## Genetic Network Reconstruction
-
-Data visualization techniques are used to reconstruct genetic networks from genomics data. Reconstructed genetic networks are predicted interactions among genes of interest and these interactions are inferred from genomics data, microarray data or DNA sequences. Genomics data are generally contaminated and high-dimensional. It is important to examine and clean data carefully to attain meaningful inferences. Thus, visualization tools that are used in the preprocessing of data associated with genetic network reconstruction are also reviewed and chosen wisely.
 
 ## Tips to Improve Data Visualization
 
@@ -267,6 +232,12 @@ Don’t over explain if the copy already mentions a fact. The subhead, callout, 
 
 ### Color
 Use a single color to represent the same type of data. Watch out for positive and negative numbers. Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind. Make sure there is sufficient contrast between colors. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes). Select colors appropriately. Don’t use more than 6 colors in a single layout.
+#### Leveraging Color in Visuals
+|Use Case | Tip | Rationale |
+| ------- | ----| --------- |
+Numerical Scales | Color for numerical scales should be used with caution. | The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions. |
+Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
+Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
 
 ### Ordering
 Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value. Order consistently. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
@@ -282,10 +253,6 @@ Analytic results shouldn’t be presented to 10 decimal places when the user doe
 
 Reference: [@French] [@Steier]
 
-## Building Advanced Analytics Application with TabPy 
-[@TabPy]
-Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the dependent variable! Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. 
-
 ## Pick the Right Chart Type
 Data visualization is a combination of art and science. When it comes to the artistic aspect, there are no correct answers for doing the visualization. There are many ways to present the data. However, when making sense of facts, numbers, and measurements, the better understanding is promoted by a logical path to follow. To determine the best type of chart is hard for those new to data visualization. Most people learn it by referring to other people's work without understanding the underlying logic, so they don't have the theory in their mind to make the judgment.
 
@@ -293,13 +260,13 @@ When we are choosing the type of chart, we need to answer some questions:
 
 * How many features would you like to show in a chart? 
 * How many data points do you want to display for each variable? 
-* Will you display time series data or other items or groups. 
+* Will you display time series data or other items or groups? 
 
 After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different types of chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
  
-## Why pie chart is bad: a comparison with the bar chart
+## Why Pie Charts are Bad: a Comparison with the Bar Chart
 
-Using pie chart is usually considered as a bad idea when it comes to data visualization. But why? Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
+Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
 
 [@hickey-pie-worst] 
 
@@ -307,7 +274,7 @@ Using pie chart is usually considered as a bad idea when it comes to data visual
 
 [@quach-penny]
 
-1. Some information may look nearly identical in a pie chart. But if the data is presented with bar charts, the story is different.
+1. Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
 See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 ![](images/hickey-before.jpg)
@@ -318,21 +285,21 @@ See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are a lot of categories.
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
 See figure \@ref(fig:hickey-breakdown) for example.
 
 ![](images/hickey-breakdown.jpg)
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-3. A Pie chart is easy to be manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
+3. A pie chart is easily manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
 
 ![](images/hickey-3D.jpg)
 
 <sup>Source: [@hickey-pie-worst]</sup>
 
-4. A Pie chart may be useful when comparing 2 different categories with different amounts of information.
-Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. But this could be simply done by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
+4. A pie chart may be useful when comparing two different categories with different amounts of information.
+Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
 
 ![](images/henry-quarter.png)
 
@@ -341,18 +308,23 @@ Specifically, it does a better job to distinguish two parts with a 25:75 split o
 ![](images/henry-half.png)
 <sup>Source: [@henry-defense-pie]</sup>
 
-## Use maps only when effective
-Maps are a popular choice when it comes to displaying geographical data. They are more exciting than a simple bar or line chart but still easy to comprehend. Maps grab the reader's attention, so at the first glance they seem like a great option.
 
-However, just because the data can be represented on a map doesn't mean it should be. The map should be serving a purpose and telling a story. When used properly, a map does an excellent job at this. But they are not the solution every time. As with any visual, one should step back and evaluate if the map is the best way to convey their message.
+## Maps
 
-One good use of a map is to show points or specific locations. This style can show how points are distributed and reveal patterns such as certain areas having more high end restaurants. This is not the right approach if the points do not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. A map of this kind can also lose its meaning if there are too many points and the data blurs together.
+### Use maps only when effective
+Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option.
 
-Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly but must avoid common mistakes. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes doesn't significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
+However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to conveying the desired message, then a visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
+
+One good use of a map is to show points or specific locations. This use of a map can show how points are distributed and reveal patterns, for example, certain areas having more high end restaurants. This is not the right approach if the geographic information does not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. Caution should also be exercised with map visualizations if there are too many points and the data blurs together, causing the data to lose its meaning. 
+
+Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly, but many people misuse them. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes does not significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
 Source: [@Bradshaw]
 
-## Chose the right baseline in data visualization
-The baseline is very important to data visualization. If the baseline is different, the meaning will change a lot. Now here is a case study to show the importance of baseline and how to use it in different ways. 
+Use of maps can be tricky. Geographical data doesn't imply that a map is the best choice to represent it. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective since large regions will draw more attention than smaller regions due to more concentrated color.
+
+## Choose the right baseline in data visualization
+The baseline is very important to data visualization. If the baseline is different, the appearance of the data may change drastically. Here is a case study to show the importance of baseline:
 
 ```{r}
 # Create the data.
@@ -363,7 +335,7 @@ data <- as.data.frame(cbind(a,b,c))
 colnames(data) <-c("year","quater","sales")
 ```
 
-1. Regular quarterly sales. We can see sales decreased a lot around 2014.  **The baseline here is historical sales.**
+1. Regular quarterly sales. We see sales decreased a lot around 2014.  **The baseline here is historical sales.**
 ```{r}
 # Regular time series for sales
 par(cex.axis=0.7)
@@ -462,7 +434,7 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 So before we start to plot, we should decide the baseline we want to use. Different baselines will lead to totally different graphs.
 source: [@Baseline_2013]
 
-## Using design patterns to find greater meaning in your data
+## Using Design Patterns to Find Greater Meaning in Your Data
 
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity. 
 
@@ -471,7 +443,7 @@ Patterns based on function can help you see differences and similarities more cl
 ### Comparisons
 ![](images/patten-1.jpg)
 
-As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
+As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large-Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
 
 
 ### Connections
@@ -492,8 +464,35 @@ In Figure 3, varied performance results become clear with a layered approach to 
 
 The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@greater]
 
+## Takeaways from recreating one chart using 24 tools
+
+Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools [@different_tools]. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+
+### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals
+Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. And as the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer; so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something? 
+
+![](images/analysis_spectrum.png)
+
+The author also notes that the flexibility of a tool is a sticking point as well if you need to change your data while developing a data visualization, certain apps like Illustrator will not be ideal because changing the data even slightly requires you to build the graph again from scratch. Another thing to think about is the type of chart you are trying to create is a basic, canned bar or line graph all you need (in which case something like Excel will do the trick), or does your project necessitate a more innovative or custom chart (like something possible in D3.js)? Interactivity is another big question only certain tools will make this possible.
+
+![](images/interactivity.png)
+
+### Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets
+This section of the article is all about the difference in people's preferences and opinions; from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people. 
+
+### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'
+Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
+
+![](images/apps_vs_code.png)
+
+### Takeaway 4: Every Tool Forces You Down a Path
+Rost quotes her former NPR Visuals teammate for the final lesson header, pointing out that tools themselves influence the development of a data visualization with their respective features, strengths, and limitations. 
+
+![](images/tools_force_paths.png)
+
+
 ## Chart types
-Let's review the most commonly used chart types, where it would be appropriate to use the typical chart and the pros and cons of each type of charts. Before introducing different types of charts, you can use the following website to familiarize yourself with different types of charts [@charts_viz]. 
+This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each. The following website describes the chart types in detail [@charts_viz]. 
 
 ### Time Series Data
 
@@ -583,62 +582,55 @@ Think beyond the straight line! Sometimes, time series data can be cyclical -- a
 
 It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since the area of a circle is proportional to the square of the radius).
 
-This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the the text legend for more details.)
+This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the  text legend for more details.)
 
 ![](images/aya-polar.jpg)
 
 <sup>Source: [@aya-time-series]</sup>
 
+## Time Series Data and its Deceptive Potential
 [@TimeSeries]
 This article explains how time series data visualization can sometimes be deceptive. 
 
-It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessary mean causation"**. 
+It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+
 
 ## Word Cloud
 
 A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
 
-Word clouds can add clarity during text analysis in order to effectively communicate your data results.It is an effective tool for Q researchers, marketers, Non-profits, Human resources ,Educators, Politicians and journalists.
+Word clouds can add clarity during text analysis in order to effectively communicate your data results.  
 
-**Pros of Word Clouds**
-
-1. It is easy to understand and make an impact.
-2. It can easily be shared.
-3. It is visually engaging than a table data.
-4. It is fast and reveals the essential. 
-5. They delight and provide emotional connection.
-
-**Cons of Word Clouds**
-
-1. Emphasis based on length of the words.
-2. Words whose letters contain many ascenders and descenders may receive more attention.
-3. They're not very accurate.
-4. A lot of data cleaning required before generating the word cloud.
-5. Context is lost.
+|Pros of Word Clouds | Cons of Word Clouds |
+| :------------------: | :-------------------: |
+| Impactful and easy to understand | Possibly erroneous emphasis based on length of the words |
+| Quick to generate and easily shared | Words with letters that contain many ascenders and descenders may receive more attention |
+| More visually engaging than a data table | Not very accurate |
+| Reveals essential information | Requires a lot of data cleaning |
+| Delightful and promote emotional connection | Context is lost |
 
 [@wordcloud]
 
 **Ways to generate a word cloud**
 
-**R:** The procedure of creating word clouds is very simple in R with text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud [@r].
+**R:** Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud [@r].
 
-**Wordle:** Wordle is a toy for generating “word clouds” from text that you provide.It is very popular, free and easy to use. You do need Java though Chrome. In Wordle, you generate word clouds from text you input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
+**Wordle:** Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
 
-Other popular tools include ABCya, Tagul, Tag Crowd, CloudArt.
+Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
 
-### Calendar View 
+## Calendar View 
 [@Calendar_Layout]
 
-We have all seen the calendar views in the various data products that we worked on.  Please find an open source code that I found, this will help you replicate and create your own calendar:
+We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
 ![](images/CalendarView.jpg)
 
 <sup>[@CalendarView]</sup>
  
 Reproducible code for reference: 
 This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
-
 ```{html}
 <!DOCTYPE html>
 <body>
@@ -718,77 +710,20 @@ function pathMonth(t0) {
 </script>
 ```
 
-## An example to back some of our theories on 'how to tell stories using data visualization' / 'exploratory data visualization'
-
-[@DataUSA]
-MIT Media Lab in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries etc.
-Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.
-What stands out is the categorization of information on the website which enables the following:
-
-1. Easy browsing of various categories of information available at a single glance
-2. An easy search on any topic of interest and get deeper information
-3. Logical construction of information using data and visuals under each category
-4. Comparative analysis of cities
-5. Variety of exploratory visualizations to learn from 
-6. Most important - Storytelling through data, such as the evolution of the American Worker, how poverty is bad for your health, how men still dominate in the highest paying industries, and opioid addiction damage. 
-
-We think of a topic, and it's possible it's there! The benefits to students, organizations, governments etc. is a better understanding of your consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
-There are also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
-
-**Automatic visualization is a bad idea, generally speaking.** Some might argue that automated visualization is a worthwhile pursuit. And I would agree that some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic. There are plenty of tools to make our lives easier.
-
-But full-on automation where insight fountains out from any dataset are farfetched at this point, because this requires automatic analysis. The analysis is context-specific and requires more than boilerplate statistics. The most interesting visualization is context-specific.[@auto_viz]
-
-In 2016, Arden Manning believed Workplace Automation making Data Visualization Smarter. According to him, the goal of data visualization tools was to make understanding data easier, but more often than not it doesn’t quite go to plan. We’ve all been there. The software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. However, data visualization can’t explain data, leaving room for interpretation. The thought behind graphics makes sense – turn data into something easy to understand – but the reality is more complex, and we are left working late writing reports explaining how many trades were canceled and by what desks or why sales fell in August of 2015. Whenever I am stuck doing a repetitive task, I always think ‘why can’t we automate this’? And now, finally, technology has caught up. Narrative generation software can run as a plug-in to your dashboards. Tools like Savvy actually install on your server and allow every dashboard user to get a written summary anytime they want. This software is fully plugged and play, it takes seconds to install, and it’s easy to use. Today, it runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. In fact, the software even lets you copy and paste the text it generates so that you can use it in emails and reports explaining data. Yet again automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.[@work_place]
-
-According to Alysson Ferreira, a UI Engineer, he published his idea of Data Visualization tools in 2017. In this new era of information, there's an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for meaningful sources of trustworthy information.[@UI_engineer]
-
-This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into convenient graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.[@future_viz]
-
-We can also find the topic of data visualization's future on Quora. Amalie Sharma thought in future trend of data visualization are better tools, open for all, Increase in Interactivity/Animation and Portable Data. 
-
-Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The goal of data visualization tools was to make understanding data easier, but more often than not it doesn't quite go to plan. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
-
-Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automatic analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
-
-The focus in today's world has been on open source tools and technologies and these tools although being free for the most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
-
-D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript-based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. D3.js is extremely powerful and flexible, because it allows you to build amazing things with it, but as a trade-off, it's not the easiest tool to use, so you might need to spend some time going through the helpful library documentation.
-
-At the end, it's not only about the tool its more about what you are trying to do; what your professor, client, business or whatever needs.
-
-
-## Reusable Data Visualization Code in R
-[@viz_R]
-
-This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering".  There is a base plot and then other aspects of the plot such as aesthetics, titles ,and labels are added to using extra code. For those who favor Python for data visualization, this layering approach in R is actually similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
-
-To provide an example the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
-```{r}
-library(ggplot2)
-
-theme_set(theme_bw())  #set background theme
-
-plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
-
-plot(plot1)  #we have to actually call the plot() function on the plot object we created
-```
-The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  In a way, the layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
-
 ## Data Mining and Data Visualization
 
-According to a paper in 2018, we can tell the difference of data mining from data visualizations. Here is a chart that helps us understand this better. [@data_mining]
+According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. [@data_mining]
 
 In Data Mining, there are different processes involved in carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
 
 In Data Visualization, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
 
-The author has also listed top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. The article provides a very clear understanding of data mining and data visualization techniques. 
+The author has also listed top 7 comparisons between data mining and data visualization, and 12 key differences between them. The article provides a very clear understanding of each of these techniques. 
 
 **BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 Definition|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
-Preference|This is has different applications and preferred for web search engines|Preferred for data forecasting and predictions
+Preference|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
 Area|Comes under data science|Comes under the area of data science
 Platform|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
 Generality|New technology but underdeveloped|More useful in real time data forecasting
@@ -796,7 +731,7 @@ Algorithm|Many algorithms exist in using data mining|No need of using any algori
 Integration|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
 
-##Creating a Diverging Bar Chart
+## Creating a Diverging Bar Chart
 
 A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
 
@@ -828,74 +763,62 @@ ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) +
 Diverging bar charts are also convenient to create in Tableau.  Below is an example using survey response data.
 
 ![](images/diverging_bar.png)
-
-## 10 Useful Python Data Visualization Libraries 
+## Python for Data Visualization
+### 10 Useful Python Data Visualization Libraries 
 
 [@PythonDataVizLibraries]
 
-[Click here for sample charts for each]https://blog.modeanalytics.com/python-data-visualization-libraries/
+[Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
-**1.	Matplotlib**
-Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis.
-While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.
+| Library | Description | 
+| ------- | ----------- |
+**Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
+**Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
+**Ggplot** | ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.|
+**Bokeh** | Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it's native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can easily give the output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data. |
+**Pygal** | Like Bokeh and Plotly, pygal offers interactive plots that can be embedded in the web browser. Its prime differentiator is the ability to output charts as SVGs. As long as you're working with smaller datasets, SVGs will do you just fine. But if you're making charts with hundreds of thousands of data points, they'll have trouble rendering and SVG will become sluggish. |
+**Plotly** | You might know Plotly as an online platform for data visualization, but did you also know you can access its capabilities from a Python notebook? Like Bokeh, Plotly's forte is making interactive plots, but it offers some charts you won't find in most libraries, like contour plots, dendograms, and 3D charts. |
+**Geoplotlib** | geoplotlib is a toolbox for creating maps and plotting geographical data. You can use it to create a variety of map-types, like choropleths, heatmaps, and dot density maps. You must have Pyglet (an object-oriented programming interface) installed to use geoplotlib. Nonetheless, since most Python data visualization libraries don't offer maps, it's nice to have a library dedicated solely to them. |
+**Gleam** | Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so users can filter and sort data. |
+**Missingno** | Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram. |
+**Leather** | Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic-but that's the intention. |
+### Building advanced analytics application with TabPy
+ [@TabPy]
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!  
+ TabPy allows us to integrate and visualize data from Python in Tableau. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
 
-**2.	Seaborn**
-Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults.
+## Dashboards
+
+> "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
+
+### Rules and Best Practices for Developing Intuitive Dashboards
+Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
+
+|Best Practice | Description |
+| ------------ | ----------- |
+**The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
+**Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
+**Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
+**Choose metrics based on why they matter** | Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. |
+**Keep it visual** | Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the  translation of individual department objectives into broader organizations objective. | Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. |
+**Make it interactive** | Interactive, highly visual dashboards should enable audience to perform basic analytical tasks, such as filtering the views, drilling down, examining underlying data etc. Viewers should be  able to get the big picture from the dashboard and then be able to drill down into a view that tells them the information they need  to get their jobs done. |
+**Keep it current or don't bother** | Selected metrics should reflect current business challenges. You don't need up-to-the-minute data. Data can be current quarterly, weekly, hourly, etc. as relevant to the timeline of the organization. Ability to change and update the metrics represented in the dashboard is an important aspect. |
+**Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
 
 
-**3.	Ggplot**
-ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.
+### 7 mistakes to avoid:
 
-**4.	Bokeh**
-Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it's native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can be easily output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data.
+| Mistake | Description |
+| ------- | ----------- |
+**Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
+**Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
+**Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
+**Waiting for complex technology and big BI deployment projects** | Implementations of some of traditional business intelligence tools often take a much longer time than originally anticipated. Waiting for a traditional BI project to materialize may mean delays. |
+**Underestimating the time or resources to create and maintain the dashboard** | Even though a dashboard is typically one page or one screen, it would be injudicious to assume that it will be quick and simple to create and maintain. |
+**Failing to match metrics to the goal** | Instead of showcasing the activities of a single department, a dashboard should connect the department's efforts to the organization's actual goals and objectives |
+**Using ineffective, poorly designed graphs and charts** | While designing graphs and charts for dashboard, extreme care should be taken. Principles for designing good data visualizations should be followed to avoid dashboards populated with poorly designed graphs and charts. |
 
-**5.	Pygal**
-Like Bokeh and Plotly, pygal offers interactive plots that can be embedded in the web browser. Its prime differentiator is the ability to output charts as SVGs. As long as you're working with smaller datasets, SVGs will do you just fine. But if you're making charts with hundreds of thousands of data points, they'll have trouble rendering and become sluggish.
-
-**6.	Plotly**
-You might know Plotly as an online platform for data visualization, but did you also know you can access its capabilities from a Python notebook? Like Bokeh, Plotly's forte is making interactive plots, but it offers some charts you won't find in most libraries, like contour plots, dendograms, and 3D charts.
-
-**7.	Geoplotlib**
-geoplotlib is a toolbox for creating maps and plotting geographical data. You can use it to create a variety of map-types, like choropleths, heatmaps, and dot density maps. You must have Pyglet (an object-oriented programming interface) installed to use geoplotlib. Nonetheless, since most Python data visualization libraries don't offer maps, it's nice to have a library dedicated solely to them.
-
-**8.	Gleam**
-Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so users can filter and sort data.
-
-**9.	Missingno**
-Dealing with missing data is a pain. missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram.
-
-**10.	Leather**
-Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic-but that's the intention.
-
-
-##Top 5 best practices for creating effective dashboards and the 7 mistakes you don't want to make [@dashboard_practices]:
-What is a dashboard? Stephen Few wrote: "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance."
-5 best practices & avoiding 7 critical mistakes to create effective dashboards:
-1.	**Choose metrics based on why they matter**: Metrics that are chosen should be important and relevant to the current task. But, that doesn't mean each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to organization objectives. 
-
-2.	**Keep it visual**: Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples understanding  and will also help see the the translation of individual department objectives into broader organizations objective.
-Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. 
-
-3.	**Make it interactive**:  When different information are  on the same page, different  viewers will have different questions as per their area of interest. Dashboard should allow viewers to customize to get the  information they need. 
-
-Interactive, highly visual dashboards should enable audience  to perform basic analytical tasks, such as filtering the views, drilling down, and examining underlying data etc. Viewers should be  able to get the big picture from the dashboard and then be able to drill down into a view that tells them the information they need  to get their jobs done.
-4.	**Keep it current or don't bother**: Selected metrics should reflect current business challenges.
-You don't need up-to-the-minute data.It can be a quarter, week , hour  as relevant to the right timeline of the organization.Ability to change  and update the metrics represented in the dashboard is also one important aspect
-5.	**Make it simple to access and use**: Making dashboards easily accessible is very critical. Ideal is Web distribution- especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is  like posting files on websites, Wiki's or blogs
-
-**7mistakes to avoid** :
-
-1.	**Starting off with too much complexity**: It's very tempting to  provide highly detailed, real-time dashboards. But instead of spending lot of time working through first iteration, its  better to work  through several short cycles of prototype, test and adjust. 
-
-2.	**Using metrics no one understands**: Dashboard should use metrics or concepts that broader audience understands.
-
-3.	**Cluttering the dashboard with unimportant graphics and unintelligible widgets**: Dashboard should be simple in its visual appeal. It should not be  too flashy or over-designed so that it doesn't get in the way with primary dashboard's objective which is rapidly and easily informing  the audience.
-
-4.	**Waiting for complex technology and big BI deployment projects**: Implementations of some of traditional Business Intelligence tools often take a much longer time than originally anticipated, waiting for a traditional BI project to materialize may mean delays. 
-
-5.	**Underestimating the time or resources to create and maintain the dashboard**: Considering that a dashboard is typically one page or one screen, we should not assume that it would  be very quick and simple to create and maintain. 
-
-6.	**Failing to match metrics to the goal**: Instead of showcasing the activities of a single department, a dashboard should connect department's efforts to organization's actual goals and objectives. 
-
-7.	**Using ineffective, poorly designed graphs and charts**: While  designing graphs and charts for dashboard extreme care should be taken. Principles for designing good data visualizations; should be followed to avoid dashboard with poorly designed graphs and charts.
-
+[@intuitive-dash]
+[@dashboard_practices]
