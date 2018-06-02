@@ -27,19 +27,6 @@ Loading any data set into a spreadsheet can also be a form of visualization as t
 **Pretty doesn't mean effective** | There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you'll lose your audience's interest as quickly as you gained it.
 **Use color purposely and effectively** | Use of color may be prettier and attractive but can be distracting too. Thus, the color should be used only if it assists in conveying your message. 
 
-Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that the following principles are a good set of guidelines to assemble different elements into groups [@principles-fusioncharts].
-
-**Principle** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Proximity | White space can be used to group elements together and separate others
-Similarity | Objects that look similar are instinctively grouped together in our minds
-Enclosure | Helps distinguish between groups
-Symmetry | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
-Closure | We tend to complete shapes and paths even if part of them is missing
-Continuity | We tend to continue shapes beyond their ending points (similar to closure)
-Connection | Helps group elements together
-Figure and ground | We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose. 
-
 ### Analyze and interpret
 Once the data is visualized, the next step is to learn something from the visualization that is created. Questions that can be asked based on the picture can be:
 
@@ -86,6 +73,21 @@ Proportion | If a person is portrayed next to a house, the house is going to loo
 Rhythm | A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
 Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked. Variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.
 Unity | Unity across design will happen naturally if all other design principles are implemented.
+
+### Gestalt Principles of Design
+
+Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that the following principles by Gestalt are a good set of guidelines to assemble different elements into groups [@principles-fusioncharts].
+
+**Principle** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+Proximity | White space can be used to group elements together and separate others
+Similarity | Objects that look similar are instinctively grouped together in our minds
+Enclosure | Helps distinguish between groups
+Symmetry | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
+Closure | We tend to complete shapes and paths even if part of them is missing
+Continuity | We tend to continue shapes beyond their ending points (similar to closure)
+Connection | Helps group elements together
+Figure and ground | We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
 
 ### Tufte's Design Principles of Graphical Excellence
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
