@@ -6,8 +6,7 @@ A legend shows descriptive labels and their respective color or shapes for each 
 ### Add a basic legend
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 import matplotlib.pyplot as plt
 plt.style.use('classic')
 %matplotlib inline
@@ -19,35 +18,30 @@ ax.plot(x, np.sin(x), '-b', label='Sine')
 ax.plot(x, np.cos(x), '--r', label='Cosine')
 ax.axis('equal')
 leg = ax.legend();
-</script>
 ```
 
 ![](images/legend1.png)
 
 ### Add a legend on different position
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(loc='upper left', frameon=False)
 fig
-</script>
 ```
 ![](images/legend2.png)
 
 ### Customize a box surrounding the legend
 We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
 fig
-</script>
 ```
 ![](images/legend3.png)
 
 ### Legend for size of points
 
-```{html}
+```{python eval=FALSE}
 import pandas as pd
 cities = pd.read_csv('data/california_cities.csv')
 
@@ -73,13 +67,11 @@ for area in [100, 300, 500]:
 plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
 
 plt.title('California Cities: Area and Population');
-</script>
 ```
 ![](images/legend4.png)
 
 ### Multiple legends
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 fig, ax = plt.subplots()
 
 lines = []
@@ -109,6 +101,7 @@ ax.add_artist(leg);
 [Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
 
 ### Formula: layered Grammar of Graphics
+```{r eval=FALSE}
 ggplot(data = \<DATA\>) +  
 
 <GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
@@ -118,19 +111,23 @@ ggplot(data = \<DATA\>) +
 <COORDINATE_FUNCTION> +  
 
 <FACET_FUNCTION>
+```
 
 The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
 
-```{r message=FALSE, warning=FALSE, include=FALSE}
+```{r message=FALSE, warning=FALSE, include=FALSE, eval=FALSE}
 # Install Packages
 library("tidyverse")
 library("gapminder")
 ```
 **Aes/Mapping: Global Mapping and Local Mapping**
 
+```{r}
+library(ggplot2)
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
 geom_point(mapping = aes(color = class)) +  
 geom_smooth()
+```
 
 "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
 
@@ -152,7 +149,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 
 2. coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
-```{r }
+```{r}
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
@@ -282,11 +279,11 @@ This article [@interworks] introduces the methodologies on how to use shapes as 
 
 We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
-| Outlier | Description |
-| ------- | ----------- |
-Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
-Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
-Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
+| Outlier      | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+|Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
+|Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
+|Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
 
 Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions.
 
@@ -322,9 +319,11 @@ Don’t over explain if the copy already mentions a fact. The subhead, callout, 
 
 ### Color
 Use a single color to represent the same type of data. Watch out for positive and negative numbers. Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind. Make sure there is sufficient contrast between colors. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes). Select colors appropriately. Don’t use more than 6 colors in a single layout.
+
 #### Leveraging Color in Visuals
-|Use Case | Tip | Rationale |
-| ------- | ----| --------- |
+
+|Use Case | Tip                   | Rationale                      |
+| ------- | ----------------------| ------------------------------ |
 Numerical Scales | Color for numerical scales should be used with caution. | The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions. |
 Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
 Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
@@ -772,8 +771,8 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 
 [Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
-| Library | Description | 
-| ------- | ----------- |
+| Library | Description                                            | 
+| ------- | ------------------------------------------------------ |
 **Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
 **Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
 **Ggplot** | ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.|
@@ -798,8 +797,8 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 ### Rules and Best Practices for Developing Intuitive Dashboards
 Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
 
-|Best Practice | Description |
-| ------------ | ----------- |
+|Best Practice | Description                                            |
+| ------------ | ------------------------------------------------------ |
 **The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
 **Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
 **Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
@@ -812,8 +811,8 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 
 ### 7 mistakes to avoid:
 
-| Mistake | Description |
-| ------- | ----------- |
+| Mistake           | Description                                       |
+| ----------------- | ------------------------------------------------- |
 **Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
 **Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
 **Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
