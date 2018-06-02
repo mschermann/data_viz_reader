@@ -1,6 +1,6 @@
 # Case Studies
 
-Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs might still fail to convince the readers. The links below show some intricate visualizations of some of these important and relevant topics - visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of the text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues.
+Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite’, etc. on which we can write endless paragraphs might still fail to convince the readers. The links below show some intricate visualizations of some of these important and relevant topics - visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of text. The usefulness of data visualizations is not just limited to business and analytics; almost anything in the world can be explained by visualizations. Wars, rescue operations, social issues etc. can be visualized to get a clear idea of all the details of the issues.
 
 This chapter contains some useful case studies on such visualizations. Case studies contain valuable information about development records. The examination and evaluation of case studies helps show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
 
@@ -17,12 +17,18 @@ This chapter contains some useful case studies on such visualizations. Case stud
 Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
 
 ### Spies in the Skies
-The map is filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change in accordance to day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting a normally uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind [@spies_sky] referenced in [@cool_data].
+The map below is from a Buzzfeed article [@spies_sky] that shows how common it is for the government to observe people. It is filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change in accordance to day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting a normally uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind. 
+
+Reference: [@cool_data]
 
 ![New York Flight Patterns](images/NYCflights.png)
 
 ### Two Centuries of U.S. Immigration
-The interactive map shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Colored dots represent 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations [@immigration][@cool_data].
+The interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Colored dots represent 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
+
+What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations.The bright colors and dark background help the information stand out. This map is a bit simpler, but perhaps that’s all it needs.
+
+Reference: [@cool_data].
 
 ![US Immigration](images/immigration.png)
 
@@ -35,7 +41,7 @@ The challenges that Uber faced to craft geospatial visualizations:
 2. Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
 3. The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
 
-To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. 
+To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.
 
 The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
 
@@ -52,19 +58,36 @@ What makes this a good visualization is that it is very easy to read and interpr
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
 ### U.S. Migration Patterns 
-The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between their charts for California and Pennsylvania.
+The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between the charts for California and Pennsylvania.
+
+Overall this type of chart can work really well to visualize movement in data over time, such as with migration. However it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very descriptive visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by west, south, midwest, etc. However it is not completely clear why so many crossing lines are necessary in the Pennsylvania chart. The crossing lines, along with use of the same color for different categories can make it difficult for a reader to follow along with what the chart is trying to convey.
 
 ![Migration from California](images/CA_migration.png)
 
 ![Migration from Pennsylvania](images/PA_migration.png)
 
 ### The American Workday
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping the audience draw interesting conclusions.
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The unconventional question of when Americans work, rather that the number of hours worked is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping the audience draw interesting conclusions. Below is a screenshot of the data product, the original graph is more interactive and allows the audience to explore when people are working for differnt occupations. 
 
 ![](images/npr_workday.png)
 
+Some interesting finds include:
+1. Construction workers don't work at lunch hours as there is a huge drop at noon. 
+
+![](images/construction.png)
+2. Servers and cooks' schedule are the opposite of all other occupations with peak from lunch through evening. 
+
+![](images/server_cook.png)
+3. Protective services, e.g., police officers, firefighters and detectives, have a lot of workers working at 3 a.m., which is quite differnt from all other occupations. 
+
+![](images/protective.png)
+
+This data product is a great example as analytic design has been applied to constrast specific occupation to the traditional 9-5 working hours. This is easy to understand and make speciall occupations stand out easier. The color being used in the graph helps categorizing different occupations as well. 
+
 ### How People Like You Spend Their Time
-This visualization lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more ([@spendingtime] referenced in [@cool_data]).
+This visualization from [@spendingtime] lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more. 
+
+Reference: [@cool_data]
 
 ![](images/SpendingTime.png)
 
@@ -75,10 +98,13 @@ This is a good example about how to present a large amount of comprehensive data
 Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Such a visualization is ideal for the layman who would want to walk away with a basic and accurate understanding of the dietary changes. It also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte :"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." [@visual_display].
+Such a visualization is ideal for the layman who would want to walk away with a basic and accurate understanding of the dietary changes. It also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such a satisfactory capacity, which is what makes this particular data product so impressive and effective. It satisfies the principles of graphical excellence as stated by Edward Tufte :
+>"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
+
+Reference: [@visual_display]
 
 ### Selfie City
-Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies [@selfie]. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Explore the differences between selfies snapped in New York and Berlin for example, as well as those between men and women across the world.
+Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies [@selfie]. This project is based on a unique dataset compiled by analysing tens of thousands of images from each city, both through automatic image analysis and human judgement. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Rich media visualizations (imageplots) assemble thousands of photos to reveal interesting patterns. It explores the differences between selfies snapped in New York and Berlin for example, as well as those between men and women across the world. 
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
@@ -88,6 +114,11 @@ Another common use is to look at how something changes over time. Time-series da
 ### Millennial Generation Diversity
 The millennial generation is bigger and more diverse than the baby boomer generation [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
+The author also summarized three key findings from the graph:
+1. The most common age in US is 22 years old. 
+2. The median age in US is 37.6 years old. 
+3. Among the youngest generation, white takes only 50% of the population with the potential of dropping from the biggest race in US. 
+
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
 ### How the Recession Reshaped the Economy, in 255 Charts
@@ -95,6 +126,10 @@ The first large graph contains 255 lines to show how the number of jobs has chan
 Below the overall chart are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
 ![](images/recession_jobs.png)
+
+![](images/recession_jobs2.png)
+
+
 
 ### An Aging Nation: Projected Number of Children and Older Adults 
 Aging population is always a hot topic in social economics and politics [@aging_nation]. There are several different data visualizations collected to show the aging population in the world.
@@ -159,6 +194,12 @@ Infographic plastic pollution [@Plastic_Pollution_Infographics]
 ![](images/ocean_plastic.png)
 
 How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
+
+Overall, this visualization is good in the following ways:
+
+- It provide Content: those plots serve one of the main purposes of Data Visualization-- storytelling. It natuarally leads the audience to understand the what along with the plastic pollution. 
+- Using of charts is right: the correct use of different types of plots makes the visualization both efficient and interesting
+- Use of color is efficient: this visualization exactly shows that color plays an important role in a data viz by guiding the reader to grasp the data relationships. No redendant color and no necessary color is missing.
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
@@ -254,6 +295,8 @@ When connected data insight is critical, only interactive and robust visualizati
 
 ### Simpson’s Paradox
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+By "properly pooled" the investigators meant broken down by department. For instance men were more inclined towards science and
+women towards humanities. When compared together science department require special skills and humanities accept the standard undergrad curriculum thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
 
@@ -289,21 +332,24 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 Reference: [@trees]
 
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
+We can see what were some of the common and uncommon trees planted in the five boroughs of New York City. This visualization allows one to quickly see the distribution. There could be inferences which could drawn based on the distirbution such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between 5 boroughs of New York City which could be used to make a compelling decision by the audience.
 
 ![NYC Street Trees](images/NY_trees.png)
+
+Interactive Visualization has the advantages that it enables the display and intuitive understanding of multidimensional data, provides a variety of visualization chart types, and enables audience to accomplish traditional data exploration tasks by making charts interactive. And this visualization provides a good example: it enable audience to ‘manipulation’ and find interesting facts about NYC Street Trees.
 
 ### Adding up the White Oscars Winners
 
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 
 The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars.
+Based on different attributes selected the visualization changes to give you the data specific to the attributes. For every attribute selected it gives you a fact about the selected attribute related to the Oscar Winner(for instance: when you select race it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white".)Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc and also predict about the future nominees who are likely to win Oscar.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
 [@oscars_sowhite_chart] 
 
 
-Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc.
 
 ![Best Picture](images/img_oscars_pic.PNG)
 
@@ -382,4 +428,6 @@ This is an interesting source and a good visual guide to data and development. I
 
 The data draws on the World Development Indicators- the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
 
-The contents of this publication are available as a [PDF](https://openknowledge.worldbank.org/handle/10986/29788), the data is available in the [World Bank's Data Catalog](https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators) and the code used to generate the majority of figures is available on [Github](https://github.com/worldbank/sdgatlas2018). 
+The contents of this publication are available as a [@worldbankpub].
+The data is available in the [@DATAACCESS].
+The code used to generate the majority of figures is available on [@worldbankcode].

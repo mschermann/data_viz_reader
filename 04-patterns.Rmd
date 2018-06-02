@@ -6,8 +6,7 @@ A legend shows descriptive labels and their respective color or shapes for each 
 ### Add a basic legend
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 import matplotlib.pyplot as plt
 plt.style.use('classic')
 %matplotlib inline
@@ -19,35 +18,31 @@ ax.plot(x, np.sin(x), '-b', label='Sine')
 ax.plot(x, np.cos(x), '--r', label='Cosine')
 ax.axis('equal')
 leg = ax.legend();
-</script>
 ```
 
 ![](images/legend1.png)
 
+
 ### Add a legend on different position
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(loc='upper left', frameon=False)
 fig
-</script>
 ```
 ![](images/legend2.png)
 
 ### Customize a box surrounding the legend
 We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
 fig
-</script>
 ```
 ![](images/legend3.png)
 
 ### Legend for size of points
 
-```{html}
+```{python eval=FALSE}
 import pandas as pd
 cities = pd.read_csv('data/california_cities.csv')
 
@@ -73,13 +68,11 @@ for area in [100, 300, 500]:
 plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
 
 plt.title('California Cities: Area and Population');
-</script>
 ```
 ![](images/legend4.png)
 
 ### Multiple legends
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 fig, ax = plt.subplots()
 
 lines = []
@@ -104,6 +97,8 @@ ax.add_artist(leg);
 ![](images/legend5.png)
 
 ### Reusable Data Visualization Code
+
+#### Reusable ggplot2 code
 [@viz_R]
 
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
@@ -121,6 +116,94 @@ plot(plot1)  #we have to actually call the plot() function on the plot object we
 
 The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
+#### Reusable Calendar View code
+[@Calendar_Layout]
+
+We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
+![](images/CalendarView.jpg)
+
+<sup>[@CalendarView]</sup>
+ 
+Reproducible code for reference: 
+This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
+```{html}
+<!DOCTYPE html>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+</script>
+```
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
@@ -133,11 +216,11 @@ This article [@interworks] introduces the methodologies on how to use shapes as 
 
 We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
-| Outlier | Description |
-| ------- | ----------- |
-Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
-Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
-Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
+| Outlier      | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+|Global Outliers (or “point anomalies”) | A data point is considered a global outlier if its value is far outside the entirety of the data set in which it is found. |
+|Contextual (Conditional) Outliers | A data point is considered a contextual outlier if its value significantly deviates from the rest of the data points in the same context. Note that this means that the same value may not be considered an outlier if it occurred in a different context. If we limit our discussion to time series data, the “context” is almost always temporal, because time series data are records of a specific quantity over time. Contextual outliers are common in time series data. |
+|Collective outliers | A subset of data points within a data set is considered anomalous if those values as a collection deviate significantly from the entire data set, but the values of the individual data points are not themselves anomalous in either a contextual or global sense. In time series data, one way this can manifest is as normal peaks and valleys occurring outside of a time frame when that seasonal sequence is normal or as a combination of time series data that is in an outlier as a group. |
 
 Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions.
 
@@ -173,9 +256,11 @@ Don’t over explain if the copy already mentions a fact. The subhead, callout, 
 
 ### Color
 Use a single color to represent the same type of data. Watch out for positive and negative numbers. Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind. Make sure there is sufficient contrast between colors. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes). Select colors appropriately. Don’t use more than 6 colors in a single layout.
+
 #### Leveraging Color in Visuals
-|Use Case | Tip | Rationale |
-| ------- | ----| --------- |
+
+|Use Case | Tip                   | Rationale                      |
+| ------- | ----------------------| ------------------------------ |
 Numerical Scales | Color for numerical scales should be used with caution. | The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions. |
 Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
 Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
@@ -562,94 +647,6 @@ Word clouds can add clarity during text analysis in order to effectively communi
 
 Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
 
-## Calendar View 
-[@Calendar_Layout]
-
-We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
-![](images/CalendarView.jpg)
-
-<sup>[@CalendarView]</sup>
- 
-Reproducible code for reference: 
-This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
-```{html}
-<!DOCTYPE html>
-<body>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
-var width = 960,
-    height = 136,
-    cellSize = 17;
-
-var formatPercent = d3.format(".1%");
-
-var color = d3.scaleQuantize()
-    .domain([-0.05, 0.05])
-    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
-
-var svg = d3.select("body")
-  .selectAll("svg")
-  .data(d3.range(1990, 2011))
-  .enter().append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
-
-svg.append("text")
-    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", 10)
-    .attr("text-anchor", "middle")
-    .text(function(d) { return d; });
-
-var rect = svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#ccc")
-  .selectAll("rect")
-  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("rect")
-    .attr("width", cellSize)
-    .attr("height", cellSize)
-    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
-    .attr("y", function(d) { return d.getDay() * cellSize; })
-    .datum(d3.timeFormat("%Y-%m-%d"));
-
-svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#000")
-  .selectAll("path")
-  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("path")
-    .attr("d", pathMonth);
-
-d3.csv("dji.csv", function(error, csv) {
-  if (error) throw error;
-
-  var data = d3.nest()
-      .key(function(d) { return d.Date; })
-      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
-    .object(csv);
-
-  rect.filter(function(d) { return d in data; })
-      .attr("fill", function(d) { return color(data[d]); })
-    .append("title")
-      .text(function(d) { return d + ": " + formatPercent(data[d]); });
-});
-
-function pathMonth(t0) {
-  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
-      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
-      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
-  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
-      + "H" + w0 * cellSize + "V" + 7 * cellSize
-      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
-      + "H" + (w1 + 1) * cellSize + "V" + 0
-      + "H" + (w0 + 1) * cellSize + "Z";
-}
-</script>
-```
 
 ## Data Mining and Data Visualization
 
@@ -719,8 +716,8 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 ### Rules and Best Practices for Developing Intuitive Dashboards
 Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
 
-|Best Practice | Description |
-| ------------ | ----------- |
+|Best Practice | Description                                            |
+| ------------ | ------------------------------------------------------ |
 **The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
 **Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
 **Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
@@ -733,8 +730,8 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 
 ### 7 mistakes to avoid:
 
-| Mistake | Description |
-| ------- | ----------- |
+| Mistake           | Description                                       |
+| ----------------- | ------------------------------------------------- |
 **Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
 **Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
 **Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
