@@ -703,7 +703,7 @@ function pathMonth(t0) {
 </script>
 ```
 
-## Creating a Diverging Bar Chart
+### Creating a Diverging Bar Chart
 
 A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
 
