@@ -14,7 +14,7 @@ Storytelling is an essential part of data visualization. It is extremely importa
 
 Data visualization will not always unleash a ready-made story on its own. There are no rules, no protocol that will guarantee us a story. Instead, it makes more sense to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@data_journ][@design_principles][@DataVizTips][@practitioners_guide].
 
-Here is a process that may be followed for finding insights to tell a story:
+Here is a process that may be followed for finding insights to tell a story.Each of these steps will be discussed further in this section.
 
 ![](images/DataInsights.JPG){width=250px,height=200px}
 (Source:[@VisualizeToInsights])
@@ -31,7 +31,7 @@ Loading any data set into a spreadsheet can also be a form of visualization as t
 **Pretty doesn't mean effective** | There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you'll lose your audience's interest as quickly as you gained it.
 **Use color purposely and effectively** | Use of color may be prettier and attractive but can be distracting too. Thus, the color should be used only if it assists in conveying your message. 
 
-### Analyze and interpret
+### Analyze and Interpret
 Once the data is visualized, the next step is to learn something from the visualization that is created. Questions that can be asked based on the picture can be:
 
 *	What can be seen in this image? Is it what that was expected?
@@ -41,7 +41,11 @@ Once the data is visualized, the next step is to learn something from the visual
 Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
 
 ### Document Your Insights and Steps
-If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason why we are interested in that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of misinterpretation of the data by just finding what we originally wanted to find. I really think that the documentation is the most important step of the process, and it is also the one we're most likely to tend to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. 
+If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. 
+
+In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason why we are interested in that dataset that we are looking at. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of misinterpretation of the data by just finding what we originally wanted to find. 
+
+I really think that the documentation is the most important step of the process, and it is also the one we're most likely to tend to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. 
 
 Hence, you should take the time to make some notes on things like:
 
@@ -68,15 +72,15 @@ The following principles are from [@design_principles].
 
 **Criteria** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Balance | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed. Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display.
-Emphasis | Draw viewers' attention towards important data by using key visual elements. Emphasis is the component that is most related to when reading the nine principles of design. It is the key to be conscious of what is drawing the viewers attention to the art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
-Movement | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complementary colors to pull the user's attention across the page.
-Pattern | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers' attention; it naturally draws curiosity.
-Repetition | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
-Proportion | If a person is portrayed next to a house, the house is going to look bigger. In data visualization, the proportion can indicate the importance of data sets, along with the actual relationship between numbers. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally, images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization.
-Rhythm | A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
-Variety | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked. Variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.
-Unity | Unity across design will happen naturally if all other design principles are implemented.
+**Balance** | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed. Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display.
+**Emphasis** | Draw viewers' attention towards important data by using key visual elements. Emphasis is the component that is most related to when reading the nine principles of design. It is the key to be conscious of what is drawing the viewers attention to the art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
+**Movement** | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complementary colors to pull the user's attention across the page.
+**Pattern** | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers' attention; it naturally draws curiosity.
+**Repetition** | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
+**Proportion** | If a person is portrayed next to a house, the house is going to look bigger. In data visualization, the proportion can indicate the importance of data sets, along with the actual relationship between numbers. Proportion can be subtle but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally, images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization.
+**Rhythm** | A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
+**Variety** | Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked. Variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.
+**Unity** | Unity across design will happen naturally if all other design principles are implemented.
 
 ### Gestalt Principles of Design
 
@@ -84,19 +88,19 @@ Data is simply a collection of many individual elements (i.e., observations, typ
 
 **Principle** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Proximity | White space can be used to group elements together and separate others
-Similarity | Objects that look similar are instinctively grouped together in our minds
-Enclosure | Helps distinguish between groups
-Symmetry | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
-Closure | We tend to complete shapes and paths even if part of them is missing
-Continuity | We tend to continue shapes beyond their ending points (similar to closure)
-Connection | Helps group elements together
-Figure and ground | We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
+**Proximity** | White space can be used to group elements together and separate others
+**Similarity** | Objects that look similar are instinctively grouped together in our minds
+**Enclosure** | Helps distinguish between groups
+**Symmetry** | Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.
+**Closure** | We tend to complete shapes and paths even if part of them is missing
+**Continuity** | We tend to continue shapes beyond their ending points (similar to closure)
+**Connection** | Helps group elements together
+**Figure and ground** | We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the "background". This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.
 
 ### Tufte's Principles of Design
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-1. Principle 1: Maximizing the data-ink ratio, within reason
+1. Prin1ciple 1: Maximizing the data-ink ratio, within reason
 
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic's ink devoted to the non-redundant display of data-information.
 
@@ -106,7 +110,7 @@ This basic idea is illustrated in the following visualizations.
 
 **Erase non-data-ink and redundant data-ink.**
 ![](images/Tufte_figure1.png){width=250px,height=200px}
-<sup>(Source:[@Tufte_2001])</sup>
+(Source:[@Tufte_2001])
 
 **Erase non-data-ink and redundant data-ink.**
 ![](images/Tufte_figure2.png){width=250px,height=200px}
@@ -119,7 +123,9 @@ This basic idea is illustrated in the following visualizations.
 ![](images/Tufte_figure4.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
-The graphs will be better for more information per unit of space and per unit of ink is displayed. Graphics are almost always going to improve as they go through editing, revision, and testing against different design options. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
+The graphs will be better for more information per unit of space and per unit of ink is displayed. Graphics are almost always going to improve as they go through editing, revision, and testing against different design options. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is gained by those who do understand. 
+
+We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
 2. Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
 
@@ -177,7 +183,7 @@ From online surveys to beefed-up analytics, we're able to gather and analyze mor
 
 There's a wealth of free resources out there in the form of handy little design ebooks.
 
-| Title | Author | Description |
+| **Title** | **Author** | **Description** |
 |------|--------|-----------------------------------------------------------
 |Design's Iron Fist | Jarrod Drysdale | This free ebook is a collection of Drysdale's previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
 |The Creative Aid Handbook | Kooroo Kooroo | Creativity doesn't just happen overnight. It's something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
