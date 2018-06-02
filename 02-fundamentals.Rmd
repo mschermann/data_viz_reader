@@ -209,7 +209,87 @@ Interactive or Dynamic data visualization delivers today's complex sea of data i
 5. Foster a new business language: Ability to tell a story through data that instantly relates the performance of a business and its assets.
  
 **There are multiple ways by which interactive data visualizations can be developed.**
- 
+
+#### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
+
+[@PythonDataVizLibraries]
+
+[Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
+
+| Library | Description | 
+| ------- | ----------- |
+**Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
+**Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
+**Ggplot** | ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.|
+**Bokeh** | Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it's native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can easily give the output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data. |
+**Pygal** | Like Bokeh and Plotly, pygal offers interactive plots that can be embedded in the web browser. Its prime differentiator is the ability to output charts as SVGs. As long as you're working with smaller datasets, SVGs will do you just fine. But if you're making charts with hundreds of thousands of data points, they'll have trouble rendering and SVG will become sluggish. |
+**Plotly** | You might know Plotly as an online platform for data visualization, but did you also know you can access its capabilities from a Python notebook? Like Bokeh, Plotly's forte is making interactive plots, but it offers some charts you won't find in most libraries, like contour plots, dendograms, and 3D charts. |
+**Geoplotlib** | geoplotlib is a toolbox for creating maps and plotting geographical data. You can use it to create a variety of map-types, like choropleths, heatmaps, and dot density maps. You must have Pyglet (an object-oriented programming interface) installed to use geoplotlib. Nonetheless, since most Python data visualization libraries don't offer maps, it's nice to have a library dedicated solely to them. |
+**Gleam** | Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so users can filter and sort data. |
+**Missingno** | Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram. |
+**Leather** | Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic-but that's the intention. |
+
+#### R for Data Visualization
+[Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
+
+1. Formula: layered Grammar of Graphics
+
+ggplot(data = \<DATA\>) +  
+
+<GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>), 
+
+                stat = \<STAT\>,   
+                
+                position = \<POSITION\>  ) + 
+
+<COORDINATE_FUNCTION> +  
+
+<FACET_FUNCTION>
+
+The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
+
+
+2. Aes/Mapping: Global Mapping and Local Mapping
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
+
+geom_point(mapping = aes(color = class)) +  
+
+geom_smooth()
+
+Here, "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
+
+```{r}
+library("tidyverse")
+library("gapminder")
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = aes(color = class)) +  geom_smooth()
+```
+3. **Position Adjustment**
+
+a) "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
+
+b) "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
+
+c) "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
+
+d) "Jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
+
+4. **Coordinate Systems**
+
+a). default: Cartesian 
+
+b). coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
+
+```{r }
+ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
+
+ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
+  coord_flip()
+```
+c). coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
+
+d). coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+
 #### D3.js 
 D3.js stands for Data-Driven Document, a JS library for interactive Big Data visualization in literally ANY way required real-time[@d3_interactive_viz]. This is not a tool, mind you, so a user should have a solid understanding of JavaScript to work with the data and present it in a humanly-understandable form. To say more, this library renders the data into SVG and HTML5 formats, so older browsers like IE7 and 8 cannot leverage D3.js capabilities.
 
