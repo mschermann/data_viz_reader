@@ -6,8 +6,7 @@ A legend shows descriptive labels and their respective color or shapes for each 
 ### Add a basic legend
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 import matplotlib.pyplot as plt
 plt.style.use('classic')
 %matplotlib inline
@@ -19,35 +18,30 @@ ax.plot(x, np.sin(x), '-b', label='Sine')
 ax.plot(x, np.cos(x), '--r', label='Cosine')
 ax.axis('equal')
 leg = ax.legend();
-</script>
 ```
 
 ![](images/legend1.png)
 
 ### Add a legend on different position
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(loc='upper left', frameon=False)
 fig
-</script>
 ```
 ![](images/legend2.png)
 
 ### Customize a box surrounding the legend
 We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
 
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
 fig
-</script>
 ```
 ![](images/legend3.png)
 
 ### Legend for size of points
 
-```{html}
+```{python eval=FALSE}
 import pandas as pd
 cities = pd.read_csv('data/california_cities.csv')
 
@@ -73,13 +67,11 @@ for area in [100, 300, 500]:
 plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
 
 plt.title('California Cities: Area and Population');
-</script>
 ```
 ![](images/legend4.png)
 
 ### Multiple legends
-```{html}
-<!DOCTYPE html>
+```{python eval=FALSE}
 fig, ax = plt.subplots()
 
 lines = []
@@ -109,6 +101,7 @@ ax.add_artist(leg);
 [Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
 
 ### Formula: layered Grammar of Graphics
+```{r eval=FALSE}
 ggplot(data = \<DATA\>) +  
 
 <GEOM_FUNCTION> (mapping = aes(\<MAPPINGS\>),    
@@ -118,19 +111,23 @@ ggplot(data = \<DATA\>) +
 <COORDINATE_FUNCTION> +  
 
 <FACET_FUNCTION>
+```
 
 The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
 
-```{r message=FALSE, warning=FALSE, include=FALSE}
+```{r message=FALSE, warning=FALSE, include=FALSE, eval=FALSE}
 # Install Packages
 library("tidyverse")
 library("gapminder")
 ```
 **Aes/Mapping: Global Mapping and Local Mapping**
 
+```{r}
+library(ggplot2)
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  
 geom_point(mapping = aes(color = class)) +  
 geom_smooth()
+```
 
 "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
 
@@ -152,7 +149,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 
 2. coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
-```{r }
+```{r}
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
