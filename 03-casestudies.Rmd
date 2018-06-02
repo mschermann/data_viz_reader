@@ -107,7 +107,8 @@ Such a visualization is ideal for the layman who would want to walk away with a 
 Reference: [@visual_display]
 
 ### Selfie City
-Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies [@selfie]. This project is based on a unique dataset compiled by analysing tens of thousands of images from each city, both through automatic image analysis and human judgement. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Rich media visualizations (imageplots) assemble thousands of photos to reveal interesting patterns. It explores the differences between selfies snapped in New York and Berlin for example, as well as those between men and women across the world. 
+
+Selfie City, a detailed multi-component visual exploration of 3,200 selfies from five major cities around the world, offers a close look at the demographics and trends of selfies [@selfie]. This project is based on a unique dataset compiled by analysing tens of thousands of images from each city, both through automatic image analysis and human judgement. The team behind the project collected and filtered the data using Instagram and Mechanical Turk. Rich media visualizations (imageplots) assemble thousands of photos to reveal interesting patterns. It provides a demographic and regional comparison of selfies.
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
