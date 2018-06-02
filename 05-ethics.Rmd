@@ -62,11 +62,11 @@ The first step in any project is gathering the data. This is relatively simple a
 
 This is the stage where the discoveries are made and it provides the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should make sense. The code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and finds true stories from them.
 
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
+As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy aids data-driven decision-making in performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the fly.
 
 ### Design
 
-Once a story is found, it must be presented in an honest way. This is where deceptive techniques could be tempting to make a stronger argument. An experienced individual will know how to spot these deceptions and disregard any findings. This ultimately hurts the credibility of the author and anyone else involved in the publication.
+Once a visualizer decides on an argument, it is important to presenting it honestly. While there is an inherent tradeoff between truthfulness of the visualization and effectiveness of its argument, visualizers should strive to maximize both. Deceptive techniques may be tempting to make a stronger argument, but besides being ethically wrong, the intentional use of deceptive visualization techniques will hurt the credibility of the author and anyone else involved in the publication since an experienced individual will know how to spot and disregard these deceptions.
 
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
@@ -84,15 +84,15 @@ Of course, the challenge posed by the tug-of-war between ethics and utility rema
 
 [@Socialchange]
 
-When we talk about social change, one field where visualization can impact in meaningful ways is in understanding and generating discussions around cities.
+One field in which visualization can have a meaningful social impact is in promtoting understanding of and generating discussions around cities.
 
-With the development of a city, various issues like new demographic changes, economic, environmental and social problems also grow. Visualization can play a important role  in creating an understanding of how the cities and societies work ,debating the problems that cities face and engaging citizens to create their dream cities.
+With the development of a city, new demographic changes, economic, environmental and social problems also become important issues. Visualization can play a important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face and engaging citizens to work toward their dream cities.
 
 Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a Project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, engaging people in the process.
 
-A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider and wrangle on how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively create particular results, or how their opinions make public think.
+A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
 
-As urban areas develop and build up ,various diverse issues rise and develop: disparity, isolation, loss of biodiversity and environmental quality, among others. These issues are perplexing, and finding the correct solutions implies uniting strategy producers, academics, designers, and citizens. Visualizations, if done right, can help begin significant discussions between these diverse areas and help handle the issues that emerge as the world becomes ever more urbanized
+As urban areas develop and build up, various diverse issues rise and develop: disparity, isolation, loss of biodiversity and environmental quality, among others. These issues are perplexing, and finding the correct solutions implies uniting strategy producers, academics, designers, and citizens. Visualizations, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes ever more urbanized.
 
 ## Misinformation can be beautiful too
 
@@ -121,9 +121,9 @@ Those beautiful Coxcomb diagrams are no exception. They show the causes of morta
 
 ## Definitions of Data Deception and Graphic Integrity
 
-Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is becoming more and more popular to communicate and support arguments nowadays. More people than ever before are making their own charts and infographics, which is presenting a unique problem. Despite the availability of some great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading or downright deceptive data visualizations [@decept_study],[@rose_tint].
+Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is an increasingly popular way to communicate and support arguments. More people than ever before are making their own charts and infographics, which is presenting a unique problem. Despite the availability of some great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading or downright deceptive data visualizations [@decept_study],[@rose_tint].
 
-So what does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
+What does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
 
 Edward Tufte already introduced the concept of graphical integrity in his book and presented six principles of graphic integrity. Here are the principles of the book:
 
@@ -145,7 +145,7 @@ There are some ways in which distorted graphs can be created [@evil_axes],[@misl
 **Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
 
 ## Visual Lies
-[@visual-lies] This focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
+[@visual-lies] This article focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
 
 ### Size
 Size signifies quantity, volume or degree of variables within a data. In the first figure, the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here, both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right.[@misleading_data]
@@ -212,7 +212,7 @@ While not technically wrong, improper extraction, tactic omitting data or includ
 
 ![](images/Bad_graph_extraction.png)
 
-Visualizations should be simple and easy to remember , but at the same time they should contain the essence of responsible visualization. To make final results pure,  ethical procedures need to be practiced throughout all the steps of visualization.
+Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure,  ethical procedures need to be practiced throughout all the steps of visualization.
 ![](images/Good_graph_extraction.png)
 
 In the data visualization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y-axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs makes a small difference look like a huge one, thereby changing the readers' judgement 
