@@ -47,7 +47,7 @@ One common use of visualization is to compare different groups against each othe
 ### Young voters, class and turnout: How Britain voted in 2017
 This article's goal is to convey the change in party votes in the 2017 UK general election compared to votes in 2015 [@UKvotes2017]. The change in party votes was shown with regards to three demographic factors: age, class, and ethnicity. For each factor, there are four graphs (one per political party), each illustrated in the party's standard color. The change in the percent of votes is shown as an arrow where the arrow's shaft is the length of the difference from 2015 to 2017 while the x-axis is the demographic factor split into different bins.
 
-What makes this a good visualization is that it is very easy to read and interpret. The color-coding of the arrows and party names makes it easy to pick out the different parties. The arrow lengths highlight just how large of a change happened. For example, in the Age section, it is easy to see the pattern between the Labour party gaining many voters aged 18 to 44 and the Conservative party gaining voters aged 45 and up.
+What makes this a good visualization is that it is very easy to read and interpret. The color-coding of the arrows and party names makes it easy to pick out the different parties. Index is spread across the visualization in a smart way to reduce cross-referencing and color in the graph represents the actual party colors in campaign. The arrow lengths highlight just how large of a change happened. For example, in the Age section, it is easy to see the pattern between the Labour party gaining many voters aged 18 to 44 and the Conservative party gaining voters aged 45 and up.
 
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
