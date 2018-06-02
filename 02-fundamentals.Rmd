@@ -131,7 +131,7 @@ We can also assume that if you understand the statistical graphics, most other r
 
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
-![](images/Tufte_figure6.png){width=250px,height=200px}
+![](images/Tufte_figure6.png)
 (Source: [@Tufte_2001])
 
 3. Principle 3: Maximize data density and the size of the data matrix, within reason.
@@ -144,17 +144,17 @@ $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Ch
 
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graghs or parallel sequencing skill.
 
-![Example for Small Multiples](images/Tufte_figure8.png){width=250px,height=200px}
+![Example for Small Multiples](images/Tufte_figure8.png)
 (Source: [@Tufte_2001])
 
-![Example for parallel sequencing](images/Tufte_figure7.png){width=250px,height=200px}
+![Example for parallel sequencing](images/Tufte_figure7.png)
 (Source: [@Tufte_2001])
 
 5. Principle 5: Provide the user with an overview and details on demand.
 
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
-![](images/Tufte_figure9.png){width=250px,height=200px}
+![](images/Tufte_figure9.png)
 (Source: [@Tufte_2001])
 
 6. Principle 6: Utilize Layering & Separation.
@@ -165,14 +165,14 @@ Supported by Gestalt laws (The principles of grouping):
 * Using Color to separate
 * 1 + 1 = 3 (clutter)
 
-![](images/Tufte_figure10.png){width=250px,height=200px}
+![](images/Tufte_figure10.png)
 (Source: [@Tufte_2001])
 
 7. Principle 7: Utilize narratives of space and time.
 
 Tell a story of position and chronology through visual elements.
 
-![](images/Tufte_figure11.png){width=250px,height=200px}
+![](images/Tufte_figure11.png)
 (Source: [@narratives_2017])
 
 ![](images/Tufte_figure12.png){width=250px,height=200px}
@@ -250,9 +250,14 @@ It starts from the insights of learning d3.js by showing interviews with those t
 My favorite part of this guide is it lists a lot of useful resources links for learning d3.js. For example, it recommends d3 API Reference, 2000+ d3 case studies and tutorials for d3. I did my exploratory analysis version of group project on d3. And I found this guide helpful during the progress. It also includes some meetup groups here in the bay area. So, maybe we can meet data friends through the group.
 
 #### Tableau
-Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
+Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. 
+
+Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. 
+
+Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
 
 The following tips for Tableau are still missing:
+
 1. Running totals
 2. Common Baseline
 3. Weighted averages
@@ -267,7 +272,9 @@ The following tips for Tableau are still missing:
 **The key advantages** are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@ExtremePre].
 
 #### R Shiny
-R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
+R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny.
+
+It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
 
 #### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@Top4VizTools].
@@ -369,6 +376,8 @@ Here's the process on how to get it done.
 ## Contemporary Research Results & What's Next
 With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches [@next_steps]:
  
-* **Adapting the Publication and Review Process:** As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
-* **Promoting Discussion and Accretion:** Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
-* **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on designing Computer Science Experiments [@stanford_course]. Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock's Practical Statistics for HCI and Pierre Dragicevic's resources for reforming statistical practice.
+**New Approach** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Adapting the Publication and Review Process** | As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
+**Promoting Discussion and Accretion** | Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
+**Research Methods Training** | Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on designing Computer Science Experiments [@stanford_course]. Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock's Practical Statistics for HCI and Pierre Dragicevic's resources for reforming statistical practice.
