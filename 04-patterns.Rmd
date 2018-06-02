@@ -163,6 +163,8 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
 4. coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 ### Reusable Data Visualization Code
+
+#### Reusable ggplot2 code
 [@viz_R]
 
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
@@ -180,6 +182,94 @@ plot(plot1)  #we have to actually call the plot() function on the plot object we
 
 The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
+#### Reusable Calendar View code
+[@Calendar_Layout]
+
+We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
+![](images/CalendarView.jpg)
+
+<sup>[@CalendarView]</sup>
+ 
+Reproducible code for reference: 
+This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
+```{html}
+<!DOCTYPE html>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+</script>
+```
 
 ## Using Shapes as Filters in Tableau When Your Fields Are Measures
 
@@ -621,94 +711,6 @@ Word clouds can add clarity during text analysis in order to effectively communi
 
 Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
 
-## Calendar View 
-[@Calendar_Layout]
-
-We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
-![](images/CalendarView.jpg)
-
-<sup>[@CalendarView]</sup>
- 
-Reproducible code for reference: 
-This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
-```{html}
-<!DOCTYPE html>
-<body>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
-var width = 960,
-    height = 136,
-    cellSize = 17;
-
-var formatPercent = d3.format(".1%");
-
-var color = d3.scaleQuantize()
-    .domain([-0.05, 0.05])
-    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
-
-var svg = d3.select("body")
-  .selectAll("svg")
-  .data(d3.range(1990, 2011))
-  .enter().append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
-
-svg.append("text")
-    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", 10)
-    .attr("text-anchor", "middle")
-    .text(function(d) { return d; });
-
-var rect = svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#ccc")
-  .selectAll("rect")
-  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("rect")
-    .attr("width", cellSize)
-    .attr("height", cellSize)
-    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
-    .attr("y", function(d) { return d.getDay() * cellSize; })
-    .datum(d3.timeFormat("%Y-%m-%d"));
-
-svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#000")
-  .selectAll("path")
-  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("path")
-    .attr("d", pathMonth);
-
-d3.csv("dji.csv", function(error, csv) {
-  if (error) throw error;
-
-  var data = d3.nest()
-      .key(function(d) { return d.Date; })
-      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
-    .object(csv);
-
-  rect.filter(function(d) { return d in data; })
-      .attr("fill", function(d) { return color(data[d]); })
-    .append("title")
-      .text(function(d) { return d + ": " + formatPercent(data[d]); });
-});
-
-function pathMonth(t0) {
-  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
-      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
-      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
-  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
-      + "H" + w0 * cellSize + "V" + 7 * cellSize
-      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
-      + "H" + (w1 + 1) * cellSize + "V" + 0
-      + "H" + (w0 + 1) * cellSize + "Z";
-}
-</script>
-```
 
 ## Data Mining and Data Visualization
 
