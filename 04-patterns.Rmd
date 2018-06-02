@@ -1,217 +1,5 @@
 # Patterns
 
-## How to customize a legend in Python with matplotlib
-A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
-
-### Add a basic legend
-First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
-
-```{python eval=FALSE}
-import matplotlib.pyplot as plt
-plt.style.use('classic')
-%matplotlib inline
-import numpy as np
-
-x = np.linspace(0, 10, 1000)
-fig, ax = plt.subplots()
-ax.plot(x, np.sin(x), '-b', label='Sine')
-ax.plot(x, np.cos(x), '--r', label='Cosine')
-ax.axis('equal')
-leg = ax.legend();
-```
-
-![](images/legend1.png)
-
-
-### Add a legend on different position
-To specify the position of the legend, the 'loc' parameter inside the function can be used: 
-```{python eval=FALSE}
-ax.legend(loc='upper left', frameon=False)
-fig
-```
-![](images/legend2.png)
-
-### Customize a box surrounding the legend
-We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
-
-```{python eval=FALSE}
-ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
-fig
-```
-![](images/legend3.png)
-
-### Legend for size of points
-
-```{python eval=FALSE}
-import pandas as pd
-cities = pd.read_csv('data/california_cities.csv')
-
-# Extract the data we're interested in
-lat, lon = cities['latd'], cities['longd']
-population, area = cities['population_total'], cities['area_total_km2']
-
-# Scatter the points, using size and color but no label
-plt.scatter(lon, lat, label=None,
-            c=np.log10(population), cmap='viridis',
-            s=area, linewidth=0, alpha=0.5)
-plt.axis(aspect='equal')
-plt.xlabel('longitude')
-plt.ylabel('latitude')
-plt.colorbar(label='log$_{10}$(population)')
-plt.clim(3, 7)
-
-# Here we create a legend:
-# we'll plot empty lists with the desired size and label
-for area in [100, 300, 500]:
-    plt.scatter([], [], c='k', alpha=0.3, s=area,
-                label=str(area) + ' km$^2$')
-plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
-
-plt.title('California Cities: Area and Population');
-```
-![](images/legend4.png)
-
-### Multiple legends
-```{python eval=FALSE}
-fig, ax = plt.subplots()
-
-lines = []
-styles = ['-', '--', '-.', ':']
-x = np.linspace(0, 10, 1000)
-
-for i in range(4):
-    lines += ax.plot(x, np.sin(x - i * np.pi / 2),
-                     styles[i], color='black')
-ax.axis('equal')
-
-# specify the lines and labels of the first legend
-ax.legend(lines[:2], ['line A', 'line B'],
-          loc='upper right', frameon=False)
-
-# Create the second legend and add the artist manually.
-from matplotlib.legend import Legend
-leg = Legend(ax, lines[2:], ['line C', 'line D'],
-             loc='lower right', frameon=False)
-ax.add_artist(leg);
-```
-![](images/legend5.png)
-
-### Reusable Data Visualization Code
-
-#### Reusable ggplot2 code
-[@viz_R]
-
-This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
-
-To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
-```{r}
-library(ggplot2)
-
-theme_set(theme_bw())  #set background theme
-
-plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
-
-plot(plot1)  #we have to actually call the plot() function on the plot object we created
-```
-
-The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
-
-#### Reusable Calendar View code
-[@Calendar_Layout]
-
-We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
-![](images/CalendarView.jpg)
-
-<sup>[@CalendarView]</sup>
- 
-Reproducible code for reference: 
-This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
-```{html}
-<!DOCTYPE html>
-<body>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
-var width = 960,
-    height = 136,
-    cellSize = 17;
-
-var formatPercent = d3.format(".1%");
-
-var color = d3.scaleQuantize()
-    .domain([-0.05, 0.05])
-    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
-
-var svg = d3.select("body")
-  .selectAll("svg")
-  .data(d3.range(1990, 2011))
-  .enter().append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
-
-svg.append("text")
-    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", 10)
-    .attr("text-anchor", "middle")
-    .text(function(d) { return d; });
-
-var rect = svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#ccc")
-  .selectAll("rect")
-  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("rect")
-    .attr("width", cellSize)
-    .attr("height", cellSize)
-    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
-    .attr("y", function(d) { return d.getDay() * cellSize; })
-    .datum(d3.timeFormat("%Y-%m-%d"));
-
-svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#000")
-  .selectAll("path")
-  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-  .enter().append("path")
-    .attr("d", pathMonth);
-
-d3.csv("dji.csv", function(error, csv) {
-  if (error) throw error;
-
-  var data = d3.nest()
-      .key(function(d) { return d.Date; })
-      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
-    .object(csv);
-
-  rect.filter(function(d) { return d in data; })
-      .attr("fill", function(d) { return color(data[d]); })
-    .append("title")
-      .text(function(d) { return d + ": " + formatPercent(data[d]); });
-});
-
-function pathMonth(t0) {
-  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
-      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
-      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
-  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
-      + "H" + w0 * cellSize + "V" + 7 * cellSize
-      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
-      + "H" + (w1 + 1) * cellSize + "V" + 0
-      + "H" + (w0 + 1) * cellSize + "Z";
-}
-</script>
-```
-
-## Using Shapes as Filters in Tableau When Your Fields Are Measures
-
-Reference:[@Measures]
-
-This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
-
-
 ## Outlier Detection
 
 We can use data visualization for outlier detection in a data set[@outliar]. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
@@ -668,6 +456,252 @@ Generality|New technology but underdeveloped|More useful in real time data forec
 Algorithm|Many algorithms exist in using data mining|No need of using any algorithms
 Integration|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
+## Dashboards
+
+> "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
+
+### Rules and Best Practices for Developing Intuitive Dashboards
+Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
+
+|Best Practice | Description                                            |
+| ------------ | ------------------------------------------------------ |
+**The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
+**Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
+**Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
+**Choose metrics based on why they matter** | Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. |
+**Keep it visual** | Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the  translation of individual department objectives into broader organizations objective. | Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. |
+**Make it interactive** | Interactive, highly visual dashboards should enable audience to perform basic analytical tasks, such as filtering the views, drilling down, examining underlying data etc. Viewers should be  able to get the big picture from the dashboard and then be able to drill down into a view that tells them the information they need  to get their jobs done. |
+**Keep it current or don't bother** | Selected metrics should reflect current business challenges. You don't need up-to-the-minute data. Data can be current quarterly, weekly, hourly, etc. as relevant to the timeline of the organization. Ability to change and update the metrics represented in the dashboard is an important aspect. |
+**Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
+
+
+### 7 mistakes to avoid:
+
+| Mistake           | Description                                       |
+| ----------------- | ------------------------------------------------- |
+**Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
+**Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
+**Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
+**Waiting for complex technology and big BI deployment projects** | Implementations of some of traditional business intelligence tools often take a much longer time than originally anticipated. Waiting for a traditional BI project to materialize may mean delays. |
+**Underestimating the time or resources to create and maintain the dashboard** | Even though a dashboard is typically one page or one screen, it would be injudicious to assume that it will be quick and simple to create and maintain. |
+**Failing to match metrics to the goal** | Instead of showcasing the activities of a single department, a dashboard should connect the department's efforts to the organization's actual goals and objectives |
+**Using ineffective, poorly designed graphs and charts** | While designing graphs and charts for dashboard, extreme care should be taken. Principles for designing good data visualizations should be followed to avoid dashboards populated with poorly designed graphs and charts. |
+
+[@intuitive-dash]
+[@dashboard_practices]
+
+## Using Visualization Softwares and Libraries
+
+### Using Shapes as Filters in Tableau When Your Fields Are Measures
+
+Reference:[@Measures]
+
+This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+
+### How to customize a legend in Python with matplotlib
+A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
+
+#### Add a basic legend
+First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
+
+```{python eval=FALSE}
+import matplotlib.pyplot as plt
+plt.style.use('classic')
+%matplotlib inline
+import numpy as np
+
+x = np.linspace(0, 10, 1000)
+fig, ax = plt.subplots()
+ax.plot(x, np.sin(x), '-b', label='Sine')
+ax.plot(x, np.cos(x), '--r', label='Cosine')
+ax.axis('equal')
+leg = ax.legend();
+```
+
+![](images/legend1.png)
+
+
+#### Add a legend on different position
+To specify the position of the legend, the 'loc' parameter inside the function can be used: 
+```{python eval=FALSE}
+ax.legend(loc='upper left', frameon=False)
+fig
+```
+![](images/legend2.png)
+
+#### Customize a box surrounding the legend
+We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
+
+```{python eval=FALSE}
+ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
+fig
+```
+![](images/legend3.png)
+
+#### Legend for size of points
+
+```{python eval=FALSE}
+import pandas as pd
+cities = pd.read_csv('data/california_cities.csv')
+
+# Extract the data we're interested in
+lat, lon = cities['latd'], cities['longd']
+population, area = cities['population_total'], cities['area_total_km2']
+
+# Scatter the points, using size and color but no label
+plt.scatter(lon, lat, label=None,
+            c=np.log10(population), cmap='viridis',
+            s=area, linewidth=0, alpha=0.5)
+plt.axis(aspect='equal')
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.colorbar(label='log$_{10}$(population)')
+plt.clim(3, 7)
+
+# Here we create a legend:
+# we'll plot empty lists with the desired size and label
+for area in [100, 300, 500]:
+    plt.scatter([], [], c='k', alpha=0.3, s=area,
+                label=str(area) + ' km$^2$')
+plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
+
+plt.title('California Cities: Area and Population');
+```
+![](images/legend4.png)
+
+#### Multiple legends
+```{python eval=FALSE}
+fig, ax = plt.subplots()
+
+lines = []
+styles = ['-', '--', '-.', ':']
+x = np.linspace(0, 10, 1000)
+
+for i in range(4):
+    lines += ax.plot(x, np.sin(x - i * np.pi / 2),
+                     styles[i], color='black')
+ax.axis('equal')
+
+# specify the lines and labels of the first legend
+ax.legend(lines[:2], ['line A', 'line B'],
+          loc='upper right', frameon=False)
+
+# Create the second legend and add the artist manually.
+from matplotlib.legend import Legend
+leg = Legend(ax, lines[2:], ['line C', 'line D'],
+             loc='lower right', frameon=False)
+ax.add_artist(leg);
+```
+![](images/legend5.png)
+
+### Reusable Data Visualization Code
+
+#### Reusable ggplot2 code
+[@viz_R]
+
+This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
+
+To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
+```{r}
+library(ggplot2)
+
+theme_set(theme_bw())  #set background theme
+
+plot1 <- ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point(aes(col=factor(vs), size = 2)) + geom_smooth(method = "loess", se = F) + xlim(c(0, 400)) + ylim(c(0, 40)) + labs(title = "Horsepower vs. MPG", y = "Miles Per Gallon", x = "Horsepower")
+
+plot(plot1)  #we have to actually call the plot() function on the plot object we created
+```
+
+The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
+
+#### Reusable Calendar View code
+[@Calendar_Layout]
+
+We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
+![](images/CalendarView.jpg)
+
+<sup>[@CalendarView]</sup>
+ 
+Reproducible code for reference: 
+This example demonstrates loading of CSV data, which is then quantized into a diverging color scale. The values are visualized as colored cells per day. Days are arranged into columns by week, then grouped by month and years. 
+```{html eval=FALSE}
+<!DOCTYPE html>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+</script>
+```
 
 ## Creating a Diverging Bar Chart
 
@@ -708,37 +742,3 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
  TabPy allows us to integrate and visualize data from Python in Tableau. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
  There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
-
-## Dashboards
-
-> "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
-
-### Rules and Best Practices for Developing Intuitive Dashboards
-Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
-
-|Best Practice | Description                                            |
-| ------------ | ------------------------------------------------------ |
-**The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
-**Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
-**Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
-**Choose metrics based on why they matter** | Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. |
-**Keep it visual** | Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the  translation of individual department objectives into broader organizations objective. | Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. |
-**Make it interactive** | Interactive, highly visual dashboards should enable audience to perform basic analytical tasks, such as filtering the views, drilling down, examining underlying data etc. Viewers should be  able to get the big picture from the dashboard and then be able to drill down into a view that tells them the information they need  to get their jobs done. |
-**Keep it current or don't bother** | Selected metrics should reflect current business challenges. You don't need up-to-the-minute data. Data can be current quarterly, weekly, hourly, etc. as relevant to the timeline of the organization. Ability to change and update the metrics represented in the dashboard is an important aspect. |
-**Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
-
-
-### 7 mistakes to avoid:
-
-| Mistake           | Description                                       |
-| ----------------- | ------------------------------------------------- |
-**Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
-**Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
-**Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
-**Waiting for complex technology and big BI deployment projects** | Implementations of some of traditional business intelligence tools often take a much longer time than originally anticipated. Waiting for a traditional BI project to materialize may mean delays. |
-**Underestimating the time or resources to create and maintain the dashboard** | Even though a dashboard is typically one page or one screen, it would be injudicious to assume that it will be quick and simple to create and maintain. |
-**Failing to match metrics to the goal** | Instead of showcasing the activities of a single department, a dashboard should connect the department's efforts to the organization's actual goals and objectives |
-**Using ineffective, poorly designed graphs and charts** | While designing graphs and charts for dashboard, extreme care should be taken. Principles for designing good data visualizations should be followed to avoid dashboards populated with poorly designed graphs and charts. |
-
-[@intuitive-dash]
-[@dashboard_practices]
