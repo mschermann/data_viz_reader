@@ -22,6 +22,7 @@ leg = ax.legend();
 
 ![](images/legend1.png)
 
+
 ### Add a legend on different position
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
 ```{python eval=FALSE}

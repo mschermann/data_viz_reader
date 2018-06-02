@@ -277,6 +277,8 @@ When connected data insight is critical, only interactive and robust visualizati
 
 ### Simpson’s Paradox
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+By "properly pooled" the investigators meant broken down by department. For instance men were more inclined towards science and
+women towards humanities. When compared together science department require special skills and humanities accept the standard undergrad curriculum thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
 
@@ -312,6 +314,7 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 Reference: [@trees]
 
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
+We can see what were some of the common and uncommon trees planted in the five boroughs of New York City. This visualization allows one to quickly see the distribution. There could be inferences which could drawn based on the distirbution such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between 5 boroughs of New York City which could be used to make a compelling decision by the audience.
 
 ![NYC Street Trees](images/NY_trees.png)
 
@@ -322,13 +325,13 @@ Interactive Visualization has the advantages that it enables the display and int
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 
 The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars.
+Based on different attributes selected the visualization changes to give you the data specific to the attributes. For every attribute selected it gives you a fact about the selected attribute related to the Oscar Winner(for instance: when you select race it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white".)Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc and also predict about the future nominees who are likely to win Oscar.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
 [@oscars_sowhite_chart] 
 
 
-Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc.
 
 ![Best Picture](images/img_oscars_pic.PNG)
 
