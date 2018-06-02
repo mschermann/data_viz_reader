@@ -58,9 +58,9 @@ Naturally, with the insights that you have gathered from the last visualization,
 
 **Transformation** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Zooming | This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group
-Filtering | This helps us to (temporarily) remove data points that are not in our major focus
-Outlier handling | This allows us to get rid of single points that are not representative of 99% of the dataset.
+**Zooming** | This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group
+**Filtering** | This helps us to (temporarily) remove data points that are not in our major focus
+**Outlier handling** | This allows us to get rid of single points that are not representative of 99% of the dataset.
 
 Let's consider the following example: You have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount [@DataVizBestPrac].
 
@@ -131,7 +131,7 @@ We can also assume that if you understand the statistical graphics, most other r
 
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
-![](images/Tufte_figure6.png)
+![](images/Tufte_figure6.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
 3. Principle 3: Maximize data density and the size of the data matrix, within reason.
@@ -144,17 +144,17 @@ $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Ch
 
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graghs or parallel sequencing skill.
 
-![Example for Small Multiples](images/Tufte_figure8.png)
+![Example for Small Multiples](images/Tufte_figure8.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
-![Example for parallel sequencing](images/Tufte_figure7.png)
+![Example for parallel sequencing](images/Tufte_figure7.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
 5. Principle 5: Provide the user with an overview and details on demand.
 
 Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
-![](images/Tufte_figure9.png)
+![](images/Tufte_figure9.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
 6. Principle 6: Utilize Layering & Separation.
@@ -165,17 +165,17 @@ Supported by Gestalt laws (The principles of grouping):
 * Using Color to separate
 * 1 + 1 = 3 (clutter)
 
-![](images/Tufte_figure10.png)
+![](images/Tufte_figure10.png){width=250px,height=200px}
 (Source: [@Tufte_2001])
 
 7. Principle 7: Utilize narratives of space and time.
 
 Tell a story of position and chronology through visual elements.
 
-![](images/Tufte_figure11.png)
-
+![](images/Tufte_figure11.png){width=250px,height=200px}
 (Source: [@narratives_2017])
-![](images/Tufte_figure12.png)
+
+![](images/Tufte_figure12.png){width=250px,height=200px}
 (Source: [@narratives_2017])
 
 ### More ways to improve your visualization design
@@ -227,12 +227,14 @@ Also, the author listed the top 7 comparisons between data mining and data visua
 
 #### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
- 
-1. Absorb information in constructive ways: With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making. 
-2. Visualize relationships and patterns: Helps in better understanding of correlations among operational data and business performance. 
-3. Identify and act on emerging trends faster: Helps decision makers to grasp shifts in behaviors and trends across multiple data sets much more quickly. 
-4. Manipulate and interact directly with data: Enables users to engage data more frequently. 
-5. Foster a new business language: Ability to tell a story through data that instantly relates the performance of a business and its assets.
+
+**Benefit** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Absorb information in constructive ways** | With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making. 
+**Visualize relationships and patterns** | Helps in better understanding of correlations among operational data and business performance. 
+**Identify and act on emerging trends faster** | Helps decision makers to grasp shifts in behaviors and trends across multiple data sets much more quickly. 
+**Manipulate and interact directly with data** | Enables users to engage data more frequently. 
+**Foster a new business language** | Ability to tell a story through data that instantly relates the performance of a business and its assets.
  
 **There are multiple ways by which interactive data visualizations can be developed.**
  
@@ -299,9 +301,9 @@ Companies tend to rely on dashboards (a compilation of several related data visu
 
 **Application** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Sales & Marketing | This is one of the most popular uses for dashboards. Companies like to regularly track their revenue, conversions, lead sources, etc. and rely on data visualization to synthesize these large and constantly updated data into visual summaries.
-Customer Success | These dashboards can be created by the team, but are also often built into customer service platforms such as Zendesk.  They include various KPIs of the customer success team, such as the ratio of tickets open to tickets closed and time to resolution.
-Product Management | These dashboards tend to synthesize sales, marketing, and customer research data together and are typically used for executive reporting. The visuals display metrics such as dollars and hours devoted to various projects and most requested features by customers.
+**Sales & Marketing** | This is one of the most popular uses for dashboards. Companies like to regularly track their revenue, conversions, lead sources, etc. and rely on data visualization to synthesize these large and constantly updated data into visual summaries.
+**Customer Success** | These dashboards can be created by the team, but are also often built into customer service platforms such as Zendesk.  They include various KPIs of the customer success team, such as the ratio of tickets open to tickets closed and time to resolution.
+**Product Management** | These dashboards tend to synthesize sales, marketing, and customer research data together and are typically used for executive reporting. The visuals display metrics such as dollars and hours devoted to various projects and most requested features by customers.
 
 Data visualization is also used across many different industries. One popular area right now is healthcare, especially involving big data. The benefits and uses of interactive data viz are detailed in a paper from the University of Maryland (2013). [@data_viz_healthcare]
 
@@ -342,7 +344,9 @@ Data has shown phenomenal growth over the past decade and it's widespread applic
 **play a key role in the process.**
 
 #### Strategizing
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to businesses. Then how data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
+As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to businesses. Then how data visualization become an important tool in your strategic kit? 
+
+First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.
 
 Data visualization is one of the initial and most important steps made to derive value from data. It determines how efficiently analysts can work with data assets, what insights they are able to extract and how their data strategy will develop over time.
 
