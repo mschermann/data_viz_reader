@@ -154,6 +154,27 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 
 ![](images/music_timeline_rock.png)
 
+## Animated Data Visualization
+Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
+
+### A Day in the Life of Americans
+This animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+
+One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
+
+A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day. This represents people's movements from one activity to another without overwhelming the reader.
+
+Overall, this is an engaging, informative, and a fun animated plot that has relevance and tells a story.
+
+![](images/life_of_americans.png)
+
+### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+Global health data expert Hans Rosling’s famous statistical documentary "The Joy of Stats" aired on BBC in 2010, but it’s still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
+
+![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
+
+What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
+
 ## Environmental Related Problems
 There are many case studies on visualizations of environment related issues.
 
@@ -201,27 +222,6 @@ Overall, this visualization is good in the following ways:
 - Use of charts is right: the correct use of different types of plots makes the visualization both efficient and interesting.
 - Use of color is efficient: this visualization exactly shows that color plays an important role in a data viz by guiding the reader to grasp the data relationships. There is no redundant color and no necessary color is missing.
 
-## Animated Data Visualization
-Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
-
-### A Day in the Life of Americans
-This animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
-
-One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can actually drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
-
-A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at key times of the day. This represents people's movements from one activity to another without overwhelming the reader.
-
-Overall, this is an engaging, informative, and a fun animated plot that has relevance and tells a story.
-
-![](images/life_of_americans.png)
-
-### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
-Global health data expert Hans Rosling’s famous statistical documentary "The Joy of Stats" aired on BBC in 2010, but it’s still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
-
-![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
-
-What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
-
 ## Language
 
 ### Green Honey
@@ -263,35 +263,6 @@ This visualization helps elucidate an extremely complicated topic like the Syria
 ![Red emoji shows  the ‘Enemies’ relationship](images/img_syria_enemies.PNG)
 
 ![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
-
-  
-### Law enforcement and fraud detection
-"Data is the new oil"– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight? Most of the time, the answer is through interactive graph visualization.
-
-There are four reasons why graph visualization is such a powerful tool:
-
-* It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
-* It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
-* It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.
-* It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or raw data.
-
-In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
-
-The police have been using graph visualization, or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
-
-A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
-
-Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
-
-Another early adopter of graph visualization techniques was the financial services industry. Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph. Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction. In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering helps fraud analysts to see context on demand.
-
-Three things are consistent across both graph visualization use cases:
-
-  1. They involve highly connected data (obviously).
-  2. That highly connected data conceals risk insight.
-  3. That insight is needed to power quick and confident decision making.
-
-When connected data insight is critical, only interactive and robust visualization tools are up to the task.
 
 ## Uncategorized
 
@@ -403,6 +374,34 @@ Traditional visualization strategies often require significant processing time, 
 Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and basic analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is effective in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R and Python are also helping healthcare a lot.
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
+
+### Law enforcement and fraud detection
+"Data is the new oil"– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight? Most of the time, the answer is through interactive graph visualization.
+
+There are four reasons why graph visualization is such a powerful tool:
+
+* It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
+* It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
+* It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.
+* It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or raw data.
+
+In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
+
+The police have been using graph visualization, or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+
+A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
+
+Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
+
+Another early adopter of graph visualization techniques was the financial services industry. Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph. Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction. In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering helps fraud analysts to see context on demand.
+
+Three things are consistent across both graph visualization use cases:
+
+  1. They involve highly connected data (obviously).
+  2. That highly connected data conceals risk insight.
+  3. That insight is needed to power quick and confident decision making.
+
+When connected data insight is critical, only interactive and robust visualization tools are up to the task.
 
 ### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
 [@Word_Bank_Data]
