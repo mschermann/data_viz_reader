@@ -12,6 +12,9 @@ This chapter contains some useful case studies on such visualizations. Case stud
 [@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
 [@int_viz_capt][@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
 [@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve your visualizations, written by Andy Kriebel, a famous Tableau Zen Master. This is a practical and insightful blog with great tips and examples in Tableau."Makeover Monday," is a special exercise where a new and better visualization is developed based on an original one.
+[@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
+[@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve your visualizations, written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes great tips for and examples of Tableau.
+
 
 ## Geographic Visualizations
 Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
@@ -24,9 +27,9 @@ Reference: [@cool_data]
 ![New York Flight Patterns](images/NYCflights.png)
 
 ### Two Centuries of U.S. Immigration
-The interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Colored dots represent 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
+This interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Each colored dot represents 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
 
-What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations.The bright colors and dark background help the information stand out. This map is a bit simpler, but perhaps that’s all it needs.
+What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simpler, but perhaps that’s all it needs.
 
 Reference: [@cool_data].
 
@@ -35,13 +38,13 @@ Reference: [@cool_data].
 ### Uber: Crafting Data-Driven Maps
 Map visualization is very important for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps]. 
 
-The challenges that Uber faced to craft geospatial visualizations:
+The challenges that Uber faced when crafting geospatial visualizations:
 
 1. There are great individual maps but as a whole lack consistency across company.
 2. Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
 3. The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
 
-To tackle these problems, Uber started by defining base map themes by optimizing detail, color and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.
+To tackle these problems, Uber started by defining base map themes by optimizing detail, color, and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.
 
 The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation in the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
 
@@ -60,29 +63,29 @@ What makes this a good visualization is that it is very easy to read and interpr
 ### U.S. Migration Patterns 
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. You can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when important, as can be seen by the difference between the charts for California and Pennsylvania.
 
-Overall this type of chart can work really well to visualize movement in data over time, such as with migration. However it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very descriptive visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by west, south, midwest, etc. However it is not completely clear why so many crossing lines are necessary in the Pennsylvania chart. The crossing lines, along with use of the same color for different categories can make it difficult for a reader to follow along with what the chart is trying to convey.
+Overall, this type of chart can work really well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very descriptive visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by west, south, midwest, etc. However, it is not completely clear why so many crossing lines are necessary in the Pennsylvania chart. The crossing lines, along with use of the same color for different lines within the same regional categorie, can make it difficult for a reader to follow along with what the chart is trying to convey.
 
 ![Migration from California](images/CA_migration.png)
 
 ![Migration from Pennsylvania](images/PA_migration.png)
 
 ### The American Workday
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The unconventional question of when Americans work, rather that the number of hours worked is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping the audience draw interesting conclusions. Below is a screenshot of the data product, the original graph is more interactive and allows the audience to explore when people are working for differnt occupations. 
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The unconventional question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard work day as a reference point, helping the audience draw interesting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations. 
 
 ![](images/npr_workday.png)
 
-Some interesting finds include:
-1. Construction workers don't work at lunch hours as there is a huge drop at noon. 
+Some interesting findings include:
+1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a huge drop at noon. 
 
 ![](images/construction.png)
 2. Servers and cooks' schedule are the opposite of all other occupations with peak from lunch through evening. 
 
 ![](images/server_cook.png)
-3. Protective services, e.g., police officers, firefighters and detectives, have a lot of workers working at 3 a.m., which is quite differnt from all other occupations. 
+3. Protective services, e.g., police officers, firefighters and detectives, have a lot of workers working throughout the night, which is quite different from all other occupations. 
 
 ![](images/protective.png)
 
-This data product is a great example as analytic design has been applied to constrast specific occupation to the traditional 9-5 working hours. This is easy to understand and make speciall occupations stand out easier. The color being used in the graph helps categorizing different occupations as well. 
+This data product is a great example because analytic design has been applied to constrast specific occupations to the traditional 9-5 working hours. This is easy to understand and make special occupations stand out easier. The use of color for highlighting the selected occupation in the graph helps categorizing different occupations as well. 
 
 ### How People Like You Spend Their Time
 This visualization from [@spendingtime] lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more. 
@@ -112,14 +115,16 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 Another common use is to look at how something changes over time. Time-series data can be shown many ways and these are some examples.
 
 ### Millennial Generation Diversity
-The millennial generation is bigger and more diverse than the baby boomer generation [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
+CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers [@age_groups]. While the article's main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 The author also summarized three key findings from the graph:
 1. The most common age in US is 22 years old. 
 2. The median age in US is 37.6 years old. 
-3. Among the youngest generation, white takes only 50% of the population with the potential of dropping from the biggest race in US. 
+3. Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in US.
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
+
+This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can clearly see the drop in number of white people and the increasing growth of the other racial categories.
 
 ### How the Recession Reshaped the Economy, in 255 Charts
 The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this huge data visualization.  
@@ -129,10 +134,8 @@ Below the overall chart are subsets categorized by job sector and sub-industries
 
 ![](images/recession_jobs2.png)
 
-
-
 ### An Aging Nation: Projected Number of Children and Older Adults 
-Aging population is always a hot topic in social economics and politics [@aging_nation]. There are several different data visualizations collected to show the aging population in the world.
+Aging population is always a hot topic in social economics and politics [@aging_nation]. Here are several different data visualizations collected to show the aging population in the U.S. and in the world.
 
 ![](images/aging_nation.jpg)
 
@@ -154,53 +157,6 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 
 ![](images/music_timeline_rock.png)
 
-## Environmental Related Problems
-There are many case studies on visualizations of environment related issues.
-
-### Global Carbon Emissions
-This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios [@CO2_emission].
-
-![](images/carbon_emissions.png)
-
-### What's really warming the world?
-This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide further detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] referenced in [@int_viz_capt].
-
-![](images/volcano_global_warming.png)
-
-### Understanding Plastic pollution using visualization
-Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, they have a wide variety of usage in our everyday life. Since the 1950's an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@Wiki_Plastic_Pollution].
-
-Usage of plastic in last few decades [@Plastic_Pollution_visualizations]:
-![](images/global_plastic_usage.png)
-
-Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environment. [@Plastic_Pollution_visualizations]
-
-What is plastic used for. [@Plastic_Pollution_visualizations]
-![](images/use_of_plastic.png)
-
-With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have a consumption that exceeds even that of the entire rest of Asia and Africa combined. [@Plastic Pollution visualizations]
-
-Plastic Use: Industrial nations top the charts [@Plastic_Pollution_visualizations]
-
-![](images/plastic_use.png)
-
-Visualization of Ocean Plastic collection: This world view visualization shows how much plastic is in our oceans.[@Ocean_Plastic_Pollution]
-![](images/Ocean_Plasticpollution.jpg)
-
-Infographic plastic pollution [@Plastic_Pollution_Infographics]
-![](images/infographic-plastic-buildup.jpg)
-
-Infographic plastic pollution [@Plastic_Pollution_Infographics]
-![](images/ocean_plastic.png)
-
-How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
-
-Overall, this visualization is good in the following ways:
-
-- It provide Content: those plots serve one of the main purposes of Data Visualization-- storytelling. It natuarally leads the audience to understand the what along with the plastic pollution. 
-- Using of charts is right: the correct use of different types of plots makes the visualization both efficient and interesting
-- Use of color is efficient: this visualization exactly shows that color plays an important role in a data viz by guiding the reader to grasp the data relationships. No redendant color and no necessary color is missing.
-
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These however, are self-animated instead of interactive.
 
@@ -220,10 +176,59 @@ Global health data expert Hans Rosling’s famous statistical documentary "The J
 
 ![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
 
+What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
+
+## Environmental Related Problems
+There are many case studies on visualizations of environment related issues.
+
+### Global Carbon Emissions
+This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios [@CO2_emission].
+
+![](images/carbon_emissions.png)
+
+### What's really warming the world?
+This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors". After that, it combines all the dynamic graphics into one, which makes the results easier and more straightforward to compare. Lastly, the authors provide further detailed explanations with data set sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] referenced in [@int_viz_capt].
+
+![](images/volcano_global_warming.png)
+
+### Understanding Plastic pollution using visualization
+Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@Wiki_Plastic_Pollution].
+
+Usage of plastic in last few decades [@Plastic_Pollution_visualizations]:
+![](images/global_plastic_usage.png)
+
+Plastic has become part of our daily life and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on environment. [@Plastic_Pollution_visualizations]
+
+What is plastic used for. [@Plastic_Pollution_visualizations]
+![](images/use_of_plastic.png)
+
+With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have a consumption that exceeds even that of the entire rest of Asia and Africa combined. [@Plastic_Pollution_visualizations]
+
+Plastic Use: Industrial nations top the charts [@Plastic_Pollution_visualizations]
+
+![](images/plastic_use.png)
+
+Visualization of Ocean Plastic collection: This world view visualization shows how much plastic is in our oceans.[@Ocean_Plastic_Pollution]
+![](images/Ocean_Plasticpollution.jpg)
+
+Infographic plastic pollution [@Plastic_Pollution_Infographics]
+![](images/infographic-plastic-buildup.jpg)
+
+Infographic plastic pollution [@Plastic_Pollution_Infographics]
+![](images/ocean_plastic.png)
+
+How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
+
+Overall, this visualization is good in the following ways:
+
+- It provides content: those plots serve one of the main purposes of Data Visualization-- storytelling. It naturally leads the audience to understand the what along with the plastic pollution. 
+- Use of charts is right: the correct use of different types of plots makes the visualization both efficient and interesting.
+- Use of color is efficient: this visualization exactly shows that color plays an important role in a data viz by guiding the reader to grasp the data relationships. There is no redundant color and no necessary color is missing.
+
 ## Language
 
 ### Green Honey
-The visualization spans a webpage [@green_honey] referenced in [@cool_data]. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue, but the numbers that fall into each category—for example, what colors are the most popular "base" colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.
+The visualization spans a webpage [@green_honey] referenced in [@cool_data]. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue, but the numbers that fall into each category — for example, what colors are the most popular "base" colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.
 
 ![](images/colorwords.png)
 
@@ -244,7 +249,7 @@ Twitter’s data team assembled an impressive interactive data hub that depicts 
 ## Political Relationships
 
 ### Connecting the Dots Behind the Election
-This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. The visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible and viewable format so that voters can figure out where the candidates’ experiences lie. Source: [@campaign_staff] referenced in [@cool_data]
+This article by the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which are then connected by arrows. Hovering over a specific dot highlights the connections between the groups. This visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible and viewable format so that voters can figure out where the candidates’ experiences lie.
 
 ![Clinton 2016 Campaign Staff](images/clinton_campaign.png)
 
@@ -262,65 +267,32 @@ This visualization helps elucidate an extremely complicated topic like the Syria
 
 ![Yellow emoji shows ‘Complicated’ relationship](images/img_syria_complicated.PNG)
 
-  
-### Law enforcement and fraud detection
-"Data is the new oil"– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight? Most of the time, the answer is through interactive graph visualization.
-
-There are four reasons why graph visualization is such a powerful tool:
-
-* It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
-* It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
-* It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.
-* It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or raw data.
-
-In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
-
-The police have been using Graph visualization, or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
-
-A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
-
-Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
-
-Another early adopter of graph visualization techniques was the financial services industry. Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph. Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction. In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering helps fraud analysts to see context on demand.
-
-Three things are consistent across both graph visualization use cases:
-
-  1. They involve highly connected data (obviously).
-  2. That highly connected data conceals risk insight.
-  3. That insight is needed to power quick and confident decision making.
-
-When connected data insight is critical, only interactive and robust visualization tools are up to the task.
-
 ## Uncategorized
 
 ### Simpson’s Paradox
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was actually a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
-By "properly pooled" the investigators meant broken down by department. For instance men were more inclined towards science and
-women towards humanities. When compared together science department require special skills and humanities accept the standard undergrad curriculum thus creating the Simpson's Paradox.
+By "properly pooled", the investigators meant broken down by department. For instance men were more inclined towards science and women towards humanities. When compared against each other, the science departments required more specialized skills while the humanities would accept applicants with a more standard undergrad curriculum, thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
 
 ### Every Satellite Orbiting Earth
-Reference: 
-
 This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
 
 ![Low Earth Orbit Satellites](images/satellites.png)
 
 ### Malaria
-The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better 
-New Version:
-[@malaria_cases_zambia] 
-
-Original Version:
-[@malaria_zambia_original]
+The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
 
 ![Original visualization of malaria cases](images/malaria_original.png)
 
+Original Version: [@malaria_zambia_original]
+
 ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories. However, it is unclear what his intent was when adding the yearly data split by districts.
-The author has attempted to improve to show the overall decline clearly and explained the spikes better.The author has combined the data to find out what the data looks like when combined with health facilities and health workers.And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
+New Version: [@malaria_cases_zambia] 
+
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories. However, it is unclear what his intent was when adding the monthly data split by districts.
+The author has attempted to improve to show the overall decline clearly and explained the spikes better. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
 
 ### Is it Better to Rent or Buy?
 There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you’ll have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful in price comparison: if you can find a similar house to rent for that much per month or less, it’s more cost effective to just rent the home.
@@ -330,27 +302,23 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 
 
 ### An Interactive Visualization of NYC Street Trees
-Reference: [@trees]
+Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs [@trees]. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
 
-Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
-We can see what were some of the common and uncommon trees planted in the five boroughs of New York City. This visualization allows one to quickly see the distribution. There could be inferences which could drawn based on the distirbution such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between 5 boroughs of New York City which could be used to make a compelling decision by the audience.
+We can see what are some of the common and uncommon trees planted in the five boroughs of New York City. This visualization allows one to quickly see the distribution. One can make inferences based on the distribution, such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between the five boroughs which could be used to make a compelling decision by the audience.
 
 ![NYC Street Trees](images/NY_trees.png)
 
-Interactive Visualization has the advantages that it enables the display and intuitive understanding of multidimensional data, provides a variety of visualization chart types, and enables audience to accomplish traditional data exploration tasks by making charts interactive. And this visualization provides a good example: it enable audience to ‘manipulation’ and find interesting facts about NYC Street Trees.
+The interactive visualization is an advantage that enables the display and intuitive understanding of multidimensional data, provides a variety of visualization chart types, and enables audience to accomplish traditional data exploration tasks by making charts interactive. And this visualization provides a good example: it enables the audience to explore on their own and find interesting facts about NYC street trees.
 
 ### Adding up the White Oscars Winners
 
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Ocsars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is extremely interesting to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 
-The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars.
-Based on different attributes selected the visualization changes to give you the data specific to the attributes. For every attribute selected it gives you a fact about the selected attribute related to the Oscar Winner(for instance: when you select race it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white".)Similarly, the visualization gives also information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc and also predict about the future nominees who are likely to win Oscar.
+The visualization is interactive and we can click on each attribute like ‘Hair Color’, ‘Eye Color’, etc. to see the features of the actors and actresses who are likely to win the Oscars. Based on different attributes selected, the visualization changes to give you the data specific to the attributes. For each attribute selected, it gives you a fact about the selected attribute related to the Oscar Winner. For instance, when you select race it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white". Similarly, the visualization also gives information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc and also predict about the future nominees who are likely to win Oscar.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
 [@oscars_sowhite_chart] 
-
-
 
 ![Best Picture](images/img_oscars_pic.PNG)
 
@@ -373,7 +341,7 @@ The following graphs show that the engagement is increasing; that is, while the 
 This resonates with what we have learned at class in terms of how different perspectives of interpreting data can lead to different conclusions. 
 
 ### Describe Artists with Emoji
-Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists [@artist_emoji]. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
+Using the data from Spotify, the author listed the ten most distinctive emoji used in the playlists related to popular artists [@artist_emoji]. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
 
 ![](images/artist_emoji.png)
 
@@ -384,10 +352,7 @@ Using the data from Spotify, the author listed the 10 most distinctive emoji use
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
 ### Washington Wizards’ Shooting Stars
-
-[@basketball]
-
-This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers are able to see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
+This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season [@basketball]. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers are able to see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
 
 ![](images/wizards_shooting.png)
 
@@ -414,6 +379,34 @@ Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponso
  
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policy makers to make better decisions.
 
+### Law enforcement and fraud detection
+"Data is the new oil"– it may be a cliche, but it’s true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight? Most of the time, the answer is through interactive graph visualization.
+
+There are four reasons why graph visualization is such a powerful tool:
+
+* It’s intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
+* It’s fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
+* It’s flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you’ll find value in a graph visualization.
+* It’s insightful – exploring graph data interactively allows users to gain deeper knowledge, understand context and ask more questions, compared to static visualization or raw data.
+
+In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
+
+The police have been using graph visualization, or link analysis as it’s commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+
+A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were created specifically for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
+
+Lawful interception, the legally mandated interception of personal communications data, provided huge volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
+
+Another early adopter of graph visualization techniques was the financial services industry. Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph. Known fraud detection is largely automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important, because sometimes analysts only have seconds to approve or deny a transaction. In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering helps fraud analysts to see context on demand.
+
+Three things are consistent across both graph visualization use cases:
+
+  1. They involve highly connected data (obviously).
+  2. That highly connected data conceals risk insight.
+  3. That insight is needed to power quick and confident decision making.
+
+When connected data insight is critical, only interactive and robust visualization tools are up to the task.
+
 ### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
 [@Word_Bank_Data]
 
@@ -432,6 +425,6 @@ The Atlas features maps and data visualizations, primarily drawn from World Deve
  
 The editors have been selective to emphasize on important issues by experts in the World Bank’s Global Practices. The Atlas aims to reflect the breadth of the Goals themselves and presents national and regional trends and snapshots of progress towards the UN’s seventeen Sustainable Development Goals related to: poverty, hunger, health, education, gender, water, energy, jobs, infrastructure, inequalities, cities, consumption, climate, oceans, the environment, peace, institutions, and partnerships.
 
-The contents of this publication are available as a [@worldbankpub].
-The data is available in the [@DATAACCESS].
-The code used to generate the majority of figures is available on [@worldbankcode].
+Contents of this publication: [@worldbankpub].
+The data is available at [@DATAACCESS].
+The code used to generate the majority of figures is available at [@worldbankcode].
