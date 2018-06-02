@@ -17,7 +17,7 @@ This chapter contains some useful case studies on such visualizations. Case stud
 Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
 
 ### Spies in the Skies
-The map below is from a Buzzfeed article [@spies_sky]. It is filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change in accordance to day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting a normally uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind. 
+The map below is from a Buzzfeed article [@spies_sky] that shows how common it is for the government to observe people. It is filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change in accordance to day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting a normally uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind. 
 
 Reference: [@cool_data]
 
@@ -67,9 +67,22 @@ Overall this type of chart can work really well to visualize movement in data ov
 ![Migration from Pennsylvania](images/PA_migration.png)
 
 ### The American Workday
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping the audience draw interesting conclusions.
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The unconventional question of when Americans work, rather that the number of hours worked is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard over the graph for a reference point, helping the audience draw interesting conclusions. Below is a screenshot of the data product, the original graph is more interactive and allows the audience to explore when people are working for differnt occupations. 
 
 ![](images/npr_workday.png)
+
+Some interesting finds include:
+1. Construction workers don't work at lunch hours as there is a huge drop at noon. 
+
+![](images/construction.png)
+2. Servers and cooks' schedule are the opposite of all other occupations with peak from lunch through evening. 
+
+![](images/server_cook.png)
+3. Protective services, e.g., police officers, firefighters and detectives, have a lot of workers working at 3 a.m., which is quite differnt from all other occupations. 
+
+![](images/protective.png)
+
+This data product is a great example as analytic design has been applied to constrast specific occupation to the traditional 9-5 working hours. This is easy to understand and make speciall occupations stand out easier. The color being used in the graph helps categorizing different occupations as well. 
 
 ### How People Like You Spend Their Time
 This visualization from [@spendingtime] lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a certain demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more. 
@@ -100,6 +113,11 @@ Another common use is to look at how something changes over time. Time-series da
 
 ### Millennial Generation Diversity
 The millennial generation is bigger and more diverse than the baby boomer generation [@age_groups]. CNNMoney’s interactive chart showing the size and diversity of the millennial generation compared to baby boomers was built using U.S. Census Data. It turns dry numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
+
+The author also summarized three key findings from the graph:
+1. The most common age in US is 22 years old. 
+2. The median age in US is 37.6 years old. 
+3. Among the youngest generation, white takes only 50% of the population with the potential of dropping from the biggest race in US. 
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
