@@ -509,7 +509,7 @@ First, we need to import the matplotlib library in Python.  Then we use the lege
 ```{python eval=FALSE}
 import matplotlib.pyplot as plt
 plt.style.use('classic')
-%matplotlib inline
+#matplotlib inline
 import numpy as np
 
 x = np.linspace(0, 10, 1000)
