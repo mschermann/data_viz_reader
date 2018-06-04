@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Reader on Data Visualization</title>
+  <meta name="description" content="This is the class reader for MSIS 2629.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Reader on Data Visualization" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the class reader for MSIS 2629." />
+  <meta name="github-repo" content="mschermann/data_viz_reader" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Reader on Data Visualization" />
+  
+  <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
+  
+
+<meta name="author" content="MSIS 2629 Spring 2018">
+
+
+<meta name="date" content="2018-06-03">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="introduction.html">
+<link rel="next" href="case-studies.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Reader on Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#basic-guidelines"><i class="fa fa-check"></i><b>1.3</b> Basic Guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-is-data-visualization"><i class="fa fa-check"></i><b>2.1</b> What is Data Visualization?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#importance-of-data-visualization"><i class="fa fa-check"></i><b>2.2</b> Importance of Data Visualization</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#history-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> History of Data Visualization</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#brief-history"><i class="fa fa-check"></i><b>2.3.1</b> Brief history</a></li>
+<li class="chapter" data-level="2.3.2" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.2</b> Key Figures in the History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#contemporary-visualists"><i class="fa fa-check"></i><b>2.4</b> Contemporary Visualists</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="introduction.html"><a href="introduction.html#hans-rosling"><i class="fa fa-check"></i><b>2.4.1</b> Hans Rosling</a></li>
+<li class="chapter" data-level="2.4.2" data-path="introduction.html"><a href="introduction.html#david-mccandless"><i class="fa fa-check"></i><b>2.4.2</b> David McCandless</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization"><i class="fa fa-check"></i><b>2.5</b> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</a></li>
+<li class="chapter" data-level="2.6" data-path="introduction.html"><a href="introduction.html#additional-resources-for-aspiring-data-visualists"><i class="fa fa-check"></i><b>2.6</b> Additional Resources for Aspiring Data Visualists</a><ul>
+<li class="chapter" data-level="2.6.1" data-path="introduction.html"><a href="introduction.html#tableau-community"><i class="fa fa-check"></i><b>2.6.1</b> Tableau Community</a></li>
+<li class="chapter" data-level="2.6.2" data-path="introduction.html"><a href="introduction.html#blogs"><i class="fa fa-check"></i><b>2.6.2</b> Blogs</a></li>
+<li class="chapter" data-level="2.6.3" data-path="introduction.html"><a href="introduction.html#useful-links-on-data-visualization-resources-trends-and-tutorials"><i class="fa fa-check"></i><b>2.6.3</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
+<li class="chapter" data-level="2.6.4" data-path="introduction.html"><a href="introduction.html#infographics-vs.data-visualizations"><i class="fa fa-check"></i><b>2.6.4</b> Infographics vs. Data Visualizations</a></li>
+<li class="chapter" data-level="2.6.5" data-path="introduction.html"><a href="introduction.html#tableau-viz-of-the-day"><i class="fa fa-check"></i><b>2.6.5</b> Tableau: Viz of the Day</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a><ul>
+<li class="chapter" data-level="3.1" data-path="fundamentals.html"><a href="fundamentals.html#determine-the-story-with-insights"><i class="fa fa-check"></i><b>3.1</b> Determine the Story with Insights</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="fundamentals.html"><a href="fundamentals.html#visualize"><i class="fa fa-check"></i><b>3.1.1</b> Visualize</a></li>
+<li class="chapter" data-level="3.1.2" data-path="fundamentals.html"><a href="fundamentals.html#analyze-and-interpret"><i class="fa fa-check"></i><b>3.1.2</b> Analyze and Interpret</a></li>
+<li class="chapter" data-level="3.1.3" data-path="fundamentals.html"><a href="fundamentals.html#document-your-insights-and-steps"><i class="fa fa-check"></i><b>3.1.3</b> Document Your Insights and Steps</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="fundamentals.html"><a href="fundamentals.html#design-principles"><i class="fa fa-check"></i><b>3.2</b> Design Principles</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="fundamentals.html"><a href="fundamentals.html#melissa-andersons-principles-of-design"><i class="fa fa-check"></i><b>3.2.1</b> Melissa Anderson’s Principles of Design</a></li>
+<li class="chapter" data-level="3.2.2" data-path="fundamentals.html"><a href="fundamentals.html#gestalt-principles-of-design"><i class="fa fa-check"></i><b>3.2.2</b> Gestalt Principles of Design</a></li>
+<li class="chapter" data-level="3.2.3" data-path="fundamentals.html"><a href="fundamentals.html#tuftes-principles-of-design"><i class="fa fa-check"></i><b>3.2.3</b> Tufte’s Principles of Design</a></li>
+<li class="chapter" data-level="3.2.4" data-path="fundamentals.html"><a href="fundamentals.html#more-ways-to-improve-your-visualization-design"><i class="fa fa-check"></i><b>3.2.4</b> More ways to improve your visualization design</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="fundamentals.html"><a href="fundamentals.html#adapt-your-story-to-a-different-set-of-audiences"><i class="fa fa-check"></i><b>3.3</b> Adapt your story to a different set of audiences</a></li>
+<li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-vs.data-visualization"><i class="fa fa-check"></i><b>3.4</b> Data Mining vs. Data Visualization</a></li>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-tools"><i class="fa fa-check"></i><b>3.5</b> Data Visualization Tools</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="fundamentals.html"><a href="fundamentals.html#brief-introduction"><i class="fa fa-check"></i><b>3.5.1</b> Brief Introduction</a></li>
+<li class="chapter" data-level="3.5.2" data-path="fundamentals.html"><a href="fundamentals.html#comparison-of-different-tools"><i class="fa fa-check"></i><b>3.5.2</b> Comparison of Different Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="fundamentals.html"><a href="fundamentals.html#typography-and-data-visualization"><i class="fa fa-check"></i><b>3.6</b> Typography and Data Visualization</a></li>
+<li class="chapter" data-level="3.7" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.7</b> Data visualization in Business</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="fundamentals.html"><a href="fundamentals.html#data-visualizations-in-industry"><i class="fa fa-check"></i><b>3.7.1</b> Data Visualizations in Industry</a></li>
+<li class="chapter" data-level="3.7.2" data-path="fundamentals.html"><a href="fundamentals.html#how-visualization-impacts-industrybusiness"><i class="fa fa-check"></i><b>3.7.2</b> How visualization impacts Industry/business</a></li>
+<li class="chapter" data-level="3.7.3" data-path="fundamentals.html"><a href="fundamentals.html#corporate-scorecards-and-data-visualization"><i class="fa fa-check"></i><b>3.7.3</b> Corporate Scorecards and Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="fundamentals.html"><a href="fundamentals.html#contemporary-research-results-whats-next"><i class="fa fa-check"></i><b>3.8</b> Contemporary Research Results &amp; What’s Next</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#geographic-visualizations"><i class="fa fa-check"></i><b>4.1</b> Geographic Visualizations</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="case-studies.html"><a href="case-studies.html#spies-in-the-skies"><i class="fa fa-check"></i><b>4.1.1</b> Spies in the Skies</a></li>
+<li class="chapter" data-level="4.1.2" data-path="case-studies.html"><a href="case-studies.html#two-centuries-of-u.s.-immigration"><i class="fa fa-check"></i><b>4.1.2</b> Two Centuries of U.S. Immigration</a></li>
+<li class="chapter" data-level="4.1.3" data-path="case-studies.html"><a href="case-studies.html#uber-crafting-data-driven-maps"><i class="fa fa-check"></i><b>4.1.3</b> Uber: Crafting Data-Driven Maps</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="case-studies.html"><a href="case-studies.html#demographic-comparisons"><i class="fa fa-check"></i><b>4.2</b> Demographic Comparisons</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="case-studies.html"><a href="case-studies.html#young-voters-class-and-turnout-how-britain-voted-in-2017"><i class="fa fa-check"></i><b>4.2.1</b> Young voters, class and turnout: How Britain voted in 2017</a></li>
+<li class="chapter" data-level="4.2.2" data-path="case-studies.html"><a href="case-studies.html#u.s.-migration-patterns"><i class="fa fa-check"></i><b>4.2.2</b> U.S. Migration Patterns</a></li>
+<li class="chapter" data-level="4.2.3" data-path="case-studies.html"><a href="case-studies.html#the-american-workday"><i class="fa fa-check"></i><b>4.2.3</b> The American Workday</a></li>
+<li class="chapter" data-level="4.2.4" data-path="case-studies.html"><a href="case-studies.html#how-people-like-you-spend-their-time"><i class="fa fa-check"></i><b>4.2.4</b> How People Like You Spend Their Time</a></li>
+<li class="chapter" data-level="4.2.5" data-path="case-studies.html"><a href="case-studies.html#britains-diet-in-data"><i class="fa fa-check"></i><b>4.2.5</b> Britain’s diet in data</a></li>
+<li class="chapter" data-level="4.2.6" data-path="case-studies.html"><a href="case-studies.html#selfie-city"><i class="fa fa-check"></i><b>4.2.6</b> Selfie City</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="case-studies.html"><a href="case-studies.html#evolving-demographics"><i class="fa fa-check"></i><b>4.3</b> Evolving Demographics</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="case-studies.html"><a href="case-studies.html#millennial-generation-diversity"><i class="fa fa-check"></i><b>4.3.1</b> Millennial Generation Diversity</a></li>
+<li class="chapter" data-level="4.3.2" data-path="case-studies.html"><a href="case-studies.html#how-the-recession-reshaped-the-economy-in-255-charts"><i class="fa fa-check"></i><b>4.3.2</b> How the Recession Reshaped the Economy, in 255 Charts</a></li>
+<li class="chapter" data-level="4.3.3" data-path="case-studies.html"><a href="case-studies.html#an-aging-nation-projected-number-of-children-and-older-adults"><i class="fa fa-check"></i><b>4.3.3</b> An Aging Nation: Projected Number of Children and Older Adults</a></li>
+<li class="chapter" data-level="4.3.4" data-path="case-studies.html"><a href="case-studies.html#from-pyramid-to-pillar-a-century-of-change-population-of-the-u.s."><i class="fa fa-check"></i><b>4.3.4</b> From Pyramid to Pillar: A Century of Change, Population of the U.S.</a></li>
+<li class="chapter" data-level="4.3.5" data-path="case-studies.html"><a href="case-studies.html#music-timeline"><i class="fa fa-check"></i><b>4.3.5</b> Music Timeline</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.4</b> Animated Data Visualization</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.4.1</b> A Day in the Life of Americans</a></li>
+<li class="chapter" data-level="4.4.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.4.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#environmental-related-problems"><i class="fa fa-check"></i><b>4.5</b> Environmental Related Problems</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.5.1</b> Global Carbon Emissions</a></li>
+<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.5.2</b> What’s really warming the world?</a></li>
+<li class="chapter" data-level="4.5.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.5.3</b> Understanding Plastic pollution using visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#language"><i class="fa fa-check"></i><b>4.6</b> Language</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#green-honey"><i class="fa fa-check"></i><b>4.6.1</b> Green Honey</a></li>
+<li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#linguistic-concepts"><i class="fa fa-check"></i><b>4.6.2</b> Linguistic Concepts</a></li>
+<li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#state-of-the-union-2014-minute-by-minute-on-twitter"><i class="fa fa-check"></i><b>4.6.3</b> State of the Union 2014 Minute by Minute on Twitter</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="case-studies.html"><a href="case-studies.html#political-relationships"><i class="fa fa-check"></i><b>4.7</b> Political Relationships</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="case-studies.html"><a href="case-studies.html#connecting-the-dots-behind-the-election"><i class="fa fa-check"></i><b>4.7.1</b> Connecting the Dots Behind the Election</a></li>
+<li class="chapter" data-level="4.7.2" data-path="case-studies.html"><a href="case-studies.html#a-guide-to-who-is-fighting-whom-in-syria"><i class="fa fa-check"></i><b>4.7.2</b> A Guide to Who is Fighting Whom in Syria</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="case-studies.html"><a href="case-studies.html#uncategorized"><i class="fa fa-check"></i><b>4.8</b> Uncategorized</a><ul>
+<li class="chapter" data-level="4.8.1" data-path="case-studies.html"><a href="case-studies.html#simpsons-paradox"><i class="fa fa-check"></i><b>4.8.1</b> Simpson’s Paradox</a></li>
+<li class="chapter" data-level="4.8.2" data-path="case-studies.html"><a href="case-studies.html#every-satellite-orbiting-earth"><i class="fa fa-check"></i><b>4.8.2</b> Every Satellite Orbiting Earth</a></li>
+<li class="chapter" data-level="4.8.3" data-path="case-studies.html"><a href="case-studies.html#malaria"><i class="fa fa-check"></i><b>4.8.3</b> Malaria</a></li>
+<li class="chapter" data-level="4.8.4" data-path="case-studies.html"><a href="case-studies.html#is-it-better-to-rent-or-buy"><i class="fa fa-check"></i><b>4.8.4</b> Is it Better to Rent or Buy?</a></li>
+<li class="chapter" data-level="4.8.5" data-path="case-studies.html"><a href="case-studies.html#an-interactive-visualization-of-nyc-street-trees"><i class="fa fa-check"></i><b>4.8.5</b> An Interactive Visualization of NYC Street Trees</a></li>
+<li class="chapter" data-level="4.8.6" data-path="case-studies.html"><a href="case-studies.html#adding-up-the-white-oscars-winners"><i class="fa fa-check"></i><b>4.8.6</b> Adding up the White Oscars Winners</a></li>
+<li class="chapter" data-level="4.8.7" data-path="case-studies.html"><a href="case-studies.html#kissmetrics-blog-visualization-of-metrics"><i class="fa fa-check"></i><b>4.8.7</b> Kissmetrics blog: visualization of metrics</a></li>
+<li class="chapter" data-level="4.8.8" data-path="case-studies.html"><a href="case-studies.html#describe-artists-with-emoji"><i class="fa fa-check"></i><b>4.8.8</b> Describe Artists with Emoji</a></li>
+<li class="chapter" data-level="4.8.9" data-path="case-studies.html"><a href="case-studies.html#goldilocks-exoplanets"><i class="fa fa-check"></i><b>4.8.9</b> Goldilocks Exoplanets</a></li>
+<li class="chapter" data-level="4.8.10" data-path="case-studies.html"><a href="case-studies.html#washington-wizards-shooting-stars"><i class="fa fa-check"></i><b>4.8.10</b> Washington Wizards’ Shooting Stars</a></li>
+<li class="chapter" data-level="4.8.11" data-path="case-studies.html"><a href="case-studies.html#visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set"><i class="fa fa-check"></i><b>4.8.11</b> Visualization of big data security: a case study on the KDD99 cup data set</a></li>
+<li class="chapter" data-level="4.8.12" data-path="case-studies.html"><a href="case-studies.html#how-data-visualization-is-helping-in-healthcare-decision-making"><i class="fa fa-check"></i><b>4.8.12</b> How Data Visualization is Helping in Healthcare Decision Making</a></li>
+<li class="chapter" data-level="4.8.13" data-path="case-studies.html"><a href="case-studies.html#law-enforcement-and-fraud-detection"><i class="fa fa-check"></i><b>4.8.13</b> Law enforcement and fraud detection</a></li>
+<li class="chapter" data-level="4.8.14" data-path="case-studies.html"><a href="case-studies.html#the-atlas-of-sustainable-development-goals-2018---data-visualization-of-world-development"><i class="fa fa-check"></i><b>4.8.14</b> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#outlier-detection"><i class="fa fa-check"></i><b>5.1</b> Outlier Detection</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Tips to Improve Data Visualization</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#comparison"><i class="fa fa-check"></i><b>5.2.1</b> Comparison</a></li>
+<li class="chapter" data-level="5.2.2" data-path="patterns.html"><a href="patterns.html#copy"><i class="fa fa-check"></i><b>5.2.2</b> Copy</a></li>
+<li class="chapter" data-level="5.2.3" data-path="patterns.html"><a href="patterns.html#color"><i class="fa fa-check"></i><b>5.2.3</b> Color</a></li>
+<li class="chapter" data-level="5.2.4" data-path="patterns.html"><a href="patterns.html#ordering"><i class="fa fa-check"></i><b>5.2.4</b> Ordering</a></li>
+<li class="chapter" data-level="5.2.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.2.5</b> Audience perspective</a></li>
+<li class="chapter" data-level="5.2.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.2.6</b> Use layers to tell a story</a></li>
+<li class="chapter" data-level="5.2.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.2.7</b> Keep it simple</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#pick-the-right-chart-type"><i class="fa fa-check"></i><b>5.3</b> Pick the Right Chart Type</a></li>
+<li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#why-pie-charts-are-bad-a-comparison-with-the-bar-chart"><i class="fa fa-check"></i><b>5.4</b> Why Pie Charts are Bad: a Comparison with the Bar Chart</a></li>
+<li class="chapter" data-level="5.5" data-path="patterns.html"><a href="patterns.html#maps"><i class="fa fa-check"></i><b>5.5</b> Maps</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="patterns.html"><a href="patterns.html#use-maps-only-when-effective"><i class="fa fa-check"></i><b>5.5.1</b> Use maps only when effective</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="patterns.html"><a href="patterns.html#choose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.6</b> Choose the right baseline in data visualization</a></li>
+<li class="chapter" data-level="5.7" data-path="patterns.html"><a href="patterns.html#using-design-patterns-to-find-greater-meaning-in-your-data"><i class="fa fa-check"></i><b>5.7</b> Using Design Patterns to Find Greater Meaning in Your Data</a><ul>
+<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#comparisons"><i class="fa fa-check"></i><b>5.7.1</b> Comparisons</a></li>
+<li class="chapter" data-level="5.7.2" data-path="patterns.html"><a href="patterns.html#connections"><i class="fa fa-check"></i><b>5.7.2</b> Connections</a></li>
+<li class="chapter" data-level="5.7.3" data-path="patterns.html"><a href="patterns.html#conclusions"><i class="fa fa-check"></i><b>5.7.3</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.8" data-path="patterns.html"><a href="patterns.html#takeaways-from-recreating-one-chart-using-24-tools"><i class="fa fa-check"></i><b>5.8</b> Takeaways from recreating one chart using 24 tools</a><ul>
+<li class="chapter" data-level="5.8.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-goals"><i class="fa fa-check"></i><b>5.8.1</b> Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals</a></li>
+<li class="chapter" data-level="5.8.2" data-path="patterns.html"><a href="patterns.html#takeaway-2-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-mindsets"><i class="fa fa-check"></i><b>5.8.2</b> Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets</a></li>
+<li class="chapter" data-level="5.8.3" data-path="patterns.html"><a href="patterns.html#takeaway-3-we-still-live-in-an-apps-are-for-the-easy-stuff-code-is-for-the-good-stuff-in-the-world"><i class="fa fa-check"></i><b>5.8.3</b> Takeaway 3: We Still Live in an ‘Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World’</a></li>
+<li class="chapter" data-level="5.8.4" data-path="patterns.html"><a href="patterns.html#takeaway-4-every-tool-forces-you-down-a-path"><i class="fa fa-check"></i><b>5.8.4</b> Takeaway 4: Every Tool Forces You Down a Path</a></li>
+</ul></li>
+<li class="chapter" data-level="5.9" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.9</b> Chart types</a><ul>
+<li class="chapter" data-level="5.9.1" data-path="patterns.html"><a href="patterns.html#time-series-data"><i class="fa fa-check"></i><b>5.9.1</b> Time Series Data</a></li>
+<li class="chapter" data-level="5.9.2" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.9.2</b> Line Graph</a></li>
+<li class="chapter" data-level="5.9.3" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.9.3</b> Stacked Area Chart</a></li>
+<li class="chapter" data-level="5.9.4" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.9.4</b> Bar Charts</a></li>
+<li class="chapter" data-level="5.9.5" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.9.5</b> Column Charts for Time Series data</a></li>
+<li class="chapter" data-level="5.9.6" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.9.6</b> Gantt Chart</a></li>
+<li class="chapter" data-level="5.9.7" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.9.7</b> Stream Graph</a></li>
+<li class="chapter" data-level="5.9.8" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.9.8</b> Heat Map</a></li>
+<li class="chapter" data-level="5.9.9" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.9.9</b> Polar Area Diagram</a></li>
+</ul></li>
+<li class="chapter" data-level="5.10" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.10</b> Time Series Data and its Deceptive Potential</a></li>
+<li class="chapter" data-level="5.11" data-path="patterns.html"><a href="patterns.html#word-cloud"><i class="fa fa-check"></i><b>5.11</b> Word Cloud</a></li>
+<li class="chapter" data-level="5.12" data-path="patterns.html"><a href="patterns.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>5.12</b> Data Mining and Data Visualization</a></li>
+<li class="chapter" data-level="5.13" data-path="patterns.html"><a href="patterns.html#dashboards"><i class="fa fa-check"></i><b>5.13</b> Dashboards</a><ul>
+<li class="chapter" data-level="5.13.1" data-path="patterns.html"><a href="patterns.html#rules-and-best-practices-for-developing-intuitive-dashboards"><i class="fa fa-check"></i><b>5.13.1</b> Rules and Best Practices for Developing Intuitive Dashboards</a></li>
+<li class="chapter" data-level="5.13.2" data-path="patterns.html"><a href="patterns.html#mistakes-to-avoid"><i class="fa fa-check"></i><b>5.13.2</b> 7 mistakes to avoid:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.14" data-path="patterns.html"><a href="patterns.html#using-visualization-softwares-and-libraries"><i class="fa fa-check"></i><b>5.14</b> Using Visualization Softwares and Libraries</a><ul>
+<li class="chapter" data-level="5.14.1" data-path="patterns.html"><a href="patterns.html#using-shapes-as-filters-in-tableau-when-your-fields-are-measures"><i class="fa fa-check"></i><b>5.14.1</b> Using Shapes as Filters in Tableau When Your Fields Are Measures</a></li>
+<li class="chapter" data-level="5.14.2" data-path="patterns.html"><a href="patterns.html#how-to-customize-a-legend-in-python-with-matplotlib"><i class="fa fa-check"></i><b>5.14.2</b> How to customize a legend in Python with matplotlib</a></li>
+<li class="chapter" data-level="5.14.3" data-path="patterns.html"><a href="patterns.html#reusable-data-visualization-code"><i class="fa fa-check"></i><b>5.14.3</b> Reusable Data Visualization Code</a></li>
+<li class="chapter" data-level="5.14.4" data-path="patterns.html"><a href="patterns.html#creating-a-diverging-bar-chart"><i class="fa fa-check"></i><b>5.14.4</b> Creating a Diverging Bar Chart</a></li>
+<li class="chapter" data-level="5.14.5" data-path="patterns.html"><a href="patterns.html#building-advanced-analytics-application-with-tabpy"><i class="fa fa-check"></i><b>5.14.5</b> Building advanced analytics application with TabPy</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a><ul>
+<li class="chapter" data-level="6.1" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.1</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
+<li class="chapter" data-level="6.2" data-path="ethics.html"><a href="ethics.html#importance-of-ethics-in-visualization"><i class="fa fa-check"></i><b>6.2</b> Importance of Ethics in Visualization</a></li>
+<li class="chapter" data-level="6.3" data-path="ethics.html"><a href="ethics.html#implications-of-goodbad-data-visualization"><i class="fa fa-check"></i><b>6.3</b> Implications of (Good/Bad) Data Visualization</a></li>
+<li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#general-guidelines-for-ethical-visuals"><i class="fa fa-check"></i><b>6.4</b> General Guidelines for Ethical Visuals</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="ethics.html"><a href="ethics.html#data-collection"><i class="fa fa-check"></i><b>6.4.1</b> Data Collection</a></li>
+<li class="chapter" data-level="6.4.2" data-path="ethics.html"><a href="ethics.html#data-analysis"><i class="fa fa-check"></i><b>6.4.2</b> Data Analysis</a></li>
+<li class="chapter" data-level="6.4.3" data-path="ethics.html"><a href="ethics.html#design"><i class="fa fa-check"></i><b>6.4.3</b> Design</a></li>
+<li class="chapter" data-level="6.4.4" data-path="ethics.html"><a href="ethics.html#ethical-challenges-in-data-visualization"><i class="fa fa-check"></i><b>6.4.4</b> Ethical Challenges in Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="ethics.html"><a href="ethics.html#data-visualization-a-tool-for-social-change"><i class="fa fa-check"></i><b>6.5</b> Data Visualization: A Tool for Social Change</a></li>
+<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.6</b> Misinformation can be beautiful too</a></li>
+<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#definitions-of-data-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>6.7</b> Definitions of Data Deception and Graphic Integrity</a></li>
+<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.8</b> Visual Lies</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.8.1</b> Size</a></li>
+<li class="chapter" data-level="6.8.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.8.2</b> Quantity</a></li>
+<li class="chapter" data-level="6.8.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.8.3</b> Segmentation</a></li>
+<li class="chapter" data-level="6.8.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.8.4</b> Graph</a></li>
+<li class="chapter" data-level="6.8.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.8.5</b> The Missing Baseline</a></li>
+<li class="chapter" data-level="6.8.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.8.6</b> The graph is not labeled properly</a></li>
+<li class="chapter" data-level="6.8.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.8.7</b> Data is left out</a></li>
+<li class="chapter" data-level="6.8.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.8.8</b> Treating correlation as causation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Reader on Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="fundamentals" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Fundamentals</h1>
+<div id="determine-the-story-with-insights" class="section level2">
+<h2><span class="header-section-number">3.1</span> Determine the Story with Insights</h2>
+<p>Storytelling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather’s article <span class="citation">[@storytelling_with_data]</span> (2013) discussed the way in which a visual designer tells a story with a visualization.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Five Ways</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Find the compelling narrative</strong></td>
+<td>Along with giving an account of the facts and establishing the connections between them, don’t be boring. You are competing for the viewer’s time and attention, so make sure the narrative has a hook, momentum, or a captivating purpose. Finding the narrative structure will help you decide whether you actually have a story to tell. If you don’t, then perhaps this visualization should support exploratory data analysis (EDA) rather than convey information.</td>
+</tr>
+<tr class="even">
+<td><strong>Think about the audience</strong></td>
+<td>The visualization needs to be framed around the level of information the audience already has, correct and incorrect: Novice: first exposure to the subject, but doesn’t want oversimplification;Generalist: aware of the topic, but looking for an overview understanding and major themes; Managerial: in-depth, actionable understanding of intricacies and interrelationships with access to detail; Expert: more exploration and discovery and less storytelling with great detail;Executive: only has time to glean the significance and conclusions of weighted probabilities (e.g., novice, generalist, managerial, export, executive)</td>
+</tr>
+<tr class="odd">
+<td><strong>Be objective and offer balance</strong></td>
+<td>A visualization should be devoid of bias. Even if it is arguing to influence, it should be based upon what the data says–not what you want it to say. There are simple ways to encourage objectivity: labeling to avoid ambiguity, have graphic dimensions match data dimensions, using standardized units, and keeping design elements from compromising the data. Balance can come from alternative representations (multiple clustering’s; confidence intervals instead of lines; changing timelines; alternative color palettes and assignments; variable scaling) of the data in the same visualization.</td>
+</tr>
+<tr class="even">
+<td><strong>Don’t censor</strong></td>
+<td>Don’t be selective about the data you include or exclude, unless you’re confident you’re giving your audience the best representation of what the data “says”. This selectivity includes using discrete values when the data is continuous; how you deal with missing, outlier and out of range values; arbitrary temporal ranges; capped values, volumes, ranges, and intervals. Viewers will eventually figure that out and lose trust in the visualization (and any others you might produce).</td>
+</tr>
+<tr class="odd">
+<td><strong>Edit, Edit, Edit</strong></td>
+<td>Take care to really try to explain the data, not just decorate it. Don’t fall into “it looks cool” trap, when it might not be the best way explain the data. As journalists and writers know, if you are spending more time editing and improving your visualization than creating it, you are probably doing something right.</td>
+</tr>
+</tbody>
+</table>
+<p>Data visualization will not always unleash a ready-made story on its own. There are no rules, no protocol that will guarantee us a story. Instead, it makes more sense to look for <em>insights</em>, which can be artfully woven into stories in the hands of a good journalist <span class="citation">[@data_journ]</span><span class="citation">[@design_principles]</span><span class="citation">[@DataVizTips]</span><span class="citation">[@practitioners_guide]</span>.</p>
+<p>Here is a process that may be followed for finding insights to tell a story.Each of these steps will be discussed further in this section.</p>
+<p><img src="images/DataInsights.JPG" /> (Source:<span class="citation">[@VisualizeToInsights]</span>)</p>
+<div id="visualize" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Visualize</h3>
+<p>Loading any data set into a spreadsheet can also be a form of visualization as the data becomes visible in a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best for the situation.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Focus</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>5 Second Rule</strong></td>
+<td>Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can’t grab attention within 5 minutes, you’ve likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.</td>
+</tr>
+<tr class="even">
+<td><strong>Design and layout matter</strong></td>
+<td>The design and layout should facilitate ease of understanding to convey your message to the viewer. Artists use design principles as the foundation of any visual work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate graphic designer Melissa Anderson’s principles of design: balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity, discussed in more detail in the design principles section <span class="citation">[@design_principles]</span>.</td>
+</tr>
+<tr class="odd">
+<td><strong>Keep it simple</strong></td>
+<td>Keep charts simple and easy to interpret. Instead of overloading viewers’ brains with lots of information, keep only necessary elements in the chart and help the audience understand quickly what is going on.</td>
+</tr>
+<tr class="even">
+<td><strong>Pretty doesn’t mean effective</strong></td>
+<td>There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you’ll lose your audience’s interest as quickly as you gained it.</td>
+</tr>
+<tr class="odd">
+<td><strong>Use color purposely and effectively</strong></td>
+<td>Use of color may be prettier and attractive but can be distracting too. Thus, the color should be used only if it assists in conveying your message.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="analyze-and-interpret" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Analyze and Interpret</h3>
+<p>Once the data is visualized, the next step is to learn something from the visualization that is created. Questions that can be asked based on the picture can be:</p>
+<ul>
+<li>What can be seen in this image? Is it what that was expected?</li>
+<li>Are there any interesting patterns?</li>
+<li>What does this mean in the context of the data?</li>
+</ul>
+<p>Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.</p>
+</div>
+<div id="document-your-insights-and-steps" class="section level3">
+<h3><span class="header-section-number">3.1.3</span> Document Your Insights and Steps</h3>
+<p>If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data.</p>
+<p>In most cases when we start to work with a previously unseen dataset, we are already full of expectations and assumptions about the data. Usually, there is a reason why we are interested in that dataset that we are looking at. It’s a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of misinterpretation of the data by just finding what we originally wanted to find.</p>
+<p>I really think that the documentation is the most important step of the process, and it is also the one we’re most likely to tend to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created.</p>
+<p>Hence, you should take the time to make some notes on things like:</p>
+<ul>
+<li>Why have I created this chart?</li>
+<li>What have I done to the data to create it?</li>
+<li>What does this chart tell me?</li>
+</ul>
+<div id="transform-data" class="section level4">
+<h4><span class="header-section-number">3.1.3.1</span> Transform Data</h4>
+<p>Naturally, with the insights that you have gathered from the last visualization, you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail. Possible transformations are the following.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Transformation</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Zooming</strong></td>
+<td>This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group</td>
+</tr>
+<tr class="even">
+<td><strong>Filtering</strong></td>
+<td>This helps us to (temporarily) remove data points that are not in our major focus</td>
+</tr>
+<tr class="odd">
+<td><strong>Outlier handling</strong></td>
+<td>This allows us to get rid of single points that are not representative of 99% of the dataset.</td>
+</tr>
+</tbody>
+</table>
+<p>Let’s consider the following example: You have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries we could remove all flows below a certain amount <span class="citation">[@DataVizBestPrac]</span>.</p>
+</div>
+</div>
+</div>
+<div id="design-principles" class="section level2">
+<h2><span class="header-section-number">3.2</span> Design Principles</h2>
+<div id="melissa-andersons-principles-of-design" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Melissa Anderson’s Principles of Design</h3>
+<p>The following principles are from <span class="citation">[@design_principles]</span>.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Criteria</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Balance</strong></td>
+<td>A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed. Balance doesn’t mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display.</td>
+</tr>
+<tr class="even">
+<td><strong>Emphasis</strong></td>
+<td>Draw viewers’ attention towards important data by using key visual elements. Emphasis is the component that is most related to when reading the nine principles of design. It is the key to be conscious of what is drawing the viewers attention to the art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.</td>
+</tr>
+<tr class="odd">
+<td><strong>Movement</strong></td>
+<td>Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complementary colors to pull the user’s attention across the page.</td>
+</tr>
+<tr class="even">
+<td><strong>Pattern</strong></td>
+<td>patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers’ attention; it naturally draws curiosity.</td>
+</tr>
+<tr class="odd">
+<td><strong>Repetition</strong></td>
+<td>Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.</td>
+</tr>
+<tr class="even">
+<td><strong>Proportion</strong></td>
+<td>If a person is portrayed next to a house, the house is going to look bigger. In data visualization, the proportion can indicate the importance of data sets, along with the actual relationship between numbers. Proportion can be subtle but it can go a long way to enhancing a viewer’s experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally, images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization.</td>
+</tr>
+<tr class="odd">
+<td><strong>Rhythm</strong></td>
+<td>A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.</td>
+</tr>
+<tr class="even">
+<td><strong>Variety</strong></td>
+<td>Variety in color, shape, and chart-type draws and keeps users engaged with data. Including more variety can increase information retention by the viewer. But when there is too much variety, important details can be overlooked. Variety, which could seem counter to balance, but when done correctly, variety can help increase the recall of information. However if overdone, too much variety can feel cluttered and blur together the images and data in the mind of the viewer.</td>
+</tr>
+<tr class="odd">
+<td><strong>Unity</strong></td>
+<td>Unity across design will happen naturally if all other design principles are implemented.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="gestalt-principles-of-design" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Gestalt Principles of Design</h3>
+<p>Data is simply a collection of many individual elements (i.e., observations, typically represented as rows in a data table). In data viz, our goal is usually to group these elements together in a meaningful way to highlight patterns and anomalies. Described this way, it makes sense that the following principles by Gestalt are a good set of guidelines to assemble different elements into groups <span class="citation">[@principles-fusioncharts]</span>.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Principle</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Proximity</strong></td>
+<td>White space can be used to group elements together and separate others</td>
+</tr>
+<tr class="even">
+<td><strong>Similarity</strong></td>
+<td>Objects that look similar are instinctively grouped together in our minds</td>
+</tr>
+<tr class="odd">
+<td><strong>Enclosure</strong></td>
+<td>Helps distinguish between groups</td>
+</tr>
+<tr class="even">
+<td><strong>Symmetry</strong></td>
+<td>Objects should not be out of balance, or missing, or wrong. If an object is asymmetrical, the viewer will waste time trying to find the problem instead of concentrating on the instruction.</td>
+</tr>
+<tr class="odd">
+<td><strong>Closure</strong></td>
+<td>We tend to complete shapes and paths even if part of them is missing</td>
+</tr>
+<tr class="even">
+<td><strong>Continuity</strong></td>
+<td>We tend to continue shapes beyond their ending points (similar to closure)</td>
+</tr>
+<tr class="odd">
+<td><strong>Connection</strong></td>
+<td>Helps group elements together</td>
+</tr>
+<tr class="even">
+<td><strong>Figure and ground</strong></td>
+<td>We typically notice only one of several main visual aspects of a graph; what we do notice becomes the figure, and everything else becomes the “background”. This one is especially interesting because it is not as obvious as some of the others, but is really important in matching a data viz design to its purpose.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tuftes-principles-of-design" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Tufte’s Principles of Design</h3>
+<p>A graph should be impressive and can obtain audience’s attention. How can we achieve this? We must consider several aspects: <strong>efficiency, complexity, structure, density and beauty</strong>. We also should consider the audience whether they will be confused about the design.</p>
+<ol style="list-style-type: decimal">
+<li>Prin1ciple 1: Maximizing the data-ink ratio, within reason</li>
+</ol>
+<p>Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic’s ink devoted to the non-redundant display of data-information.</p>
+<p><span class="math display">\[{Data \ Ink \ Ratio} = \frac{{Data \ Ink}}{{Total \ Ink}}\]</span></p>
+<p>This basic idea is illustrated in the following visualizations.</p>
+<p><strong>Erase non-data-ink and redundant data-ink.</strong> <img src="images/Tufte_figure1.png" /> (Source:<span class="citation">[@Tufte_2001]</span>)</p>
+<p><strong>Erase non-data-ink and redundant data-ink.</strong> <img src="images/Tufte_figure2.png" /> (Source: <span class="citation">[@appli_2017]</span>)</p>
+<p><img src="images/Tufte_figure3.png" /> (Source: <span class="citation">[@appli_2017]</span>)</p>
+<p><strong>Always revise and edit</strong> <img src="images/Tufte_figure4.png" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<p>The graphs will be better for more information per unit of space and per unit of ink is displayed. Graphics are almost always going to improve as they go through editing, revision, and testing against different design options. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is gained by those who do understand.</p>
+<p>We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.</li>
+</ol>
+<p>The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).</p>
+<p><img src="images/Tufte_figure6.png" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Principle 3: Maximize data density and the size of the data matrix, within reason.</li>
+</ol>
+<p>High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).</p>
+<p><span class="math display">\[{Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}\]</span></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Principle 4: Escape flatland - small multiples, parallel sequencing.</li>
+</ol>
+<p>Data is multivariate doesn’t necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graghs or parallel sequencing skill.</p>
+<p><img src="images/Tufte_figure8.png" alt="Example for Small Multiples" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<p><img src="images/Tufte_figure7.png" alt="Example for parallel sequencing" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Principle 5: Provide the user with an overview and details on demand.</li>
+</ol>
+<p>Carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.</p>
+<p><img src="images/Tufte_figure9.png" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Principle 6: Utilize Layering &amp; Separation.</li>
+</ol>
+<p>Supported by Gestalt laws (The principles of grouping):</p>
+<ul>
+<li>Grouping with colors</li>
+<li>Using Color to separate</li>
+<li>1 + 1 = 3 (clutter)</li>
+</ul>
+<p><img src="images/Tufte_figure10.png" /> (Source: <span class="citation">[@Tufte_2001]</span>)</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Principle 7: Utilize narratives of space and time.</li>
+</ol>
+<p>Tell a story of position and chronology through visual elements.</p>
+<p><img src="images/Tufte_figure11.png" /> (Source: <span class="citation">[@narratives_2017]</span>)</p>
+<p><img src="images/Tufte_figure12.png" /> (Source: <span class="citation">[@narratives_2017]</span>)</p>
+</div>
+<div id="more-ways-to-improve-your-visualization-design" class="section level3">
+<h3><span class="header-section-number">3.2.4</span> More ways to improve your visualization design</h3>
+<p>From online surveys to beefed-up analytics, we’re able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.</p>
+<p>There’s a wealth of free resources out there in the form of handy little design ebooks.</p>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="11%" />
+<col width="78%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Title</strong></th>
+<th><strong>Author</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Design’s Iron Fist</td>
+<td>Jarrod Drysdale</td>
+<td>This free ebook is a collection of Drysdale’s previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.</td>
+</tr>
+<tr class="even">
+<td>The Creative Aid Handbook</td>
+<td>Kooroo Kooroo</td>
+<td>Creativity doesn’t just happen overnight. It’s something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.</td>
+</tr>
+<tr class="odd">
+<td>Designbetter.co</td>
+<td>InVision</td>
+<td>InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.</td>
+</tr>
+<tr class="even">
+<td>Type Classification</td>
+<td></td>
+<td>Type Classification is a helpful beginner’s guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.<span class="citation">[@design_ebooks]</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="adapt-your-story-to-a-different-set-of-audiences" class="section level2">
+<h2><span class="header-section-number">3.3</span> Adapt your story to a different set of audiences</h2>
+<p>Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience, (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and break downs of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.</p>
+<p>Of course is knowing the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involved.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Principle</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Focusing the attention</strong></td>
+<td>What can be removed? Realize that consistency can help eliminate unnecessary distractions. There may be a trade off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.</td>
+</tr>
+<tr class="even">
+<td><strong>Involving your audience:</strong></td>
+<td>Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.</td>
+</tr>
+<tr class="odd">
+<td><strong>Explaining why</strong></td>
+<td>Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="data-mining-vs.data-visualization" class="section level2">
+<h2><span class="header-section-number">3.4</span> Data Mining vs. Data Visualization</h2>
+<p><strong>Data Mining</strong> involves different processes such as data extraction, data management, data transformations, data pre-processing, etc. In <strong>Data Visualization</strong>, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.</p>
+</div>
+<div id="data-visualization-tools" class="section level2">
+<h2><span class="header-section-number">3.5</span> Data Visualization Tools</h2>
+<div id="brief-introduction" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> Brief Introduction</h3>
+<p>Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Tool</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tableau</strong></td>
+<td>The most popular in the group and has many users. It is simple to use, making it easy to learn and can handle large data sets. Tableau can handle big data thanks to integration with database handling applications such as MySQL, Hadoop, and Amazon AWS.</td>
+</tr>
+<tr class="even">
+<td><strong>Qlikview</strong></td>
+<td>The the main competitor to Tableau and is also quite popular. Qlikview is customizable and has a wide range of features which can be a double-edged sword. These features take more time to learn and get acquainted with. However, once one gets past the learning curve, they have a powerful tool at their disposal.</td>
+</tr>
+<tr class="odd">
+<td><strong>FusionCharts</strong></td>
+<td>The distinctive aspect of FusionCharts is that graphics do not have to be created from scratch. Users can start with a template and insert their own data from their project.</td>
+</tr>
+<tr class="even">
+<td><strong>Highcharts</strong></td>
+<td>It proudly claims to be used by 72% of the 100 biggest companies in the world. It is a simple tool that does not require specialized training and quickly generates the desired output. Unlike some tools, Highcharts focuses on cross-browser support, allowing for greater access and use.</td>
+</tr>
+<tr class="odd">
+<td><strong>Datawrapper</strong></td>
+<td>It is making a name for itself in the media industry. It has a simple user interface making it easy to generate charts and embed into reports.</td>
+</tr>
+<tr class="even">
+<td><strong>Plotly</strong></td>
+<td>It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.</td>
+</tr>
+<tr class="odd">
+<td><strong>Sisense</strong></td>
+<td>It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.</td>
+</tr>
+<tr class="even">
+<td><strong>Altair</strong></td>
+<td>Altair is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="comparison-of-different-tools" class="section level3">
+<h3><span class="header-section-number">3.5.2</span> Comparison of Different Tools</h3>
+<div id="interactive-data-visualization" class="section level4">
+<h4><span class="header-section-number">3.5.2.1</span> Interactive Data Visualization</h4>
+<p>Interactive or Dynamic data visualization delivers today’s complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive <span class="citation">[@benefits_interactive_viz]</span>. Interactive Data Visualization Software has the following benefits:</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Benefit</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Absorb information in constructive ways</strong></td>
+<td>With the volume and velocity of data created everyday, dynamic data viz enables enhanced process optimization, insight discovery and decision making.</td>
+</tr>
+<tr class="even">
+<td><strong>Visualize relationships and patterns</strong></td>
+<td>Helps in better understanding of correlations among operational data and business performance.</td>
+</tr>
+<tr class="odd">
+<td><strong>Identify and act on emerging trends faster</strong></td>
+<td>Helps decision makers to grasp shifts in behaviors and trends across multiple data sets much more quickly.</td>
+</tr>
+<tr class="even">
+<td><strong>Manipulate and interact directly with data</strong></td>
+<td>Enables users to engage data more frequently.</td>
+</tr>
+<tr class="odd">
+<td><strong>Foster a new business language</strong></td>
+<td>Ability to tell a story through data that instantly relates the performance of a business and its assets.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>There are multiple ways by which interactive data visualizations can be developed.</strong></p>
+</div>
+<div id="python-for-data-visualization10-useful-python-data-visualization-libraries" class="section level4">
+<h4><span class="header-section-number">3.5.2.2</span> Python for Data Visualization：10 Useful Python Data Visualization Libraries</h4>
+<p><span class="citation">[@PythonDataVizLibraries]</span></p>
+<p><a href="https://blog.modeanalytics.com/python-data-visualization-libraries/">Sample charts for each</a></p>
+<table style="width:28%;">
+<colgroup>
+<col width="11%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Library</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Matplotlib</strong></td>
+<td>Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it’s not very useful for creating publication-quality charts quickly and easily.</td>
+</tr>
+<tr class="even">
+<td><strong>Seaborn</strong></td>
+<td>Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn’s default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you’ll need to know matplotlib to tweak Seaborn’s defaults.</td>
+</tr>
+<tr class="odd">
+<td><strong>Ggplot</strong></td>
+<td>ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an “intuitive” method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.</td>
+</tr>
+<tr class="even">
+<td><strong>Bokeh</strong></td>
+<td>Like ggplot, Bokeh is based on The Grammar of Graphics, but unlike ggplot, it’s native to Python, not ported over from R. Its strength lies in the ability to create interactive, web-ready plots, which can easily give the output as JSON objects, HTML documents, or interactive web applications. Bokeh also supports streaming and real-time data.</td>
+</tr>
+<tr class="odd">
+<td><strong>Pygal</strong></td>
+<td>Like Bokeh and Plotly, pygal offers interactive plots that can be embedded in the web browser. Its prime differentiator is the ability to output charts as SVGs. As long as you’re working with smaller datasets, SVGs will do you just fine. But if you’re making charts with hundreds of thousands of data points, they’ll have trouble rendering and SVG will become sluggish.</td>
+</tr>
+<tr class="even">
+<td><strong>Plotly</strong></td>
+<td>You might know Plotly as an online platform for data visualization, but did you also know you can access its capabilities from a Python notebook? Like Bokeh, Plotly’s forte is making interactive plots, but it offers some charts you won’t find in most libraries, like contour plots, dendograms, and 3D charts.</td>
+</tr>
+<tr class="odd">
+<td><strong>Geoplotlib</strong></td>
+<td>geoplotlib is a toolbox for creating maps and plotting geographical data. You can use it to create a variety of map-types, like choropleths, heatmaps, and dot density maps. You must have Pyglet (an object-oriented programming interface) installed to use geoplotlib. Nonetheless, since most Python data visualization libraries don’t offer maps, it’s nice to have a library dedicated solely to them.</td>
+</tr>
+<tr class="even">
+<td><strong>Gleam</strong></td>
+<td>Gleam is inspired by R’s Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don’t have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you’ve created a plot, you can build fields on top of it so users can filter and sort data.</td>
+</tr>
+<tr class="odd">
+<td><strong>Missingno</strong></td>
+<td>Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram.</td>
+</tr>
+<tr class="even">
+<td><strong>Leather</strong></td>
+<td>Leather’s creator, Christopher Groskopf, puts it best: “Leather is the Python charting library for those who need charts now and don’t care if they’re perfect.” It’s designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic-but that’s the intention.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="r-for-data-visualization-grammar-of-graphics" class="section level4">
+<h4><span class="header-section-number">3.5.2.3</span> R for Data Visualization: Grammar of Graphics</h4>
+<p><a href="http://r4ds.had.co.nz/data-visualisation.html">Chapter 3 of Grolemund and Wickham’s “R for Data Science”</a></p>
+<ol style="list-style-type: decimal">
+<li><strong>Formula: layered Grammar of Graphics</strong></li>
+</ol>
+<p>$$ggplot(data = &lt;DATA&gt;) +</p>
+<p><GEOM_FUNCTION> (mapping = aes(&lt;MAPPINGS&gt;),</p>
+<pre><code>            stat = \&lt;STAT\&gt;,   
+            
+            position = \&lt;POSITION\&gt;  ) + </code></pre>
+<p><COORDINATE_FUNCTION> +</p>
+<p><FACET_FUNCTION>$$</p>
+<p>The grammar of graphics <span class="citation">[@Grammar_Graphics]</span> is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Aes/Mapping: Global Mapping and Local Mapping</strong></li>
+</ol>
+<p>$$ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +</p>
+<p>geom_point(mapping = aes(color = class)) +</p>
+<p>geom_smooth()$$</p>
+<p>Here, “mapping = aes(x = displ, y = hwy)” is a <strong>global mapping</strong>, where “mapping = aes(color = class)” is a <strong>local mapping</strong>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="st">&quot;tidyverse&quot;</span>)</code></pre></div>
+<pre><code>## ── Attaching packages ──────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 2.2.1     ✔ purrr   0.2.5
+## ✔ tibble  1.4.2     ✔ dplyr   0.7.5
+## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
+## ✔ readr   1.1.1     ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ─────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="st">&quot;gapminder&quot;</span>)
+<span class="kw">ggplot</span>(<span class="dt">data =</span> mpg, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy)) <span class="op">+</span><span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">color =</span> class)) <span class="op">+</span><span class="st">  </span><span class="kw">geom_smooth</span>()</code></pre></div>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39;</code></pre>
+<p><img src="data_viz_reader_files/figure-html/unnamed-chunk-1-1.png" width="672" /> 3. <strong>Position Adjustment</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>“Identity” position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.</p></li>
+<li><p>“Fill” position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.</p></li>
+<li><p>“Dodge” position places overlapping objects directly beside one another, which makes it easier to compare individual values.</p></li>
+<li><p>“Jitter” position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.</p></li>
+</ol>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Coordinate Systems</strong></li>
+</ol>
+<p>a). default: Cartesian</p>
+<p>b). coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> class, <span class="dt">y =</span> hwy)) <span class="op">+</span><span class="st"> </span><span class="kw">geom_boxplot</span>()</code></pre></div>
+<p><img src="data_viz_reader_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> class, <span class="dt">y =</span> hwy)) <span class="op">+</span><span class="st">  </span><span class="kw">geom_boxplot</span>() <span class="op">+</span><span class="st">  </span>
+<span class="st">  </span><span class="kw">coord_flip</span>()</code></pre></div>
+<p><img src="data_viz_reader_files/figure-html/unnamed-chunk-2-2.png" width="672" /> c). coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.</p>
+<p>d). coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.</p>
+</div>
+<div id="r-shiny" class="section level4">
+<h4><span class="header-section-number">3.5.2.4</span> R Shiny</h4>
+<p>R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform <span class="citation">[@shiny_interactive_viz]</span>. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.</p>
+</div>
+<div id="d3.js" class="section level4">
+<h4><span class="header-section-number">3.5.2.5</span> D3.js</h4>
+<p>D3.js stands for Data-Driven Document, a JS library for interactive Big Data visualization in literally ANY way required real-time<span class="citation">[@d3_interactive_viz]</span>. This is not a tool, mind you, so a user should have a solid understanding of JavaScript to work with the data and present it in a humanly-understandable form. To say more, this library renders the data into SVG and HTML5 formats, so older browsers like IE7 and 8 cannot leverage D3.js capabilities.</p>
+<p>The data gathered from disparate sources like huge-scale data sets is bind in real-time with DOM to produce interactive animations ( 2D and 3D alike) in an extremely rapid way. The D3 architecture allows the users to intensively reuse the codes across a variety of add-ons and plug-ins. Some of the key advantages are: It is dynamic, free and open source and very flexible with all web technologies, the ability to handle big data and the functional style allows to reuse the codes.</p>
+<p><strong>The Hitchhiker’ Guide to d3.js</strong> is a wonderful guide for self-teaching d3.js. This guide is meant to prepare readers mentally as well as give readers some fruitful directions to pursue. There is a lot to learn besides the d3.js API, both technical knowledge around web standards like HTML, SVG, CSS and JavaScript as well as communication concepts and data visualization principles. Chances are you know something about some of those things, so this guide will attempt to give you good starting points for the things you want to learn more about.</p>
+<p>It starts from the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.</p>
+<p>My favorite part of this guide is it lists a lot of useful resources links for learning d3.js. For example, it recommends d3 API Reference, 2000+ d3 case studies and tutorials for d3. I did my exploratory analysis version of group project on d3. And I found this guide helpful during the progress. It also includes some meetup groups here in the bay area. So, maybe we can meet data friends through the group.</p>
+</div>
+<div id="tableau" class="section level4">
+<h4><span class="header-section-number">3.5.2.6</span> Tableau</h4>
+<p>Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps <span class="citation">[@tableau_interactive_viz]</span>.</p>
+<p>Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs.</p>
+<p>Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.</p>
+<p>The following tips for Tableau are still missing:</p>
+<ol style="list-style-type: decimal">
+<li>Running totals</li>
+<li>Common Baseline</li>
+<li>Weighted averages</li>
+<li>Moving average</li>
+<li>Grouping by aggregates</li>
+<li>Different years comparison</li>
+<li>Appending excel sheets</li>
+<li>Bar chart totals</li>
+<li>Fixed axis when re-drawing charts</li>
+<li>Auto-fitting screen behavior depending on data selection</li>
+</ol>
+<p><strong>The key advantages</strong> are: It provides non technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc <span class="citation">[@VizBP]</span><span class="citation">[@ExtremePre]</span>.</p>
+</div>
+<div id="r-shiny-1" class="section level4">
+<h4><span class="header-section-number">3.5.2.7</span> R Shiny</h4>
+<p>R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform <span class="citation">[@shiny_interactive_viz]</span>. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny.</p>
+<p>It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.</p>
+</div>
+<div id="google-chart" class="section level4">
+<h4><span class="header-section-number">3.5.2.8</span> Google chart</h4>
+<p>A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What’s even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard <span class="citation">[@Top4VizTools]</span>.</p>
+</div>
+</div>
+</div>
+<div id="typography-and-data-visualization" class="section level2">
+<h2><span class="header-section-number">3.6</span> Typography and Data Visualization</h2>
+<p>This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.</p>
+<p>Highlighted in the article are preattentive visual attributes. Preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed. Therefore, “preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load.” Examples of preattentive attributes are size/area, hue, and curvature.</p>
+<p>This brings us to the disparate situation of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold. The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.</p>
+<p>Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages. Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.</p>
+<p>Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. I would say that it is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?</p>
+<p>The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes. For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.</p>
+<p>Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text.</p>
+<p>There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which I agree are made more effective by the interesting utilization of typographic attributes, but the “Who Survived the Titanic” visualization’s use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived. It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers names.</p>
+<div class="figure">
+<img src="images/TypographicTitanic.jpg" />
+
+</div>
+<p>The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand. Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that “this criticism indicates both the strength and weakness of type? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher level patterns. Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers’ names, and was corrected by only including a given name and a surname, the length of which could only vary so much.</p>
+</div>
+<div id="data-visualization-in-business" class="section level2">
+<h2><span class="header-section-number">3.7</span> Data visualization in Business</h2>
+<div id="data-visualizations-in-industry" class="section level3">
+<h3><span class="header-section-number">3.7.1</span> Data Visualizations in Industry</h3>
+<p>Companies tend to rely on dashboards (a compilation of several related data visualizations) to give them high-level insights on company-wide, market-level, or employee-level performance. The following are some common applications of dashboards in business.</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Application</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sales &amp; Marketing</strong></td>
+<td>This is one of the most popular uses for dashboards. Companies like to regularly track their revenue, conversions, lead sources, etc. and rely on data visualization to synthesize these large and constantly updated data into visual summaries.</td>
+</tr>
+<tr class="even">
+<td><strong>Customer Success</strong></td>
+<td>These dashboards can be created by the team, but are also often built into customer service platforms such as Zendesk. They include various KPIs of the customer success team, such as the ratio of tickets open to tickets closed and time to resolution.</td>
+</tr>
+<tr class="odd">
+<td><strong>Product Management</strong></td>
+<td>These dashboards tend to synthesize sales, marketing, and customer research data together and are typically used for executive reporting. The visuals display metrics such as dollars and hours devoted to various projects and most requested features by customers.</td>
+</tr>
+</tbody>
+</table>
+<p>Data visualization is also used across many different industries. One popular area right now is healthcare, especially involving big data. The benefits and uses of interactive data viz are detailed in a paper from the University of Maryland (2013). <span class="citation">[@data_viz_healthcare]</span></p>
+<p><strong>The paper highlights three types of data that can and should be visualized to help in decision-making: personal, clinical, and public health information.</strong> Examples include: exploration of prescription patterns of different drugs and tracking personal health and fitness statistics. (Even the nice, clean Fitbit app home screen is a comprehensive dashboard!) Importantly, making sense of all this data collected from individuals will help healthcare organizations and companies provide more personalized and effective health treatment.</p>
+</div>
+<div id="how-visualization-impacts-industrybusiness" class="section level3">
+<h3><span class="header-section-number">3.7.2</span> How visualization impacts Industry/business</h3>
+<p><span class="citation">[@biz_strategy]</span> According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:</p>
+<div id="cleaning" class="section level4">
+<h4><span class="header-section-number">3.7.2.1</span> Cleaning</h4>
+<p>The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets. In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.</p>
+<p>Cleaning the data is usually the first step in data processing and is done to remove the unwanted elements as well as to reduce the size of the data sets, which will make it easier for the algorithms to analyze it. Data cleansing is typically done by using instance reduction techniques.</p>
+<p>Instance reduction helps reduce the size of the data set without compromising the quality of insights that can be extracted from the data. It removes instances and generates new ones to make the data set compact. There are two major instance reduction algorithms:</p>
+<p>Instance selection: Instance selection is used to identify the best examples from a very large data set with many instances in order to curate them as the input for the analytics system. It aims to select a subset of the data that can act as a replacement for the original data set while completely fulfilling the goal. It will also remove redundant instances and noise.</p>
+<p>Instance generation: Instance generation methods involve replacing the original data with artificially generated data in order to fill regions in the domain of an issue with no representative examples in the master data. A common approach is to relabel examples that appear to belong to wrong class labels. Instance generation thus makes the data clean and ready for the analysis algorithm.</p>
+<p><strong>Tools you can use: Drake, DataWrangler, OpenRefine</strong></p>
+</div>
+<div id="extracting" class="section level4">
+<h4><span class="header-section-number">3.7.2.2</span> Extracting</h4>
+<p>Known versatile tools for data visualization and analytics Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.</p>
+<p>Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.</p>
+<p>Data has shown phenomenal growth over the past decade and it’s widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity and variety of data calls for more efficient processing to make it machine-ready. Although there are a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. Data pre-processing techniques like:</p>
+<ul>
+<li>Data cleansing</li>
+<li>Data Manipulation</li>
+<li>Data normalization</li>
+<li>Data Transformation</li>
+<li>Missing values imputation</li>
+<li>Noise identification</li>
+<li>Minimizing the pre-processing tasks</li>
+</ul>
+<p><strong>play a key role in the process.</strong></p>
+</div>
+<div id="strategizing" class="section level4">
+<h4><span class="header-section-number">3.7.2.3</span> Strategizing</h4>
+<p>As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to businesses. Then how data visualization become an important tool in your strategic kit?</p>
+<p>First, it helps you cleanse your data. Secondly, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy and now data-driven decisions influence performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the go.</p>
+<p>Data visualization is one of the initial and most important steps made to derive value from data. It determines how efficiently analysts can work with data assets, what insights they are able to extract and how their data strategy will develop over time.</p>
+<p>Therefore, the quality and capabilities of data visualization directly influence how data impacts your business strategy and what benefits data applications can bring to the companies and their industries.</p>
+</div>
+</div>
+<div id="corporate-scorecards-and-data-visualization" class="section level3">
+<h3><span class="header-section-number">3.7.3</span> Corporate Scorecards and Data Visualization</h3>
+<p>Corporate transparency, flat organizations, open book policies, etc. are terms executives and entrepreneurs learn about all the time <span class="citation">[@SCORECARDS]</span>. As the corporate world shifts towards a more open culture, the demand for open data and insights have increased dramatically. This shift has helped the overall corporate strategic planning and management process easing the alignment of business activities towards a series of goals. Being transparent top down aligns the culture to sail towards the same North Star.</p>
+<p>The growth of corporate transparency is not only important internally, but externally as well. Corporate certifications like B Corporations certifications (B Corp), require companies to provide a transparent view on their social conscious efforts to the general public. Achieving the certification is one step of the process; the true goal is to show the world how and why the certification is truly deserved.</p>
+<p>Here’s the process on how to get it done.</p>
+<table>
+<colgroup>
+<col width="4%" />
+<col width="12%" />
+<col width="82%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Step</strong></th>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Perform Data Discovery and Determine The Story</td>
+<td>Before this step it is easy to underestimate the effort level it takes to pull the best insights from the data. Data manipulation products like Tableau, Domo, Pentaho, IBM’s Many Eyes, and R, among others, make insight extraction that much easier to gain understanding of data using a visual medium. The key is to start with a simple portion of your data and to start pulling basic insights to visualize and correlate with each other. This process leads towards a compound series of questions, which helps provide an overall vision to the end product. We see the effect during our discovery process, which leads to unforeseen avenues for data intelligence.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Data Infrastructure Setup</td>
+<td>Data infrastructures can be simple or complex depending what the end goal is. Many clients prefer to go the route of complete data integration in order to centralize their data repositories. Technologies such as Hadoop have helped by unifying disparate data sources, but other options such as data cloud environments can help produce API’s for future product deployments. Why is this important? Accessibility of data is an important foundation not only within the context of dashboards, but also the possibility of branching out to other products.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Product Design &amp; Development</td>
+<td>Wireframing, prototyping, and application development are the main engines to transform an idea into a final product. Products can range from static presentations/reports to full interactive applications. Mobile, tablet, TV, and workstation platforms can all be mediums to help deliver the final product. The secret to a great end product is how well the data story is conceptualized. If the story is weak then the end product will also suffer.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>QA &amp; Product Release</td>
+<td>The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="contemporary-research-results-whats-next" class="section level2">
+<h2><span class="header-section-number">3.8</span> Contemporary Research Results &amp; What’s Next</h2>
+<p>With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches <span class="citation">[@next_steps]</span>:</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>New Approach</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Adapting Publication and Review Process</strong></td>
+<td>As the article states, “both ‘good’ and ‘bad’ reviews could serve as valuable guides,” so providing reviewer guidelines could be helpful for fledgling practitioners in the field.</td>
+</tr>
+<tr class="even">
+<td><strong>Promoting Discussion and Accretion</strong></td>
+<td>Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.</td>
+</tr>
+<tr class="odd">
+<td><strong>Research Methods Training</strong></td>
+<td>Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on designing Computer Science Experiments <span class="citation">[@stanford_course]</span>. Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock’s Practical Statistics for HCI and Pierre Dragicevic’s resources for reforming statistical practice.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="case-studies.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-fundamentals.Rmd",
+"text": "Edit"
+},
+"download": ["data_viz_reader.pdf", "data_viz_reader.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
