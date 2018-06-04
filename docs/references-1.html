@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Reader on Data Visualization</title>
+  <meta name="description" content="This is the class reader for MSIS 2629.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Reader on Data Visualization" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the class reader for MSIS 2629." />
+  <meta name="github-repo" content="mschermann/data_viz_reader" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Reader on Data Visualization" />
+  
+  <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
+  
+
+<meta name="author" content="MSIS 2629 Spring 2018">
+
+
+<meta name="date" content="2018-06-03">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="conclusion.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Reader on Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#references"><i class="fa fa-check"></i><b>1.1</b> References</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.2</b> Images</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#basic-guidelines"><i class="fa fa-check"></i><b>1.3</b> Basic Guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-is-data-visualization"><i class="fa fa-check"></i><b>2.1</b> What is Data Visualization?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#importance-of-data-visualization"><i class="fa fa-check"></i><b>2.2</b> Importance of Data Visualization</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#history-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> History of Data Visualization</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#brief-history"><i class="fa fa-check"></i><b>2.3.1</b> Brief history</a></li>
+<li class="chapter" data-level="2.3.2" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.2</b> Key Figures in the History of Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#contemporary-visualists"><i class="fa fa-check"></i><b>2.4</b> Contemporary Visualists</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="introduction.html"><a href="introduction.html#hans-rosling"><i class="fa fa-check"></i><b>2.4.1</b> Hans Rosling</a></li>
+<li class="chapter" data-level="2.4.2" data-path="introduction.html"><a href="introduction.html#david-mccandless"><i class="fa fa-check"></i><b>2.4.2</b> David McCandless</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization"><i class="fa fa-check"></i><b>2.5</b> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</a></li>
+<li class="chapter" data-level="2.6" data-path="introduction.html"><a href="introduction.html#additional-resources-for-aspiring-data-visualists"><i class="fa fa-check"></i><b>2.6</b> Additional Resources for Aspiring Data Visualists</a><ul>
+<li class="chapter" data-level="2.6.1" data-path="introduction.html"><a href="introduction.html#tableau-community"><i class="fa fa-check"></i><b>2.6.1</b> Tableau Community</a></li>
+<li class="chapter" data-level="2.6.2" data-path="introduction.html"><a href="introduction.html#blogs"><i class="fa fa-check"></i><b>2.6.2</b> Blogs</a></li>
+<li class="chapter" data-level="2.6.3" data-path="introduction.html"><a href="introduction.html#useful-links-on-data-visualization-resources-trends-and-tutorials"><i class="fa fa-check"></i><b>2.6.3</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
+<li class="chapter" data-level="2.6.4" data-path="introduction.html"><a href="introduction.html#infographics-vs.data-visualizations"><i class="fa fa-check"></i><b>2.6.4</b> Infographics vs. Data Visualizations</a></li>
+<li class="chapter" data-level="2.6.5" data-path="introduction.html"><a href="introduction.html#tableau-viz-of-the-day"><i class="fa fa-check"></i><b>2.6.5</b> Tableau: Viz of the Day</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a><ul>
+<li class="chapter" data-level="3.1" data-path="fundamentals.html"><a href="fundamentals.html#determine-the-story-with-insights"><i class="fa fa-check"></i><b>3.1</b> Determine the Story with Insights</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="fundamentals.html"><a href="fundamentals.html#visualize"><i class="fa fa-check"></i><b>3.1.1</b> Visualize</a></li>
+<li class="chapter" data-level="3.1.2" data-path="fundamentals.html"><a href="fundamentals.html#analyze-and-interpret"><i class="fa fa-check"></i><b>3.1.2</b> Analyze and Interpret</a></li>
+<li class="chapter" data-level="3.1.3" data-path="fundamentals.html"><a href="fundamentals.html#document-your-insights-and-steps"><i class="fa fa-check"></i><b>3.1.3</b> Document Your Insights and Steps</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="fundamentals.html"><a href="fundamentals.html#design-principles"><i class="fa fa-check"></i><b>3.2</b> Design Principles</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="fundamentals.html"><a href="fundamentals.html#melissa-andersons-principles-of-design"><i class="fa fa-check"></i><b>3.2.1</b> Melissa Anderson’s Principles of Design</a></li>
+<li class="chapter" data-level="3.2.2" data-path="fundamentals.html"><a href="fundamentals.html#gestalt-principles-of-design"><i class="fa fa-check"></i><b>3.2.2</b> Gestalt Principles of Design</a></li>
+<li class="chapter" data-level="3.2.3" data-path="fundamentals.html"><a href="fundamentals.html#tuftes-principles-of-design"><i class="fa fa-check"></i><b>3.2.3</b> Tufte’s Principles of Design</a></li>
+<li class="chapter" data-level="3.2.4" data-path="fundamentals.html"><a href="fundamentals.html#more-ways-to-improve-your-visualization-design"><i class="fa fa-check"></i><b>3.2.4</b> More ways to improve your visualization design</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="fundamentals.html"><a href="fundamentals.html#adapt-your-story-to-a-different-set-of-audiences"><i class="fa fa-check"></i><b>3.3</b> Adapt your story to a different set of audiences</a></li>
+<li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-vs.data-visualization"><i class="fa fa-check"></i><b>3.4</b> Data Mining vs. Data Visualization</a></li>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-tools"><i class="fa fa-check"></i><b>3.5</b> Data Visualization Tools</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="fundamentals.html"><a href="fundamentals.html#brief-introduction"><i class="fa fa-check"></i><b>3.5.1</b> Brief Introduction</a></li>
+<li class="chapter" data-level="3.5.2" data-path="fundamentals.html"><a href="fundamentals.html#comparison-of-different-tools"><i class="fa fa-check"></i><b>3.5.2</b> Comparison of Different Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="fundamentals.html"><a href="fundamentals.html#typography-and-data-visualization"><i class="fa fa-check"></i><b>3.6</b> Typography and Data Visualization</a></li>
+<li class="chapter" data-level="3.7" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.7</b> Data visualization in Business</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="fundamentals.html"><a href="fundamentals.html#data-visualizations-in-industry"><i class="fa fa-check"></i><b>3.7.1</b> Data Visualizations in Industry</a></li>
+<li class="chapter" data-level="3.7.2" data-path="fundamentals.html"><a href="fundamentals.html#how-visualization-impacts-industrybusiness"><i class="fa fa-check"></i><b>3.7.2</b> How visualization impacts Industry/business</a></li>
+<li class="chapter" data-level="3.7.3" data-path="fundamentals.html"><a href="fundamentals.html#corporate-scorecards-and-data-visualization"><i class="fa fa-check"></i><b>3.7.3</b> Corporate Scorecards and Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="fundamentals.html"><a href="fundamentals.html#contemporary-research-results-whats-next"><i class="fa fa-check"></i><b>3.8</b> Contemporary Research Results &amp; What’s Next</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#geographic-visualizations"><i class="fa fa-check"></i><b>4.1</b> Geographic Visualizations</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="case-studies.html"><a href="case-studies.html#spies-in-the-skies"><i class="fa fa-check"></i><b>4.1.1</b> Spies in the Skies</a></li>
+<li class="chapter" data-level="4.1.2" data-path="case-studies.html"><a href="case-studies.html#two-centuries-of-u.s.-immigration"><i class="fa fa-check"></i><b>4.1.2</b> Two Centuries of U.S. Immigration</a></li>
+<li class="chapter" data-level="4.1.3" data-path="case-studies.html"><a href="case-studies.html#uber-crafting-data-driven-maps"><i class="fa fa-check"></i><b>4.1.3</b> Uber: Crafting Data-Driven Maps</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="case-studies.html"><a href="case-studies.html#demographic-comparisons"><i class="fa fa-check"></i><b>4.2</b> Demographic Comparisons</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="case-studies.html"><a href="case-studies.html#young-voters-class-and-turnout-how-britain-voted-in-2017"><i class="fa fa-check"></i><b>4.2.1</b> Young voters, class and turnout: How Britain voted in 2017</a></li>
+<li class="chapter" data-level="4.2.2" data-path="case-studies.html"><a href="case-studies.html#u.s.-migration-patterns"><i class="fa fa-check"></i><b>4.2.2</b> U.S. Migration Patterns</a></li>
+<li class="chapter" data-level="4.2.3" data-path="case-studies.html"><a href="case-studies.html#the-american-workday"><i class="fa fa-check"></i><b>4.2.3</b> The American Workday</a></li>
+<li class="chapter" data-level="4.2.4" data-path="case-studies.html"><a href="case-studies.html#how-people-like-you-spend-their-time"><i class="fa fa-check"></i><b>4.2.4</b> How People Like You Spend Their Time</a></li>
+<li class="chapter" data-level="4.2.5" data-path="case-studies.html"><a href="case-studies.html#britains-diet-in-data"><i class="fa fa-check"></i><b>4.2.5</b> Britain’s diet in data</a></li>
+<li class="chapter" data-level="4.2.6" data-path="case-studies.html"><a href="case-studies.html#selfie-city"><i class="fa fa-check"></i><b>4.2.6</b> Selfie City</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="case-studies.html"><a href="case-studies.html#evolving-demographics"><i class="fa fa-check"></i><b>4.3</b> Evolving Demographics</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="case-studies.html"><a href="case-studies.html#millennial-generation-diversity"><i class="fa fa-check"></i><b>4.3.1</b> Millennial Generation Diversity</a></li>
+<li class="chapter" data-level="4.3.2" data-path="case-studies.html"><a href="case-studies.html#how-the-recession-reshaped-the-economy-in-255-charts"><i class="fa fa-check"></i><b>4.3.2</b> How the Recession Reshaped the Economy, in 255 Charts</a></li>
+<li class="chapter" data-level="4.3.3" data-path="case-studies.html"><a href="case-studies.html#an-aging-nation-projected-number-of-children-and-older-adults"><i class="fa fa-check"></i><b>4.3.3</b> An Aging Nation: Projected Number of Children and Older Adults</a></li>
+<li class="chapter" data-level="4.3.4" data-path="case-studies.html"><a href="case-studies.html#from-pyramid-to-pillar-a-century-of-change-population-of-the-u.s."><i class="fa fa-check"></i><b>4.3.4</b> From Pyramid to Pillar: A Century of Change, Population of the U.S.</a></li>
+<li class="chapter" data-level="4.3.5" data-path="case-studies.html"><a href="case-studies.html#music-timeline"><i class="fa fa-check"></i><b>4.3.5</b> Music Timeline</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.4</b> Animated Data Visualization</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.4.1</b> A Day in the Life of Americans</a></li>
+<li class="chapter" data-level="4.4.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.4.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#environmental-related-problems"><i class="fa fa-check"></i><b>4.5</b> Environmental Related Problems</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.5.1</b> Global Carbon Emissions</a></li>
+<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.5.2</b> What’s really warming the world?</a></li>
+<li class="chapter" data-level="4.5.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.5.3</b> Understanding Plastic pollution using visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#language"><i class="fa fa-check"></i><b>4.6</b> Language</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#green-honey"><i class="fa fa-check"></i><b>4.6.1</b> Green Honey</a></li>
+<li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#linguistic-concepts"><i class="fa fa-check"></i><b>4.6.2</b> Linguistic Concepts</a></li>
+<li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#state-of-the-union-2014-minute-by-minute-on-twitter"><i class="fa fa-check"></i><b>4.6.3</b> State of the Union 2014 Minute by Minute on Twitter</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="case-studies.html"><a href="case-studies.html#political-relationships"><i class="fa fa-check"></i><b>4.7</b> Political Relationships</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="case-studies.html"><a href="case-studies.html#connecting-the-dots-behind-the-election"><i class="fa fa-check"></i><b>4.7.1</b> Connecting the Dots Behind the Election</a></li>
+<li class="chapter" data-level="4.7.2" data-path="case-studies.html"><a href="case-studies.html#a-guide-to-who-is-fighting-whom-in-syria"><i class="fa fa-check"></i><b>4.7.2</b> A Guide to Who is Fighting Whom in Syria</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="case-studies.html"><a href="case-studies.html#uncategorized"><i class="fa fa-check"></i><b>4.8</b> Uncategorized</a><ul>
+<li class="chapter" data-level="4.8.1" data-path="case-studies.html"><a href="case-studies.html#simpsons-paradox"><i class="fa fa-check"></i><b>4.8.1</b> Simpson’s Paradox</a></li>
+<li class="chapter" data-level="4.8.2" data-path="case-studies.html"><a href="case-studies.html#every-satellite-orbiting-earth"><i class="fa fa-check"></i><b>4.8.2</b> Every Satellite Orbiting Earth</a></li>
+<li class="chapter" data-level="4.8.3" data-path="case-studies.html"><a href="case-studies.html#malaria"><i class="fa fa-check"></i><b>4.8.3</b> Malaria</a></li>
+<li class="chapter" data-level="4.8.4" data-path="case-studies.html"><a href="case-studies.html#is-it-better-to-rent-or-buy"><i class="fa fa-check"></i><b>4.8.4</b> Is it Better to Rent or Buy?</a></li>
+<li class="chapter" data-level="4.8.5" data-path="case-studies.html"><a href="case-studies.html#an-interactive-visualization-of-nyc-street-trees"><i class="fa fa-check"></i><b>4.8.5</b> An Interactive Visualization of NYC Street Trees</a></li>
+<li class="chapter" data-level="4.8.6" data-path="case-studies.html"><a href="case-studies.html#adding-up-the-white-oscars-winners"><i class="fa fa-check"></i><b>4.8.6</b> Adding up the White Oscars Winners</a></li>
+<li class="chapter" data-level="4.8.7" data-path="case-studies.html"><a href="case-studies.html#kissmetrics-blog-visualization-of-metrics"><i class="fa fa-check"></i><b>4.8.7</b> Kissmetrics blog: visualization of metrics</a></li>
+<li class="chapter" data-level="4.8.8" data-path="case-studies.html"><a href="case-studies.html#describe-artists-with-emoji"><i class="fa fa-check"></i><b>4.8.8</b> Describe Artists with Emoji</a></li>
+<li class="chapter" data-level="4.8.9" data-path="case-studies.html"><a href="case-studies.html#goldilocks-exoplanets"><i class="fa fa-check"></i><b>4.8.9</b> Goldilocks Exoplanets</a></li>
+<li class="chapter" data-level="4.8.10" data-path="case-studies.html"><a href="case-studies.html#washington-wizards-shooting-stars"><i class="fa fa-check"></i><b>4.8.10</b> Washington Wizards’ Shooting Stars</a></li>
+<li class="chapter" data-level="4.8.11" data-path="case-studies.html"><a href="case-studies.html#visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set"><i class="fa fa-check"></i><b>4.8.11</b> Visualization of big data security: a case study on the KDD99 cup data set</a></li>
+<li class="chapter" data-level="4.8.12" data-path="case-studies.html"><a href="case-studies.html#how-data-visualization-is-helping-in-healthcare-decision-making"><i class="fa fa-check"></i><b>4.8.12</b> How Data Visualization is Helping in Healthcare Decision Making</a></li>
+<li class="chapter" data-level="4.8.13" data-path="case-studies.html"><a href="case-studies.html#law-enforcement-and-fraud-detection"><i class="fa fa-check"></i><b>4.8.13</b> Law enforcement and fraud detection</a></li>
+<li class="chapter" data-level="4.8.14" data-path="case-studies.html"><a href="case-studies.html#the-atlas-of-sustainable-development-goals-2018---data-visualization-of-world-development"><i class="fa fa-check"></i><b>4.8.14</b> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#outlier-detection"><i class="fa fa-check"></i><b>5.1</b> Outlier Detection</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Tips to Improve Data Visualization</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#comparison"><i class="fa fa-check"></i><b>5.2.1</b> Comparison</a></li>
+<li class="chapter" data-level="5.2.2" data-path="patterns.html"><a href="patterns.html#copy"><i class="fa fa-check"></i><b>5.2.2</b> Copy</a></li>
+<li class="chapter" data-level="5.2.3" data-path="patterns.html"><a href="patterns.html#color"><i class="fa fa-check"></i><b>5.2.3</b> Color</a></li>
+<li class="chapter" data-level="5.2.4" data-path="patterns.html"><a href="patterns.html#ordering"><i class="fa fa-check"></i><b>5.2.4</b> Ordering</a></li>
+<li class="chapter" data-level="5.2.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.2.5</b> Audience perspective</a></li>
+<li class="chapter" data-level="5.2.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.2.6</b> Use layers to tell a story</a></li>
+<li class="chapter" data-level="5.2.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.2.7</b> Keep it simple</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#pick-the-right-chart-type"><i class="fa fa-check"></i><b>5.3</b> Pick the Right Chart Type</a></li>
+<li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#why-pie-charts-are-bad-a-comparison-with-the-bar-chart"><i class="fa fa-check"></i><b>5.4</b> Why Pie Charts are Bad: a Comparison with the Bar Chart</a></li>
+<li class="chapter" data-level="5.5" data-path="patterns.html"><a href="patterns.html#maps"><i class="fa fa-check"></i><b>5.5</b> Maps</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="patterns.html"><a href="patterns.html#use-maps-only-when-effective"><i class="fa fa-check"></i><b>5.5.1</b> Use maps only when effective</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="patterns.html"><a href="patterns.html#choose-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.6</b> Choose the right baseline in data visualization</a></li>
+<li class="chapter" data-level="5.7" data-path="patterns.html"><a href="patterns.html#using-design-patterns-to-find-greater-meaning-in-your-data"><i class="fa fa-check"></i><b>5.7</b> Using Design Patterns to Find Greater Meaning in Your Data</a><ul>
+<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#comparisons"><i class="fa fa-check"></i><b>5.7.1</b> Comparisons</a></li>
+<li class="chapter" data-level="5.7.2" data-path="patterns.html"><a href="patterns.html#connections"><i class="fa fa-check"></i><b>5.7.2</b> Connections</a></li>
+<li class="chapter" data-level="5.7.3" data-path="patterns.html"><a href="patterns.html#conclusions"><i class="fa fa-check"></i><b>5.7.3</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.8" data-path="patterns.html"><a href="patterns.html#takeaways-from-recreating-one-chart-using-24-tools"><i class="fa fa-check"></i><b>5.8</b> Takeaways from recreating one chart using 24 tools</a><ul>
+<li class="chapter" data-level="5.8.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-goals"><i class="fa fa-check"></i><b>5.8.1</b> Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals</a></li>
+<li class="chapter" data-level="5.8.2" data-path="patterns.html"><a href="patterns.html#takeaway-2-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-mindsets"><i class="fa fa-check"></i><b>5.8.2</b> Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets</a></li>
+<li class="chapter" data-level="5.8.3" data-path="patterns.html"><a href="patterns.html#takeaway-3-we-still-live-in-an-apps-are-for-the-easy-stuff-code-is-for-the-good-stuff-in-the-world"><i class="fa fa-check"></i><b>5.8.3</b> Takeaway 3: We Still Live in an ‘Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World’</a></li>
+<li class="chapter" data-level="5.8.4" data-path="patterns.html"><a href="patterns.html#takeaway-4-every-tool-forces-you-down-a-path"><i class="fa fa-check"></i><b>5.8.4</b> Takeaway 4: Every Tool Forces You Down a Path</a></li>
+</ul></li>
+<li class="chapter" data-level="5.9" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.9</b> Chart types</a><ul>
+<li class="chapter" data-level="5.9.1" data-path="patterns.html"><a href="patterns.html#time-series-data"><i class="fa fa-check"></i><b>5.9.1</b> Time Series Data</a></li>
+<li class="chapter" data-level="5.9.2" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.9.2</b> Line Graph</a></li>
+<li class="chapter" data-level="5.9.3" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.9.3</b> Stacked Area Chart</a></li>
+<li class="chapter" data-level="5.9.4" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.9.4</b> Bar Charts</a></li>
+<li class="chapter" data-level="5.9.5" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.9.5</b> Column Charts for Time Series data</a></li>
+<li class="chapter" data-level="5.9.6" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.9.6</b> Gantt Chart</a></li>
+<li class="chapter" data-level="5.9.7" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.9.7</b> Stream Graph</a></li>
+<li class="chapter" data-level="5.9.8" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.9.8</b> Heat Map</a></li>
+<li class="chapter" data-level="5.9.9" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.9.9</b> Polar Area Diagram</a></li>
+</ul></li>
+<li class="chapter" data-level="5.10" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.10</b> Time Series Data and its Deceptive Potential</a></li>
+<li class="chapter" data-level="5.11" data-path="patterns.html"><a href="patterns.html#word-cloud"><i class="fa fa-check"></i><b>5.11</b> Word Cloud</a></li>
+<li class="chapter" data-level="5.12" data-path="patterns.html"><a href="patterns.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>5.12</b> Data Mining and Data Visualization</a></li>
+<li class="chapter" data-level="5.13" data-path="patterns.html"><a href="patterns.html#dashboards"><i class="fa fa-check"></i><b>5.13</b> Dashboards</a><ul>
+<li class="chapter" data-level="5.13.1" data-path="patterns.html"><a href="patterns.html#rules-and-best-practices-for-developing-intuitive-dashboards"><i class="fa fa-check"></i><b>5.13.1</b> Rules and Best Practices for Developing Intuitive Dashboards</a></li>
+<li class="chapter" data-level="5.13.2" data-path="patterns.html"><a href="patterns.html#mistakes-to-avoid"><i class="fa fa-check"></i><b>5.13.2</b> 7 mistakes to avoid:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.14" data-path="patterns.html"><a href="patterns.html#using-visualization-softwares-and-libraries"><i class="fa fa-check"></i><b>5.14</b> Using Visualization Softwares and Libraries</a><ul>
+<li class="chapter" data-level="5.14.1" data-path="patterns.html"><a href="patterns.html#using-shapes-as-filters-in-tableau-when-your-fields-are-measures"><i class="fa fa-check"></i><b>5.14.1</b> Using Shapes as Filters in Tableau When Your Fields Are Measures</a></li>
+<li class="chapter" data-level="5.14.2" data-path="patterns.html"><a href="patterns.html#how-to-customize-a-legend-in-python-with-matplotlib"><i class="fa fa-check"></i><b>5.14.2</b> How to customize a legend in Python with matplotlib</a></li>
+<li class="chapter" data-level="5.14.3" data-path="patterns.html"><a href="patterns.html#reusable-data-visualization-code"><i class="fa fa-check"></i><b>5.14.3</b> Reusable Data Visualization Code</a></li>
+<li class="chapter" data-level="5.14.4" data-path="patterns.html"><a href="patterns.html#creating-a-diverging-bar-chart"><i class="fa fa-check"></i><b>5.14.4</b> Creating a Diverging Bar Chart</a></li>
+<li class="chapter" data-level="5.14.5" data-path="patterns.html"><a href="patterns.html#building-advanced-analytics-application-with-tabpy"><i class="fa fa-check"></i><b>5.14.5</b> Building advanced analytics application with TabPy</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a><ul>
+<li class="chapter" data-level="6.1" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.1</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
+<li class="chapter" data-level="6.2" data-path="ethics.html"><a href="ethics.html#importance-of-ethics-in-visualization"><i class="fa fa-check"></i><b>6.2</b> Importance of Ethics in Visualization</a></li>
+<li class="chapter" data-level="6.3" data-path="ethics.html"><a href="ethics.html#implications-of-goodbad-data-visualization"><i class="fa fa-check"></i><b>6.3</b> Implications of (Good/Bad) Data Visualization</a></li>
+<li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#general-guidelines-for-ethical-visuals"><i class="fa fa-check"></i><b>6.4</b> General Guidelines for Ethical Visuals</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="ethics.html"><a href="ethics.html#data-collection"><i class="fa fa-check"></i><b>6.4.1</b> Data Collection</a></li>
+<li class="chapter" data-level="6.4.2" data-path="ethics.html"><a href="ethics.html#data-analysis"><i class="fa fa-check"></i><b>6.4.2</b> Data Analysis</a></li>
+<li class="chapter" data-level="6.4.3" data-path="ethics.html"><a href="ethics.html#design"><i class="fa fa-check"></i><b>6.4.3</b> Design</a></li>
+<li class="chapter" data-level="6.4.4" data-path="ethics.html"><a href="ethics.html#ethical-challenges-in-data-visualization"><i class="fa fa-check"></i><b>6.4.4</b> Ethical Challenges in Data Visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="ethics.html"><a href="ethics.html#data-visualization-a-tool-for-social-change"><i class="fa fa-check"></i><b>6.5</b> Data Visualization: A Tool for Social Change</a></li>
+<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.6</b> Misinformation can be beautiful too</a></li>
+<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#definitions-of-data-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>6.7</b> Definitions of Data Deception and Graphic Integrity</a></li>
+<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.8</b> Visual Lies</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.8.1</b> Size</a></li>
+<li class="chapter" data-level="6.8.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.8.2</b> Quantity</a></li>
+<li class="chapter" data-level="6.8.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.8.3</b> Segmentation</a></li>
+<li class="chapter" data-level="6.8.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.8.4</b> Graph</a></li>
+<li class="chapter" data-level="6.8.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.8.5</b> The Missing Baseline</a></li>
+<li class="chapter" data-level="6.8.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.8.6</b> The graph is not labeled properly</a></li>
+<li class="chapter" data-level="6.8.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.8.7</b> Data is left out</a></li>
+<li class="chapter" data-level="6.8.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.8.8</b> Treating correlation as causation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Reader on Data Visualization</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="references-1" class="section level1 unnumbered">
+<h1>References</h1>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="conclusion.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/07-references.Rmd",
+"text": "Edit"
+},
+"download": ["data_viz_reader.pdf", "data_viz_reader.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
