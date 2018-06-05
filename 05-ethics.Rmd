@@ -6,7 +6,7 @@
 
 The fundamental objective of data visualization is to provide an efficient graphical display for summarizing and reasoning about quantitative information. Moreover, during the last decades, political science has accumulated a large corpus of various kinds of data, which gradually becomes more scientific and requires using quantitative information in the analysis and reasoning.
 
-Under U.S. law, research institutions receiving federal funding must consider ethical aspects of their research. Over the years, researchers and lawyers have established rules and practices for proper data collection and utilization, with particular attention on human subject research. Consent of the subjects to use their data, evaluation of any risk with use or collection of data, and protecting the anonymity of data are some of the rules that must be considered for ethical research methods. However, these rules continue to evolve.
+Under U.S. law, research institutions receiving federal fundings must consider ethical aspects of their research. Over the years, researchers and lawyers have established rules and practices for proper data collection and utilization, with particular attention on human subject research. Consent of the subjects to use their data, evaluation of any risk with use or collection of data, and protecting the anonymity of data are some of the rules that must be considered for ethical research methods. However, these rules continue to evolve.
 
 Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used for deception and many techniques can produce a dangerous visualization. Techniques such as truncated axis (where the y-axis does not start at zero) or using the area to represent a quantity (for instance comparing the size of two adjacent circles) were found leading to wrong conclusions.
 
@@ -38,6 +38,7 @@ We should understand how to best derive meaning from data, but first we should u
 **4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content. Because of their impact, infographics are widely used nowadays. A quick Google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layman, it doesn’t mean that they’re all successful or even necessary.
 
 ## General Guidelines for Ethical Visuals
+
 [@ethics_code]
 
 Data visualization is an up-and-coming field that currently does not have many established regulations. This makes it easy to manipulate readers without technically reporting false information. However, certain standards should be followed in order to generate meaningful and accurate visuals. The process can be broken down into three steps, each with its own set of guiding rules.
@@ -48,9 +49,9 @@ The first step in any project is gathering the data. This is relatively simple a
 
 ### Data Analysis
 
-This is the stage where the discoveries are made and it provides the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should make sense. The code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and finds true stories from them.
+This is the stage where the discoveries are made and it provides the first opportunity to manipulate the story for good or bad. There is usually a lot of data cleaning to do before creating a visual representation, but all manipulations should be reasonable. The code should be shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters for careful analysis of the data and finds true stories from them.
 
-As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy aids data-driven decision-making in performance and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the fly.
+As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to the business. So, how does data visualization become an important tool in your strategic kit? First, it helps you cleanse your data. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy aids data-driven decision-making in performances and business outcomes. In other words, these tools visualize not only the data, but also the results, and help correct and optimize strategy on the fly.
 
 ### Design
 
@@ -58,43 +59,44 @@ Once a visualizer decides on an argument, it is important to presenting it hones
 
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
-### Ethical Challenges in Data Visualization
+## Ethical Challenges in Data Visualization
 
-Matt Stempeck's article recaps a brainstorming session concerning data visualization ethics, and provides a fairly comprehensive list of considerations for data visualizers to use as a guide to evaluate how ethical their data products actually are.  From replicability of a data visual, to persuasiveness and ambiguity in the data, this article challenges data visualizers to assess how to ethically present data.  
+[@dataviz_for_good]
 
-The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data.  Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims.  This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim.  The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story.  Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
+Matt Stempeck's article recaps a brainstorming session concerning data visualization ethics, and provides a fairly comprehensive list of considerations for data visualizers to use as a guide to evaluate how ethical their data products actually are. From replicability of a data visualization, to persuasiveness and ambiguity in the data, this article challenges data visualizers to assess how to ethically present data.  
+
+The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
 
 Of course, the challenge posed by the tug-of-war between ethics and utility remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
 
-[@dataviz_for_good]
 
 ## Data Visualization: A Tool for Social Change
 
 [@Socialchange]
 
-One field in which visualization can have a meaningful social impact is in promtoting understanding of and generating discussions around cities.
+One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities.
 
-With the development of a city, new demographic changes, economic, environmental and social problems also become important issues. Visualization can play a important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face and engaging citizens to work toward their dream cities.
+With the development of a city, not only new demographic changes, economic, environmental and social problems also become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities faced, and engaging citizens to work toward their dream cities.
 
-Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a Project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, engaging people in the process.
+Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
 
 A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
 
-As urban areas develop and build up, various diverse issues rise and develop: disparity, isolation, loss of biodiversity and environmental quality, among others. These issues are perplexing, and finding the correct solutions implies uniting strategy producers, academics, designers, and citizens. Visualizations, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes ever more urbanized.
+As urban areas being developed and built up, various diverse issues rise and develop: disparity, isolation, loss of biodiversity and environmental quality, etc. These issues are perplexing, and finding the correct solutions implies uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solving the issues that emerge as the world becomes more urbanized.
 
-## Misinformation can be beautiful too
+## Misinformation Can be Beautiful too
 
 [@harford-misinformation]
 
-Camouflage usually means blending in. That wasn't an option for the submarine-dodging battleships of a century ago, which advertised their presence against an ever-changing sea and sky with bow waves and smokestacks. So, dazzle camouflage was born, an abstract riot of squiggles and harlequin patterns. It wasn't hard to spot a dazzle ship but the challenge for the periscope operator was to quickly judge a ship's speed and direction before firing a torpedo on a ponderous intercept. Dazzle camouflage was intended to provoke misjudgments, and there is some evidence that it worked.
+Camouflage usually means blending in. That wasn't an option for the submarine-dodging battleships of a century ago, which advertised their presence against an ever-changing sea and sky with bow waves and smokestacks. So, dazzle camouflage was born, an abstract riot of squiggles and harlequin patterns. It wasn't hard to spot a dazzle ship but the challenge for the periscope operator was to quickly judge a ship's speed and direction before firing a torpedo on a ponderous intercept. Dazzle camouflage was intended to provoke misjudgments, and there are some evidence proving that it worked.
 
-Now let's talk about data visualisation, the latest fashion in numerate journalism, albeit one that harks back to the likes of Florence Nightingale. She was not only the most famous nurse in history but the creator of a beautiful visualisation technique, the "Coxcomb diagram", and the first woman to be elected as a member of the Royal Statistical Society.
+Now let's talk about data visualisation, the latest fashion in numerate journalism, albeit one that harks back to the likes of Florence Nightingale. She was not only the most famous nurse in history but also the creator of a beautiful visualisation technique, the "Coxcomb diagram", and the first woman to be elected as a member of the Royal Statistical Society.
 
 ![](images/aya-polar.jpg)
 
 <sup>Source: [@aya-time-series]</sup>
 
-Data visualisation creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualisation than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualisation is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
+Data visualization creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualization than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualization is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
 
 For a relatively harmless example, consider The New Yorker's recent online subway map of inequality. "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
 
