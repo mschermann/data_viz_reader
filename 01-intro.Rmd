@@ -2,9 +2,9 @@
 
 ## What is Data Visualization?
 
-**Data visualization** refers to representing data in a visual context to help people understand the significance of that data. It helps to reveal insights and patterns that are not immediately visible in the raw data. It is an art through which information, numbers, and measurements can be made more understandable. According to [@viz]:
+**Data visualization** is the representation of data in a visual context to express the significance of that data. It reveals insights and patterns that are not immediately visible in the raw data. It is an art through which information, numbers, and measurements can be made more understandable. According to [@viz]:
 
-> The main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way.
+The main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way.
 
 **Information visualization** is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@info_viz] shares some examples and common uses of information visualization, such as:
 
@@ -120,7 +120,7 @@ Just looking at any of the open data sources would give us an idea about the vas
 We think of a topic, and it's possible it's there! The benefits are a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
 There are also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
 
-**2. Standing out categorization of information on the website**
+**2. Emphasizing categorization of information on the website**
 
 What stands out is the categorization of information on the website which enables the following:
 
@@ -139,7 +139,13 @@ But full-on automation where insight fountains out from any dataset is farfetche
 
 **4. Data analytics software**
 
-Data analytics software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. Data visualization still leaves room for interpretation. However, technology is catching up. Narrative generation software can run as a plug-in to the dashboards. Tools like Savvy actually install on a server and allow every dashboard user to get a written summary on demand. This software is fully plugged and play, it takes seconds to install, and it’s easy to use. It runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. It is an example of how automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.[@work_place]
+Data analytics software is able to analyze huge amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, one of the best ways of doing this is with graphics. There exist a multitude of open source tools and technologies the require varying levels of skill to utilize properly. 
+
+Tools like **Savvy** actually install on a server and allow every dashboard user to get a written summary on demand--narrative generation software can simply run as a plug-in to the dashboard. This software is fully plugged and play, takes seconds to install, and is easy to use. It runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. It is an example of how automation is making our working lives easier by automating repetitive tasks and allowing us to fully leverage existing data reserves.[@work_place]
+
+**D3.js** is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page.
+
+Ultimately, though, the focus should be on our goals rather than our tools. Our objectives should mould the forms of our visualizations, and the tools should remain just that--tools.
 
 **5. Data visualization can't explain data, leaving room for interpretation**
 
@@ -151,13 +157,29 @@ Plug in any data set into a magic box and it spits out a lovely visualization yo
 
 Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
 
-**6. One great tool: D3.js**
+### Infographics vs. Data Visualizations
 
-The focus in today's world has been on open source tools and technologies and these tools although being free for the most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
+Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
 
-**D3.js** is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It's a JavaScript-based library for creating web visualization and displays the results on the web page. However, with great power comes great responsibility. 
+#### Data Visualization
+Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
 
-Ultimately, the focus should be on our goals rather than our tools.
+#### Infographics
+An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
+
+#### When Should You Use Infographics or Data Visualization?
+While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
+
+Data Visualization:
+
+Use Case | Best Visual Representation | Rationale |
+-------- | -------------------------- | --------- |
+Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
+White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
+Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
+Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
+Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
+Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
 
 ## Additional Resources for Aspiring Data Visualists
 
@@ -204,36 +226,13 @@ Tableau Blog | The Tableau blog is a source of data viz trends, issues important
 [@twitter_Kosara]  |  Robert Kosara's twitter handle.
 [@flowingdata]  |  Website which offers courses, tutorials and happenings in viz. | [http://flowingdata.com/](http://flowingdata.com/)
 [@infogram]  |  An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.|
-insert reference | This blog features discussion of all things data | http://beautifuldata.net/ |
-insert reference | Improving data visualisation for the public sector (does this link work?) | http://www.improving-visualisation.org/ |
-insert reference | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
-insert reference | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ | 
-insert reference | This resource provides a series of interactive data visualizations using FEMA data | https://www.fema.gov/data-visualization |
+[@data_beaut] | This blog features discussion of all things data | http://beautifuldata.net/ |
+[@sandberg_blog] | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
+[@census_viz] | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ | 
+[@fema_viz] | This resource provides a series of interactive data visualizations using FEMA data | https://www.fema.gov/data-visualization |
  
 
-### Infographics vs. Data Visualizations
-
-Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
-
-#### Data Visualization
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
-
-#### Infographics
-An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
-
-#### When Should You Use Infographics or Data Visualization?
-While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
-
-Data Visualization:
-
-Use Case | Best Visual Representation | Rationale |
--------- | -------------------------- | --------- |
-Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
-White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
-Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
-Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
-Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
-Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
+## More Links/References
 
 **2.1 The History of Data Visualization**
 **Author: Dashboard Insight, Dashboard Insight, 2013**
@@ -366,7 +365,7 @@ URL: https://visual.ly/blog/a-code-of-ethics-for-data-visualization-professional
 **Author: Payman Taei,2017**
 URL: https://towardsdatascience.com/3-expert-data-visualization-tips-for-grabbing-readers-attention-206d8c4621bf
 
-### Tableau: Viz of the Day
+**Tableau: Viz of the Day**
 Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
 
 [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight-forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
