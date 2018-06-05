@@ -117,7 +117,7 @@ One such chart, *International Number Ones: Because every country is good at som
 [**MIT Media Lab**](https://www.media.mit.edu) in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries etc.
 Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.
 
-We think of a topic, and it's possible it's there! The benefits is a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
+We think of a topic, and it's possible it's there! The benefits are a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
 There are also other similar websites, that has some good visualizations on census data: [@CensusDataViz] 
 
 2. Standing out categorization of information on the website.
@@ -135,7 +135,7 @@ What stands out is the categorization of information on the website which enable
 
 **Automatic visualization is a bad idea, generally speaking.** Some parts of visualization certainly should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
 
-But full-on automation where insight fountains out from any dataset are farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. **The most interesting visualizations are context-specific.**[@auto_viz]
+But full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. **The most interesting visualizations are context-specific.**[@auto_viz]
 
 4. Data analytics software
 
@@ -149,9 +149,9 @@ This is where data visualization comes in. Data visualization is the art of disp
 
 Plug in any data set into a magic box and it spits out a lovely visualization you can show all of your co-workers, friends, and family. That's the promise of a lot of startups, but it doesn't quite work that way. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization can't explain data, leaving room for interpretation.
 
-Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extend in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+Although simple visualizations such as standard chart types (bar chart, line chart etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market, but full on automation where insight fountains out from any data set is far-fetched at this point, because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
 
-6. One greate tool: D3.js.
+6. One great tool: D3.js.
 
 The focus in today's world has been on open source tools and technologies and these tools although being free for the most part require more effort to seamlessly integrate to the current visualization workflow. As mentioned in one of the articles about D3.js:
 
@@ -184,7 +184,7 @@ Here are some blogs recommended by Tableau [@Top_10_Blogs]:
 
 **Blog** | **Description** | **Link** |
 -------- | --------------- | -------- |
-Storytelling with Data | This blog provides information about the fundamentals of data visualization and how to make data a critcal component of your story.| http://www.storytellingwithdata.com/ |
+Storytelling with Data | This blog provides information about the fundamentals of data visualization and how to make data a critical component of your story.| http://www.storytellingwithdata.com/ |
 Information is Beautiful| This blog was founded by David McCandless, the author of two bestselling infographics books, and provides a variety of visualizations, all of which are continuously revised and updated with the most recent data.| https://informationisbeautiful.net/ |
 Flowing Data | This blog not only provides articles about data viz best practices and charts on a variety of topics, but also offers tutorials and courses for honing the skill of data visualizations| https://flowingdata.com/ |
 Visualizing Data | This blog provides a space for data visualizers to share news and thoughts about the field as well as offers diverse content about current and cutting-edge techniques, discussion of both practical and theoretical topics. | http://www.visualisingdata.com/ |
@@ -216,7 +216,7 @@ insert reference | This resource provides a series of interactive data visualiza
 Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
 
 #### Data Visualization
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually be depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
+Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
 
 #### Infographics
 An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
