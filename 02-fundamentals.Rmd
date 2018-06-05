@@ -100,7 +100,7 @@ Data is simply a collection of many individual elements (i.e., observations, typ
 ### Tufte's Principles of Design
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-1. Prin1ciple 1: Maximizing the data-ink ratio, within reason
+**1. Prin1ciple 1: Maximizing the data-ink ratio, within reason**
 
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic's ink devoted to the non-redundant display of data-information.
 
@@ -127,20 +127,20 @@ The graphs will be better for more information per unit of space and per unit of
 
 We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
-2. Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
+**2. Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
 
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
 ![](images/Tufte_figure6.png)
 (Source: [@Tufte_2001])
 
-3. Principle 3: Maximize data density and the size of the data matrix, within reason.
+**3. Principle 3: Maximize data density and the size of the data matrix, within reason.**
 
 High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters, thinner lines for busy time-series).
 
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
-4. Principle 4: Escape flatland - small multiples, parallel sequencing.
+**4. Principle 4: Escape flatland - small multiples, parallel sequencing.**
 
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graphs or parallel sequencing skill.
 
@@ -150,14 +150,14 @@ Data is multivariate doesn't necessarily mean 3D projection. How can we enhance 
 ![Example for parallel sequencing](images/Tufte_figure7.png)
 (Source: [@Tufte_2001])
 
-5. Principle 5: Provide the user with an overview and details on demand.
+**5. Principle 5: Provide the user with an overview and details on demand.**
 
 Carefully designed view can show a macrostructure (overview) as well as microstructure (detail) in one space.
 
 ![](images/Tufte_figure9.png)
 (Source: [@Tufte_2001])
 
-6. Principle 6: Utilize Layering & Separation.
+**6. Principle 6: Utilize Layering & Separation.**
 
 Supported by Gestalt laws (The principles of grouping):
 
@@ -168,7 +168,7 @@ Supported by Gestalt laws (The principles of grouping):
 ![](images/Tufte_figure10.png)
 (Source: [@Tufte_2001])
 
-7. Principle 7: Utilize narratives of space and time.
+**7. Principle 7: Utilize narratives of space and time.**
 
 Tell a story of position and chronology through visual elements.
 
