@@ -250,7 +250,8 @@ barplot(salesDiff, border=NA, space=0, las=1, col=barCols.diff, main="Sales diff
 So before we start to plot, we should decide the baseline we want to use. Different baselines will lead to totally different graphs.
 
 
-## Using Design Patterns to Find Greater Meaning in Your Data
+## Using Design Patterns to Find Greater Meaning in Your Data  
+[@greater]
 
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity. 
 
@@ -260,7 +261,6 @@ Patterns based on function can help you see differences and similarities more cl
 ![](images/patten-1.jpg)
 
 As shown in Figure 1, the bar chart with sparkline enables you to review the data at two different levels: a high-level assessment of the short-term three-month returns is represented with the bar chart, while the sparkline (the line chart below the bar) provides the details of the historical returns. Quickly and concisely, the sparkline shows you the path that has led up to the most recent returns. You can then assess that a narrow path provides consistent returns across the years while a wide path provides varied returns. Side-by-side comparisons of funds organized into two columns—% Returns and % Ahead of Benchmark—enables peer comparisons and fund-specific benchmark comparisons. Hence, you can see that not only has Global Large-Cap Core provided positive returns, it has also provided the best and most consistent returns when compared to the benchmark.
-
 
 ### Connections
 ![](images/pattern-2.jpg)
@@ -273,18 +273,20 @@ What else can you derive from organizing the information in a spectrum of negati
 
 Next, you might wonder how you would have fared if you had invested in certain funds. You might ask: if I had purchased this fund five years ago, what would my return be? And what about the YTD returns? Since market timing is key to investment choices, the following presentation of hypothetical investments represents a range of results. 
 
-### Conclusions
+### Conclusions  
 ![](images/pattern-3.png)
 
 In Figure 3, varied performance results become clear with a layered approach to show five potential entry points (10-year, 5-year, 3-year, 1-year, YTD) into an investment. For example, the International Large Cap Core fund provided 27% YTD returns, which contrast the negative returns you would have received had you invested in the fund 1, 5, or 10 years ago. Here, conclusions are derived based on known inputs with a divided review of positive or negative outcomes (shown on the y-axis).
 
-The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.[@greater]
+The line weights help to identify each entry point and show the range of differences between the entry points. Accordingly so, resulting returns are shown with simplified curves that connect the inputs and outputs. In this case, the chart has been customized to show an instance in which the user has opted to see the YTD return values as percentages listed to the right of each resulting output.
 
-## Takeaways from recreating one chart using 24 tools
 
-Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools [@different_tools]. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+## Takeaways From Recreating One Chart Using 24 Tools  
+[@different_tools]
 
-### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals
+Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+
+### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals  
 Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. And as the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer; so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something? 
 
 ![](images/analysis_spectrum.png)
@@ -293,34 +295,34 @@ The author also notes that the flexibility of a tool is a sticking point as well
 
 ![](images/interactivity.png)
 
-### Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets
+### Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets  
 This section of the article is all about the difference in people's preferences and opinions; from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people. 
 
-### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'
+### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
 Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
 
 ![](images/apps_vs_code.png)
 
-### Takeaway 4: Every Tool Forces You Down a Path
+### Takeaway 4: Every Tool Forces You Down a Path  
 Rost quotes her former NPR Visuals teammate for the final lesson header, pointing out that tools themselves influence the development of a data visualization with their respective features, strengths, and limitations. 
 
 ![](images/tools_force_paths.png)
 
 
-## Chart types
-This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each. The following website describes the chart types in detail [@charts_viz]. 
+## Chart Types  
+[@charts_viz]  
+This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each.  
 
-### Time Series Data
-
+### Temporal Visualizations  
+[@aya-time-series]  
 What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
 Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
-source: [@aya-time-series]
 
-### Line Graph
+### Line Graph  
 A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
 
-### Stacked Area Chart
+### Stacked Area Chart  
 Stacked area charts are area charts similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time. The order in which we stack the variables is crucial because sometimes, there can be a difference in the actual plot versus the human perception.
 
 The figure below is a stacked area chart showing time series data:
@@ -328,9 +330,10 @@ The figure below is a stacked area chart showing time series data:
 
 <sup>Source: [@aya-time-series]</sup>
 
-### Bar Charts
+### Bar Charts  
 Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
-For instance, in the figure below, a bar graph would be a cleaner alternative.
+
+In the figure below, a bar graph would be a cleaner alternative.
 ![](images/aya-stacked-perception.jpg) 
 
 <sup>Source: [@aya-time-series]</sup>
@@ -338,7 +341,7 @@ For instance, in the figure below, a bar graph would be a cleaner alternative.
 For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
 We can use two different bar charts to represent time series data.
 
-### Column Charts for Time Series data
+### Column Charts for Time Series Data  
 This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
 
 Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type. The link of website is]**
@@ -353,9 +356,7 @@ Still have hard time to choose? There are many resources online which can help y
 
 To avoid clutter and confusion, make sure not to use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart.
 
-
-### Gantt Chart
-
+### Gantt Chart  
 **Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
 
 It is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management.
@@ -367,17 +368,13 @@ Gantt charts are a popular project management tool since they present a concise 
 ![](images/aya-gantt.png)
 
 
-### Stream Graph
-
+### Stream Graph  
 **Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
 
-(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name. They are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
-
+(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name. They are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.  
 A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
 
-
-### Heat Map
-
+### Heat Map  
 **Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
 ![](images/aya-stream.png)
 
@@ -391,7 +388,7 @@ This heat map visualizes birthdays of babies born in the United States between 1
 
 <sup>Source: [@aya-time-series]</sup>
 
-### Polar Area Diagram
+### Polar Area Diagram  
 Think beyond the straight line! Sometimes, time series data can be cyclical -- a season in a year, time of the day, and so on. Polar area diagrams help represent the cyclical nature time series data cleanly. A polar diagram looks like a traditional pie chart, but the sectors differ from each other not by the size of their angles but by how far they extend out from the center of the circle.
 
 **Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.**
@@ -404,8 +401,10 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 
 <sup>Source: [@aya-time-series]</sup>
 
-## Time Series Data and its Deceptive Potential
+
+## Time Series Data and Its Deceptive Potential  
 [@TimeSeries]
+
 This article explains how time series data visualization can sometimes be deceptive. 
 
 It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
@@ -413,13 +412,14 @@ It first takes an example of two random time series data and plots them on a gra
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
 
-## Word Cloud
+## Word Cloud  
+[@wordcloud]
 
 A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
 
 Word clouds can add clarity during text analysis in order to effectively communicate your data results.  
 
-|Pros of Word Clouds | Cons of Word Clouds |
+|**Pros of Word Clouds** | **Cons of Word Clouds** |
 | :------------------: | :-------------------: |
 | Impactful and easy to understand | Possibly erroneous emphasis based on length of the words |
 | Quick to generate and easily shared | Words with letters that contain many ascenders and descenders may receive more attention |
@@ -427,20 +427,21 @@ Word clouds can add clarity during text analysis in order to effectively communi
 | Reveals essential information | Requires a lot of data cleaning |
 | Delightful and promote emotional connection | Context is lost |
 
-[@wordcloud]
-
 **Ways to generate a word cloud**
 
-**R:** Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud [@r].
+**R:**  [@r]  
+Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
 
-**Wordle:** Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
+**Wordle:**  [@wordle]  
+Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused.
 
 Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
 
 
-## Data Mining and Data Visualization
+## Data Mining and Data Visualization  
+[@data_mining]
 
-According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. [@data_mining]
+According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. 
 
 In Data Mining, there are different processes involved in carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
 
@@ -450,15 +451,17 @@ The author has also listed top 7 comparisons between data mining and data visual
 
 **BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Definition|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
-Preference|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
-Area|Comes under data science|Comes under the area of data science
-Platform|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
-Generality|New technology but underdeveloped|More useful in real time data forecasting
-Algorithm|Many algorithms exist in using data mining|No need of using any algorithms
-Integration|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
+**Definition**|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
+**Preference**|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
+**Area**|Comes under data science|Comes under the area of data science
+**Platform**|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
+**Generality**|New technology but underdeveloped|More useful in real time data forecasting
+**Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
+**Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
-## Dashboards
+
+## Dashboards  
+[@intuitive-dash],[@dashboard_practices]  
 
 > "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
 
@@ -477,9 +480,9 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 **Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
 
 
-### 7 mistakes to avoid:
+### 7 Mistakes to Avoid:
 
-| Mistake           | Description                                       |
+| **Mistake**           | **Description**                                       |
 | ----------------- | ------------------------------------------------- |
 **Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
 **Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
@@ -489,14 +492,11 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 **Failing to match metrics to the goal** | Instead of showcasing the activities of a single department, a dashboard should connect the department's efforts to the organization's actual goals and objectives |
 **Using ineffective, poorly designed graphs and charts** | While designing graphs and charts for dashboard, extreme care should be taken. Principles for designing good data visualizations should be followed to avoid dashboards populated with poorly designed graphs and charts. |
 
-[@intuitive-dash]
-[@dashboard_practices]
 
 ## Using Visualization Softwares and Libraries
 
-### Using Shapes as Filters in Tableau When Your Fields Are Measures
-
-Reference:[@Measures]
+### Using Shapes as Filters in Tableau When Your Fields Are Measures  
+[@Measures]
 
 This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
