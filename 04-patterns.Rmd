@@ -13,7 +13,7 @@ We can use data visualization for outlier detection in a data set. Different met
 
 Below is a simple example. Outlier treatment is important because it can drastically bias/change the fit estimates and predictions.
 
-```{r Outliar Detection, echo=TRUE}
+```{r Outliar Detection}
 # Inject outliers into data.
 cars1 <- cars[1:30, ]  # original data
 cars_outliers <- data.frame(speed=c(19,19,20,20,20), dist=c(190, 186, 210, 220, 218))  # introduce outliers.
@@ -23,11 +23,13 @@ cars2 <- rbind(cars1, cars_outliers)  # data with outliers.
 par(mfrow=c(1, 2))
 plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 plot(cars2$dist,cars2$speed)
-
+```
+![](images/with_outliers.png)
+```{r Outliar Detection}
 # Plot of original data without outliers. Note the change in slope (angle) of best fit line.
 plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 ```
-![](images/with_outliers.png)
+
 ![](images/outliers_removed.png)
 
 Detection of Outliers is performed using:
@@ -126,9 +128,10 @@ Using a pie chart is usually considered as a bad idea when it comes to data visu
 [@Bradshaw]  
 Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option.
 
-However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to conveying the desired message, then visualizing your data using a map is actually counterproductive. As with any visual, maps are not a universal solution simply because they are eye-catching.
+However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to convey the desired message, then a visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
 
-One good use of a map is to show points or specific locations. This use of a map can show how points are distributed and reveal patterns, for example, certain areas having more high end restaurants. This is not the right approach if the geographic information does not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. Caution should also be exercised with map visualizations if there are too many points and the data blurs together, causing the data to lose its meaning. 
+One good use of a map is to show points or specific locations. This use of a map can show how points are distributed and reveal patterns, for example, certain areas having more high-end restaurants. This is not the right approach if the geographic information does not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. Caution should also be exercised with map visualizations if there are too many points and the data blurs together, causing the data to lose its meaning. 
+
 Encoding the data is another potential area for confusion. The most popular methods are using color, shape, and size. Again, each of these can be effective when done properly, but many people misuse them. Using too many colors can make the chart harder to interpret. If necessary, data can be grouped into categories such as good and bad or high, medium and low. Shapes should be easily distinguished, so there shouldn't be too many unique ones. Also, if the use of shapes does not significantly add to the story, it is probably best to remove them. The size of a marker is a clear way to describe amounts but can easily become a problem if there are outliers. Locations with large values could obscure other data points. The best practice is to use just one of these methods rather than combining two or more.
 
 Use of maps can be tricky. Geographical data doesn't imply that a map is the best choice to represent it. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective since large regions will draw more attention than smaller regions due to more concentrated color.
@@ -382,7 +385,7 @@ A stream graph showing a randomly chosen listener's last.fm music-listening habi
 
 Geo-spatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
 
-This heat map visualizes birthdays of babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the later half of July, August, and September.
+This heat map visualizes birthdays of babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the latter half of July, August, and September.
 
 ![](images/aya-heat-map.png)
 

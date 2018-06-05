@@ -13,7 +13,7 @@ This chapter contains some useful case studies on such visualizations. Case stud
 [@int_viz_capt][@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
 [@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. A practical and insightful blog with great tips and examples in Tableau."Makeover Monday" is an extraordinary exercise where a new and better visualization is developed based on an original one.
 [@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-[@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. I would like to recommend this blog because it is not only practical but also full of insights. My favorite part of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes excellent tips for and examples of Tableau.
+[@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. This blog is recommended because it is not only practical but also full of insights. One of the best parts of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes excellent tips for and examples of Tableau.
 
 
 ## Geographic Visualizations
@@ -25,6 +25,7 @@ The map below is from a Buzzfeed article [@spies_sky] that shows how common it i
 Reference: [@cool_data]
 
 ![New York Flight Patterns](images/NYCflights.png)
+
 
 ### Two Centuries of U.S. Immigration
 This interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Each colored dot represents 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
@@ -283,7 +284,7 @@ By "properly pooled," the investigators meant broken down by the department. For
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
 
 ### Every Satellite Orbiting Earth
-This interactive graph, built using a database from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
+This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database#.WxbaMVMvzq1) from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
 
 ![Low Earth Orbit Satellites](images/satellites.png)
 
@@ -355,9 +356,11 @@ Using the data from Spotify, the author listed the ten most distinctive emoji us
 
 ### Goldilocks Exoplanets
 
-[https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/](https://news.nationalgeographic.com/news/2014/04/140417-exoplanet-interactive/)
+Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on [Astrobiology](https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/) plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
-Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
+One highlight of the graph is how color has been used. The red dots are representing planets that are too hot and the green ones meaning just right temperature, and the blue dots are meaning too cold. This is very intuitive for people to understand without the necessity to read through the notes. The dots are transparent so it minimized the overlap among themsevles. 
+
+![](images/planet.png)
 
 ### Washington Wizards’ Shooting Stars
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season [@basketball]. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers can see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
