@@ -80,50 +80,6 @@ When we are choosing the type of chart, we need to answer some questions:
 
 After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different types of chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
  
-## Why Pie Charts are Bad: a Comparison with the Bar Chart
-
-Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
-
-[@hickey-pie-worst] 
-
-[@henry-defense-pie]
-
-[@quach-penny]
-
-1. Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
-See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
-
-![](images/hickey-before.jpg)
-
-<sup>Source: [@hickey-pie-worst]</sup>
-
-![](images/hickey-after.jpg)
-
-<sup>Source: [@hickey-pie-worst]</sup>
-
-2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
-See figure \@ref(fig:hickey-breakdown) for example.
-
-![](images/hickey-breakdown.jpg)
-
-<sup>Source: [@hickey-pie-worst]</sup>
-
-3. A pie chart is easily manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
-
-![](images/hickey-3D.jpg)
-
-<sup>Source: [@hickey-pie-worst]</sup>
-
-4. A pie chart may be useful when comparing two different categories with different amounts of information.
-Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
-
-![](images/henry-quarter.png)
-
-<sup>Source: [@henry-defense-pie]</sup>
-
-![](images/henry-half.png)
-<sup>Source: [@henry-defense-pie]</sup>
-
 
 ## Maps
 
@@ -317,8 +273,62 @@ What are some of the most common data visualizations seen in newspapers, textboo
 Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
 source: [@aya-time-series]
 
+#### Time Series Data and its Deceptive Potential
+[@TimeSeries]
+This article explains how time series data visualization can sometimes be deceptive. 
+
+It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
+
+In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
+
+
 ### Line Graph
 A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
+
+### Pie Charts: why Pie Charts are Bad(a Comparison with the Bar Chart)
+
+Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
+
+[@hickey-pie-worst] 
+
+[@henry-defense-pie]
+
+[@quach-penny]
+
+1. Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
+See figure \@ref(fig:hickey-before) and \@ref(fig:hickey-after) for examples.
+
+![](images/hickey-before.jpg)
+
+<sup>Source: [@hickey-pie-worst]</sup>
+
+![](images/hickey-after.jpg)
+
+<sup>Source: [@hickey-pie-worst]</sup>
+
+2. It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
+See figure \@ref(fig:hickey-breakdown) for example.
+
+![](images/hickey-breakdown.jpg)
+
+<sup>Source: [@hickey-pie-worst]</sup>
+
+3. A pie chart is easily manipulated (e.g. using a 3D pie chart). See figure \@ref(fig:hickey-3D) for example. 
+
+![](images/hickey-3D.jpg)
+
+<sup>Source: [@hickey-pie-worst]</sup>
+
+4. A pie chart may be useful when comparing two different categories with different amounts of information.
+Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers! See figure \@ref(fig:henry-quarter) and \@ref(fig:henry-half) for examples.
+
+![](images/henry-quarter.png)
+
+<sup>Source: [@henry-defense-pie]</sup>
+
+![](images/henry-half.png)
+<sup>Source: [@henry-defense-pie]</sup>
+
 
 ### Stacked Area Chart
 Stacked area charts are area charts similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time. The order in which we stack the variables is crucial because sometimes, there can be a difference in the actual plot versus the human perception.
@@ -403,14 +413,6 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 ![](images/aya-polar.jpg)
 
 <sup>Source: [@aya-time-series]</sup>
-
-## Time Series Data and its Deceptive Potential
-[@TimeSeries]
-This article explains how time series data visualization can sometimes be deceptive. 
-
-It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
-
-In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
 
 ## Word Cloud
