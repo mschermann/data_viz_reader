@@ -496,16 +496,14 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 ## Using Visualization Softwares and Libraries
 
 ### Using Shapes as Filters in Tableau When Your Fields Are Measures  
-[@Measures]
-
+[@Measures]  
 This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
-### How to customize a legend in Python with matplotlib
+### How to Customize a Legend in Python with Matplotlib  
 A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
-#### Add a basic legend
+#### Add a Basic Legend  
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
-
 ```{python eval=FALSE}
 import matplotlib.pyplot as plt
 plt.style.use('classic')
@@ -523,7 +521,7 @@ leg = ax.legend();
 ![](images/legend1.png)
 
 
-#### Add a legend on different position
+#### Add a Legend on Different Position  
 To specify the position of the legend, the 'loc' parameter inside the function can be used: 
 ```{python eval=FALSE}
 ax.legend(loc='upper left', frameon=False)
@@ -531,17 +529,15 @@ fig
 ```
 ![](images/legend2.png)
 
-#### Customize a box surrounding the legend
+#### Customize a Box Surrounding the Legend  
 We can also specify whether we want a box surrounding the legend with the 'fancybox' parameter: 
-
 ```{python eval=FALSE}
 ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
 fig
 ```
 ![](images/legend3.png)
 
-#### Legend for size of points
-
+#### Legend for Size of Points  
 ```{python eval=FALSE}
 import pandas as pd
 cities = pd.read_csv('data/california_cities.csv')
@@ -571,7 +567,7 @@ plt.title('California Cities: Area and Population');
 ```
 ![](images/legend4.png)
 
-#### Multiple legends
+#### Multiple Legends  
 ```{python eval=FALSE}
 fig, ax = plt.subplots()
 
@@ -596,11 +592,10 @@ ax.add_artist(leg);
 ```
 ![](images/legend5.png)
 
-### Reusable Data Visualization Code
+### Reusable Data Visualization Code  
 
-#### Reusable ggplot2 code
-[@viz_R]
-
+#### Reusable ggplot2 Code  
+[@viz_R]  
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
 To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
@@ -616,9 +611,8 @@ plot(plot1)  #we have to actually call the plot() function on the plot object we
 
 The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
-#### Reusable Calendar View code
-[@Calendar_Layout]
-
+#### Reusable Calendar View Code  
+[@Calendar_Layout]  
 We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
 ![](images/CalendarView.jpg)
 
@@ -705,12 +699,11 @@ function pathMonth(t0) {
 </script>
 ```
 
-### Creating a Diverging Bar Chart
-
+### Creating a Diverging Bar Chart  
+[@viz_R]  
 A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
 
-Below is the R code template one can use to create a diverging bar chart.  Reference for the code: [@viz_R]
-
+Below is the R code template one can use to create a diverging bar chart.  
 ```{r}
 library(ggplot2)
 theme_set(theme_bw())  
@@ -738,9 +731,10 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 
 ![](images/diverging_bar.png)
 
-### Building advanced analytics application with TabPy
- [@TabPy]
- Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!  
- TabPy allows us to integrate and visualize data from Python in Tableau. 
- The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+### Building Advanced Analytics Application with TabPy  
+[@TabPy]  
+Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
+
+The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.
+
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
