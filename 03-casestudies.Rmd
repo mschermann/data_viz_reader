@@ -6,7 +6,7 @@ This chapter contains some useful case studies on such visualizations. Case stud
 
 **Source** | **Description**
 -----------|---------------------------------------------------------------
-[@10_BEST] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
+[@10_best] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices.
 [@int_viz_capt] | 16 Captivating Data Visualization Examples
 [@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
@@ -194,36 +194,36 @@ This case study begins by clearly explaining necessary background information an
 ![](images/volcano_global_warming.png)
 
 ### Understanding Plastic pollution using visualization
-Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@Wiki_Plastic_Pollution].
+Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@wiki_plastic_pollution].
 
-**Usage of plastic in last few decades** [@Plastic_Pollution_visualizations]:
+**Usage of plastic in last few decades** [@plastic_pollution_visualizations]:
 ![](images/global_plastic_usage.png)
 
-Plastic has become part of our daily life, and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on the environment. [@Plastic_Pollution_visualizations]
+Plastic has become part of our daily life, and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on the environment. [@plastic_pollution_visualizations]
 
-**What is plastic used for.** [@Plastic_Pollution_visualizations]
+**What is plastic used for.** [@plastic_pollution_visualizations]
 ![](images/use_of_plastic.png)
 
 With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have consumption that exceeds even that of the entire rest of Asia and Africa combined.
 
 Donut chart is a modern version of pie-chart which looks cleaner, and embedded visual imagery makes the distribution easy to understand.
-[@Plastic_Pollution_visualizations]
+[@plastic_pollution_visualizations]
 
-**Plastic Use: Industrial nations top the charts** [@Plastic_Pollution_visualizations]
+**Plastic Use: Industrial nations top the charts** [@plastic_pollution_visualizations]
 
 ![](images/plastic_use.png)
 Simple line chart to show the increasing trends: good part is the removal of the vertical grid which creates noise in the visualization when the aim to show the trend, rather than the numbers.
 
-**Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@Ocean_Plastic_Pollution]
+**Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@ocean_plastic_pollution]
 ![](images/Ocean_Plasticpollution.jpg)
 
-**Infographic plastic pollution** [@Plastic_Pollution_Infographics]
+**Infographic plastic pollution** [@plastic_pollution_infographics]
 ![](images/infographic-plastic-buildup.jpg)
 
-**Infographic plastic pollution** [@Plastic_Pollution_Infographics]
+**Infographic plastic pollution** [@plastic_pollution_infographics]
 ![](images/ocean_plastic.png)
 
-How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
+How long does plastic remain in the ocean? [@plastic_pollution_visualizations]
 
 Overall, this visualization is useful in the following ways:
 
@@ -419,7 +419,7 @@ Three things are consistent across both graph visualization use cases:
 When connected data insight is critical, only interactive and robust visualization tools are up to the task.
 
 ### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
-[@Word_Bank_Data]
+[@world_bank_data]
 
 This is an exciting source and an excellent visual guide to data and development. It discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they are informative and clean:
 
@@ -437,5 +437,5 @@ The Atlas features maps and data visualizations, primarily drawn from World Deve
 The editors have been selected to emphasize on essential issues by experts in the World Bank’s Global Practices. The Atlas aims to reflect the breadth of the Goals themselves and presents national and regional trends and snapshots of progress towards the UN’s seventeen Sustainable Development Goals related to: poverty, hunger, health, education, gender, water, energy, jobs, infrastructure, inequalities, cities, consumption, climate, oceans, the environment, peace, institutions, and partnerships.
 
 Contents of this publication: [@worldbankpub].
-The data is available at [@DATAACCESS].
+The data is available at [@data_access].
 The code used to generate the majority of figures is available at [@worldbankcode].
