@@ -255,7 +255,7 @@ So before we start to plot, we should decide the baseline we want to use. Differ
 
 Visualizations that show comparisons, connections, and conclusions offer analytical clarity. 
 
-Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you - 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described as:
+Patterns based on function can help you see differences and similarities more clearly, understand relationships and behaviors more intimately, and predict future results with a greater level of certainty. When these patterns are presented as visualizations, they help you - 1) see comparisons, 2) make connections, and 3) draw conclusions from your data sets. The major functions can be described with the following examples:
 
 ### Comparisons
 ![](images/patten-1.jpg)
@@ -287,11 +287,11 @@ The line weights help to identify each entry point and show the range of differe
 Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
 
 ### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals  
-Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. And as the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer; so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something? 
+Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. As the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer, so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something specific? 
 
 ![](images/analysis_spectrum.png)
 
-The author also notes that the flexibility of a tool is a sticking point as well if you need to change your data while developing a data visualization, certain apps like Illustrator will not be ideal because changing the data even slightly requires you to build the graph again from scratch. Another thing to think about is the type of chart you are trying to create is a basic, canned bar or line graph all you need (in which case something like Excel will do the trick), or does your project necessitate a more innovative or custom chart (like something possible in D3.js)? Interactivity is another big question only certain tools will make this possible.
+The author also notes that the flexibility of a tool is a sticking point as well if you need to change your data while developing a data visualization, as certain apps like Illustrator will not be ideal because changing the data even slightly requires you to build the graph again from scratch. Another thing to think about is the type of chart you are trying to create. Is a basic bar or line graph all you need (in which case something like Excel will do the trick), or does your project necessitate a more innovative or custom chart (like something possible in D3.js)? Interactivity is another big question only certain tools will make possible.
 
 ![](images/interactivity.png)
 
@@ -331,20 +331,17 @@ The figure below is a stacked area chart showing time series data:
 <sup>Source: [@aya-time-series]</sup>
 
 ### Bar Charts  
-Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
+Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare variables with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. 
 
-In the figure below, a bar graph would be a cleaner alternative.
+In the figure below, a bar graph would be a cleaner alternative. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
+
 ![](images/aya-stacked-perception.jpg) 
 
 <sup>Source: [@aya-time-series]</sup>
 
-For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
-We can use two different bar charts to represent time series data.
 
 ### Column Charts for Time Series Data  
-This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
-
-Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type. The link of website is]**
+We can use two different bar charts to represent time series data. For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
 
 ![](images/aya-bar1.png)
 
@@ -354,33 +351,38 @@ Still have hard time to choose? There are many resources online which can help y
 
 <sup>Source: [@aya-time-series]</sup>
 
+This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
+
+Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type. The link of website is]**
+
 To avoid clutter and confusion, make sure not to use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart.
 
 ### Gantt Chart  
-**Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
+Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc. by the use of colors and placement of bars in a Gantt chart.
 
 It is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management.
 
 Assume you're planning the logistics for a dance concert. There are lots of activities to be completed, some of which will take place simultaneously while some can be done only after another activity has been completed. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
 
-Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
-
 ![](images/aya-gantt.png)
 
 
 ### Stream Graph  
-**Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
+Stream graphs are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
 
-(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name. They are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.  
 A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
 
-### Heat Map  
-**Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
 ![](images/aya-stream.png)
+
+(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name.
+
+### Heat Map  
+Heat maps are perfect for a two-tiered time frame -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
+
 
 <sup>Source: [@aya-time-series]</sup>
 
-Geo-spatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
+Geo-spatial visualizations often use heat maps since they quickly help identify "hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
 
 This heat map visualizes birthdays of babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the latter half of July, August, and September.
 
