@@ -374,13 +374,12 @@ A stream graph showing a randomly chosen listener's last.fm music-listening habi
 
 ![](images/aya-stream.png)
 
+<sup>Source: [@aya-time-series]</sup>
+
 (Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name.
 
 ### Heat Map  
 Heat maps are perfect for a two-tiered time frame -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
-
-
-<sup>Source: [@aya-time-series]</sup>
 
 Geo-spatial visualizations often use heat maps since they quickly help identify "hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
 
