@@ -384,6 +384,31 @@ There are a few examples of unusual/innovative use of typography for data visual
 
 The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand. Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that "this criticism indicates both the strength and weakness of type? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher-level patterns. Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers' names and was corrected by only including a given name and a surname, the length of which could only vary so much.
 
+### Infographics vs. Data Visualizations
+
+Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
+
+#### Data Visualization
+Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
+
+#### Infographics
+An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
+
+#### When Should You Use Infographics or Data Visualization?
+While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
+
+Data Visualization:
+
+Use Case | Best Visual Representation | Rationale |
+-------- | -------------------------- | --------- |
+Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
+White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
+Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
+Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
+Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
+Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
+
+
 ## Data visualization in Business
 
 ### Data Visualizations in Industry
