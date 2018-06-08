@@ -46,7 +46,7 @@ Detection of Outliers is performed using:
 Include a zero baseline if possible. Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances. Always choose the most efficient visualization. Watch your placement - You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost. Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
 
 ### Copy
-Don’t over explain if the copy already mentions a fact. The subhead, callout, and chart header don’t have to reiterate it. Keep the chart and graph headers simple and to the point. There’s no need to get clever, verbose, or pun-tastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension. Use callouts wisely. Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context. Don’t use distracting fonts or elements. Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point — and don’t use them both at the same time.
+Don’t over explain if the copy already mentions a fact. The subhead, callout, and chart header don’t have to reiterate it. Keep the chart and graph headers simple and to the point. There’s no need to get clever, verbose, or puntastic. Keep any descriptive text above the chart brief and directly related to the chart underneath. Remember: Focus on the quickest path to comprehension. Use callouts wisely. Callouts are not there to fill space. They should be used intentionally to highlight relevant information or provide additional context. Don’t use distracting fonts or elements. Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point — and don’t use them both at the same time.
 
 ### Color
 Use a single color to represent the same type of data. Watch out for positive and negative numbers. Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind. Make sure there is sufficient contrast between colors. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes). Select colors appropriately. Don’t use more than 6 colors in a single layout.
@@ -82,7 +82,7 @@ When we are choosing the type of chart, we need to answer some questions:
 * How many data points do you want to display for each variable? 
 * Will you display time series data or other items or groups? 
 
-After answering these questions, you should able to get a better imagination of your ideal graph. The simple guidance for using the different types of chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing joint variation of three data items, and pie charts to compare parts of a whole.
+After answering these questions, you should able to get a better image of your ideal graph. The simple guidance for using the different types of the chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing the joint variation of three data items, and pie charts to compare parts of a whole.
 
  
 ## Why Pie Charts are Bad: a Comparison with the Bar Chart  
@@ -284,7 +284,7 @@ The line weights help to identify each entry point and show the range of differe
 ## Takeaways From Recreating One Chart Using 24 Tools  
 [@different_tools]
 
-Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her github page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
+Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her GitHub page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
 
 ### Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals  
 Since data visualization is necessary in many spheres, from science to journalism, data visualization projects will often have quite disparate objectives, and the people working on them will have different requirements. As the author aptly points out, it is impossible for one tool to satisfy the needs of every data visualizer, so there will necessarily be tools better suited to specific situations. For example, does the user need a tool for exploratory visualization of the data, or does the user seek to create graphs and charts to show the public or a specific audience something specific? 
@@ -299,7 +299,7 @@ The author also notes that the flexibility of a tool is a sticking point as well
 This section of the article is all about the difference in people's preferences and opinions; from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people. 
 
 ### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
-Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
+Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, the code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
 
 ![](images/apps_vs_code.png)
 
@@ -341,7 +341,7 @@ In the figure below, a bar graph would be a cleaner alternative. The chart plots
 
 
 ### Column Charts for Time Series Data  
-We can use two different bar charts to represent time series data. For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
+We can use two different bar charts to represent time series data. For instance, the grouped bar chart in this interactive visualization of a number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
 
 ![](images/aya-bar1.png)
 
@@ -408,7 +408,7 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 
 This article explains how time series data visualization can sometimes be deceptive. 
 
-It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **"correlation does not necessarily mean causation"**. 
+It first takes an example of two random time series data and plots them on a graph which gives an impression that the two are strongly correlated. But if we do some statistical testing, the two do not show any relationship, this is an example of **" correlation does not necessarily mean causation"**. 
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
@@ -418,7 +418,7 @@ In another set of examples, the author has taken trending two random time series
 
 A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
 
-Word clouds can add clarity during text analysis in order to effectively communicate your data results.  
+Word clouds can add clarity to text analysis in order to effectively communicate your data results.  
 
 |**Pros of Word Clouds** | **Cons of Word Clouds** |
 | :------------------: | :-------------------: |
@@ -614,7 +614,7 @@ The ggplot2 package allows R users to go beyond the simple and often rudimentary
 
 #### Reusable Calendar View Code  
 [@calendar_layout]  
-We have all seen the calendar views in the various data products that we worked on.Below is an open source code which will help you replicate and create your own calendar:
+We have all seen the calendar views in the various data products that we worked on. Below is an open source code which will help you replicate and create your own calendar:
 ![](images/CalendarView.jpg)
 
 <sup>[@CalendarView]</sup>
@@ -736,6 +736,6 @@ Diverging bar charts are also convenient to create in Tableau.  Below is an exam
 [@TabPy]  
 Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
 
-The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.
+The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.
 
-There are other examples and use cases that may be downloaded, and the scripts are also given by the author for anyone who is interested in trying it out. 
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. 
