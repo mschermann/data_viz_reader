@@ -1,12 +1,14 @@
 # Case Studies
 
-Visualization is like art; it speaks where words fail. There are phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the understanding of depths for developing a perspective about the range of the issue, the controversy of ‘#OscarsSoWhite,’ etc. on which we can write endless paragraphs might still fail to convince the readers. The links below show some complex visualizations of some of these important and relevant topics - visualizations that speak volumes and are much more persuasive than an essay, with a tiny fraction of text. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to get a bright idea of all the details of the issues.
+## Introduction
 
-This chapter contains some useful case studies on such visualizations. Case studies contain valuable information about development records. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
+Visualization is like art; it speaks where words fail. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to synthesize the details important details relevant to the issues. In particular, phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the controversy of ‘#OscarsSoWhite,’ etc. present such complexity that we can write endless paragraphs and still fail to convince readers. Below are visualizations of some of these important and complex topics - visualizations that are much more persuasive than an essay, and with a tiny fraction of the text. 
+
+This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
 
 **Source** | **Description**
 -----------|---------------------------------------------------------------
-[@10_BEST] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
+[@10_best] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices.
 [@int_viz_capt] | 16 Captivating Data Visualization Examples
 [@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
@@ -30,7 +32,7 @@ Reference: [@cool_data]
 ### Two Centuries of U.S. Immigration
 This interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Each colored dot represents 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
 
-What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simpler, but perhaps that is all it needs.
+What makes this a good visualization is that it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simple, but effective.
 
 Reference: [@cool_data].
 
@@ -54,7 +56,7 @@ The visualization in this article is a classic problem of visualizing geographic
 ## Demographic Comparisons
 One common use of visualization is to compare different groups against each other, such as political parties or generations.
 
-### Young voters, class and turnout: How Britain voted in 2017
+### Young Voters, Class and Turnout: How Britain Voted in 2017
 This article's goal is to convey the change in party votes in the 2017 UK general election compared to votes in 2015 [@UKvotes2017]. The change in party votes was shown with regards to three demographic factors: age, class, and ethnicity. For each factor, there are four graphs (one per political party), each illustrated in the party's standard color. The change in the percent of votes is shown as an arrow where the arrow's shaft is the length of the difference from 2015 to 2017 while the x-axis is the demographic factor split into different bins.
 
 What makes this a good visualization is that it is straightforward to read and interpret. The color-coding of the arrows and party names makes it easy to pick out the different parties. The index is smartly spread across the visualization to reduce cross-referencing, and color in the graph represents the actual party colors in the campaign. The arrow lengths highlight just how significant of a change happened. For example, in the Age section, it is easy to see the pattern between the Labour party gaining many voters aged 18 to 44 and the Conservative party gaining voters aged 45 and up.
@@ -82,7 +84,7 @@ Some interesting findings include:
 2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening. 
 
 ![](images/server_cook.png)
-3. Protective services, e.g., police officers, firefighters and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
+3. Protective services, e.g., police officers, firefighters ,and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
 
 ![](images/protective.png)
 
@@ -95,14 +97,14 @@ Reference: [@cool_data]
 
 ![](images/SpendingTime.png)
 
-### Britain's diet in data
+### Britain's Diet In Data
 This is an excellent example about how to present a significant amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton's diet has changed over the last four decades for the better [@britain_diet_2016]. It does this by displaying simple trend lines that show that more harmful and fatty foods are being consumed less while consumed more healthier and leaner foods. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every primary food group.
 
 ![](images/britain-diet-data-trends.PNG)
 Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Such visualization is ideal for the layman who would want to walk away with a first and accurate understanding of the dietary changes. It also provides plenty for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
+Such a visualization is ideal for the layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
 >"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
 
 Reference: [@visual_display]
@@ -126,7 +128,7 @@ The author also summarized three key findings from the graph:
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
-This is a valid graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
+This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
 ### How the Recession Reshaped the Economy, in 255 Charts
 The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this vast data visualization.  
@@ -136,12 +138,12 @@ Below the overall charts are subsets categorized by job sector and sub-industrie
 
 ![](images/recession_jobs2.png)
 
-### An Aging Nation: Projected Number of Children and Older Adults 
-An aging population is always a hot topic in social economics and politics [@aging_nation]. Here are several different data visualizations collected to show the aging population in the U.S. and the world.
+### An Aging Population: Projected Number of Children and Older Adults 
+An aging population is always a hot topic in social economics and politics [@aging_nation]. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.
 
 ![](images/aging_nation.jpg)
 
-This one includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. The good things about this visualization are that it is simple to see and compare, employs color to differentiate the categories, and highlights the intersection point.
+This example includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. This visualization allows easy comparison, employs color to differentiate the categories, and highlights the intersection point.
 
 ### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 ![](images/Pyramid.jpg)
@@ -150,10 +152,10 @@ This is a **population pyramid**. "A **population pyramid** is a pair of back-to
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
-This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for continuous time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
+This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
 ### Music Timeline
-Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to the present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music]. One part of why this is a good visualization is that in addition to the general timeline of all music, the reader can drill down to one specific genre to see its subgenres. The drill-down interaction allows for more details without creating one detailed and cluttered visualization. Embedding the graph with names (e.g., Rock/Pop) makes similar color lines easy to distinguish.
+Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to the present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music]. One useful feature of this graph is the reader's ability to explore one specific genre and its subgenres at a more detailed level, as well as view the general timeline of all music. The drill-down interaction allows for more details without cluttering the overview of the visualization. Embedding the graph with names (e.g., Rock/Pop) makes similar color lines easy to distinguish.
 
 ![](images/music_timeline.png)
 
@@ -169,7 +171,7 @@ One of the plot's biggest strengths is that by using one dot to represent each p
 
 A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at crucial times of the day. This represents people's movements from one activity to another without overwhelming the reader.
 
-Overall, this is an engaging, informative, and a fun animated plot that has relevance and tells a story.
+Overall, this is an engaging, informative, relevant, and fun animated plot that tells a story.
 
 ![](images/life_of_americans.png)
 
@@ -194,42 +196,42 @@ This case study begins by clearly explaining necessary background information an
 ![](images/volcano_global_warming.png)
 
 ### Understanding Plastic pollution using visualization
-Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@Wiki_Plastic_Pollution].
+Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@wiki_plastic_pollution].
 
-**Usage of plastic in last few decades** [@Plastic_Pollution_visualizations]:
+**Usage of plastic in last few decades** [@plastic_pollution_visualizations]:
 ![](images/global_plastic_usage.png)
 
-Plastic has become part of our daily life, and human dependence on plastic has increased over time. Below shows some of the plastic products used day in day out by us undermining their effects on the environment. [@Plastic_Pollution_visualizations]
+Plastic has become part of our daily life, and human dependence on plastic has increased over time. The visualization below shows some common plastic products undermining environmental health. [@plastic_pollution_visualizations]
 
-**What is plastic used for.** [@Plastic_Pollution_visualizations]
+**What is plastic used for.** [@plastic_pollution_visualizations]
 ![](images/use_of_plastic.png)
 
-With a share of 26 percent, China may be the largest plastic producer in the world - yet the largest plastic consumer is neighboring Japan. The people living in the island nation have consumption that exceeds even that of the entire rest of Asia and Africa combined.
+With a share of 26 percent, China may be the largest plastic producer in the world; yet the largest plastic consumer is neighboring Japan. The people living in the island nation have consumption that exceeds that of Africa and the rest of Asia combined.
 
 Donut chart is a modern version of pie-chart which looks cleaner, and embedded visual imagery makes the distribution easy to understand.
-[@Plastic_Pollution_visualizations]
+[@plastic_pollution_visualizations]
 
-**Plastic Use: Industrial nations top the charts** [@Plastic_Pollution_visualizations]
+**Plastic Use: Industrial nations top the charts** [@plastic_pollution_visualizations]
 
 ![](images/plastic_use.png)
-Simple line chart to show the increasing trends: good part is the removal of the vertical grid which creates noise in the visualization when the aim to show the trend, rather than the numbers.
+This visualization uses a simple line chart to show increasing trends. A positive aspect of this chart is the removal of the vertical grid which creates noise in the visualization when its objective is to show the trend, rather than the numbers.
 
-**Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@Ocean_Plastic_Pollution]
+**Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@ocean_plastic_pollution]
 ![](images/Ocean_Plasticpollution.jpg)
 
-**Infographic plastic pollution** [@Plastic_Pollution_Infographics]
+**Infographic plastic pollution** [@plastic_pollution_infographics]
 ![](images/infographic-plastic-buildup.jpg)
 
-**Infographic plastic pollution** [@Plastic_Pollution_Infographics]
+**Infographic plastic pollution** [@plastic_pollution_infographics]
 ![](images/ocean_plastic.png)
 
-How long does plastic remain in the ocean? [@Plastic_Pollution_visualizations]
+How long does plastic remain in the ocean? [@plastic_pollution_visualizations]
 
 Overall, this visualization is useful in the following ways:
 
-- It provides content: those plots serve one of the primary purposes of Data Visualization-- storytelling. It naturally leads the audience to understand the what along with the plastic pollution. 
-- Use of charts is right: the correct use of different types of plots makes the visualization both efficient and exciting.
-- Use of color is efficient: this visualization accurately shows that color plays an essential role in a data viz by guiding the reader to grasp the data relationships. There is no redundant color, and no primary color is missing.
+- It provides content: those plots serve one of the primary purposes of data visualization - storytelling. It naturally leads the audience to understand the effects of plastic pollution. 
+- Effective use of charts: the correct use of different types of plots makes the visualization both effective and exciting.
+- Efficient use of color: this visualization is a good example of color playing an essential role in a data visualization by guiding the reader to grasp the relationships in the data. There is no redundant color, and no primary color is missing.
 
 ## Language
 
@@ -358,7 +360,7 @@ Using the data from Spotify, the author listed the ten most distinctive emoji us
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on [Astrobiology](https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/) plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
 
-One highlight of the graph is how color has been used. The red dots are representing planets that are too hot and the green ones meaning just right temperature, and the blue dots are meaning too cold. This is very intuitive for people to understand without the necessity to read through the notes. The dots are transparent so it minimized the overlap among themsevles. 
+One highlight of the graph is how color has been used. The red dots are representing planets that are too hot and the green ones meaning just right temperature, and the blue dots are meaning too cold. This is very intuitive for people to understand without the necessity to read through the notes. The dots are transparent so it minimized the overlap among themselves. 
 
 ![](images/planet.png)
 
@@ -391,17 +393,6 @@ Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponso
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
 ### Law enforcement and fraud detection
-"Data is the new oil"– it may be a cliche, but it is true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. You can say the same about graphs. More and more organizations are seeing potential in their data connections. The question is, how do you get non-experts to analyze graphs at scale and understand potentially complex insight? Most of the time, the answer is through interactive graph visualization.
-
-There are four reasons why graph visualization is such a powerful tool:
-
-*It is intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
-*It is fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
-*It is flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you will find value in graph visualization.
-*It is insightful – exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
-
-In a growing number of domains, graph visualization has become a must-have data analysis tool. Let’s take a quick look at the ways graph visualization is being used in real life.
-
 The police have been using graph visualization, or link analysis as it is commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
 
 A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were explicitly created for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
@@ -419,7 +410,7 @@ Three things are consistent across both graph visualization use cases:
 When connected data insight is critical, only interactive and robust visualization tools are up to the task.
 
 ### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
-[@Word_Bank_Data]
+[@world_bank_data]
 
 This is an exciting source and an excellent visual guide to data and development. It discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they are informative and clean:
 
@@ -437,5 +428,5 @@ The Atlas features maps and data visualizations, primarily drawn from World Deve
 The editors have been selected to emphasize on essential issues by experts in the World Bank’s Global Practices. The Atlas aims to reflect the breadth of the Goals themselves and presents national and regional trends and snapshots of progress towards the UN’s seventeen Sustainable Development Goals related to: poverty, hunger, health, education, gender, water, energy, jobs, infrastructure, inequalities, cities, consumption, climate, oceans, the environment, peace, institutions, and partnerships.
 
 Contents of this publication: [@worldbankpub].
-The data is available at [@DATAACCESS].
+The data is available at [@data_access].
 The code used to generate the majority of figures is available at [@worldbankcode].
