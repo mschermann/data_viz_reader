@@ -514,19 +514,6 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 **Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
 
 
-### 7 Mistakes to Avoid:
-
-| **Mistake**           | **Description**                                       |
-| ----------------- | ------------------------------------------------- |
-**Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
-**Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
-**Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
-**Waiting for complex technology and big BI deployment projects** | Implementations of some of traditional business intelligence tools often take a much longer time than originally anticipated. Waiting for a traditional BI project to materialize may mean delays. |
-**Underestimating the time or resources to create and maintain the dashboard** | Even though a dashboard is typically one page or one screen, it would be injudicious to assume that it will be quick and simple to create and maintain. |
-**Failing to match metrics to the goal** | Instead of showcasing the activities of a single department, a dashboard should connect the department's efforts to the organization's actual goals and objectives |
-**Using ineffective, poorly designed graphs and charts** | While designing graphs and charts for dashboard, extreme care should be taken. Principles for designing good data visualizations should be followed to avoid dashboards populated with poorly designed graphs and charts. |
-
-
 ## Using Visualization Softwares and Libraries
 
 ### Using Shapes as Filters in Tableau When Your Fields Are Measures  
@@ -625,8 +612,118 @@ leg = Legend(ax, lines[2:], ['line C', 'line D'],
 ax.add_artist(leg);
 ```
 ![](images/legend5.png)
+##How to customize a legend in MATLAB
+Legend creates a legend with descriptive labels for each plotted data series. A good legend helps us to better understand the graph. For instance, we can accurately tell the meaning for a line of a plot or we can understand the extented range for certain colors from a legend. Without a legend, everything can be confusing for the readers.
+I would like to introduce some basic methods of customizing a legend. 
 
-### Reusable Data Visualization Code  
+**Add a basic legend**
+First, we use the legend() function to add a basic legend. For example, say we already have a line graph and there are several lines on that plot. We can simply add a legend to distinguish them from each other by using the ax.legend() function.
+
+```{html}
+<!DOCTYPE html>
+import matplotlib.pyplot as plt
+plt.style.use('classic')
+%matplotlib inline
+import numpy as np
+
+x = np.linspace(0, 10, 1000)
+fig, ax = plt.subplots()
+ax.plot(x, np.sin(x), '-b', label='Sine')
+ax.plot(x, np.cos(x), '--r', label='Cosine')
+ax.axis('equal')
+leg = ax.legend();
+</script>
+```
+
+![](images/legend1.png)
+**Add a legend on different position**
+If we want it on a specific position of the plot, we can use loc='upper left' inside the function to indicate where you want to put the legend at. 
+```{html}
+<!DOCTYPE html>
+ax.legend(loc='upper left', frameon=False)
+fig
+</script>
+```
+![](images/legend2.png)
+
+**Customize a box surrounding the legend**
+Also, we can decide whether you need a box surrounding the legend or not. 
+
+```{html}
+<!DOCTYPE html>
+ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
+fig
+</script>
+```
+![](images/legend3.png)
+
+**Legend for the size of points**
+
+```{html}
+import pandas as pd
+cities = pd.read_csv('data/california_cities.csv')
+
+# Extract the data we're interested in
+lat, lon = cities['latd'], cities['longd']
+population, area = cities['population_total'], cities['area_total_km2']
+
+# Scatter the points, using size and color but no label
+plt.scatter(lon, lat, label=None,
+            c=np.log10(population), cmap='viridis',
+            s=area, linewidth=0, alpha=0.5)
+plt.axis(aspect='equal')
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.colorbar(label='log$_{10}$(population)')
+plt.clim(3, 7)
+
+# Here we create a legend:
+# we'll plot empty lists with the desired size and label
+for area in [100, 300, 500]:
+    plt.scatter([], [], c='k', alpha=0.3, s=area,
+                label=str(area) + ' km$^2$')
+plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
+
+plt.title('California Cities: Area and Population');
+</script>
+```
+![](images/legend4.png)
+
+**Multiple legends**
+```{html}
+<!DOCTYPE html>
+fig, ax = plt.subplots()
+
+lines = []
+styles = ['-', '--', '-.', ':']
+x = np.linspace(0, 10, 1000)
+
+for i in range(4):
+    lines += ax.plot(x, np.sin(x - i * np.pi / 2),
+                     styles[i], color='black')
+ax.axis('equal')
+
+# specify the lines and labels of the first legend
+ax.legend(lines[:2], ['line A', 'line B'],
+          loc='upper right', frameon=False)
+
+# Create the second legend and add the artist manually.
+from matplotlib.legend import Legend
+leg = Legend(ax, lines[2:], ['line C', 'line D'],
+             loc='lower right', frameon=False)
+ax.add_artist(leg);
+```
+![](images/legend5.png)
+
+@misc{ Python Data Science Handbook,
+   author= {Jake,VanderPlas},
+   year = {2016},
+   title = { Python Data Science Handbook },
+   url ={ https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html }
+   note = {Accessed:2018-05-26}
+
+
+## ggplot2 code template for data viz in R  
 
 #### Reusable ggplot2 Code  
 [@viz_R]  
