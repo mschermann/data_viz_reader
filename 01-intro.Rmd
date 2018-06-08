@@ -6,11 +6,22 @@
 
 The main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way.
 
+"Data is the new oil" may be a cliche, but it is true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. More and more organizations are seeing potential in their data connections, but how do you allow non-experts to analyze data at scale and extract potentially complex insights? One answer is through interactive graph visualization.
+
 **Information visualization** is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@info_viz] shares some examples and common uses of information visualization, such as:
 
 * Presentation: to explain or persuade
 * Exploratory Analysis: to identify relationships or special cases in the data
 * Confirmatory Analysis: to confirm our understanding and analysis of the data
+
+**Why data visualization is such a powerful tool:**
+
+* It is intuitive – presenting a graph as a node-link structure instantly makes sense, even to people who’ve never worked with graphs before.
+* It is fast – our brains are great at spotting patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
+* It is flexible – the world is densely connected, so as long as there’s an interesting relationship in your data somewhere, you will find value in graph visualization.
+* It is insightful – exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
+
+In a growing number of domains, graph visualization has become a must-have data analysis tool. The Case Studies section will explore many ways data visualizations are being used in real world applications.
 
 ## Importance of Data Visualization
 
