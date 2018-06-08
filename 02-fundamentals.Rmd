@@ -36,7 +36,7 @@ Data is simply a collection of many individual elements (i.e., observations, typ
 ### Tufte's Principles of Design
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
-**1. Prin1ciple 1: Maximizing the data-ink ratio, within reason**
+#### Principle 1: Maximizing the data-ink ratio, within reason
 
 Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented. It is also the proportion of graphic's ink devoted to the non-redundant display of data-information.
 
@@ -63,20 +63,20 @@ The graphs will be better for more information per unit of space and per unit of
 
 We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience. Some of the new designs may appear odd, but this is probably because we have not seen them before.
 
-**2. Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.**
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
 
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor.Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
 ![](images/Tufte_figure6.png)
 (Source: [@Tufte_2001])
 
-**3. Principle 3: Maximize data density and the size of the data matrix, within reason.**
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
 
 High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters, thinner lines for busy time-series).
 
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
-**4. Principle 4: Escape flatland - small multiples, parallel sequencing.**
+#### Principle 4: Escape flatland - small multiples, parallel sequencing.
 
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graphs or parallel sequencing skill.
 
@@ -86,21 +86,20 @@ Data is multivariate doesn't necessarily mean 3D projection. How can we enhance 
 ![Example for parallel sequencing](images/Tufte_figure7.png)
 (Source: [@Tufte_2001])
 
-**5. Principle 5: Provide the user with an overview and details on demand.**
+#### Principle 5: Provide the user with an overview and details on demand.
 
 Carefully designed view can show a macrostructure (overview) as well as microstructure (detail) in one space.
 
 ![](images/Tufte_figure9.png)
 (Source: [@Tufte_2001])
 
-**6. Principle 6: Utilize Layering & Separation.**
+#### Principle 6: Utilize Layering & Separation.
 
-Supported by Gestalt laws (The principles of grouping):
+1. Supported by Gestalt laws (The principles of grouping):
 
 * Grouping with colors
 * Using Color to separate
 * 1 + 1 = 3 (clutter)
-
 
 2. Graphics are almost always going to improve as they go through editing ,revision, and testing against different design options.
 
@@ -109,7 +108,7 @@ Supported by Gestalt laws (The principles of grouping):
 ![](images/Tufte_figure10.png)
 (Source: [@Tufte_2001])
 
-**7. Principle 7: Utilize narratives of space and time.**
+#### Principle 7: Utilize narratives of space and time.
 
 Tell a story of position and chronology through visual elements.
 
@@ -137,7 +136,6 @@ There's a wealth of free resources out there in the form of handy little design 
 
 Storytelling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather's article [@storytelling_with_data] (2013) discussed the way in which a visual designer tells a story with a visualization.
 
-
 #### Principle 3: Maximize data density and the size of the data matrix, within reason.
 High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).
     
@@ -157,7 +155,7 @@ Here is a process that may be followed for finding insights to tell a story.Each
 
 
 #### Principle 1: Escape flatland â? small multiples, parallel sequencing.
-Data is multivariate. Doesnât necessarily mean 3D projection. How can we enhance multitvariate data on inherently 2D surfaces?
+Data is multivariate. Doesn't necessarily mean 3D projection. How can we enhance multitvariate data on inherently 2D surfaces?
 
 ![](images/DataInsights.JPG){width=250px,height=200px}
 (Source:[@visualize_to_insights])
@@ -318,8 +316,15 @@ $$ggplot(data = \<DATA\>) +
 
 <FACET_FUNCTION>$$
 
-The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
+The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 
 
+1. a dataset
+2. a geom
+3. a set of mappings
+4. a stat
+5. a position adjustment
+6. a coordinate system
+7. a faceting scheme.
 
 2. **Aes/Mapping: Global Mapping and Local Mapping**
 
@@ -348,9 +353,9 @@ d) "Jitter" position adds a small amount of random noise to each point. This spr
 
 4. **Coordinate Systems**
 
-a). default: Cartesian 
+a) default: Cartesian 
 
-b). coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
+b) coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
@@ -358,9 +363,9 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +  
   coord_flip()
 ```
-c). coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
+c) coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
 
-d). coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 #### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
