@@ -101,6 +101,11 @@ Supported by Gestalt laws (The principles of grouping):
 * Using Color to separate
 * 1 + 1 = 3 (clutter)
 
+
+2. Graphics are almost always going to improve as they go through editing ,revision, and testing against different design options.
+
+3. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
+
 ![](images/Tufte_figure10.png)
 (Source: [@Tufte_2001])
 
@@ -132,6 +137,12 @@ There's a wealth of free resources out there in the form of handy little design 
 
 Storytelling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather's article [@storytelling_with_data] (2013) discussed the way in which a visual designer tells a story with a visualization.
 
+
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
+High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters,thinner lines for busy time-series).
+    
+   Data Density = # entries in data matrix /area of data graphic
+
 **Five Ways** | **Explanation**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Find the compelling narrative** | Along with giving an account of the facts and establishing the connections between them, don’t be boring. You are competing for the viewer’s time and attention, so make sure the narrative has a hook, momentum, or a captivating purpose. Finding the narrative structure will help you decide whether you actually have a story to tell. If you don’t, then perhaps this visualization should support exploratory data analysis (EDA) rather than convey information. 
@@ -143,6 +154,10 @@ Storytelling is an essential part of data visualization. It is extremely importa
 Data visualization will not always unleash a ready-made story on its own. There are no rules, no protocol that will guarantee us a story. Instead, it makes more sense to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@data_journ][@design_principles][@DataVizTips][@practitioners_guide].
 
 Here is a process that may be followed for finding insights to tell a story.Each of these steps will be discussed further in this section.
+
+
+#### Principle 1: Escape flatland â? small multiples, parallel sequencing.
+Data is multivariate. Doesnât necessarily mean 3D projection. How can we enhance multitvariate data on inherently 2D surfaces?
 
 ![](images/DataInsights.JPG){width=250px,height=200px}
 (Source:[@visualize_to_insights])
@@ -161,6 +176,9 @@ Loading any dataset into a spreadsheet can also be a form of visualization as th
 
 ### Analyze and Interpret
 Once the data is visualized, the next step is to learn something from the visualization that is created. Questions that can be asked based on the picture can be:
+
+#### Principle 2: Macro/Micro-Provide the user with both views (overview and detail).
+A carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
 *	What can be seen in this image? Is it what that was expected?
 *	Are there any interesting patterns?
@@ -184,6 +202,9 @@ Hence, you should take the time to make some notes on things like:
 ### Transform Data
 Naturally, with the insights that you have gathered from the last visualization, you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail. Possible transformations are the following.
 
+**Focusing the attention:**
+What can be removed? Realize that consistency can help eliminate unnecessary distractions. There may be a trade-off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
+
 **Transformation** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Zooming** | This allows us to have look at a certain detail in the visualization Aggregation To combine many data points into a single group
@@ -205,18 +226,35 @@ Of course is knowing the audience that you are producing the work for, but even 
 
 ## Data Visualization Tools
 
+Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and QilkView. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
+
 ### Brief Introduction
-Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and Qlikview. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes people may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
 
 **Tool** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Tableau**| The most popular in the group and has many users. It is simple to use, making it easy to learn and can handle large datasets. Tableau can handle big data thanks to integration with database handling applications such as MySQL, Hadoop, and Amazon AWS.
 **Qlikview**| The the main competitor to Tableau and is also quite popular. Qlikview is customizable and has a wide range of features which can be a double-edged sword. These features take more time to learn and get acquainted with. However, once one gets past the learning curve, they have a powerful tool at their disposal.
 **FusionCharts**| The distinctive aspect of FusionCharts is that graphics do not have to be created from scratch. Users can start with a template and insert their own data from their project.
-**Highcharts** | It proudly claims to be used by 72% of the 100 biggest companies in the world. It is a simple tool that does not require specialized training and quickly generates the desired output. Unlike some tools, Highcharts focuses on cross-browser support, allowing for greater access and use.
-**Datawrapper**| It is making a name for itself in the media industry. It has a simple user interface making it easy to generate charts and embed into reports.
-**Plotly**| It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.
-**Sisense**|It can bring together multiple sources of data for easier access. It can even work with large datasets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
+**Highcharts:** | It proudly claims to be used by 72% of the 100 biggest companies in the world. It is a simple tool that does not require specialized training and quickly generates the desired output. Unlike some tools, Highcharts focuses on cross-browser support, allowing for greater access and use.
+**Datawrapper:**| It is making a name for itself in the media industry. It has a simple user interface making it easy to generate charts and embed into reports.
+**Plotly:**| It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly 
+
+vey information.
+**Sisense:**|It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
+
+**Building advanced analytics application with TabPy**
+ [@TabPy]
+ Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area.The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. 
+
+## Comparison of Different Tools
+
+### Data Mining vs.Data Visualization
+In **Data Mining**, there are different processes involve carrying out the data mining process such as data extraction, data management, data transformations, data pre-processing, etc.
+In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques. 
 **Altair**| Altair is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.
 
 
@@ -234,11 +272,15 @@ Interactive or Dynamic data visualization delivers today's complex sea of data i
 **Foster a new business language** | Ability to tell a story through data that instantly relates the performance of a business and its assets.
  
 **There are multiple ways by which interactive data visualizations can be developed.**
+ 
+### D3.js 
+D3.js stands for Data-Driven Document, a JS library for interactive Big Data visualization in literally ANY way required real-time[@d3_interactive_viz]. This is not a tool, mind you, so a user should have a solid understanding of JavaScript to work with the data and present it in a humanly-understandable form. To say more, this library renders the data into SVG and HTML5 formats, so older browsers like IE7 and 8 cannot leverage D3.js capabilities.
 
 #### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
 
 [@PythonDataVizLibraries]
 
+It starts with the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.
 [Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
 | Library | Description | 
@@ -253,6 +295,11 @@ Interactive or Dynamic data visualization delivers today's complex sea of data i
 **Gleam** | Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so users can filter and sort data. |
 **Missingno** | Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram. |
 **Leather** | Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic but that's the intention. |
+
+### Tableau
+Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
+ 
+**The key advantages** are: It provides non-technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.
 
 #### R for Data Visualization: Grammar of Graphics
 [Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
@@ -271,7 +318,7 @@ $$ggplot(data = \<DATA\>) +
 
 <FACET_FUNCTION>$$
 
-The grammar of graphics [@Grammar_Graphics] is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
+The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 1) a dataset, 2) a geom, 3) a set of mappings, 4) a stat, 5) a position adjustment, 6) a coordinate system, and 7) a faceting scheme.
 
 
 2. **Aes/Mapping: Global Mapping and Local Mapping**
@@ -399,6 +446,7 @@ Data visualization usually involves the presentation of summary statistics using
 #### Infographics
 An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
 
+Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, the interactivity of a visualization will not only improve functionality but also provide a solution to readability issues by providing a means to zoom in on small text. 
 #### When Should You Use Infographics or Data Visualization?
 While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
 
@@ -431,13 +479,16 @@ Data visualization is also used across many different industries. One popular ar
 ### How visualization impacts Industry/business
 [@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
+1. Cleaning
+The simplest way to explain the importance of visualization is to look at visualization as the means of making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
+
 #### Cleaning
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
 
 Cleaning the data is usually the first step in data processing and is done to remove the unwanted elements as well as to reduce the size of the datasets, which will make it easier for the algorithms to analyze it. Data cleansing is typically done by using instance reduction techniques.
 
-Instance reduction helps reduce the size of the dataset without compromising the quality of insights that can be extracted from the data. It removes instances and generates new ones to make the dataset compact. There are two major instance reduction algorithms:
+Instance reduction helps to reduce the size of the data set without compromising the quality of insights that can be extracted from the data. It removes instances and generates new ones to make the data set compact. There are two major instance reduction algorithms:
 
 Instance selection: Instance selection is used to identify the best examples from a very large dataset with many instances in order to curate them as the input for the analytics system. It aims to select a subset of the data that can act as a replacement for the original dataset while completely fulfilling the goal. It will also remove redundant instances and noise.
 
@@ -445,12 +496,12 @@ Instance generation: Instance generation methods involve replacing the original 
 
 **Tools you can use: Drake, DataWrangler, OpenRefine** 
 
-#### Extracting
-Known versatile tools for data visualization and analytics Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. New generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
+2. Extracting
+Known versatile tools for data visualization and analytics â? Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS ,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
 
-Data has shown phenomenal growth over the past decade and it's widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity and variety of data calls for more efficient processing to make it machine-ready. Although there are a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. Data pre-processing techniques like:
+Data has shown phenomenal growth over the past decade and itâs widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity ,and variety of data call for more efficient processing to make it machine-ready. Although there is a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. Data pre-processing techniques like:
 
 * Data cleansing 
 * Data Manipulation
@@ -488,6 +539,145 @@ Here's the process on how to get it done.
 ## Contemporary Research Results & What's Next
 With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches [@next_steps]:
  
+
+* **Adapting the Publication and Review Process:** As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
+* **Promoting Discussion and Accretion:** Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
+* **Research Methods Training:** Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on [Designing Computer Science Experiments](http://sing.stanford.edu/cs303-sp11/). Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrockâs Practical Statistics for HCI and Pierre Dragicevicâs resources for reforming statistical practice.
+
+# More ways to improve your visualization design
+
+From online surveys to beefed-up analytics, weâre able to gather and analyze more data than ever before. But how do you turn your findings from a dense spreadsheet into something that really makes your point? Good information design is the key.
+
+Thereâs a wealth of free resources out there in the form of handy little design ebooks.
+
+* **Designâs Iron Fist** â? Jarrod Drysdale
+
+The free ebook, Designâs Iron Fist, is a collection of Drysdaleâs previous work all wrapped up in one neat little package. Aside from practical tutorials and processes, this book also offers help on how to get into the mindset of being a truly great designer.
+
+* **The Creative Aid Handbook** â? Kooroo Kooroo
+
+Creativity doesnât just happen overnight. Itâs something that each and every designer has to work at on a day-to-day basis. If you find that your innovative juices are running dry, The Creative Aid Handbook could be the answer. The helpful guide looks at how you can boost your intellect, foster your well-being, and, most importantly, become more creative.
+
+* **Designbetter.co** â? InVision
+
+InVision released three fantastic design books that are available for free. Each book discusses various aspects of design like design process, management, and business. Moreover, some of the materials are available in audio format.
+
+* **Type Classification**
+
+Type Classification is a helpful beginnerâs guide to typography. It should give you the foundations you need to not only start classifying various forms of type but also understanding when and how to use them to alarmingly great effect. It covers a history of each of the type forms and the basic facts you need know about them.[@design_ebooks]
+
+
+
+##How to customize a legend in MATLAB
+Legend creates a legend with descriptive labels for each plotted data series. A good legend helps us to better understand the graph. For instance, we can accurately tell the meaning for a line of a plot or we can understand the extented range for certain colors from a legend. Without a legend, everything can be confusing for the readers.
+I would like to introduce some basic methods of customizing a legend. 
+
+**Add a basic legend**
+First, we use the legend() function to add a basic legend. For example, say we already have a line graph and there are several lines on that plot. We can simply add a legend to distinguish them from each other by using the ax.legend() function.
+
+```{html}
+<!DOCTYPE html>
+import matplotlib.pyplot as plt
+plt.style.use('classic')
+%matplotlib inline
+import numpy as np
+
+x = np.linspace(0, 10, 1000)
+fig, ax = plt.subplots()
+ax.plot(x, np.sin(x), '-b', label='Sine')
+ax.plot(x, np.cos(x), '--r', label='Cosine')
+ax.axis('equal')
+leg = ax.legend();
+</script>
+```
+
+![](images/legend1.png)
+**Add a legend on different position**
+If we want it on a specific position of the plot, we can use loc='upper left' inside the function to indicate where you want to put the legend at. 
+```{html}
+<!DOCTYPE html>
+ax.legend(loc='upper left', frameon=False)
+fig
+</script>
+```
+![](images/legend2.png)
+
+**Customize a box surrounding the legend**
+Also, we can decide whether you need a box surrounding the legend or not. 
+
+```{html}
+<!DOCTYPE html>
+ax.legend(fancybox=True, framealpha=1, shadow=True, borderpad=1)
+fig
+</script>
+```
+![](images/legend3.png)
+
+**Legend for the size of points**
+
+```{html}
+import pandas as pd
+cities = pd.read_csv('data/california_cities.csv')
+
+# Extract the data we're interested in
+lat, lon = cities['latd'], cities['longd']
+population, area = cities['population_total'], cities['area_total_km2']
+
+# Scatter the points, using size and color but no label
+plt.scatter(lon, lat, label=None,
+            c=np.log10(population), cmap='viridis',
+            s=area, linewidth=0, alpha=0.5)
+plt.axis(aspect='equal')
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.colorbar(label='log$_{10}$(population)')
+plt.clim(3, 7)
+
+# Here we create a legend:
+# we'll plot empty lists with the desired size and label
+for area in [100, 300, 500]:
+    plt.scatter([], [], c='k', alpha=0.3, s=area,
+                label=str(area) + ' km$^2$')
+plt.legend(scatterpoints=1, frameon=False, labelspacing=1, title='City Area')
+
+plt.title('California Cities: Area and Population');
+</script>
+```
+![](images/legend4.png)
+
+**Multiple legends**
+```{html}
+<!DOCTYPE html>
+fig, ax = plt.subplots()
+
+lines = []
+styles = ['-', '--', '-.', ':']
+x = np.linspace(0, 10, 1000)
+
+for i in range(4):
+    lines += ax.plot(x, np.sin(x - i * np.pi / 2),
+                     styles[i], color='black')
+ax.axis('equal')
+
+# specify the lines and labels of the first legend
+ax.legend(lines[:2], ['line A', 'line B'],
+          loc='upper right', frameon=False)
+
+# Create the second legend and add the artist manually.
+from matplotlib.legend import Legend
+leg = Legend(ax, lines[2:], ['line C', 'line D'],
+             loc='lower right', frameon=False)
+ax.add_artist(leg);
+```
+![](images/legend5.png)
+
+@misc{ Python Data Science Handbook,
+   author= {Jake,VanderPlas},
+   year = {2016},
+   title = { Python Data Science Handbook },
+   url ={ https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html }
+   note = {Accessed:2018-05-26}
+
 **New Approach** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Adapting Publication and Review Process** | As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
