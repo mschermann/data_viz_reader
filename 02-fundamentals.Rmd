@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Fundamentals
 
 ## Design Principles
@@ -247,7 +252,7 @@ It starts with the insights of learning d3.js by showing interviews with those t
 [Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
 | **Library** | **Description** | 
-| ------- | ----------- |
+| ------- | --------------------------------------------------------- |
 **Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
 **Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
 **Ggplot** | ggplot is based on ggplot2, an R plotting system, and concepts from The Grammar of Graphics. ggplot operates differently than matplotlib: it lets you layer components to create a complete plot. For instance, you can start with axes, then add points, then a line, a trendline, etc. Although The Grammar of Graphics has been praised as an "intuitive" method for plotting, seasoned matplotlib users might need time to adjust to this new mindset.|
@@ -528,7 +533,7 @@ Furthermore, as in typography and cartography, use of typographic attributes in 
 While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
 
 Use Case | Best Visual Representation | Rationale |
--------- | -------------------------- | --------- |
+-------- | -------------------------- | ----------------------------------------------------------- |
 Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting and includes informative details such as a company's unique findings, statistics, or status. |
 White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
 Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
