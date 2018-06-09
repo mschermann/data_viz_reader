@@ -125,8 +125,8 @@ Tell a story of position and chronology through visual elements.
 
 ### Common Mistakes to Avoid:
 
-| **Mistake**           | **Description**                                       |
-| ----------------- | ------------------------------------------------- |
+| **Mistake**                | **Description**                                                 |
+| -------------------------- | ------------------------------------------------------------- |
 **Starting off with too much complexity** | It's tempting to provide highly detailed, real-time dashboards. Instead of spending a lot of time working through the first iteration, however, it's better to work through several short cycles of prototyping, testing and adjusting. | 
 **Using metrics no one understands** | Dashboards should use metrics or concepts that a broader audience understands. Esoteric jargon and metrics will not help get a message across. |
 **Cluttering the dashboard with unimportant graphics and unintelligible widgets** | Dashboards should be simple in visual appeal, rather than flashy or over-designed; rapidly and easily informing the audience of the primary message of the dashboard should be the priority, and clutter will only detract from that. |
@@ -151,7 +151,7 @@ Storytelling is an essential part of data visualization. It is extremely importa
 Since just loading data into a table format could be a form of visualization, our focus should not be whether visualization is needed but on which form of data visualization is best for the situation. 
 
 **Focus** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **5 Second Rule** | Research shows that the average modern attention span for viewing anything online is less than 5 seconds, so if you can't grab attention within 5 minutes, you've likely lost your viewer. Include clear titles and instructions, and tell people succinctly what the visualization shows and how to interact with it.
 **Design and layout matter** | The design and layout should facilitate ease of understanding to convey your message to the viewer. Artists use design principles as the foundation of any visual work. If you want to take your data visualization from an everyday dashboard to a compelling data story, incorporate graphic designer Melissa Anderson's principles of design: balance, emphasis, movement, pattern, repetition, proportion, rhythm, variety, and unity, discussed in more detail in the design principles section [@design_principles].
 **Keep it simple** | Keep charts simple and easy to interpret. Instead of overloading viewers' brains with lots of information, keep only necessary elements in the chart and help the audience understand quickly what is going on.
@@ -197,7 +197,7 @@ Jonathon Corum is a graphics designer for The New York Times and he provided a v
 Of course, it is easy to assume that we know the audience we are producing the work for, but even in this step, we should focus on the ultimate goal of conveying, understanding and explaining a concept. Some of the main highlights to help make this connection with the audience involved are mentioned below:
 
 **Principle** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Focusing the attention** | What can be removed? Realize that consistency can help eliminate unnecessary distractions. There may be a trade-off between losing information but conveying the ultimate meaning more clearly. Label important things rather than relying on a legend, which requires the viewer to hold on to too much information at once.
 **Involving your audience:** | Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
 **Explaining why** | Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
@@ -205,7 +205,7 @@ Of course, it is easy to assume that we know the audience we are producing the w
 ### More on Best Practices
 
 **Five Practices** | **Explanation**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Find the compelling narrative** | Along with giving an account of the facts and establishing the connections between them, don’t be boring. You are competing for the viewer’s time and attention, so make sure the narrative has a hook, momentum, or a captivating purpose. Finding the narrative structure will help you decide whether you actually have a story to tell. If you don’t, then perhaps this visualization should support exploratory data analysis (EDA) rather than convey information. 
 **Think about the audience** | The visualization needs to be framed around the level of information the audience already has, correct and incorrect: Novice: first exposure to the subject, but doesn’t want oversimplification; Generalist: aware of the topic, but looking for an overview understanding and major themes; Managerial: in-depth, actionable understanding of intricacies and interrelationships with access to detail; Expert: more exploration and discovery and less storytelling with great detail; Executive: only has time to glean the significance and conclusions of weighted probabilities.
 **Be objective and offer balance** | A visualization should be devoid of bias. Even if it is arguing to influence, it should be based upon what the data says–not what you want it to say. There are simple ways to encourage objectivity: labeling to avoid ambiguity, have graphic dimensions match data dimensions, using standardized units, and keeping design elements from compromising the data. Balance can come from alternative representations (multiple clustering’s; confidence intervals instead of lines; changing timelines; alternative color palettes and assignments; variable scaling) of the data in the same visualization. 
@@ -234,8 +234,8 @@ Due to the rise of big data analytics, there has been an increased need for data
 ### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
 
-**Benefit** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Benefit**                           | **Description**
+--------------------------------------|------------------------------------------------------------------------------------------
 **Absorb information in constructive ways** | With the volume and velocity of data created every day, dynamic data viz enables enhanced process optimization, insight discovery and decision making. 
 **Visualize relationships and patterns** | Helps in better understanding of correlations among operational data and business performance. 
 **Identify and act on emerging trends faster** | Helps decision makers to grasp shifts in behaviors and trends across multiple datasets much more quickly. 
@@ -569,8 +569,8 @@ Type Classification is a helpful beginner's guide to typography. It should give 
 
 With the development, studies and new tools applied in data visualization, more people understand it matters. But given its youth and interdisciplinary nature, research methods and training in the field of data visualization are still developing. So, we asked ourselves: what steps might help accelerate the development of the field? Based on a group brainstorm and discussion, this article shares some of the proposals of ongoing discussion and experiment with new approaches [@next_steps]:
  
-**New Approach** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**New Approach**                | **Description**
+--------------------------------|----------------------------------------------------------------------------------------
 **Adapting Publication and Review Process** | As the article states, "both 'good' and 'bad' reviews could serve as valuable guides," so providing reviewer guidelines could be helpful for fledgling practitioners in the field.
 **Promoting Discussion and Accretion** | Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
 **Research Methods Training** | Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on designing Computer Science Experiments [@stanford_course]. Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock's Practical Statistics for HCI and Pierre Dragicevic's resources for reforming statistical practice.
