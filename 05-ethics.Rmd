@@ -26,9 +26,8 @@ We should understand how to best derive meaning from data, but first we should u
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **1. Easy Recall** | People can process images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% for visual information with interaction.
 **2. Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
-**3. Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the big picture and understand how the information fits within a larger context. 
-**4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content. Because of their impact, infographics are widely used nowadays. A quick Google will produce a huge array of great examples — as well as poor ones. Because while people recognize the value of information graphic design, and a number of tools are available today that make the creation of them possible for the layman, it doesn’t mean that they’re all successful or even necessary.
-
+**3. Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
+**4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
 
 ## General Guidelines for Ethical Visuals  
 [@ethics_code]
@@ -36,12 +35,12 @@ We should understand how to best derive meaning from data, but first we should u
 Data visualization is an up-and-coming field that currently does not have many established regulations. This makes it easy to manipulate readers without technically reporting false information. However, certain standards should be followed in order to generate meaningful and accurate visuals. The process can be broken down into three steps, each with its own set of guiding rules.
 
 ### Data Collection  
-The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable.
+The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one.
 
 ### Data Analysis  
 This is the stage where the discoveries are made and thus, is the first opportunity to manipulate the story. There is usually a lot of data cleaning to do before creating a visual representation, but all data wrangling steps should be deliberate and reasonable. If possible the underlying code should be publicly shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these ideally should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters to perform careful analysis of the data and extract true stories from them.
 
-As the amount of data grows, it becomes increasingly difficult to keep the insight derivation up to speed with the collection of. Therefore, data strategy becomes an imperative part of successfully applying data to the business. So why iss data visualization an important tool you should have in your business strategy toolkit? First, it helps direct the data cleaning and data wrangling stage. Second, it allows you to identify and extract meaningful information from it. Finally, data visualization tools enable continuous real-time monitoring of how your strategy aids data-driven decision-making in performances and business outcomes. In other words, these tools visualize not only the business outcomes recorded in the data, but also help correct and optimize strategy on the fly.
+As the amount of data grows, it becomes increasingly difficult to keep the insight derivation up to speed with the collection of data. Therefore, data strategy becomes an imperative part of successfully applying data to the business. 
 
 ### Design  
 Once a visualizer decides on an argument, it is important to present it honestly. While there is an inherent tradeoff between truthfulness of the visualization and effectiveness of its argument, visualizers should strive to maximize both. Deceptive techniques may be tempting to make a stronger argument, but besides being ethically wrong, the intentional use of deceptive visualization techniques will hurt the credibility of the author and anyone else involved in the publication since an experienced individual will know how to spot and disregard these deceptions.
@@ -70,10 +69,10 @@ There are some ways in which distorted graphs can be created:
 
 **Tool** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Improper scaling of y-axis** | This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
 **Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
 **Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
-**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled.
+**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
 **Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
 
 
@@ -84,7 +83,7 @@ Matt Stempeck's article recaps a brainstorming session concerning data visualiza
 
 The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
 
-Of course, the challenge posed by the tug-of-war between ethics and utility remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
+Of course, the challenge posed by the tug-of-war between ethics and utility ( not to say that they are always contradictory in nature)  remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
 
 
 ## Data Visualization: A Tool for Social Change in Cities 
@@ -162,7 +161,7 @@ Segmentation can be used to show category, parts, domains or ranges within a cha
 (Source:[@visual-lies])
 
 ### Graph  
-Two graphs that are often misrepresented are pie-charts and maps. In the following figure, the author explains that pie-charts cannot be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers not been given. 
+Two graphs that are often misrepresented are pie-charts and maps. In the following figure, the author explains that pie-charts cannot be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers not been given. Pie charts should not be used in cases of too many vairables or when the difference is not substantial between the vairables. Clubbing of multiple variables into “Others” category is mostly used in Pie Charts but “Others” category should not be one of the major pie in the chart.
 
 ![](images/PieCharts.png)
 
@@ -222,3 +221,8 @@ An example of using good data in a misleading graph to fool readers comes from F
 (Source:[@datamining_vs_viz])
 
 The question of ethics in data visualization is not something that comes to the fore when we start working. It is rarely the case that one sets out to deceive without altering data. The topic of good ethics in data visualization is very important and it is the duty of the creator to take care of it.
+
+At VisWeek2011, Jason Moore suggested a hippocratic oath for visualization. It is intended to be succinct and easy to remember, while still containing the essence of responsible visualization:
+
+“I shall not use visualization to intentionally hide or confuse the truth which it is intended to portray. I will respect the great power visualization has in garnering wisdom and misleading the uninformed. I accept this responsibility willfully and without reservation, and promise to defend this oath against all enemies, both domestic and foreign.”
+
