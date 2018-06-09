@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Ethics
 
 Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice as well. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges, of which we will explore many in this chapter.
@@ -70,7 +75,7 @@ There are some ways in which distorted graphs can be created:
 [@evil_axes],[@mislead_graph_ex]
 
 **Tool** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------|--------------------------------------------------------------------------------------------------------
 **Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
 **Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
 **Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
