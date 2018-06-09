@@ -25,7 +25,7 @@ plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers
 plot(cars2$dist,cars2$speed)
 ```
 ![](images/with_outliers.png)
-```{r Outliar Detection}
+```{r Outliar Detection2}
 # Plot of original data without outliers. Note the change in slope (angle) of best fit line.
 plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 ```
