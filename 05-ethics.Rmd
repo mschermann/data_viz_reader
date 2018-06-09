@@ -69,10 +69,10 @@ There are some ways in which distorted graphs can be created:
 
 **Tool** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Improper scaling of y-axis** | This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
 **Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
 **Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
-**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled.
+**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
 **Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
 
 
@@ -83,7 +83,7 @@ Matt Stempeck's article recaps a brainstorming session concerning data visualiza
 
 The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
 
-Of course, the challenge posed by the tug-of-war between ethics and utility remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
+Of course, the challenge posed by the tug-of-war between ethics and utility ( not to say that they are always contradictory in nature)  remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
 
 
 ## Data Visualization: A Tool for Social Change in Cities 
