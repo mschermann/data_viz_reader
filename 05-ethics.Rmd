@@ -161,7 +161,7 @@ Segmentation can be used to show category, parts, domains or ranges within a cha
 (Source:[@visual-lies])
 
 ### Graph  
-Two graphs that are often misrepresented are pie-charts and maps. In the following figure, the author explains that pie-charts cannot be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers not been given. 
+Two graphs that are often misrepresented are pie-charts and maps. In the following figure, the author explains that pie-charts cannot be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers not been given. Pie charts should not be used in cases of too many vairables or when the difference is not substantial between the vairables. Clubbing of multiple variables into “Others” category is mostly used in Pie Charts but “Others” category should not be one of the major pie in the chart.
 
 ![](images/PieCharts.png)
 
@@ -221,3 +221,8 @@ An example of using good data in a misleading graph to fool readers comes from F
 (Source:[@datamining_vs_viz])
 
 The question of ethics in data visualization is not something that comes to the fore when we start working. It is rarely the case that one sets out to deceive without altering data. The topic of good ethics in data visualization is very important and it is the duty of the creator to take care of it.
+
+At VisWeek2011, Jason Moore suggested a hippocratic oath for visualization. It is intended to be succinct and easy to remember, while still containing the essence of responsible visualization:
+
+“I shall not use visualization to intentionally hide or confuse the truth which it is intended to portray. I will respect the great power visualization has in garnering wisdom and misleading the uninformed. I accept this responsibility willfully and without reservation, and promise to defend this oath against all enemies, both domestic and foreign.”
+
