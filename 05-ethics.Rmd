@@ -21,7 +21,6 @@ Cairo briefly addresses guidelines that are applicable in all information gather
 
 Again, since the moral purpose is to improve well-being through understanding, a graphic which is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience. While it can be a bit jarring to think of a poorly designed graphics as "morally wrong," it is essential to think of the unintended consequences of visuals which have a powerful impact on their viewers.
 
-
 ## Implications of (Good/Bad) Data Visualization
 
 Raw data is often meaningless or their meaning is not easily understood. When people face a broad set of measurements, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and our ability to collect this type of information becomes easier. Thus filtering, visualization, and interpretation of data becomes increasingly important.
@@ -89,7 +88,7 @@ Now let's talk about data visualization, the latest fashion in numerate journali
 
 ![](images/aya-polar.jpg)
 
-<sup>Source: [@aya-time-series]</sup>
+(Source: [@aya-time-series])
 
 Data visualization creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualization than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualization is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
 
@@ -137,24 +136,28 @@ There are some ways in which distorted graphs can be created:
 
 This article focuses on a few methods that data visualizers utilize to mislead users about research findings. For each method, the author has highlighted the signifiers that are manipulated to promote an unrealistic understanding of the visualized data. The author has concentrated on examples of three areas to create deceptive data visualization: size, segmentation, and graph type.
 
-### Size  
-[@misleading_data]  
+### Size   
 Size signifies quantity, volume or degree of variables within a data. In the first figure, the y-axis from the graph to the right is cut when transcribed onto the graph on the left. Here, both the graphs show the same data but the one on the left represents the data in a misleading fashion because of the way the axis is cut, and the result is that interest rates have increased drastically from 2008 to 2012 – a misinterpretation that is avoided in the graph on the right.
 
 ![](images/Size1.png)
 
+(Source:[@misleading_data]) 
+
 ### Quantity  
-[@study_asks]  
+ 
 Quantity measures size. When depicting points on a scatter plot, it is helpful to manipulate the size of the points to represent differing values of a variable that is not represented on the x and y axes. The following graph shows quantity as two completely different measures. One chart uses quantity as area and other uses it as radius. The result is that the differences in quantity between points on such a scatter plot would appear more dramatic than they should.
 
 ![](images/Quantity1.png)
+
+(Source:[@study_asks])
 
 ### Segmentation  
 Figure shows an example of segmentation with a deceptive instance of binning given in the legend on the left.
 Segmentation can be used to show category, parts, domains or ranges within a chart. The author states that correct use of segmentation can be a powerful tool to enhance understanding, but can be deceptive if used incorrectly. This example shows how binning can be misleading; in the left figure, binning is not done appropriately, and it is therefore difficult to come up with actual values of the data.
 
-Figure 3: 
 ![](images/Segmentation1.png)
+
+(Source:[@visual-lies])
 
 ### Graph  
 Two graphs that are often misrepresented are pie-charts and maps. In the following figure, the author explains that pie-charts cannot be compared accurately to one another. When striving for an accurate portrayal of values, they should be avoided. The author further states that it would be difficult to understand the pie-charts had the numbers not been given.
@@ -163,11 +166,15 @@ Alberto Cairo addresses into the ethical 'why' of data visualization in this art
 
 ![](images/PieCharts.png)
 
+(Source:[@visual-lies])
+
 The author also asserts that when showing spatial data analysis, always show population density when visualizing values that are person-dependent. On a heat map where color signifies quantity, the author suggests that a user will be drawn to the colors that a legend indicates as most extreme. 
 
 In the following figure, areas that are darkest are simply the most population-dense regions of the United States. Without accounting for population density, the newly created map may look the same as hundreds of maps bearing a striking resemblance to the figure, which are falsely considered informative and are regularly shared across social media sites.
 
 ![](images/Maps1.png)
+
+(Source:[@visual-lies])
 
 The above pointers are helpful when analyzing a deceptive version of a data product. However, data visualizers need to carefully draw the line between creating misleading graphs that tell a different story and developing deceptive versions that intend to exaggerate. This should be applied in our projects and can also be used to enhance our understanding of data visualization products.
 
@@ -211,5 +218,6 @@ In the data visualization terms, we call it truncated graph. A truncated graph (
 
 An example of using good data in a misleading graph to fool readers comes from Fox News.
 ![](images/1.png)
-[@datamining_vs_viz]
+
+(Source:[@datamining_vs_viz])
 
