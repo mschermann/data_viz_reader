@@ -1,10 +1,12 @@
 # Case Studies
 
+This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development.
+
 ## Introduction
 
 Visualization is like art; it speaks where words fail. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to synthesize the details important details relevant to the issues. In particular, phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the controversy of ‘#OscarsSoWhite,’ etc. present such complexity that we can write endless paragraphs and still fail to convince readers. Below are visualizations of some of these important and complex topics - visualizations that are much more persuasive than an essay, and with a tiny fraction of the text. 
 
-This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
+Many of the case studies mentioned below come from the following articles:
 
 **Source** | **Description**
 -----------|---------------------------------------------------------------
@@ -81,9 +83,11 @@ Some interesting findings include:
 1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon. 
 
 ![](images/construction.png)
+
 2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening. 
 
 ![](images/server_cook.png)
+
 3. Protective services, e.g., police officers, firefighters ,and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
 
 ![](images/protective.png)
@@ -104,7 +108,7 @@ This is an excellent example about how to present a significant amount of compre
 Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Such a visualization is ideal for the layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
+Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
 >"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
 
 Reference: [@visual_display]
@@ -182,6 +186,9 @@ Global health data expert Hans Rosling’s famous statistical documentary "The J
 
 What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
 
+## Dust in the Wind: Visualization and Environmental Problems
+Environmental issues can quickly become extremely complex. When dealing with assessments of site, environmental remediation design, monitoring, environmental litigation, the quantity of data involved can quickly become overwhelming. Maintaining and organizing that data and keep a balance is insufficient. Visualization is the only means for condensing and communicating vast quantities of data. Visualization provides an invaluable tool to communicate complex data in a form that makes it intelligible to all parties. There are many case studies on visualization of environment-related issues. Some of them are mentioned below:
+
 ## Environment Related Problems
 There are many case studies on visualizations of environment-related issues.
 
@@ -245,9 +252,7 @@ This case study is about the use of linguistic concepts; it discusses how the da
 
 HistoBankVis is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work [@lingui_data1]. In this paper, the visualization’s efficacy and power are illustrated utilizing a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
-Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation. 
-
-Visualizations can also be used as an aid in the process of research itself. There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose. However, these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
+Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.   There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
 
 ### State of the Union 2014 Minute by Minute on Twitter
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
@@ -280,7 +285,8 @@ Suggested improvements:- The inherent complexity of relationships between differ
 ## Uncategorized
 
 ### Simpson’s Paradox
-The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley puts together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+
 By "properly pooled," the investigators meant broken down by the department. For instance, men were more inclined towards science and women towards humanities. When compared to each other, the science departments required more specialized skills while the humanities would accept applicants with a more standard undergrad curriculum, thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
@@ -301,13 +307,12 @@ Original Version: [@malaria_zambia_original]
 
 New Version: [@malaria_cases_zambia] 
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories.
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories.
 The author has attempted to improve to show the overall decline clearly and explained the spikes better.
-Furthermore, by adding the yearly data split by districts， we can lead to a possible actionable solution to the study of Malaria cases in Zambia which is exactly an important objective of visualization. Besides, we can notice the power of an informative dashboard with a strong argument.  The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
+Furthermore, by adding the yearly data split by districts， we can lead to a possible actionable solution to the study of malaria cases in Zambia which is exactly an important objective of visualization. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
 
 ### Is it Better to Rent or Buy?
-There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home.
-This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
+There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home. This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
 
 ![](images/rentcalc.png)
 
