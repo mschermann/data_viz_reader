@@ -1,5 +1,7 @@
 # Patterns
 
+This chapter is a practical guide to a plethora of data visualizations; it explores different types of visualizations and tools and provides helpful tips for using them effectively.
+
 ## Outlier Detection  
 [@outliar]
 
@@ -25,7 +27,7 @@ plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers
 plot(cars2$dist,cars2$speed)
 ```
 ![](images/with_outliers.png)
-```{r Outliar Detection}
+```{r Outliar Detection2}
 # Plot of original data without outliers. Note the change in slope (angle) of best fit line.
 plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 ```
@@ -110,44 +112,13 @@ The figure below is a stacked area chart showing time series data:
 Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
 
 In the figure below, a bar graph would be a cleaner alternative.
+
 ![](images/aya-stacked-perception.jpg) 
 
 (Source: [@aya-time-series])
 
 For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
 We can use two different bar charts to represent time series data.
-
-#### Creating a Diverging Bar Chart  
-[@viz_R]  
-A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
-
-Below is the R code template one can use to create a diverging bar chart.  
-```{r}
-library(ggplot2)
-theme_set(theme_bw())  
-
-# Data Prep
-data("mtcars")  # load data
-mtcars$`car name` <- rownames(mtcars)  # create new column for car names
-mtcars$mpg_z <- round((mtcars$mpg - mean(mtcars$mpg))/sd(mtcars$mpg), 2)  # compute normalized mpg
-mtcars$mpg_type <- ifelse(mtcars$mpg_z < 0, "below", "above")  # above / below avg flag
-mtcars <- mtcars[order(mtcars$mpg_z), ]  # sort
-mtcars$`car name` <- factor(mtcars$`car name`, levels = mtcars$`car name`)  # convert to factor to retain sorted order in plot.
-
-# Diverging Barcharts
-ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) + 
-  geom_bar(stat='identity', aes(fill=mpg_type), width=.5)  +
-  scale_fill_manual(name="Mileage", 
-                    labels = c("Above Average", "Below Average"), 
-                    values = c("above"="#00ba38", "below"="#f8766d")) + 
-  labs(subtitle="Normalised mileage from 'mtcars'", 
-       title= "Diverging Bars") + 
-  coord_flip()
-```
-
-Diverging bar charts are also convenient to create in Tableau.  Below is an example using survey response data.
-
-![](images/diverging_bar.png)
 
 ### Column Charts for Time Series Data  
 This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
@@ -448,103 +419,7 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 
 (Source:[@different_tools])
 
-## Chart types
-This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each. The following website describes the chart types in detail [@charts_viz]. 
-
-### Time Series Data 
-[@aya-time-series]
-
-What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
-
-Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
-
-### Line Graph
-A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
-
-### Stacked Area Chart
-Stacked area charts are area charts similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time. The order in which we stack the variables is crucial because sometimes, there can be a difference in the actual plot versus the human perception.
-
-The figure below is a stacked area chart showing time series data:
-![](images/aya-stacked.png) 
-
-(Source: [@aya-time-series])
-
-### Bar Charts
-Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
-For instance, in the figure below, a bar graph would be a cleaner alternative.
-![](images/aya-stacked-perception.jpg) 
-
-(Source: [@aya-time-series])
-
-For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
-We can use two different bar charts to represent time series data.
-
-### Column Charts for Time Series data
-This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
-
-Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type. The link of website is]**
-
-![](images/aya-bar1.png)
-
-(Source: [@aya-time-series])
-
-![](images/aya-bar2.png)
-
-(Source: [@aya-time-series])
-
-To avoid clutter and confusion, make sure not to use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart.
-
-
-### Gantt Chart
-
-**Gantt chart is a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
-
-It is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management.
-
-Assume you're planning the logistics for a dance concert. There are lots of activities to be completed, some of which will take place simultaneously while some can be done only after another activity has been completed. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
-
-
-![](images/aya-gantt.png)
-
-
-### Stream Graph
-
-**Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
-
-(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name.
-
-A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
-
-
-### Heat Map
-
-**Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
-![](images/aya-stream.png)
-
-(Source: [@aya-time-series])
-
-Geo-spatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
-
-This heat map visualizes birthdays of babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the later half of July, August, and September.
-
-![](images/aya-heat-map.png)
-
-(Source: [@aya-time-series])
-
-### Polar Area Diagram
-Think beyond the straight line! Sometimes, time series data can be cyclical -- a season in a year, time of the day, and so on. Polar area diagrams help represent the cyclical nature time series data cleanly. A polar diagram looks like a traditional pie chart, but the sectors differ from each other not by the size of their angles but by how far they extend out from the center of the circle.
-
-**Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.**
-
-It is crucial to clarify whether the variable is proportional to the area or radius of the sector. It is a good practice to have the area of the sectors proportional to the value being represented. In that case, the radius should be proportional to the square root of the value of the variable (since the area of a circle is proportional to the square of the radius).
-
-This popular polar area diagram created by Florence Nightingale shows causes of mortality among British troops in the Crimean War. Each color in the diagram represents a different cause of death. (Check out the  text legend for more details.)
-
-![](images/aya-polar.jpg)
-
-(Source: [@aya-time-series])
-
-
+  
 ## Word Cloud  
 [@wordcloud]
 
@@ -800,9 +675,8 @@ ax.add_artist(leg);
    note = {Accessed:2018-05-26}
 
 
-## ggplot2 code template for data viz in R  
+#### ggplot2 code template for data viz in R
 
-#### Reusable ggplot2 Code  
 [@viz_R]  
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
@@ -915,4 +789,36 @@ Imagine a scenario where we can just enter some x values in a dashboard form, an
 
 The author here has given an example in which he tries to identify criminal hotspots in the area using data from Seattle's police department's 911 calls. The author uses machine learning (spatial clustering) and creates a great interactive visualization which allows viewers to click on the type of criminal activity to show various clusters.
 
-There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in replicating the visualizations. 
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in replicating the visualizations.
+
+### Creating a Diverging Bar Chart  
+[@viz_R]  
+A diverging bar chart shows and compares positive and negative values for a particular variable.  One popular use case is survey analysis, in which multiple options are given as the categories, so each option has one bar, and there are two opposite ends of the spectrum for the values.  These two sides are usually 'positive' vs 'negative', but they can also be categorical values such as 'agree' or 'disagree'. 
+
+Below is the R code template one can use to create a diverging bar chart.  
+```{r}
+library(ggplot2)
+theme_set(theme_bw())  
+
+# Data Prep
+data("mtcars")  # load data
+mtcars$`car name` <- rownames(mtcars)  # create new column for car names
+mtcars$mpg_z <- round((mtcars$mpg - mean(mtcars$mpg))/sd(mtcars$mpg), 2)  # compute normalized mpg
+mtcars$mpg_type <- ifelse(mtcars$mpg_z < 0, "below", "above")  # above / below avg flag
+mtcars <- mtcars[order(mtcars$mpg_z), ]  # sort
+mtcars$`car name` <- factor(mtcars$`car name`, levels = mtcars$`car name`)  # convert to factor to retain sorted order in plot.
+
+# Diverging Barcharts
+ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) + 
+  geom_bar(stat='identity', aes(fill=mpg_type), width=.5)  +
+  scale_fill_manual(name="Mileage", 
+                    labels = c("Above Average", "Below Average"), 
+                    values = c("above"="#00ba38", "below"="#f8766d")) + 
+  labs(subtitle="Normalised mileage from 'mtcars'", 
+       title= "Diverging Bars") + 
+  coord_flip()
+```
+
+Diverging bar charts are also convenient to create in Tableau.  Below is an example using survey response data.
+
+![](images/diverging_bar.png)
