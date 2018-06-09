@@ -118,7 +118,7 @@ Tell a story of position and chronology through visual elements.
 ![](images/Tufte_figure12.png){width=250px,height=200px}
 (Source: [@narratives_2017])
 
-### 7 Mistakes to Avoid:
+### Common Mistakes to Avoid:
 
 | **Mistake**           | **Description**                                       |
 | ----------------- | ------------------------------------------------- |
@@ -133,17 +133,17 @@ Tell a story of position and chronology through visual elements.
 
 ## Best Practices
 
-Data visualization will not always unleash a ready-made story on its own. There are no rules, no protocol that will guarantee us a story. Instead, it makes more sense to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@data_journ][@design_principles][@DataVizTips][@practitioners_guide].
+Data visualization does not unleash a ready-made story on its own. There are no rules or protocols to guarantee a story. Instead, we need to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@data_journ][@design_principles][@DataVizTips][@practitioners_guide].
 
-Here is a process that may be followed for finding insights to tell a story. Each of these steps will be discussed further in this section.
+Here is a process for finding insights that tell a story. Each of these steps will be discussed further in this section.
 
 ### Determine the Story with Insights
 
 Storytelling is an essential part of data visualization. It is extremely important to effectively communicate information through the visualization. Stikeleather's article [@storytelling_with_data] discussed the way in which a visual designer tells a story with a visualization.
 
-### How to choose best form of Visualization
+### How to choose the best form of Visualization
 
-Loading any dataset into a spreadsheet can also be a form of visualization as the data becomes visible in a table. Hence the focus should not be whether we need data visualization or not but should be on which form of data visualization is best for the situation. 
+Since just loading data into a table format could be a form of visualization, our focus should not be whether visualization is needed but on which form of data visualization is best for the situation. 
 
 **Focus** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -228,13 +228,7 @@ Due to the rise of big data analytics, there has been an increased need for data
 **Datawrapper:**| It is making a name for itself in the media industry. It has a simple user interface making it easy to generate charts and embed into reports.
 **Plotly:**| It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.
 **Sisense:**|It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
-
-**Building advanced analytics application with TabPy**: Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
- Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
- The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. [@TabPy]
- 
- **Altair** is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.
+**Altair:**|It is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.
 
 ### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
@@ -268,6 +262,7 @@ It starts with the insights of learning d3.js by showing interviews with those t
 **Gleam** | Gleam is inspired by R's Shiny package. It allows you to turn analyses into interactive web apps using only Python scripts, so you don't have to know any other languages like HTML, CSS, or JavaScript. Gleam works with any Python data visualization library. Once you've created a plot, you can build fields on top of it so that users can filter and sort data. |
 **Missingno** | Dealing with missing data is a pain. Missingno allows you to quickly gauge the completeness of a dataset with a visual summary, instead of trudging through a table. You can filter and sort data based on completion or spot correlations with a heatmap or a dendrogram. |
 **Leather** | Leather's creator, Christopher Groskopf, puts it best: "Leather is the Python charting library for those who need charts now and don't care if they're perfect." It's designed to work with all data types and produces charts as SVGs, so you can scale them without losing image quality. Since this library is relatively new, some of the documentation is still in progress. The charts you can make are pretty basic but that's the intention. |
+
 
 ### R for Data Visualization: Grammar of Graphics
 [Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html) [@Grammar_Graphics]
@@ -368,6 +363,11 @@ The following tips for Tableau are still missing:
  
 **The key advantages** are: It provides non-technical users the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, a user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live connections to different data sources like SQL etc. [@VizBP][@extremepre].
 
+**Building advanced analytics application with TabPy**: Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
+ Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
+ The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
+ There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. [@TabPy]
+
 ### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
 
@@ -393,54 +393,6 @@ The author has also listed top 7 comparisons between data mining and data visual
 **Generality**|New technology but underdeveloped|More useful in real time data forecasting
 **Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
 **Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
-
-
-### Typography and Data Visualization
-
-This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
-
-Highlighted in the article are preattentive visual attributes. Preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed. Therefore, "preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load." Examples of preattentive attributes are size/area, hue, and curvature.
-
-This brings us to the disparate situation of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold. The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.
-
-Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages. Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.
-
-Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. It is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?
-
-The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes. For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.
-
-Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
-
-There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which we agree are made more effective by the interesting utilization of typographic attributes, but the "Who Survived the Titanic" visualization's use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived. It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers names. 
-
-![](images/TypographicTitanic.jpg)
-
-The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand. Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that "this criticism indicates both the strength and weakness of type? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher-level patterns. Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers' names and was corrected by only including a given name and a surname, the length of which could only vary so much.
-
-### Infographics vs. Data Visualizations
-
-Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
-
-#### Data Visualization
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
-
-#### Infographics
-An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
-
-Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, the interactivity of a visualization will not only improve functionality but also provide a solution to readability issues by providing a means to zoom in on small text. 
-#### When Should You Use Infographics or Data Visualization?
-While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
-
-Data Visualization:
-
-**Use Case** | **Best Visual Representation** | **Rationale** |
--------- | -------------------------- | --------- |
-Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
-White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
-Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
-Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
-Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
-Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
 
 ## Data visualization in Business
 
