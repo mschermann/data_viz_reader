@@ -10,12 +10,11 @@ This chapter contains some useful case studies on such visualizations. The exami
 -----------|---------------------------------------------------------------
 [@10_best] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices.
-[@int_viz_capt] | 16 Captivating Data Visualization Examples
-[@15_mindblowing] | 15 Data Visualizations That Will Blow Your Mind: These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
-[@int_viz_capt][@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-[@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. A practical and insightful blog with great tips and examples in Tableau."Makeover Monday" is an extraordinary exercise where a new and better visualization is developed based on an original one.
-[@int_viz_current] | 15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events
-[@VizWiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. This blog is recommended because it is not only practical but also full of insights. One of the best parts of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes excellent tips for and examples of Tableau.
+[@int_viz_capt] | This author has chosen 16 examples of data visualization that demonstrate how to represent data in a way that's both compelling and easy to digest.
+[@15_mindblowing] | These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
+[@int_viz_current] | This source includes 15 data visualizations that cover current events, including politics, Oscar nominations, and immigration.
+[@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. This blog is recommended because it is not only practical but also full of insights. One of the best parts of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes excellent tips for and examples of Tableau.
+[Viz of the Day](https://public.tableau.com/en-us/s/gallery) | Tableau has a gallery that displays great data visualization examples created by Tableau. It is useful to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached to the example so we can try to mimic what other people did as well.  
 
 
 ## Geographic Visualizations
@@ -66,7 +65,7 @@ What makes this a good visualization is that it is straightforward to read and i
 ### U.S. Migration Patterns 
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania.
 
-Overall, this type of chart can work well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very graphic visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by west, south, midwest, etc. However, it is not completely clear why so many crossing lines are necessary for the Pennsylvania chart. The crossing lines, along with the use of the same color for different lines within the same regional categories, can make it difficult for a reader to follow along with what the chart is trying to convey.
+Overall, this type of chart can work well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very graphic visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by region (West, South, Midwest, etc.). However, it is not completely clear why so many crossing lines are necessary for the Pennsylvania chart. The crossing lines, along with the use of the same color for different lines within the same regional categories, can make it difficult for a reader to follow along with what the chart is trying to convey.
 
 ![Migration from California](images/CA_migration.png)
 
@@ -84,7 +83,7 @@ Some interesting findings include:
 2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening. 
 
 ![](images/server_cook.png)
-3. Protective services, e.g., police officers, firefighters ,and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
+3. Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
 
 ![](images/protective.png)
 
@@ -191,7 +190,7 @@ This data visualization, based on data from the World Resource Institute’s Cli
 ![](images/carbon_emissions.png)
 
 ### What's really warming the world?
-This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors." After that, it combines all the dynamic graphics into one, which makes the results more accessible and more straightforward to compare. Lastly, the authors provide further detailed explanations of dataset sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] referenced in [@int_viz_capt].
+This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors." After that, it combines all the dynamic graphics into one, which makes the results more accessible and more straightforward to compare. Lastly, the authors provide further detailed explanations of dataset sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] [@int_viz_capt].
 
 ![](images/volcano_global_warming.png)
 
@@ -267,9 +266,10 @@ One of the charts shown in the link [@int_viz_capt], the visualization of ‘A G
 
 ![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
 
-This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand but is also pleasing to the eyes.
+This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each color and facial expression combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand but is also pleasing to the eyes.
 
-Suggested improvements:- The inherent complexity of relationships between different groups make it difficult to understand the complete picture. This visualization does not serve the primary purpose of simplifying the information while being informative and innovative.
+On the other hand, the inherent complexity of relationships between different groups make it difficult to understand the complete picture. If the list of involved parties could be sorted by simplified "sides" (such as Syrian Government on one end with Syrian Rebels on the other) or ranked by how liked they are, then it may be easier for a trend to emerge at first glance. Also, the table format of the visualization means that the data is duplicated, making it appear even more complicated. Instead, one side of the diagonal divide could be greyed-out to simplify the audience's experience with this visualization.
+
 
 ![Green emoji shows ‘Friendly’ relationship](images/img_syria_friendly.PNG)
 
@@ -281,6 +281,7 @@ Suggested improvements:- The inherent complexity of relationships between differ
 
 ### Simpson’s Paradox
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+
 By "properly pooled," the investigators meant broken down by the department. For instance, men were more inclined towards science and women towards humanities. When compared to each other, the science departments required more specialized skills while the humanities would accept applicants with a more standard undergrad curriculum, thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
@@ -301,9 +302,9 @@ Original Version: [@malaria_zambia_original]
 
 New Version: [@malaria_cases_zambia] 
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories.
-The author has attempted to improve to show the overall decline clearly and explained the spikes better.
-Furthermore, by adding the yearly data split by districts， we can lead to a possible actionable solution to the study of Malaria cases in Zambia which is exactly an important objective of visualization. Besides, we can notice the power of an informative dashboard with a strong argument.  The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
+
+Furthermore, by adding the yearly data split by districts, we can lead to a possible actionable solution to the study of Malaria cases in Zambia which is exactly an important objective of visualization. Besides, we can notice the power of an informative dashboard with a strong argument. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
 
 ### Is it Better to Rent or Buy?
 There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home.
@@ -325,7 +326,7 @@ The interactive visualization is an advantage that enables the display, and intu
 
 A visualization of all previous winners of the Best Actor/Actress Oscar winners can be seen in an article by Bloomberg [@adding_oscars]. From the attributes of past Oscars winners, the authors have developed a set of attributes that they believe will continue to be prevalent in future Oscar winners. It is fascinating to see how the article shows the features of the Best Actress, Actor, movies, etc. in a simple and captivating visual.
 
-The visualization is interactive, and we can click on each attribute like ‘Hair Color,’ ‘Eye Color,’ etc. to see the features of the actors and actresses who are likely to win the Oscars. Based on different attributes selected, the visualization changes to give you the data specific to the attributes. For each attribute selected, it gives you a fact about the selected attribute related to the Oscar Winner. For instance, when you select the race, it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white". Similarly, the visualization also gives information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc. and also predict about the future nominees who are likely to win Oscar.
+The visualization is interactive, and we can click on each attribute like ‘Hair Color,’ ‘Eye Color,’ etc. to see the features of the actors and actresses who are likely to win the Oscars. Based on different attributes selected, the visualization changes to give you the data specific to the attributes. For each attribute selected, it gives you a fact about the selected attribute related to the Oscar Winner. For instance, when you select the race, it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white". Similarly, the visualization also gives information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc., and also predict about the future nominees who are likely to win Oscar.
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
@@ -335,10 +336,9 @@ The visualization is interactive, and we can click on each attribute like ‘Hai
 
 ### Kissmetrics blog: visualization of metrics
 
-[@facebook_organic]
 Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues. 
 
-An excellent example from the Kissmetrics blog is about Facebook’s organic reach. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
+This example from the Kissmetrics blog is about Facebook’s organic reach [@facebook_organic]. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
 The general trend shows that there is a considerable decline in Facebook’s page organic reach.
 
 ![](images/facebook-page-organic-reach-decline-over-years.jpg)
@@ -358,9 +358,11 @@ Using the data from Spotify, the author listed the ten most distinctive emoji us
 
 ### Goldilocks Exoplanets
 
-Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on [Astrobiology](https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/) plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings.
+Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on Astrobiology plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings [@goldilocks_worlds].
 
-One highlight of the graph is how color has been used. The red dots are representing planets that are too hot and the green ones meaning just right temperature, and the blue dots are meaning too cold. This is very intuitive for people to understand without the necessity to read through the notes. The dots are transparent so it minimized the overlap among themselves. 
+One highlight of the graph is how color has been used. The red dots represent planets that are too hot, the blue dots mean too cold, and the green ones mean just the right temperature. This is very intuitive for people to understand without the necessity to read through the notes. The dots are semi-transparent so the overlapping of planets does not detract from the audience's ability to read the graph.
+
+Additionally, the size of each dot represents the radius of each planet. At first glance, one might assume that most planets are much larger than Eath, but the visualization includes a note explaining that larger planets are easier to find. This is a good example of how much explanation to include in a visualization, not so much that the audience is distracted from the graph but enough that they have the information needed to interpret it.
 
 ![](images/planet.png)
 
@@ -386,13 +388,13 @@ To read the full paper, please follow the reference link:
 
 This is an exciting source and an excellent visual guide to data and development. It discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they are informative and clean:
 
-![](images/case%20study%201.png)
+![](images/case_study_1.png)
 
 1  | 2
 ------------- | -------------
-![](images/case_study_4.png)   | ![](images/case%20study%202.png)
+![](images/case_study_4.png)   | ![](images/case_study_2.png)
 
-![](images/case%20study%203.png)
+![](images/case_study_3.png)
 
 The data draws on the World Development Indicators- the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
 The Atlas features maps and data visualizations, primarily drawn from World Development Indicators (WDI) - the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives.
@@ -402,6 +404,3 @@ The editors have been selected to emphasize on essential issues by experts in th
 Contents of this publication: [@worldbankpub].
 The data is available at [@data_access].
 The code used to generate the majority of figures is available at [@worldbankcode].
-
-### Tableau: Viz of the Day
-Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  

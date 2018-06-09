@@ -52,6 +52,7 @@ Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponso
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
 ### Law enforcement and fraud detection
+
 The police have been using graph visualization, or link analysis as it is commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
 
 A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were explicitly created for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
@@ -89,7 +90,7 @@ Pre-17th Century | Early Maps and Diagrams | Data visualization has come a long 
 1600-1699 | Measurement and Theory | Among the most important problems of the 17th century were those concerned with physical measurement of time, distance, and space for astronomy, surveying, map making, navigation and territorial expansion. This century also saw considerable new growth in theory as well as the dawn of practical application.
 1700-1799 | New Graphic Forms | With some rudiments of statistical theory, data of interest and importance, and the idea of graphic representation somewhat established, the 18th century witnessed the expansion of these aspects to new domains and new graphic forms. 
 1800-1850 | Beginnings of Modern Graphics | With the foundation provided by the previous innovations of design and technique, the first half of the 19th century witnessed explosive growth in statistical graphics and thematic mapping at a rate which would not be equaled until modern times.
-1850–1900 | The Golden Age of Statistical Graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had generated a "perfect storm" for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning,industrialization, commerce, and transportation. 
+1850–1900 | The Golden Age of Statistical Graphics | By the mid-1800s, all the conditions for the rapid growth of visualization had generated a "perfect storm" for data graphics. Official state statistical offices were established throughout Europe, in recognition of the growing importance of numerical information for social planning, industrialization, commerce, and transportation. 
 1900-1950 | The Modern Dark Ages | If the late 1800s were the "golden age" of statistical graphics and thematic cartography, the early 1900s can be called the "modern dark ages" of visualization. There were few graphical innovations, and by the mid-1930s, the enthusiasm for visualization which characterized the late 1800s had been supplanted by the rise of quantification and formal, often statistical, models in the social sciences.
 1950–1975 | Rebirth of Data Visualization | Still under the influence of the formal and numerical zeitgeist from the mid-1930s on, data visualization began to rise from dormancy in the mid-1960s. 
 1975–present | High-D, Interactive and Dynamic Data Visualization | During the last quarter of the 20th century, data visualization has blossomed into a mature, vibrant and multidisciplinary area of research, as seen in this handbook, and software tools for a wide range of visualization methods and data types are available for every computer.
@@ -113,7 +114,7 @@ In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Str
 
 #### Charles Joseph Minard (1781–1870)
 
-Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat.This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the "best statistical drawings ever created." The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills.It represents the earliest beginning of data journalism.
+Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat. This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It’s been called one of the "best statistical drawings ever created." The work is an important reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no good without a firm grasp of your dataset and sharp communication skills. It represents the earliest beginning of data journalism.
  
 ![](images/Minard.png)
 
@@ -139,10 +140,10 @@ The field of data visualization is huge, and the capability of linking storytell
 
 ### Tableau Community 
 
-**[@Tableau_Community] helps you to explore Tableau further :** 
+**[@Tableau_Community] helps you to explore Tableau further:** 
 
 * It will help us enhance our learning
-* Get answers for most of your doubts In tableau
+* Get answers for most of your doubts in tableau
 * Post new questions and crowd source answers
 * Attend events, seminars and join conferences conducted locally/ globally
 * Give back to the community once you become an expert in that field
@@ -152,8 +153,6 @@ The field of data visualization is huge, and the capability of linking storytell
 * Tableau Enthusiasts: LinkedIn Group (19K members)
 * Tableau Software Fans & Friends: LinkedIn Group (45k members)
 
-
-[Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight-forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 
 ### Blogs
 
