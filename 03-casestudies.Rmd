@@ -126,17 +126,17 @@ Another frequent use is to look at how something changes over time. Time-series 
 CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers [@age_groups]. While the article's main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns hard numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 The author also summarized three key findings from the graph:
-1. The most common age in the US is 22 years old. 
-2. The median age in the US is 37.6 years old. 
-3. Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.
+1| The most common age in the US is 22 years old. 
+2| The median age in the US is 37.6 years old. *
+3| Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
 This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
 #### How the Recession Reshaped the Economy, in 255 Charts
-The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this vast data visualization.  
-Below the overall charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
+The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needd will make it easier for readers to absorb the bigger picture from this vast data visualization.  
+Following charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, similar to the first graph, view the more detailed information by hovering over a line.
 
 ![](images/recession_jobs.png)
 
@@ -152,7 +152,7 @@ This example includes a bar chart and a line graph to demonstrate the aging popu
 #### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 ![](images/Pyramid.jpg)
 
-This is a **population pyramid**. "A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender" [@population_pyramid]. It is a good candidate to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sense of census data. [@animated_pyramid] offers an animated pyramid.
+This is a **population pyramid**. "A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender" [@population_pyramid]. It is good to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool to make sense of census data. [@animated_pyramid] offers an animated pyramid.
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
@@ -169,9 +169,9 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
 
 ### A Day in the Life of Americans
-This animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+The above animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
 
-One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
+One of the plot's biggest strength is that by using one dot to represent each person in the study and using animation, we can drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so that we get both individual and aggregate insights.
 
 A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at crucial times of the day. This represents people's movements from one activity to another without overwhelming the reader.
 
@@ -221,6 +221,7 @@ Donut chart is a modern version of pie-chart which looks cleaner, and embedded v
 **Plastic Use: Industrial nations top the charts** [@plastic_pollution_visualizations]
 
 ![](images/plastic_use.png)
+
 This visualization uses a simple line chart to show increasing trends. A positive aspect of this chart is the removal of the vertical grid which creates noise in the visualization when its objective is to show the trend, rather than the numbers.
 
 **Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@ocean_plastic_pollution]
