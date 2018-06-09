@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Ethics
 
 ## Importance of Ethics in Visualization  
@@ -69,7 +74,7 @@ There are some ways in which distorted graphs can be created:
 [@evil_axes],[@mislead_graph_ex]
 
 **Tool** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------|--------------------------------------------------------------------------------------------------------
 **Improper scaling of y-axis** | This is one of the classic misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
 **Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
 **Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
