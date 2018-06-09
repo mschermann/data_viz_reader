@@ -110,6 +110,7 @@ The figure below is a stacked area chart showing time series data:
 Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
 
 In the figure below, a bar graph would be a cleaner alternative.
+
 ![](images/aya-stacked-perception.jpg) 
 
 (Source: [@aya-time-series])
@@ -672,9 +673,8 @@ ax.add_artist(leg);
    note = {Accessed:2018-05-26}
 
 
-## ggplot2 code template for data viz in R  
+#### ggplot2 code template for data viz in R
 
-#### Reusable ggplot2 Code  
 [@viz_R]  
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
