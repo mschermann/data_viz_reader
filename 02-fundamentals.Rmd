@@ -373,12 +373,27 @@ A free and powerful integration of all Google power. The tool is rendering the r
 
 ## Special Topics
 
-### Data Mining vs. Data Visualization
+### Data Mining and Data Visualization  
+[@data_mining]
+
+According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. 
 
 **Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
 
 **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
+
+The author has also listed top 7 comparisons between data mining and data visualization, and 12 key differences between them. The article provides a very clear understanding of each of these techniques. 
+
+**BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Definition**|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
+**Preference**|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
+**Area**|Comes under data science|Comes under the area of data science
+**Platform**|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
+**Generality**|New technology but underdeveloped|More useful in real time data forecasting
+**Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
+**Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
+
 
 ### Typography and Data Visualization
 
