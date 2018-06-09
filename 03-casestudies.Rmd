@@ -1,10 +1,12 @@
 # Case Studies
 
+This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development.
+
 ## Introduction
 
 Visualization is like art; it speaks where words fail. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to synthesize the details important details relevant to the issues. In particular, phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the controversy of ‘#OscarsSoWhite,’ etc. present such complexity that we can write endless paragraphs and still fail to convince readers. Below are visualizations of some of these important and complex topics - visualizations that are much more persuasive than an essay, and with a tiny fraction of the text. 
 
-This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development. Many of the case studies below come from the following articles:
+Many of the case studies mentioned below come from the following articles:
 
 **Source** | **Description**
 -----------|---------------------------------------------------------------
@@ -80,9 +82,11 @@ Some interesting findings include:
 1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon. 
 
 ![](images/construction.png)
+
 2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening. 
 
 ![](images/server_cook.png)
+
 3. Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
 
 ![](images/protective.png)
@@ -103,7 +107,7 @@ This is an excellent example about how to present a significant amount of compre
 Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
-Such a visualization is ideal for the layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
+Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
 >"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
 
 Reference: [@visual_display]
@@ -121,17 +125,17 @@ Another frequent use is to look at how something changes over time. Time-series 
 CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers [@age_groups]. While the article's main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns hard numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 The author also summarized three key findings from the graph:
-1. The most common age in the US is 22 years old. 
-2. The median age in the US is 37.6 years old. 
-3. Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.
+1| The most common age in the US is 22 years old. 
+2| The median age in the US is 37.6 years old. *
+3| Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
 This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
 #### How the Recession Reshaped the Economy, in 255 Charts
-The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this vast data visualization.  
-Below the overall charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
+The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needd will make it easier for readers to absorb the bigger picture from this vast data visualization.  
+Following charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, similar to the first graph, view the more detailed information by hovering over a line.
 
 ![](images/recession_jobs.png)
 
@@ -147,7 +151,7 @@ This example includes a bar chart and a line graph to demonstrate the aging popu
 #### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 ![](images/Pyramid.jpg)
 
-This is a **population pyramid**. "A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender" [@population_pyramid]. It is a good candidate to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sense of census data. [@animated_pyramid] offers an animated pyramid.
+This is a **population pyramid**. "A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender" [@population_pyramid]. It is good to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool to make sense of census data. [@animated_pyramid] offers an animated pyramid.
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
@@ -164,9 +168,9 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
 
 ### A Day in the Life of Americans
-This animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
+The above animated data visualization shows the time people spend on daily activities throughout the day [@American_life]. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.
 
-One of the plot's biggest strengths is that by using one dot to represent each person in the study and using animation, we can drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so we get both individual and aggregate insights.
+One of the plot's biggest strength is that by using one dot to represent each person in the study and using animation, we can drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so that we get both individual and aggregate insights.
 
 A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at crucial times of the day. This represents people's movements from one activity to another without overwhelming the reader.
 
@@ -180,6 +184,9 @@ Global health data expert Hans Rosling’s famous statistical documentary "The J
 ![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
 
 What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
+
+## Dust in the Wind: Visualization and Environmental Problems
+Environmental issues can quickly become extremely complex. When dealing with assessments of site, environmental remediation design, monitoring, environmental litigation, the quantity of data involved can quickly become overwhelming. Maintaining and organizing that data and keep a balance is insufficient. Visualization is the only means for condensing and communicating vast quantities of data. Visualization provides an invaluable tool to communicate complex data in a form that makes it intelligible to all parties. There are many case studies on visualization of environment-related issues. Some of them are mentioned below:
 
 ## Environment Related Problems
 There are many case studies on visualizations of environment-related issues.
@@ -213,6 +220,7 @@ Donut chart is a modern version of pie-chart which looks cleaner, and embedded v
 **Plastic Use: Industrial nations top the charts** [@plastic_pollution_visualizations]
 
 ![](images/plastic_use.png)
+
 This visualization uses a simple line chart to show increasing trends. A positive aspect of this chart is the removal of the vertical grid which creates noise in the visualization when its objective is to show the trend, rather than the numbers.
 
 **Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@ocean_plastic_pollution]
@@ -244,9 +252,7 @@ This case study is about the use of linguistic concepts; it discusses how the da
 
 HistoBankVis is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work [@lingui_data1]. In this paper, the visualization’s efficacy and power are illustrated utilizing a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
-Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation. 
-
-Visualizations can also be used as an aid in the process of research itself. There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose. However, these are not widely used or even known in CL. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
+Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures, and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.   There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
 
 ### State of the Union 2014 Minute by Minute on Twitter
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
@@ -302,13 +308,12 @@ Original Version: [@malaria_zambia_original]
 
 New Version: [@malaria_cases_zambia] 
 
-The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other (and is rather garish). The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
+The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
-Furthermore, by adding the yearly data split by districts, we can lead to a possible actionable solution to the study of Malaria cases in Zambia which is exactly an important objective of visualization. Besides, we can notice the power of an informative dashboard with a strong argument. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
+Furthermore, by adding the yearly data split by districts, we can lead to a possible actionable solution to the study of malaria cases in Zambia which is an important objective of visualization. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
 
 ### Is it Better to Rent or Buy?
-There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home.
-This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
+There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home. This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
 
 ![](images/rentcalc.png)
 
