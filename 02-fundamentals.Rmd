@@ -303,6 +303,7 @@ The grammar of graphics is based on the implication that you can uniquely descri
 6. a coordinate system
 7. a faceting scheme.
 
+
 2. **Aes/Mapping: Global Mapping and Local Mapping**
 
 ```{r}
@@ -316,17 +317,13 @@ Here, "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mappin
 3. **Position Adjustment**
 
 a) "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
-
 b) "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
-
 c) "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
-
 d) "Jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
 
 4. **Coordinate Systems**
 
 a) default: Cartesian 
-
 b) coord_flip() switches the x- and y-axes. Very useful if you want horizontal boxplots.
 
 ```{r }
@@ -336,7 +333,6 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
   coord_flip()
 ```
 c) coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
-
 d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 ### R Shiny
