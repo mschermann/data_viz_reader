@@ -265,6 +265,8 @@ The visualization spans a webpage [@green_honey] referenced in [@cool_data]. As 
 
 ![](images/colorwords.png)
 
+(Source:[@green_honey])
+
 ### Linguistic Concepts
 This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways [@lingui_data].
 
@@ -279,6 +281,8 @@ Twitter’s data team assembled an impressive interactive data hub that depicts 
 
 ![](images/SotU2014.png)
 
+(Source:[@SotU2014])
+
 ## Political Relationships
 
 ### Connecting the Dots Behind the Election
@@ -291,6 +295,8 @@ This article in the New York Times lists several different candidates and create
 One of the charts shown in the link [@int_viz_capt], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an exciting graphic to study. The visualization and its report can be seen at [@syria_chart].
 
 ![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
+
+(Source:[@syria_chart])
 
 This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each (color+facial expression) combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand but is also pleasing to the eyes.
 
@@ -306,14 +312,19 @@ Suggested improvements:- The inherent complexity of relationships between differ
 
 ### Simpson’s Paradox
 The Visualizing Urban Data Idealab (VUDlab) out of the University of California-Berkeley put together this visual representation of data that disproves the claim in a 1973 suit that charged the school with sex discrimination. Though the graduate schools had accepted 44% of male applicants but only 35% of female applicants, researchers later uncovered that if the data were properly pooled, there was a small but statistically significant bias in favor of women. This is called a Simpson’s Paradox.
+
 By "properly pooled," the investigators meant broken down by the department. For instance, men were more inclined towards science and women towards humanities. When compared to each other, the science departments required more specialized skills while the humanities would accept applicants with a more standard undergrad curriculum, thus creating the Simpson's Paradox.
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
+
+(Source:[@simpson_paradox])
 
 ### Every Satellite Orbiting Earth
 This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database#.WxbaMVMvzq1) from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
 
 ![Low Earth Orbit Satellites](images/satellites.png)
+
+(Source:[@Satellite])
 
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
@@ -336,6 +347,7 @@ This visualization is incredibly thorough and a useful tool for homeowners of an
 
 ![](images/rentcalc.png)
 
+(Source:[@rent_or_buy])
 
 ### An Interactive Visualization of NYC Street Trees
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs [@trees]. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
@@ -343,6 +355,8 @@ Using data from NYC Open Data, this interactive visualization shows the variety 
 We can see what some of the familiar and uncommon trees planted in the five boroughs of New York City are. This visualization allows one to see the distribution quickly. One can make inferences based on the distribution, such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between the five boroughs which could be used to make a compelling decision by the audience.
 
 ![NYC Street Trees](images/NY_trees.png)
+
+(Source:[@trees])
 
 The interactive visualization is an advantage that enables the display, and intuitive understanding of multidimensional data provides a variety of visualization chart types and enables the audience to accomplish traditional data exploration tasks by making charts interactive. Moreover, this visualization provides a good example: it enables the audience to explore on their own and finds exciting facts about NYC street trees.
 
@@ -354,16 +368,16 @@ The visualization is interactive, and we can click on each attribute like ‘Hai
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
-[@oscars_sowhite_chart] 
-
 ![Best Picture](images/img_oscars_pic.PNG)
+
+(Source:[@oscars_sowhite_chart])
 
 ### Kissmetrics blog: visualization of metrics
 
-[@facebook_organic]
 Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues. 
 
-An excellent example from the Kissmetrics blog is about Facebook’s organic reach. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
+An excellent example from the Kissmetrics blog is about Facebook’s organic reach [@facebook_organic]. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
+
 The general trend shows that there is a considerable decline in Facebook’s page organic reach.
 
 ![](images/facebook-page-organic-reach-decline-over-years.jpg)
@@ -374,12 +388,16 @@ The following graphs show that the engagement is increasing; that is, while the 
 
 ![](images/average-facebook-daily-reach.png)
 
+(Source:[@facebook_organic])
+
 This resonates with what we have learned at class regarding how different perspectives of interpreting data can lead to different conclusions. 
 
 ### Describe Artists with Emoji
 Using the data from Spotify, the author listed the ten most distinctive emoji used in the playlists related to favorite artists [@artist_emoji]. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
 
 ![](images/artist_emoji.png)
+
+(Source:[@artist_emoji])
 
 ### Goldilocks Exoplanets
 
@@ -389,10 +407,14 @@ One highlight of the graph is how color has been used. The red dots are represen
 
 ![](images/planet.png)
 
+(Source:[Astrobiology])
+
 ### Washington Wizards’ Shooting Stars
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season [@basketball]. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers can see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
 
 ![](images/wizards_shooting.png)
+
+(Source:[@basketball])
 
 ### Visualization of big data security: a case study on the KDD99 cup data set
 
