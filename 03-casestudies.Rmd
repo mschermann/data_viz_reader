@@ -1,6 +1,6 @@
 # Case Studies
 
-This chapter contains some useful case studies on such visualizations. The examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development.
+This chapter explores some interesting case studies of data visualizations. Critiquing these case studies is a valuable exercise that helps both expand our knowledge of possible visual representations of data as well as develop the type of critical thinking that improves our own visualizations. Furthermore, the examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development.
 
 ## Introduction
 
@@ -335,11 +335,18 @@ This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-
 
 (Source:[@Satellite])
 
+Interactive graph have its own specific advantages. It helps bridge the gap between programmers and non-programmers. This plot is a good example why using interactive graph is a good idea:
+- It provides an intuitive way for anyone to understand the data regardless of their technical knowledge.
+- It helps to identifying causes and trends more quickly
+- It tells a consistent story through data
+- It improves efficiency of representing data
+
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
 
 ![Original visualization of malaria cases](images/malaria_original.png)
-
+This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. 
+But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better.
 Original Version: [@malaria_zambia_original]
 
 ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
