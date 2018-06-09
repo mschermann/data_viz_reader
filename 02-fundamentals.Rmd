@@ -265,7 +265,7 @@ D3.js stands for Data-Driven Document, a JS library for interactive Big Data vis
 It starts with the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.
 [Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
-| Library | Description | 
+| **Library** | **Description** | 
 | ------- | ----------- |
 **Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
 **Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
@@ -283,8 +283,8 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
  
 **The key advantages** are: It provides non-technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.
 
-### R for Data Visualization: Grammar of Graphics
-[Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html)
+### R for Data Visualization: Grammar of Graphics 
+[@R_DataViz]
 
 1. **Layered Grammar of Graphics:**
 
@@ -339,7 +339,7 @@ c) coord_quickmap() sets the aspect ratio correctly for maps. This is very impor
 
 d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
-#### R Shiny
+### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
 
 It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
@@ -385,7 +385,8 @@ A free and powerful integration of all Google power. The tool is rendering the r
 ### Data Mining vs. Data Visualization
 
 **Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
-In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+
+**Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
 Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
 
 ### Typography and Data Visualization
@@ -426,7 +427,7 @@ While both infographics and data visualizations have their own distinct use case
 
 Data Visualization:
 
-Use Case | Best Visual Representation | Rationale |
+**Use Case** | **Best Visual Representation** | **Rationale** |
 -------- | -------------------------- | --------- |
 Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
 White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
@@ -453,9 +454,6 @@ Data visualization is also used across many different industries. One popular ar
 ### How visualization impacts Industry/business
 [@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
-1. Cleaning
-The simplest way to explain the importance of visualization is to look at visualization as the means of making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
-
 #### Cleaning
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
@@ -470,7 +468,8 @@ Instance generation: Instance generation methods involve replacing the original 
 
 **Tools you can use: Drake, DataWrangler, OpenRefine** 
 
-2. Extracting
+#### Extracting
+
 Known versatile tools for data visualization and analytics â? Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS ,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
