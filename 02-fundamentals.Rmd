@@ -79,7 +79,7 @@ The danger of multifunctioning elements is that they tend to generate graphical 
 
 #### Principle 3: Maximize data density and the size of the data matrix, within reason.
 
-High preformation graphics should be designed with special care. As volume of data increases, data measures must shrink (smaller dots for scatters, thinner lines for busy time-series).
+High preformation graphics should be designed with special care. As the volume of data increases, data measures must shrink (smaller dots for scatters, thinner lines for busy time-series).
 
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
@@ -95,7 +95,7 @@ Data is multivariate doesn't necessarily mean 3D projection. How can we enhance 
 
 #### Principle 5: Provide the user with an overview and details on demand.
 
-Carefully designed view can show a macrostructure (overview) as well as microstructure (detail) in one space.
+A carefully designed view can show a macrostructure (overview) as well as microstructure (detail) in one space.
 
 ![](images/Tufte_figure9.png)
 (Source: [@Tufte_2001])
@@ -108,7 +108,7 @@ Carefully designed view can show a macrostructure (overview) as well as microstr
 * Using Color to separate
 * 1 + 1 = 3 (clutter)
 
-2. Graphics are almost always going to improve as they go through editing ,revision, and testing against different design options.
+2. Graphics are almost always going to improve as they go through editing, revision, and testing against different design options.
 
 3. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes,and something is  gained by those who do understand. We can also assume that if you understand the statistical graphics, most other readers will, too because it is a frequent mistake in thinking about statistical graphics to underestimate the audience.
 
@@ -216,7 +216,7 @@ Of course, it is easy to assume that we know the audience we are producing the w
 
 ## Data Visualization Tools
 
-Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and QilkView. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
+Due to the rise of big data analytics, there has been an increased need for data visualization tools to help understand the data. Besides Tableau, there are several other software tools one can use for data visualization like Sisense, Plotly, FusionCharts, Highcharts, Datawrapper, and QlikView. This article is from Forbes and has a brief, clear introduction about these 7 powerful software options for data visualization. This could be helpful for future reference because for different purposes I may need to use different tools. Each option has its advantages and disadvantages and this article helps highlight them.
 
 ### Brief Description of popular tools 
 
@@ -244,7 +244,7 @@ Interactive or Dynamic data visualization delivers today's complex sea of data i
 **Manipulate and interact directly with data** | Enables users to engage data more frequently. 
 **Foster a new business language** | Ability to tell a story through data that instantly relates the performance of a business and its assets.
  
-There are multiple ways by which interactive data visualizations can be developed. D3.js is one of the ways to build interactive data visualization.
+There are multiple ways by which interactive data visualizations can be developed. D3.js is one of the ways to build an interactive data visualization.
 
 ### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
 
@@ -329,14 +329,14 @@ c) coord_quickmap() sets the aspect ratio correctly for maps. This is very impor
 d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 ### R Shiny
-R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
+R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantage of using R Shiny is : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
 
 It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
 
 ### D3.js 
 D3.js stands for Data-Driven Document, a JS library for interactive Big Data visualization in literally ANY way required real-time[@d3_interactive_viz]. This is not a tool, mind you, so a user should have a solid understanding of JavaScript to work with the data and present it in a humanly-understandable form. To say more, this library renders the data into SVG and HTML5 formats, so older browsers like IE7 and 8 cannot leverage D3.js capabilities.
 
-The data gathered from disparate sources like huge-scale datasets is bind in real-time with DOM to produce interactive animations ( 2D and 3D alike) in an extremely rapid way. The D3 architecture allows the users to intensively reuse the codes across a variety of add-ons and plug-ins. Some of the key advantages are: It is dynamic, free and open source and very flexible with all web technologies, the ability to handle big data and the functional style allows to reuse the codes.
+The data gathered from disparate sources like huge-scale datasets is bind in real-time with DOM to produce interactive animations ( 2D and 3D alike) in an extremely rapid way. The D3 architecture allows the users to intensively reuse the codes across a variety of add-ons and plug-ins. Some of the key advantages are: It is a dynamic, free and open source and very flexible with all web technologies, the ability to handle big data and the functional style allows to reuse the codes.
 
 **The Hitchhiker' Guide to d3.js** is a wonderful guide for self-teaching d3.js. This guide is meant to prepare readers mentally as well as give readers some fruitful directions to pursue. There is a lot to learn besides the d3.js API, both technical knowledge around web standards like HTML, SVG, CSS and JavaScript as well as communication concepts and data visualization principles. Chances are you know something about some of those things, so this guide will attempt to give you good starting points for the things you want to learn more about.
 
@@ -347,7 +347,7 @@ The guide is helpful as it lists a lot of useful resources links for learning d3
 ### Tableau
 Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. 
 
-Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. 
+Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata ,and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. 
 
 Tableau is a business intelligence (BI) and analytics platform created for the purposes of helping people see, understand and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis. The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
 
@@ -366,7 +366,7 @@ The following tips for Tableau are still missing:
  
 **Key advantages**: 
 
-1. It provides non technical user the ability to build complex reports and dashboard with zero coding skills. 
+1. It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
 2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
 3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
 
@@ -411,7 +411,7 @@ Companies tend to rely on dashboards (a compilation of several related data visu
 
 **Application** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Sales & Marketing** | This is one of the most popular uses for dashboards. Companies like to regularly track their revenue, conversions, lead sources, etc. and rely on data visualization to synthesize these large and constantly updated data into visual summaries.Funnel reporting in terms of sales velocity and efficiency, Campaing ROI, distribution of opportunities and leads across region, time, etc are some of the matrices which requires dashboards and visualization on latest as well as historic data. Sales are Marketing teams are one of the major consumers of BI tools driven reporting and monitoring dahsboards.
+**Sales & Marketing** | This is one of the most popular uses for dashboards. Companies like to regularly track their revenue, conversions, lead sources, etc. and rely on data visualization to synthesize these large and constantly updated data into visual summaries.Funnel reporting in terms of sales velocity and efficiency, Camparing ROI, distribution of opportunities and leads across region, time, etc are some of the matrices which requires dashboards and visualization on latest as well as historic data. Sales are Marketing teams are one of the major consumers of BI tools driven reporting and monitoring dashboards.
 **Customer Success** | These dashboards can be created by the team, but are also often built into customer service platforms such as Zendesk.  They include various KPIs of the customer success team, such as the ratio of tickets open to tickets closed and time to resolution.
 **Product Management** | These dashboards tend to synthesize sales, marketing, and customer research data together and are typically used for executive reporting. The visuals display metrics such as dollars and hours devoted to various projects and most requested features by customers.
 
@@ -436,7 +436,7 @@ Instance generation: It involves replacing the original data with artificially g
 **Tools you can use: Drake, DataWrangler, OpenRefine** 
 
 #### Extraction
-Known versatile tools for data visualization and analytics like Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS ,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
+Known versatile tools for data visualization and analytics like Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
 
@@ -479,7 +479,10 @@ Here's the process on how to get it done.
 
 ### Typography and Data Visualization
 
-Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. ([WIKI](https://en.wikipedia.org/wiki/Typography))
+1. Definition of typography
+
+Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed. ([WIKI](https://en.wikipedia.org/wiki/Typography))
+
 
 The arrangement of type involves selecting typefaces, point sizes, line lengths, line-spacing (leading), and letter-spacing (tracking), and adjusting the space between pairs of letters. 
 
