@@ -172,12 +172,6 @@ In most cases when we start to work with a previously unseen dataset, we are alr
 
 Personally speaking, the documentation is the most important step of the process, and it is also the one people most likely to skip. As you will see in the example below, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created. 
 
-Hence, you should take the time to make some notes on things like:
-
-  *	Why have I created this chart?
-  *	What have I done to the data to create it?
-  *	What does this chart tell me?
-
 ### Transform Data
 Naturally, with the insights that you have gathered from the last visualization, you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail. Possible transformations are the following.
 
@@ -195,7 +189,7 @@ Let's consider the following example: You have visualized a graph and what came 
 ### Adapt your story to a different set of audiences
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and breakdowns of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
 
-Of course, it is easy to assume you know the audience that you are producing the work for, but even in this step, do not lose sight of the ultimate goal of conveying understanding, of explaining a concept. You are searching for a visual idea in your content that can be communicated to your audience. Some of the main highlights to help you make this connection with your audience involved.
+Of course, it is easy to assume that we know the audience we are producing the work for, but even in this step, we should focus on the ultimate goal of conveying, understanding and explaining a concept. Some of the main highlights to help make this connection with the audience involved are mentioned below:
 
 **Principle** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -229,6 +223,8 @@ Due to the rise of big data analytics, there has been an increased need for data
 **Plotly:**| It can create more sophisticated visuals thanks to integration with programming languages such as Python and R. The danger is creating something more complicated than necessary. The whole point of data visualization is to quickly and clearly convey information.
 **Sisense:**|It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
 **Altair:**|It is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.
+**Shiny**| Shiny is an open package from RStudio, which provides a web application framework to create interactive web visualization called Shiny apps. The ease of working with Shiny has what popularized it among R users. 
+
 
 ### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
@@ -415,9 +411,7 @@ Data visualization is also used across many different industries. One popular ar
 #### Cleaning
 The simplest way to explain the importance of visualization is to look at visualization as the means to making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
 
-In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights.
-
-Cleaning the data is usually the first step in data processing and is done to remove the unwanted elements as well as to reduce the size of the datasets, which will make it easier for the algorithms to analyze it. Data cleansing is typically done by using instance reduction techniques.
+In other words, visualization is the initial filter for the quality of data streams. Combining data from various sources, visualization tools perform preliminary standardization, shape data in a unified way and create easy-to-verify visual objects. As a result, these tools become indispensable for data cleansing and vetting and help companies prepare quality assets to derive valuable insights. Data cleansing is typically done by using instance reduction techniques.
 
 Instance reduction: It helps to reduce the size of the data set without compromising the quality of insights that can be extracted from the data. It removes instances and generates new ones to make the data set compact. There are two major instance reduction algorithms:
 
@@ -469,20 +463,15 @@ Here's the process on how to get it done.
 
 ## Special Topics
 
-### Data Mining vs. Data Visualization
-
-**Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
-In **Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
-
 ### Typography and Data Visualization
+
 1. Definition of typography
 
 Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. ([WIKI](https://en.wikipedia.org/wiki/Typography))
 
 The arrangement of type involves selecting typefaces, point sizes, line lengths, line-spacing (leading), and letter-spacing (tracking), and adjusting the space between pairs of letters. 
 
-3. preattentive visual attributes
+3. Preattentive visual attributes
 
 While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, other typographic elements in data visualization are less prevalent.
 
@@ -494,13 +483,14 @@ Furthermore, these visual attributes are inherently more viscerally powerful, an
 
 3. Why lack of typographic elements
 
-Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. It is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?
+The authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. It is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?
 
 4. Tips for using typographic attributes
 
 The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes. For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.
 
-Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
+Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility and the ability to read lines and blocks of words. Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
+
 
 There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which we agree are made more effective by the interesting utilization of typographic attributes, but the "Who Survived the Titanic" visualization's use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived. It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers' names. 
 
