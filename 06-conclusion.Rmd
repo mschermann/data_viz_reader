@@ -2,7 +2,40 @@
 
 As we conclude our brief survey of data visualization, it is clear that the field is rich in potential applications in diverse disciplines, as well as in practical and ethical complexities to be aware of. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. The journey from raw data to successful data visualization involves representing the data of interest, processing the data to extract relevant information for the desired argument, designing a mapping of this information to a visual representation, rendering this representation, and combining all this functionality in an easy-to-use product.
 
-**Key Lessons Going Forward:**  
+## The Future of Data Visualization
+@future_viz
+
+Data visualization is entering a new era. Emerging sources of intelligence, theoretical developments and advances in multidimensional imaging are reshaping the potential value that analytics and insights can provide, with visualization playing a key role. The principles of effective data visualization won’t change. However, nextgen technologies and evolving cognitive frameworks are opening new horizons, moving data visualization from art to science.
+
+Looking back, much attention has been given to the principles of effective data visualization, such as substance, context and actionability. As timeless tenets that will continue to be important, regardless of medium or format, a brief review seems in order:
+
+* **As with any form of communication, effectively conveying a message with data requires that it be substantive.** And while creative visuals can enhance interest and memory, embellishment can’t make up for lack of substance. According to purist Edward Tufte, “Every single pixel should testify directly to content.”
+
+* **Visualization should be accurate and contextual.** David McCandless’s Billion Dollar O’Gram provides an example of how greater meaning can be added by incorporating the bigger picture. According to McCandless, “Absolute figures in a connected world don’t give you the whole picture. They’re not as true as they could be. We need relative figures that are connected to other data so that we can see a fuller picture.” 
+
+![Billion Dollar O’Gram](images/BillionDollar.jpg)
+
+(Source: @future_viz)
+
+* **More than anything else, data visualization should facilitate decision-making**, a goal that is difficult to achieve for many. According to a recent KPMG study, while data and analytics are deemed increasingly important to organizations, generating actionable insights remains a top challenge.
+
+Looking forward, nextgen technologies and evolving cognitive frameworks will boost the role that data visualization can play in organizations and society. Consider the Internet of Things, Network and Complexity Theories, and recent developments in multidimensional visualization:
+
+The Internet has transformed the way we visualize information through a better understanding of networks and an explosion in profile, behavioral and attitudinal data. Sociograms, for example, have gone from relatively simple graphs to multifaceted relational maps, as illustrated in the following two charts, courtesy of the Journal of Social Structure and the Leadership Learning Community.
+
+![Figure 2:Pre-Internet sociogram](images/Pre-internet.jpg)
+
+(Source: @future_viz)
+
+![Figure 3:Internet-age sociogram](images/InternetAge.jpg)
+
+(Source: @future_viz)
+
+The Internet of Things is expected to have a similar impact, with billions of connected devices capturing human and machine activity. Fully capitalizing on the data generated will require further advances in our ability to synthesize and display spatiotemporal activities.
+
+Network Theory has been in use for decades, with its earliest applications largely in social structure analysis. More recently, Network Theory is being applied to understand relationships and interactions in a variety of domains, such as crime prevention and disease management. Dirk Brockmann and Dirk Helbling’s work modeling the spread of infectious diseases provides an example of the power that Network Theory holds.
+
+## Key Lessons Going Forward
 
 * **Don’t try to be too cute.** Using all the fancy features of a visualization tool can lead to complex and confusing graphics. Just because you have a flashy hammer, it does not mean that everything is a nail. Don’t lose your purpose in your infatuation with a new tool or feature. Stick to good design principles, and keep it simple (as was mentioned in the discussion about Patterns).
 
