@@ -39,6 +39,35 @@ In his TED talk, **David McCandless** gives an example of how expenditures or va
 
 Beyond its ability to make information from several different sources and in large amounts easily understandable, data visualization can also reveal smaller interesting patterns, allowing us to play the "data detective" as McCandless calls it. In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool [@viz_ted].
 
+### How Data Visualization is Helping in Healthcare Decision Making
+
+[@marksman]
+
+Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
+ 
+Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.
+ 
+Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R and Python are also helping healthcare a lot.
+ 
+Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. Moreover, health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
+
+### Law enforcement and fraud detection
+The police have been using graph visualization, or link analysis as it is commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
+
+A failure to analyze the bigger, joined-up picture was cited as a shortcoming of the intelligence services after the 9/11 terror attacks. In the years that followed, law enforcement and security agencies drove graph visualization forward. New approaches and technologies were explicitly created for large-scale data analysis of communications records, open source intelligence (OSINT), and police databases.
+
+Lawful interception, the legally mandated interception of personal communications data, provided vast volumes of data on criminal and terrorist activity. Paired with social network analysis, graph visualization techniques allowed non-specialized staff to explore the data and uncover important insight.
+
+Another early adopter of graph visualization techniques was the financial services industry. Fraud detection is about finding unusual connections – between accounts, transactions, insurance policies, devices, etc. There’s great value in visualizing that data as a graph. Known fraud detection is primarily automated with rule scoring and pattern matching. Visualization lets you review edge-cases and outliers more quickly. Speed is important because sometimes analysts only have seconds to approve or deny a transaction. In those cases, visualizations are simple, small and with limited interaction. To get a clear overview quickly, analysts need effective layouts. Other functionalities, like expanding and filtering help fraud analysts to see context on demand.
+
+Three things are consistent across both graph visualization use cases:
+
+  1. They involve highly connected data (apparently).
+  2. That highly connected data conceals risk insight.
+  3. That insight is needed to power quick and confident decision making.
+
+When connected data insight is critical, only interactive and robust visualization tools are up to the task.
+
 ### Design and Data Literacy
 
 McCandless postulates that we all have a latent "design literacy" that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects like space, color, etc. Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design [@viz_ted]. 
@@ -160,8 +189,6 @@ The field of data visualization is huge, and the capability of linking storytell
 * Tableau Enthusiasts: LinkedIn Group (19K members)
 * Tableau Software Fans & Friends: LinkedIn Group (45k members)
 
-**Tableau: Viz of the Day**
-Tableau has a gallery called [Viz of the Day](https://public.tableau.com/en-us/s/gallery) that displays great data visualization examples created by Tableau. It is cool to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached so we can try to mimic what other people did as well.  
 
 [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight-forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
 

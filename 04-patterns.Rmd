@@ -165,11 +165,9 @@ Still have hard time to choose? There are many resources online which can help y
 To avoid clutter and confusion, make sure not to use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart.
 
 ### Gantt Chart  
-**Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
+**Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** A Gantt chart is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc. by the use of colors and placement of bars in a Gantt chart.
 
-It is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management.
-
-Assume you're planning the logistics for a dance concert. There are lots of activities to be completed, some of which will take place simultaneously while some can be done only after another activity has been completed. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
+The planning of logistics for a dance concert presents a situation in which a Gantt chart is a good option. There are many activities to be completed, some of which will take place simultaneously while some can only be done sequentially. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
 
 Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc., by the use of colors and placement of bars in a Gantt chart.
 
@@ -183,12 +181,12 @@ Gantt charts are a popular project management tool since they present a concise 
 A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
 
 ### Heat Map  
-**Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent.
+**Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent in a heat map.
 ![](images/aya-stream.png)
 
 (Source: [@aya-time-series])
 
-Geo-spatial visualizations often use heat maps since they quickly help identify "Hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
+Geo-spatial visualizations often use heat maps since they quickly help identify "hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
 
 This heat map visualizes birthdays of babies born in the United States between 1973 and 1999. The vertical axis represents the 31 days in a month while the horizontal axis represents the 12 months in a year. This chart quickly helps us identify that a large number of babies were born in the latter half of July, August, and September.
 
@@ -525,7 +523,7 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 ### How to Customize a Legend in Python with Matplotlib  
-A legend shows descriptive labels and their respective color or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
+A legend shows descriptive labels and their respective colors or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
 #### Add a Basic Legend  
 First, we need to import the matplotlib library in Python.  Then we use the legend() function to add a basic legend. For example, if we already have a line graph with multiple lines, we can add a legend to distinguish them from each other with the ax.legend() function, as shown below:
@@ -838,8 +836,8 @@ function pathMonth(t0) {
 
 ### Building Advanced Analytics Application with TabPy  
 [@TabPy]  
-Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
+Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y-variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
 
-The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters.
+The author here has given an example in which he tries to identify criminal hotspots in the area using data from Seattle's police department's 911 calls. The author uses machine learning (spatial clustering) and creates a great interactive visualization which allows viewers to click on the type of criminal activity to show various clusters.
 
-There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. 
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in replicating the visualizations. 
