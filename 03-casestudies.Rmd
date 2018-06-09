@@ -115,10 +115,10 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
-## Evolving Demographics
+### Evolving Demographics
 Another frequent use is to look at how something changes over time. Time-series data can be shown many ways, and these are some examples.
 
-### Millennial Generation Diversity
+#### Millennial Generation Diversity
 CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers [@age_groups]. While the article's main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns hard numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 The author also summarized three key findings from the graph:
@@ -130,7 +130,7 @@ The author also summarized three key findings from the graph:
 
 This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
-### How the Recession Reshaped the Economy, in 255 Charts
+#### How the Recession Reshaped the Economy, in 255 Charts
 The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry [@recession_economy]. By hovering over a line, viewers can get the detailed information of that industry's job trend. Keeping this extra data hidden until needed makes it easier for readers to absorb the bigger picture from this vast data visualization.  
 Below the overall charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, like in the first graph, view the more detailed information by hovering over a line.
 
@@ -138,14 +138,14 @@ Below the overall charts are subsets categorized by job sector and sub-industrie
 
 ![](images/recession_jobs2.png)
 
-### An Aging Population: Projected Number of Children and Older Adults 
+#### An Aging Population: Projected Number of Children and Older Adults 
 An aging population is always a hot topic in social economics and politics [@aging_nation]. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.
 
 ![](images/aging_nation.jpg)
 
 This example includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. This visualization allows easy comparison, employs color to differentiate the categories, and highlights the intersection point.
 
-### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+#### From Pyramid to Pillar: A Century of Change, Population of the U.S.
 ![](images/Pyramid.jpg)
 
 This is a **population pyramid**. "A **population pyramid** is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender" [@population_pyramid]. It is a good candidate to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool for making sense of census data. [@animated_pyramid] offers an animated pyramid.
@@ -154,7 +154,7 @@ This is a **population pyramid**. "A **population pyramid** is a pair of back-to
 
 This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
-### Music Timeline
+#### Music Timeline
 Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to the present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates [@google_music]. One useful feature of this graph is the reader's ability to explore one specific genre and its subgenres at a more detailed level, as well as view the general timeline of all music. The drill-down interaction allows for more details without cluttering the overview of the visualization. Embedding the graph with names (e.g., Rock/Pop) makes similar color lines easy to distinguish.
 
 ![](images/music_timeline.png)
@@ -182,7 +182,7 @@ Global health data expert Hans Rosling’s famous statistical documentary "The J
 
 What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
 
-## Environmental Related Problems
+## Environment Related Problems
 There are many case studies on visualizations of environment-related issues.
 
 ### Global Carbon Emissions
