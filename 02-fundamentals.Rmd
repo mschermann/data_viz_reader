@@ -281,7 +281,7 @@ The following tips for Tableau are still missing:
 It starts with the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.
 [Sample charts for each](https://blog.modeanalytics.com/python-data-visualization-libraries/)
 
-| Library | Description | 
+| **Library** | **Description** | 
 | ------- | ----------- |
 **Matplotlib** | Because matplotlib was the first Python data visualization library, many other libraries are built on top of it or designed to work in tandem with it during analysis. While matplotlib is good for getting a sense of the data, it's not very useful for creating publication-quality charts quickly and easily.|
 **Seaborn** | Seaborn harnesses the power of matplotlib to create beautiful charts in a few lines of code. The key difference is Seaborn's default styles and color palettes, which are designed to be more aesthetically pleasing and modern. Since Seaborn is built on top of matplotlib, you'll need to know matplotlib to tweak Seaborn's defaults. |
@@ -297,6 +297,11 @@ It starts with the insights of learning d3.js by showing interviews with those t
 ### R for Data Visualization: Grammar of Graphics
 [Chapter 3 of Grolemund and Wickham's "R for Data Science"](http://r4ds.had.co.nz/data-visualisation.html) [@Grammar_Graphics]
 
+### Tableau
+Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. Tableau is business intelligence (BI) and analytics platform created for the purposes of helping people see, understand, and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis.The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
+ 
+**The key advantages** are: It provides non-technical user the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc.
+
 #### Layered Grammar of Graphics:
 
 The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 
@@ -309,13 +314,14 @@ The grammar of graphics is based on the implication that you can uniquely descri
 6. a coordinate system
 7. a faceting scheme.
 
+
+2. **Aes/Mapping: Global Mapping and Local Mapping**
+
 **Formula:**
 
 $$ggplot(data = DATA) +  
 GEOMFUNCTION (mapping = aes(MAPPINGS),stat =STAT, position = POSITION ) + COORDINATEFUNCTION + FACETFUNCTION$$
 
-
-#### Aes/Mapping: Global Mapping and Local Mapping
 
 ```{r}
 library("tidyverse")
@@ -325,14 +331,13 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 
 Here, "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
 
-#### Position Adjustment
 
-**Position** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-Identity | This position will place each object exactly where it falls in the context of the graph. This is not very useful for bars. 
-Fill | This position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups. 
-Dodge | This position places overlapping objects directly beside one another, which makes it easier to compare individual values.
-Jitter | This position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
+3. **Position Adjustment**
+
+a) "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
+b) "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
+c) "Dodge" position places overlapping objects directly beside one another, which makes it easier to compare individual values.
+d) "Jitter" position adds a small amount of random noise to each point. This spreads the points out because no two points are likely to receive the same amount of random noise.
 
 #### Coordinate Systems
 
@@ -344,6 +349,7 @@ coord_flip()| It switches the x- and y-axes. Very useful if you want horizontal 
 coord_quickmap()| It sets the aspect ratio correctly for maps. This is very important if you draw a map.
 coord_polar()| It uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
+
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
 
@@ -351,7 +357,10 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
   coord_flip()
 ```
 
-#### R Shiny
+c) coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
+d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+
+### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
 
 It combines the computational power of R with the interactivity of the modern web. The main advantages of using R Shiny are : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
@@ -387,10 +396,66 @@ The following tips for Tableau are still missing:
 9. Fixed axis when re-drawing charts
 10. Auto-fitting screen behavior depending on data selection
  
-**The key advantages** are: It provides non-technical users the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, user can create a very interactive visuals within minutes. It can handle millions of rows of data with ease and users can make live connections to different data sources like SQL etc. [@VizBP][@extremepre].
+**The key advantages** are: It provides non-technical users the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, a user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live connections to different data sources like SQL etc. [@VizBP][@extremepre].
 
 ### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
+
+## Special Topics
+
+### Data Mining vs. Data Visualization
+
+**Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
+
+**Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+Also, the author listed the top 7 comparisons between data mining and data visualization, and 12 key differences between data mining and data visualization. After reading the article, you will have a very clear understanding of what are data mining and data visualization and the characters for those two techniques.
+
+### Typography and Data Visualization
+
+This article discusses less common applications of typography in data visualization. While data components such as quantitative or categorical data are commonly represented by visual features like colors, sizes or shapes, utilization of boldface, font variation, and other typographic elements in data visualization are less prevalent.
+
+Highlighted in the article are preattentive visual attributes. Preattentive attributes are those that perceptual psychologists have determined to be easily recognized by the human brain irrespective of how many items are displayed. Therefore, "preattentive visual attributes are desirable in data visualization as they can demand attention only when a target is present, can be difficult to ignore, and are virtually unaffected by load." Examples of preattentive attributes are size/area, hue, and curvature.
+
+This brings us to the disparate situation of the popularity of visual aspects like color and size and typographic aspects such as font variation, capitalization and bold. The authors present several possible reasons for this, beginning with the preattentiveness of visual attributes like size and hue.However, some typographic attributes such as line width or size, intensity, or font weight (a combination of the two) are considered preattentive as well.
+
+Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages. Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.
+
+Lastly, the authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. It is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like typography, cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?
+
+The authors continue by pointing out some tips for using typographic attributes to encode different data types, since certain attributes may be suited to particular purposes. For example, font weight (size and intensity) is ideal for representing quantitative or ordered data, and font type (shape) is better suited to denote categories in the data.
+
+Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, interactivity of a visualization will not only improve functionality, but also provide a solution to readability issues by providing a means to zoom in on small text. 
+
+There are a few examples of unusual/innovative use of typography for data visualization in the article, not all of which we agree are made more effective by the interesting utilization of typographic attributes, but the "Who Survived the Titanic" visualization's use of typographic attributes allowed it to not only answer macro-questions very quickly, such as if women and children were actually first to be evacuated across classes, but also to provide answers to micro-questions, like whether or not the Astors survived. It used common visual elements like color and area to indicate whether or not a person survived and number/proportion of people, as well as typographic aspects like italic and simple text replacement to indicate gender and the passengers names. 
+
+![](images/TypographicTitanic.jpg)
+
+The authors round out the article by addressing the most common criticisms of typography in data visualization, the foremost one being whether or not text should even be considered an element of data visualization, since visualization connotes preattentive visual encoding of information, and text or sequential information necessitates more investment of attention to understand. Another criticism is that textual representations are not as visually appealing even when used effectively. However, the authors counter that "this criticism indicates both the strength and weakness of type? that while text may not be suited for adding style or drama to a visualization, it can be particularly powerful in situations where a finer level of detail is needed, without sacrificing representation of higher-level patterns. Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers' names and was corrected by only including a given name and a surname, the length of which could only vary so much.
+
+### Infographics vs. Data Visualizations
+
+Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
+
+#### Data Visualization
+Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
+
+#### Infographics
+An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
+
+Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, the interactivity of a visualization will not only improve functionality but also provide a solution to readability issues by providing a means to zoom in on small text. 
+#### When Should You Use Infographics or Data Visualization?
+While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
+
+Data Visualization:
+
+**Use Case** | **Best Visual Representation** | **Rationale** |
+-------- | -------------------------- | --------- |
+Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
+White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
+Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
+Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
+Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
+Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
 
 ## Data visualization in Business
 
@@ -424,7 +489,6 @@ Instance selection: It is used to identify the best examples from a very large d
 Instance generation: It involves replacing the original data with artificially generated data in order to fill regions in the domain of an issue with no representative examples in the master data. A common approach is to relabel examples that appear to belong to wrong class labels. Instance generation thus makes the data clean and ready for the analysis algorithm.
 
 **Tools you can use: Drake, DataWrangler, OpenRefine** 
-
 
 #### Extraction
 Known versatile tools for data visualization and analytics like Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS ,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
@@ -465,7 +529,6 @@ Here's the process on how to get it done.
 2 | Data Infrastructure Setup | Data infrastructures can be simple or complex depending what the end goal is. Many clients prefer to go the route of complete data integration in order to centralize their data repositories. Technologies such as Hadoop have helped by unifying disparate data sources, but other options such as data cloud environments can help produce API's for future product deployments. Why is this important? Accessibility of data is an important foundation not only within the context of dashboards, but also the possibility of branching out to other products.
 3 | Product Design & Development | Wireframing, prototyping, and application development are the main engines to transform an idea into a final product. Products can range from static presentations/reports to full interactive applications. Mobile, tablet, TV, and workstation platforms can all be mediums to help deliver the final product. The secret to a great end product is how well the data story is conceptualized. If the story is weak then the end product will also suffer. 
 4 | QA & Product Release | The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.
-
 
 ## Special Topics
 

@@ -54,6 +54,8 @@ The visualization in this article is a classic problem of visualizing geographic
 
 ![Uber Route Maps](images/uber_mapping.png)
 
+(Source:[@uber_maps])
+
 ## Demographic Comparisons
 One common use of visualization is to compare different groups against each other, such as political parties or generations.
 
@@ -64,6 +66,8 @@ What makes this a good visualization is that it is straightforward to read and i
 
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
+(Source: [@UKvotes2017])
+
 ### U.S. Migration Patterns 
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania.
 
@@ -72,6 +76,8 @@ Overall, this type of chart can work well to visualize movement in data over tim
 ![Migration from California](images/CA_migration.png)
 
 ![Migration from Pennsylvania](images/PA_migration.png)
+
+(Source:[@migration])
 
 ### The American Workday
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The original question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard workday as a reference point, helping the audience draw exciting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations. 
@@ -118,7 +124,10 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
+(Source: [@selfie])
+
 ### Evolving Demographics
+
 Another frequent use is to look at how something changes over time. Time-series data can be shown many ways, and these are some examples.
 
 #### Millennial Generation Diversity
@@ -131,6 +140,8 @@ The author also summarized three key findings from the graph:
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
+(Source:[@age_groups])
+
 This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
 #### How the Recession Reshaped the Economy, in 255 Charts
@@ -141,10 +152,15 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 
 ![](images/recession_jobs2.png)
 
+(Source:[@recession_economy])
+
 #### An Aging Population: Projected Number of Children and Older Adults 
+
 An aging population is always a hot topic in social economics and politics [@aging_nation]. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.
 
 ![](images/aging_nation.jpg)
+
+(Source:[@aging_nation])
 
 This example includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. This visualization allows easy comparison, employs color to differentiate the categories, and highlights the intersection point.
 
@@ -155,6 +171,8 @@ This is a **population pyramid**. "A **population pyramid** is a pair of back-to
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
+(Source:[@animated_pyramid])
+
 This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
 #### Music Timeline
@@ -163,6 +181,8 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 ![](images/music_timeline.png)
 
 ![](images/music_timeline_rock.png)
+
+(Source:[@google_music])
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
@@ -178,10 +198,14 @@ Overall, this is an engaging, informative, relevant, and fun animated plot that 
 
 ![](images/life_of_americans.png)
 
+(Source:[@American_life])
+
 ### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
 Global health data expert Hans Rosling’s famous statistical documentary "The Joy of Stats" aired on BBC in 2010, but it is still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
 
 ![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
+
+(Source:[@hans_rosling])
 
 What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
 
@@ -196,10 +220,14 @@ This data visualization, based on data from the World Resource Institute’s Cli
 
 ![](images/carbon_emissions.png)
 
+(Source: [@CO2_emission])
+
 ### What's really warming the world?
 This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors." After that, it combines all the dynamic graphics into one, which makes the results more accessible and more straightforward to compare. Lastly, the authors provide further detailed explanations of dataset sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] [@int_viz_capt].
 
 ![](images/volcano_global_warming.png)
+
+(Source:[@world_warming])
 
 ### Understanding Plastic pollution using visualization
 Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@wiki_plastic_pollution].
@@ -247,6 +275,8 @@ The visualization spans a webpage [@green_honey] referenced in [@cool_data]. As 
 
 ![](images/colorwords.png)
 
+(Source:[@green_honey])
+
 ### Linguistic Concepts
 This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways [@lingui_data].
 
@@ -258,6 +288,8 @@ Much of what computational linguists fall back upon to improve natural language 
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a pretty powerful visualization.
 
 ![](images/SotU2014.png)
+
+(Source:[@SotU2014])
 
 ## Political Relationships
 
@@ -272,10 +304,11 @@ One of the charts shown in the link [@int_viz_capt], the visualization of ‘A G
 
 ![Who is Fighting Whom in Syria](images/img_syria_summary.PNG)
 
+(Source:[@syria_chart])
+
 This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each color and facial expression combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand but is also pleasing to the eyes.
 
 On the other hand, the inherent complexity of relationships between different groups make it difficult to understand the complete picture. If the list of involved parties could be sorted by simplified "sides" (such as Syrian Government on one end with Syrian Rebels on the other) or ranked by how liked they are, then it may be easier for a trend to emerge at first glance. Also, the table format of the visualization means that the data is duplicated, making it appear even more complicated. Instead, one side of the diagonal divide could be greyed-out to simplify the audience's experience with this visualization.
-
 
 ![Green emoji shows ‘Friendly’ relationship](images/img_syria_friendly.PNG)
 
@@ -292,10 +325,14 @@ By "properly pooled," the investigators meant broken down by the department. For
 
 ![Simpson's Paradox originally from vudlab.com](images/VUD_simpsons.png)
 
+(Source:[@simpson_paradox])
+
 ### Every Satellite Orbiting Earth
 This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database#.WxbaMVMvzq1) from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
 
 ![Low Earth Orbit Satellites](images/satellites.png)
+
+(Source:[@Satellite])
 
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
@@ -317,6 +354,7 @@ There are many factors involved in deciding to rent or buy a house which has led
 
 ![](images/rentcalc.png)
 
+(Source:[@rent_or_buy])
 
 ### An Interactive Visualization of NYC Street Trees
 Using data from NYC Open Data, this interactive visualization shows the variety and quantity of street trees planted across the five New York City boroughs [@trees]. As the reader hovers over a tree or bar segment, the connected sections light up, making it easier for the reader to look at what otherwise could have been a very dense chart.
@@ -324,6 +362,8 @@ Using data from NYC Open Data, this interactive visualization shows the variety 
 We can see what some of the familiar and uncommon trees planted in the five boroughs of New York City are. This visualization allows one to see the distribution quickly. One can make inferences based on the distribution, such as trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. It gives a direct comparison between the five boroughs which could be used to make a compelling decision by the audience.
 
 ![NYC Street Trees](images/NY_trees.png)
+
+(Source:[@trees])
 
 The interactive visualization is an advantage that enables the display, and intuitive understanding of multidimensional data provides a variety of visualization chart types and enables the audience to accomplish traditional data exploration tasks by making charts interactive. Moreover, this visualization provides a good example: it enables the audience to explore on their own and finds exciting facts about NYC street trees.
 
@@ -335,15 +375,16 @@ The visualization is interactive, and we can click on each attribute like ‘Hai
 
 ![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
 
-[@oscars_sowhite_chart] 
-
 ![Best Picture](images/img_oscars_pic.PNG)
+
+(Source:[@oscars_sowhite_chart])
 
 ### Kissmetrics blog: visualization of metrics
 
 Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues. 
 
 This example from the Kissmetrics blog is about Facebook’s organic reach [@facebook_organic]. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
+
 The general trend shows that there is a considerable decline in Facebook’s page organic reach.
 
 ![](images/facebook-page-organic-reach-decline-over-years.jpg)
@@ -354,12 +395,16 @@ The following graphs show that the engagement is increasing; that is, while the 
 
 ![](images/average-facebook-daily-reach.png)
 
+(Source:[@facebook_organic])
+
 This resonates with what we have learned at class regarding how different perspectives of interpreting data can lead to different conclusions. 
 
 ### Describe Artists with Emoji
 Using the data from Spotify, the author listed the ten most distinctive emoji used in the playlists related to favorite artists [@artist_emoji]. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
 
 ![](images/artist_emoji.png)
+
+(Source:[@artist_emoji])
 
 ### Goldilocks Exoplanets
 
@@ -371,10 +416,14 @@ Additionally, the size of each dot represents the radius of each planet. At firs
 
 ![](images/planet.png)
 
+(Source:[Astrobiology])
+
 ### Washington Wizards’ Shooting Stars
 This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season [@basketball]. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers can see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.
 
 ![](images/wizards_shooting.png)
+
+(Source:[@basketball])
 
 ### Visualization of big data security: a case study on the KDD99 cup data set
 
