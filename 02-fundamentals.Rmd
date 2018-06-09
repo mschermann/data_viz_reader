@@ -285,7 +285,7 @@ The grammar of graphics is based on the implication that you can uniquely descri
 7. a faceting scheme.
 
 
-2. **Aes/Mapping: Global Mapping and Local Mapping**
+#### Aes/Mapping: Global Mapping and Local Mapping
 
 **Formula:**
 
@@ -302,7 +302,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +  geom_point(mapping = ae
 Here, "mapping = aes(x = displ, y = hwy)" is a **global mapping**, where "mapping = aes(color = class)" is a **local mapping**.
 
 
-3. **Position Adjustment**
+#### Position Adjustment
 
 a) "Identity" position will place each object exactly where it falls in the context of the graph. This is not very useful for bars.
 b) "Fill" position works like stacking, but makes each set of stacked bars the same height. This makes it easier to compare proportions across groups.
