@@ -52,6 +52,8 @@ The visualization in this article is a classic problem of visualizing geographic
 
 ![Uber Route Maps](images/uber_mapping.png)
 
+(Source:[@uber_maps])
+
 ## Demographic Comparisons
 One common use of visualization is to compare different groups against each other, such as political parties or generations.
 
@@ -62,6 +64,8 @@ What makes this a good visualization is that it is straightforward to read and i
 
 ![UK Party Votes by Age](images/Party_Votes_by_Age.png)
 
+(Source: [@UKvotes2017])
+
 ### U.S. Migration Patterns 
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania.
 
@@ -70,6 +74,8 @@ Overall, this type of chart can work well to visualize movement in data over tim
 ![Migration from California](images/CA_migration.png)
 
 ![Migration from Pennsylvania](images/PA_migration.png)
+
+(Source:[@migration])
 
 ### The American Workday
 NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The original question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard workday as a reference point, helping the audience draw exciting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations. 
@@ -114,6 +120,8 @@ Selfie City, a detailed multi-component visual exploration of 3,200 selfies from
 
 ![Estimated Age and Gender Distribution](images/selfie_age_gender.png)
 
+(Source: [@selfie])
+
 ## Evolving Demographics
 Another frequent use is to look at how something changes over time. Time-series data can be shown many ways, and these are some examples.
 
@@ -127,6 +135,8 @@ The author also summarized three key findings from the graph:
 
 ![Racial Diversity of US Generations](images/millenials_diversity.png)
 
+(Source:[@age_groups])
+
 This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.
 
 ### How the Recession Reshaped the Economy, in 255 Charts
@@ -137,10 +147,14 @@ Below the overall charts are subsets categorized by job sector and sub-industrie
 
 ![](images/recession_jobs2.png)
 
+(Source:[@recession_economy])
+
 ### An Aging Population: Projected Number of Children and Older Adults 
 An aging population is always a hot topic in social economics and politics [@aging_nation]. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.
 
 ![](images/aging_nation.jpg)
+
+(Source:[@aging_nation])
 
 This example includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. This visualization allows easy comparison, employs color to differentiate the categories, and highlights the intersection point.
 
@@ -151,6 +165,8 @@ This is a **population pyramid**. "A **population pyramid** is a pair of back-to
 
 ![Comparison of aging population in US and Japan](images/3_1.png)
 
+(Source:[@animated_pyramid])
+
 This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for time-series comparison. A similar project with R code is [here](https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/).
 
 ### Music Timeline
@@ -159,6 +175,8 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 ![](images/music_timeline.png)
 
 ![](images/music_timeline_rock.png)
+
+(Source:[@google_music])
 
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
@@ -174,10 +192,14 @@ Overall, this is an engaging, informative, relevant, and fun animated plot that 
 
 ![](images/life_of_americans.png)
 
+(Source:[@American_life])
+
 ### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
 Global health data expert Hans Rosling’s famous statistical documentary "The Joy of Stats" aired on BBC in 2010, but it is still turning heads. In the remarkable segment "200 Countries, 200 Years, 4 Minutes", Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes [@hans_rosling].
 
 ![Screenshot from "200 Countries, 200 Years, 4 Minutes"](images/200_countries_years.png)
+
+(Source:[@hans_rosling])
 
 What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling's narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.
 
@@ -189,10 +211,14 @@ This data visualization, based on data from the World Resource Institute’s Cli
 
 ![](images/carbon_emissions.png)
 
+(Source: [@CO2_emission])
+
 ### What's really warming the world?
 This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into "natural factors" or "human factors." After that, it combines all the dynamic graphics into one, which makes the results more accessible and more straightforward to compare. Lastly, the authors provide further detailed explanations of dataset sources to support their results. Overall, this case study is straightforward, easy to understand and informative [@world_warming] referenced in [@int_viz_capt].
 
 ![](images/volcano_global_warming.png)
+
+(Source:[@world_warming])
 
 ### Understanding Plastic pollution using visualization
 Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@wiki_plastic_pollution].
