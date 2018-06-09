@@ -23,21 +23,21 @@ The main goal of data visualization is to communicate information clearly and ef
 
 ## Importance of Data Visualization
 
-### It delivers value for increasing volume of data
+### Increased Value for Increasing Volume of Data
 
 The enormous volume of data available to companies, governments and people today means there is a huge (and growing) need for data to be presented so that it delivers value. From business decision making to route navigation, data visualization provides a simple, user-friendly approach to understanding data and making faster, better decisions. 
 
 In his article on the importance of data visualization to businesses, **Chris Pittenturf** uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides better understanding of the complex insights coming from this information. 
 
-### Visuals help us understand concepts that would otherwise be difficult to contextualize 
+### Understanding Concepts that are Difficult to Contextualize
 
 In his TED talk, **David McCandless** gives an example of how expenditures or valuations of extremely large amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to be delivered in a small, easily-digestible and  aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct your eyes to the important places and details. And the eye, as McCandless notes, is uniquely suited among our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is extremely readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars, since its purpose seems only to conflate two wars for dramatic effect.) 
 
-### It can reveal small interesting patterns
+### Revealing Small and Interesting Patterns
 
 Beyond its ability to make information from several different sources and in large amounts easily understandable, data visualization can also reveal smaller interesting patterns, allowing us to play the "data detective" as McCandless calls it. In other words, as we have already discussed, data visualization can not only be extremely effective in a declarative manner, but can also be used as an exploratory tool [@viz_ted].
 
-### How Data Visualization is Helping in Healthcare Decision Making
+### Easier Decision-making in Healthcare
 
 [@marksman]
 
@@ -47,7 +47,7 @@ Traditional visualization strategies often require significant processing time, 
  
 Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R and Python are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
-### Law enforcement and fraud detection
+### Law Enforcement and Fraud Detection
 
 The police have been using graph visualization, or link analysis as it is commonly known – for decades to ‘join the dots’ in investigations. What has changed is the use of technology to make joining the dots a more automated and scalable process.
 
