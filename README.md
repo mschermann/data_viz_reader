@@ -3,4 +3,7 @@ This is a collaborative reader project as part of the course MSIS 2629 Dashboard
 The project is based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown).
 
 Contributors
+
+* KlippL
 * mschermann
+
