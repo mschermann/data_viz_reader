@@ -450,7 +450,7 @@ Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
 
 
 ## Dashboards  
-[@intuitive-dash],[@dashboard_practices]  
+[@intuitive_dash],[@dashboard_practices]  
 
 > "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
 
@@ -473,9 +473,10 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 
 ### Using Shapes as Filters in Tableau When Your Fields Are Measures  
 [@measures]  
-This article [@interworks] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 ### How to Customize a Legend in Python with Matplotlib  
+[@PythonDataScienceHandbook]
 A legend shows descriptive labels and their respective colors or shapes for each plotted data series. A good legend helps us to better understand the graph and what each series represents.
 
 #### Add a Basic Legend  
@@ -689,7 +690,7 @@ plot(plot1)  #we have to actually call the plot() function on the plot object we
 The ggplot2 package allows R users to go beyond the simple and often rudimentary-looking graphs in R and offers many ways of customizing data visualizations.  The layering technique also makes it easier to remember the code to generate these plots, since geom functions for the layers remain constant and they are all included in a single line of code.  
 
 #### Reusable Calendar View Code  
-[@calendar_layout]  
+[@Calendar_Layout]  
 We have all seen the calendar views in the various data products that we worked on. Below is an open source code which will help you replicate and create your own calendar:
 ![](images/CalendarView.jpg)
 
