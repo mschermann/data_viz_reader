@@ -2,7 +2,7 @@
 
 ## What is Data Visualization?
 
-**Data visualization** is a graphic representation that expresses the significance of data. It reveals insights and patterns that are not immediately visible in the raw data. It is an art through which information, numbers, and measurements can be made more understandable. According to [@viz]:
+Data visualization is a graphic representation that expresses the significance of data. It reveals insights and patterns that are not immediately visible in the raw data. It is an art through which information, numbers, and measurements can be made more understandable. According to [@viz]:
 
 
 > The primary goal of data visualization is to communicate information clearly and effectively through graphical means. It does not mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects more intuitively.
@@ -12,7 +12,7 @@ The main goal of data visualization is to communicate information clearly and ef
 "Data is the new oil" may be a cliche, but it is true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. More and more organizations are seeing potential in their data connections, but how do you allow non-experts to analyze data at scale and extract potentially complex insights? One answer is through interactive graph visualization.
 
 
-**Information visualization** is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@info_viz] shares some examples and common uses of information visualization, such as:
+Information visualization is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@info_viz] shares some examples and common uses of information visualization, such as:
 
 * Presentation: to explain or persuade
 * Exploratory Analysis: to identify relationships or unusual cases in the data
@@ -31,11 +31,11 @@ The main goal of data visualization is to communicate information clearly and ef
 
 The enormous volume of data available to companies, governments and people today means there is a vast (and growing) need for data to be presented so that it delivers value. From business decision making to route navigation, data visualization provides a simple, user-friendly approach to understanding data and making faster, better decisions. 
 
-In his article on the importance of data visualization to businesses, **Chris Pittenturf** uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information. 
+In his article on the importance of data visualization to businesses, Chris Pittenturf uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information. 
 
 ### Understanding Concepts that are Difficult to Contextualize
 
-In his TED talk, **David McCandless** gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader's eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.) 
+In his TED talk, David McCandless gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader's eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.) 
 
 
 3. It can reveal interesting small patterns--"Data detective."
@@ -175,7 +175,7 @@ One such chart, *International Number Ones: Because every country is good at som
 1. A cool website: MIT Media Lab
 
 [@DataUSA]
-[**MIT Media Lab**](https://www.media.mit.edu) in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries, etc.
+[MIT Media Lab](https://www.media.mit.edu) in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries, etc.
 Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.
 
 We think of a topic, and it is possible it is there! The benefits are a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
@@ -194,9 +194,9 @@ What stands out is the categorization of information on the website which enable
 
 3. Automatic visualization vs. context-specific visualization
 
-**Automatic visualization is a bad idea, generally speaking.** Some parts of visualization indeed should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
+Automatic visualization is a bad idea, generally speaking. Some parts of visualization indeed should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
 
-However, full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. **The most interesting visualizations are context-specific.**[@auto_viz]
+However, full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. The most interesting visualizations are context-specific.[@auto_viz]
 
 4. Data analytics software
 
@@ -206,7 +206,7 @@ Data analytics software can analyze vast amounts of data and incredible speeds, 
 
 According to Alysson Ferreira, a UI Engineer, there is an increasing need to understand the latest trends quickly and efficiently, which means there's also a need for significant sources of trustworthy information.[@UI_engineer]
 
-This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. **In simple terms, data visualization is the art of translating complex data into meaningful information.**[@future_viz]
+This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.[@future_viz]
 
 Plug in any data set into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization cannot explain data, leaving room for interpretation.
 
@@ -216,7 +216,7 @@ Although simple visualizations such as standard chart types (bar chart, line cha
 
 The focus in today's world has been on open source tools and technologies and these tools although being free for the most part to require more effort to integrate to the current visualization workflow seamlessly. As mentioned in one of the articles about D3.js:
 
-**D3.js** is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility. 
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility. 
 
 Ultimately, the focus should be on our goals rather than our tools.
 
