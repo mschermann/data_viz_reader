@@ -47,27 +47,38 @@ The aesthetic quality of a data visualization can range from ugly (a display tha
 ![Human VS Natual influences on climate](https://www.epa.gov/sites/production/files/2016-07/models-observed-human-natural.png)
 
 *2.1.1*
+
 Usefulness: ****(total 5 star)
+
 It helps people to understand how Natural Factor and Human Factor influences on climate seperately overtime(1900-2000)
 
 *2.1.2*
+
 Completeness: *****
+
 For the title's perspective, it provided in the form of comparisons(HUman VS Natural), as well as comparisons to targets(Observations), measures of the norm and historical values(Global Temperature Change).
 
 *2.1.3*
+
 Perceptibility:**
 It is readable, but it is a bit confusing, because 'Natural and Human Factors' and 'Natural Factors Only' kind of overlapped of Natural part, it would be better devide 'Natual' and 'Human' factor purely.
 
 *2.1.4*
+
 Truthfulness:***
+
 The graph seems accurate and valid, except for the part that mentioned above. If it can use 'Human factor only' and 'Natural factor only' would be more accurate.
 
 *2.1.5*
+
 Intuitiveness:****
+
 The line and different color made the chart easily to understand.
 
 *2.1.6*
+
 Aesthetics:***
+
 It is a normal chart with clearly line and color.
 
 
@@ -77,27 +88,39 @@ It is a normal chart with clearly line and color.
 ![Contributors to Global Warming over the Past 50-65 Years](https://static.skepticalscience.com/graphics/GW_Attribution_med.jpg)
 
 *2.2.1*
+
 Usefulness: **
+
 It helps people to understand Natural and Human contribution on global warming fro the past 50-65 years based on 10 different studies(different color in the graph), but not so important for audience to know the slightly different between each studies. Because they all show Human contribute more than natural on global warming.
 
 *2.2.2*
+
 Completeness: **
+
 It provided the differences(contribution) based on different study, as well as two targets(Human VS Natural).
 
 *2.2.3*
+
 Perceptibility:***
+
 It is readable, but it is a bit confusing about the describtion, better to add a title on the 10 study.
 
 *2.2.4*
+
 Truthfulness:***
+
 The graph seems accurate and valid.
 
 *2.2.5*
+
 Intuitiveness:***
+
 The histogram is easily understand with different color devided into two catagory. 
 
 *2.2.6*
+
 Aesthetics:***
+
 It is a normal histogram with clearly line and color.
 
 
@@ -108,19 +131,27 @@ It is a normal histogram with clearly line and color.
 ![Natural Greenhouse Effect VS Human Enhanced Greenhouse Effect](https://i2.wp.com/timescavengers.blog/wp-content/uploads/2017/04/gh_effect-01.jpg)
 
 *2.3.1*
+
 Usefulness: ****
+
 It shows that human activities enhanced Greenhouse effect compare to Natural Greenhouse effect, which cause global warming.So the graph is useful.
 
 *2.3.2*
+
 Completeness: **
+
 It use picture to compare the amount of re-radiated heat reflected to earth with and without human activities.But data was not provided.
 
 *2.3.3*
+
 Perceptibility:****
+
 It is pretty easy to read at the first sight.
 
 *2.3.4*
+
 Truthfulness:***
+
 The graph is valid, but if it comes with data would be more accurate.
 
 *2.3.5*
@@ -128,7 +159,9 @@ Intuitiveness:****
 The histogram is easily understandable with a vivid earth shape and the mimic the radiation. 
 
 *2.3.6*
+
 Aesthetics:***
+
 It is simple, the visualization of the sun and radiation can be more pretty .
 
 
@@ -138,27 +171,39 @@ It is simple, the visualization of the sun and radiation can be more pretty .
 
 
 *2.4.1*
+
 Usefulness: ****
+
 It shows the likelyhood that human activities cause global warming, with percetage and decribe. It is helpful to audience understand the amount of human-caused global warming is significantly increase in the past 30 years
 
 *2.4.2*
+
 Completeness: ****
+
 It includes picture, data(percetage), and decription, simple but complete.
 
 *2.4.3*
+
 Perceptibility:****
+
 It use human figure and blue/white color to show the significant change from 1995 to 2001, the amount of human-caused warming was increase dramatically during this period.
 
 *2.4.4*
+
 Truthfulness:***
+
 The graph is accurate and valid.
 
 *2.4.5*
+
 Intuitiveness:****
+
 It is easily to read and understand for audience. 
 
 *2.4.6*
+
 Aesthetics:***
+
 It is simple but interesting.
 
 **2.4.Opposite example**
@@ -166,30 +211,44 @@ It is simple but interesting.
 ![How much does human activity affect greenhouse gases](https://www.dailysignal.com//wp-content/uploads/2009/03/human-global-warming.jpg)
 
 *2.4.1*
+
 Usefulness: *****
+
 Different from the 4 graph above, this picture shows an opposite point of view. Despite the correctness, it help audience gather all kinds of information and come to a reasonable conclusion.
 
 *2.4.2*
+
 Completeness: ****
+
 It includes picture, data(percetage), and decription, simple but complete.
 
 *2.4.3*
+
 Perceptibility:****
+
 The graph is very simple but good for portion display, audience can easily have sense at the first sight.
 
 *2.4.4*
+
 Truthfulness:****
+
 The graph is accurate and valid.
 
 *2.4.5*
+
 Intuitiveness:****
+
 It is easily to read and understand. 
 
 *2.4.6*
+
 Aesthetics:**
+
 It is simple regular visualization.
 
+
 **Inconclusion, those 5 graph use different visualization method and display to show human activities' influence on global warming, all of them are using comparison. Either compare with Natural effect, or compare with different time line, or using proportion. This shows a good visualization needs to deliver a accurate and measurable information to the audience, the best way is comparison.**
+
 
 **3. Replicate a data visualization**
 
