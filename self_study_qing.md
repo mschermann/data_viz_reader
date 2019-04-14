@@ -84,7 +84,7 @@ It helps people to understand Natural and Human contribution on global warming f
 Completeness: **
 It provided the differences(contribution) based on different study, as well as two targets(Human VS Natural).
 
-###2.2.3
+*2.2.3*
 Perceptibility:***
 It is readable, but it is a bit confusing about the describtion, better to add a title on the 10 study.
 
@@ -92,7 +92,7 @@ It is readable, but it is a bit confusing about the describtion, better to add a
 Truthfulness:***
 The graph seems accurate and valid.
 
-###2.2.5
+*2.2.5*
 Intuitiveness:***
 The histogram is easily understand with different color devided into two catagory. 
 
