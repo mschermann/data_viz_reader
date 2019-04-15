@@ -4,6 +4,10 @@ The project is based on R Markdown and **bookdown** (https://github.com/rstudio/
 
 Contributors
 
+* qing
+
+
 * KlippL
 * mschermann
 
+contributions
