@@ -272,9 +272,9 @@ quaChange <- 100 * round( (curr-prev) / prev, 2 )
 barCols <- sapply(quaChange, 
 	function(x) { 
 		if (x < 0) {
-			return("#2cbd25")
+			return("#8E1600")
 		} else {
-			return("gray")
+			return("#2cbd25")
 		}
 	})
 
@@ -289,9 +289,9 @@ annChange <- 100 * round( (curr-prev) / prev, 2 )
 barCols <- sapply(annChange, 
 	function(x) { 
 		if (x < 0) {
-			return("#2cbd25")
+			return("#8E1600")
 		} else {
-			return("gray")
+			return("#2cbd25")
 		}
 	})
 
@@ -308,9 +308,9 @@ salesDiff <- as.numeric(data$sales) - curr
 barCols.diff <- sapply(salesDiff,
 	function(x) {
 		if (x < 0) {
-			return("gray")
+			return("#8E1600")
 		} else {
-			return("black")
+			return("#2cbd25")
 		}
 	}
 )
@@ -325,9 +325,9 @@ salesDiff <- as.numeric(data$sales) - ori
 barCols.diff <- sapply(salesDiff,
 	function(x) {
 		if (x < 0) {
-			return("gray")
+			return("#8E1600")
 		} else {
-			return("black")
+			return("#2cbd25")
 		}
 	}
 )
