@@ -14,12 +14,6 @@ Alberto Cairo sees data visualization as harmonization of journalism and enginee
 
 Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
-Cairo briefly addresses four guidelines that are applicable in all information gathering fields: 
-1. Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context. 
-2. False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being. 
-3. Even if the information is both accurate and relevant, moral pitfalls may remain. 
-4. To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. 
-
 **Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.** While it can be a bit jarring to think of a poorly designed graphic as "morally wrong," it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
 
 ## Implications of (Good/Bad) Data Visualization
@@ -42,7 +36,11 @@ We should understand how to best derive meaning from data, but first we should u
 Data visualization is an up-and-coming field that currently does not have many established regulations. This makes it easy to manipulate readers without technically reporting false information. However, certain standards should be followed in order to generate meaningful and accurate visuals. The process can be broken down into three steps, each with its own set of guiding rules.
 
 ### Data Collection  
-The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one.
+The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one. In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields: 
+1. Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context. 
+2. False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being. 
+3. Even if the information is both accurate and relevant, moral pitfalls may remain. 
+4. To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. 
 
 ### Data Analysis  
 This is the stage where the discoveries are made and thus, is the first opportunity to manipulate the story. There is usually a lot of data cleaning to do before creating a visual representation, but all data wrangling steps should be deliberate and reasonable. If possible the underlying code should be publicly shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these ideally should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters to perform careful analysis of the data and extract true stories from them.
@@ -54,6 +52,10 @@ Once a visualizer decides on an argument, it is important to present it honestly
 
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
+Guiding rules for designing the visuals according to Skau are as follows:
+* Use the visuals you chose to depict the data and analysis accurately.
+* Be attentive to labelling best practices and hierarchy of importance of visual properties, such as colors.
+* Read on topics related to visualization, study any visualizations critically, and be open to criticism.
 
 ## Definitions of Data Deception and Graphic Integrity  
 [@decept_study],[@rose_tint]
@@ -189,6 +191,9 @@ Misleading graphs are sometimes deliberately misleading and sometimes, it’s ju
 ### The Missing Baseline  
 For example, the vertical scale is too big or too small, skips numbers, or does not start at zero. For example, in the graph below, you might be thinking that the graph on the right shows that The Times makes double the sales of The Daily Telegraph. However, a closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
 
+![Misleading Graphs: The Missing Baseline](images/misleading-graph-2.jpg)
+
+(source:[@missing_baseline])
 ### The Graph is not Labeled Properly  
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
