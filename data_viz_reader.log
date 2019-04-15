@@ -1,0 +1,2168 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.24)  15 APR 2019 12:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data_viz_reader.tex
+(./data_viz_reader.tex
+LaTeX2e <2017-04-15>
+Babel <3.16> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/local/texlive/2017/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count100
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/loc
+al/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/t
+exlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/12/16 L3 programming layer (loader) 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/12/16 L3 programming layer (code)
+\c_max_int=\count101
+\l_tmpa_int=\count102
+\l_tmpb_int=\count103
+\g_tmpa_int=\count104
+\g_tmpb_int=\count105
+\g__intarray_font_int=\count106
+\g__prg_map_int=\count107
+\c_log_iow=\count108
+\l_iow_line_count_int=\count109
+\l__iow_line_target_int=\count110
+\l__iow_one_indent_int=\count111
+\l__iow_indent_int=\count112
+\c_zero_dim=\dimen112
+\c_max_dim=\dimen113
+\l_tmpa_dim=\dimen114
+\l_tmpb_dim=\dimen115
+\g_tmpa_dim=\dimen116
+\g_tmpb_dim=\dimen117
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count113
+\c__fp_leading_shift_int=\count114
+\c__fp_middle_shift_int=\count115
+\c__fp_trailing_shift_int=\count116
+\c__fp_big_leading_shift_int=\count117
+\c__fp_big_middle_shift_int=\count118
+\c__fp_big_trailing_shift_int=\count119
+\c__fp_Bigg_leading_shift_int=\count120
+\c__fp_Bigg_middle_shift_int=\count121
+\c__fp_Bigg_trailing_shift_int=\count122
+\l__sort_length_int=\count123
+\l__sort_min_int=\count124
+\l__sort_top_int=\count125
+\l__sort_max_int=\count126
+\l__sort_true_max_int=\count127
+\l__sort_block_int=\count128
+\l__sort_begin_int=\count129
+\l__sort_end_int=\count130
+\l__sort_A_int=\count131
+\l__sort_B_int=\count132
+\l__sort_C_int=\count133
+\l__tl_build_start_index_int=\count134
+\l__tl_build_index_int=\count135
+\l__tl_analysis_normal_int=\count136
+\l__tl_analysis_index_int=\count137
+\l__tl_analysis_nesting_int=\count138
+\l__tl_analysis_type_int=\count139
+\l__regex_internal_a_int=\count140
+\l__regex_internal_b_int=\count141
+\l__regex_internal_c_int=\count142
+\l__regex_balance_int=\count143
+\l__regex_group_level_int=\count144
+\l__regex_mode_int=\count145
+\c__regex_cs_in_class_mode_int=\count146
+\c__regex_cs_mode_int=\count147
+\l__regex_catcodes_int=\count148
+\l__regex_default_catcodes_int=\count149
+\c__regex_catcode_L_int=\count150
+\c__regex_catcode_O_int=\count151
+\c__regex_catcode_A_int=\count152
+\c__regex_all_catcodes_int=\count153
+\l__regex_show_lines_int=\count154
+\l__regex_min_state_int=\count155
+\l__regex_max_state_int=\count156
+\l__regex_left_state_int=\count157
+\l__regex_right_state_int=\count158
+\l__regex_capturing_group_int=\count159
+\l__regex_min_pos_int=\count160
+\l__regex_max_pos_int=\count161
+\l__regex_curr_pos_int=\count162
+\l__regex_start_pos_int=\count163
+\l__regex_success_pos_int=\count164
+\l__regex_curr_char_int=\count165
+\l__regex_curr_catcode_int=\count166
+\l__regex_last_char_int=\count167
+\l__regex_case_changed_char_int=\count168
+\l__regex_curr_state_int=\count169
+\l__regex_step_int=\count170
+\l__regex_min_active_int=\count171
+\l__regex_max_active_int=\count172
+\l__regex_replacement_csnames_int=\count173
+\l__regex_match_count_int=\count174
+\l__regex_min_submatch_int=\count175
+\l__regex_submatch_int=\count176
+\l__regex_zeroth_submatch_int=\count177
+\g__debug_trace_regex_int=\count178
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+\l__box_top_dim=\dimen118
+\l__box_bottom_dim=\dimen119
+\l__box_left_dim=\dimen120
+\l__box_right_dim=\dimen121
+\l__box_top_new_dim=\dimen122
+\l__box_bottom_new_dim=\dimen123
+\l__box_left_new_dim=\dimen124
+\l__box_right_new_dim=\dimen125
+\l__box_internal_box=\box33
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen126
+\l__coffin_offset_x_dim=\dimen127
+\l__coffin_offset_y_dim=\dimen128
+\l__coffin_x_dim=\dimen129
+\l__coffin_y_dim=\dimen130
+\l__coffin_x_prime_dim=\dimen131
+\l__coffin_y_prime_dim=\dimen132
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen133
+\l__coffin_display_x_dim=\dimen134
+\l__coffin_display_y_dim=\dimen135
+\l__coffin_bounding_shift_dim=\dimen136
+\l__coffin_left_corner_dim=\dimen137
+\l__coffin_right_corner_dim=\dimen138
+\l__coffin_bottom_corner_dim=\dimen139
+\l__coffin_top_corner_dim=\dimen140
+\l__coffin_scaled_total_height_dim=\dimen141
+\l__coffin_scaled_width_dim=\dimen142
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count179
+\l__driver_tmp_box=\box43
+))
+Package: xparse 2017/12/16 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count180
+\g__xparse_grabber_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_mandatory_args_int=\count183
+\l__xparse_v_nesting_int=\count184
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count185
+\l__fontspec_language_int=\count186
+\l__fontspec_strnum_int=\count187
+\l__fontspec_tmp_int=\count188
+\l__fontspec_em_int=\count189
+\l__fontspec_emdef_int=\count190
+\l__fontspec_strong_int=\count191
+\l__fontspec_strongdef_int=\count192
+\l__fontspec_tmpa_dim=\dimen143
+\l__fontspec_tmpb_dim=\dimen144
+\l__fontspec_tmpc_dim=\dimen145
+\g__file_internal_ior=\read1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 598.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 610.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 622.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 626.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3693.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3699.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+.................................................
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3891.
+LaTeX Info: Redefining \slshape on input line 3896.
+LaTeX Info: Redefining \scshape on input line 3901.
+LaTeX Info: Redefining \upshape on input line 3906.
+LaTeX Info: Redefining \em on input line 3936.
+LaTeX Info: Redefining \emph on input line 3961.
+LaTeX Info: Redefining \- on input line 4015.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 4110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 4114.
+.................................................
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
+/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count194
+\c@eu@i=\count195
+\c@mkern=\count196
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks22
+\MT@count=\count197
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen146
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count198
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2018/01/14 v2.7a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 256.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks23
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count268
+\Hy@pagecounter=\count269
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count270
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count271
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen156
+\Fld@menulength=\count272
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count273
+\c@Item=\count274
+\c@Hfootnote=\count275
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2017/03/14 v6.85a Hyperref driver for XeTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box44
+\c@Hy@AnnotLevel=\count276
+\HyField@AnnotCount=\count277
+\Fld@listcount=\count278
+\c@bookmark@seq@number=\count279
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `unicode' set `true' on input line 30.
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 30.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count280
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count281
+\FV@StepNumber=\count282
+\FV@OutFile=\write3
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen159
+\fb@frh=\dimen160
+\FrameRule=\dimen161
+\FrameSep=\dimen162
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count283
+\LTcapwidth=\dimen163
+\LT@head=\box46
+\LT@firsthead=\box47
+\LT@foot=\box48
+\LT@lastfoot=\box49
+\LT@cols=\count284
+\LT@rows=\count285
+\c@LT@tables=\count286
+\c@LT@chunks=\count287
+\LT@p@ftn=\toks24
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen176
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+)
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+
+Package grffile Warning: \Gread@QTm of xetex.def not found on input line 259.
+
+
+Package grffile Warning: Unsupported \Gread@eps not patched on input line 303.
+
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip58
+\thanksmargin=\skip59
+\droptitle=\skip60
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks30
+) (./data_viz_reader.aux)
+\openout1 = `data_viz_reader.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 137.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Info: Redefining \microtypecontext on input line 137.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box50
+Package hyperref Info: Link coloring OFF on input line 137.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count292
+)
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
+(./data_viz_reader.out) (./data_viz_reader.out)
+\@outlinefile=\write4
+\openout4 = `data_viz_reader.out'.
+
+[1
+
+
+] [2
+
+] (./data_viz_reader.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3])
+\tf@toc=\write5
+\openout5 = `data_viz_reader.toc'.
+
+[4]
+Chapter 1.
+File: images/halper_welfare.jpg Graphic file (type bmp)
+<images/halper_welfare.jpg>
+[5
+
+]
+Overfull \hbox (55.24498pt too wide) in paragraph at lines 191--191
+[]  \TU/lmtt/m/n/10 url={https://www.weeklystandard.com/daniel-halper/over-100-
+million-now-receiving-federal-welfare},[] 
+ []
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 212.
+File: data_viz_reader_files/figure-latex/nice-fig-1.pdf Graphic file (type pdf)
+
+<use data_viz_reader_files/figure-latex/nice-fig-1.pdf>
+[6] [7] [8
+
+]
+Chapter 2.
+File: images/Presentation.jpg Graphic file (type bmp)
+<images/Presentation.jpg>
+File: images/Exploratory.png Graphic file (type bmp)
+<images/Exploratory.png>
+File: images/confirmatory.png Graphic file (type bmp)
+<images/confirmatory.png>
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10] [11] [12]
+Overfull \hbox (6.46667pt too wide) in paragraph at lines 469--470
+[]\TU/lmr/m/n/10 Measurement 
+ []
+
+
+Overfull \hbox (4.95667pt too wide) in paragraph at lines 504--505
+\TU/lmr/m/n/10 Visualization|  
+ []
+
+
+Overfull \hbox (4.95667pt too wide) in paragraph at lines 511--512
+\TU/lmr/m/n/10 Visualization|  
+ []
+
+[13] [14]
+File: images/Playfair.png Graphic file (type bmp)
+<images/Playfair.png>
+File: images/Snow.png Graphic file (type bmp)
+<images/Snow.png>
+
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+[15]
+File: images/Minard.png Graphic file (type bmp)
+<images/Minard.png>
+[16]
+File: images/FlorenceNightingale.png Graphic file (type bmp)
+<images/FlorenceNightingale.png>
+File: images/Edmond.png Graphic file (type bmp)
+<images/Edmond.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[17] [18]
+File: images/Charles.png Graphic file (type bmp)
+<images/Charles.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[19]
+File: images/Luigi.png Graphic file (type bmp)
+<images/Luigi.png>
+
+Underfull \vbox (badness 3291) has occurred while \output is active []
+
+[20]
+File: images/hans.png Graphic file (type bmp)
+<images/hans.png>
+[21]
+File: images/Number_ones.png Graphic file (type bmp)
+<images/Number_ones.png>
+[22]
+Overfull \hbox (319.98416pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.5.  AN EXAMPLE TO BACK SOME OF OUR THEORIES ON ‘HOW TO TELL S
+TORIES USING DATA VISUALIZATION’ AND ‘EXPLORATORY DATA VISUALIZATION’ \TU/lmr/m
+/n/10 23
+ []
+
+[23] [24]
+Overfull \hbox (69.98961pt too wide) in paragraph at lines 938--939
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]|  
+ []
+
+
+Overfull \hbox (39.35959pt too wide) in paragraph at lines 959--960
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]|  
+ []
+
+[25] [26] [27] [28]
+Chapter 3.
+[29
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[30]
+Underfull \hbox (badness 1939) in paragraph at lines 1209--1211
+[]\TU/lmr/m/n/10 Before defining each principle, let us understand ‘Graphical i
+ntegrity’ first.\TU/lmr/bx/n/10 Graphical integrity
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 1209--1211
+\TU/lmr/m/n/10 this can lead to a false impression of the data, and incorrect c
+onclusions. (Source:(\TU/lmr/bx/n/10 ???\TU/lmr/m/n/10 )([]$[][][][][] []
+ []
+
+File: images/Tufte_figure1.png Graphic file (type bmp)
+<images/Tufte_figure1.png>
+
+Overfull \hbox (220.64265pt too wide) in paragraph at lines 1221--1224
+[]\TU/lmr/bx/n/10 Erase non-data-ink and redundant data-ink. []
+ []
+
+File: images/Tufte_figure2.png Graphic file (type bmp)
+<images/Tufte_figure2.png>
+
+Overfull \hbox (220.64693pt too wide) in paragraph at lines 1225--1228
+[]\TU/lmr/bx/n/10 Erase non-data-ink and redundant data-ink. []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[31]
+File: images/Tufte_figure3.png Graphic file (type bmp)
+<images/Tufte_figure3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[32]
+File: images/Tufte_figure4.png Graphic file (type bmp)
+<images/Tufte_figure4.png>
+
+Overfull \hbox (98.69893pt too wide) in paragraph at lines 1232--1235
+[]\TU/lmr/bx/n/10 Always revise and edit []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[33] [34]
+File: images/Tufte_figure6.png Graphic file (type bmp)
+<images/Tufte_figure6.png>
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+[35]
+File: images/Tufte_figure8.png Graphic file (type bmp)
+<images/Tufte_figure8.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1262
+[][]
+ []
+
+File: images/Tufte_figure7.png Graphic file (type bmp)
+<images/Tufte_figure7.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1265
+[][]
+ []
+
+[36]
+File: images/Tufte_figure9.png Graphic file (type bmp)
+<images/Tufte_figure9.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[37]
+File: images/Tufte_figure10.png Graphic file (type bmp)
+<images/Tufte_figure10.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
+[][]
+ []
+
+[38]
+File: images/Tufte_figure11.png Graphic file (type bmp)
+<images/Tufte_figure11.png>
+File: images/Tufte_figure12.png Graphic file (type bmp)
+<images/Tufte_figure12.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1314--1316
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[40]
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+[41]
+Overfull \hbox (6.80963pt too wide) in paragraph at lines 1463--1464
+[]\TU/lmr/bx/n/10 Transformation|  
+ []
+
+[42] [43] [44]
+Missing character: There is no ： in font [lmroman12-bold]:mapping=tex-text;!
+
+Overfull \hbox (6.57164pt too wide) in paragraph at lines 1690--1691
+[]\TU/lmr/bx/n/10 Matplotlib|  
+ []
+
+
+Overfull \hbox (5.65164pt too wide) in paragraph at lines 1720--1721
+[]\TU/lmr/bx/n/10 Geoplotlib|  
+ []
+
+
+Overfull \hbox (3.68164pt too wide) in paragraph at lines 1730--1731
+[]\TU/lmr/bx/n/10 Missingno|  
+ []
+
+[45] [46]
+Overfull \hbox (306.93192pt too wide) detected at line 1777
+\OML/lmm/m/it/10 ggplot\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 data \OT1/lmr/m/n/10 =
+ \OML/lmm/m/it/10 DATA\OT1/lmr/m/n/10 ) + \OML/lmm/m/it/10 GEOMFUNCTION\OT1/lmr
+/m/n/10 (\OML/lmm/m/it/10 mapping \OT1/lmr/m/n/10 = \OML/lmm/m/it/10 aes\OT1/lm
+r/m/n/10 (\OML/lmm/m/it/10 MAPPINGS\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 ; stat \OT
+1/lmr/m/n/10 = \OML/lmm/m/it/10 STAT; position \OT1/lmr/m/n/10 = \OML/lmm/m/it/
+10 POSITION\OT1/lmr/m/n/10 ) + \OML/lmm/m/it/10 COORDINATEFUNCTION \OT1/lmr/m/n
+/10 + \OML/lmm/m/it/10 FACETFUNCTION
+ []
+
+File: data_viz_reader_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-1-1.pdf>
+[47]
+Overfull \hbox (10.96964pt too wide) in paragraph at lines 1831--1832
+[]\TU/lmr/m/n/10 coord_quickmap()|  
+ []
+
+File: data_viz_reader_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-2-1.pdf>
+File: data_viz_reader_files/figure-latex/unnamed-chunk-2-2.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-2-2.pdf>
+[48] [49] [50]
+Overfull \hbox (12.27875pt too wide) in paragraph at lines 1979--1980
+[]\TU/lmr/bx/n/10 Definition|  
+ []
+
+
+Overfull \hbox (15.84875pt too wide) in paragraph at lines 1986--1987
+[]\TU/lmr/bx/n/10 Preference|  
+ []
+
+
+Overfull \hbox (7.10875pt too wide) in paragraph at lines 2000--2001
+[]\TU/lmr/bx/n/10 Platform|  
+ []
+
+
+Overfull \hbox (15.31876pt too wide) in paragraph at lines 2007--2008
+[]\TU/lmr/bx/n/10 Generality|  
+ []
+
+
+Overfull \hbox (14.16875pt too wide) in paragraph at lines 2014--2015
+[]\TU/lmr/bx/n/10 Algorithm|  
+ []
+
+
+Overfull \hbox (18.46875pt too wide) in paragraph at lines 2021--2022
+[]\TU/lmr/bx/n/10 Integration|  
+ []
+
+[51] [52] [53] [54]
+Overfull \hbox (3.73297pt too wide) in paragraph at lines 2156--2157
+[]\TU/lmr/bx/n/10 Step|  
+ []
+
+
+Overfull \hbox (5.12668pt too wide) in paragraph at lines 2181--2182
+\TU/lmr/m/n/10 Development|  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[55] [56]
+File: images/TypographicTitanic.jpg Graphic file (type bmp)
+<images/TypographicTitanic.jpg>
+[57]
+Overfull \hbox (12.81876pt too wide) in paragraph at lines 2279--2280
+[]\TU/lmr/m/n/10 Newsletters|  
+ []
+
+
+Overfull \hbox (7.17874pt too wide) in paragraph at lines 2314--2315
+[]\TU/lmr/m/n/10 Marketing 
+ []
+
+[58] [59] [60]
+Chapter 4.
+[61
+
+]
+File: images/NYCflights.png Graphic file (type bmp)
+<images/NYCflights.png>
+File: images/immigration.png Graphic file (type bmp)
+<images/immigration.png>
+[62] [63]
+File: images/uber_mapping.png Graphic file (type bmp)
+<images/uber_mapping.png>
+
+Underfull \vbox (badness 3229) has occurred while \output is active []
+
+[64]
+File: images/Party_Votes_by_Age.png Graphic file (type bmp)
+<images/Party_Votes_by_Age.png>
+[65]
+File: images/CA_migration.png Graphic file (type bmp)
+<images/CA_migration.png>
+File: images/PA_migration.png Graphic file (type bmp)
+<images/PA_migration.png>
+File: images/npr_workday.png Graphic file (type bmp)
+<images/npr_workday.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[66]
+Overfull \vbox (52.61366pt too high) has occurred while \output is active []
+
+[67]
+File: images/construction.png Graphic file (type bmp)
+<images/construction.png>
+File: images/server_cook.png Graphic file (type bmp)
+<images/server_cook.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[68]
+File: images/protective.png Graphic file (type bmp)
+<images/protective.png>
+
+Overfull \hbox (288.98412pt too wide) in paragraph at lines 2586--2588
+\TU/lmr/m/n/10 out the night, which is entirely different from all other occupa
+tions. [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[69]
+File: images/SpendingTime.png Graphic file (type bmp)
+<images/SpendingTime.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[70]
+File: images/britain-diet-data-trends.PNG Graphic file (type bmp)
+<images/britain-diet-data-trends.PNG>
+File: images/britain-diet-data-typical_diet.png Graphic file (type bmp)
+<images/britain-diet-data-typical_diet.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2606--2609
+[][]
+ []
+
+
+Overfull \hbox (105.36923pt too wide) in paragraph at lines 2606--2609
+\TU/lmr/m/n/10 Source: (Institute []2016[]) [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[72]
+File: images/selfie_age_gender.png Graphic file (type bmp)
+<images/selfie_age_gender.png>
+[73]
+File: images/millenials_diversity.png Graphic file (type bmp)
+<images/millenials_diversity.png>
+File: images/recession_jobs.png Graphic file (type bmp)
+<images/recession_jobs.png>
+[74]
+File: images/recession_jobs2.png Graphic file (type bmp)
+<images/recession_jobs2.png>
+File: images/aging_nation.jpg Graphic file (type bmp)
+<images/aging_nation.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[75]
+File: images/Pyramid.jpg Graphic file (type bmp)
+<images/Pyramid.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[76]
+File: images/3_1.png Graphic file (type bmp)
+<images/3_1.png>
+[77]
+File: images/music_timeline.png Graphic file (type bmp)
+<images/music_timeline.png>
+File: images/music_timeline_rock.png Graphic file (type bmp)
+<images/music_timeline_rock.png>
+[78]
+File: images/life_of_americans.png Graphic file (type bmp)
+<images/life_of_americans.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[79]
+File: images/200_countries_years.png Graphic file (type bmp)
+<images/200_countries_years.png>
+Missing character: There is no ₂ in font [lmroman10-regular]:mapping=tex-text;!
+[80]
+File: images/carbon_emissions.png Graphic file (type bmp)
+<images/carbon_emissions.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[81]
+File: images/volcano_global_warming.png Graphic file (type bmp)
+<images/volcano_global_warming.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[82]
+File: images/global_plastic_usage.png Graphic file (type bmp)
+<images/global_plastic_usage.png>
+
+Overfull \hbox (231.03001pt too wide) in paragraph at lines 2767--2769
+[]\TU/lmr/bx/n/10 Usage of plastic in last few decades \TU/lmr/m/n/10 (Gr?n []2
+016[]): [] 
+ []
+
+File: images/use_of_plastic.png Graphic file (type bmp)
+<images/use_of_plastic.png>
+
+Overfull \hbox (176.89832pt too wide) in paragraph at lines 2772--2774
+[]\TU/lmr/bx/n/10 What is plastic used for. \TU/lmr/m/n/10 (Gr?n []2016[]) [] 
+ []
+
+[83]
+File: images/plastic_use.png Graphic file (type bmp)
+<images/plastic_use.png>
+[84]
+File: images/Ocean_Plasticpollution.jpg Graphic file (type bmp)
+<images/Ocean_Plasticpollution.jpg>
+
+Overfull \hbox (136.64813pt too wide) in paragraph at lines 2786--2788
+\TU/lmr/bx/n/10 is in our oceans.\TU/lmr/m/n/10 (Moret []2014[]) [] 
+ []
+
+File: images/infographic-plastic-buildup.jpg Graphic file (type bmp)
+<images/infographic-plastic-buildup.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[85]
+File: images/ocean_plastic.png Graphic file (type bmp)
+<images/ocean_plastic.png>
+
+Overfull \hbox (224.38052pt too wide) in paragraph at lines 2792--2794
+[]\TU/lmr/bx/n/10 Infographic plastic pollution \TU/lmr/m/n/10 (ROUTLEY []2018[
+]) [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[86]
+File: images/colorwords.png Graphic file (type bmp)
+<images/colorwords.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[87] [88]
+File: images/SotU2014.png Graphic file (type bmp)
+<images/SotU2014.png>
+File: images/NewClinton.png Graphic file (type bmp)
+<images/NewClinton.png>
+File: images/img_syria_summary.PNG Graphic file (type bmp)
+<images/img_syria_summary.PNG>
+[89] [90]
+File: images/img_syria_friendly.PNG Graphic file (type bmp)
+<images/img_syria_friendly.PNG>
+File: images/img_syria_enemies.PNG Graphic file (type bmp)
+<images/img_syria_enemies.PNG>
+File: images/img_syria_complicated.PNG Graphic file (type bmp)
+<images/img_syria_complicated.PNG>
+[91] [92]
+File: images/VUD_simpsons.png Graphic file (type bmp)
+<images/VUD_simpsons.png>
+File: images/satellites.png Graphic file (type bmp)
+<images/satellites.png>
+File: images/malaria_original.png Graphic file (type bmp)
+<images/malaria_original.png>
+[93] [94]
+Overfull \vbox (0.64903pt too high) has occurred while \output is active []
+
+[95]
+File: images/malaria_makeover.png Graphic file (type bmp)
+<images/malaria_makeover.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[96]
+File: images/rentcalc.png Graphic file (type bmp)
+<images/rentcalc.png>
+File: images/NY_trees.png Graphic file (type bmp)
+<images/NY_trees.png>
+[97]
+File: images/img_oscars_actors.PNG Graphic file (type bmp)
+<images/img_oscars_actors.PNG>
+File: images/img_oscars_pic.PNG Graphic file (type bmp)
+<images/img_oscars_pic.PNG>
+File: images/facebook-page-organic-reach-decline-over-years.jpg Graphic file (t
+ype bmp)
+<images/facebook-page-organic-reach-decline-over-years.jpg>
+[98] [99]
+File: images/average-facebook-reach.png Graphic file (type bmp)
+<images/average-facebook-reach.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[100]
+File: images/average-facebook-daily-reach.png Graphic file (type bmp)
+<images/average-facebook-daily-reach.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[101]
+File: images/artist_emoji.png Graphic file (type bmp)
+<images/artist_emoji.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[102] [103]
+File: images/planet.png Graphic file (type bmp)
+<images/planet.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[104]
+File: images/wizards_shooting.png Graphic file (type bmp)
+<images/wizards_shooting.png>
+[105]
+File: images/case_study_1.png Graphic file (type bmp)
+<images/case_study_1.png>
+File: images/case_study_4.png Graphic file (type bmp)
+<images/case_study_4.png>
+File: images/case_study_2.png Graphic file (type bmp)
+<images/case_study_2.png>
+[106] [107]
+File: images/case_study_3.png Graphic file (type bmp)
+<images/case_study_3.png>
+[108]
+Chapter 5.
+
+Underfull \vbox (badness 5787) has occurred while \output is active []
+
+[109
+
+]
+File: data_viz_reader_files/figure-latex/Outliar Detection-1.pdf Graphic file (
+type pdf)
+<use data_viz_reader_files/figure-latex/Outliar Detection-1.pdf>
+File: images/with_outliers.png Graphic file (type bmp)
+<images/with_outliers.png>
+
+Overfull \hbox (33.40517pt too wide) in paragraph at lines 3144--3146
+[]\TU/lmr/m/n/10 Detection-1.bb []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[110]
+File: data_viz_reader_files/figure-latex/Outliar Detection2-1.pdf Graphic file 
+(type pdf)
+<use data_viz_reader_files/figure-latex/Outliar Detection2-1.pdf>
+
+Overfull \hbox (38.40517pt too wide) in paragraph at lines 3154--3155
+[]\TU/lmr/m/n/10 Detection2-1.bb [] 
+ []
+
+File: images/outliers_removed.png Graphic file (type bmp)
+<images/outliers_removed.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[111] [112]
+Overfull \hbox (1.99667pt too wide) in paragraph at lines 3211--3212
+\TU/lmr/m/n/10 Associations|  
+ []
+
+[113] [114]
+File: images/aya-stacked.png Graphic file (type bmp)
+<images/aya-stacked.png>
+
+Overfull \hbox (279.17859pt too wide) in paragraph at lines 3293--3295
+[]\TU/lmr/m/n/10 The figure below is a stacked area chart showing time series d
+ata: [] 
+ []
+
+File: images/aya-stacked-perception.jpg Graphic file (type bmp)
+<images/aya-stacked-perception.jpg>
+[115]
+File: images/aya-bar1.png Graphic file (type bmp)
+<images/aya-bar1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[116]
+File: images/aya-bar2.png Graphic file (type bmp)
+<images/aya-bar2.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[117]
+File: images/aya-gantt.png Graphic file (type bmp)
+<images/aya-gantt.png>
+[118]
+File: images/aya-stream.png Graphic file (type bmp)
+<images/aya-stream.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[119]
+File: images/aya-heat-map.png Graphic file (type bmp)
+<images/aya-heat-map.png>
+[120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[121]
+File: images/aya-polar.jpg Graphic file (type bmp)
+<images/aya-polar.jpg>
+File: images/hickey-before.jpg Graphic file (type bmp)
+<images/hickey-before.jpg>
+[122]
+File: images/hickey-after.jpg Graphic file (type bmp)
+<images/hickey-after.jpg>
+File: images/hickey-breakdown.jpg Graphic file (type bmp)
+<images/hickey-breakdown.jpg>
+[123]
+File: images/hickey-3D.jpg Graphic file (type bmp)
+<images/hickey-3D.jpg>
+File: images/henry-quarter.png Graphic file (type bmp)
+<images/henry-quarter.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[124]
+File: images/henry-half.png Graphic file (type bmp)
+<images/henry-half.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[125]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-4-1.pdf>
+[126]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-5-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[127]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-6-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[128]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-7-1.pdf>
+File: data_viz_reader_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-8-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[129]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (ty
+pe pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-9-1.pdf>
+[130]
+File: images/patten-1.jpg Graphic file (type bmp)
+<images/patten-1.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[131]
+File: images/pattern-2.jpg Graphic file (type bmp)
+<images/pattern-2.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[132]
+File: images/pattern-3.png Graphic file (type bmp)
+<images/pattern-3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[133] [134]
+File: images/analysis_spectrum.png Graphic file (type bmp)
+<images/analysis_spectrum.png>
+[135]
+File: images/interactivity.png Graphic file (type bmp)
+<images/interactivity.png>
+File: images/apps_vs_code.png Graphic file (type bmp)
+<images/apps_vs_code.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[136]
+File: images/tools_force_paths.png Graphic file (type bmp)
+<images/tools_force_paths.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[137] [138] [139] [140]
+File: images/legend1.png Graphic file (type bmp)
+<images/legend1.png>
+File: images/legend2.png Graphic file (type bmp)
+<images/legend2.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[141]
+File: images/legend3.png Graphic file (type bmp)
+<images/legend3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[142] [143]
+File: images/legend4.png Graphic file (type bmp)
+<images/legend4.png>
+[144]
+File: images/legend5.png Graphic file (type bmp)
+<images/legend5.png>
+File: images/legend1.png Graphic file (type bmp)
+<images/legend1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[145]
+File: images/legend2.png Graphic file (type bmp)
+<images/legend2.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[146]
+File: images/legend3.png Graphic file (type bmp)
+<images/legend3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[147]
+Underfull \vbox (badness 3930) detected at line 4011
+ []
+
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+[148]
+File: images/legend4.png Graphic file (type bmp)
+<images/legend4.png>
+File: images/legend5.png Graphic file (type bmp)
+<images/legend5.png>
+[149]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (t
+ype pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-20-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[150]
+File: images/CalendarView.jpg Graphic file (type bmp)
+<images/CalendarView.jpg>
+
+Overfull \hbox (276.5193pt too wide) in paragraph at lines 4072--4075
+\TU/lmr/m/n/10 code which will help you replicate and create your own calendar:
+ [] 
+ []
+
+[151] [152] [153]
+File: data_viz_reader_files/figure-latex/unnamed-chunk-22-1.pdf Graphic file (t
+ype pdf)
+<use data_viz_reader_files/figure-latex/unnamed-chunk-22-1.pdf>
+File: images/diverging_bar.png Graphic file (type bmp)
+<images/diverging_bar.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[154] [155] [156
+
+]
+Chapter 6.
+[157]
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+[158] [159] [160] [161]
+File: images/aya-polar.jpg Graphic file (type bmp)
+<images/aya-polar.jpg>
+[162]
+File: images/Size1.png Graphic file (type bmp)
+<images/Size1.png>
+File: images/Quantity1.png Graphic file (type bmp)
+<images/Quantity1.png>
+[163]
+File: images/Segmentation1.png Graphic file (type bmp)
+<images/Segmentation1.png>
+File: images/PieCharts.png Graphic file (type bmp)
+<images/PieCharts.png>
+
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+[164]
+File: images/Maps1.png Graphic file (type bmp)
+<images/Maps1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[165]
+File: images/misleading-graph-2.jpg Graphic file (type bmp)
+<images/misleading-graph-2.jpg>
+[166]
+File: images/harlin-ice-cream.png Graphic file (type bmp)
+<images/harlin-ice-cream.png>
+File: images/Line_graph1.svg.png Graphic file (type bmp)
+<images/Line_graph1.svg.png>
+File: images/175px-Line_graph1-3.svg.png Graphic file (type bmp)
+<images/175px-Line_graph1-3.svg.png>
+[167]
+File: images/200px-Line_graph1-4.svg.png Graphic file (type bmp)
+<images/200px-Line_graph1-4.svg.png>
+File: images/Bad_graph_extraction.png Graphic file (type bmp)
+<images/Bad_graph_extraction.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[168]
+File: images/Good_graph_extraction.png Graphic file (type bmp)
+<images/Good_graph_extraction.png>
+
+Overfull \hbox (112.02452pt too wide) in paragraph at lines 4535--4537
+\TU/lmr/m/n/10 the steps of visualization. [] 
+ []
+
+File: images/1.png Graphic file (type bmp)
+<images/1.png>
+
+Underfull \hbox (badness 1783) in paragraph at lines 4540--4542
+[]\TU/lmr/m/n/10 An example of using good data in a misleading graph to fool re
+aders comes from Fox News.
+ []
+
+
+Underfull \vbox (badness 4608) has occurred while \output is active []
+
+[169] [170]
+Chapter 7.
+File: images/BillionDollar.jpg Graphic file (type bmp)
+<images/BillionDollar.jpg>
+[171
+
+]
+File: images/Pre-internet.jpg Graphic file (type bmp)
+<images/Pre-internet.jpg>
+File: images/InternetAge.jpg Graphic file (type bmp)
+<images/InternetAge.jpg>
+[172] [173] [174] [175] [176]
+Overfull \hbox (7.01962pt too wide) in paragraph at lines 4845--4846
+[]\TU/lmr/m/n/10 (beautifuldata.net 
+ []
+
+[177] [178]
+Overfull \hbox (24.52496pt too wide) in paragraph at lines 4904--4906
+[][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] []
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 4907--4909
+[][]\TU/lmr/m/n/10 AbsentData. 2018. “Advantages and Disadvantages of Tableau.”
+ []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 4916--4918
+\TU/lmr/m/n/10 State by State.” []https://www.nytimes.com/interactive/2014/08/1
+3/upshot/where-people-in-each-state-
+ []
+
+
+Overfull \hbox (1.35901pt too wide) in paragraph at lines 4922--4924
+[][]\TU/lmr/m/n/10 Aldhous, Peter, and Charles Seife. 2016. “Spies in the Skies
+.” []https://www.buzzfeed.com/peteraldhous/spies-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 4931--4933
+[][]\TU/lmr/m/n/10 analysis, Statistical tools for high-throughput data. 2018. 
+“Text mining and word cloud fun-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 4931--4933
+\TU/lmr/m/n/10 damentals in R : 5 simple steps you should know.” []$[][][][][] 
+[] [] [] [][][][] [] [][][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][]
+[][] []
+ []
+
+
+Overfull \hbox (33.055pt too wide) in paragraph at lines 4946--4948
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][]
+[][] [] [][][][] [] [][] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][] []
+ []
+
+[179
+
+]
+Overfull \hbox (43.055pt too wide) in paragraph at lines 4964--4966
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] [] [][][][][][]
+[][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][]$[]\TU/lmr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 4973--4975
+[][]\TU/lmr/m/n/10 Boost Labs. 2015. “Corporate Scorecards and Data Visualizati
+on.” []$[][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (130.27103pt too wide) in paragraph at lines 4982--4984
+[][]\TU/lmr/m/n/10 Bostock, Mike, Shan Carter, and Archie Tse. 2014. “Is It Bet
+ter to Rent or Buy?” []https://www.nytimes.com/interactive/2014/upshot/buy-
+ []
+
+
+Overfull \hbox (52.15497pt too wide) in paragraph at lines 5000--5002
+\TU/lmr/m/n/10 tions.” []$[][][][][] [] [] [] [][][][][][][][][][] [] [][][] []
+ [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Overfull \hbox (21.34204pt too wide) in paragraph at lines 5006--5008
+[][]\TU/lmr/m/n/10 Castañón, Jorge. 2016. “Shiny: a data scientist’s best frien
+d.” []$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][] []
+ []
+
+[180]
+Overfull \hbox (10.815pt too wide) in paragraph at lines 5021--5023
+[][]\TU/lmr/m/n/10 “Data Visualization Best Practices.” 2017. Blog. []$[][][][]
+ [] [] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Overfull \hbox (39.83496pt too wide) in paragraph at lines 5078--5080
+[]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][][][][][][] [] [][][] [
+] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][]$[]\TU/lmr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 5084--5086
+[][]\TU/lmr/m/n/10 Harford, Tim. 2013. “Misinformation Can Be Beautiful Too.” [
+]$[][][][] [] [] [] [][][][][][][][][][] [] [][][] [] [][][][] [] [][] []
+ []
+
+[181]
+Overfull \hbox (56.85701pt too wide) in paragraph at lines 5093--5095
+[][]\TU/lmr/m/n/10 Hickey, Walter. 2013. “The Worst Chart in the World.” []$[][
+][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 5096--5098
+\TU/lmr/m/n/10 Britain voted in 2017.” []$[][][][][] [] [] [] [][][] [] [][][][
+][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][]
+[][][][][][][][][][] [] [][][][] [] [][][] [] [][] []
+ []
+
+
+Overfull \hbox (40.03699pt too wide) in paragraph at lines 5114--5116
+[][]\TU/lmr/m/n/10 Jake, VanderPlas. 2016. “Python Data Science Handbook.” []$[
+][][][][] [] [] [] [][][][][][][] [] [][][][][][] [] [][] [] [][][][][][][][][]
+[][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (20.40498pt too wide) in paragraph at lines 5120--5122
+[][]\TU/lmr/m/n/10 Jim Stikeleather. 2013. “How to Tell a Story with Data.” []$
+[][][][] [] [] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Overfull \hbox (402.07791pt too wide) in paragraph at lines 5132--5134
+[][]\TU/lmr/m/n/10 Keating, Joshua, and Chris Kirk. 2015. “A Guide to Who Is Fi
+ghting Whom in Syria.” []http://www.slate.com/blogs/the{\_}slatest/2015/10/06/s
+yrian{\_}conflict{\_}relationships{\_}explained.html[]. 
+ []
+
+
+Overfull \hbox (94.927pt too wide) in paragraph at lines 5138--5140
+[][]\TU/lmr/m/n/10 Klimczak, Erik. 2016. “Crafting Data-Driven Maps.” []$[][][]
+[][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+[182]
+Overfull \hbox (291.62698pt too wide) in paragraph at lines 5177--5179
+[][]\TU/lmr/m/n/10 McCandless, David. 2010. “The Beauty of Data Visualization.”
+ TED. []https://www.ted.com/talks/david{\_}mccandless{\_}the{\_}beauty{\_}of{\_
+}data{\_}visualization[]. 
+ []
+
+
+Overfull \hbox (27.50497pt too wide) in paragraph at lines 5180--5182
+[][]\TU/lmr/m/n/10 ———. 2016. “International Number Ones.” []$[][][][][] [] [] 
+[] [][][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][] [] [][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Overfull \hbox (81.267pt too wide) in paragraph at lines 5198--5200
+[][]\TU/lmr/m/n/10 Mullis, Lisa. 2015. “The Impact of Data Visualization.” []$[
+][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][] [] [][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]
+. 
+ []
+
+
+Overfull \hbox (45.0839pt too wide) in paragraph at lines 5207--5209
+[][]\TU/lmr/m/n/10 ———. 2015b. “A Day in the Life of Americans.” []$[][][][] []
+ [] [] [][][][][][][][][][][] [] [][][] [] [][][][] [] [][] [] [][] [] [][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 5210--5212
+[][]\TU/lmr/m/n/10 Patel, Neil. 2018. “Is Facebook Organic Reach Really Dead?” 
+[]$[][][][][] [] [] [] [][][][] [] [][][][][][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (69.37703pt too wide) in paragraph at lines 5234--5236
+[][]\TU/lmr/m/n/10 Robbins, Naomi. 2011. “What’s Wrong With this Graph?” []http
+s://www.forbes.com/sites/naomirobbins/2011/11/17/whats-
+ []
+
+[183]
+Overfull \hbox (119.85002pt too wide) in paragraph at lines 5237--5239
+[][]\TU/lmr/m/n/10 ———. 2012. “Misleading Graphs: Figures Not Drawn to Scale?” 
+[]https://www.forbes.com/sites/naomirobbins/2012/02/16/misleading-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 5240--5242
+[][]\TU/lmr/m/n/10 Robertson, Andrea. 2018. “Axes of Evil: How to Lie with Grap
+hs.” []$[][][][] [] [] [] [][][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 5258--5260
+[][]\TU/lmr/m/n/10 ROUTLEY, NICK. 2018. “THE Plastic Problem, Visualized.” []$[
+][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (135.56497pt too wide) in paragraph at lines 5288--5290
+\TU/lmr/m/n/10 Fviz.” []$[][][][][] [] [] [] [][][][][] [] [][][][][][][][][] [
+] [][][] [] [][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$
+[]. 
+ []
+
+
+Overfull \hbox (0.40002pt too wide) in paragraph at lines 5291--5293
+[][]\TU/lmr/m/n/10 Stephanie. 2014. “Misleading Graphs: Real Life Examples.” []
+$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][]
+[][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (224.385pt too wide) in paragraph at lines 5300--5302
+[][]\TU/lmr/m/n/10 ———. 2018b. “Tableau Groups.” []https://www.linkedin.com/sea
+rch/results/groups/?keywords=tableau{\&}origin=SWITCH{\_}SEARCH{\_}VERTICAL[]. 
+
+ []
+
+[184]
+Overfull \hbox (243.99496pt too wide) in paragraph at lines 5309--5311
+\TU/lmr/m/n/10 sual Guide to Data and Development.” []$[][][][] [] [] [] [][][]
+[][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]$[]. 
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 5318--5320
+[][]\TU/lmr/m/n/10 “Top 4 Big Data Visualization Tools.” 2018. Web Article. []$
+[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (26.18497pt too wide) in paragraph at lines 5345--5347
+[][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][] [] [][][][][][][][][
+][][][][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][]$[]\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (124.8859pt too wide) in paragraph at lines 5363--5365
+[][]\TU/lmr/m/n/10 Zapata, Cristian. 2014. “An Interactive Visualization of NYC
+ Street Trees.” []https://www.cloudred.com/labprojects/nyctrees/{\#}about[]. 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5373.
+[185]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5373.
+(./data_viz_reader.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 5373.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 5373.
+ ) 
+Here is how much of TeX's memory you used:
+ 23320 strings out of 493005
+ 443463 string characters out of 6134587
+ 607106 words of memory out of 5000000
+ 26908 multiletter control sequences out of 15000+600000
+ 543015 words of font info for 55 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 45i,8n,68p,10456b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on data_viz_reader.pdf (185 pages).
