@@ -341,14 +341,12 @@ Interactive graph have its own specific advantages. It helps bridge the gap betw
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
 
-![Original visualization of malaria cases](images/malaria_original.png)
+
 This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. 
 But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better.
-Original Version: [@malaria_zambia_original]
+Original Version: ![Original visualization of malaria cases](images/malaria_original.png)
 
-![Redesigned visualization of malaria cases](images/malaria_makeover.png)
-
-New Version: [@malaria_cases_zambia] 
+New Version: ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
 The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
