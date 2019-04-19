@@ -87,6 +87,31 @@ Therefore, before we begin visualizing our data, we need to start with the follo
 
 After answering these questions, you should be able to get a better image of your ideal graph. The simple guidance for using the different types of the chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing the joint variation of three data items, and pie charts to compare parts of a whole. However, let's delve deeper into the various presentation styles and types of common charts.
 
+
+### How to decide which chart type to use?
+
+While it is possible that data can be visualized using multiple charts, however, it is important to choose the 'right' chart type that clearly and accurately communicates the key message by  separating the noise from the data. Remember, data is only valuable if you know how to visualize it and give context. [@presentation_type]
+
+There are four basic presentation types that you can use to present your data:
+
+* A **Comparison** chart sets two variables against each other and displays the interaction between those two variables. For eg., a line chart displaying the variation of online sales across different months during a given time period. 
+* A **Composition** chart displays how individual parts make up the whole of something. For eg., a pie chart displaying the market share of a phone company by region.
+* A **Distribution** chart helps to understand outliers, the normal tendency, and the range of values in the dataset. For eg., a column histogram displaying the distribution of grades on a school exam.
+* A **Relationship** chart tries to show a connection or correlation between two or more variables. For eg., a scatter plot displaying the relationship between marketing spends and sales revenue.
+
+To determine which chart is best suited for each of those presentation types, first you must answer a few questions[@chart_selection]:
+
+* How many variables do you want to show in a single chart? One, two, three, many?
+* How many items (data points) will you display for each variable? Only a few or many?
+* Will you display values over a period of time, or among items or groups?
+
+After you have answers to these questions, you can refer to a chart selection diagram created by Dr. Andrew Abela that should help you pick the right chart for your data type.
+
+![](images/Chart_Selection_Diagram.png)
+
+Let’s move further and review the most commonly used chart types, some example, and the dos and don’ts for each chart type.
+
+
 ### Chart Types
 [@charts_viz]  
 This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each.  
