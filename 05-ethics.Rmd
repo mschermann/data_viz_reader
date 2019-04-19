@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Ethics
 
@@ -119,9 +119,9 @@ Now let's talk about data visualization, the latest fashion in numerate journali
 
 Data visualization creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualization than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualization is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
 
-For a relatively harmless example, consider The New Yorker's recent online subway map of inequality. "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
+For a relatively harmless example, consider The New Yorker's recent online [subway map of inequality](https://projects.newyorker.com/story/subway/). "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
 
-A more famous example is David McCandless's unforgettable animation "Debtris", in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
+A more famous example is David McCandless's unforgettable animation ["Debtris"](https://informationisbeautiful.net/2010/debtris/), in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
 
 The animation is pure dazzle camouflage. Statistical apples are compared with statistical oranges throughout. The Iraq comparison, for instance, is not one of "then versus now" as it first appears - but one of what the US Department of Defense once thought it would spend versus a broader estimate, including a financial value on the lives of dead soldiers, and over a trillion dollars of "macroeconomic costs". The war was a disaster- No need for a statistical bait-and-switch to make that case.
 
