@@ -44,7 +44,7 @@ Data is simply a collection of many individual elements (i.e., observations, typ
 A graph should be impressive and can obtain audience's attention. How can we achieve this? We must consider several aspects: **efficiency, complexity, structure, density and beauty**. We also should consider the audience whether they will be confused about the design.
 
 Before defining each principle, let us understand 'Graphical integrity' first.**Graphical integrity** refers to how accurately the visual elements represent the data. The information can vary widely, even for data that is related. So there is a desire and tendency to scale the data disproportionately in order to make it fit in the space allowed. When values are tightly packed in one area, and sparse in another, there is a desire and tendency to spread things out evenly. In each case, this can lead to a false impression of the data, and incorrect conclusions.
-
+(Source:[@Tufte_Graphical_integrity](https://study.com/academy/lesson/edward-tufte-6-principles-of-graphical-integrity.html))
 
 #### Principle 1: Maximizing the data-ink ratio, within reason
 
