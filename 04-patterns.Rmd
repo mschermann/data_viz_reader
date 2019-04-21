@@ -40,7 +40,7 @@ Detection of Outliers is performed using:
 
 
 ## Tips to Improve Data Visualization  
-[@French], [@Steier]
+[@French], [@Steier], [@Steph]
 
 ### Comparison
 Include a zero baseline if possible. Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances. Always choose the most efficient visualization. Watch your placement - You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost. Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.
@@ -51,13 +51,15 @@ Don’t over explain if the copy already mentions a fact. The subhead, callout, 
 ### Color
 Use a single color to represent the same type of data. Watch out for positive and negative numbers. Don’t use red for positive numbers or green for negative numbers. Those color associations are so strong it will automatically flip the meaning in the viewer’s mind. Make sure there is sufficient contrast between colors. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturation of the same color. On that note, only use solid-colored lines (not dashes). Select colors appropriately. Don’t use more than 6 colors in a single layout.
 
-**- Leveraging Color in Visuals**
+**- Tips for Color in Visuals**
 
 |Use Case | Tip                   | Rationale                      |
 | ------- | ----------------------| ------------------------------ |
 Numerical Scales | Color for numerical scales should be used with caution. | The way you interpret a shade depends on the colors around it and sometimes it can lead to false conclusions. |
 Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
 Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
+Color Combinations | Use contrasting dark and light colors.Combinations such as red–green or blue– yellow should be avoided. | This will cause difficulty for people with color blindness | 
+[@Tom]
 
 ### Ordering
 Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value. Order consistently. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
@@ -84,6 +86,31 @@ Therefore, before we begin visualizing our data, we need to start with the follo
 * **Know the right chart type**[@ chart_audience]: Once you know the purpose and have identified the target audience, it is important to choose the right chart type. Choosing the right visual, which could be a chart, map, table, dashboard or infographic, ensures that it resonates well with your audience. Also, it empowers the readers to explore the data, identify insights and make decisions after evaluating different scenarios. 
 
 After answering these questions, you should be able to get a better image of your ideal graph. The simple guidance for using the different types of the chart is - line charts for tracking trends over time, bar charts to compare quantities, scatter plots for a joint variation of two data items, bubble charts showing the joint variation of three data items, and pie charts to compare parts of a whole. However, let's delve deeper into the various presentation styles and types of common charts.
+
+
+### How to decide which chart type to use?
+
+While it is possible that data can be visualized using multiple charts, however, it is important to choose the 'right' chart type that clearly and accurately communicates the key message by  separating the noise from the data. Remember, data is only valuable if you know how to visualize it and give context. [@presentation_type]
+
+There are four basic presentation types that you can use to present your data:
+
+* A **Comparison** chart sets two variables against each other and displays the interaction between those two variables. For eg., a line chart displaying the variation of online sales across different months during a given time period. 
+* A **Composition** chart displays how individual parts make up the whole of something. For eg., a pie chart displaying the market share of a phone company by region.
+* A **Distribution** chart helps to understand outliers, the normal tendency, and the range of values in the dataset. For eg., a column histogram displaying the distribution of grades on a school exam.
+* A **Relationship** chart tries to show a connection or correlation between two or more variables. For eg., a scatter plot displaying the relationship between marketing spends and sales revenue.
+
+To determine which chart is best suited for each of those presentation types, first you must answer a few questions[@chart_selection]:
+
+* How many variables do you want to show in a single chart? One, two, three, many?
+* How many items (data points) will you display for each variable? Only a few or many?
+* Will you display values over a period of time, or among items or groups?
+
+After you have answers to these questions, you can refer to a chart selection diagram created by Dr. Andrew Abela that should help you pick the right chart for your data type.
+
+![](images/Chart_Selection_Diagram.png)
+
+Let’s move further and review the most commonly used chart types, some example, and the dos and don’ts for each chart type.
+
 
 ### Chart Types
 [@charts_viz]  
