@@ -33,7 +33,7 @@ Reference: [@cool_data]
 ### Two Centuries of U.S. Immigration
 This interactive map from [@immigration] shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Each colored dot represents 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.
 
-This a good visualization because it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simple, but effective.
+This is a good visualization because it is engaging and easy to read and interpret. The movement of the dots draws the reader's attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simple, but effective.
 
 Reference: [@cool_data].
 
@@ -185,6 +185,17 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 
 (Source:[@google_music])
 
+## Visualizing Urban Data for Social Change
+[@Socialchange]
+
+One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities. With the development of a city, demographic changes, economic, environmental and social problems become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face, and engaging citizens to work toward their dream cities.
+
+Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
+
+A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
+
+As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.
+
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
 
@@ -212,9 +223,6 @@ What makes this visualization so well-known is its use of animation and narratio
 
 ## Dust in the Wind: Visualization and Environmental Problems
 Environmental issues can quickly become extremely complex. When dealing with assessments of site, environmental remediation design, monitoring, environmental litigation, the quantity of data involved can quickly become overwhelming. Maintaining and organizing that data and keep a balance is insufficient. Visualization is the only means for condensing and communicating vast quantities of data. Visualization provides an invaluable tool to communicate complex data in a form that makes it intelligible to all parties. There are many case studies on visualization of environment-related issues. Some of them are mentioned below:
-
-## Environment Related Problems
-There are many case studies on visualizations of environment-related issues.
 
 ### Global Carbon Emissions
 This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios [@CO2_emission].
@@ -297,7 +305,7 @@ Twitter’s data team assembled an impressive interactive data hub that depicts 
 ### Connecting the Dots Behind the Election
 This article in the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones [@campaign_staff][@cool_data]. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which is then connected by arrows. Hovering over a specific dot highlights the connections between the groups. This visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible and viewable format so that voters can figure out where the candidates’ experiences lie.
 
-![Clinton 2016 Campaign Staff](images/clinton_campaign.png)
+![Clinton 2016 Campaign Staff](images/NewClinton.png)
 
 ### A Guide to Who is Fighting Whom in Syria 
 
@@ -344,14 +352,12 @@ Interactive graph have its own specific advantages. It helps bridge the gap betw
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
 
-![Original visualization of malaria cases](images/malaria_original.png)
+
 This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. 
 But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better.
-Original Version: [@malaria_zambia_original]
+Original Version: ![Original visualization of malaria cases](images/malaria_original.png)
 
-![Redesigned visualization of malaria cases](images/malaria_makeover.png)
-
-New Version: [@malaria_cases_zambia] 
+New Version: ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
 The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
