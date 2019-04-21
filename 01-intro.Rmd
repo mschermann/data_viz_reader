@@ -56,11 +56,11 @@ When connected data insight is critical, only interactive and robust visualizati
 
 The enormous volume of data available to companies, governments and people today means there is a vast (and growing) need for data to be presented so that it delivers value. From business decision making to route navigation, data visualization provides a simple, user-friendly approach to understanding data and making faster, better decisions.
 
-In his article on the importance of data visualization to businesses, Chris Pittenturf uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information. 
+In his article on the importance of data visualization to businesses, Chris Pittenturf uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information.
 
 ### Understanding Concepts that are Difficult to Contextualize
 
-In his TED talk, David McCandless gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader's eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.) 
+In his TED talk, David McCandless gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader's eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.)
 
 
 ![](images/book_billion.jpg)
@@ -77,7 +77,7 @@ It can reveal interesting small patterns and make you a "data detective." Beyond
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning [@marksman]. Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
 
 Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.
- 
+
 Informatics for Integrating Biology and the Bedside [**i2b2**](https://www.i2b2.org), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to [**Tableau**](https://www.tableau.com)) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as [**R**](https://www.r-project.org) and [**Python**](https://www.python.org) are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
 ### Law Enforcement and Fraud Detection
@@ -133,7 +133,7 @@ In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Str
 #### Charles Joseph Minard (1781--1870)
 
 Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon's Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat. This classic lithograph dates back to 1869, displaying the number of men in Napoleon's 1812 Russian army, their movements, and the temperatures they encountered along their way. It has been called one of the "best statistical drawings ever created." The work is an essential reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no proper without a firm grasp of your dataset and sharp communication skills. It represents the earliest beginning of data journalism.
- 
+
 ![](images/Minard.png)
 
 #### Florence Nightingale (1820--1910)
@@ -173,7 +173,9 @@ Luigi Perozzo was an Italian mathematician and statistician who stood out for be
 ### Hans Rosling
 Hans Rosling took his interest in global health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *"Asia's Rise: How and When"* [@hans]. In this video, Hans shows trends of the Western countries vs. Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
 
-Hans was the co-founder and developer of the Gapminder Foundation which is committed to promoting global sustainable development through the understanding of statistics and data describing issues at the local, national, and global level [@gapminder]. One of the most important goals of the Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to present the world as it is [@gapminder].
+Hans was the co-founder and developer of the Gapminder Foundation which is committed to promoting global sustainable development through the understanding of statistics and data describing issues at the local, national, and global level. One of the most important goals of the Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to present the world as it is [@gapminder].
+
+As part of Gapminder, Hans Rosling has developed many interactive and intuitive  visualizations. Gapminder provides free teaching material to dismantle misconceptions and promote a fact-based worldview [@han_rosling_teaching].
 
 ![](images/hans.png)
 
@@ -231,7 +233,7 @@ Although simple visualizations such as standard chart types (bar chart, line cha
 
 The focus in today's world has been on open source tools and technologies and these tools although being free for the most part to require more effort to integrate to the current visualization workflow seamlessly. As mentioned in one of the articles about D3.js:
 
-D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility. 
+D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.
 **D3.js** is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.
 
 Ultimately, the focus should be on our goals rather than our tools.
@@ -283,10 +285,10 @@ insert reference | This blog features discussion of all things data | http://bea
 [@flowingdata]  |  Website which offers courses, tutorials and happenings in viz. | [http://flowingdata.com/](http://flowingdata.com/)
 [@infogram]  |  An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.|
 insert reference | Improving data visualisation for the public sector (does this link work?) | http://www.improving-visualisation.org/ |
-insert reference | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ | 
+insert reference | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ |
 [@Beautiful_data,] | This blog features discussion of all things data | http://beautifuldata.net/ |
 [@Michael_Sandberg_blog] | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
-[@data_viz_gallery] | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ | 
+[@data_viz_gallery] | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ |
 [@fema_viz] | This resource provides a series of interactive data visualizations using FEMA data | https://www.fema.gov/data-visualization |
  insert reference | This blog features discussion of all things data | http://beautifuldata.net/ |
 insert reference | Improving data visualisation for the public sector (does this link work?) | http://www.improving-visualisation.org/ |
