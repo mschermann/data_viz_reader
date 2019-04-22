@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2019">
 
 
-<meta name="date" content="2019-04-17">
+<meta name="date" content="2019-04-22">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -51,41 +51,67 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -120,14 +146,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="2.2.6" data-path="introduction.html"><a href="introduction.html#design-and-data-literacy"><i class="fa fa-check"></i><b>2.2.6</b> Design and Data Literacy</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#history-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> History of Data Visualization</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#brief-history"><i class="fa fa-check"></i><b>2.3.1</b> Brief history</a></li>
+<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.1</b> A Brief history of Data Visualization</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.2</b> Key Figures in the History of Data Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#contemporary-visualists"><i class="fa fa-check"></i><b>2.4</b> Contemporary Visualists</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="introduction.html"><a href="introduction.html#hans-rosling"><i class="fa fa-check"></i><b>2.4.1</b> Hans Rosling</a></li>
 <li class="chapter" data-level="2.4.2" data-path="introduction.html"><a href="introduction.html#david-mccandless"><i class="fa fa-check"></i><b>2.4.2</b> David McCandless</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization"><i class="fa fa-check"></i><b>2.5</b> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</a><ul>
+<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization-theory-example"><i class="fa fa-check"></i><b>2.5</b> How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example</a><ul>
 <li class="chapter" data-level="2.5.1" data-path="introduction.html"><a href="introduction.html#a-cool-website-mit-media-lab"><i class="fa fa-check"></i><b>2.5.1</b> A cool website: MIT Media Lab</a></li>
 <li class="chapter" data-level="2.5.2" data-path="introduction.html"><a href="introduction.html#standing-out-categorization-of-information-on-the-website."><i class="fa fa-check"></i><b>2.5.2</b> Standing out categorization of information on the website.</a></li>
 <li class="chapter" data-level="2.5.3" data-path="introduction.html"><a href="introduction.html#automatic-visualization-vs.context-specific-visualization"><i class="fa fa-check"></i><b>2.5.3</b> Automatic visualization vs. context-specific visualization</a></li>
@@ -171,7 +197,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#special-topics"><i class="fa fa-check"></i><b>3.4</b> Special Topics</a><ul>
 <li class="chapter" data-level="3.4.1" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>3.4.1</b> Data Mining and Data Visualization</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data visualization in Business</a><ul>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data Visualization in Business</a><ul>
 <li class="chapter" data-level="3.5.1" data-path="fundamentals.html"><a href="fundamentals.html#data-visualizations-in-industry"><i class="fa fa-check"></i><b>3.5.1</b> Data Visualizations in Industry</a></li>
 <li class="chapter" data-level="3.5.2" data-path="fundamentals.html"><a href="fundamentals.html#how-visualization-impacts-industrybusiness"><i class="fa fa-check"></i><b>3.5.2</b> How visualization impacts Industry/business</a></li>
 <li class="chapter" data-level="3.5.3" data-path="fundamentals.html"><a href="fundamentals.html#corporate-scorecards-and-data-visualization"><i class="fa fa-check"></i><b>3.5.3</b> Corporate Scorecards and Data Visualization</a></li>
@@ -199,37 +225,38 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="4.3.6" data-path="case-studies.html"><a href="case-studies.html#selfie-city"><i class="fa fa-check"></i><b>4.3.6</b> Selfie City</a></li>
 <li class="chapter" data-level="4.3.7" data-path="case-studies.html"><a href="case-studies.html#evolving-demographics"><i class="fa fa-check"></i><b>4.3.7</b> Evolving Demographics</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.4</b> Animated Data Visualization</a><ul>
-<li class="chapter" data-level="4.4.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.4.1</b> A Day in the Life of Americans</a></li>
-<li class="chapter" data-level="4.4.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.4.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
+<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#visualizing-urban-data-for-social-change"><i class="fa fa-check"></i><b>4.4</b> Visualizing Urban Data for Social Change</a></li>
+<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.5</b> Animated Data Visualization</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.5.1</b> A Day in the Life of Americans</a></li>
+<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.5.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.5</b> Dust in the Wind: Visualization and Environmental Problems</a><ul>
-<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.5.1</b> Global Carbon Emissions</a></li>
-<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.5.2</b> What’s really warming the world?</a></li>
-<li class="chapter" data-level="4.5.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.5.3</b> Understanding Plastic pollution using visualization</a></li>
+<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.6</b> Dust in the Wind: Visualization and Environmental Problems</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.6.1</b> Global Carbon Emissions</a></li>
+<li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.6.2</b> What’s really warming the world?</a></li>
+<li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.6.3</b> Understanding Plastic pollution using visualization</a></li>
 </ul></li>
-<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#language"><i class="fa fa-check"></i><b>4.6</b> Language</a><ul>
-<li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#green-honey"><i class="fa fa-check"></i><b>4.6.1</b> Green Honey</a></li>
-<li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#linguistic-concepts"><i class="fa fa-check"></i><b>4.6.2</b> Linguistic Concepts</a></li>
-<li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#state-of-the-union-2014-minute-by-minute-on-twitter"><i class="fa fa-check"></i><b>4.6.3</b> State of the Union 2014 Minute by Minute on Twitter</a></li>
+<li class="chapter" data-level="4.7" data-path="case-studies.html"><a href="case-studies.html#language"><i class="fa fa-check"></i><b>4.7</b> Language</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="case-studies.html"><a href="case-studies.html#green-honey"><i class="fa fa-check"></i><b>4.7.1</b> Green Honey</a></li>
+<li class="chapter" data-level="4.7.2" data-path="case-studies.html"><a href="case-studies.html#linguistic-concepts"><i class="fa fa-check"></i><b>4.7.2</b> Linguistic Concepts</a></li>
+<li class="chapter" data-level="4.7.3" data-path="case-studies.html"><a href="case-studies.html#state-of-the-union-2014-minute-by-minute-on-twitter"><i class="fa fa-check"></i><b>4.7.3</b> State of the Union 2014 Minute by Minute on Twitter</a></li>
 </ul></li>
-<li class="chapter" data-level="4.7" data-path="case-studies.html"><a href="case-studies.html#political-relationships"><i class="fa fa-check"></i><b>4.7</b> Political Relationships</a><ul>
-<li class="chapter" data-level="4.7.1" data-path="case-studies.html"><a href="case-studies.html#connecting-the-dots-behind-the-election"><i class="fa fa-check"></i><b>4.7.1</b> Connecting the Dots Behind the Election</a></li>
-<li class="chapter" data-level="4.7.2" data-path="case-studies.html"><a href="case-studies.html#a-guide-to-who-is-fighting-whom-in-syria"><i class="fa fa-check"></i><b>4.7.2</b> A Guide to Who is Fighting Whom in Syria</a></li>
+<li class="chapter" data-level="4.8" data-path="case-studies.html"><a href="case-studies.html#political-relationships"><i class="fa fa-check"></i><b>4.8</b> Political Relationships</a><ul>
+<li class="chapter" data-level="4.8.1" data-path="case-studies.html"><a href="case-studies.html#connecting-the-dots-behind-the-election"><i class="fa fa-check"></i><b>4.8.1</b> Connecting the Dots Behind the Election</a></li>
+<li class="chapter" data-level="4.8.2" data-path="case-studies.html"><a href="case-studies.html#a-guide-to-who-is-fighting-whom-in-syria"><i class="fa fa-check"></i><b>4.8.2</b> A Guide to Who is Fighting Whom in Syria</a></li>
 </ul></li>
-<li class="chapter" data-level="4.8" data-path="case-studies.html"><a href="case-studies.html#uncategorized"><i class="fa fa-check"></i><b>4.8</b> Uncategorized</a><ul>
-<li class="chapter" data-level="4.8.1" data-path="case-studies.html"><a href="case-studies.html#simpsons-paradox"><i class="fa fa-check"></i><b>4.8.1</b> Simpson’s Paradox</a></li>
-<li class="chapter" data-level="4.8.2" data-path="case-studies.html"><a href="case-studies.html#every-satellite-orbiting-earth"><i class="fa fa-check"></i><b>4.8.2</b> Every Satellite Orbiting Earth</a></li>
-<li class="chapter" data-level="4.8.3" data-path="case-studies.html"><a href="case-studies.html#malaria"><i class="fa fa-check"></i><b>4.8.3</b> Malaria</a></li>
-<li class="chapter" data-level="4.8.4" data-path="case-studies.html"><a href="case-studies.html#is-it-better-to-rent-or-buy"><i class="fa fa-check"></i><b>4.8.4</b> Is it Better to Rent or Buy?</a></li>
-<li class="chapter" data-level="4.8.5" data-path="case-studies.html"><a href="case-studies.html#an-interactive-visualization-of-nyc-street-trees"><i class="fa fa-check"></i><b>4.8.5</b> An Interactive Visualization of NYC Street Trees</a></li>
-<li class="chapter" data-level="4.8.6" data-path="case-studies.html"><a href="case-studies.html#adding-up-the-white-oscars-winners"><i class="fa fa-check"></i><b>4.8.6</b> Adding up the White Oscars Winners</a></li>
-<li class="chapter" data-level="4.8.7" data-path="case-studies.html"><a href="case-studies.html#kissmetrics-blog-visualization-of-metrics"><i class="fa fa-check"></i><b>4.8.7</b> Kissmetrics blog: visualization of metrics</a></li>
-<li class="chapter" data-level="4.8.8" data-path="case-studies.html"><a href="case-studies.html#describe-artists-with-emoji"><i class="fa fa-check"></i><b>4.8.8</b> Describe Artists with Emoji</a></li>
-<li class="chapter" data-level="4.8.9" data-path="case-studies.html"><a href="case-studies.html#goldilocks-exoplanets"><i class="fa fa-check"></i><b>4.8.9</b> Goldilocks Exoplanets</a></li>
-<li class="chapter" data-level="4.8.10" data-path="case-studies.html"><a href="case-studies.html#washington-wizards-shooting-stars"><i class="fa fa-check"></i><b>4.8.10</b> Washington Wizards’ Shooting Stars</a></li>
-<li class="chapter" data-level="4.8.11" data-path="case-studies.html"><a href="case-studies.html#visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set"><i class="fa fa-check"></i><b>4.8.11</b> Visualization of big data security: a case study on the KDD99 cup data set</a></li>
-<li class="chapter" data-level="4.8.12" data-path="case-studies.html"><a href="case-studies.html#the-atlas-of-sustainable-development-goals-2018---data-visualization-of-world-development"><i class="fa fa-check"></i><b>4.8.12</b> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</a></li>
+<li class="chapter" data-level="4.9" data-path="case-studies.html"><a href="case-studies.html#uncategorized"><i class="fa fa-check"></i><b>4.9</b> Uncategorized</a><ul>
+<li class="chapter" data-level="4.9.1" data-path="case-studies.html"><a href="case-studies.html#simpsons-paradox"><i class="fa fa-check"></i><b>4.9.1</b> Simpson’s Paradox</a></li>
+<li class="chapter" data-level="4.9.2" data-path="case-studies.html"><a href="case-studies.html#every-satellite-orbiting-earth"><i class="fa fa-check"></i><b>4.9.2</b> Every Satellite Orbiting Earth</a></li>
+<li class="chapter" data-level="4.9.3" data-path="case-studies.html"><a href="case-studies.html#malaria"><i class="fa fa-check"></i><b>4.9.3</b> Malaria</a></li>
+<li class="chapter" data-level="4.9.4" data-path="case-studies.html"><a href="case-studies.html#is-it-better-to-rent-or-buy"><i class="fa fa-check"></i><b>4.9.4</b> Is it Better to Rent or Buy?</a></li>
+<li class="chapter" data-level="4.9.5" data-path="case-studies.html"><a href="case-studies.html#an-interactive-visualization-of-nyc-street-trees"><i class="fa fa-check"></i><b>4.9.5</b> An Interactive Visualization of NYC Street Trees</a></li>
+<li class="chapter" data-level="4.9.6" data-path="case-studies.html"><a href="case-studies.html#adding-up-the-white-oscars-winners"><i class="fa fa-check"></i><b>4.9.6</b> Adding up the White Oscars Winners</a></li>
+<li class="chapter" data-level="4.9.7" data-path="case-studies.html"><a href="case-studies.html#kissmetrics-blog-visualization-of-metrics"><i class="fa fa-check"></i><b>4.9.7</b> Kissmetrics blog: visualization of metrics</a></li>
+<li class="chapter" data-level="4.9.8" data-path="case-studies.html"><a href="case-studies.html#describe-artists-with-emoji"><i class="fa fa-check"></i><b>4.9.8</b> Describe Artists with Emoji</a></li>
+<li class="chapter" data-level="4.9.9" data-path="case-studies.html"><a href="case-studies.html#goldilocks-exoplanets"><i class="fa fa-check"></i><b>4.9.9</b> Goldilocks Exoplanets</a></li>
+<li class="chapter" data-level="4.9.10" data-path="case-studies.html"><a href="case-studies.html#washington-wizards-shooting-stars"><i class="fa fa-check"></i><b>4.9.10</b> Washington Wizards’ Shooting Stars</a></li>
+<li class="chapter" data-level="4.9.11" data-path="case-studies.html"><a href="case-studies.html#visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set"><i class="fa fa-check"></i><b>4.9.11</b> Visualization of big data security: a case study on the KDD99 cup data set</a></li>
+<li class="chapter" data-level="4.9.12" data-path="case-studies.html"><a href="case-studies.html#the-atlas-of-sustainable-development-goals-2018---data-visualization-of-world-development"><i class="fa fa-check"></i><b>4.9.12</b> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
@@ -242,21 +269,23 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.2.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.2.5</b> Audience Perspective</a></li>
 <li class="chapter" data-level="5.2.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.2.6</b> Use Layers to Tell a Story</a></li>
 <li class="chapter" data-level="5.2.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.2.7</b> Keep It Simple</a></li>
+<li class="chapter" data-level="5.2.8" data-path="patterns.html"><a href="patterns.html#graph-integrity"><i class="fa fa-check"></i><b>5.2.8</b> Graph Integrity</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#charts"><i class="fa fa-check"></i><b>5.3</b> Charts</a><ul>
 <li class="chapter" data-level="5.3.1" data-path="patterns.html"><a href="patterns.html#what-makes-a-chart-effective"><i class="fa fa-check"></i><b>5.3.1</b> What makes a chart effective?</a></li>
-<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.3.2</b> Chart Types</a></li>
-<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.3.3</b> Temporal Visualizations</a></li>
-<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.3.4</b> Line Graph</a></li>
-<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.3.5</b> Stacked Area Chart</a></li>
-<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.3.6</b> Bar Charts</a></li>
-<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.3.7</b> Column Charts for Time Series Data</a></li>
-<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.3.8</b> Gantt Chart</a></li>
-<li class="chapter" data-level="5.3.9" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.3.9</b> Stream Graph</a></li>
-<li class="chapter" data-level="5.3.10" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.3.10</b> Heat Map</a></li>
-<li class="chapter" data-level="5.3.11" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.3.11</b> Polar Area Diagram</a></li>
-<li class="chapter" data-level="5.3.12" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.3.12</b> Time Series Data and Its Deceptive Potential</a></li>
-<li class="chapter" data-level="5.3.13" data-path="patterns.html"><a href="patterns.html#pie-chart-and-why-pie-charts-are-bad-a-comparison-with-the-bar-chart"><i class="fa fa-check"></i><b>5.3.13</b> Pie Chart and Why Pie Charts are Bad: a Comparison with the Bar Chart</a></li>
+<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#how-to-decide-which-chart-type-to-use"><i class="fa fa-check"></i><b>5.3.2</b> How to decide which chart type to use?</a></li>
+<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.3.3</b> Chart Types</a></li>
+<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.3.4</b> Temporal Visualizations</a></li>
+<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.3.5</b> Line Graph</a></li>
+<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.3.6</b> Stacked Area Chart</a></li>
+<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.3.7</b> Bar Charts</a></li>
+<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.3.8</b> Column Charts for Time Series Data</a></li>
+<li class="chapter" data-level="5.3.9" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.3.9</b> Gantt Chart</a></li>
+<li class="chapter" data-level="5.3.10" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.3.10</b> Stream Graph</a></li>
+<li class="chapter" data-level="5.3.11" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.3.11</b> Heat Map</a></li>
+<li class="chapter" data-level="5.3.12" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.3.12</b> Polar Area Diagram</a></li>
+<li class="chapter" data-level="5.3.13" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.3.13</b> Time Series Data and Its Deceptive Potential</a></li>
+<li class="chapter" data-level="5.3.14" data-path="patterns.html"><a href="patterns.html#pie-charts-oportunities-and-obstacles"><i class="fa fa-check"></i><b>5.3.14</b> Pie Charts: Oportunities and Obstacles</a></li>
 </ul></li>
 <li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#maps"><i class="fa fa-check"></i><b>5.4</b> Maps</a></li>
 <li class="chapter" data-level="5.5" data-path="patterns.html"><a href="patterns.html#choosing-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.5</b> Choosing the Right Baseline in Data Visualization</a></li>
@@ -292,17 +321,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#definitions-of-data-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>6.4</b> Definitions of Data Deception and Graphic Integrity</a></li>
 <li class="chapter" data-level="6.5" data-path="ethics.html"><a href="ethics.html#ethical-challenges-in-data-visualization"><i class="fa fa-check"></i><b>6.5</b> Ethical Challenges in Data Visualization</a></li>
-<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#data-visualization-a-tool-for-social-change-in-cities"><i class="fa fa-check"></i><b>6.6</b> Data Visualization: A Tool for Social Change in Cities</a></li>
-<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.7</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
-<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.8</b> Misinformation Can be beautiful too</a></li>
-<li class="chapter" data-level="6.9" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.9</b> Visual Lies</a><ul>
-<li class="chapter" data-level="6.9.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.9.1</b> Size</a></li>
-<li class="chapter" data-level="6.9.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.9.2</b> Quantity</a></li>
-<li class="chapter" data-level="6.9.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.9.3</b> Segmentation</a></li>
-<li class="chapter" data-level="6.9.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.9.4</b> Graph</a></li>
-<li class="chapter" data-level="6.9.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.9.5</b> The Missing Baseline</a></li>
-<li class="chapter" data-level="6.9.6" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.9.6</b> Data is Left Out</a></li>
-<li class="chapter" data-level="6.9.7" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.9.7</b> Treating Correlation as Causation</a></li>
+<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.6</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
+<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.7</b> Misinformation Can be beautiful too</a></li>
+<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.8</b> Visual Lies</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.8.1</b> Size</a></li>
+<li class="chapter" data-level="6.8.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.8.2</b> Quantity</a></li>
+<li class="chapter" data-level="6.8.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.8.3</b> Segmentation</a></li>
+<li class="chapter" data-level="6.8.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.8.4</b> Graph</a></li>
+<li class="chapter" data-level="6.8.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.8.5</b> The Missing Baseline</a></li>
+<li class="chapter" data-level="6.8.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.8.6</b> The Graph is not Labeled Properly</a></li>
+<li class="chapter" data-level="6.8.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.8.7</b> Data is left Out</a></li>
+<li class="chapter" data-level="6.8.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.8.8</b> Treating Correlation as Causation</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a><ul>
@@ -346,10 +375,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>The main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn’t mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way.</p>
 <p>“Data is the new oil” may be a cliche, but it is true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood <span class="citation">(Disney <a href="#ref-lawfraud">2017</a>)</span>. More and more organizations are seeing potential in their data connections, but how do you allow non-experts to analyze data at scale and extract potentially complex insights? One answer is through interactive graph visualization.</p>
 <p><strong>Information visualization</strong> is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. <span class="citation">(<span class="citeproc-not-found" data-reference-id="info_viz"><strong>???</strong></span>)</span> shares some examples and common uses of information visualization, such as:</p>
-<table style="width:39%;">
+<table>
 <colgroup>
-<col width="19%" />
-<col width="19%" />
+<col width="50%" />
+<col width="50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -360,7 +389,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <tbody>
 <tr class="odd">
 <td>Presentation: to explain or persuade</td>
-<td><img src="images/Presentation.jpg" /> Source: <span class="citation">(slide_geeks <a href="#ref-slide_geeks">2019</a>)</span></td>
+<td><img src="images/Presentation.jpg" /> Source: <span class="citation">(“Best Real Estate Investing Example Powerpoint Presentation Examples,PPT:SG-14716000770769” <a href="#ref-slide_geeks">2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Exploratory Analysis: to identify relationships or unusual cases in the data</td>
@@ -430,7 +459,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="understanding-concepts-that-are-difficult-to-contextualize" class="section level3">
 <h3><span class="header-section-number">2.2.2</span> Understanding Concepts that are Difficult to Contextualize</h3>
 <p>In his TED talk, David McCandless gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader’s eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns <span class="citation">(McCandless <a href="#ref-viz_ted">2010</a>)</span>. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the “mushroomed” actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.)</p>
-<p>McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we continuously bombard with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective since everyone does seem to have a sense of visual aspects of space, color, etc. Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design <span class="citation">(McCandless <a href="#ref-viz_ted">2010</a>)</span>.</p>
+<p><img src="images/book_billion.jpg" />
+McCandless also postulates that we all have a latent “design literacy” that is being developed every day as we continuously bombard with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective since everyone does seem to have a sense of visual aspects of space, color, etc. Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design <span class="citation">(McCandless <a href="#ref-viz_ted">2010</a>)</span>.</p>
 <p>In his article on the importance of data visualization to businesses, <strong>Chris Pittenturf</strong> uses the example of an energy bill to explain the impact of data visualization: <em>before we even read the text of the bill, we look at the graph first</em> <span class="citation">(Pittenturf <a href="#ref-viz_importance">2018</a>)</span>. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information.</p>
 </div>
 <div id="revealing-small-and-interesting-patterns" class="section level3">
@@ -441,7 +471,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h3><span class="header-section-number">2.2.4</span> Easier Decision-making in Healthcare</h3>
 <p>Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning <span class="citation">(Healthcare <a href="#ref-marksman">2017</a>)</span>. Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.</p>
 <p>Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.</p>
-<p>Informatics for Integrating Biology and the Bedside <a href="https://www.i2b2.org"><strong>i2b2</strong></a>, an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to <a href="https://www.tableau.com"><strong>Tableau</strong></a>) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as <a href="https://www.r-project.org"><strong>R</strong></a> and <a href="https://www.python.org"><strong>Python</strong></a> are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.</p>
+<p>Informatics for Integrating Biology and the Bedside <a href="https://www.i2b2.org"><strong>i2b2</strong></a>, an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from Clinical Data Warehouses (CDWs). i2b2 (i2b2 to <a href="https://www.tableau.com"><strong>Tableau</strong></a>) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as <a href="https://www.r-project.org"><strong>R</strong></a> and <a href="https://www.python.org"><strong>Python</strong></a> are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.</p>
 </div>
 <div id="law-enforcement-and-fraud-detection" class="section level3">
 <h3><span class="header-section-number">2.2.5</span> Law Enforcement and Fraud Detection</h3>
@@ -455,20 +485,18 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="history-of-data-visualization" class="section level2">
 <h2><span class="header-section-number">2.3</span> History of Data Visualization</h2>
-<div id="brief-history" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> Brief history</h3>
 <blockquote>
 <p>“The only new thing in the world is the history you do not know.” Harry S Truman</p>
 </blockquote>
-<div id="data-visualization-a-modern-product" class="section level4">
-<h4><span class="header-section-number">2.3.1.1</span> Data Visualization: A Modern Product?</h4>
-<p>Given the recent explosion in data availability and visualization tools, it would be natural to assume that statistical graphics and data visualizations are relatively modern developments. However, the graphic representation of quantitative information has deep roots that reach into the histories of the earliest map-making and visual depictions, and up to thematic cartography, statistics, medicine, and other fields.</p>
-<p>Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, and those developments enabled the broader use of graphics and new advances in form and content. This paper provides an overview of the intellectual history of data visualization from medieval to modern times, as well as describes and illustrates some significant advances along the way <span class="citation">(Friendly <a href="#ref-data_viz_history">2006</a>)</span>.</p>
+<div id="a-brief-history-of-data-visualization" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> A Brief history of Data Visualization</h3>
+<p>Given the recent explosion in data availability and visualization tools, it would be natural to assume that statistical graphics and data visualizations are relatively modern developments. However, data visualization is not a modern product it has developed over time to incorporate the tools we use today and the trends we foresee. The graphic representation of quantitative information has deep roots that reach into the histories of the earliest map-making and visual depictions, and up to thematic cartography, statistics, medicine, and other fields.
+Developments in technologies (printing, reproduction) mathematical theory and practice, and empirical observation and recording, and those developments enabled the broader use of graphics and new advances in form and content. It is essential to gain some understanding of the background of data visualization to help us in the proper application and execution of current visualization concepts. The following section provides an overview of the intellectual history of data visualization from medieval to recent times, as well as describes and illustrates some significant advances along the way <span class="citation">(Friendly <a href="#ref-data_viz_history">2006</a>)</span>.</p>
 <table>
 <colgroup>
 <col width="12%" />
-<col width="12%" />
-<col width="74%" />
+<col width="11%" />
+<col width="75%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -521,69 +549,48 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </tbody>
 </table>
 </div>
-</div>
 <div id="key-figures-in-the-history-of-data-visualization" class="section level3">
 <h3><span class="header-section-number">2.3.2</span> Key Figures in the History of Data Visualization</h3>
-<p>The history of data visualization is full of incredible stories marked by significant events, led by a few key players. The article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span> introduces some of the fantastic men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard, whose most famous work is the map of Napoleons Russian campaign of 1812 which could use as a data product for Data Visualization. Below we have some visualizes with their famous works and other stories in the article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>.</p>
-<p>The history of data visualization is full of incredible stories marked by major events, led by a few key players. The article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span> introduces some of the amazing men and women who paved the way by combining art, science, and statistics. Below we have some visualists with their famous works, and other stories in the article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>.</p>
+<p>The idea of visualizing data is old: After all, that’s what a map is—a representation of geographic information—and we’ve had maps for about 8,000 years. But it was rare to graph anything other than geography.
+<span class="citation">(<a href="#ref-history_dataviz">n.d.</a>)</span>(<a href="https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/" class="uri">https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/</a>)
+The history of data visualization is full of incredible stories marked by significant events, led by a few key players. The article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span> introduces some of the fantastic men and women who paved the way by combining art, science, and statistics. One of them is Charles Joseph Minard, whose most famous work is the map of Napoleons Russian campaign of 1812 which could use as a data product for Data Visualization. Below we have some visualizes with their famous works and other stories in the article <span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>.</p>
 <div id="william-playfair-17591823" class="section level4">
 <h4><span class="header-section-number">2.3.2.1</span> William Playfair (1759–1823)</h4>
 <p>William Playfair is considered the father of statistical graphics, having invented the line and bar chart are used so often today. He is also credited with having created the area and pie chart. Playfair was a Scottish engineer and political economist who published “The Commercial and Political Atlas” in 1786. This book featured a variety of graphs including the image below. In this famous example, he compares exports from England with imports into England from Denmark and Norway from 1700 to 1780.</p>
-<div class="figure">
-<img src="images/Playfair.png" />
-
-</div>
+<p><img src="images/Playfair.png" /></p>
 </div>
 <div id="john-snow-18131858" class="section level4">
 <h4><span class="header-section-number">2.3.2.2</span> John Snow (1813–1858)</h4>
 <p>In 1854, a cholera epidemic spread quickly through Soho in London. The Broad Street area had seen over 600 dead, and the surviving residents and business owners had primarily fled the terrible disease. Physician John Snow plotted the locations of cholera deaths on a map. The surviving maps of his work show a method of tallying the death counts, drawn as lines parallel to the street, at the appropriate addresses. Snow’s research revealed a pattern. He saw an evident concentration around the water pump on Broad Street, which helped find the cause of the infection.</p>
-<div class="figure">
-<img src="images/Snow.png" />
-
-</div>
+<p><img src="images/Snow.png" /></p>
 </div>
 <div id="charles-joseph-minard-17811870" class="section level4">
 <h4><span class="header-section-number">2.3.2.3</span> Charles Joseph Minard (1781–1870)</h4>
 <p>Charles Joseph Minard was a French civil engineer famous for his representation of numerical data on maps. His most famous work is the map of Napoleon’s Russian campaign of 1812 illustrating the dramatic loss of his army over the advance on Moscow and the following retreat. This classic lithograph dates back to 1869, displaying the number of men in Napoleon’s 1812 Russian army, their movements, and the temperatures they encountered along their way. It has been called one of the “best statistical drawings ever created.” The work is an essential reminder that the fundamentals of data visualization lie in a nuanced understanding of the many dimensions of data. Tools like D3.js and HTML are no proper without a firm grasp of your dataset and sharp communication skills. It represents the earliest beginning of data journalism.</p>
-<div class="figure">
-<img src="images/Minard.png" />
-
-</div>
+<p><img src="images/Minard.png" /></p>
 </div>
 <div id="florence-nightingale-18201910" class="section level4">
 <h4><span class="header-section-number">2.3.2.4</span> Florence Nightingale (1820–1910)</h4>
 <p>Florence Nightingale is famous for her work as a nurse during the Crimean War, but she was also a data journalist. She realized soldiers were dying from poor sanitation and malnutrition, so she kept meticulous records of the death tolls in the hospitals and visualized the data. Her coxcomb or rose diagrams helped her fight for better hospital conditions and ultimately save lives.</p>
-<div class="figure">
-<img src="images/FlorenceNightingale.png" />
-
-</div>
+<p><img src="images/FlorenceNightingale.png" /></p>
 <p>(Source:<span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>)</p>
 </div>
 <div id="edmond-halley-16561742" class="section level4">
 <h4><span class="header-section-number">2.3.2.5</span> Edmond Halley (1656–1742)</h4>
 <p>Edmond Halley was an English astronomer, geophysicist, mathematician, meteorologist, and physicist who is best known for computing the orbit of Halley???s Comet. According to the BBC, Halley developed the use of contour lines on maps to connect and describe areas that display differences in atmospheric conditions from place to place. These lines are now commonly used to describe meteorological variation common to us from weather reports.</p>
-<div class="figure">
-<img src="images/Edmond.png" />
-
-</div>
+<p><img src="images/Edmond.png" /></p>
 <p>(Source:<span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>)</p>
 </div>
 <div id="charles-de-fourcroy-17661824" class="section level4">
 <h4><span class="header-section-number">2.3.2.6</span> Charles de Fourcroy (1766–1824)</h4>
 <p>Charles de Fourcroy was a French mathematician and scholar. He produced a visual analysis of the work of French civil engineers and a comparison of the demographics of European cities.In 1782 he published Tableau Poléometrique, a treatise on engineering and civil construction. His use of geometric shapes predates the modern treemap, which is widely used today to display hierarchical data.</p>
-<div class="figure">
-<img src="images/Charles.png" />
-
-</div>
+<p><img src="images/Charles.png" /></p>
 <p>(Source:<span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>)</p>
 </div>
 <div id="luigi-perozzo-18561916" class="section level4">
 <h4><span class="header-section-number">2.3.2.7</span> Luigi Perozzo (1856–1916)</h4>
 <p>Luigi Perozzo was an Italian mathematician and statistician who stood out for being the first to introduce 3D graphical representations, showing the relationships between three variables on the same graph. Perozzo published one of the first 3D representations of data showing the age group of the Swedish population between the 18th and 19th centuries.</p>
-<div class="figure">
-<img src="images/Luigi.png" />
-
-</div>
+<p><img src="images/Luigi.png" /></p>
 <p>(Source:<span class="citation">(Infogram <a href="#ref-history_viz">2016</a>)</span>)</p>
 </div>
 </div>
@@ -593,28 +600,26 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="hans-rosling" class="section level3">
 <h3><span class="header-section-number">2.4.1</span> Hans Rosling</h3>
 <p>Hans Rosling took his interest in global health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is <em>“Asia’s Rise: How and When”</em> <span class="citation">(Rosling <a href="#ref-hans">2009</a>)</span>. In this video, Hans shows trends of the Western countries vs. Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.</p>
-<p>Hans was the co-founder and developer of the Gapminder Foundation which is committed to promoting global sustainable development through the understanding of statistics and data describing issues at the local, national, and global level <span class="citation">(Ruan et al. <a href="#ref-gapminder">2017</a>)</span>. One of the most important goals of the Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to present the world as it is <span class="citation">(Ruan et al. <a href="#ref-gapminder">2017</a>)</span>.</p>
-<div class="figure">
-<img src="images/hans.PNG" />
-
-</div>
+<p>Hans was the co-founder and developer of the Gapminder Foundation which is committed to promoting global sustainable development through the understanding of statistics and data describing issues at the local, national, and global level. One of the most important goals of the Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to present the world as it is <span class="citation">(Ruan et al. <a href="#ref-gapminder">2017</a>)</span>.</p>
+<p>As part of Gapminder, Hans Rosling has developed many interactive and intuitive visualizations. Gapminder provides free teaching material to dismantle misconceptions and promote a fact-based worldview <span class="citation">(Rosling, <a href="#ref-han_rosling_teaching">n.d.</a>)</span>.</p>
+<p><img src="images/hans.PNG" /></p>
 </div>
 <div id="david-mccandless" class="section level3">
 <h3><span class="header-section-number">2.4.2</span> David McCandless</h3>
 <p>David McCandless is a British data-journalist and his blog <em>Information is Beautiful</em> <span class="citation">(McCandless <a href="#ref-info_beautiful">2018</a>)</span> hosts some of the most visually stunning graphs, charts, and maps on a wide range of topics like science, food, dogs and countries. One such chart, <em>International Number Ones: Because every country is good at something (according to data),</em> is a captivating work that displays something each country is the best at <span class="citation">(McCandless <a href="#ref-country_chart">2016</a>)</span>. The visualizations on this website are updated and revised whenever new data is available.</p>
 <p>One such chart, <em>International Number Ones: Because every country is good at something (according to data),</em> is a captivating work that displays something each country is the best at <span class="citation">(McCandless <a href="#ref-country_chart">2016</a>)</span>. The visualizations on this website are updated and revised whenever new data is available.</p>
-<div class="figure">
-<img src="images/Number_ones.png" />
-
+<p><img src="images/Number_ones.png" /></p>
 </div>
 </div>
-</div>
-<div id="an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization" class="section level2">
-<h2><span class="header-section-number">2.5</span> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</h2>
+<div id="how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization-theory-example" class="section level2">
+<h2><span class="header-section-number">2.5</span> How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example</h2>
 <div id="a-cool-website-mit-media-lab" class="section level3">
 <h3><span class="header-section-number">2.5.1</span> A cool website: MIT Media Lab</h3>
-<p><span class="citation">(Deloitte, Datawheel, and Hidalgo <a href="#ref-DataUSA">2016</a>)</span> <a href="https://www.media.mit.edu">MIT Media Lab</a> in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries, etc. Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.</p>
-<p>We think of a topic, and it is possible it is there! The benefits are a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data. There are also other similar websites, that has some good visualizations on census data: <span class="citation">(Bureau <a href="#ref-CensusDataViz">2018</a><a href="#ref-CensusDataViz">a</a>)</span></p>
+<p><span class="citation">(Deloitte, Datawheel, and Hidalgo <a href="#ref-DataUSA">2016</a>)</span>
+<a href="https://www.media.mit.edu">MIT Media Lab</a> in collaboration with Deloitte has created a new visualization tool, that aggregates US government open source data and mines information to generate trends and stories about cities, jobs, industries, etc.
+Just looking at any of the open data sources would give us an idea about the vastness (breadth and depth) of the available data. It is impressive that they have brought it all together on a single platform in a convenient format.</p>
+<p>We think of a topic, and it is possible it is there! The benefits are a better understanding of our consumers, talent pool, jobs, climate, which helps improve our decision-making ability. The best part is that the data is also available for download so we can replicate the visuals, redesign and tell our own stories with this data.
+There are also other similar websites, that has some good visualizations on census data: <span class="citation">(Bureau <a href="#ref-CensusDataViz">2018</a><a href="#ref-CensusDataViz">a</a>)</span></p>
 </div>
 <div id="standing-out-categorization-of-information-on-the-website." class="section level3">
 <h3><span class="header-section-number">2.5.2</span> Standing out categorization of information on the website.</h3>
@@ -631,23 +636,24 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="automatic-visualization-vs.context-specific-visualization" class="section level3">
 <h3><span class="header-section-number">2.5.3</span> Automatic visualization vs. context-specific visualization</h3>
 <p>Automatic visualization is a bad idea, generally speaking. Some parts of visualization indeed should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.</p>
-<p>However, full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. The most interesting visualizations are context-specific.<span class="citation">(Flowingdata <a href="#ref-auto_viz">2017</a>)</span></p>
+<p>However, full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. The most interesting visualizations are context-specific. <span class="citation">(Flowingdata <a href="#ref-auto_viz">2017</a>)</span></p>
 </div>
 <div id="data-analytics-software" class="section level3">
 <h3><span class="header-section-number">2.5.4</span> Data analytics software</h3>
-<p>Data analytics software can analyze vast amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. Data visualization still leaves room for interpretation. However, technology is catching up. Narrative generation software can run as a plug-in to the dashboards. Tools like Savvy install on a server and allow every dashboard user to get a written summary of demand. This software is fully plugged and play, it takes seconds to install, and it is easy to use. It runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. It is an example of how automation is making our working lives more comfortable by automating repetitive tasks and allowing us to leverage existing data reserves fully.<span class="citation">(Manning <a href="#ref-work_place">2016</a>)</span></p>
+<p>Data analytics software can analyze vast amounts of data and incredible speeds, but how can it explain the results of that analysis? Today, the only means of doing this is with graphics. Data visualization still leaves room for interpretation. However, technology is catching up. Narrative generation software can run as a plug-in to the dashboards. Tools like Savvy install on a server and allow every dashboard user to get a written summary of demand. This software is fully plugged and play, it takes seconds to install, and it is easy to use. It runs with Microsoft Excel, Qlik Sense 3.0, and is available as an API. It is an example of how automation is making our working lives more comfortable by automating repetitive tasks and allowing us to leverage existing data reserves fully. <span class="citation">(Manning <a href="#ref-work_place">2016</a>)</span></p>
 </div>
 <div id="data-visualization-cant-explain-data-leaving-room-for-interpretation." class="section level3">
 <h3><span class="header-section-number">2.5.5</span> Data visualization can’t explain data, leaving room for interpretation.</h3>
-<p>According to Alysson Ferreira, a UI Engineer, there is an increasing need to understand the latest trends quickly and efficiently, which means there’s also a need for significant sources of trustworthy information.<span class="citation">(Ferreira <a href="#ref-UI_engineer">2017</a>)</span></p>
-<p>This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information.<span class="citation">(Towler <a href="#ref-future_viz">2015</a>)</span></p>
+<p>According to Alysson Ferreira, a UI Engineer, there is an increasing need to understand the latest trends quickly and efficiently, which means there’s also a need for significant sources of trustworthy information. <span class="citation">(Ferreira <a href="#ref-UI_engineer">2017</a>)</span></p>
+<p>This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information. <span class="citation">(Towler <a href="#ref-future_viz">2015</a>)</span></p>
 <p>Plug in any data set into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone don’t fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization cannot explain data, leaving room for interpretation.</p>
 <p>Although simple visualizations such as standard chart types (bar chart, line chart, etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market, full on automation where insight fountains out from any data set are far-fetched at this point because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.</p>
 </div>
 <div id="one-great-tool-d3.js." class="section level3">
 <h3><span class="header-section-number">2.5.6</span> One great tool: D3.js.</h3>
 <p>The focus in today’s world has been on open source tools and technologies and these tools although being free for the most part to require more effort to integrate to the current visualization workflow seamlessly. As mentioned in one of the articles about D3.js:</p>
-<p>D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility. <strong>D3.js</strong> is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.</p>
+<p>D3.js is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.
+<strong>D3.js</strong> is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.</p>
 <p>Ultimately, the focus should be on our goals rather than our tools.</p>
 </div>
 </div>
@@ -673,10 +679,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="blogs" class="section level3">
 <h3><span class="header-section-number">2.6.2</span> Blogs</h3>
 <p>Here are some blogs recommended by Tableau <span class="citation">(Tableau Software <a href="#ref-Top_10_Blogs">2018</a><a href="#ref-Top_10_Blogs">c</a>)</span>:</p>
-<table style="width:47%;">
+<table>
 <colgroup>
 <col width="12%" />
-<col width="22%" />
+<col width="75%" />
 <col width="12%" />
 </colgroup>
 <thead>
@@ -728,13 +734,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <td><a href="https://www.tableau.com/about/blog" class="uri">https://www.tableau.com/about/blog</a></td>
 </tr>
 <tr class="odd">
-<td>insert reference</td>
-<td>Michael Sandberg’s blog discusses a wide variety of data visualization examples</td>
+<td>Michael Sandberg’s Data Visualization Blog</td>
+<td>Michael Sandberg’s blog discusses a wide variety of data visualization examples. In addition, the blog covers other topics such as Infographics, Data Science, Business Intelligence, Data Ethics, Storytelling and much more.</td>
 <td><a href="https://datavizblog.com/" class="uri">https://datavizblog.com/</a></td>
 </tr>
 <tr class="even">
-<td>insert reference</td>
-<td>This blog features discussion of all things data</td>
+<td>Beautiful Data Blog</td>
+<td>This blog features discussion of all things data and has a wide range of categories to browse through.</td>
 <td><a href="http://beautifuldata.net/" class="uri">http://beautifuldata.net/</a></td>
 </tr>
 </tbody>
@@ -742,11 +748,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="useful-links-on-data-visualization-resources-trends-and-tutorials" class="section level3">
 <h3><span class="header-section-number">2.6.3</span> Useful Links on Data Visualization Resources, Trends, and Tutorials</h3>
-<table style="width:100%;">
+<table>
 <colgroup>
-<col width="16%" />
-<col width="30%" />
-<col width="52%" />
+<col width="27%" />
+<col width="51%" />
+<col width="20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -758,122 +764,120 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <tbody>
 <tr class="odd">
 <td><span class="citation">(Catalogue <a href="#ref-charts_viz">2018</a>)</span></td>
-<td>You can find different types of plots used in data visualization</td>
-<td><a href="https://datavizcatalogue.com/search.html">https://datavizcatalogue.com</a>.</td>
+<td>This is a helpful resource where one can find different types of plots that can be used in data visualization.</td>
+<td><a href="https://datavizcatalogue.com/search.html">https://datavizcatalogue.com</a></td>
 </tr>
 <tr class="even">
 <td><span class="citation">(Kosara <a href="#ref-eagereyes_viz">2018</a><a href="#ref-eagereyes_viz">a</a>)</span></td>
-<td>Robert Kosara’s website which contains recent developments happening in visualization and are likely to have an impact.</td>
+<td>Robert Kosara’s website which contains recent developments happening in visualization.</td>
+<td><a href="https://eagereyes.org">https://eagereyes.org</a></td>
 </tr>
 <tr class="odd">
 <td><span class="citation">(Research <a href="#ref-research_viz">2018</a>)</span></td>
-<td>About Robert Kosara and his research papers.</td>
+<td>This link to Tableau’s Research webpage includes information about Robert Kosara and his research papers. Here is a link to Robert Kosara’s <a href="https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter handle</a>.</td>
+<td><a href="https://research.tableau.com/user/robert-kosara">https://research.tableau.com/user/robert-kosara</a></td>
 </tr>
 <tr class="even">
-<td><span class="citation">(Kosara <a href="#ref-twitter_Kosara">2018</a><a href="#ref-twitter_Kosara">b</a>)</span></td>
-<td>Robert Kosara’s twitter handle.</td>
-</tr>
-<tr class="odd">
 <td><span class="citation">(FlowingData <a href="#ref-flowingdata">2018</a>)</span></td>
 <td>Website which offers courses, tutorials and happenings in viz.</td>
-<td><a href="http://flowingdata.com/" class="uri">http://flowingdata.com/</a></td>
+<td><a href="http://flowingdata.com/">http://flowingdata.com/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="citation">(Infogram <a href="#ref-infogram">2018</a>)</span></td>
 <td>An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>Improving data visualisation for the public sector (does this link work?)</td>
 <td><a href="http://www.improving-visualisation.org/" class="uri">http://www.improving-visualisation.org/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>This resource is a data visualization gallery of weekly explorations of United States Census data</td>
 <td><a href="https://www.census.gov/dataviz/" class="uri">https://www.census.gov/dataviz/</a></td>
 </tr>
-<tr class="odd">
-<td><span class="citation">(Joerg Blumtritt NA,)</span></td>
+<tr class="even">
+<td><span class="citation">(Joerg Blumtritt, <a href="#ref-Beautiful_data">n.d.</a>,)</span></td>
 <td>This blog features discussion of all things data</td>
 <td><a href="http://beautifuldata.net/" class="uri">http://beautifuldata.net/</a></td>
 </tr>
-<tr class="even">
-<td><span class="citation">(Sandberg, n.d.)</span></td>
+<tr class="odd">
+<td><span class="citation">(Sandberg, <a href="#ref-Michael_Sandberg_blog">n.d.</a>)</span></td>
 <td>Michael Sandberg’s blog discusses a wide variety of data visualization examples</td>
 <td><a href="https://datavizblog.com/" class="uri">https://datavizblog.com/</a></td>
 </tr>
-<tr class="odd">
-<td><span class="citation">(NA, n.d.)</span></td>
+<tr class="even">
+<td><span class="citation">(NA, <a href="#ref-data_viz_gallery">n.d.</a>)</span></td>
 <td>This resource is a data visualization gallery of weekly explorations of United States Census data</td>
 <td><a href="https://www.census.gov/dataviz/" class="uri">https://www.census.gov/dataviz/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="citation">(Agency <a href="#ref-fema_viz">2018</a>)</span></td>
 <td>This resource provides a series of interactive data visualizations using FEMA data</td>
 <td><a href="https://www.fema.gov/data-visualization" class="uri">https://www.fema.gov/data-visualization</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>This blog features discussion of all things data</td>
 <td><a href="http://beautifuldata.net/" class="uri">http://beautifuldata.net/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>Improving data visualisation for the public sector (does this link work?)</td>
 <td><a href="http://www.improving-visualisation.org/" class="uri">http://www.improving-visualisation.org/</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>Michael Sandberg’s blog discusses a wide variety of data visualization examples</td>
 <td><a href="https://datavizblog.com/" class="uri">https://datavizblog.com/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>This resource is a data visualization gallery of weekly explorations of United States Census data</td>
 <td><a href="https://www.census.gov/dataviz/" class="uri">https://www.census.gov/dataviz/</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>This resource provides a series of interactive data visualizations using FEMA data</td>
 <td><a href="https://www.fema.gov/data-visualization" class="uri">https://www.fema.gov/data-visualization</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>The History of Data Visualization Dashboard Insight, Dashboard Insight, 2013</td>
 <td><a href="http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx" class="uri">http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>Current research: Deceptive visualizations, Infogram, 2016</td>
 <td><a href="https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239" class="uri">https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>Agata Kwapien in Data Visualization, 2015</td>
 <td><a href="https://www.datapine.com/blog/misleading-data-visualization-examples/" class="uri">https://www.datapine.com/blog/misleading-data-visualization-examples/</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>A Brief History of Data Visualization, York University, Michael Friendly, 2006</td>
 <td><a href="http://www.datavis.ca/papers/hbook.pdf" class="uri">http://www.datavis.ca/papers/hbook.pdf</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>Data Visualization and the 9 Fundamental Design Principles, Melissa Anderson, 2017</td>
 <td><a href="https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/" class="uri">https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>A Practitioner Guide to Best Practices in Data Visualization.Interfaces 47(6):473-488, Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer, 2017</td>
 <td><a href="https://doi.org/10.1287/inte.2017.0916" class="uri">https://doi.org/10.1287/inte.2017.0916</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>insert reference</td>
 <td>The 7 Best Data Visualization Tools In 2017</td>
 <td><a href="https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30" class="uri">https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>insert reference</td>
 <td>The Data Visualisation Catalogue</td>
 <td><a href="https://datavizcatalogue.com" class="uri">https://datavizcatalogue.com</a></td>
@@ -921,11 +925,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h4><span class="header-section-number">2.6.4.4</span> When Should You Use Infographics or Data Visualization?</h4>
 <p>While both infographics and data visualizations have their distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.</p>
 <p>Data Visualization:</p>
-<table style="width:81%;">
+<table>
 <colgroup>
-<col width="12%" />
-<col width="16%" />
-<col width="51%" />
+<col width="14%" />
+<col width="20%" />
+<col width="65%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -975,97 +979,109 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-viz">
-<p>Friedman, Vitaly. 2008. “Data-Visualization-and-Infographics.” <a href="https://www.smashingmagazine.com/2008/01/monday-inspiration-data-visualization-and-infographics/" class="uri">https://www.smashingmagazine.com/2008/01/monday-inspiration-data-visualization-and-infographics/</a>.</p>
+<p>Friedman, Vitaly. 2008. “Data-Visualization-and-Infographics.” <a href="https://www.smashingmagazine.com/2008/01/monday-inspiration-data-visualization-and-infographics/">https://www.smashingmagazine.com/2008/01/monday-inspiration-data-visualization-and-infographics/</a>.</p>
 </div>
 <div id="ref-lawfraud">
-<p>Disney, Andrew. 2017. “Graph Visualization Use Cases: Law and Fraud.” <a href="https://cambridge-intelligence.com/graph-visualization-use-cases/" class="uri">https://cambridge-intelligence.com/graph-visualization-use-cases/</a>.</p>
+<p>Disney, Andrew. 2017. “Graph Visualization Use Cases: Law and Fraud.” <a href="https://cambridge-intelligence.com/graph-visualization-use-cases/">https://cambridge-intelligence.com/graph-visualization-use-cases/</a>.</p>
 </div>
 <div id="ref-slide_geeks">
-<p>slide_geeks. 2019. “Best Real Estate Investing Example Powerpoint Presentation Examples,PPT:SG-14716000770769.” <a href="https://www.slidegeeks.com/business/product/best-real-estate-investing-example-powerpoint-presentation-examples" class="uri">https://www.slidegeeks.com/business/product/best-real-estate-investing-example-powerpoint-presentation-examples</a>.</p>
+<p>“Best Real Estate Investing Example Powerpoint Presentation Examples,PPT:SG-14716000770769.” 2019. <a href="https://www.slidegeeks.com/business/product/best-real-estate-investing-example-powerpoint-presentation-examples">https://www.slidegeeks.com/business/product/best-real-estate-investing-example-powerpoint-presentation-examples</a>.</p>
 </div>
 <div id="ref-david_2019">
-<p>smith. 2019. “Exploratory Data Analysis of Prosper.com Lending Data.” <a href="http://miamidatascientist.com/exploratory-data-analysis-prosper-lending-data/" class="uri">http://miamidatascientist.com/exploratory-data-analysis-prosper-lending-data/</a>.</p>
+<p>smith. 2019. “Exploratory Data Analysis of Prosper.com Lending Data.” <a href="http://miamidatascientist.com/exploratory-data-analysis-prosper-lending-data/">http://miamidatascientist.com/exploratory-data-analysis-prosper-lending-data/</a>.</p>
 </div>
 <div id="ref-aarons_2014">
-<p>Aarons, Mark &amp; R Farahnak, Gregory &amp; Ehrhart. 2014. “Misleading Graphs: Real Life Examples.” <a href="https://www.researchgate.net/figure/Second-order-confirmatory-factor-analysis-factor-loadings-for-the-implementation_fig1_261732454" class="uri">https://www.researchgate.net/figure/Second-order-confirmatory-factor-analysis-factor-loadings-for-the-implementation_fig1_261732454</a>.</p>
+<p>Aarons, Mark &amp; R Farahnak, Gregory &amp; Ehrhart. 2014. “Misleading Graphs: Real Life Examples.” <a href="https://www.researchgate.net/figure/Second-order-confirmatory-factor-analysis-factor-loadings-for-the-implementation_fig1_261732454">https://www.researchgate.net/figure/Second-order-confirmatory-factor-analysis-factor-loadings-for-the-implementation_fig1_261732454</a>.</p>
 </div>
 <div id="ref-viz_importance">
-<p>Pittenturf, Chris. 2018. “What Is Data Visualization and Why Is It Important?” <a href="https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html" class="uri">https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html</a>.</p>
+<p>Pittenturf, Chris. 2018. “What Is Data Visualization and Why Is It Important?” <a href="https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html">https://data-visualization.cioreview.com/cxoinsight/what-is-data-visualization-and-why-is-it-important-nid-11806-cid-163.html</a>.</p>
 </div>
 <div id="ref-viz_ted">
-<p>McCandless, David. 2010. “The Beauty of Data Visualization.” TED. <a href="https://www.ted.com/talks/david{\_}mccandless{\_}the{\_}beauty{\_}of{\_}data{\_}visualization" class="uri">https://www.ted.com/talks/david{\_}mccandless{\_}the{\_}beauty{\_}of{\_}data{\_}visualization</a>.</p>
+<p>McCandless, David. 2010. “The Beauty of Data Visualization.” TED. <a href="https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization">https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization</a>.</p>
 </div>
 <div id="ref-marksman">
-<p>Healthcare, MarksMan. 2017. “How Data Visualization is Helping in Healthcare Decision Making?” <a href="https://marksmanhealthcare.com/data-visualization-helping-healthcare-decision-making/" class="uri">https://marksmanhealthcare.com/data-visualization-helping-healthcare-decision-making/</a>.</p>
+<p>Healthcare, MarksMan. 2017. “How Data Visualization is Helping in Healthcare Decision Making?” <a href="https://marksmanhealthcare.com/data-visualization-helping-healthcare-decision-making/">https://marksmanhealthcare.com/data-visualization-helping-healthcare-decision-making/</a>.</p>
 </div>
 <div id="ref-data_viz_history">
-<p>Friendly, Michael. 2006. “A Brief History of Data Visualization.” <a href="http://www.datavis.ca/papers/hbook.pdf" class="uri">http://www.datavis.ca/papers/hbook.pdf</a>.</p>
+<p>Friendly, Michael. 2006. “A Brief History of Data Visualization.” <a href="http://www.datavis.ca/papers/hbook.pdf">http://www.datavis.ca/papers/hbook.pdf</a>.</p>
+</div>
+<div id="ref-history_dataviz">
+<p>n.d. <a href="https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/">https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/</a>.</p>
 </div>
 <div id="ref-history_viz">
 <p>Infogram. 2016. “Key Figures in the History of Data Visualization.” <a href=" https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c">https://medium.com/@Infogram/key-figures-in-the-history-of-data-visualization-30486681844c</a>.</p>
 </div>
 <div id="ref-hans">
-<p>Rosling, Hans. 2009. “Asia’s Rise – How and When.” <a href="https://www.ted.com/talks/hans_rosling_asia_s_rise_how_and_when" class="uri">https://www.ted.com/talks/hans_rosling_asia_s_rise_how_and_when</a>.</p>
+<p>Rosling, Hans. 2009. “Asia’s Rise – How and When.” <a href="https://www.ted.com/talks/hans_rosling_asia_s_rise_how_and_when">https://www.ted.com/talks/hans_rosling_asia_s_rise_how_and_when</a>.</p>
 </div>
 <div id="ref-gapminder">
-<p>Ruan, Zichan, Yuantian Miao, Lei Pan, Nicholas Patterson, and Jun Zhang. 2017. “Visualization of big data security: a case study on the KDD99 cup data set.” <em>Digital Communications and Networks</em> 3 (4): 250–59. doi:<a href="https://doi.org/10.1016/j.dcan.2017.07.004">10.1016/j.dcan.2017.07.004</a>.</p>
+<p>Ruan, Zichan, Yuantian Miao, Lei Pan, Nicholas Patterson, and Jun Zhang. 2017. “Visualization of big data security: a case study on the KDD99 cup data set.” <em>Digital Communications and Networks</em> 3 (4): 250–59. <a href="https://doi.org/10.1016/j.dcan.2017.07.004">https://doi.org/10.1016/j.dcan.2017.07.004</a>.</p>
+</div>
+<div id="ref-han_rosling_teaching">
+<p>Rosling, Han. n.d. “Advantages and Disadvantages of Tableau.” <a href="https://www.gapminder.org/tools/#$chart-type=bubbles">https://www.gapminder.org/tools/#$chart-type=bubbles</a>.</p>
 </div>
 <div id="ref-info_beautiful">
-<p>McCandless, David. 2018. “Information Is Beautiful.” <a href="https://informationisbeautiful.net/" class="uri">https://informationisbeautiful.net/</a>.</p>
+<p>McCandless, David. 2018. “Information Is Beautiful.” <a href="https://informationisbeautiful.net/">https://informationisbeautiful.net/</a>.</p>
 </div>
 <div id="ref-country_chart">
-<p>McCandless, David. 2016. “International Number Ones.” <a href="https://informationisbeautiful.net/2016/international-number-ones/" class="uri">https://informationisbeautiful.net/2016/international-number-ones/</a>.</p>
+<p>McCandless, David. 2016. “International Number Ones.” <a href="https://informationisbeautiful.net/2016/international-number-ones/">https://informationisbeautiful.net/2016/international-number-ones/</a>.</p>
 </div>
 <div id="ref-DataUSA">
-<p>Deloitte, Datawheel, and Cesar Hidalgo. 2016. “Data Usa: Search, Map, Compare, and Download Us Data.” <a href="https://datausa.io/" class="uri">https://datausa.io/</a>.</p>
+<p>Deloitte, Datawheel, and Cesar Hidalgo. 2016. “Data Usa: Search, Map, Compare, and Download Us Data.” <a href="https://datausa.io/">https://datausa.io/</a>.</p>
 </div>
 <div id="ref-CensusDataViz">
-<p>Bureau, United States Census. 2018a. “Census Tools APIs Data Visualization Gallery.” <a href="https://www.census.gov/dataviz/" class="uri">https://www.census.gov/dataviz/</a>.</p>
+<p>Bureau, United States Census. 2018a. “Census Tools APIs Data Visualization Gallery.” <a href="https://www.census.gov/dataviz/">https://www.census.gov/dataviz/</a>.</p>
 </div>
 <div id="ref-auto_viz">
-<p>Flowingdata. 2017. “Automatic Visualization Is a Bad Idea, Generally Speaking.” <a href="https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/" class="uri">https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/</a>.</p>
+<p>Flowingdata. 2017. “Automatic Visualization Is a Bad Idea, Generally Speaking.” <a href="https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/">https://flowingdata.com/2017/04/07/automatic-visualization-is-a-bad-idea-generally-speaking/</a>.</p>
 </div>
 <div id="ref-work_place">
-<p>Manning, Arden. 2016. “Workplace Automation: Making Data Visualization Smarter.” <a href="https://yseop.com/blog/automation-making-data-visualization-smarter/" class="uri">https://yseop.com/blog/automation-making-data-visualization-smarter/</a>.</p>
+<p>Manning, Arden. 2016. “Workplace Automation: Making Data Visualization Smarter.” <a href="https://yseop.com/blog/automation-making-data-visualization-smarter/">https://yseop.com/blog/automation-making-data-visualization-smarter/</a>.</p>
 </div>
 <div id="ref-UI_engineer">
-<p>Ferreira, Alysson. 2017. “A Ui Engineer’s Thoughts on Data Visualization Tools.” <a href="http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools" class="uri">http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools</a>.</p>
+<p>Ferreira, Alysson. 2017. “A Ui Engineer’s Thoughts on Data Visualization Tools.” <a href="http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools">http://blog.avenuecode.com/a-ui-engineers-thoughts-on-data-visualization-tools</a>.</p>
 </div>
 <div id="ref-future_viz">
-<p>Towler, Will. 2015. “Data Visualization: The Future of Data Visualization.” <a href="http://analytics-magazine.org/data-visualization-the-future-of-data-visualization/" class="uri">http://analytics-magazine.org/data-visualization-the-future-of-data-visualization/</a>.</p>
+<p>Towler, Will. 2015. “Data Visualization: The Future of Data Visualization.” <a href="http://analytics-magazine.org/data-visualization-the-future-of-data-visualization/">http://analytics-magazine.org/data-visualization-the-future-of-data-visualization/</a>.</p>
 </div>
 <div id="ref-Tableau_Community">
-<p>Tableau Software. 2018a. “Tableau Community.” <a href="https://community.tableau.com/welcome" class="uri">https://community.tableau.com/welcome</a>.</p>
+<p>Tableau Software. 2018a. “Tableau Community.” <a href="https://community.tableau.com/welcome">https://community.tableau.com/welcome</a>.</p>
 </div>
 <div id="ref-LinkedIn_Groups">
-<p>Tableau Software. 2018b. “Tableau Groups.” <a href="https://www.linkedin.com/search/results/groups/?keywords=tableau{\&amp;}origin=SWITCH{\_}SEARCH{\_}VERTICAL" class="uri">https://www.linkedin.com/search/results/groups/?keywords=tableau{\&amp;}origin=SWITCH{\_}SEARCH{\_}VERTICAL</a>.</p>
+<p>Tableau Software. 2018b. “Tableau Groups.” <a href="https://www.linkedin.com/search/results/groups/?keywords=tableau{\&amp;}origin=SWITCH{\_}SEARCH{\_}VERTICAL">https://www.linkedin.com/search/results/groups/?keywords=tableau{\&amp;}origin=SWITCH{\_}SEARCH{\_}VERTICAL</a>.</p>
 </div>
 <div id="ref-Top_10_Blogs">
-<p>Tableau Software. 2018c. “The 10 best data visualization blogs to follow.” <a href="https://www.tableau.com/learn/articles/best-data-visualization-blogs" class="uri">https://www.tableau.com/learn/articles/best-data-visualization-blogs</a>.</p>
+<p>Tableau Software. 2018c. “The 10 best data visualization blogs to follow.” <a href="https://www.tableau.com/learn/articles/best-data-visualization-blogs">https://www.tableau.com/learn/articles/best-data-visualization-blogs</a>.</p>
 </div>
 <div id="ref-charts_viz">
-<p>Catalogue, The Data Visualisation. 2018. “Charts- Data Visualization.” <a href="https://datavizcatalogue.com/search.html" class="uri">https://datavizcatalogue.com/search.html</a>.</p>
+<p>Catalogue, The Data Visualisation. 2018. “Charts- Data Visualization.” <a href="https://datavizcatalogue.com/search.html">https://datavizcatalogue.com/search.html</a>.</p>
 </div>
 <div id="ref-eagereyes_viz">
-<p>Kosara, Robert. 2018a. “Eagereyes.” <a href="https://eagereyes.org/" class="uri">https://eagereyes.org/</a>.</p>
+<p>Kosara, Robert. 2018a. “Eagereyes.” <a href="https://eagereyes.org/">https://eagereyes.org/</a>.</p>
 </div>
 <div id="ref-research_viz">
-<p>Research, Tableau. 2018. “Robert Kosara- Research.” <a href="https://research.tableau.com/user/robert-kosara" class="uri">https://research.tableau.com/user/robert-kosara</a>.</p>
-</div>
-<div id="ref-twitter_Kosara">
-<p>Kosara, Robert. 2018b. “Twitter Handle- Robert Kosara.” <a href="https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor</a>.</p>
+<p>Research, Tableau. 2018. “Robert Kosara- Research.” <a href="https://research.tableau.com/user/robert-kosara">https://research.tableau.com/user/robert-kosara</a>.</p>
 </div>
 <div id="ref-flowingdata">
-<p>FlowingData. 2018. “Flowing Data-Website.” <a href="http://flowingdata.com/" class="uri">http://flowingdata.com/</a>.</p>
+<p>FlowingData. 2018. “Flowing Data-Website.” <a href="http://flowingdata.com/">http://flowingdata.com/</a>.</p>
 </div>
 <div id="ref-infogram">
 <p>Infogram. 2018. “Infogram- Data Visualization.” <a href=" https://infogram.com/page/data-visualization">https://infogram.com/page/data-visualization</a>.</p>
 </div>
+<div id="ref-Beautiful_data">
+<p>Joerg Blumtritt, Benedikt Koehler. n.d. “Beautiful Data.” <a href="http://beautifuldata.net/">http://beautifuldata.net/</a>.</p>
+</div>
+<div id="ref-Michael_Sandberg_blog">
+<p>Sandberg, Michael. n.d. “Michael Sandberg’s Data Visualization Blog.” <a href="https://datavizblog.com/">https://datavizblog.com/</a>.</p>
+</div>
+<div id="ref-data_viz_gallery">
+<p>NA. n.d. “Data Visualization Gallery.” <a href="https://www.census.gov/dataviz/">https://www.census.gov/dataviz/</a>.</p>
+</div>
 <div id="ref-fema_viz">
-<p>Agency, Federal Emergency Management. 2018. “Federal Emergency Management Agency Data Visualization.” <a href="https://www.fema.gov/data-visualization" class="uri">https://www.fema.gov/data-visualization</a>.</p>
+<p>Agency, Federal Emergency Management. 2018. “Federal Emergency Management Agency Data Visualization.” <a href="https://www.fema.gov/data-visualization">https://www.fema.gov/data-visualization</a>.</p>
 </div>
 <div id="ref-VIZVSINFO">
-<p>Pritchard, Matthew. 2016. “DATA Visualization Vs. Infographics.” <a href="http://killerinfographics.com/blog/data-visualization-versus-infographics.html" class="uri">http://killerinfographics.com/blog/data-visualization-versus-infographics.html</a>.</p>
+<p>Pritchard, Matthew. 2016. “DATA Visualization Vs. INFOGRAPHICS.” <a href="http://killerinfographics.com/blog/data-visualization-versus-infographics.html">http://killerinfographics.com/blog/data-visualization-versus-infographics.html</a>.</p>
 </div>
 </div>
             </section>
@@ -1124,7 +1140,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
+    var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
