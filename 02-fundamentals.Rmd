@@ -83,6 +83,12 @@ High preformation graphics should be designed with special care. As the volume o
 
 $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Chart}}$$
 
+![](images/scatterplot_bigdot.png){width=250px,height=200px}
+(Source: [@The_python_graph_gallery_scatter_plot])
+	
+![](images/scatterplot_smalldot.png){width=250px,height=200px}
+(Source: [@The_python_graph_gallery_scatter_plot])
+
 #### Principle 4: Escape flatland - small multiples, parallel sequencing.
 
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graphs or parallel sequencing skill.
