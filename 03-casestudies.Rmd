@@ -52,7 +52,7 @@ To tackle these problems, Uber started by defining base map themes by optimizing
 
 The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation of the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
 
-![Uber Route Maps](images/uber_mapping.png)
+![Uber Route Maps](images/uber_map.png)
 
 (Source:[@uber_maps])
 
@@ -185,6 +185,17 @@ Google’s Music Timeline illustrates a variety of music genres waxing and wanin
 
 (Source:[@google_music])
 
+## Visualizing Urban Data for Social Change
+[@Socialchange]
+
+One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities. With the development of a city, demographic changes, economic, environmental and social problems become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face, and engaging citizens to work toward their dream cities.
+
+Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
+
+A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
+
+As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.
+
 ## Animated Data Visualization
 Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.
 
@@ -230,8 +241,8 @@ This case study begins by clearly explaining necessary background information an
 ### Understanding Plastic pollution using visualization
 Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950's, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled [@wiki_plastic_pollution].
 
-**Usage of plastic in last few decades** [@plastic_pollution_visualizations]:
-![](images/global_plastic_usage.png)
+**Usage of plastic in last few decades** [@global_plastic_production]:
+![](images/Global-plastic-production-1917-to-2017.png)
 
 Plastic has become part of our daily life, and human dependence on plastic has increased over time. The visualization below shows some common plastic products undermining environmental health. [@plastic_pollution_visualizations]
 
@@ -341,14 +352,12 @@ Interactive graph have its own specific advantages. It helps bridge the gap betw
 ### Malaria
 The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
 
-![Original visualization of malaria cases](images/malaria_original.png)
+
 This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. 
 But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better.
-Original Version: [@malaria_zambia_original]
+Original Version: ![Original visualization of malaria cases](images/malaria_original.png)
 
-![Redesigned visualization of malaria cases](images/malaria_makeover.png)
-
-New Version: [@malaria_cases_zambia] 
+New Version: ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
 The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
