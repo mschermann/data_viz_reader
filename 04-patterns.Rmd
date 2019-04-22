@@ -5,7 +5,7 @@ This chapter is a practical guide to a plethora of data visualizations; it explo
 ## Outlier Detection  
 [@outliar]
 
-We can use data visualization for outlier detection in a data set. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
+We can use data visualization for outlier detection in a data set. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered [@Gervini]. In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
 | Outlier      | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
@@ -24,15 +24,13 @@ cars2 <- rbind(cars1, cars_outliers)  # data with outliers.
 # Plot of data with outliers.
 par(mfrow=c(1, 2))
 plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
-plot(cars2$dist,cars2$speed)
 ```
-![](images/with_outliers.png)
+
 ```{r Outliar Detection2}
 # Plot of original data without outliers. Note the change in slope (angle) of best fit line.
 plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 ```
 
-![](images/outliers_removed.png)
 
 Detection of Outliers is performed using:
 
@@ -493,7 +491,7 @@ Word clouds can add clarity to text analysis in order to effectively communicate
 **R:**  [@r]  
 Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
 
-**Python:** [@worldcloud]
+**Python:** [@python_wordcloud]
 For generating word cloud in Python, modules needed are – matplotlib, pandas and wordcloud. By using a mask, you can generate wordclouds in arbitrary shapes. You can color a word-cloud by using an image-based coloring strategy implemented in ImageColorGenerator. It uses the average color of the region occupied by the word in a source image. You can combine this with masking - pure-white will be interpreted as ‘don’t occupy’ by the WordCloud object when passed as mask. If you want white as a legal color, you can just pass a different image to “mask”, but make sure the image shapes line up. You can also use the recolor method and custom coloring functions.
 
 **Wordle:**  [@wordle]

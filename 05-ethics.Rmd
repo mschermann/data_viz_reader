@@ -5,12 +5,12 @@ output:
 ---
 # Ethics
 
-Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice as well. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges, of which we will explore many in this chapter.
+This chapter covers the ethical implication to data visualizations. Ethics refers to a set of moral principles that dictate a person’s behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges. This chapter will touch on the importance of ethics in visualization, guidelines for ethical visualization, topics relating to data deception, ethical challenges faced when creating visualization, visualization and social change, and more.  
 
 ## Importance of Ethics in Visualization  
 [@ethical_infographics]
 
-Alberto Cairo sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
+Alberto Cairo illustrates the importance of ethics in his inforgraphics. He sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
 
 Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
@@ -182,7 +182,13 @@ For example, the vertical scale is too big or too small, skips numbers, or does 
 ![Misleading Graphs: The Missing Baseline](images/misleading-graph-2.jpg)
 
 (source:[@missing_baseline])
-### The Graph is not Labeled Properly  
+
+### The Graph is not Labeled Properly
+
+![Misleading Graphs: The Missing Baseline](images/common-injuries.png)
+
+(source:[@missing_baseline])
+
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 ### Data is left Out
