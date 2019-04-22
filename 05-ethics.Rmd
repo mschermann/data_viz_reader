@@ -185,9 +185,10 @@ For example, the vertical scale is too big or too small, skips numbers, or does 
 ### The Graph is not Labeled Properly  
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
-### Data is Left Out  
-Including only a part of the data is also an easy opportunity to mislead. The following graph uses temperatures of only the first half of the year to prove it was rising dramatically. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
+### Data is left Out
+Hiding relevant data or highlighting a particular data point (cherry-picking data) can lead learners to focus on a small fraction of the data story—at the expense of accurate understanding of the bigger picture. Any individual parameter or statistic can reveal interesting or useful information. But taken out of context, it can also be misleading. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
 
+* Not including all the dimensions of data: [@hiding_data]
 * Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
 * Graphs not drawn to scale:[@scaling_issues] 
 
