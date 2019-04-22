@@ -214,12 +214,13 @@ It first takes an example of two random time series data and plots them on a gra
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
-### Pie Chart and Why Pie Charts are Bad: a Comparison with the Bar Chart  
+### Pie Charts: Oportunities and Obstacles  
 [@quach-penny]
 
-Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
+Using a pie chart is usually considered as a bad idea when it comes to data visualization. However, many agree there is still often relevance to using them
 
-**1.** Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
+**1.** Comparison to bar charts
+Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
 
 ![](images/hickey-before.jpg)
 
@@ -229,19 +230,37 @@ Using a pie chart is usually considered as a bad idea when it comes to data visu
 
 (Source: [@hickey-pie-worst])
 
-**2.** It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
+Simple pie charts may not be worthwhile in this situation, but others they may be:
+
+![](images/Beautiful-Pie-Chart.png)
+
+(Source: [@Pro-Pie-charts])
+
+Slicing up data that is already compared to others is a beautiful way to visualize. The method to make pie charts similar to the above is shared by the article writer: (Source: [@displayr-create-pie-charts])
+
+
+**2.** Distinguishing Categories
+
+It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
 
 ![](images/hickey-breakdown.jpg)
 
 (Source: [@hickey-pie-worst])
 
-**3.** A pie chart is easily manipulated (e.g. using a 3D pie chart).
+The above graph is a case specific to when the labels need to be in a legend to the side of the pie, rather than inside or just outside connected by a line. In these scenarios, the typical method to distinguish is to have the slices ordered by size. When cascaded in order of volume, it is less difficut to match the chart and legend.
+
+**3.** Pie Chart Manipulation
+
+A pie chart is easily manipulated (e.g. using a 3D pie chart).
 
 ![](images/hickey-3D.jpg)
 
 (Source: [@hickey-pie-worst])
 
-**4.** A pie chart may be useful when comparing two different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers!
+This is a possible method to convey a point the data does not represent, however adding a 3-D effect to any visualization might qualify as deceptive and is not specific to pie charts.
+
+**4.** Simple Pie Charts
+A pie chart may be useful when comparing two different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers!
 
 ![](images/henry-quarter.png)
 
@@ -249,6 +268,12 @@ Using a pie chart is usually considered as a bad idea when it comes to data visu
 
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
+
+Comparing the need for pie charts to having numbers displayed defeats the purpose of data visualization. The above numbers are very simple, however the graphs created are very poor, created to make a point. Pie charts should have more color and are meant to make  simple numbers into a visual that captures the audiance more effectively:
+
+![](images/50-50-pretty.jpg)
+(Source: [@50-percent-Henna-Chai])
+
 
 
 ## Maps
