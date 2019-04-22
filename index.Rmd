@@ -16,10 +16,10 @@ description: "This is the class reader for MSIS 2629."
 
 This is a collaborative writing project as part of the course MSIS 2629 "Data Visualization" at [Santa Clara University](http://www.scu.edu). The purpose of the class reader is to collaboratively engage with and reflect on data visualizations, to establish a solid theoretical background, and to collect useful practices and showcases. More information on the background of this project is available in the [syllabus](https://mschermann.github.io/msis2629spring2019).
 
-The following text serves explains how we organize ourselves.
+The following text explains how we organize ourselves.
 
 ## References
-**EVERY** references must be included in the `book.bib` file. This file uses the BibTeX notation (Learn how to use BibTeX [here](http://www.bibtex.org/Using/).). Most literature search engines allow you to export the reference information in BibTeX. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):
+**EVERY** reference must be included in the `book.bib` file. This file uses the BibTeX notation (Learn how to use BibTeX [here](http://www.bibtex.org/Using/)). Most literature search engines allow you to export the reference information in BibTeX. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):
 
 ```
 @misc{great_viz,
@@ -64,7 +64,7 @@ You have probably found this image through a different website that explains the
 }
 ```
 ## Basic Guidelines
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.-->
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))

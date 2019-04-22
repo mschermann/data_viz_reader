@@ -210,7 +210,7 @@ Of course, it is easy to assume that we know the audience we are producing the w
 **Five Practices** | **Explanation**
 --------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Find the compelling narrative** | Along with giving an account of the facts and establishing the connections between them, don’t be boring. You are competing for the viewer’s time and attention, so make sure the narrative has a hook, momentum, or a captivating purpose. Finding the narrative structure will help you decide whether you actually have a story to tell. If you don’t, then perhaps this visualization should support exploratory data analysis (EDA) rather than convey information.
-**Think about the audience** | The visualization needs to be framed around the level of information the audience already has, correct and incorrect: Novice: first exposure to the subject, but doesn’t want oversimplification; Generalist: aware of the topic, but looking for an overview understanding and major themes; Managerial: in-depth, actionable understanding of intricacies and interrelationships with access to detail; Expert: more exploration and discovery and less storytelling with great detail; Executive: only has time to glean the significance and conclusions of weighted probabilities.
+**Think about the audience** | If you think about data visualization as storytelling, then you realize you need to tailor your story to your audience; Novice: first exposure to the subject, but doesn’t want oversimplification; Generalist: aware of the topic, but looking for an overview understanding and major themes; Managerial: in-depth, actionable understanding of intricacies and interrelationships with access to detail; Expert: more exploration and discovery and less storytelling with great detail; Executive: only has time to glean the significance and conclusions of weighted probabilities. When you tell the right story to the right audience you are able to identify data points that resonate with the audience. 
 **Be objective and offer balance** | A visualization should be devoid of bias. Even if it is arguing to influence, it should be based upon what the data says–not what you want it to say. There are simple ways to encourage objectivity: labeling to avoid ambiguity, have graphic dimensions match data dimensions, using standardized units, and keeping design elements from compromising the data. Balance can come from alternative representations (multiple clustering’s; confidence intervals instead of lines; changing timelines; alternative color palettes and assignments; variable scaling) of the data in the same visualization.
 **Don't censor** | Don’t be selective about the data you include or exclude, unless you’re confident you’re giving your audience the best representation of what the data “says”. This selectivity includes using discrete values when the data is continuous; how you deal with missing, outlier and out of range values; arbitrary temporal ranges; capped values, volumes, ranges, and intervals. Viewers will eventually figure that out and lose trust in the visualization (and any others you might produce).
 **Edit, Edit, Edit** | Take care to really try to explain the data, not just decorate it. Don’t fall into “it looks cool” trap, when it might not be the best way explain the data. As journalists and writers know, if you are spending more time editing and improving your visualization than creating it, you are probably doing something right.
@@ -404,7 +404,7 @@ The author has also listed top 7 comparisons between data mining and data visual
 **Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
 **Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
-## Data visualization in Business
+## Data Visualization in Business
 
 ### Data Visualizations in Industry
 Companies tend to rely on dashboards (a compilation of several related data visualizations) to give them high-level insights on company-wide, market-level, or employee-level performance. The following are some common applications of dashboards in business.
@@ -481,8 +481,6 @@ Here's the process on how to get it done.
 ## Special Topics
 
 ### Typography and Data Visualization
-
-1. Definition of typography
 
 Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed. ([WIKI](https://en.wikipedia.org/wiki/Typography))
 
