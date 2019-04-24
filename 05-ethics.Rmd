@@ -1,16 +1,16 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Ethics
 
-Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice as well. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges, of which we will explore many in this chapter.
+This chapter covers the ethical implication to data visualizations. Ethics refers to a set of moral principles that dictate a person’s behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges. This chapter will touch on the importance of ethics in visualization, guidelines for ethical visualization, topics relating to data deception, ethical challenges faced when creating visualization, visualization and social change, and more.  
 
 ## Importance of Ethics in Visualization  
 [@ethical_infographics]
 
-Alberto Cairo sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
+Alberto Cairo illustrates the importance of ethics in his inforgraphics. He sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
 
 Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
@@ -94,18 +94,6 @@ The discussion on perspective is an interesting one; it asks how data visualizer
 
 Of course, the challenge posed by the tug-of-war between ethics and utility ( not to say that they are always contradictory in nature)  remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
 
-
-## Data Visualization: A Tool for Social Change in Cities 
-[@socialchange]
-
-One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities. With the development of a city, demographic changes, economic, environmental and social problems become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face, and engaging citizens to work toward their dream cities.
-
-Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
-
-A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
-
-As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.
-
 ## Ethical Theory and Practice from Journalism and Engineering  
 [@poli_social_science]
 
@@ -131,9 +119,9 @@ Now let's talk about data visualization, the latest fashion in numerate journali
 
 Data visualization creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualization than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualization is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
 
-For a relatively harmless example, consider The New Yorker's recent online subway map of inequality. "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
+For a relatively harmless example, consider The New Yorker's recent online [subway map of inequality](https://projects.newyorker.com/story/subway/). "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
 
-A more famous example is David McCandless's unforgettable animation "Debtris", in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
+A more famous example is David McCandless's unforgettable animation ["Debtris"](https://informationisbeautiful.net/2010/debtris/), in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
 
 The animation is pure dazzle camouflage. Statistical apples are compared with statistical oranges throughout. The Iraq comparison, for instance, is not one of "then versus now" as it first appears - but one of what the US Department of Defense once thought it would spend versus a broader estimate, including a financial value on the lives of dead soldiers, and over a trillion dollars of "macroeconomic costs". The war was a disaster- No need for a statistical bait-and-switch to make that case.
 
@@ -194,12 +182,19 @@ For example, the vertical scale is too big or too small, skips numbers, or does 
 ![Misleading Graphs: The Missing Baseline](images/misleading-graph-2.jpg)
 
 (source:[@missing_baseline])
-### The Graph is not Labeled Properly  
+
+### The Graph is not Labeled Properly
+
+![Misleading Graphs: The Missing Baseline](images/common-injuries.png)
+
+(source:[@missing_baseline])
+
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
-### Data is Left Out  
-Including only a part of the data is also an easy opportunity to mislead. The following graph uses temperatures of only the first half of the year to prove it was rising dramatically. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
+### Data is left Out
+Hiding relevant data or highlighting a particular data point (cherry-picking data) can lead learners to focus on a small fraction of the data story—at the expense of accurate understanding of the bigger picture. Any individual parameter or statistic can reveal interesting or useful information. But taken out of context, it can also be misleading. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
 
+* Not including all the dimensions of data: [@hiding_data]
 * Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
 * Graphs not drawn to scale:[@scaling_issues] 
 
