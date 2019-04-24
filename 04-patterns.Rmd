@@ -5,7 +5,7 @@ This chapter is a practical guide to a plethora of data visualizations; it explo
 ## Outlier Detection  
 [@outliar]
 
-We can use data visualization for outlier detection in a data set. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered (Gervini, 2009). In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
+We can use data visualization for outlier detection in a data set. Different methods for outlier detection in functional data have been developed over the years. Several of these methods rely on different notions of functional depth, robust principal components, or random projections of infinite-dimensional data into R. Some distributional approaches have also been considered [@Gervini]. In functional data analysis, we observe curves defined over a given real interval and shape outliers may be defined as those curves that exhibit a different shape from the rest of the sample. Other types of outliers include:
 
 | Outlier      | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
@@ -24,15 +24,13 @@ cars2 <- rbind(cars1, cars_outliers)  # data with outliers.
 # Plot of data with outliers.
 par(mfrow=c(1, 2))
 plot(cars2$speed, cars2$dist, xlim=c(0, 28), ylim=c(0, 230), main="With Outliers", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
-plot(cars2$dist,cars2$speed)
 ```
-![](images/with_outliers.png)
+
 ```{r Outliar Detection2}
 # Plot of original data without outliers. Note the change in slope (angle) of best fit line.
 plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers removed \n A much better fit!", xlab="speed", ylab="dist", pch="*", col="red", cex=2)
 ```
 
-![](images/outliers_removed.png)
 
 Detection of Outliers is performed using:
 
@@ -75,6 +73,11 @@ While style is one form of customization, layering unique data sets on a single 
 ### Keep It Simple
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will suffice.
 
+### Graph Integrity
+"Graphics were used as instruments for reasoning quantitative information. With this example, graphical work has come to flourish. Graphical excellence begins with telling the truth about the data (Tufte,2001)".
+In Tufte's "The Visual Display of Quantitative Information" book, an entire chapter is dedicated to graphical integrity in visualizations. Very useful and important examples can be found in the book. Following are some examples:
+![](image_1.png) 
+![](image_2.png)
 
 ## Charts
 
@@ -216,12 +219,13 @@ It first takes an example of two random time series data and plots them on a gra
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
-### Pie Chart and Why Pie Charts are Bad: a Comparison with the Bar Chart  
+### Pie Charts: Oportunities and Obstacles  
 [@quach-penny]
 
-Using a pie chart is usually considered as a bad idea when it comes to data visualization. Here, we explore some cons of using the pie chart to convey information and compare its effectiveness to the bar chart. 
+Using a pie chart is usually considered as a bad idea when it comes to data visualization. However, many agree there is still often relevance to using them
 
-**1.** Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
+**1.** Comparison to bar charts
+Some information may be difficult to distinguish in a pie chart; however, if the data is presented with bar charts, differences in the data presented may be more obvious.
 
 ![](images/hickey-before.jpg)
 
@@ -231,19 +235,37 @@ Using a pie chart is usually considered as a bad idea when it comes to data visu
 
 (Source: [@hickey-pie-worst])
 
-**2.** It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
+Simple pie charts may not be worthwhile in this situation, but others they may be:
+
+![](images/Beautiful-Pie-Chart.png)
+
+(Source: [@Pro-Pie-charts])
+
+Slicing up data that is already compared to others is a beautiful way to visualize. The method to make pie charts similar to the above is shared by the article writer: (Source: [@displayr-create-pie-charts])
+
+
+**2.** Distinguishing Categories
+
+It is difficult to compare the slices of a circle to figure out the distinctions in size between each pie slice, especially when there are many categories.
 
 ![](images/hickey-breakdown.jpg)
 
 (Source: [@hickey-pie-worst])
 
-**3.** A pie chart is easily manipulated (e.g. using a 3D pie chart).
+The above graph is a case specific to when the labels need to be in a legend to the side of the pie, rather than inside or just outside connected by a line. In these scenarios, the typical method to distinguish is to have the slices ordered by size. When cascaded in order of volume, it is less difficut to match the chart and legend.
+
+**3.** Pie Chart Manipulation
+
+A pie chart is easily manipulated (e.g. using a 3D pie chart).
 
 ![](images/hickey-3D.jpg)
 
 (Source: [@hickey-pie-worst])
 
-**4.** A pie chart may be useful when comparing two different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers!
+This is a possible method to convey a point the data does not represent, however adding a 3-D effect to any visualization might qualify as deceptive and is not specific to pie charts.
+
+**4.** Simple Pie Charts
+A pie chart may be useful when comparing two different categories with different amounts of information. Specifically, it does a better job to distinguish two parts with a 25:75 split or one that is not 50:50 as people are sensitive to a right angle or a dividing line that is not straight. However, this could be done more simply by showing two numbers!
 
 ![](images/henry-quarter.png)
 
@@ -251,6 +273,12 @@ Using a pie chart is usually considered as a bad idea when it comes to data visu
 
 ![](images/henry-half.png)
 (Source: [@henry-defense-pie])
+
+Comparing the need for pie charts to having numbers displayed defeats the purpose of data visualization. The above numbers are very simple, however the graphs created are very poor, created to make a point. Pie charts should have more color and are meant to make  simple numbers into a visual that captures the audiance more effectively:
+
+![](images/50-50-pretty.jpg)
+(Source: [@50-percent-Henna-Chai])
+
 
 
 ## Maps
@@ -453,6 +481,11 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 
 A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
 
+![](images/WordCloud.jpg)
+
+(Source:[@wordCloudimage])
+
+
 Word clouds can add clarity to text analysis in order to effectively communicate your data results.  
 
 |**Pros of Word Clouds** | **Cons of Word Clouds** |
@@ -468,7 +501,7 @@ Word clouds can add clarity to text analysis in order to effectively communicate
 **R:**  [@r]  
 Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
 
-**Python:** [@worldcloud]
+**Python:** [@python_wordcloud]
 For generating word cloud in Python, modules needed are – matplotlib, pandas and wordcloud. By using a mask, you can generate wordclouds in arbitrary shapes. You can color a word-cloud by using an image-based coloring strategy implemented in ImageColorGenerator. It uses the average color of the region occupied by the word in a source image. You can combine this with masking - pure-white will be interpreted as ‘don’t occupy’ by the WordCloud object when passed as mask. If you want white as a legal color, you can just pass a different image to “mask”, but make sure the image shapes line up. You can also use the recolor method and custom coloring functions.
 
 **Wordle:**  [@wordle]
