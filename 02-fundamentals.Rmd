@@ -387,29 +387,6 @@ The following tips for Tableau are still missing:
 ### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
 
-## Special Topics
-
-### Data Mining and Data Visualization  
-[@data_mining]
-
-According to a paper in 2018, we can tell the difference between data mining and data visualizations. Here is a chart that helps us understand this better. 
-
-**Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
-
-**Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
-
-The author has also listed top 7 comparisons between data mining and data visualization, and 12 key differences between them. The article provides a very clear understanding of each of these techniques. 
-
-**BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Definition**|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
-**Preference**|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
-**Area**|Comes under data science|Comes under the area of data science
-**Platform**|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
-**Generality**|New technology but underdeveloped|More useful in real time data forecasting
-**Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
-**Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
-
 ## Data Visualization in Business
 
 ### Data Visualizations in Industry
@@ -482,6 +459,26 @@ Here's the process on how to get it done.
 4 | QA & Product Release | The best part of any project is to get it finalized and released for all to see. All data gets verified for accuracy, functionality testing (if applicable), application flow (if applicable), design testing, and remaining items are all completed. The end result is an engaging visual product for all intended audiences to see and use.
 
 ## Special Topics
+
+### Data Mining and Data Visualization  
+
+According to a paper in 2018[@data_mining], there are some key differences between data mining and data visualizations as suggested below:
+
+**Data Mining** involves different processes such as data extraction, data management, data transformations, data pre-processing, etc.
+
+**Data Visualization**, the primary goal is to convey the information efficiently and clearly without any deviations or complexities in the form of statistical graphs, information graphs, and plots. 
+
+The author has also listed top 7 comparisons between data mining and data visualization, and 12 key differences between them. The article provides a very clear understanding of each of these techniques. 
+
+**BASIS FOR COMPARISON** | **Data Mining** | **Data Visualization**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Definition**|Searches and produces a suitable result from large data chunks|Gives a simple overview of complex data
+**Preference**|This has different applications and is preferred for web search engines|Preferred for data forecasting and predictions
+**Area**|Comes under data science|Comes under the area of data science
+**Platform**|Operated with web software systems or applications|Supports and works better in complex data analyses and applications
+**Generality**|New technology but underdeveloped|More useful in real time data forecasting
+**Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
+**Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
 ### Typography and Data Visualization
 
