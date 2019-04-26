@@ -445,8 +445,8 @@ The line weights help to identify each entry point and show the range of differe
 
 Lisa Rost's article "What I learned recreating one chart using 24 tools" describes lessons learned from recreating one chart using many different data visualization tools. The author used apps Excel, Plotly, Easycharts, Google Sheets, Lyra, Highcharts, Tableau, Polestar, Quadrigram, Illustrator, RAW, and NodeBox, as well as charting libraries ggvis, Bokeh, Highcharts, ggplot2, Processing, NVD3, Seaborn, Vega, D3, matplotlib, Vega-Lite, and R. She links her GitHub page on the project which details the data set she used, containing the health expectancy in years as well as GDP per capita and population for about 200 countries in the year 2015, as well as her process and results of visualizing the data using each tool. However, in the article, she focuses on the main takeaways from the exercise, which was especially interesting in the context of our class discussion on different types of tools and their respective strengths. She also provides her own graphics to help illustrate her lessons learned. 
 
-### Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals  
-Since data visualization is used in a wide variety of fields, from science to journalism, data visualization projects will often have differing objectives, as the people working on them will have different requirements. As the author aptly points out, it is impossible for one tool to satisfy the need of every data visualizer. Each tool has its own pros and cons and it is up to the author in decided which is better suited to meet his/her's specific situation. Hence, when deciding on a tool or tools to use, one should always consider the purpose of the visualization. For example, consider if the visualization is to show exploratory data analysis or to be presented as a finding to the general public or a specific audience.
+### Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals and Mindsets  
+Since data visualization is used in a wide variety of fields, from science to journalism, data visualization projects will often have differing objectives, as the people working on them will have different requirements. As the author aptly points out, it is impossible for one tool to satisfy the need of every data visualizer. Each tool has its own pros and cons and it is up to the author to decide which is better suited to meet his/her's specific situation. Hence, when deciding on a tool or tools to use, one should always consider the purpose of the visualization. For example, consider if the visualization is to show exploratory data analysis or to be presented as a finding to the general public or a specific audience.
 
 ![](images/analysis_spectrum.png)
 
@@ -458,17 +458,16 @@ The author also notes that the flexibility of a tool is a sticking point as well
 
 (Source:[@different_tools])
 
-### Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets  
-This section of the article is all about the difference in people's preferences and opinions; from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people. 
+And finally, people have different preferences and opinions;from the people who build the tools to the users, everyone thinks differently. Therefore, certain tools will be inherently more intuitive to use for different people.
 
-### Takeaway 3: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
+### Takeaway 2: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
 Basically, writing code can be scary for anyone without a coding background, but it provides more flexibility, and, as mentioned in class, the code is perfectly reproducible. On the other hand, apps are much more user-friendly for the less computer science-savvy. 
 
 ![](images/apps_vs_code.png)
 
 (Source:[@different_tools])
 
-### Takeaway 4: Every Tool Forces You Down a Path  
+### Takeaway 3: Every Tool Forces You Down a Path  
 Rost quotes her former NPR Visuals teammate for the final lesson header, pointing out that tools themselves influence the development of a data visualization with their respective features, strengths, and limitations. 
 
 ![](images/tools_force_paths.png)
