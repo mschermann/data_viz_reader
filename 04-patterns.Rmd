@@ -652,7 +652,7 @@ ax.add_artist(leg);
 
 #### ggplot2 code template for data viz in R
 
-[@viz_R]  
+[@viz_Rggplot]  
 This site includes full sets of R code to generate specific types of graphs in ggplot2.  Plots in ggplot2 are created by using "layering". Layering combines a base plot with other aspects such as aesthetics, titles, and labels using additional code. For those who favor Python for data visualization, this layering approach in R is actually quite similar to the syntax in Python's matplotlib library, in which set_style and specifying the axes labels and title are done separately from the code that generates the plot itself.
 
 To provide an example of the "layering" mentioned above, here is a generic snippet of code for creating a scatterplot with ggplot2 and the mtcars data set in R base, using this website's code as a template:
