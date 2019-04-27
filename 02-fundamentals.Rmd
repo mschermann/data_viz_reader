@@ -377,8 +377,6 @@ The following tips for Tableau are still missing:
 2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
 3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
 
-**The key advantages** are: It provides non-technical users the ability to build complex reports and dashboard with zero coding skills. Using drag-n-drop functionalities of Tableau, a user can create a very interactive visual within minutes. It can handle millions of rows of data with ease and users can make live connections to different data sources like SQL etc. [@VizBP][@extremepre].
-
 **Building advanced analytics application with TabPy**: Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
  Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
  The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
