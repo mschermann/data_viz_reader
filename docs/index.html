@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>A Reader on Data Visualization</title>
   <meta name="description" content="This is the class reader for MSIS 2629.">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="A Reader on Data Visualization" />
   <meta property="og:type" content="book" />
@@ -22,10 +22,10 @@
   <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
   
 
-<meta name="author" content="MSIS 2629 Spring 2018">
+<meta name="author" content="MSIS 2629 Spring 2019">
 
 
-<meta name="date" content="2018-06-10">
+<meta name="date" content="2019-04-22">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="introduction.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -50,41 +51,67 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -119,23 +146,26 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="2.2.6" data-path="introduction.html"><a href="introduction.html#design-and-data-literacy"><i class="fa fa-check"></i><b>2.2.6</b> Design and Data Literacy</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#history-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> History of Data Visualization</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#brief-history"><i class="fa fa-check"></i><b>2.3.1</b> Brief history</a></li>
+<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#a-brief-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.1</b> A Brief history of Data Visualization</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.2</b> Key Figures in the History of Data Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#contemporary-visualists"><i class="fa fa-check"></i><b>2.4</b> Contemporary Visualists</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="introduction.html"><a href="introduction.html#hans-rosling"><i class="fa fa-check"></i><b>2.4.1</b> Hans Rosling</a></li>
 <li class="chapter" data-level="2.4.2" data-path="introduction.html"><a href="introduction.html#david-mccandless"><i class="fa fa-check"></i><b>2.4.2</b> David McCandless</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization"><i class="fa fa-check"></i><b>2.5</b> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</a></li>
+<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization-theory-example"><i class="fa fa-check"></i><b>2.5</b> How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="introduction.html"><a href="introduction.html#a-cool-website-mit-media-lab"><i class="fa fa-check"></i><b>2.5.1</b> A cool website: MIT Media Lab</a></li>
+<li class="chapter" data-level="2.5.2" data-path="introduction.html"><a href="introduction.html#standing-out-categorization-of-information-on-the-website."><i class="fa fa-check"></i><b>2.5.2</b> Standing out categorization of information on the website.</a></li>
+<li class="chapter" data-level="2.5.3" data-path="introduction.html"><a href="introduction.html#automatic-visualization-vs.context-specific-visualization"><i class="fa fa-check"></i><b>2.5.3</b> Automatic visualization vs. context-specific visualization</a></li>
+<li class="chapter" data-level="2.5.4" data-path="introduction.html"><a href="introduction.html#data-analytics-software"><i class="fa fa-check"></i><b>2.5.4</b> Data analytics software</a></li>
+<li class="chapter" data-level="2.5.5" data-path="introduction.html"><a href="introduction.html#data-visualization-cant-explain-data-leaving-room-for-interpretation."><i class="fa fa-check"></i><b>2.5.5</b> Data visualization can’t explain data, leaving room for interpretation.</a></li>
+<li class="chapter" data-level="2.5.6" data-path="introduction.html"><a href="introduction.html#one-great-tool-d3.js."><i class="fa fa-check"></i><b>2.5.6</b> One great tool: D3.js.</a></li>
+</ul></li>
 <li class="chapter" data-level="2.6" data-path="introduction.html"><a href="introduction.html#additional-resources-for-aspiring-data-visualists"><i class="fa fa-check"></i><b>2.6</b> Additional Resources for Aspiring Data Visualists</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="introduction.html"><a href="introduction.html#tableau-community"><i class="fa fa-check"></i><b>2.6.1</b> Tableau Community</a></li>
 <li class="chapter" data-level="2.6.2" data-path="introduction.html"><a href="introduction.html#blogs"><i class="fa fa-check"></i><b>2.6.2</b> Blogs</a></li>
 <li class="chapter" data-level="2.6.3" data-path="introduction.html"><a href="introduction.html#useful-links-on-data-visualization-resources-trends-and-tutorials"><i class="fa fa-check"></i><b>2.6.3</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
 <li class="chapter" data-level="2.6.4" data-path="introduction.html"><a href="introduction.html#infographics-vs.data-visualizations"><i class="fa fa-check"></i><b>2.6.4</b> Infographics vs. Data Visualizations</a></li>
-</ul></li>
-<li class="chapter" data-level="2.7" data-path="introduction.html"><a href="introduction.html#contemporary-visualists-1"><i class="fa fa-check"></i><b>2.7</b> Contemporary Visualists</a><ul>
-<li class="chapter" data-level="2.7.1" data-path="introduction.html"><a href="introduction.html#hans-rosling-1"><i class="fa fa-check"></i><b>2.7.1</b> Hans Rosling</a></li>
-<li class="chapter" data-level="2.7.2" data-path="introduction.html"><a href="introduction.html#david-mccandless-1"><i class="fa fa-check"></i><b>2.7.2</b> David McCandless</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a><ul>
@@ -167,7 +197,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#special-topics"><i class="fa fa-check"></i><b>3.4</b> Special Topics</a><ul>
 <li class="chapter" data-level="3.4.1" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>3.4.1</b> Data Mining and Data Visualization</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data visualization in Business</a><ul>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data Visualization in Business</a><ul>
 <li class="chapter" data-level="3.5.1" data-path="fundamentals.html"><a href="fundamentals.html#data-visualizations-in-industry"><i class="fa fa-check"></i><b>3.5.1</b> Data Visualizations in Industry</a></li>
 <li class="chapter" data-level="3.5.2" data-path="fundamentals.html"><a href="fundamentals.html#how-visualization-impacts-industrybusiness"><i class="fa fa-check"></i><b>3.5.2</b> How visualization impacts Industry/business</a></li>
 <li class="chapter" data-level="3.5.3" data-path="fundamentals.html"><a href="fundamentals.html#corporate-scorecards-and-data-visualization"><i class="fa fa-check"></i><b>3.5.3</b> Corporate Scorecards and Data Visualization</a></li>
@@ -195,12 +225,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="4.3.6" data-path="case-studies.html"><a href="case-studies.html#selfie-city"><i class="fa fa-check"></i><b>4.3.6</b> Selfie City</a></li>
 <li class="chapter" data-level="4.3.7" data-path="case-studies.html"><a href="case-studies.html#evolving-demographics"><i class="fa fa-check"></i><b>4.3.7</b> Evolving Demographics</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.4</b> Animated Data Visualization</a><ul>
-<li class="chapter" data-level="4.4.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.4.1</b> A Day in the Life of Americans</a></li>
-<li class="chapter" data-level="4.4.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.4.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
+<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#visualizing-urban-data-for-social-change"><i class="fa fa-check"></i><b>4.4</b> Visualizing Urban Data for Social Change</a></li>
+<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.5</b> Animated Data Visualization</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.5.1</b> A Day in the Life of Americans</a></li>
+<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.5.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.5</b> Dust in the Wind: Visualization and Environmental Problems</a></li>
-<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#environment-related-problems"><i class="fa fa-check"></i><b>4.6</b> Environment Related Problems</a><ul>
+<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.6</b> Dust in the Wind: Visualization and Environmental Problems</a><ul>
 <li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.6.1</b> Global Carbon Emissions</a></li>
 <li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.6.2</b> What’s really warming the world?</a></li>
 <li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.6.3</b> Understanding Plastic pollution using visualization</a></li>
@@ -232,28 +262,30 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
 <li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#outlier-detection"><i class="fa fa-check"></i><b>5.1</b> Outlier Detection</a></li>
 <li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Tips to Improve Data Visualization</a><ul>
-<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#comparison"><i class="fa fa-check"></i><b>5.2.1</b> Comparison</a></li>
+<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#comparison-1"><i class="fa fa-check"></i><b>5.2.1</b> Comparison</a></li>
 <li class="chapter" data-level="5.2.2" data-path="patterns.html"><a href="patterns.html#copy"><i class="fa fa-check"></i><b>5.2.2</b> Copy</a></li>
 <li class="chapter" data-level="5.2.3" data-path="patterns.html"><a href="patterns.html#color"><i class="fa fa-check"></i><b>5.2.3</b> Color</a></li>
 <li class="chapter" data-level="5.2.4" data-path="patterns.html"><a href="patterns.html#ordering"><i class="fa fa-check"></i><b>5.2.4</b> Ordering</a></li>
 <li class="chapter" data-level="5.2.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.2.5</b> Audience Perspective</a></li>
 <li class="chapter" data-level="5.2.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.2.6</b> Use Layers to Tell a Story</a></li>
 <li class="chapter" data-level="5.2.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.2.7</b> Keep It Simple</a></li>
+<li class="chapter" data-level="5.2.8" data-path="patterns.html"><a href="patterns.html#graph-integrity"><i class="fa fa-check"></i><b>5.2.8</b> Graph Integrity</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#charts"><i class="fa fa-check"></i><b>5.3</b> Charts</a><ul>
-<li class="chapter" data-level="5.3.1" data-path="patterns.html"><a href="patterns.html#pick-the-right-chart-type"><i class="fa fa-check"></i><b>5.3.1</b> Pick the Right Chart Type</a></li>
-<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.3.2</b> Chart Types</a></li>
-<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.3.3</b> Temporal Visualizations</a></li>
-<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.3.4</b> Line Graph</a></li>
-<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.3.5</b> Stacked Area Chart</a></li>
-<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.3.6</b> Bar Charts</a></li>
-<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.3.7</b> Column Charts for Time Series Data</a></li>
-<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.3.8</b> Gantt Chart</a></li>
-<li class="chapter" data-level="5.3.9" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.3.9</b> Stream Graph</a></li>
-<li class="chapter" data-level="5.3.10" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.3.10</b> Heat Map</a></li>
-<li class="chapter" data-level="5.3.11" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.3.11</b> Polar Area Diagram</a></li>
-<li class="chapter" data-level="5.3.12" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.3.12</b> Time Series Data and Its Deceptive Potential</a></li>
-<li class="chapter" data-level="5.3.13" data-path="patterns.html"><a href="patterns.html#pie-chart-and-why-pie-charts-are-bad-a-comparison-with-the-bar-chart"><i class="fa fa-check"></i><b>5.3.13</b> Pie Chart and Why Pie Charts are Bad: a Comparison with the Bar Chart</a></li>
+<li class="chapter" data-level="5.3.1" data-path="patterns.html"><a href="patterns.html#what-makes-a-chart-effective"><i class="fa fa-check"></i><b>5.3.1</b> What makes a chart effective?</a></li>
+<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#how-to-decide-which-chart-type-to-use"><i class="fa fa-check"></i><b>5.3.2</b> How to decide which chart type to use?</a></li>
+<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.3.3</b> Chart Types</a></li>
+<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.3.4</b> Temporal Visualizations</a></li>
+<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.3.5</b> Line Graph</a></li>
+<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.3.6</b> Stacked Area Chart</a></li>
+<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.3.7</b> Bar Charts</a></li>
+<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.3.8</b> Column Charts for Time Series Data</a></li>
+<li class="chapter" data-level="5.3.9" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.3.9</b> Gantt Chart</a></li>
+<li class="chapter" data-level="5.3.10" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.3.10</b> Stream Graph</a></li>
+<li class="chapter" data-level="5.3.11" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.3.11</b> Heat Map</a></li>
+<li class="chapter" data-level="5.3.12" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.3.12</b> Polar Area Diagram</a></li>
+<li class="chapter" data-level="5.3.13" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.3.13</b> Time Series Data and Its Deceptive Potential</a></li>
+<li class="chapter" data-level="5.3.14" data-path="patterns.html"><a href="patterns.html#pie-charts-oportunities-and-obstacles"><i class="fa fa-check"></i><b>5.3.14</b> Pie Charts: Oportunities and Obstacles</a></li>
 </ul></li>
 <li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#maps"><i class="fa fa-check"></i><b>5.4</b> Maps</a></li>
 <li class="chapter" data-level="5.5" data-path="patterns.html"><a href="patterns.html#choosing-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.5</b> Choosing the Right Baseline in Data Visualization</a></li>
@@ -263,7 +295,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.6.3" data-path="patterns.html"><a href="patterns.html#conclusions"><i class="fa fa-check"></i><b>5.6.3</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="5.7" data-path="patterns.html"><a href="patterns.html#takeaways-from-recreating-one-chart-using-24-tools"><i class="fa fa-check"></i><b>5.7</b> Takeaways From Recreating One Chart Using 24 Tools</a><ul>
-<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-goals"><i class="fa fa-check"></i><b>5.7.1</b> Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals</a></li>
+<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-is-no-perfect-tool-just-good-tools-for-people-with-certain-goals"><i class="fa fa-check"></i><b>5.7.1</b> Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals</a></li>
 <li class="chapter" data-level="5.7.2" data-path="patterns.html"><a href="patterns.html#takeaway-2-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-mindsets"><i class="fa fa-check"></i><b>5.7.2</b> Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets</a></li>
 <li class="chapter" data-level="5.7.3" data-path="patterns.html"><a href="patterns.html#takeaway-3-we-still-live-in-an-apps-are-for-the-easy-stuff-code-is-for-the-good-stuff-in-the-world"><i class="fa fa-check"></i><b>5.7.3</b> Takeaway 3: We Still Live in an ‘Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World’</a></li>
 <li class="chapter" data-level="5.7.4" data-path="patterns.html"><a href="patterns.html#takeaway-4-every-tool-forces-you-down-a-path"><i class="fa fa-check"></i><b>5.7.4</b> Takeaway 4: Every Tool Forces You Down a Path</a></li>
@@ -289,18 +321,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#definitions-of-data-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>6.4</b> Definitions of Data Deception and Graphic Integrity</a></li>
 <li class="chapter" data-level="6.5" data-path="ethics.html"><a href="ethics.html#ethical-challenges-in-data-visualization"><i class="fa fa-check"></i><b>6.5</b> Ethical Challenges in Data Visualization</a></li>
-<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#data-visualization-a-tool-for-social-change-in-cities"><i class="fa fa-check"></i><b>6.6</b> Data Visualization: A Tool for Social Change in Cities</a></li>
-<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.7</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
-<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.8</b> Misinformation Can be beautiful too</a></li>
-<li class="chapter" data-level="6.9" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.9</b> Visual Lies</a><ul>
-<li class="chapter" data-level="6.9.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.9.1</b> Size</a></li>
-<li class="chapter" data-level="6.9.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.9.2</b> Quantity</a></li>
-<li class="chapter" data-level="6.9.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.9.3</b> Segmentation</a></li>
-<li class="chapter" data-level="6.9.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.9.4</b> Graph</a></li>
-<li class="chapter" data-level="6.9.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.9.5</b> The Missing Baseline</a></li>
-<li class="chapter" data-level="6.9.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.9.6</b> The Graph is not Labeled Properly</a></li>
-<li class="chapter" data-level="6.9.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.9.7</b> Data is Left Out</a></li>
-<li class="chapter" data-level="6.9.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.9.8</b> Treating Correlation as Causation</a></li>
+<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.6</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
+<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.7</b> Misinformation Can be beautiful too</a></li>
+<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.8</b> Visual Lies</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.8.1</b> Size</a></li>
+<li class="chapter" data-level="6.8.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.8.2</b> Quantity</a></li>
+<li class="chapter" data-level="6.8.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.8.3</b> Segmentation</a></li>
+<li class="chapter" data-level="6.8.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.8.4</b> Graph</a></li>
+<li class="chapter" data-level="6.8.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.8.5</b> The Missing Baseline</a></li>
+<li class="chapter" data-level="6.8.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.8.6</b> The Graph is not Labeled Properly</a></li>
+<li class="chapter" data-level="6.8.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.8.7</b> Data is left Out</a></li>
+<li class="chapter" data-level="6.8.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.8.8</b> Treating Correlation as Causation</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a><ul>
@@ -335,16 +366,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">A Reader on Data Visualization</h1>
-<h4 class="author"><em>MSIS 2629 Spring 2018</em></h4>
-<h4 class="date"><em>2018-06-10</em></h4>
+<p class="author"><em>MSIS 2629 Spring 2019</em></p>
+<p class="date"><em>2019-04-22</em></p>
 </div>
 <div id="preface" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Preface</h1>
-<p>This is a collaborative writing project as part of the course MSIS 2629 “Data Visualization” at <a href="http://www.scu.edu">Santa Clara University</a>. The purpose of the class reader is to collaboratively engage with and reflect on data visualizations, to establish a solid theoretical background, and to collect useful practices and showcases. More information on the background of this project is available in the <a href="https://mschermann.github.io/msis2629spring2018">syllabus</a>.</p>
-<p>The following text serves explains how we organize ourselves.</p>
+<p>This is a collaborative writing project as part of the course MSIS 2629 “Data Visualization” at <a href="http://www.scu.edu">Santa Clara University</a>. The purpose of the class reader is to collaboratively engage with and reflect on data visualizations, to establish a solid theoretical background, and to collect useful practices and showcases. More information on the background of this project is available in the <a href="https://mschermann.github.io/msis2629spring2019">syllabus</a>.</p>
+<p>The following text explains how we organize ourselves.</p>
 <div id="references" class="section level2">
 <h2><span class="header-section-number">1.1</span> References</h2>
-<p><strong>EVERY</strong> references must be included in the <code>book.bib</code> file. This file uses the BibTeX notation (Learn how to use BibTeX <a href="http://www.bibtex.org/Using/">here</a>.). Most literature search engines allow you to export the reference information in BibTeX. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):</p>
+<p><strong>EVERY</strong> reference must be included in the <code>book.bib</code> file. This file uses the BibTeX notation (Learn how to use BibTeX <a href="http://www.bibtex.org/Using/">here</a>). Most literature search engines allow you to export the reference information in BibTeX. For websites we use the following minimal notation (you may add further information - usually the more the better is a good strategy):</p>
 <pre><code>@misc{great_viz,
   author = {{A great visualizer}},
   year = {1982},
@@ -377,14 +408,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
   year={2014},
   title = {Misleading Graphs: Real Life Examples},
   url={http://www.statisticshowto.com/misleading-graphs/},
-  note = {Accessed: 2018-04-26}
-}</code></pre>
+  note = {Accessed: 2018-04-26}</code></pre>
 </div>
 <div id="basic-guidelines" class="section level2">
 <h2><span class="header-section-number">1.3</span> Basic Guidelines</h2>
-<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.–&gt;</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))
-<span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre></div>
+<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))
+<span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre>
 <div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
 <img src="data_viz_reader_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
 <p class="caption">
@@ -392,10 +422,10 @@ Figure 1.1: Here is a nice figure!
 </p>
 </div>
 <p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="index.html#fig:nice-fig">1.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="index.html#tab:nice-tab">1.1</a>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(
+<pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(
  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,
  <span class="dt">booktabs =</span> <span class="ot">TRUE</span>
-)</code></pre></div>
+)</code></pre>
 <table>
 <caption><span id="tab:nice-tab">Table 1.1: </span>Here is a nice table!</caption>
 <thead>
@@ -557,19 +587,19 @@ Figure 1.1: Here is a nice figure!
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-great_viz">
-<p>visualizer, A great. 1982. “A ficticious web page title.” <a href="http://great{\_}viz{\_}org" class="uri">http://great{\_}viz{\_}org</a>.</p>
+<p>visualizer, A great. 1982. “A ficticious web page title.” <a href="http://great{\_}viz{\_}org">http://great{\_}viz{\_}org</a>.</p>
 </div>
 <div id="ref-halper_2012">
-<p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare" class="uri">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
+<p>Halper, Daniel. 2012. “Over 100 Million Now Receiving Federal Welfare.” <a href="https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare">https://www.weeklystandard.com/daniel-halper/over-100-million-now-receiving-federal-welfare</a>.</p>
 </div>
 <div id="ref-andale_2014">
-<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/" class="uri">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
+<p>Andalde, Stephanie. 2014. “Misleading Graphs: Real Life Examples.” <a href="http://www.statisticshowto.com/misleading-graphs/">http://www.statisticshowto.com/misleading-graphs/</a>.</p>
 </div>
 <div id="ref-R-bookdown">
-<p>Xie, Yihui. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
+<p>Xie, Yihui. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown">https://CRAN.R-project.org/package=bookdown</a>.</p>
 </div>
 <div id="ref-xie2015">
-<p>Xie, Yihui. 2015. <em>Dynamic Documents with {R} and knitr</em>. 2nd ed. Boca Raton, Florida: CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with {R} and knitr</em>. 2nd ed. Boca Raton, Florida: CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.</p>
 </div>
 </div>
             </section>
@@ -598,7 +628,7 @@ gitbook.start({
 "google": false,
 "linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
 "all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
@@ -610,6 +640,10 @@ gitbook.start({
 "edit": {
 "link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
 "text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
 },
 "download": ["data_viz_reader.pdf", "data_viz_reader.epub"],
 "toc": {
@@ -624,8 +658,8 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
     script.src = src;
