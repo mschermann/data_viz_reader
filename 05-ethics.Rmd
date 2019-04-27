@@ -186,8 +186,18 @@ The above pointers are helpful when analyzing a deceptive version of a data prod
 
 Misleading graphs are sometimes deliberately misleading and sometimes, it’s just a case of people not understanding the data behind the graph they create [@andale_2014]. But some real-life misleading graphs go above and beyond the classic types. Some are intended to mislead, others are intended to shock. The “classic” types of misleading graphs include cases such as:
 
-### The Missing Baseline  
-For example, the vertical scale is too big or too small, skips numbers, or does not start at zero. For example, in the graph below, you might be thinking that the graph on the right shows that The Times makes double the sales of The Daily Telegraph. However, a closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
+### The Missing Baseline
+
+In the data visualization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y-axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change. Truncated graphs are useful in illustrating small differences[^16], and may also be truncated to save space. Commercial software such as MS Excel tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs makes a small difference look like a huge one, thereby changing the readers' judgement 
+
+An example of using good data in a misleading graph to fool readers comes from Fox News.
+![](images/1.png)
+
+(Source:[@datamining_vs_viz])
+
+Other examples are the vertical scale being too big or too small, skipping numbers, but most often not start at zero. In the graph below, you might be thinking that the column on the right shows that The Times makes double the sales of The Daily Telegraph. A closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
+![](images/misleading-graph-2.jpg)
+(Source:[@andale_2014])
 
 ### The Graph is not Labeled Properly  
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
@@ -217,15 +227,9 @@ While not technically wrong, improper extraction, tactic omitting data or includ
 
 ![](images/Bad_graph_extraction.png)
 
-Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure,  ethical procedures need to be practiced throughout all the steps of visualization.
+Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure, ethical procedures need to be practiced throughout all the steps of visualization.
 ![](images/Good_graph_extraction.png)
 
-In the data visualization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y-axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs makes a small difference look like a huge one, thereby changing the readers' judgement 
-
-An example of using good data in a misleading graph to fool readers comes from Fox News.
-![](images/1.png)
-
-(Source:[@datamining_vs_viz])
 
 The question of ethics in data visualization is not something that comes to the fore when we start working. It is rarely the case that one sets out to deceive without altering data. The topic of good ethics in data visualization is very important and it is the duty of the creator to take care of it.
 
