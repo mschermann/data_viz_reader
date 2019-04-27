@@ -1,3 +1,241 @@
+--- 
+title: "A Reader on Data Visualization"
+author: "MSIS 2629 Spring 2019"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: mschermann/data_viz_reader
+description: "This is the class reader for MSIS 2629."
+---
+
+# Preface
+
+Placeholder
+
+
+## References
+## Images 
+## Basic Guidelines
+
+<!--chapter:end:index.Rmd-->
+
+
+# Introduction
+
+Placeholder
+
+
+## What is Data Visualization?
+## Importance of Data Visualization
+### Increased Value for Increasing Volume of Data
+### Understanding Concepts that are Difficult to Contextualize
+### Revealing Small and Interesting Patterns
+### Easier Decision-making in Healthcare
+### Law Enforcement and Fraud Detection
+### Design and Data Literacy
+## History of Data Visualization
+### A Brief history of Data Visualization
+### Key Figures in the History of Data Visualization
+#### William Playfair (1759--1823)
+#### John Snow (1813--1858)
+#### Charles Joseph Minard (1781--1870)
+#### Florence Nightingale (1820--1910)
+#### Edmond Halley (1656--1742)
+#### Charles de Fourcroy (1766--1824)
+#### Luigi Perozzo (1856--1916)
+## Contemporary Visualists
+### Hans Rosling
+### David McCandless
+## How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example
+### A cool website: MIT Media Lab
+### Standing out categorization of information on the website.
+### Automatic visualization vs. context-specific visualization
+###  Data analytics software
+###  Data visualization can't explain data, leaving room for interpretation.
+### One great tool: D3.js.
+
+<!--chapter:end:01-intro.Rmd-->
+
+
+# Fundamentals
+
+Placeholder
+
+
+## Design Principles
+### Melissa Anderson's Principles of Design
+### Gestalt Principles of Design
+### Tufte's Principles of Design
+#### Principle 1: Maximizing the data-ink ratio, within reason
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
+#### Principle 4: Escape flatland - small multiples, parallel sequencing.
+#### Principle 5: Provide the user with an overview and details on demand.
+#### Principle 6: Utilize Layering & Separation.
+#### Principle 7: Utilize narratives of space and time.
+### Common Mistakes to Avoid:
+## Best Practices
+### Determine the Story with Insights
+### How to choose the best form of Visualization
+### Analyze and Interpret
+#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+### Document Your Insights and Steps
+### Transform Data
+### Adapt your story to a different set of audiences
+### More on Best Practices
+## Data Visualization Tools
+### Brief Description of popular tools 
+### Interactive Data Visualization 
+### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
+### R for Data Visualization: Grammar of Graphics
+#### Layered Grammar of Graphics:
+#### Aes/Mapping: Global Mapping and Local Mapping
+#### Position Adjustment
+#### Coordinate Systems
+### R Shiny
+### D3.js 
+### Tableau
+### Google chart
+## Data Visualization in Business
+### Data Visualizations in Industry
+### How visualization impacts Industry/business
+#### Cleaning
+#### Extraction
+#### Strategizing
+### Corporate Scorecards and Data Visualization
+## Special Topics
+### Data Mining and Data Visualization  
+### Typography and Data Visualization
+#### Preattentive visual attributes and typography
+#### Why typography is not currently popular in data visualizations 
+#### Tips for using typographic attributes in visualizations
+#### Criticisms of typography
+### Infographics vs. Data Visualizations
+#### Data Visualization vs Infographics
+#### When Should You Use Infographics or Data Visualization?
+### Handbooks to improve your visualization design
+## Contemporary Research Results & What's Next
+
+<!--chapter:end:02-fundamentals.Rmd-->
+
+
+# Case Studies
+
+Placeholder
+
+
+## Introduction
+## Geographic Visualizations
+### Spies in the Skies
+### Two Centuries of U.S. Immigration
+### Uber: Crafting Data-Driven Maps
+## Demographic Comparisons
+### Young Voters, Class and Turnout: How Britain Voted in 2017
+### U.S. Migration Patterns 
+### The American Workday
+### How People Like You Spend Their Time
+### Britain's Diet In Data
+### Selfie City
+### Evolving Demographics
+#### Millennial Generation Diversity
+#### How the Recession Reshaped the Economy, in 255 Charts
+#### An Aging Population: Projected Number of Children and Older Adults 
+#### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+#### Music Timeline
+## Visualizing Urban Data for Social Change
+## Animated Data Visualization
+### A Day in the Life of Americans
+### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+## Dust in the Wind: Visualization and Environmental Problems
+### Global Carbon Emissions
+### What's really warming the world?
+### Understanding Plastic pollution using visualization
+## Language
+### Green Honey
+### Linguistic Concepts
+### State of the Union 2014 Minute by Minute on Twitter
+## Political Relationships
+### Connecting the Dots Behind the Election
+### A Guide to Who is Fighting Whom in Syria 
+## Uncategorized
+### Simpson’s Paradox
+### Every Satellite Orbiting Earth
+### Malaria
+### Is it Better to Rent or Buy?
+### An Interactive Visualization of NYC Street Trees
+### Adding up the White Oscars Winners
+### Kissmetrics blog: visualization of metrics
+### Describe Artists with Emoji
+### Goldilocks Exoplanets
+### Washington Wizards’ Shooting Stars
+### Visualization of big data security: a case study on the KDD99 cup data set
+### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
+
+<!--chapter:end:03-casestudies.Rmd-->
+
+
+# Patterns
+
+Placeholder
+
+
+## Outlier Detection  
+## Tips to Improve Data Visualization  
+### Comparison
+### Copy
+### Color
+### Ordering
+### Audience Perspective
+### Use Layers to Tell a Story
+### Keep It Simple
+### Graph Integrity
+## Charts
+### What makes a chart effective?
+### How to decide which chart type to use?
+### Chart Types
+### Temporal Visualizations  
+### Line Graph  
+### Stacked Area Chart  
+### Bar Charts  
+### Column Charts for Time Series Data  
+### Gantt Chart  
+### Stream Graph  
+### Heat Map  
+### Polar Area Diagram  
+### Time Series Data and Its Deceptive Potential  
+### Pie Charts: Oportunities and Obstacles  
+## Maps
+## Choosing the Right Baseline in Data Visualization  
+## Using Design Patterns to Find Greater Meaning in Your Data  
+### Comparisons
+### Connections
+### Conclusions  
+## Takeaways From Recreating One Chart Using 24 Tools  
+### Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals and Mindsets  
+### Takeaway 2: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
+### Takeaway 3: Every Tool Forces You Down a Path  
+## Word Cloud  
+## Dashboards  
+### Rules and Best Practices for Developing Intuitive Dashboards
+## Using Visualization Softwares and Libraries
+### Using Shapes as Filters in Tableau When Your Fields Are Measures  
+### How to Customize a Legend in Python with Matplotlib  
+#### Add a Basic Legend  
+#### Add a Legend on Different Position  
+#### Customize a Box Surrounding the Legend  
+#### Legend for Size of Points  
+#### Multiple Legends  
+#### ggplot2 code template for data viz in R
+#### Reusable Calendar View Code  
+### Building Advanced Analytics Application with TabPy  
+### Creating a Diverging Bar Chart  
+
+<!--chapter:end:04-patterns.Rmd-->
+
 ---
 output:
   html_document: default
@@ -188,6 +426,8 @@ An example of using good data in a misleading graph to fool readers comes from F
 (Source:[@datamining_vs_viz])
 
 Other examples are the vertical scale being too big or too small, skipping numbers, but most often not start at zero. In the graph below, you might be thinking that the column on the right shows that The Times makes double the sales of The Daily Telegraph. A closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
+![](images/misleading-graph-2.jpg)
+(Source:[@andale_2014])
 
 ![Misleading Graphs: The Missing Baseline](images/misleading-graph-2.jpg)
 
@@ -236,4 +476,26 @@ The question of ethics in data visualization is not something that comes to the 
 At VisWeek2011, Jason Moore suggested a hippocratic oath for visualization. It is intended to be succinct and easy to remember, while still containing the essence of responsible visualization:
 
 “I shall not use visualization to intentionally hide or confuse the truth which it is intended to portray. I will respect the great power visualization has in garnering wisdom and misleading the uninformed. I accept this responsibility willfully and without reservation, and promise to defend this oath against all enemies, both domestic and foreign.”
+
+
+<!--chapter:end:05-ethics.Rmd-->
+
+
+# Conclusion
+
+Placeholder
+
+
+## The Future of Data Visualization
+## Key Lessons Going Forward
+## Additional Resources for Aspiring Data Visualizers  
+### Tableau Community 
+### Blogs
+### Useful Links on Data Visualization Resources, Trends, and Tutorials
+
+<!--chapter:end:06-conclusion.Rmd-->
+
+# References {-}
+
+<!--chapter:end:07-references.Rmd-->
 
