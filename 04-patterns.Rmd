@@ -287,7 +287,7 @@ Comparing the need for pie charts to having numbers displayed defeats the purpos
 [@Bradshaw]  
 Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option.
 
-However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to convey the desired message, then a visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
+However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to convey the desired message, then visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
 
 One good use of a map is to show points or specific locations. This use of a map can show how points are distributed and reveal patterns, for example, certain areas having more high-end restaurants. This is not the right approach if the geographic information does not tell a story. If the story is more about comparing data such as median salary, a map is not the most effective. Caution should also be exercised with map visualizations if there are too many points and the data blurs together, causing the data to lose its meaning. 
 
@@ -295,6 +295,18 @@ Encoding the data is another potential area for confusion. The most popular meth
 
 Use of maps can be tricky. Geographical data doesn't imply that a map is the best choice to represent it. Maps can be useful for application where proximity matters, but for straight "what is higher" type comparisons, they're not very effective since large regions will draw more attention than smaller regions due to more concentrated color.
 
+1. Mapping the Incredible Spread of Million Dollar Homes Across San Francisco
+
+The below map tracks the spread of million-dollar and above homes throughout the Bay Area, showing neighborhoods in which homes in the seven figures account for exactly 100% of residences. The map is easy to understand and the trend in the housing prices is very clear visually. [@City-Lab] 
+
+![](images/Not-San-Fran-No.jpg)
+
+
+2. X-Rays of the Ocean
+
+This world map shows the estimated human impact on the planet’s oceans. The greener the area, the more impact humans have had on factors such as fishing and climate change. According to the visual, more than 40% of our oceans have been negatively impacted by our species. The contrast between the colors is clear and visually appealing. [@Ocean-XRay]
+
+![](images/X-Rays-of-Ocean.jpg)
 
 ## Choosing the Right Baseline in Data Visualization  
 [@baseline_2013]
