@@ -12,21 +12,21 @@ The main goal of data visualization is to communicate information clearly and ef
 "Data is the new oil" may be a cliche, but it is true. Like oil, data in its raw, unrefined form is pretty worthless. To unlock its value, data needs to be refined, analyzed and understood [@lawfraud]. More and more organizations are seeing potential in their data connections, but how do you allow non-experts to analyze data at scale and extract potentially complex insights? One answer is through interactive graph visualization.
 
 
-**Information visualization** is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@info_viz] shares some examples and common uses of information visualization, such as:
+**Information visualization** is the art of representing data so that it is easy to understand and manipulate, thus making the information useful. Visualization can make sense of information by helping to find relationships in the data and support (or disproving) ideas about the data. [@lawfraud] shares some examples and common uses of information visualization, such as:
 
-Benefit  | Example
-------------- | -------------
-Presentation: to explain or persuade   | ![](images/Presentation.jpg) Source: [@slide_geeks]
-Exploratory Analysis: to identify relationships or unusual cases in the data  | ![](images/Exploratory.png) Source: [@david_2019]
-Confirmatory Analysis: to confirm our understanding and analysis of the data | ![](images/confirmatory.png) Source: [@aarons_2014]
+|Benefit  | Example|
+|-------------------------------------- | ----------------------------------------------------|
+|Presentation: to explain or persuade   | ![](images/Presentation.jpg) Source: [@slide_geeks]|
+|Exploratory Analysis: to identify relationships or unusual cases in the data  | ![](images/Exploratory.png) Source: [@david_2019]|
+|Confirmatory Analysis: to confirm our understanding and analysis of the data | ![](images/confirmatory.png) Source: [@aarons_2014]|
 
 
 **Why data visualization is such a powerful tool:**
 
-* It is intuitive presenting a graph as a node-link structure instantly makes sense, even to people who have never worked with graphs before.
-* It is fast because our brains are great at identifying patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
-* It is flexible. The world is densely connected, so as long as there is an interesting relationship in your data somewhere, you will find value in graph visualization.
-* It is insightful. Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
+* Intuitive: Presenting a graph as a node-link structure instantly makes sense, even to people who have never worked with graphs before.
+* Fast: It is fast because our brains are great at identifying patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
+* Flexible: The world is densely connected, so as long as there is an interesting relationship in your data somewhere, you will find value in graph visualization.
+* Insightful: Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
 
 ## Importance of Data Visualization
 
@@ -60,7 +60,15 @@ In his article on the importance of data visualization to businesses, Chris Pitt
 
 ### Understanding Concepts that are Difficult to Contextualize
 
+
+Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning. In order to comprehend complex and large datasets, it is vital to recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Thus, healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES).  Effective clinical performance monitoring, efficient patient data management and better operational planning are each expected results of incorporating data visualizations in the healthcare industry decision making process.
+
+Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.
+
+Informatics for Integrating Biology and the Bedside (i2b2), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from clinical data warehouses (CDWs). i2b2 (i2b2 to Tableau) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as R and Python are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
+
 In his TED talk, David McCandless gives an example of how expenditures or valuations of enormous amounts of money are represented in the billion dollar-o-gram by color-coded, relatively-sized boxes. This allows the synthesis of a breadth of information to deliver in a small, easily-digestible and aesthetically pleasing way. Visuals serve as a sort of map for a vast landscape of information—they direct reader's eyes to the relevant places and details. Moreover, the eye, as McCandless notes, is uniquely suited to our senses to process large amounts of information and detect patterns [@viz_ted]. (The billion dollar-o-gram is exceptionally readable and rather pretty, but it seems a bit dubious to compare the predicted Iraq War cost to the "mushroomed" actual cost of Iraq and Afghanistan wars since its purpose seems only to conflate two wars for dramatic effect.)
+
 
 
 ![](images/book_billion.jpg)
@@ -72,12 +80,15 @@ In his article on the importance of data visualization to businesses, **Chris Pi
 
 It can reveal interesting small patterns and make you a "data detective." Beyond its ability to make information from several different sources and in large amounts easily understandable, data visualization can also reveal smaller interesting patterns, allowing us to play the "data detective" as McCandless calls it. In other words, as we have already discussed, data visualization can not only be handy in a declarative manner but can also be used as an exploratory tool [@viz_ted].
 
+Data visualization is another form of visual art that grabs our interest and keeps our eyes on the message. When we see a chart, we quickly see trends and outliers. Considering the following visualization by Hanah Anderson and Matt Daniels about gender disparity in pop culture by breaking down the scripts for 2000 of the biggest movies in cinema history, it’s easy to notice the lack of female-led action movies[@disney_flim_dialogue_disparity]. Finding the same pattern from raw data would have been a challenge.
+![](images/book_billion.jpg)
+
 ### Easier Decision-making in Healthcare
 
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning [@marksman]. Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
 
 Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.
-
+  
 Informatics for Integrating Biology and the Bedside [**i2b2**](https://www.i2b2.org), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from Clinical Data Warehouses (CDWs). i2b2 (i2b2 to [**Tableau**](https://www.tableau.com)) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as [**R**](https://www.r-project.org) and [**Python**](https://www.python.org) are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
 ### Law Enforcement and Fraud Detection
@@ -91,7 +102,8 @@ Lawful interception, the legally mandated interception of personal communication
 McCandless postulates that we all have a latent "design literacy" that is being developed every day as we are constantly bombarded with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective, since everyone does seem to have a sense of visual aspects like space, color, etc. Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design [@viz_ted].
 
 ## History of Data Visualization
->"The only new thing in the world is the history you do not know." Harry S Truman 
+[@Truman]
+>"The only new thing in the world is the history you do not know." Harry S Truman
 
 ### A Brief history of Data Visualization
 Given the recent explosion in data availability and visualization tools, it would be natural to assume that statistical graphics and data visualizations are relatively modern developments. However, data visualization is not a modern product it has developed over time to incorporate the tools we use today and the trends we foresee. The graphic representation of quantitative information has deep roots that reach into the histories of the earliest map-making and visual depictions, and up to thematic cartography, statistics, medicine, and other fields.
@@ -221,7 +233,7 @@ According to Alysson Ferreira, a UI Engineer, there is an increasing need to und
 
 This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information. [@future_viz]
 
-Plug in any data set into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization cannot explain data, leaving room for interpretation.
+Plug in any data set into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization cannot explain dayta, leaving room for interpretation.
 
 Although simple visualizations such as standard chart types (bar chart, line chart, etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market, full on automation where insight fountains out from any data set are far-fetched at this point because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
 
@@ -233,101 +245,3 @@ D3.js is one of the first data visualization tools that comes to mind when talki
 **D3.js** is one of the first data visualization tools that comes to mind when talking about free, open-source alternatives. It is a JavaScript-based library for creating web visualization and displays the results on the web page. However, with high power comes great responsibility.
 
 Ultimately, the focus should be on our goals rather than our tools.
-
-## Additional Resources for Aspiring Data Visualists
-
-Data visualization domain is vast and an aspiring visualizes, a person who can link between storytelling and data-experience design can further broaden his/her knowledge through:
-
-### Tableau Community
-
-[@Tableau_Community] helps you to explore Tableau further :
-
-* It will help us enhance our learning
-* Get answers for most of your doubts In tableau
-* Post new questions and crowd source answers
-* Attend events, seminars and join conferences conducted locally/ globally
-* Give back to the community once you become an expert in that field
-
-There are very active Tableau social media groups [@LinkedIn_Groups]:
-
-* Tableau Enthusiasts: LinkedIn Group (19K members)
-* Tableau Software Fans & Friends: LinkedIn Group (45k members)
-
-### Blogs
-
-Here are some blogs recommended by Tableau [@Top_10_Blogs]:
-
-**Blog** | **Description** | **Link** |
--------- | ------------------------------------------------ | -------- |
-Storytelling with Data | This blog provides information about the fundamentals of data visualization and how to make data a critcal component of your story.| http://www.storytellingwithdata.com/ |
-Information is Beautiful| This blog was founded by David McCandless, the author of two bestselling infographics books, and provides a variety of visualizations, all of which are continuously revised and updated with the most recent data.| https://informationisbeautiful.net/ |
-Visualizing Data | This blog provides a space for data visualizers to share news and thoughts about the field as well as offers diverse content about current and cutting-edge techniques, discussion of both practical and theoretical topics. | http://www.visualisingdata.com/ |
-Junk Charts | This blog critiques a variety of graphics, providing insights about what works and what doesn't in each visualization, and how to improve them. | http://junkcharts.typepad.com/ |
-The Pudding | This blog explores complex and contested issues through visual essays. | https://pudding.cool/ |
-The Atlas | This blog provides visualizations on a plethora of topics. | https://www.theatlas.com/ |
-Graphic Detail | This blog is the hub of The Economist's data journalism; it provides examples of charts, maps, and infographics (all of which are often interactive). | https://www.economist.com/blogs/graphicdetail |
-Tableau Blog | The Tableau blog is a source of data viz trends, issues important to the Tableau community, and updates about Tableau products.| https://www.tableau.com/about/blog |
-Michael Sandberg's Data Visualization Blog | Michael Sandberg's blog discusses a wide variety of data visualization examples. In addition, the blog covers other topics such as Infographics, Data Science, Business Intelligence, Data Ethics, Storytelling and much more. | https://datavizblog.com/ |
-Beautiful Data Blog | This blog features discussion of all things data and has a wide range of categories to browse through.  | http://beautifuldata.net/ |
-
-
-
-### Useful Links on Data Visualization Resources, Trends, and Tutorials
-
-**Resource** | **Description** | **Link**
-------------------------------|--------------------------------------------------------|----------------------
-[@charts_viz] | This is a helpful resource where one can find different types of plots that can be used in data visualization. | [https://datavizcatalogue.com](https://datavizcatalogue.com/search.html)
-[@eagereyes_viz]  |  Robert Kosara's website which contains recent developments happening in visualization. | [https://eagereyes.org](https://eagereyes.org)
-[@research_viz]  |  This link to Tableau's Research webpage includes information about Robert Kosara and his research papers. Here is a link to Robert Kosara's [twitter handle](https://twitter.com/eagereyes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor). | [https://research.tableau.com/user/robert-kosara](https://research.tableau.com/user/robert-kosara)
-[@flowingdata]  |  Website which offers courses, tutorials and happenings in viz. | [http://flowingdata.com/](http://flowingdata.com/)
-[@infogram]  |  An infogram helps a user making different types of plots and learning the art of visualization. Engaging infographics, reports, charts, dashboards and maps can be easily created in minutes with it.|
-insert reference | Improving data visualisation for the public sector (does this link work?) | http://www.improving-visualisation.org/ |
-insert reference | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ |
-[@Beautiful_data,] | This blog features discussion of all things data | http://beautifuldata.net/ |
-[@Michael_Sandberg_blog] | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
-[@data_viz_gallery] | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ |
-[@fema_viz] | This resource provides a series of interactive data visualizations using FEMA data | https://www.fema.gov/data-visualization |
- insert reference | This blog features discussion of all things data | http://beautifuldata.net/ |
-insert reference | Improving data visualisation for the public sector (does this link work?) | http://www.improving-visualisation.org/ |
-insert reference | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
-insert reference | This resource is a data visualization gallery of weekly explorations of United States Census data | https://www.census.gov/dataviz/ |
-insert reference | This resource provides a series of interactive data visualizations using FEMA data | https://www.fema.gov/data-visualization |
-insert reference | The History of Data Visualization Dashboard Insight, Dashboard Insight, 2013 | http://www.dashboardinsight.com/news/news-articles/the-history-of-data-visualization.aspx|
-insert reference | Current research: Deceptive visualizations, Infogram, 2016 | https://medium.com/@Infogram/study-asks-how-deceptive-are-deceptive-visualizations-8ff52fd81239 |
-insert reference | Agata Kwapien in Data Visualization, 2015 | https://www.datapine.com/blog/misleading-data-visualization-examples/ |
-insert reference | A Brief History of Data Visualization, York University, Michael Friendly, 2006 | http://www.datavis.ca/papers/hbook.pdf |
-insert reference | Data Visualization and the 9 Fundamental Design Principles, Melissa Anderson, 2017 | https://www.idashboards.com/blog/2017/07/26/data-visualization-and-the-9-fundamental-design-principles/ |
-insert reference | A Practitioner Guide to Best Practices in Data Visualization.Interfaces 47(6):473-488, Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer, 2017 |  https://doi.org/10.1287/inte.2017.0916 |
-insert reference | The 7 Best Data Visualization Tools In 2017 | https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30 |
-insert reference |The Data Visualisation Catalogue | https://datavizcatalogue.com|
-
-### Infographics vs. Data Visualizations
-
-Data visualization and infographics both present visual information to users. While their purposes may seem similar, they have different use cases. This article explains the differences between an infographic and a data visualization. [@VIZVSINFO].
-
-#### Data Visualization
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two critical aspects of data and design. However, a design should depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are essential in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to conclude on their own.
-
-#### Infographics
-An infographic, on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization but in general feature less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should base in the function of conveying the visual story.
-
-#### Comparison
-| Data Visualization | Infographics |
-| --- | --- |
-| Illustrates raw values | Visualize stories |
-| Delivers information | Provide stances |
-| Offers objectivity | Offer subjectivity |
-
-#### When Should You Use Infographics or Data Visualization?
-While both infographics and data visualizations have their distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
-
-Data Visualization:
-
-Use Case | Best Visual Representation | Rationale |
--------- | ----------- | ------------------------------------ |
-Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
-White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
-Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
-Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
-Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
-Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
