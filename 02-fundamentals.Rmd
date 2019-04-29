@@ -53,7 +53,7 @@ This basic idea is illustrated in the following visualizations.
 
 **Erase non-data-ink and redundant data-ink.**
 ![](images/Tufte_figure1.png){width=250px,height=200px}
-(Source:[@Tufte_2001])
+(Source:[@The-Visual-Display-of-Quantitative-Information])
 
 **Erase non-data-ink and redundant data-ink.**
 ![](images/Tufte_figure2.png){width=250px,height=200px}
@@ -64,7 +64,7 @@ This basic idea is illustrated in the following visualizations.
 
 **Always revise and edit**
 ![](images/Tufte_figure4.png){width=250px,height=200px}
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 kwright76_submit
 When creating visualizaitons, information is best displayed by adhering to the data to pixel ratio rule. This rule states that a visulaization should contain as much data as possible while also using as little pixels as possible. Through a comprehensive editing and testing process, any visualization can continually be improved upon. The main stakeholder of any visualization is the audience and their ability to understand what the visualization is trying to get across. Although if an audience member is not able to understand the visualization, there is nothing lost, but for those that do understand it, something is gained. It is a great feat for an audience member to be able to understand a statistical graphic because it is the most frequently made mistake in underestimating an audience. New designs, although may appear odd, have not been seen before and can be successful visualizations. Therefore, visualizations that produce a lot of data with the space provided with detailed statistics and are able to be understood by a wide array of audiences are produced with a well put together revising and testing system.
@@ -76,7 +76,7 @@ contributions
 The danger of multifunctioning elements is that they tend to generate graphical puzzles, with encodings that can only be broken by their inventor. Thus design techniques for enhancing graphical clarity in the face of complexity must be developed along with multifunctioning elements. In other words, we should try to make all present graphical elements data encoding elements. We must make every graphical element effective (See the following example).
 
 ![](images/Tufte_figure6.png)
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 #### Principle 3: Maximize data density and the size of the data matrix, within reason.
 
@@ -95,17 +95,17 @@ $${Data \ Density} = \frac{{Entries \ in \ the \ Data \ Matrix}}{{Area \ of \ Ch
 Data is multivariate doesn't necessarily mean 3D projection. How can we enhance multivariate data on inherently 2D surfaces? We can use small multiple graphs or parallel sequencing skill.
 
 ![Example for Small Multiples](images/Tufte_figure8.png)
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 ![Example for parallel sequencing](images/Tufte_figure7.png)
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 #### Principle 5: Provide the user with an overview and details on demand.
 
 A carefully designed view can show a macrostructure (overview) as well as microstructure (detail) in one space.
 
 ![](images/Tufte_figure9.png)
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 #### Principle 6: Utilize Layering & Separation.
 
@@ -120,7 +120,7 @@ A carefully designed view can show a macrostructure (overview) as well as micros
 3. Try to figure out whether the audience looking at the new designs be confused? Nothing is lost to those puzzled by the frame of dashes, and something is gained by those who do understand. We should always be aware of the audience for whom we are making the charts. Furthermore, it is always not safe to assume that if you understand the statistical graphics, your readers will too.
 
 ![](images/Tufte_figure10.png)
-(Source: [@Tufte_2001])
+(Source: [@The-Visual-Display-of-Quantitative-Information])
 
 #### Principle 7: Utilize narratives of space and time.
 
@@ -147,7 +147,7 @@ Tell a story of position and chronology through visual elements.
 
 ## Best Practices
 
-Data visualization does not unleash a ready-made story on its own. There are no rules or protocols to guarantee a story. Instead, we need to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@The Data Journalism Handbook].
+Data visualization does not unleash a ready-made story on its own. There are no rules or protocols to guarantee a story. Instead, we need to look for *insights*, which can be artfully woven into stories in the hands of a good journalist [@The-Data-Journalism-Handbook].
 
 Here is a process for finding insights that tell a story. Each of these steps will be discussed further in this section.
 
@@ -633,5 +633,5 @@ With the development, studies and new tools applied in data visualization, more 
 **Promoting Discussion and Accretion** | Discussion of research papers actively occurs at conferences, on social media, and within research groups. Much of this discussion is either ephemeral or non-public. So ongoing discussion might explicitly transition to the online forum.
 **Research Methods Training** | Developing a core curriculum for data visualization research might help both cases, guiding students and instructors alike. For example, recognizing that empirical methods were critical to multiple areas of computer science, Stanford CS faculty organized a new course on designing Computer Science Experiments [@stanford_course]. Also, online resources could be reinforced with a catalog of learning resources, ranging from tutorials and self-guided study to online courses. Useful examples include Jake Wobbrock's Practical Statistics for HCI and Pierre Dragicevic's resources for reforming statistical practice.
 
-[@The Visual Display of Quantitative Information]
+[@The-Visual-Display-of-Quantitative-Information]
 [@fusioncharts]
