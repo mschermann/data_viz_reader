@@ -207,6 +207,7 @@ What can be removed? Realize that consistency can help eliminate unnecessary dis
 Let's consider the following example: You have visualized a graph and what came out of this was nothing but a mess of nodes connected through hundreds of edges (a very common result when visualizing so-called densely connected networks), one common transformation step would be to filter some of the edges. If, for instance, the edges represent money flows from donor countries to recipient countries, we could remove all flows below a certain amount [@dataviz_bestprac].
 
 ### Adapt your story to a different set of audiences
+
 Jonathon Corum is a graphics designer for The New York Times and he provided a very informative talk to a strictly scientific audience on how to create and design visualizations that explain material originally created for a certain audience, i.e. the scientific community, but now is to be related to a different audience (in his case, the readership of the Times or maybe the public at large). The talk is filled with examples and breakdowns of how he has moved from his base content to the final product, all of which are illuminating examples by themselves. There is also great power in the broader themes that he is trying to convey.
 
 Of course, it is easy to assume that we know the audience we are producing the work for, but even in this step, we should focus on the ultimate goal of conveying, understanding and explaining a concept. Some of the main highlights to help make this connection with the audience involved are mentioned below:
@@ -217,6 +218,21 @@ Of course, it is easy to assume that we know the audience we are producing the w
 **Involving your audience** | Give them opportunities to connect their own general knowledge on the topic. Use real world comparisons or examples to help build and relate context. Encourage comparisons and make this easy for the viewer to process and see.
 **Explaining why** | Providing context, adding time sequence details, showing movement, change and mechanism will all guide your audience in connecting the dots and understanding the significance of what you are trying to communicate.
 
+### Developing Intuitive Dashboards
+
+Often, data visuals end up too intricate and overly complicated. A dashboard should be appealing but also easy to understand. Following these rules will lead to the effective presentation of the data.
+
+|Best Practice | Description                                            |
+| ------------ | ------------------------------------------------------ |
+**The dashboard should read left to right** | Because we read from top to bottom and left to right, a reader's eyes will naturally look in the upper left of a page. The content should therefore flow like words in a book. It is important to note that the information at the top of the page does not always have to be the most important. Annual data is usually more important to a business but daily or weekly data could be used more often for day to day work. This should be kept in mind when designing a dashboard since dashboards are often used as a quick convenient way to look up data. |
+**Group related information together** | Grouping related data together is an intuitive way to help the flow of the visual. It does not make sense for a user to have to search in different areas to find the information they need. |
+**Find relationships between seemingly unrelated areas and display visuals together to show the relationship.** | Grouping unrelated data seems contradictory to the second rule, but the important thing is to tell a story not previously observed. Data analytics is all about finding stories the data are trying to tell. Once they are discovered, the stories need to be presented in an effective manner. Grouping unrelated data together makes it easier to see how they change together. |
+**Choose metrics based on why they matter** | Chosen metrics should be important and relevant to the current task. That doesn't mean that each metric ought to be incorporated. You ought to be highly selective in determining which metrics earn a spot on your dashboard. Organization's core objectives, availability of  data that can shed light on the objectives, effectiveness of metric to  explain contribution to the objectives etc. are some of the aspects to consider while  choosing metrics. In short, every metric on your dashboard should connect to the organization objectives. |
+**Keep it visual** | Dashboards are meant to be fast and easy to read. A well-designed, highly visual dashboard will be more widely adopted by audiences. Since metrics are also chosen in line with corporate objective, it will help in speeding peoples' understanding. This will also help see the  translation of individual department objectives into broader organizations objective. | Things to consider when designing a dashboard are use of colors, shapes, lines, thicknesses, degrees of shading etc.. Things to avoid are cute widgets, 3D graphic treatments, and graph types not commonly seen. |
+**Make it interactive** | Interactive, highly visual dashboards should enable audience to perform basic analytical tasks, such as filtering the views, drilling down, examining underlying data etc. Viewers should be  able to get the big picture from the dashboard and then be able to drill down into a view that tells them the information they need  to get their jobs done. |
+**Keep it current or don't bother** | Selected metrics should reflect current business challenges. You don't need up-to-the-minute data. Data can be current quarterly, weekly, hourly, etc. as relevant to the timeline of the organization. Ability to change and update the metrics represented in the dashboard is an important aspect. |
+**Make it simple to access and use** | Making dashboards easily accessible is critical. Web distribution is ideal for this - especially if dashboards can constantly pull current data and can adhere to IT protocols and security standards. Another alternative is posting files on websites, Wiki's or blogs.
+
 ### More on Best Practices
 
 **Five Practices** | **Explanation**
@@ -226,6 +242,28 @@ Of course, it is easy to assume that we know the audience we are producing the w
 **Be objective and offer balance** | A visualization should be devoid of bias. Even if it is arguing to influence, it should be based upon what the data says–not what you want it to say. There are simple ways to encourage objectivity: labeling to avoid ambiguity, have graphic dimensions match data dimensions, using standardized units, and keeping design elements from compromising the data. Balance can come from alternative representations (multiple clustering’s; confidence intervals instead of lines; changing timelines; alternative color palettes and assignments; variable scaling) of the data in the same visualization.
 **Don't censor** | Don’t be selective about the data you include or exclude, unless you’re confident you’re giving your audience the best representation of what the data “says”. This selectivity includes using discrete values when the data is continuous; how you deal with missing, outlier and out of range values; arbitrary temporal ranges; capped values, volumes, ranges, and intervals. Viewers will eventually figure that out and lose trust in the visualization (and any others you might produce).
 **Edit, Edit, Edit** | Take care to really try to explain the data, not just decorate it. Don’t fall into “it looks cool” trap, when it might not be the best way explain the data. As journalists and writers know, if you are spending more time editing and improving your visualization than creating it, you are probably doing something right.
+
+## Dashboards  
+[@intuitive_dash],[@dashboard_practices]  
+
+[@dashboard]
+> "A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance." -Stephen Few
+
+Dashboards display aggregated information visually and understandably. They give a comprehensive overview of a company, business department, process or project concerning achieving specific objectives, that are measured by Key Performance Indicators (KPIs). Also, they provide easy and immediate access to actionable analytics that can affect the bottom line of an entity.
+
+Some of the advantages associated with dashboards are
+1)They are customizable
+2) They are interactive
+3) They allow for Real-Time monitoring
+4) All of the data is in one place
+5) They are intuitive
+6) They get everyone on the same page
+7) They are capable of gaining viewers focus
+
+Below is an example of a dashboard for a logistics of a transportation industry. When it comes to logistics, every moment matters, and maximum deliveries are expected to be on time.
+This transportation dashboard makes it easy with delivery status, fleet efficiency, average loading time and other logistics KPIs.
+[@Dashboards]
+![](images/Dashboard_ex.png)
 
 ## Data Visualization Tools
 
@@ -383,10 +421,17 @@ The following tips for Tableau are still missing:
 2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
 3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
 
-**Building advanced analytics application with TabPy**: Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y variable!!! 
- Here is a link that shows how to integrate and visualize data from Python in Tableau. This is especially relevant to all data science students, as this is one of the tools used for visualizing advanced analytics. 
- The author here has given an example using data from Seattle's police department's 911 calls and he tries to identify criminal hotspots in the area. The author uses machine learning (spatial clustering) and creates a great interactive visualization, where you can click on the type of criminal activity and the graph will show various clusters. 
- There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in trying it out. [@TabPy]
+#### Using Shapes as Filters in Tableau When Your Fields Are Measures  
+[@measures]  
+This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+
+### TabPy  
+[@TabPy]  
+Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y-variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
+
+The author here has given an example in which he tries to identify criminal hotspots in the area using data from Seattle's police department's 911 calls. The author uses machine learning (spatial clustering) and creates a great interactive visualization which allows viewers to click on the type of criminal activity to show various clusters.
+
+There are other examples and use cases that may be downloaded, and the scripts are also given by the author to anyone who is interested in replicating the visualizations.
 
 ### Google chart
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
