@@ -421,6 +421,29 @@ The following tips for Tableau are still missing:
 2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
 3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
 
+#### Using Multiple Data Sources
+[@TableauHelp_connections]
+
+In Tableau data source there are two ways to add in data from multiple sources. The first is joining the data, which will add two datasets together at the row level related by specific columns. When joining tables, the fields being joined must be of the same data type. There are four types of joins: inner, left, right and full outer. Note that when possible perform joins outside of Tableau and import one dataset in order to maximize performance. 
+
+The second is blending multiple data sources, which keeps two or more data sources separate from each other but displays the information together. Blending allows for data to have different levels of detail such as aggregate number of transactions per month vs. individual transactions. It also is used when joins will not work, such as having transactional data in one source and quota data in another. Blending requires at least one common field between both data sources. If the field names are different but the two columns contain the same values, the relationship can be defined by changing the column names in one data source to match the other, or defining the relationship manually [@datablendingintableau]. 
+
+**Steps For Joining Data**
+1. Connect the first data source (dragging the file wanted to the canvas if there are multiple options)
+2. Add another connection (there should be two overlapping circles on the canvas where the two datasets overlap)
+3. Click on the join relationship (the circles) to add a join type and data-match
+!(joins)[https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/joins_joindialogbox.png]
+4. Choose from the different types of joins and then which column in each dataset that will match (ie. the orderID column in both a sales dataset and a shipping dataset)
+
+**Steps For Blending Data**
+1. Add your first data source 
+2. Go to Data > New Data Source 
+3. Choose your second dataset 
+4. Your primary data source (the first dataset used when dragging dimentions or measures in the sheet) should have a blue tick mark beside it
+5. Secondary data source will have an orange tick mark next to it.
+6. Tableau will try to automatically define the relationship between the two datasets using columns with the same names. 
+7. Define the relationship manually by going to Data > Edit Relationships > Custom > Add a Relationship
+
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
 [@measures]  
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
