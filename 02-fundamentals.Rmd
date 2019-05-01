@@ -408,7 +408,7 @@ Tableau is a business intelligence (BI) and analytics platform created for the p
 <li>It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
 <li>Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes.
 <li>It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
-<li>It is possible to create new fields within Tableau by using functions on existing fields
+<li>It is possible to create new calculated fields within Tableau by using functions on existing fields
 <li>A Tableau file can be saved with the data attached so that it does not need to remain on the same hard drive/cloud as the data.
 <li>![Tableau Public]<https://public.tableau.com/s/> is available to showcase work on a user profile online
 </ol>
@@ -443,6 +443,34 @@ The second is blending multiple data sources, which keeps two or more data sourc
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
 [@measures]  
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+
+#### Creating Calculated Fields
+[@Tableau Calculated Fields]
+On the Data Source tab of a Tableau file there will be the complete set of data imported that is available to use for your visualizations. This list also contains the opportunity to create new fields, based on those existing.
+"You can use calculated fields for many, many reasons. 
+Some examples might include:
+<ul>
+<li>To segment data
+<li>To convert the data type of a field, such as converting a string to a date.
+<li>To aggregate data
+<li>To filter results
+<li>To calculate ratios"
+</ul> [@Tableau Calculated Fields]
+These calculated fields can also be created in the visualization pages. This allows the user to combine fields for more robust vizualizations, without the need to create another field.
+
+**Calculation Type** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Basic calculations** | Basic calculations allow you to transform values or members at the data source level of detail (a row-level calculation) or at the visualization level of detail (an aggregate calculation).
+**Level of Detail (LOD) expressions** | Just like basic calculations, LOD calculations allow you to compute values at the data source level and the visualization level. However, LOD calculations give you even more control on the level of granularity you want to compute. They can be performed at a more granular level (INCLUDE), a less granular level (EXCLUDE), or an entirely independent level (FIXED) with respect to the granularity of the visualization.
+**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau Calculated Fields]
+
+Basic Calculations are the most common, and many of the functions found in Excel can be used such as:
+<ul>
+<li>If/Then Statements and other logical functions
+<li>Date Functions
+<li>AVG, COUNT, MAX, MIN and other Aggregation functions
+<li>Functions involving simple math using two or more of the existing fields
+<ul>
 
 ### TabPy  
 [@TabPy]  
