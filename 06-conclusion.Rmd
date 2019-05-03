@@ -37,6 +37,43 @@ Network Theory has been in use for decades, with its earliest applications large
 
 ## Key Lessons Going Forward
 
+###Laying the groundwork for data visualization 
+
+[@why_dataviz_matters]  
+Before implementing new technology, there are some steps you need to take. Not only do you need to have a solid grasp on your data, you also need to **understand your goals, needs and audience.** Preparing your organization for data visualization technology requires that you first:  
+
++ Understand the data you’re trying to visualize, including its size and cardinality (the uniqueness of data values in a column).
++ Determine what you’re trying to visualize and what kind of information you want to communicate.
++ Know your audience and understand how it processes visual information.
++ Use a visual that conveys the information in the best and simplest form for your audience.  
+
+Once you've answered those initial questions about the type of data you have and the audience who'll be consuming the information, you need to prepare for the amount of data you'll be working with. Big data brings new challenges to visualization because large volumes, different varieties and varying velocities must be taken into account. Plus, data is often generated faster that it can be managed and analyzed.  
+
+###How Is It Being Used?
+[@why_dataviz_matters]  
+Regardless of industry or size, all types of businesses are using data visualization to help make sense of their data. Here’s how.
+
+**Comprehend information quickly**  
+By using graphical representations of business information, businesses are able to see large amounts of data in clear, cohesive ways – and draw conclusions from that information. And since it’s significantly faster to analyze information in graphical format (as opposed to analyzing information in spreadsheets), businesses can address problems or answer questions in a more timely manner.
+
+**Identify relationships and patterns**  
+Even extensive amounts of complicated data start to make sense when presented graphically; businesses can recognize parameters that are highly correlated. Some of the correlations will be obvious, but others won’t. Identifying those relationships helps organizations focus on areas most likely to influence their most important goals.
+
+**Pinpoint emerging trends**  
+Using data visualization to discover trends – both in the business and in the market – can give businesses an edge over the competition, and ultimately affect the bottom line. It’s easy to spot outliers that affect product quality or customer churn, and address issues before they become bigger problems.
+
+**Communicate the story to others**  
+Once a business has uncovered new insights from visual analytics, the next step is to communicate those insights to others. Using charts, graphs or other visually impactful representations of data is important in this step because it’s engaging and gets the message across quickly.
+
+**Improved collaboration among work teams**
+Data visualization makes it easier to gain vital information, identify trends, collaborate at a likeminded pace, and from there put decisions to action — all with much greater speed than is generally allowed by presentations that lack the proper visual tools.
+
+**Establish Clear Correlation Between Business Operations And Activities**
+Since the data is visualized in a highly comprehensive and interactive manner, establishing existing or possible correlations between various business operations comes in easy here. This gives business leaders a clear insight into business performance and needs for further strategies.
+Data visualization allows decision makers to make sense out of the visible patterns and parallel operations in terms of the overall business performance. It also allows them to establish a correlation between the daily tasks and the long-term outcomes for these in terms of business performance.
+
+
+###Helpful tips for a good visualization
 * **Don’t try to be too cute.** Using all the fancy features of a visualization tool can lead to complex and confusing graphics. Just because you have a flashy hammer, it does not mean that everything is a nail. Don’t lose your purpose in your infatuation with a new tool or feature. Stick to good design principles, and keep it simple (as was mentioned in the discussion about Patterns).
 
 * **Don’t provide more data than you need to tell your story.** Humans have a tendency to want to create visualizations with multi-drill downs, filters, and tables. This is fine for ad hoc analysis, but if we are presenting a visual with a single story or argument, we must make sure every piece of data included plays a meaningful part in the story.
@@ -58,33 +95,7 @@ Network Theory has been in use for decades, with its earliest applications large
 **It should be ethical Visualization**: 
 Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used to mislead either unintentionally or intentionally. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. So, certain standards should be followed in order to generate meaningful, accurate and ethical visuals.
 
-**Laying the groundwork for data visualization**  
 
-[@why_dataviz_matters]  
-Before implementing new technology, there are some steps you need to take. Not only do you need to have a solid grasp on your data, you also need to **understand your goals, needs and audience.** Preparing your organization for data visualization technology requires that you first:  
-
-+ Understand the data you’re trying to visualize, including its size and cardinality (the uniqueness of data values in a column).
-+ Determine what you’re trying to visualize and what kind of information you want to communicate.
-+ Know your audience and understand how it processes visual information.
-+ Use a visual that conveys the information in the best and simplest form for your audience.  
-
-Once you've answered those initial questions about the type of data you have and the audience who'll be consuming the information, you need to prepare for the amount of data you'll be working with. Big data brings new challenges to visualization because large volumes, different varieties and varying velocities must be taken into account. Plus, data is often generated faster that it can be managed and analyzed.  
-
-**How Is It Being Used?**  
-[@why_dataviz_matters]  
-Regardless of industry or size, all types of businesses are using data visualization to help make sense of their data. Here’s how.
-
-* Comprehend information quickly  
-    + By using graphical representations of business information, businesses are able to see large amounts of data in clear, cohesive ways – and draw conclusions from that information. And since it’s significantly faster to analyze information in graphical format (as opposed to analyzing information in spreadsheets), businesses can address problems or answer questions in a more timely manner.
-
-* Identify relationships and patterns  
-    + Even extensive amounts of complicated data start to make sense when presented graphically; businesses can recognize parameters that are highly correlated. Some of the correlations will be obvious, but others won’t. Identifying those relationships helps organizations focus on areas most likely to influence their most important goals.
-
-* Pinpoint emerging trends 
-    + Using data visualization to discover trends – both in the business and in the market – can give businesses an edge over the competition, and ultimately affect the bottom line. It’s easy to spot outliers that affect product quality or customer churn, and address issues before they become bigger problems.
-
-* Communicate the story to others 
-    + Once a business has uncovered new insights from visual analytics, the next step is to communicate those insights to others. Using charts, graphs or other visually impactful representations of data is important in this step because it’s engaging and gets the message across quickly.
 
 
 
@@ -141,9 +152,6 @@ Tableau Blog | The Tableau blog is a source of data viz trends, issues important
 [@census_viz] | This resource is a data visualization gallery of weekly explorations of United States Census data | [link](https://www.census.gov/dataviz/)
 [@fema_viz] | This resource provides a series of interactive data visualizations using FEMA data | [link](https://www.fema.gov/data-visualization)
 [@7_best_tools] | This article describes "The 7 Best Data Visualization Tools In 2017" | [link](https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30)
-[@LinkedIn_Groups] | This is Tableau social media groups on LinkedIn |
-[link](https://www.linkedin.com/search/results/all/?keywords=tableau%20group&origin=GLOBAL_SEARCH_HEADER)
 [@strategy_impact] | This article discusses how data visualization can impact business strategy | [link](https://www.iotforall.com/data-visualization-strategy-for-business/)
 [@writers_manipulate] | This article discusses how writers can use data visualizations to manipulate their audiences | [link](https://venngage.com/blog/misleading-graphs/)
-
 
