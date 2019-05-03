@@ -212,6 +212,25 @@ Another important aspect to consider is how effective are chart views in terms o
 • Is the chart type(s) most suitable for the type of analysis?
 • Are there alternative chart types that could work better than the chosen ones?
 
+
+#### Evaluating effectiveness through measures, dimensions, colors etc.
+• Are your most important data shown on the X- and Y-axes and your less important data encoded in color or shape attributes?
+• Are your views oriented intuitively—do they cater to the way your viewers read and perceive data?
+• Have you limited the number of measures or dimensions in a single view so that your users can see your data?
+• Have you limited your usage of colors and shapes so that your users can distinguish them and see patterns?
+
+
+#### Final touches
+
+• Do all the colors on your dashboard go together without clashing?
+• Do you have less than 7-10 colors on your dashboards?
+• Do you use fonts consistently in all of your views and no more than three
+different fonts on one dashboard?
+• Are you labels clear and concise? Are they placed optimally to help guide your
+viewers? Make sure subtitles are formatted to be subordinate to the main title.
+• Are you tooltips informative? Do they have the right format so that they’re
+easy for viewers to use?
+
 ### Document Your Insights and Steps
 If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. 
 
