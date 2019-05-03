@@ -440,6 +440,18 @@ The second is blending multiple data sources, which keeps two or more data sourc
 <li>Define the relationship manually by going to Data > Edit Relationships > Custom > Add a Relationship
 </ol>
 
+Joins and Data Blending work when it is required to append columns from one table to another. During a situation where we need to add rows from one table to another, Union functionality can be used. For instance, when data is available in separate tables for different months; each table contains the same information but only for the relevant month. Now if it's required to club these data, then in this case union functionality will be useful. 
+
+**Steps for using Union**
+<ol>
+<li> On the data source page, double-click New Union to set up the union.
+<li> Drag a table from the left pane to the Union dialog box.
+<li> Select another table from the left pane and drag it directly below the first table.
+<li> Click Apply or OK to union
+</ol>
+![](images/Tableau_Union.png)
+[@Tableau Union]
+
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
 [@measures]  
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
