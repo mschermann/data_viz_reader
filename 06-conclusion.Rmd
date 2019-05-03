@@ -1,4 +1,4 @@
-﻿# Conclusion
+# Conclusion
 
 As we conclude our brief survey of data visualization, it is clear that the field is rich in potential applications in diverse disciplines, as well as in practical and ethical complexities to be aware of. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. The journey from raw data to successful data visualization involves representing the data of interest, processing the data to extract relevant information for the desired argument, designing a mapping of this information to a visual representation, rendering this representation, and combining all this functionality in an easy-to-use product.
 
@@ -108,50 +108,7 @@ The field of data visualization is huge, and the capability of linking storytell
 * Tableau Software Fans & Friends: LinkedIn Group (45k members)
 
 
-
 [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight-forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
-
-
-**Anaconda Python for visualization [@Python2019]:**
-
-Anaconda Python provides different packages that can help with more robust data sets and provide different packages that can offer a variety of visualization solutions[@Python2019].
-
-** Bokeh ** 
-One of them is Bokeh an open source interactive visualization for Python [@Bokeh]
-.	Elegant, concise versatile graphics
-.	High performance interactivity over large streaming data sets
-.	Easily create interactive plots, dashboard and data applications
-
-** Matplot [@Matplot] ** 
-
-Is a Python 2D plotting library and object oriented.
-This package can do the following:
-.	Lines, bars and markers
-.	Images, contours and fields
-.	Statistics graphs
-.	Pie and polar charts
-.	Text, labels and annotations
-.	Pyplot
-.	Others
-Other packages: Datashader & Holoviews
-Anaconda community [@Python2019] provides many solution and resources for all visualization packages.
-
-### D3.js Community
-
-The best place to start with D3.js (version 5.9.2) is the D3.js official portal itself (https://d3js.org/ ). It has features like:
-* Introduction, with the help of code snippets.
-* Installation guide.
-* Features guide.
-* It also has a reference guide.
-* Newsletters.
-* Blogs which introduces D3.js with examples.
-* Video lectures which makes the learning experience more interesting.
-
-D3.js has a large and growing presence on **GitHub** .One can find all the needed materials. The content is as follows :
-* It has an extensive tutorials repository on GitHub (https://github.com/d3/d3/wiki/Tutorials).
-* It also has a Gallery on GitHub with code snippets of each visualization                                                 ( https://github.com/d3/d3/wiki/Gallery)
-* Links to official ( https://github.com/d3/d3/blob/master/API.md) and community based modules( https://www.npmjs.com/search?q=keywords:d3-module) for D3.js .
-
 
 ### Blogs
 
