@@ -1,3 +1,241 @@
+--- 
+title: "A Reader on Data Visualization"
+author: "MSIS 2629 Spring 2019"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: mschermann/data_viz_reader
+description: "This is the class reader for MSIS 2629."
+---
+
+# Preface
+
+Placeholder
+
+
+## References
+## Images 
+## Basic Guidelines
+
+<!--chapter:end:index.Rmd-->
+
+
+# Introduction
+
+Placeholder
+
+
+## What is Data Visualization?
+## Importance of Data Visualization
+### Increased Value for Increasing Volume of Data
+### Understanding Concepts that are Difficult to Contextualize
+### Revealing Small and Interesting Patterns
+### Easier Decision-making in Healthcare
+### Law Enforcement and Fraud Detection
+### Design and Data Literacy
+## History of Data Visualization
+### A Brief history of Data Visualization
+### Key Figures in the History of Data Visualization
+#### William Playfair (1759--1823)
+#### John Snow (1813--1858)
+#### Charles Joseph Minard (1781--1870)
+#### Florence Nightingale (1820--1910)
+#### Edmond Halley (1656--1742)
+#### Charles de Fourcroy (1766--1824)
+#### Luigi Perozzo (1856--1916)
+## Contemporary Visualists
+### Hans Rosling
+### David McCandless
+## How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example
+### A cool website: MIT Media Lab
+### Standing out categorization of information on the website.
+### Automatic visualization vs. context-specific visualization
+###  Data analytics software
+###  Data visualization can't explain data, leaving room for interpretation.
+### One great tool: D3.js.
+
+<!--chapter:end:01-intro.Rmd-->
+
+
+# Fundamentals
+
+Placeholder
+
+
+## Design Principles
+### Melissa Anderson's Principles of Design
+### Gestalt Principles of Design
+### Tufte's Principles of Design
+#### Principle 1: Maximizing the data-ink ratio, within reason
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
+#### Principle 4: Escape flatland - small multiples, parallel sequencing.
+#### Principle 5: Provide the user with an overview and details on demand.
+#### Principle 6: Utilize Layering & Separation.
+#### Principle 7: Utilize narratives of space and time.
+### Common Mistakes to Avoid:
+## Best Practices
+### Determine the Story with Insights
+### How to choose the best form of Visualization
+### Analyze and Interpret
+#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+### Document Your Insights and Steps
+### Transform Data
+### Adapt your story to a different set of audiences
+### More on Best Practices
+## Data Visualization Tools
+### Brief Description of popular tools 
+### Interactive Data Visualization 
+### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
+### R for Data Visualization: Grammar of Graphics
+#### Layered Grammar of Graphics:
+#### Aes/Mapping: Global Mapping and Local Mapping
+#### Position Adjustment
+#### Coordinate Systems
+### R Shiny
+### D3.js 
+### Tableau
+### Google chart
+## Data Visualization in Business
+### Data Visualizations in Industry
+### How visualization impacts Industry/business
+#### Cleaning
+#### Extraction
+#### Strategizing
+### Corporate Scorecards and Data Visualization
+## Special Topics
+### Data Mining and Data Visualization  
+### Typography and Data Visualization
+#### Preattentive visual attributes and typography
+#### Why typography is not currently popular in data visualizations 
+#### Tips for using typographic attributes in visualizations
+#### Criticisms of typography
+### Infographics vs. Data Visualizations
+#### Data Visualization vs Infographics
+#### When Should You Use Infographics or Data Visualization?
+### Handbooks to improve your visualization design
+## Contemporary Research Results & What's Next
+
+<!--chapter:end:02-fundamentals.Rmd-->
+
+
+# Case Studies
+
+Placeholder
+
+
+## Introduction
+## Geographic Visualizations
+### Spies in the Skies
+### Two Centuries of U.S. Immigration
+### Uber: Crafting Data-Driven Maps
+## Demographic Comparisons
+### Young Voters, Class and Turnout: How Britain Voted in 2017
+### U.S. Migration Patterns 
+### The American Workday
+### How People Like You Spend Their Time
+### Britain's Diet In Data
+### Selfie City
+### Evolving Demographics
+#### Millennial Generation Diversity
+#### How the Recession Reshaped the Economy, in 255 Charts
+#### An Aging Population: Projected Number of Children and Older Adults 
+#### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+#### Music Timeline
+## Visualizing Urban Data for Social Change
+## Animated Data Visualization
+### A Day in the Life of Americans
+### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+## Dust in the Wind: Visualization and Environmental Problems
+### Global Carbon Emissions
+### What's really warming the world?
+### Understanding Plastic pollution using visualization
+## Language
+### Green Honey
+### Linguistic Concepts
+### State of the Union 2014 Minute by Minute on Twitter
+## Political Relationships
+### Connecting the Dots Behind the Election
+### A Guide to Who is Fighting Whom in Syria 
+## Uncategorized
+### Simpson’s Paradox
+### Every Satellite Orbiting Earth
+### Malaria
+### Is it Better to Rent or Buy?
+### An Interactive Visualization of NYC Street Trees
+### Adding up the White Oscars Winners
+### Kissmetrics blog: visualization of metrics
+### Describe Artists with Emoji
+### Goldilocks Exoplanets
+### Washington Wizards’ Shooting Stars
+### Visualization of big data security: a case study on the KDD99 cup data set
+### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
+
+<!--chapter:end:03-casestudies.Rmd-->
+
+
+# Patterns
+
+Placeholder
+
+
+## Outlier Detection  
+## Tips to Improve Data Visualization  
+### Comparison
+### Copy
+### Color
+### Ordering
+### Audience Perspective
+### Use Layers to Tell a Story
+### Keep It Simple
+### Graph Integrity
+## Charts
+### What makes a chart effective?
+### How to decide which chart type to use?
+### Chart Types
+### Temporal Visualizations  
+### Line Graph  
+### Stacked Area Chart  
+### Bar Charts  
+### Column Charts for Time Series Data  
+### Gantt Chart  
+### Stream Graph  
+### Heat Map  
+### Polar Area Diagram  
+### Time Series Data and Its Deceptive Potential  
+### Pie Charts: Oportunities and Obstacles  
+## Maps
+## Choosing the Right Baseline in Data Visualization  
+## Using Design Patterns to Find Greater Meaning in Your Data  
+### Comparisons
+### Connections
+### Conclusions  
+## Takeaways From Recreating One Chart Using 24 Tools  
+### Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals and Mindsets  
+### Takeaway 2: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
+### Takeaway 3: Every Tool Forces You Down a Path  
+## Word Cloud  
+## Dashboards  
+### Rules and Best Practices for Developing Intuitive Dashboards
+## Using Visualization Softwares and Libraries
+### Using Shapes as Filters in Tableau When Your Fields Are Measures  
+### How to Customize a Legend in Python with Matplotlib  
+#### Add a Basic Legend  
+#### Add a Legend on Different Position  
+#### Customize a Box Surrounding the Legend  
+#### Legend for Size of Points  
+#### Multiple Legends  
+#### ggplot2 code template for data viz in R
+#### Reusable Calendar View Code  
+### Building Advanced Analytics Application with TabPy  
+### Creating a Diverging Bar Chart  
+
+<!--chapter:end:04-patterns.Rmd-->
+
 ---
 output:
   html_document: default
@@ -16,7 +254,6 @@ Alberto Cairo addresses the ethical 'why' of data visualization in this article,
 
 **Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.** While it can be a bit jarring to think of a poorly designed graphic as "morally wrong," it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
 
-
 ## Implications of (Good/Bad) Data Visualization
 
 Raw data is often meaningless or at the very least is difficult to derive immediate meaning from. When people face a broad set of measurements and/or in large quantities, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and have dramatically improved our ability to collect such large amounts of information. Thus, filtering, visualization, and interpretation of data becomes increasingly important.
@@ -26,7 +263,7 @@ We should understand how to best derive meaning from data, but first we should u
 
 **SNo.** | **Principle** | **Description**
 ---------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**1.** | **Easy Recall** | People can process and remember images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. 
+**1.** | **Easy Recall** | People can process images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% for visual information with interaction.
 **2.** | **Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
 **3.** | **Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
 **4.** | **Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
@@ -56,26 +293,14 @@ Once a visualizer decides on an argument, it is important to present it honestly
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
 Guiding rules for designing the visuals according to Skau are as follows:
-
 * Use the visuals you chose to depict the data and analysis accurately.
 * Be attentive to labelling best practices and hierarchy of importance of visual properties, such as colors.
 * Read on topics related to visualization, study any visualizations critically, and be open to criticism.
 
-There are some ways in which distorted graphs can be created:  
-[@evil_axes],[@mislead_graph_ex]
-
-**Tool** | **Description**
------------------------------|--------------------------------------------------------------------------------------------------------
-**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
-**Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
-**Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
-**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
-**Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
-
-## Data Deception and Graphic Integrity  
+## Definitions of Data Deception and Graphic Integrity  
 [@decept_study],[@rose_tint]
 
-More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
+Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is an increasingly popular way to communicate and support arguments. More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
 
 What does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
 
@@ -88,12 +313,24 @@ Edward Tufte already introduced the concept of graphical integrity in his book a
 * Show data variation, not design variation.
 * Graphics must not quote data out of context.
 
+There are some ways in which distorted graphs can be created:  
+[@evil_axes],[@mislead_graph_ex]
+
+**Tool** | **Description**
+-----------------------------|--------------------------------------------------------------------------------------------------------
+**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
+**Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
+**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
+**Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
+
+
 ## Ethical Challenges in Data Visualization  
 [@dataviz_for_good]
 
 Matt Stempeck's article recaps a brainstorming session concerning data visualization ethics, and provides a fairly comprehensive list of considerations for data visualizers to use as a guide to evaluate how ethical their data products actually are. From replicability of a data visualization, to persuasiveness and ambiguity in the data, this article challenges data visualizers to assess how to ethically present data.  
 
-The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations [@Vox_gun_violence], the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
+The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
 
 Of course, the challenge posed by the tug-of-war between ethics and utility ( not to say that they are always contradictory in nature)  remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
 
@@ -203,12 +440,11 @@ Other examples are the vertical scale being too big or too small, skipping numbe
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
 ### Data is left Out
-Hiding relevant data or highlighting a particular data point (cherry-picking data) can lead learners to focus on a small fraction of the data story—at the expense of accurate understanding of the bigger picture. Any individual parameter or statistic can reveal interesting or useful information. But taken out of context, it can also be misleading. Sometimes, showing the big picture can make it hard to identify salient data or stories. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
+Hiding relevant data or highlighting a particular data point (cherry-picking data) can lead learners to focus on a small fraction of the data story—at the expense of accurate understanding of the bigger picture. Any individual parameter or statistic can reveal interesting or useful information. But taken out of context, it can also be misleading. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
 
 * Not including all the dimensions of data: [@hiding_data]
 * Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
-* Graphs not drawn to scale:[@scaling_issues]
-* Presenting too much data: [@hiding_data]
+* Graphs not drawn to scale:[@scaling_issues] 
 
 ### Treating Correlation as Causation  
 Even if the labels and data in your graph are correct, the conclusion is not necessarily logically correct. A correlation between X and Y does not automatically indicate that the change in one variable is caused by the change in the values of the other one, i.e. correlation does not imply causation. Viewers should bear in mind that such visuals only present the correlation between ice cream sold and murders, not than causation.
@@ -238,4 +474,26 @@ The question of ethics in data visualization is not something that comes to the 
 At VisWeek2011, Jason Moore suggested a hippocratic oath for visualization. It is intended to be succinct and easy to remember, while still containing the essence of responsible visualization:
 
 “I shall not use visualization to intentionally hide or confuse the truth which it is intended to portray. I will respect the great power visualization has in garnering wisdom and misleading the uninformed. I accept this responsibility willfully and without reservation, and promise to defend this oath against all enemies, both domestic and foreign.”
+
+
+<!--chapter:end:05-ethics.Rmd-->
+
+
+# Conclusion
+
+Placeholder
+
+
+## The Future of Data Visualization
+## Key Lessons Going Forward
+## Additional Resources for Aspiring Data Visualizers  
+### Tableau Community 
+### Blogs
+### Useful Links on Data Visualization Resources, Trends, and Tutorials
+
+<!--chapter:end:06-conclusion.Rmd-->
+
+# References {-}
+
+<!--chapter:end:07-references.Rmd-->
 
