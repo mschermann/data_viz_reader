@@ -468,7 +468,7 @@ Instance selection: It is used to identify the best examples from a very large d
 
 Instance generation: It involves replacing the original data with artificially generated data in order to fill regions in the domain of an issue with no representative examples in the master data. A common approach is to relabel examples that appear to belong to wrong class labels. Instance generation thus makes the data clean and ready for the analysis algorithm.
 
-**Tools you can use: Drake, DataWrangler, OpenRefine** 
+**Tools you can use: [Drake](https://www.factual.com/blog/introducing-drake-a-kind-of-make-for-data/), [DataWrangler](http://vis.stanford.edu/wrangler/), [OpenRefine](http://openrefine.org/)** 
 
 #### Extraction
 Known versatile tools for data visualization and analytics like Elastic Stack, Tableau, Highcharts, and more complex database solutions like Hadoop, Amazon AWS,and Teradata, have wide applications in business, from monitoring performance to improving customer experience on mobile tools. The new generation of data visualization based on AR and VR technology, however, provides formerly unfeasible advantages in terms of identifying patterns and drawing insights from various data streams.
