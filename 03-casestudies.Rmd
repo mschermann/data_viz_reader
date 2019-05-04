@@ -20,6 +20,12 @@ Many of the case studies mentioned below come from the following articles:
 
 
 ## Geographic Visualizations
+Geovisualization or geovisualisation (short for geographic visualization), refers to a set of tools and techniques supporting the analysis of geospatial data through the use of interactive visualization.
+Like the related fields of scientific visualization and information visualization geovisualization emphasizes knowledge construction over knowledge storage or information transmission.To do this, geovisualization communicates geospatial information in ways that, when combined with human understanding, allow for data exploration and decision-making processes.
+Source:[@Wikipedia]
+More specifically, Geovisualization is a process that alters geographic information so that we can consume it with our eyes. Its purpose is to capitalize on our affinity for visual things and convert the seemingly random collection of information available to us into a form that can be quickly understood. Many tools can be used for Geographic Visualization, such as Mapbox,Carto,ArcGIS Online and HERE Data Lens.
+Source:[@Geovisualization: Tools & Techniques]
+
 Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
 
 ### Spies in the Skies
@@ -117,7 +123,7 @@ Source: [@britain_diet_2016]
 Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
 >"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
 
-Source: [@visual_display]
+Source: [@The-Visual-Display-of-Quantitative-Information]
 
 ### Selfie City
 
@@ -193,6 +199,12 @@ One field in which visualization can have a meaningful social impact is promotin
 Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
 
 A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
+
+Urbanization and the spread of information technologies transform Cities into huge data pools, that data will play a major role in understanding how city areas have changed and are likely to change in the future. Urban Data Visualization gives us a quick view of the architectural contrast of Urban changes in Cities. [@MORPHOCODE]
+
+This Urban Data Visualization based on the NYC Department of City Planning Data set, the result is a snapshot of Brooklyn’s evolution, revealing how development has rippled across certain neighborhoods while leaving some pockets unchanged for decades, even centuries. The visualization is interactive, the reader can check every block’s name and built year.[@MORPHOCODE]
+
+![](images/urbanviz.png)
 
 As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.
 
@@ -350,18 +362,18 @@ Interactive graph have its own specific advantages. It helps bridge the gap betw
 - It improves efficiency of representing data
 
 ### Malaria
-The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better.
+The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in Zambia Southern Province" by pointing out what works well, what could be improved, and why their new visualization will be better [@vizwiz].
 
-
-This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. 
-But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better.
 Original Version: ![Original visualization of malaria cases](images/malaria_original.png)
+([Source](https://www.path.org/visualize-no-malaria/))
 
-New Version: ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
+This chart below shows number of malaria cases reported for health facilities and community health workers and a comparison between the two over the years. From this chart we can clearly see that as summer approaches, cases of malaria increase indicating a seasonality. The colors are also distinct from each other. 
 
 The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
 Furthermore, by adding the yearly data split by districts, we can lead to a possible actionable solution to the study of malaria cases in Zambia which is an important objective of visualization. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.
+
+New Version: ![Redesigned visualization of malaria cases](images/malaria_makeover.png)
 
 ### Is it Better to Rent or Buy?
 There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates [@rent_or_buy]. A movable scale along the bottom of each chart allows you to enter different data, such as changing the "cost of rent per month" on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home. This visualization is incredibly thorough and a useful tool for homeowners of any age and status.
@@ -424,11 +436,11 @@ Source:[@artist_emoji]
 
 Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on Astrobiology plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings [@goldilocks_worlds].
 
-One highlight of the graph is how color has been used. The red dots represent planets that are too hot, the blue dots mean too cold, and the green ones mean just the right temperature. This is very intuitive for people to understand without the necessity to read through the notes. The dots are semi-transparent so the overlapping of planets does not detract from the audience's ability to read the graph.
+One highlight of the graph is how color has been used. The red dots represent planets that are too hot, the blue dots mean too cold, and the green ones mean just the right temperature. This is very intuitive for people to understand without the necessity to read through the notes. The dots are semi-transparent so the overlapping of planets does not detract from the audience's ability to read the graph.[@Dan]
 
 Additionally, the size of each dot represents the radius of each planet. At first glance, one might assume that most planets are much larger than Eath, but the visualization includes a note explaining that larger planets are easier to find. This is a good example of how much explanation to include in a visualization, not so much that the audience is distracted from the graph but enough that they have the information needed to interpret it.
 
-![](images/planet.png)
+![](images/planetnew.png)
 
 Source:[Astrobiology]
 
