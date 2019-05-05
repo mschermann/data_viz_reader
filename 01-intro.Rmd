@@ -30,7 +30,9 @@ The main goal of data visualization is to communicate information clearly and ef
 
 ## Importance of Data Visualization
 
-Pittenturf explains basic criteria that a data visualization should satisfy to be effective [@viz_importance]:
+According to the World Economic Forum, the world produces 2.5 quintillion bytes of data every day, and 90% of all data has been created in the last two years. With so much data, it’s become increasingly difficult to manage and make sense of it all. It would be impossible for any single person to wade through data line-by-line and see distinct patterns and make observations. Data proliferation can be managed as part of the data science process, which includes data visualization[@data_viz_importance1]. Data visualization is the presentation of data in a pictorial or graphical format. It enables decision-makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns. With interactive visualization, you can take the concept a step further by using technology to drill down into charts and graphs for more detail, interactively changing what data you see and how it’s processed[@data_viz_importance2].
+
+Data visualization has become an indispensable part of the business world and an ever increasing part of managing our daily life. Effective data visualization should be informative, efficient, appealing, and in some cases interactive and predictive. Pittenturf explains basic criteria that a data visualization should satisfy to be effective [@viz_importance]:
 
 **Criteria** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -88,7 +90,7 @@ Data visualization is another form of visual art that grabs our interest and kee
 Today, data visualization solutions can be found everywhere in healthcare systems from hospital operations monitoring and patient profiling to demand projection and capacity planning [@marksman]. Healthcare service providers are increasing their efforts to investigate different visual and interactive methods in creating and examining large graphs, charts, interactive visualizations, and 2D/3D visualization of discrete event simulation (DES) to comprehend complex and large datasets, recognize connections and trends, model and simulate healthcare events, and communicate and interpret the findings. Expected results include more efficient and effective clinical performance monitoring and improvement, patient flow modeling and management, better patient care quality, security and effectiveness, better support for clinical costing and resource coordination, better-planned development and competitive advantage.
 
 Traditional visualization strategies often require significant processing time, which restrains high-throughput analysis. Interactive visualization frameworks maintain a closed loop between the user and the system and, thus, need to be very fast. Building such a framework requires the development of new visualization methods, and there exists the need to design new and useful interaction techniques which are being developed by researchers.
-  
+
 Informatics for Integrating Biology and the Bedside [**i2b2**](https://www.i2b2.org), an initiative sponsored by the NIH Roadmap National Centers for Biomedical Computing is another such program that provides a query tool that supplies aggregate counts and fundamental analyses of patient populations from Clinical Data Warehouses (CDWs). i2b2 (i2b2 to [**Tableau**](https://www.tableau.com)) is useful in estimating patient cohort sizes and has an extendable design where modules with additional features can be developed. Other tools such as [**R**](https://www.r-project.org) and [**Python**](https://www.python.org) are also helping healthcare a lot. Health informatics databases and networks have amplified benefits with information visualization as it dramatically expands the capacity of patients, clinicians, and public health policymakers to make better decisions.
 
 ### Law Enforcement and Fraud Detection
@@ -283,8 +285,24 @@ The Pudding | This blog explores complex and contested issues through visual ess
 The Atlas | This blog provides visualizations on a plethora of topics. | https://www.theatlas.com/ |
 Graphic Detail | This blog is the hub of The Economist's data journalism; it provides examples of charts, maps, and infographics (all of which are often interactive). | https://www.economist.com/blogs/graphicdetail |
 Tableau Blog | The Tableau blog is a source of data viz trends, issues important to the Tableau community, and updates about Tableau products.| https://www.tableau.com/about/blog |
+Michael Sandberg's Data Visualization Blog | Michael Sandberg's blog discusses a wide variety of data visualization examples. In addition, the blog covers other topics such as Infographics, Data Science, Business Intelligence, Data Ethics, Storytelling and much more. | https://datavizblog.com/ |
+Beautiful Data Blog | This blog features discussion of all things data and has a wide range of categories to browse through.  | http://beautifuldata.net/ |
 insert reference | Michael Sandberg's blog discusses a wide variety of data visualization examples | https://datavizblog.com/ |
 insert reference | This blog features discussion of all things data | http://beautifuldata.net/ |
+
+
+### Podcasts
+			
+Here are some podcasts recommended by Tableau (source: https://www.tableau.com/about/blog/2015/8/want-more-data-your-ears-here-are-6-podcasts-worth-listening-43300) and other worth listening resources:
+			
+**Podcast** | **Description** | **Link** |
+-------- | ------------------------------------------------ | -------- |
+Policy Viz | The host of the podcast chats with guests primarily about data visualization, open data, big data, and technology to help people communicate data better. Episodes are all 20 minutes or shorter, and it’s mostly the guests speaking, not the host. | https://policyviz.com/podcast/ |
+Tableau Wanna Be Podcastl| The hosts are respected and passionate members of the Tableau community. The podcast is about all things related to Tableau, including interviews with other members of the Tableau community, Tableau employees, and in-depth discussions about visual analytics. | https://soundcloud.com/tableau-wannabe-podcast|
+What’s The Point | It talks about the many differnt ways data affect our lives, with interviewing people from many different walks of life (for example, astronomy, publishing, web tracking). It’s a short show each time, and the guests are the stars. | https://fivethirtyeight.com/tag/whats-the-point/ |
+Data Stories | This long-running podcast is about data visualisation in general and has consistently drawn in some very high-calibre guests. Each episode is about an hour, which suits longer commutes. | http://datastori.es/ |
+Storytelling with Data | This podcast is an additional resource to the Storytelling with Data blog, which covers topics related to data storytelling, better presentations, and all things data viz. | http://www.storytellingwithdata.com/podcast |
+
 
 ### Useful Links on Data Visualization Resources, Trends, and Tutorials
 
@@ -316,35 +334,5 @@ insert reference | A Practitioner Guide to Best Practices in Data Visualization.
 insert reference | The 7 Best Data Visualization Tools In 2017 | https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30 |
 insert reference |The Data Visualisation Catalogue | https://datavizcatalogue.com|
 
-### Infographics vs. Data Visualizations
 
-Data visualization and infographics both present visual information to users. While their purposes may seem similar, they have different use cases. This article explains the differences between an infographic and a data visualization. [@VIZVSINFO].
 
-#### Data Visualization
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two critical aspects of data and design. However, a design should depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are essential in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to conclude on their own.
-
-#### Infographics
-An infographic, on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization but in general feature less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should base in the function of conveying the visual story.
-
-#### Comparison
-| Data Visualization | Infographics |
-| --- | --- |
-| Illustrates raw values | Visualize stories |
-| Delivers information | Provide stances |
-| Offers objectivity | Offer subjectivity |
-
-#### When Should You Use Infographics or Data Visualization?
-While both infographics and data visualizations have their distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
-
-Data Visualization:
-
-Use Case | Best Visual Representation | Rationale |
--------- | ----------- | ------------------------------------ |
-Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
-White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
-Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
-Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
-Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
-Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
-
-=======
