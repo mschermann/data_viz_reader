@@ -117,29 +117,36 @@ After you have answers to these questions, you can refer to a chart selection di
 Let’s move further and review the most commonly used chart types, some example, and the dos and don’ts for each chart type.
 
 
-### Chart Types
-[@charts_viz]  
-This is a survey of the most commonly used chart types, best use cases for each, and pros and cons of each.  
+## Chart Types 
+In general, there are two basic types of data visualisation: exploration, which helps find a story the data is telling you, and explanation, which tells a story to an audience. Both types of data visualisation must take into account the audience’s expectations.
+
+Within these two basic categories, there are many different ways data can be made visual. In this article, we’ll go through some of most common types of data visualisation that fall under the temporal, multidimensional, hierarchical, network and geospatial categories. 
+(Source: [@chart-desp])
 
 ### Temporal Visualizations  
 [@aya-time-series]  
 What are some of the most common data visualizations seen in newspapers, textbooks, and corporate annual reports? Graphs showing a country's GDP growth trends or charts capturing a company's sales growth in the last 4 quarters would be high up on the list. **Essentially, these are visualizations that track time series data  -- the performance of an indicator over a period of time -- also known as temporal visualizations.**
 
-Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 7 handy temporal visualization styles for your time series data.
+Temporal visualizations are one of the simplest and quickest ways to represent important time series data. There are 6 handy temporal visualization styles for your time series data.
 
-### Line Graph  
-A line graph is the simplest way to represent time series data. It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
+#### Line Graph  
+**A line graph is the simplest way to represent time series data.** It is intuitive, easy to create, and helps the viewer get a quick sense of how something has changed over time.
 
-### Stacked Area Chart  
-Stacked area charts are area charts similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time. The order in which we stack the variables is crucial because sometimes, there can be a difference in the actual plot versus the human perception.
+![](images/chapter5_line_graph.png)
+
+(Source: [@socialcops])
+
+#### Stacked Area Chart  
+Stacked area charts are area charts similar to a line chart. In an area chart, multiple variables are "stacked" on top of each other, and the area below each line is colored to represent each variable. **Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.** The order in which we stack the variables is crucial because sometimes, there can be a difference in the actual plot versus the human perception.
 
 The figure below is a stacked area chart showing time series data:
+
 ![](images/aya-stacked.png) 
 
 (Source: [@aya-time-series])
 
-### Bar Charts  
-Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other. Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
+#### Bar Charts  
+Bar charts represent data as horizontal or vertical bars. The length of each bar is proportional to the value of the variable at that point in time. **A bar chart is the right choice when you wish to look at how the variable moved over time or when you wish to compare the variable with each other.** Grouped or stacked bar charts help you combine both these purposes in one chart while keeping your visualization simple and intuitive. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart.
 
 In the figure below, a bar graph would be a cleaner alternative.
 
@@ -148,12 +155,8 @@ In the figure below, a bar graph would be a cleaner alternative.
 (Source: [@aya-time-series])
 
 For instance, the grouped bar chart in this interactive visualization of number of deaths by disease type in India not only lets you compare the deaths due to diarrhea, malaria, and acute respiratory disease across time, but also lets you compare the number of deaths by these three diseases in a given year. By switching to the stacked bar chart view, you get an intuitive sense of the proportion of deaths caused by each disease.
+
 We can use two different bar charts to represent time series data.
-
-### Column Charts for Time Series Data  
-This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
-
-Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type. The link of website is]**
 
 ![](images/aya-bar1.png)
 
@@ -163,9 +166,13 @@ Still have hard time to choose? There are many resources online which can help y
 
 (Source: [@aya-time-series])
 
+This should be the most popular chart type. This chart is good to do a comparison between different values when specific values are important.
+
+Still have hard time to choose? There are many resources online which can help you make the decision. For example, Dr. Andre Abela creates a chart selection diagram that is helpful to pick the right chart depending on the data type.
+
 To avoid clutter and confusion, make sure not to use more than 3 variables in a stacked or group bar chart. It is also a good practice to use consistent bold colors and leave appropriate space between two bars in a bar chart.
 
-### Gantt Chart  
+#### Gantt Chart  
 **Gantt charts are a popular project management tool since they present a concise snapshot of various tasks spread across various phases of the project.** A Gantt chart is a horizontal bar chart showing work completed in a certain period of time with respect to the time allocated for that particular task. It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management. You can show additional information such as the correlation between individual tasks, resources used in each task, overlapping resources, etc. by the use of colors and placement of bars in a Gantt chart.
 
 The planning of logistics for a dance concert presents a situation in which a Gantt chart is a good option. There are many activities to be completed, some of which will take place simultaneously while some can only be done sequentially. For instance, the choreographers, soundtrack, and dancers need to be finalized before the choreography can begin. However, the costumes, props, and stage decor can be planned at the same time as the choreography. With careful preparation, Gantt charts can help you plan for complex, long-term projects that are likely to undergo several revisions and have various resource and task dependencies.
@@ -174,18 +181,16 @@ Gantt charts are a popular project management tool since they present a concise 
 
 ![](images/aya-gantt.png)
 
-
-### Stream Graph  
-**Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
-
-(Source: [@aya-time-series])is essentially a stacked area graph, but displaced around a central horizontal axis. The stream graph looks like flowing liquid, hence the name. They are great to represent and compare time series data for multiple variables. Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.  
-A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
+#### Stream Graph  
+A stream graph is essentially a stacked area graph, but displaced around a central horizontal axis. It looks like flowing liquid, hence the name. A stream graph showing a randomly chosen listener's last.fm music-listening habits over time.
 
 ![](images/aya-stream.png)
 
 (Source: [@aya-time-series])
 
-### Heat Map  
+**Stream graphs are great to represent and compare time series data for multiple variables.** Stream graphs are, thus, apt for large data sets. Remember that choice of colors is very important, especially when there are lots of variables. Variables that do not have significantly high values might tend to get drowned out in the visualization if the colors are not chosen well.
+
+#### Heat Map  
 **Heat maps are perfect for a two-tiered time frame** -- for instance, 7 days of the week spread across 52 weeks in the year, or 24 hours in a day spread across 30 days of the month, and so on. The limitation, though, is that only one variable can be visualized in a heat map. Comparison between two or more variables is very difficult to represent in a heat map.
 
 Geo-spatial visualizations often use heat maps since they quickly help identify "hot spots" or regions of high concentrations of a given variable. When adapted to temporal visualizations, heat maps can help us explore two levels of time in a 2D array. 
@@ -196,7 +201,7 @@ This heat map visualizes birthdays of babies born in the United States between 1
 
 (Source: [@aya-time-series])
 
-### Polar Area Diagram  
+#### Polar Area Diagram  
 Think beyond the straight line! Sometimes, time series data can be cyclical -- a season in a year, time of the day, and so on. Polar area diagrams help represent the cyclical nature time series data cleanly. A polar diagram looks like a traditional pie chart, but the sectors differ from each other not by the size of their angles but by how far they extend out from the center of the circle.
 
 **Polar area diagrams are useful for representing seasonal or cyclical time series data, such as climate or seasonal crop data. Multiple variables can be neatly stacked in the various sectors of the pie.**
@@ -210,7 +215,7 @@ This popular polar area diagram created by Florence Nightingale shows causes of 
 (Source: [@aya-time-series])
 
 
-### Time Series Data and Its Deceptive Potential  
+#### Time Series Data and Its Deceptive Potential  
 [@TimeSeries]
 
 This article explains how time series data visualization can sometimes be deceptive. 
@@ -219,7 +224,84 @@ It first takes an example of two random time series data and plots them on a gra
 
 In another set of examples, the author has taken trending two random time series data and shown how even statistical tests can give a wrong interpretation. The article then explains using visualization how a general trended time series can be different than a more controlled and measured trending time series.
 
-### Pie Charts: Oportunities and Obstacles  
+### Hierarchical Visualizations
+Hierarchical data is essentially a specialized form of network data – in that while entities within the dataset do not have dependent relationships; they are all related to each other by the principle of containment. They, unlike standard data networks, do not use the principle of connection.
+
+A hierarchy begins with a root entity. This might be the CEO of a company, the name of a book, the title of a folder, etc. and then the root entity has at least one “child node” and every further child node has zero or more children.
+
+Hierarchical data is shown in tree graphs; so called because of their similarity to a tree’s structure (though a tree which has been turned upside down so that the root is at the top and the branches form below it). Some of the common types of hierarchical forms of visualizations are explained below:
+(Source: [@tier-chart])
+
+#### Treemap Diagram
+The treemap was invented Ben Shneiderman of the University of Maryland in 1990. It represents hierarchies by using all the available space and in the form of nested rectangles.
+
+The rectangles can be defined in proportion to the “space” that they take up within the data set. These information visualizations can be very useful for comparing nodes and see patterns within them.
+
+The math involved to create a treemap is quite complex but the good news is that you don’t have to do that math; there are plenty of software packages available that can do this for you.
+(Source: [@tier-chart])
+
+![](images/treemap.png)
+
+(Source: [@treemap])
+
+#### Sunburst Diagram
+As known as a Sunburst Chart, Ring Chart, Multi-level Pie Chart, Belt Chart, Radial Treemap.
+
+This type of visualisation shows hierarchy through a series of rings, that are sliced for each category node. Each ring corresponds to a level in the hierarchy, with the central circle representing the root node and the hierarchy moving outwards from it.
+
+Rings are sliced up and divided based on their hierarchical relationship to the parent slice. The angle of each slice is either divided equally under its parent node or can be made proportional to a value.
+
+Colour can be used to highlight hierarchal groupings or specific categories.
+(Source: [@sunburst-diag])
+
+![](images/sunburst_diagram.png)
+
+(Source: [@sunburst-diag])
+
+#### Dendrogram
+A dendrogram is a diagram that shows the hierarchical relationship between objects. It is most commonly created as an output from hierarchical clustering. The main use of a dendrogram is to work out the best way to allocate objects to clusters. The key to interpreting a dendrogram is to focus on the height at which any two objects are joined together.
+(Source: [@ dendrogram])
+
+![](images/dendrogram-diag)
+
+(Source: [@dendrogram-diag])
+
+### Multidimensional Visualizations
+Multidimensional data have multiple dimensions, which implies that there are always at least two variables at play. Often, multidimensional data makes for the most eye-catching visuals because of the many coinciding layers and datasets.
+
+When it comes to multidimensional visual data, the most common varieties are:
+
+#### Histograms
+Histogram is a common variation of column charts used to present distribution and relationships of a single variable over a set of categories. A good example of a histogram would be a distribution of grades on a school exam or the sizes of pumpkins, divided by size group, in a pumpkin festival.
+(Source: [@pick_chart])
+
+![](images/histogram-diag.png)
+
+Just like column charts, bar charts can be used to present histograms.
+
+A good histogram example is a population distribution by the age (and sex).
+
+![](images/bar-hist-diag.png)
+
+#### Pie Charts
+A pie chart typically represents numbers in percentages, used to visualize a part to whole relationship or a composition. Pie charts are not meant to compare individual sections to each other or to represent exact values.
+
+When possible, avoid pie charts and donuts. The human mind thinks linearly but, when it comes to angles and areas, most of us can’t judge them well.
+(Source: [@pick_chart])
+
+![](images/pie-chart-diag.png)
+
+#### Scatter Plots
+Scatter charts are primarily used for correlation and distribution analysis. Good for showing the relationship between two different variables where one correlates to another (or doesn’t).
+
+Scatter charts can also show the data distribution or clustering trends and help you spot anomalies or outliers.
+
+A good example of scatter charts would be a chart showing marketing spending vs. revenue.
+(Source: [@pick_chart])
+
+![](images/scatter-plot-diag.png)
+
+#### Pie Charts: Oportunities and Obstacles  
 [@quach-penny]
 
 Using a pie chart is usually considered as a bad idea when it comes to data visualization. However, many agree there is still often relevance to using them
@@ -272,20 +354,75 @@ A pie chart may be useful when comparing two different categories with different
 (Source: [@henry-defense-pie])
 
 ![](images/henry-half.png)
+
 (Source: [@henry-defense-pie])
 
 Comparing the need for pie charts to having numbers displayed defeats the purpose of data visualization. The above numbers are very simple, however the graphs created are very poor, created to make a point. Pie charts should have more color and are meant to make  simple numbers into a visual that captures the audiance more effectively:
 
 ![](images/50-50-pretty.jpg)
+
 (Source: [@50-percent-Henna-Chai])
 
+### Networks
+Network Visualisation (also called Network Graph) is often used to visualise complex relationships between a huge amount of elements. A network visualisation displays undirected and directed graph structures. This type of visualization illuminates relationships between entities. Entities are displayed as round nodes and lines show the relationships between them. The vivid display of network nodes can highlight non-trivial data discrepancies that may be otherwise be overlooked. Some of the common types of network graphs are (Source: [@]):
+
+#### Alluvial Diagrams
+Alluvial diagrams are a type of flow diagram originally developed to represent changes in network structure over time. In allusion to both their visual appearance and their emphasis on flow, alluvial diagrams are named after alluvial fans that are naturally formed by the soil deposited from streaming water.
+
+Variables are assigned to vertical axes that are parallel. Values are represented with blocks on each axis. The height of a block represents the size of the cluster and the height of a stream field represents the size of the components contained in both blocks connected by the stream field.
+
+Alluvial diagram is a variant of the Parallel Sets but for categorical variables and often to display trends over time and phases.
+(Source: [@alluvial])
+
+![](images/alluvial-diag)
+
+(Source: [@alluvial-diag])
+
+#### Node-Link Diagrams
+This type of visualisation shows how things are interconnected through the use of nodes / vertices and link lines to represent their connections and help illuminate the type of relationships between a group of entities.
+
+Typically, nodes are drawn as little dots or circles, but icons can also be used. Links are usually displayed as simple lines connected between the nodes. However, in some Network Diagrams, not all of the nodes and links are created equally: additional variables can be visualised, for example, by making the node size or link stroke weight proportion to an assigned value.
+(Source: [@node-link])
+
+![](images/node-link-diag)
+
+(Source: [@node-link-diag])
+
+#### Word Cloud
+A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.[@wordcloud]
+
+![](images/WordCloud.jpg)
+
+(Source:[@wordCloudimage])
 
 
-## Maps
+Word clouds can add clarity to text analysis in order to effectively communicate your data results.  
 
-**Use Maps Only When Effective**  
-[@Bradshaw]  
-Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option.
+|**Pros of Word Clouds** | **Cons of Word Clouds** |
+| :------------------: | :-------------------: |
+| Impactful and easy to understand | Possibly erroneous emphasis based on length of the words |
+| Quick to generate and easily shared | Words with letters that contain many ascenders and descenders may receive more attention |
+| More visually engaging than a data table | Not very accurate |
+| Reveals essential information | Requires a lot of data cleaning |
+| Delightful and promote emotional connection | Context is lost |
+
+**Ways to generate a word cloud**
+
+**R:**  [@r]  
+Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
+
+**Python:** [@python_wordcloud]
+For generating word cloud in Python, modules needed are – matplotlib, pandas and wordcloud. By using a mask, you can generate wordclouds in arbitrary shapes. You can color a word-cloud by using an image-based coloring strategy implemented in ImageColorGenerator. It uses the average color of the region occupied by the word in a source image. You can combine this with masking - pure-white will be interpreted as ‘don’t occupy’ by the WordCloud object when passed as mask. If you want white as a legal color, you can just pass a different image to “mask”, but make sure the image shapes line up. You can also use the recolor method and custom coloring functions.
+
+**Wordle:**  [@wordle]
+Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
+
+Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
+
+### Geospatial Visualizations
+
+**Use Maps Only When Effective**    
+Maps are a popular choice when it comes to displaying geographical data; they are more exciting and engaging than a simple bar or line chart but still easy to comprehend. Maps are attention-grabbing, so at the first glance they seem like a great option [@Bradshaw].
 
 However, just because the data can be represented on a map does not mean that it should be. When used properly, a map can be an excellent choice for illustrating a story. However, if geographic information is not relevant to convey the desired message, then visualizing your data using a map is actually counterproductive.  As with any visual, maps are not a universal solution simply because they are eye-catching.
 
@@ -300,7 +437,6 @@ Use of maps can be tricky. Geographical data doesn't imply that a map is the bes
 The below map tracks the spread of million-dollar and above homes throughout the Bay Area, showing neighborhoods in which homes in the seven figures account for exactly 100% of residences. The map is easy to understand and the trend in the housing prices is very clear visually. [@City-Lab] 
 
 ![](images/Not-San-Fran-No.jpg)
-
 
 2. X-Rays of the Ocean
 
@@ -324,7 +460,6 @@ Maps that use different colors or shading patterns are called cloropleth maps. E
 Heat maps use color to represent intensity of an incident's occurence in the dataset. It is commonly used while tracking weather and natural phenomena when conventional map boundries are not very useful while understanding impact areas. 
 
 ![](images/heat_map1.jpg)
-
 
 3. ** Dot Map **
 Dot maps essentially use dots to indicate presence of a variable. They are also called dot distribution map or dot density map. Dot maps are essentially scatterplots on a map and are useful for showing spatial patterns.
@@ -513,41 +648,6 @@ Rost quotes her former NPR Visuals teammate for the final lesson header, pointin
 ![](images/tools_force_paths.png)
 
 (Source:[@different_tools])
-
-  
-## Word Cloud  
-[@wordcloud]
-
-A Word Cloud or Tag Cloud is a visual representation of text data in the form of tags, which are typically single words whose importance is visualized by way of their size and color. It displays how frequently words appear in a given body of text, by making the size of each word proportional to its frequency.
-
-![](images/WordCloud.jpg)
-
-(Source:[@wordCloudimage])
-
-
-Word clouds can add clarity to text analysis in order to effectively communicate your data results.  
-
-|**Pros of Word Clouds** | **Cons of Word Clouds** |
-| :------------------: | :-------------------: |
-| Impactful and easy to understand | Possibly erroneous emphasis based on length of the words |
-| Quick to generate and easily shared | Words with letters that contain many ascenders and descenders may receive more attention |
-| More visually engaging than a data table | Not very accurate |
-| Reveals essential information | Requires a lot of data cleaning |
-| Delightful and promote emotional connection | Context is lost |
-
-**Ways to generate a word cloud**
-
-**R:**  [@r]  
-Creating word clouds is very simple in R with the text mining package (TM) and the word cloud generator package. The major steps involved are: text mining which involves text cleaning and transformation, building term-document matrix and generating word cloud.
-
-**Python:** [@python_wordcloud]
-For generating word cloud in Python, modules needed are – matplotlib, pandas and wordcloud. By using a mask, you can generate wordclouds in arbitrary shapes. You can color a word-cloud by using an image-based coloring strategy implemented in ImageColorGenerator. It uses the average color of the region occupied by the word in a source image. You can combine this with masking - pure-white will be interpreted as ‘don’t occupy’ by the WordCloud object when passed as mask. If you want white as a legal color, you can just pass a different image to “mask”, but make sure the image shapes line up. You can also use the recolor method and custom coloring functions.
-
-**Wordle:**  [@wordle]
-Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
-
-Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
-
 
 ## Using Visualization Softwares and Libraries
 
