@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 ## What is Data Visualization?
 
@@ -27,6 +27,10 @@ Confirmatory Analysis: to confirm our understanding and analysis of the data | !
 * It is fast because our brains are great at identifying patterns, but only when data is presented in a tangible format. Armed with visualization, we can spot trends and outliers very effectively.
 * It is flexible. The world is densely connected, so as long as there is an interesting relationship in your data somewhere, you will find value in graph visualization.
 * It is insightful. Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
+
+## Importance of Data Exploration
+"Data exploration tasks are those of examining data without having an a priori understanding of what patterns, information, or knowledge it might contain." [@Data_Exploration_1] While the majority of research has been on the output of and creation of visualizations, but the important aspect of these tasks is to first understand the data that is being presented. As mentioned in [@Data_Exploration_1], the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or the opposite occurs. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based off of these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost. 
+
 
 ## Importance of Data Visualization
 
