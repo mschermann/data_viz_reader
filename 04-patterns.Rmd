@@ -78,7 +78,19 @@ The graph above is from the New York Times. The audience is the general public. 
 Always remember to tailor the visualizations to the audience and make sure the intended message to be delivered in a clear and understandable fashion. 
 
 ### Use Layers to Tell a Story
-While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
+While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. 
+
+According to @Lupi, 
+
+> To achieve this multi-layered storytelling with data even when visualizations are static and printed, everything depends on the concept of layering, establishing hierarchies and making them clear.
+
+On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
+
+Here is a example how a multi-layered visualization is 
+[created](https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4):
+
+![layering](https://cdn-images-1.medium.com/max/2400/1*SsvhqpblceDYowmaX8x5Bg.jpeg)
+Even some previous mentioned visualizations, including John Snow's [epidemic map](images/Snow.png) and Minard's [Napoleon's 1812 March](images/Minard.png) both utilizes layering technique to add depth to the visualizations.
 
 ### Keep It Simple
 Analytic results shouldn’t be presented to 10 decimal places when the user doesn’t need that level of precision to make a decision or understand a concept. Effective visual interfaces avoid 3-D effects or ornate gauge designs (a.k.a. “chart junk”) when simple numbers, maps or graphs will suffice.
