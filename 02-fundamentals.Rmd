@@ -173,6 +173,32 @@ Since just loading data into a table format could be a form of visualization, ou
 **Pretty doesn't mean effective** | There is a misconception that aesthetically pleasing visualization is more effective. To draw attention, sometimes we want them to be pretty and eye-catching. But if it fails to communicate the data properly, you'll lose your audience's interest as quickly as you gained it.
 **Use color purposely and effectively** | Use of color may be prettier and attractive but can be distracting too. Thus, the color should be used only if it assists in conveying your message. Also another thing to keep in mind is to be consistent with the color scheme that the organization/consumer is used to and also try and follow the same color across dashboards while communicating a story.
 
+
+#### Choosing suitable Visualization for various types of Data Analysis
+
+Choosing the right chart for data analysis helps in achieving the Visualization purpose. Here are some of the most commonly used analysis types and which chart types are most suitable for them.
+
+##### Correlation
+Discovering relationships between measures—it’s something we do all the time in data analysis. Does smoking cause cancer? Does the price of a product impact the amount that gets sold? Running a simple correlation analysis is a crucial step in identifying relationships between measures. To confirm if the potential relationship truly exists, sophisticated methodologies are required to visually represent correlations between pairs of variables in a consistent way.
+
+**Scatter Plot :** When two variables are numeric, a scatter plot is typically sufficient in representing their qualitative level of dependency. 
+The two plots below, for example, were generated from data in the 2009-2010 National Health and Nutrition Survey, and compare two variables, arm circumference and standing height, with BMI (Body Mass Index) for adult individuals (18-65 years of age). In the first case there is a clear association between arm circumference and BMI, while in the second comparison, standing height is most likely independent from BMI. Visually, a functional relationship between two variables can be identified quite easily, even when there is a large amount of noise in the scatter plot.
+
+![](images/3.2.2_Scatter_plot.png)
+(Source: [@Visualizing_correlations])
+
+**Bubble Chart :** It's a great option if there is need to add another dimension to a scatter plot chart. Scatter plots compare two values, but you can add bubble size as the third variable and thus enable comparison. 
+A good example of a bubble chart would be a graph showing marketing expenditures vs. revenue vs. profit. A standard scatter plot might show a positive correlation for marketing costs and revenue (obviously), when a bubble chart could reveal that an increase in marketing costs is chewing on profits.
+
+![](images/3.2.2_Bubble_chart.png)
+(Source: [@DataVisualization_charts])
+
+**Heatmap :** Heatmap depicts a pair-wise correlation matrix leveraged from different data attributes. This not only provides us with a numerical value of the correlation between each variable, but also provides us with an easy to understand visual representation of those numbers with high correlation to none or negative correlation. It is one of the simplest plots to create but is also one of the most informative and can guide our hand in generating other plots to investigate the numbers it has brought forward.
+
+![](images/3.2.2_Heat_map.png)
+(Source: [@DataVisualization_charts])
+
+
 ### Analyze and Interpret
 Once the data is visualized, the next step is to learn something from the visualization that is created. Questions that can be asked based on the picture can be:
 
