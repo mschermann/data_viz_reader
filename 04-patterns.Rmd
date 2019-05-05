@@ -308,6 +308,34 @@ This world map shows the estimated human impact on the planet’s oceans. The gr
 
 ![](images/X-Rays-of-Ocean.jpg)
 
+** Different Map Techniques **
+
+[@Popular_Map_Types1]
+
+Maps can be designed using different techniques and thematic representations that have different applications depending on the type of information presented. Listed below are the map visualization techniques that are most commonly used.
+
+[@Popular_Map_Types2]
+1. ** Cloropleth Maps **
+Maps that use different colors or shading patterns are called cloropleth maps. Each color or shade represents a different value or even range of values in the data. They provide a way to visualise values over a geographical area, which can show variation or patterns across the displayed location.
+
+![](images/cloropleth_map1.png)
+
+2. ** Heat Maps **
+Heat maps use color to represent intensity of an incident's occurence in the dataset. It is commonly used while tracking weather and natural phenomena when conventional map boundries are not very useful while understanding impact areas. 
+
+![](images/heat_map1.jpg)
+
+
+3. ** Dot Map **
+Dot maps essentially use dots to indicate presence of a variable. They are also called dot distribution map or dot density map. Dot maps are essentially scatterplots on a map and are useful for showing spatial patterns.
+
+![](images/dot_map1.png)
+
+4 ** Proportional Symbol Maps **
+In these maps, a symbol is used to represent the data at that specific or aggregate point, and then scaled by value, so that a larger symbol represents a greater value. The size of each symbol can be proportional to the value being visualized. 
+
+![](images/proportional_symbol_map1.png)
+
 ## Choosing the Right Baseline in Data Visualization  
 [@baseline_2013]
 
