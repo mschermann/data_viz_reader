@@ -549,6 +549,37 @@ This brings us to the disparate situation of the popularity of visual aspects li
 
 Furthermore, these visual attributes are inherently more viscerally powerful, and they are easy to code in a variety of programming languages. Technology has also perhaps previously limited the use of typographic attributes, for only recently have fine details such as serifs, italics, etc. been made readily visible to the audiences of data visualizations by technological advances.
 
+**Benefits of Using Preattentive Attributes**  
+[@kathep]
+There are many benefits to using preattentive attributes in your visualization, mainly that it helps direct your audience’s attention to where you want them to focus it. It can also be used to create a visual hierarchy of elements to lead your audience through the information you want to communicate in the way you want them to process it.  
+  
+By understanding how our audience sees and processes information, we put ourselves in a better position to be able to communicate effectively.
+  
+  
+**Seeing it in Action**  
+Here are some examples of preattentive attributes in action.  
+  
+Taking note of how you process the information and how long it takes, quickly count the number of 3s that appear in the sequence below:  
+<center>![](images/count_3_plain.png)</center>  
+The correct answer is six. In the above figure, there were no visual cues to help you in concluding your answer. Thus making it a challenging exercise, where you scan through the four lines of text, looking for the number 3 to count their occurances.
+
+Now let's see what happens when we make a slight change to the block of numbers, by adding colours to it.  
+  
+Repeat the above exercise of counting the number of 3s using the below figure.  
+<center>![](images/count_3_coloured.png)</center>
+  
+Note how much easier and faster the same exercise when we added the colour to the number 3. Even without blinking or thinking, all six 3s become very obvious and cannot be missed. This is because in this second iteration, your iconic memory is being leveraged. The preattentive attribute of intensity of color, in this case, makes the 3s the one thing that stands out as distinct from the rest. Our brain picks up on this without us having to dedicate any conscious thought to it.
+
+This is remarkable. And profoundly powerful. What this means for us is that, if we use preattentive attributes strategically, they can help us enable our audience to see what we want them to see before they even know they’re seeing it! [@kathep]
+  
+Aside from colour, we can also use movement to call the audience's attention to the point of focus in a visualization. Movement has two sub-attributes - flicker and motion. While both can be used very effectively to call someone’s attention, we should use it with caution in information visualizations, as the audience may find the motion annoying or distracting from the rest of the information that is being presented. Movement is most commonly used in banner adverts and other forms of web advertising and may be a primary reason for the rise of ad-blocking software today.
+  
+<center>
+![](images/preattentive-attr-movement.gif){width=400px}  
+Source: https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization  
+Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
+</center>
+
 #### Why typography is not currently popular in data visualizations 
 
 The authors remark that it is possible the lack of variety of typographic elements used in data visualizations is due to the limited knowledge of computer scientists and other individuals pursuing data visualization in how to apply these elements effectively. While the first few proposed explanations make sense from personal experience with technology and exposure to data visualizations and design in general, the hypothesis that lack of knowledge of typographic elements in data visualization seems more plausible if it was being applied to a small group of people rather than all of the data visualization design community. It is more likely that the use of typographic elements in data visualization is less popular because there are fewer instances in which it can be used appropriately, or a status quo bias if current visual attributes are received well, the prevailing attitude may be not to fix what is not broken. However, the authors also point out that despite the dearth of typographic attributes in data visualization, other spheres like cartography, mathematics, chemistry, and programming have a rich history with type and font attributes that informs the scope of the parameter space?
@@ -572,30 +603,38 @@ Another criticism is that textual representations are not as visually appealing 
 
 Lastly, a label length problem is common when using text in visualizations; differing lengths of names or labels may skew perception so that longer labels seem more important than shorter labels. This problem was encountered in the Titanic visualization with the varying lengths representations of passengers' names and was corrected by only including a given name and a surname, the length of which could only vary so much.
 
+
 ### Infographics vs. Data Visualizations
 
-Data visualization and infographics both present visual information to users. While their purposes may seem similar, they actually have different use cases. This article explains the differences between an infographic and a data visualization [@VIZVSINFO].
+Data visualization and infographics both present visual information to users. While their purposes may seem similar, they have different use cases. This article explains the differences between an infographic and a data visualization. [@VIZVSINFO].
 
-#### Data Visualization vs Infographics
+#### Data Visualization
+Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two critical aspects of data and design. However, a design should depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are essential in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to conclude on their own.
 
-Data visualization usually involves the presentation of summary statistics using visual forms such as graphs, plots or charts; its goal is to provide clear and succinct information about your research. Data visualization also typically focuses on the two important aspects of data and design. However, design should actually depend on the data itself; for example, the type of chart used in a data visualization should be selected based on which one best displays the particular data set. Since visualizations are important in telling stories (such as trends), it should avoid adding extraneous and distracting details. Data visualizations should be self-explanatory, and users should be able to draw conclusions on their own.
+#### Infographics
+An infographic, on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization but in general feature less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should base in the function of conveying the visual story.
 
-An infographic on the other hand, is typically a combination of illustrations, facts, and text. Infographics might include some components characteristic of data visualization, but in general feature a less data-driven storytelling. While infographics are not grounded in data, like data visualizations, infographics convey several ideas simultaneously; and like data visualization, the design should be both visually appealing and should be based in the function of conveying the visual story.
-
-Furthermore, as in typography and cartography, use of typographic attributes in data visualization raises concerns of legibility, the ability to understand both individual characters and commonalities that identify a font family, and readability, the ability to read lines and blocks of words. Often, the interactivity of a visualization will not only improve functionality but also provide a solution to readability issues by providing a means to zoom in on small text. 
+#### Comparison
+| Data Visualization | Infographics |
+| --- | --- |
+| Illustrates raw values | Visualize stories |
+| Delivers information | Provide stances |
+| Offers objectivity | Offer subjectivity |
 
 #### When Should You Use Infographics or Data Visualization?
+While both infographics and data visualizations have their distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
 
-While both infographics and data visualizations have their own distinct use cases, more often than not they can be used together. Some of the effective ways to choose between them are described below.
+Data Visualization:
 
 Use Case | Best Visual Representation | Rationale |
--------- | -------------------------- | ----------------------------------------------------------- |
-Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting and includes informative details such as a company's unique findings, statistics, or status. |
+-------- | ----------- | ------------------------------------ |
+Newsletters | Data Visualization | Newsletters have to catch the interest of viewers. Putting good data visualizations in newsletters makes them more interesting, and includes informative details such as a company's unique findings, statistics, or status. |
 White papers & eBooks | Data Visualization | Including data visualizations can help support the argument you make in the document. |
 Annual Reports | Data Visualization | Things like an overview of past year, success stories, and company performance can be done well using data visualization. |
 Blog Posts | Infographic | Blog posts are generally written for a specific purpose. Including infographics can reinforce the point you are trying to make. |
 Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
 Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
+
 
 ### Handbooks to improve your visualization design
 

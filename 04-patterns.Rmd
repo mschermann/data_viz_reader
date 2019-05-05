@@ -67,6 +67,16 @@ Order data intuitively. There should be a logical hierarchy. Order categories al
 ### Audience Perspective
 Let the users lead. Know your audience. Designers should consider the way users prefer to understand the information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
 
+The following two graphs illustrate how the audience could dictates the elements of visualizations: title, name of x-axis and y-axis, chart type, legend, etc. Both graphs are based on the exact same data but for two distinct audience groups. 
+![image](https://user-images.githubusercontent.com/35418915/56857056-5c004380-691d-11e9-90f0-4bb8a9e5bab6.png)
+This graph is drawn from a scientific journal. The audience of the graph above is scientists or researchers because scientific notations are used and some basic statistical background is required to understand this graph. For the density plot, the mean and left and right extremes are not shown but assumed. 
+
+![image](https://user-images.githubusercontent.com/35418915/56857069-979b0d80-691d-11e9-8e2c-24fa0e32c447.png)
+
+The graph above is from the New York Times. The audience is the general public. This graph is not as truthful as the one before but easier to understand and more persuasive as people associate red with heat and blue with cold. The underlying idea is clear that the globe is becoming warmer. 
+
+Always remember to tailor the visualizations to the audience and make sure the intended message to be delivered in a clear and understandable fashion. 
+
 ### Use Layers to Tell a Story
 While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
 
@@ -307,6 +317,62 @@ The below map tracks the spread of million-dollar and above homes throughout the
 This world map shows the estimated human impact on the planet’s oceans. The greener the area, the more impact humans have had on factors such as fishing and climate change. According to the visual, more than 40% of our oceans have been negatively impacted by our species. The contrast between the colors is clear and visually appealing. [@Ocean-XRay]
 
 ![](images/X-Rays-of-Ocean.jpg)
+
+
+### Tips and illustrations of good and bad maps:
+This section will help us in understanding how to create effective maps.
+1. The example mentioned below gives a clear illustration of how important maps are when used appropriately.
+
+![](images/profit_ratio.png)
+
+The above graph doesn't do a good job at illustrating about the profit ratio for each state.
+
+![](images/profit_ratio_map.png)
+
+But this map does such a better job and the audience understands right away about the condition of each state.[@profit_ratio]
+
+2. The next example illustrates that maps should not be overcomplicated.
+
+![](images/map_colors.png)
+
+We can see that there are too many things going on and the combination of the colors of reading,writing and earning money is making it even worse. Hence less is more when it comes to maps.
+Adding to the above points, it is important to keep maps to the point. Think about how the audience might interpret it, and think of any possible errors and confusions your map might create.[@good_bad_maps_tips]
+
+3. A final example to really get you thinking.
+
+![](images/map_hogs.png)
+
+Here each dot represents 5000 hogs. And the dots are black in color. But the background is also black, hence the audience were confused by this. Even though the information provided was clear, the use of the same color ruined the whole point of the visual.[@good_bad_maps_tips]
+
+
+** Different Map Techniques **
+
+[@Popular_Map_Types1]
+
+Maps can be designed using different techniques and thematic representations that have different applications depending on the type of information presented. Listed below are the map visualization techniques that are most commonly used.
+
+[@Popular_Map_Types2]
+1. ** Cloropleth Maps **
+Maps that use different colors or shading patterns are called cloropleth maps. Each color or shade represents a different value or even range of values in the data. They provide a way to visualise values over a geographical area, which can show variation or patterns across the displayed location.
+
+![](images/cloropleth_map1.png)
+
+2. ** Heat Maps **
+Heat maps use color to represent intensity of an incident's occurence in the dataset. It is commonly used while tracking weather and natural phenomena when conventional map boundries are not very useful while understanding impact areas. 
+
+![](images/heat_map1.jpg)
+
+
+3. ** Dot Map **
+Dot maps essentially use dots to indicate presence of a variable. They are also called dot distribution map or dot density map. Dot maps are essentially scatterplots on a map and are useful for showing spatial patterns.
+
+![](images/dot_map1.png)
+
+4 ** Proportional Symbol Maps **
+In these maps, a symbol is used to represent the data at that specific or aggregate point, and then scaled by value, so that a larger symbol represents a greater value. The size of each symbol can be proportional to the value being visualized. 
+
+![](images/proportional_symbol_map1.png)
+
 
 ## Choosing the Right Baseline in Data Visualization  
 [@baseline_2013]
