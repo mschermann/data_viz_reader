@@ -437,8 +437,6 @@ There are other examples and use cases that may be downloaded, and the scripts a
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
 
 ## Data Visualization in Business
-
-### Data Visualizations in Industry
 Companies tend to rely on dashboards (a compilation of several related data visualizations) to give them high-level insights on company-wide, market-level, or employee-level performance. The following are some common applications of dashboards in business.
 
 **Application** | **Description**
@@ -450,9 +448,30 @@ Companies tend to rely on dashboards (a compilation of several related data visu
 **Finance** | Finance is another popular domain where dashboards help cover a variety of aspects such as- profit & loss, cash flow management, revenue, profit margin, cost heads etc. Finance dashboards can often be helpful in identifying trends on revenue, profitability, cash flows, accounts payable, day sales outstanding and so on. A key area to leverage finance dashboards is identifying performance of key metrics over a period of time and creating and comparing performance against internal (and/or external) benchmarks. There is no dearth of data that can flow into a financial dashboard!  
 **Human Resources** | Human resource is another critical functional domain where dashboards and reporting play a key role. HR and People Analysts are actively hired across organizations for measuring employee productivity, attrition or turnover rates, understanding training costs per employee, recruiting conversion rate, average employee retention period, cost per hire and so on. Human resource can constitute one of the major cost heads for most service companies and hence drives the need for HR management and reporting.
 
-Data visualization is also used across many different industries. One popular area right now is healthcare, especially involving big data. The benefits and uses of interactive data viz are detailed in a paper from the University of Maryland (2013). [@data_viz_healthcare]
+### Data Visualizations in Industry
+
+#### Healthcare
+The benefits and uses of interactive data viz are detailed in a paper from the University of Maryland (2013). [@data_viz_healthcare]
 
 **The paper highlights three types of data that can and should be visualized to help in decision-making: personal, clinical, and public health information.** Examples include: exploration of prescription patterns of different drugs and tracking personal health and fitness statistics. (Even the nice, clean Fitbit app home screen is a comprehensive dashboard!) Importantly, making sense of all this data collected from individuals will help healthcare organizations and companies provide more personalized and effective health treatment.
+
+With data volumes increasing exponentially, health care can no longer rely on antiquated data presentation tools like spreadsheets and tables any more than modern computers can still use transistors. Spreadsheets and tables are outdated means of data-sharing which are time-consuming to produce and ineffective to consume, particularly with large amounts of data. [@healthcare_rev]
+ 
+ According to [AHIMA ](https://journal.ahima.org/2015/03/18/you-say-you-want-a-data-revolution/) (American Health Information Management Association), the healthcare industry is in the midst of a data revolution, storing more information than ever before.
+Healthcare data volumes are increasing at a 49% clip annually, according to a [recent report](https://www.cio.com/article/2860072/how-cios-can-prepare-for-healthcare-data-tsunami.html) in CIO Magazine.
+ 
+Many organizations produce data visualizations in the areas of healthcare delivery, patient-facing applications, population health, public health, or global health. Some examples include:
+* The Institute for Health Metrics and Evaluation, a population health research center at UW Medicine, regularly features [data visualization](http://www.healthdata.org/results/data-visualizations) on its site regarding topics such as the social determinants of health and obesity.
+* [Visualizing Health](http://www.vizhealth.org/gallery/) is a project of the Robert Wood Johnson Foundation and the University of Michigan Center for Health Communications Research that provides visualizations that communicate healthcare risk information.
+* The Center for Disease Control’s National Center for Health Statistics offers a data visualization [gallery](https://www.cdc.gov/nchs/data-visualization/index.htm) based on the data the organization collects.
+* The Agency for Healthcare Research and Quality (AHRQ) offers a data visualization [site](https://www.ahrq.gov/data/infographics/index.html) that highlights findings from the Agency’s Medical Expenditure Panel Survey, the Healthcare Cost and Utilization Project, and other AHRQ data sources. [@rise_of_healthcare]
+#### Media and Entertainment
+The Data Visualization & Analytics trend has impacted all industries, ‏including the media industry. As new technologies are ‏being developed to automate and simplify the process of ‏data analysis, and as throngs of data analysts are being ‏trained and hired to meet the demand for the analysis of ‏these data. ‏For newspapers, television, magazines and Internet-only ‏publishers, Data Visualization & Analytics strategies can include audience ‏analytics to enable a better understanding and targeting of customers; tools to understand public and private ‏databases for journalistic storytelling; tools to manage ‏and search the exploding amount of video, social media ‏and other content; tools to target advertising and ad ‏campaigns; tools to automate the production of text and ‏video stories, tools to identify waste and enable efficiency; and much more.‏ [@media_viz]
+ 
+There are several ways in which media and entertainment companies can benefit from visualization and analytics applications such as:
+* Audience Interest Analysis: Viewing history, searches, reviews, ratings, location and device data, click streams, log files and social media sentiment are just a few data sources that help take the guess work out of identifying audience interest.
+* Enhanced Program Scheduling: With the help of insights gained through data visualization and analytics, the entertainment companies are able to understand when customers are most likely to view content and what device they’ll be using when they view it. Benefiting from the scalability of visualization and analytics solutions, this information can be analyzed at a granular ZIP code level for localized distribution.
+* Increasing Acquisition and Retention: Smart data visualization and analytics tools may help media and entertainment companies in understanding why consumers subscribe and unsubscribe, which will allow them develop the best promotional and product strategies to attract and retain customers. Unstructured data visualization and analytics sources best handled by data visualization and analytics applications such as call detail records, email and social media sentiment reveal often overlooked factors driving customer interest and churn. [@media_entertainment]
 
 ### How visualization impacts Industry/business
 [@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
