@@ -67,6 +67,16 @@ Order data intuitively. There should be a logical hierarchy. Order categories al
 ### Audience Perspective
 Let the users lead. Know your audience. Designers should consider the way users prefer to understand the information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
 
+The following two graphs illustrate how the audience could dictates the elements of visualizations: title, name of x-axis and y-axis, chart type, legend, etc. Both graphs are based on the exact same data but for two distinct audience groups. 
+![image](https://user-images.githubusercontent.com/35418915/56857056-5c004380-691d-11e9-90f0-4bb8a9e5bab6.png)
+This graph is drawn from a scientific journal. The audience of the graph above is scientists or researchers because scientific notations are used and some basic statistical background is required to understand this graph. For the density plot, the mean and left and right extremes are not shown but assumed. 
+
+![image](https://user-images.githubusercontent.com/35418915/56857069-979b0d80-691d-11e9-8e2c-24fa0e32c447.png)
+
+The graph above is from the New York Times. The audience is the general public. This graph is not as truthful as the one before but easier to understand and more persuasive as people associate red with heat and blue with cold. The underlying idea is clear that the globe is becoming warmer. 
+
+Always remember to tailor the visualizations to the audience and make sure the intended message to be delivered in a clear and understandable fashion. 
+
 ### Use Layers to Tell a Story
 While style is one form of customization, layering unique data sets on a single visualization can tell a richer narrative and connect users to the data without getting too crowded. On a map, this can be as simple as zooming in and out, but it can also involve drill-downs (choosing a data point and expanding it to show more detail), links and other shortcuts.
 
