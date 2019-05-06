@@ -42,22 +42,6 @@ Associated limitations with this principle are restricting the type and amount o
 * Pressure unethical analytical behavior.
 Here the limitations are that the goal of promoting truth and suppressing falsehood may require amplifying existing structures of expertise and power, and suppressing conflicts for the sake of rhetorical impact.
 
-
-
-## Implications of (Good/Bad) Data Visualization
-
-Raw data is often meaningless or at the very least is difficult to derive immediate meaning from. When people face a broad set of measurements and/or in large quantities, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and have dramatically improved our ability to collect such large amounts of information. Thus, filtering, visualization, and interpretation of data becomes increasingly important.
-
-We should understand how to best derive meaning from data, but first we should understand why its presentation in graphical format is so powerful. Furthermore, while the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. Examples of these methods will be explored later in this chapter.
-
-
-**SNo.** | **Principle** | **Description**
----------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**1.** | **Easy Recall** | People can process and remember images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. 
-**2.** | **Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
-**3.** | **Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
-**4.** | **Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
-
 ## General Guidelines for Ethical Visuals  
 [@ethics_code]
 
@@ -87,22 +71,6 @@ Guiding rules for designing the visuals according to Skau are as follows:
 * Be attentive to labelling best practices and hierarchy of importance of visual properties, such as colors.
 * Read on topics related to visualization, study any visualizations critically, and be open to criticism.
 
-## Definitions of Data Deception and Graphic Integrity  
-[@decept_study],[@rose_tint]
-
-Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is an increasingly popular way to communicate and support arguments. More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
-
-What does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
-
-Edward Tufte already introduced the concept of graphical integrity in his book and presented six principles of graphic integrity. Here are the principles of the book:
-
-* The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the numerical quantities measured.
-* Clear, detailed, and thorough labeling should be used to defeat graphical distortion and ambiguity. Write out explanations of the data on the graphic itself. Label important events in the data.
-* In time-series displays of money, deﬂated and standardized units of monetary measurement are nearly always better than nominal units.
-* The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
-* Show data variation, not design variation.
-* Graphics must not quote data out of context.
-
 There are some ways in which distorted graphs can be created:  
 [@evil_axes],[@mislead_graph_ex]
 
@@ -114,6 +82,21 @@ There are some ways in which distorted graphs can be created:
 **Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
 **Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
 
+## Data Deception and Graphic Integrity  
+[@decept_study],[@rose_tint]
+
+More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
+
+What does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
+
+Edward Tufte already introduced the concept of graphical integrity in his book and presented six principles of graphic integrity. Here are the principles of the book:
+
+* The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the numerical quantities measured.
+* Clear, detailed, and thorough labeling should be used to defeat graphical distortion and ambiguity. Write out explanations of the data on the graphic itself. Label important events in the data.
+* In time-series displays of money, deﬂated and standardized units of monetary measurement are nearly always better than nominal units.
+* The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
+* Show data variation, not design variation.
+* Graphics must not quote data out of context.
 
 ## Ethical Challenges in Data Visualization  
 [@dataviz_for_good]
