@@ -210,26 +210,37 @@ Another important aspect to consider is how effective are chart views in terms o
 
 • What types of analysis is being performed?
 • Is the chart type(s) most suitable for the type of analysis?
-• Are there alternative chart types that could work better than the chosen ones?
+• Are there alternative chart types that could work better than the chosen ones? 
+More information on Chart Types can be referred here [@analyze_viz] and using the Tableau online documentation.
 
+#### Ensuring the dashboard has a holistic design
+• Do all the views fit together to tell a single story?
+• Do all the views flow well from one to the next? Are they in a good order? 
+• Does the most important view appear in the top or top-left corner?
+• Are secondary elements in the dashboard placed well so they support the views without interrupting them?
+• Are filters in the right locations?
+• Do filters work correctly? Do views become blank or downright confusing if a filter is applied?
+• Do filters apply to the right scope?
+• Are filter titles informative? Can viewers easily understand how to be interactive with the filters?
+• Are legends close to the views they apply to?
+• Are there any filter, highlight or URL actions? If so, do they work?
+• Are legends and filters grouped and placed intuitively?
+• Are there scrollbars in the views? If so, are they acceptable ones? 
+• Are the views scrunched?
+• Do the views fit consistently well when filters are applied?
 
 #### Evaluating effectiveness through measures, dimensions, colors etc.
-• Are your most important data shown on the X- and Y-axes and your less important data encoded in color or shape attributes?
-• Are your views oriented intuitively—do they cater to the way your viewers read and perceive data?
-• Have you limited the number of measures or dimensions in a single view so that your users can see your data?
-• Have you limited your usage of colors and shapes so that your users can distinguish them and see patterns?
-
+• Are the most important data shown on the X- and Y-axes and your less important data encoded in color or shape attributes?
+• Are the views oriented intuitively—do they cater to the way the intended audience would read and perceive data?
+• Are the number of measures or dimensions limited in a single view so that users can see the data?
+• Is the usage of colors and shapes limited so that users can distinguish them and see patterns?
 
 #### Final touches
-
-• Do all the colors on your dashboard go together without clashing?
-• Do you have less than 7-10 colors on your dashboards?
-• Do you use fonts consistently in all of your views and no more than three
-different fonts on one dashboard?
-• Are you labels clear and concise? Are they placed optimally to help guide your
-viewers? Make sure subtitles are formatted to be subordinate to the main title.
-• Are you tooltips informative? Do they have the right format so that they’re
-easy for viewers to use?
+• Do all the colors on the dashboard go together without clashing?
+• Are there less than 7-10 colors on all the dashboards?
+• Are fonts used consistently in all of the dashboards/ views and there are no more than three different fonts on one dashboard?
+• Are the labels clear and concise? Are they placed optimally to help guide the viewers? Make sure subtitles are formatted to be subordinate to the main title.
+• Are tooltips informative? Do they have the right format so that they’re easy for the audience to use?
 
 ### Document Your Insights and Steps
 If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. 
