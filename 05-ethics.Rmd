@@ -103,6 +103,12 @@ Edward Tufte already introduced the concept of graphical integrity in his book a
 * Show data variation, not design variation.
 * Graphics must not quote data out of context.
 
+Another point to consider in the topic of data deception/integrity would include the use of absolute vs relative data.
+For example, utilizing absolute data for the purpose of creating visualization may distort the message, and does not present the whole picture thus, relative figures should be employed to provide an accurate and comprehensive message.
+In the example of the military budget visualization below, if we were to answer the question "Who has the highest military budget?" using the graph on the left, it would be evident that USA has the highest budget, using relative data. If we were to answer the question "Who has the biggest military budget as a percentage of GDP?" then the result on the right depict as very different result.
+
+![](https://user-images.githubusercontent.com/49256917/56861551-abaf3100-6956-11e9-930d-66c674d19aec.png)
+
 There are some ways in which distorted graphs can be created:  
 [@evil_axes],[@mislead_graph_ex]
 
