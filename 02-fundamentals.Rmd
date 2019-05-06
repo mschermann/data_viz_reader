@@ -608,6 +608,20 @@ The author has also listed top 7 comparisons between data mining and data visual
 **Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
 **Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
 
+## Implications of Good Data Visualization
+
+Raw data is often meaningless or at the very least is difficult to derive immediate meaning from. When people face a broad set of measurements and/or in large quantities, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and have dramatically improved our ability to collect such large amounts of information. Thus, filtering, visualization, and interpretation of data becomes increasingly important.
+
+We should understand how to best derive meaning from data, but first we should understand why its presentation in graphical format is so powerful. Furthermore, while the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. Examples of these methods will be explored later in this chapter.
+
+
+**SNo.** | **Principle** | **Description**
+---------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**1.** | **Easy Recall** | People can process and remember images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. 
+**2.** | **Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
+**3.** | **Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
+**4.** | **Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
+
 ### Typography and Data Visualization
 
 Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed. ([WIKI](https://en.wikipedia.org/wiki/Typography))
