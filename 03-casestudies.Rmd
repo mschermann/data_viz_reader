@@ -1,10 +1,10 @@
-# Case Studies
+﻿# Case Studies
 
 This chapter explores some interesting case studies of data visualizations. Critiquing these case studies is a valuable exercise that helps both expand our knowledge of possible visual representations of data as well as develop the type of critical thinking that improves our own visualizations. Furthermore, the examination and evaluation of case studies help show that new designs are just as usable as existing techniques, demonstrating that the field is suitable for future development.
 
 ## Introduction
 
-Visualization is like art; it speaks where words fail. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to synthesize the details important details relevant to the issues. In particular, phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the controversy of ‘#OscarsSoWhite,’ etc. present such complexity that we can write endless paragraphs and still fail to convince readers. Below are visualizations of some of these important and complex topics - visualizations that are much more persuasive than an essay, and with a tiny fraction of the text. 
+Visualization is like art; it speaks where words fail. The usefulness of data visualizations is not just limited to business and analytics; visualizations can explain almost anything in the world. Wars, rescue operations, social issues, etc. can be visualized to synthesize the details important details relevant to the issues. In particular, phenomena like the Syrian war, the number flights during Thanksgiving in the USA, the controversy of ‘#OscarsSoWhite,’ etc. present such complexity that we can write endless paragraphs and still fail to convince readers. Below are visualizations of some of these important and complex topics - visualizations that are much more persuasive than an essay, and with a tiny fraction of the text.
 
 Many of the case studies mentioned below come from the following articles:
 
@@ -13,17 +13,23 @@ Many of the case studies mentioned below come from the following articles:
 [@10_best] | This source picks the top 10 best data visualizations of 2015. For each pick, the author displays the project plot and also describes his reasoning for choosing that chart as an exemplary visualization. This article is useful for getting a basic understanding of what characteristics a good visualization should include.
 [@cool_data] | The author has chosen fifteen of the best infographics and data visualizations from 2016 and explained the reasoning behind these choices.
 [@int_viz_capt] | This author has chosen 16 examples of data visualization that demonstrate how to represent data in a way that's both compelling and easy to digest.
-[@15_mindblowing] | These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work. 
+[@15_mindblowing] | These 15 data visualizations show the vast range that data analysis is applicable to, from pop culture to public good. Take a look at them to get inspiration/understanding for your own work.
 [@int_viz_current] | This source includes 15 data visualizations that cover current events, including politics, Oscar nominations, and immigration.
 [@vizwiz] | Vizwiz is a blog about Tableau-based data visualization. It has case studies about how to improve visualizations, written by Andy Kriebel, a famous Tableau Zen Master. This blog is recommended because it is not only practical but also full of insights. One of the best parts of this blog is the "Makeover Monday," which develops a new visualization based on an original one. This blog also includes excellent tips for and examples of Tableau.
 [Viz of the Day](https://public.tableau.com/en-us/s/gallery) | Tableau has a gallery that displays great data visualization examples created by Tableau. It is useful to see how people are using all kinds of data to create informative yet fun data visuals. Data being used is also attached to the example so we can try to mimic what other people did as well.  
 
 
 ## Geographic Visualizations
+Geovisualization or geovisualisation (short for geographic visualization), refers to a set of tools and techniques supporting the analysis of geospatial data through the use of interactive visualization.
+Like the related fields of scientific visualization and information visualization geovisualization emphasizes knowledge construction over knowledge storage or information transmission.To do this, geovisualization communicates geospatial information in ways that, when combined with human understanding, allow for data exploration and decision-making processes.
+Source:[@Wikipedia]
+More specifically, Geovisualization is a process that alters geographic information so that we can consume it with our eyes. Its purpose is to capitalize on our affinity for visual things and convert the seemingly random collection of information available to us into a form that can be quickly understood. Many tools can be used for Geographic Visualization, such as Mapbox,Carto,ArcGIS Online and HERE Data Lens.
+Source:[@Geovisualization: Tools & Techniques]
+
 Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.
 
 ### Spies in the Skies
-The map below is from a Buzzfeed article [@spies_sky] that shows how common it is for the government to observe people. It was filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change by day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting an ordinarily uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind. 
+The map below is from a Buzzfeed article [@spies_sky] that shows how common it is for the government to observe people. It was filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change by day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting an ordinarily uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind.
 
 Source: [@cool_data]
 
@@ -40,7 +46,7 @@ Source: [@cool_data].
 ![US Immigration](images/immigration.png)
 
 ### Uber: Crafting Data-Driven Maps
-Map visualization is essential for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps]. 
+Map visualization is essential for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps].
 
 The challenges that Uber faced when crafting geospatial visualizations:
 
@@ -68,7 +74,7 @@ This a good visualization because it is straightforward to read and interpret. T
 
 Source: [@UKvotes2017]
 
-### U.S. Migration Patterns 
+### U.S. Migration Patterns
 The New York Times data team mapped out Americans’ moving patterns from 1900 to present, and the results are fascinating to interact with [@migration]. We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania.
 
 Overall, this type of chart can work well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very graphic visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by region (West, South, Midwest, etc.). However, it is not completely clear why so many crossing lines are necessary for the Pennsylvania chart. The crossing lines, along with the use of the same color for different lines within the same regional categories, can introduce unnecessary complexity.
@@ -80,25 +86,25 @@ Overall, this type of chart can work well to visualize movement in data over tim
 Source:[@migration]
 
 ### The American Workday
-NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The original question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard workday as a reference point, helping the audience draw exciting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations. 
+NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time [@NPR_workday]. The original question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard workday as a reference point, helping the audience draw exciting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations.
 
 ![](images/npr_workday.png)
 
 
 Some interesting findings include:
-1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon. 
+1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon.
 
 ![](images/construction.png)
 
 
-2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening. 
+2. Servers and cooks' schedule are the opposite of all other occupations with the peak from lunch through the evening.
 
 ![](images/server_cook.png)
 
-3. Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations. 
+3. Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations.
 ![](images/protective.png)
 
-This data product is an excellent example because the analytic design has been applied to contrast specific occupations to the traditional 9-5 working hours. This is easy to understand and make particular occupations stand out more manageable. The use of color for highlighting the selected occupation in the graph helps to categorize different occupations as well. 
+This data product is an excellent example because the analytic design has been applied to contrast specific occupations to the traditional 9-5 working hours. This is easy to understand and make particular occupations stand out more manageable. The use of color for highlighting the selected occupation in the graph helps to categorize different occupations as well.
 
 ### How People Like You Spend Their Time
 This visualization from [@spendingtime] lists several categories such as "personal care" and "work" along one side of a graph with a line illustrating the amount of time the average person in a particular demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more.
@@ -115,7 +121,7 @@ Source: [@britain_diet_2016]
 ![](images/britain-diet-data-typical_diet.png)
 
 Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
->"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." 
+>"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space."
 
 Source: [@The-Visual-Display-of-Quantitative-Information]
 
@@ -135,7 +141,7 @@ Another frequent use is to look at how something changes over time. Time-series 
 CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers [@age_groups]. While the article's main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns hard numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.
 
 The author also summarized three key findings from the graph:
-1| The most common age in the US is 22 years old. 
+1| The most common age in the US is 22 years old.
 2| The median age in the US is 37.6 years old. *
 3| Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.
 
@@ -155,7 +161,7 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 
 Source:[@recession_economy]
 
-#### An Aging Population: Projected Number of Children and Older Adults 
+#### An Aging Population: Projected Number of Children and Older Adults
 
 An aging population is always a hot topic in social economics and politics [@aging_nation]. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.
 
@@ -192,7 +198,13 @@ One field in which visualization can have a meaningful social impact is promotin
 
 Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
 
-A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
+![](images/Habitat_Village.png)
+
+A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion. Another key aspect of these kinds of data visualizations is their ability to make the audience understand how their activities impacts the cities they live in and help them work towards the betterment of the cities.
+
+The following is an example of a visualization that is trying to effect social change. It shows how different states are populated on our way to wealth at the cost of the Environment and the percentage of adults who support the cause by estimating public opinions. Source : [@Yale_Climate_Opinion]
+
+![](images\social_change.PNG)
 
 Urbanization and the spread of information technologies transform Cities into huge data pools, that data will play a major role in understanding how city areas have changed and are likely to change in the future. Urban Data Visualization gives us a quick view of the architectural contrast of Urban changes in Cities. [@MORPHOCODE]
 
@@ -269,6 +281,8 @@ This visualization uses a simple line chart to show increasing trends. A positiv
 **Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.**[@ocean_plastic_pollution]
 ![](images/Ocean_Plasticpollution.jpg)
 
+“Plastic where it shouldn’t be” combines four large-scale plastic marine pollution datasets, each published in a different scientific journal over the last five years, totaling 9,490 surface net tows. It is a symbol map shows the amounts of plastic wastes distribute in oceans. Please note: just because there is no plastic displayed in a certain region does not mean that it isn’t there. The open ocean is vast and pollution research is both time- and cost-intensive.[@ocean_plastic_pollution]
+
 **Infographic plastic pollution** [@plastic_pollution_infographics]
 ![](images/infographic-plastic-buildup.jpg)
 
@@ -279,7 +293,7 @@ How long does plastic remain in the ocean? [@plastic_pollution_visualizations]
 
 Overall, this visualization is useful in the following ways:
 
-- It provides content: those plots serve one of the primary purposes of data visualization - storytelling. It naturally leads the audience to understand the effects of plastic pollution. 
+- It provides content: those plots serve one of the primary purposes of data visualization - storytelling. It naturally leads the audience to understand the effects of plastic pollution.
 - Effective use of charts: the correct use of different types of plots makes the visualization both effective and exciting.
 - Efficient use of color: this visualization is a good example of color playing an essential role in a data visualization by guiding the reader to grasp the relationships in the data. There is no redundant color, and no primary color is missing.
 
@@ -297,7 +311,7 @@ This case study is about the use of linguistic concepts; it discusses how the da
 
 HistoBankVis is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work [@lingui_data1]. In this paper, the visualization’s efficacy and power are illustrated utilizing a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
-Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structuresl and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.   There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes. 
+Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structuresl and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.   There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes.
 
 ### State of the Union 2014 Minute by Minute on Twitter
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a powerful detailed and cluttered visualization. Since the visualization is about the topic density in a specific time frame, maybe it's a good idea for us to use this kind of format  when we encounter the expression of a poisson distribution.
@@ -313,7 +327,7 @@ This article in the New York Times lists several different candidates and create
 
 ![Clinton 2016 Campaign Staff](images/NewClinton.png)
 
-### A Guide to Who is Fighting Whom in Syria 
+### A Guide to Who is Fighting Whom in Syria
 
 One of the charts shown in the link [@int_viz_capt], the visualization of ‘A Guide to Who is Fighting Whom in Syria’ is an exciting graphic to study. The visualization and its report can be seen at [@syria_chart].
 
@@ -343,7 +357,7 @@ By "properly pooled," the investigators meant broken down by the department. For
 Source:[@simpson_paradox]
 
 ### Every Satellite Orbiting Earth
-This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database#.WxbaMVMvzq1) from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite]. 
+This interactive graph, built using a [database](https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database#.WxbaMVMvzq1) from the Union of Concerned Scientists, displays the trajectories of the 1,300 active satellites currently orbiting the Earth. Each satellite is represented by a circular icon, color-coded by country and sized according to launch mass [@Satellite].
 
 ![Low Earth Orbit Satellites](images/satellites.png)
 
@@ -361,7 +375,7 @@ The authors of Vizwiz redesigned "The Seasonality of Confirmed Malaria Cases in 
 Original Version: ![Original visualization of malaria cases](images/malaria_original.png)
 ([Source](https://www.path.org/visualize-no-malaria/))
 
-This chart below shows number of malaria cases reported for health facilities and community health workers and a comparison between the two over the years. From this chart we can clearly see that as summer approaches, cases of malaria increase indicating a seasonality. The colors are also distinct from each other. 
+This chart below shows number of malaria cases reported for health facilities and community health workers and a comparison between the two over the years. From this chart we can clearly see that as summer approaches, cases of malaria increase indicating a seasonality. The colors are also distinct from each other.
 
 The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.
 
@@ -393,7 +407,7 @@ A visualization of all previous winners of the Best Actor/Actress Oscar winners 
 
 The visualization is interactive, and we can click on each attribute like ‘Hair Color,’ ‘Eye Color,’ etc. to see the features of the actors and actresses who are likely to win the Oscars. Based on different attributes selected, the visualization changes to give you the data specific to the attributes. For each attribute selected, it gives you a fact about the selected attribute related to the Oscar Winner. For instance, when you select the race, it states "In the entire history of the Oscars all but 8 of the Best Actors and Best Actresses have been white". Similarly, the visualization also gives information about the different aspects of movies that are more likely to win, like 'Length,' ‘Month,' 'Budget,' etc., and also predict about the future nominees who are likely to win Oscar.
 
-![Best Actor and Best Actress](images/img_oscars_actors.PNG) 
+![Best Actor and Best Actress](images/img_oscars_actors.PNG)
 
 ![Best Picture](images/img_oscars_pic.PNG)
 
@@ -401,15 +415,15 @@ Source:[@oscars_sowhite_chart]
 
 ### Kissmetrics blog: visualization of metrics
 
-Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues. 
+Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues.
 
-This example from the Kissmetrics blog is about Facebook’s organic reach [@facebook_organic]. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically. 
+This example from the Kissmetrics blog is about Facebook’s organic reach [@facebook_organic]. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically.
 
 The general trend shows that there is a considerable decline in Facebook’s page organic reach.
 
 ![](images/facebook-page-organic-reach-decline-over-years.jpg)
 
-The following graphs show that the engagement is increasing; that is, while the quantity of content is decreasing, the quantity is increasing. 
+The following graphs show that the engagement is increasing; that is, while the quantity of content is decreasing, the quantity is increasing.
 
 ![](images/average-facebook-reach.png)
 
@@ -417,7 +431,7 @@ The following graphs show that the engagement is increasing; that is, while the 
 
 Source:[@facebook_organic]
 
-This resonates with what we have learned at class regarding how different perspectives of interpreting data can lead to different conclusions. 
+This resonates with what we have learned at class regarding how different perspectives of interpreting data can lead to different conclusions.
 
 ### Describe Artists with Emoji
 Using the data from Spotify, the author listed the ten most distinctive emoji used in the playlists related to favorite artists [@artist_emoji]. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.
@@ -475,7 +489,7 @@ This is an exciting source and an excellent visual guide to data and development
 
 The data draws on the World Development Indicators- the World Bank's compilation of internationally comparable statistics about global development and the quality of people's lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
 The Atlas features maps and data visualizations, primarily drawn from World Development Indicators (WDI) - the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives.
- 
+
 The editors have been selected to emphasize on essential issues by experts in the World Bank’s Global Practices. The Atlas aims to reflect the breadth of the Goals themselves and presents national and regional trends and snapshots of progress towards the UN’s seventeen Sustainable Development Goals related to: poverty, hunger, health, education, gender, water, energy, jobs, infrastructure, inequalities, cities, consumption, climate, oceans, the environment, peace, institutions, and partnerships.
 
 Contents of this publication: [@worldbankpub].
