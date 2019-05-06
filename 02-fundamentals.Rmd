@@ -18,7 +18,7 @@ The following principles are from [@design_principles].
 **Balance** | A design is said to be balanced if key visual elements such as color, shape, texture, and negative space are uniformly distributed. Balance doesn't mean that each side of the visualization needs perfect symmetry, but it is important to have the elements of the dashboard/visualization distributed evenly. And it is important to remember the non-data elements, such as a logo, title, caption, etc. that can affect the balance of the display.
 **Emphasis** | Draw viewers' attention towards important data by using key visual elements. Emphasis is the component that is most related to when reading the nine principles of design. It is the key to be conscious of what is drawing the viewer's attention to the art. When thinking about the art design of data visualization it is also very important to remain keen on the main point of your story and how the entire visualization is either drawing the viewer to that point of emphasis or how they are being distracted or drawn elsewhere.
 **Movement** | Ideally movement should mimic the way people usually read, starting at the top of the page, moving across it, and then down. Movement can also be created by using complementary colors to pull the user's attention across the page or with use of animation
-**Pattern** | patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers' attention; it naturally draws curiosity.
+**Pattern** | Patterns are ideal for displaying similar sets of information, or for sets of data that equal in value. Disrupting the pattern can also be effective in drawing viewers' attention; it naturally draws curiosity.
 **Repetition** | Relationships between sets of data can be communicated by repeating chart types, shapes, or colors.
 **Proportion** | If a person is portrayed next to a house, the house is going to look bigger. In data visualization, the proportion can indicate the importance of datasets, along with the actual relationship between numbers. Proportion can be subtle, but it can go a long way to enhancing a viewer's experience and understanding of the data. The danger of proportion though is that it can be easy to deceive people subconsciously. Naturally, images will have a greater impact on how our brains perceive the dashboard or visualization. For example, someone can change the scale of a graph or images to inflate their results and even if they write the numbers next to it, the shortcut many people will take is to interpret the data based on the image. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization. Proportion can be misused intentionally as well as unintentionally, since images are easier to interpret than data by humans. This is why it is important we take care to accurately reflect proportion in our data visualization and remain critical of how others use proportion in their visualization.
 **Rhythm** | A design has proper rhythm when the design elements create the movement that is pleasing to the eye. If the design is not able to do so, rearranging visual elements may help.
@@ -342,18 +342,19 @@ Often, data visuals end up too intricate and overly complicated. A dashboard sho
 
 Dashboards display aggregated information visually and understandably. They give a comprehensive overview of a company, business department, process or project concerning achieving specific objectives, that are measured by Key Performance Indicators (KPIs). Also, they provide easy and immediate access to actionable analytics that can affect the bottom line of an entity.
 
-Some of the advantages associated with dashboards are
-1)They are customizable
-2) They are interactive
-3) They allow for Real-Time monitoring
-4) All of the data is in one place
-5) They are intuitive
-6) They get everyone on the same page
-7) They are capable of gaining viewers focus
+Some of the advantages associated with dashboards are:
+
+1. They are customizable
+2. They are interactive
+3. They allow for Real-Time monitoring
+4. All of the data is in one place
+5. They are intuitive
+6. They get everyone on the same page
+7. They are capable of gaining viewers focus
 
 Below is an example of a dashboard for a logistics of a transportation industry. When it comes to logistics, every moment matters, and maximum deliveries are expected to be on time.
-This transportation dashboard makes it easy with delivery status, fleet efficiency, average loading time and other logistics KPIs.
-[@Dashboards]
+This transportation dashboard makes it easy with delivery status, fleet efficiency, average loading time and other logistics KPIs. [@Dashboards]
+
 ![](images/Dashboard_ex.png)
 
 ## Data Visualization Tools
@@ -480,11 +481,13 @@ D3.js stands for Data-Driven Document, a JS library for interactive Big Data vis
 
 The data gathered from disparate sources like huge-scale datasets is bind in real-time with DOM to produce interactive animations ( 2D and 3D alike) in an extremely rapid way. The D3 architecture allows the users to intensively reuse the codes across a variety of add-ons and plug-ins. Some of the key advantages are: It is a dynamic, free and open source and very flexible with all web technologies, the ability to handle big data and the functional style allows to reuse the codes.
 
-**The Hitchhiker' Guide to d3.js** is a wonderful guide for self-teaching d3.js. This guide is meant to prepare readers mentally as well as give readers some fruitful directions to pursue. There is a lot to learn besides the d3.js API, both technical knowledge around web standards like HTML, SVG, CSS and JavaScript as well as communication concepts and data visualization principles. Chances are you know something about some of those things, so this guide will attempt to give you good starting points for the things you want to learn more about.
+**The Hitchhiker' Guide to d3.js** [@Medium] is a wonderful guide for self-teaching d3.js. This guide is meant to prepare readers mentally as well as give readers some fruitful directions to pursue. There is a lot to learn besides the d3.js API, both technical knowledge around web standards like HTML, SVG, CSS and JavaScript as well as communication concepts and data visualization principles. Chances are you know something about some of those things, so this guide will attempt to give you good starting points for the things you want to learn more about.
 
 It starts from the insights of learning d3.js by showing interviews with those top visualization practitioners. Then the author gives key concepts and useful features for learning visualization like d3-shape, d3 selection, d3-collection, ds-hierarchy, ds-zoom as well as d3-force.
 
 The guide is helpful as it lists a lot of useful resources links for learning d3.js. For example, it recommends d3 API Reference, 2000+ d3 case studies and tutorials for d3. It contributes tremendously in doing exploratory analysis version of group project of this class on d3. Further, the guide provides information such as some meetup groups in the bay area, which can be helpful in connecting with data professionals and building up networks.
+
+
 
 ### Tableau
 Tableau is amid the market leaders for the Big Data visualization, especially efficient for delivering interactive data visualization for the results derived from Big Data operations, deep learning algorithms and multiple types of AI-driven apps [@tableau_interactive_viz]. 
@@ -513,7 +516,7 @@ The following tips for Tableau are still missing:
 3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
 
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
-[@measures]  
+  
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 ### TabPy  
@@ -528,8 +531,6 @@ There are other examples and use cases that may be downloaded, and the scripts a
 A free and powerful integration of all Google power. The tool is rendering the resulting charts to HTML5/SVG, so they are compatible with any browser. Support for VML ensures compatibility with older IE versions, and the charts can be ported to the latest releases of Android and iOS. What's even more important, Google chart combines the data from multiple Google services like Google Maps. This results in producing interactive charts that absorb data real-time and can be controlled using an interactive dashboard [@top4_viz_tools].
 
 ## Data Visualization in Business
-
-### Data Visualizations in Industry
 Companies tend to rely on dashboards (a compilation of several related data visualizations) to give them high-level insights on company-wide, market-level, or employee-level performance. The following are some common applications of dashboards in business.
 
 **Application** | **Description**
@@ -541,12 +542,35 @@ Companies tend to rely on dashboards (a compilation of several related data visu
 **Finance** | Finance is another popular domain where dashboards help cover a variety of aspects such as- profit & loss, cash flow management, revenue, profit margin, cost heads etc. Finance dashboards can often be helpful in identifying trends on revenue, profitability, cash flows, accounts payable, day sales outstanding and so on. A key area to leverage finance dashboards is identifying performance of key metrics over a period of time and creating and comparing performance against internal (and/or external) benchmarks. There is no dearth of data that can flow into a financial dashboard!  
 **Human Resources** | Human resource is another critical functional domain where dashboards and reporting play a key role. HR and People Analysts are actively hired across organizations for measuring employee productivity, attrition or turnover rates, understanding training costs per employee, recruiting conversion rate, average employee retention period, cost per hire and so on. Human resource can constitute one of the major cost heads for most service companies and hence drives the need for HR management and reporting.
 
+### Data Visualizations in Industry
+
+#### Healthcare
 Data visualization is also used across many different industries. One popular area right now is healthcare, especially involving big data. The benefits and uses of interactive data viz are detailed in a paper from the University of Maryland (2013). [@data_viz_healthcare]
 
 **The paper highlights three types of data that can and should be visualized to help in decision-making: personal, clinical, and public health information.** Examples include: exploration of prescription patterns of different drugs and tracking personal health and fitness statistics. (Even the nice, clean Fitbit app home screen is a comprehensive dashboard!) Importantly, making sense of all this data collected from individuals will help healthcare organizations and companies provide more personalized and effective health treatment.
 
+With data volumes increasing exponentially, health care can no longer rely on antiquated data presentation tools like spreadsheets and tables any more than modern computers can still use transistors. Spreadsheets and tables are outdated means of data-sharing which are time-consuming to produce and ineffective to consume, particularly with large amounts of data. [@healthcare_rev]
+ 
+ According to [AHIMA ](https://journal.ahima.org/2015/03/18/you-say-you-want-a-data-revolution/) (American Health Information Management Association), the healthcare industry is in the midst of a data revolution, storing more information than ever before.
+Healthcare data volumes are increasing at a 49% clip annually, according to a [recent report](https://www.cio.com/article/2860072/how-cios-can-prepare-for-healthcare-data-tsunami.html) in CIO Magazine.
+ 
+Many organizations produce data visualizations in the areas of healthcare delivery, patient-facing applications, population health, public health, or global health. Some examples include:
+* The Institute for Health Metrics and Evaluation, a population health research center at UW Medicine, regularly features [data visualization](http://www.healthdata.org/results/data-visualizations) on its site regarding topics such as the social determinants of health and obesity.
+* [Visualizing Health](http://www.vizhealth.org/gallery/) is a project of the Robert Wood Johnson Foundation and the University of Michigan Center for Health Communications Research that provides visualizations that communicate healthcare risk information.
+* The Center for Disease Control’s National Center for Health Statistics offers a data visualization [gallery](https://www.cdc.gov/nchs/data-visualization/index.htm) based on the data the organization collects.
+* The Agency for Healthcare Research and Quality (AHRQ) offers a data visualization [site](https://www.ahrq.gov/data/infographics/index.html) that highlights findings from the Agency’s Medical Expenditure Panel Survey, the Healthcare Cost and Utilization Project, and other AHRQ data sources. [@rise_of_healthcare]
+
+#### Media and Entertainment
+The Data Visualization & Analytics trend has impacted all industries, including the media industry. As new technologies are being developed to automate and simplify the process of data analysis, and as throngs of data analysts are being trained and hired to meet the demand for the analysis of these data. For newspapers, television, magazines and Internet-only publishers, Data Visualization & Analytics strategies can include audience analytics to enable a better understanding and targeting of customers; tools to understand public and private databases for journalistic storytelling; tools to manage and search the exploding amount of video, social media and other content; tools to target advertising and ad campaigns; tools to automate the production of text and video stories, tools to identify waste and enable efficiency; and much more. [@media_viz]
+ 
+There are several ways in which media and entertainment companies can benefit from visualization and analytics applications such as:
+* Audience Interest Analysis: Viewing history, searches, reviews, ratings, location and device data, click streams, log files and social media sentiment are just a few data sources that help take the guess work out of identifying audience interest.
+* Enhanced Program Scheduling: With the help of insights gained through data visualization and analytics, the entertainment companies are able to understand when customers are most likely to view content and what device they’ll be using when they view it. Benefiting from the scalability of visualization and analytics solutions, this information can be analyzed at a granular ZIP code level for localized distribution.
+* Increasing Acquisition and Retention: Smart data visualization and analytics tools may help media and entertainment companies in understanding why consumers subscribe and unsubscribe, which will allow them develop the best promotional and product strategies to attract and retain customers. Unstructured data visualization and analytics sources best handled by data visualization and analytics applications such as call detail records, email and social media sentiment reveal often overlooked factors driving customer interest and churn. [@media_entertainment]
+
 ### How visualization impacts Industry/business
-[@biz_strategy] According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
+[@biz_strategy]
+According to an Experian report, 95% of U.S. organizations say that they use data to power business opportunities, and another 84 percent believe data is an integral part of forming a business strategy. Visualization helps data impact business in following ways:
 
 #### Cleaning
 The simplest way to explain the importance of visualization is to look at visualization as a means of making sense of data. Even the most basic, widely-used data visualization tools that combine simple pie charts and bar graphs help people comprehend large amounts of information fast and easily, compared to paper reports and spreadsheets.
@@ -566,7 +590,9 @@ Known versatile tools for data visualization and analytics like Elastic Stack, T
 
 Building 3D data visualization spaces, companies can create an intuitive environment that helps data scientists grasp and analyze more data streams at the same time, observe data points from multiple dimensions, identify previously unavailable dependencies and manipulate data by naturally moving objects, zooming, and focusing on more granulated areas. Moreover, these tools allow us to expand the capabilities of data visualization by creating collaborative 3D environments for teams. As a result, new technology helps extract more valuable insights from the same volume of data.
 
-Data has shown phenomenal growth over the past decade and its widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity, and variety of data call for more efficient processing to make it machine-ready. Although there is a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. **Data pre-processing techniques that play a key role in the process are :**
+Data has shown phenomenal growth over the past decade and its widespread application by businesses as a growth catalyst continues to deliver positive results. The scale of data is massive and the volume, velocity, and variety of data call for more efficient processing to make it machine-ready. Although there is a multitude of ways to extract data such as public APIs, custom web scraping services, internal data sources, etc., there would always remain the need to do some pre-processing to make the data perfectly suitable for business applications. 
+
+**Data pre-processing techniques that play a key role in the process are :**
 
 * Data cleansing 
 * Data Manipulation
@@ -575,8 +601,7 @@ Data has shown phenomenal growth over the past decade and its widespread applica
 * Missing values imputation
 * Noise identification
 * Minimizing the pre-processing tasks
- 
-play a key role in the process.
+
 
 #### Strategizing
 As the amount of data grows, it becomes harder to catch up with it. Therefore, data strategy becomes the necessary part of the success in applying data to businesses. Then how data visualization become an important tool in your strategic kit? 
@@ -622,6 +647,20 @@ The author has also listed top 7 comparisons between data mining and data visual
 **Generality**|New technology but underdeveloped|More useful in real time data forecasting
 **Algorithm**|Many algorithms exist in using data mining|No need of using any algorithms
 **Integration**|Runs on any web-enabled platform or with any applications|Irrespective of hardware or software, it provides visual information
+
+## Implications of Good Data Visualization
+
+Raw data is often meaningless or at the very least is difficult to derive immediate meaning from. When people face a broad set of measurements and/or in large quantities, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and have dramatically improved our ability to collect such large amounts of information. Thus, filtering, visualization, and interpretation of data becomes increasingly important.
+
+We should understand how to best derive meaning from data, but first we should understand why its presentation in graphical format is so powerful. Furthermore, while the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. Examples of these methods will be explored later in this chapter.
+
+
+**SNo.** | **Principle** | **Description**
+---------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**1.** | **Easy Recall** | People can process and remember images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. 
+**2.** | **Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
+**3.** | **Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
+**4.** | **Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
 
 ### Typography and Data Visualization
 
@@ -726,6 +765,15 @@ Blog Posts | Infographic | Blog posts are generally written for a specific purpo
 Case Studies | Infographic | Paired with a case study, an infographic can provide engaging visuals and succinctly summarize a lengthy report, offering valuable insights to readers. |
 Marketing Content | Infographic | Marketing content generally tells a story. The best way to tell a story is using proper infographics. These can be great for social media campaigns since infographics can display all the main points.|
 
+### Developing a Data Visualization Style
+
+Type in 'economics chart' on your favorite web search engine and you might come across this chart:
+
+![](images/economist_gender.png)
+
+If you're familiar with business news and publications, you might quickly recognize that this chart likely came from the famed economics publication, _The Economist_. Perhaps it was the light grey background, the short and attention-grabbing title, sparing use of colors, or even use of the tiny red bar at the top-left corner of the chart that told you this was from the _The Economist_. Search again for 'The Economist charts' and you'll notice that all of their published charts look consistent and carry an identical brand. That is because _The Economist_ charts conform to a style unique to the magazine.
+
+[This guide][@Trafford] by the Trafford Design Lab makes a compelling argument for organizations to develop style guides when creating visualizations to ensure consistent and high quality charts are produced. Style guides might make users conform to certain typefaces (fonts) or color palettes, but can also include best practices for data visualizations.
 
 ### Handbooks to improve your visualization design
 
