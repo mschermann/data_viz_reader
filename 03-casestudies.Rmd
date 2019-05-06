@@ -495,3 +495,17 @@ The editors have been selected to emphasize on essential issues by experts in th
 Contents of this publication: [@worldbankpub].
 The data is available at [@data_access].
 The code used to generate the majority of figures is available at [@worldbankcode].
+
+### Is Beauty Important? 
+
+This case study is about this article: https://www.infoworld.com/article/3048315/the-inevitability-of-data-visualization-criticism.html
+
+Andy Cotgreave is the current Senior Technical Evangelist at Tableau. In the above article he defends the use of elaborate visualizations and argues that beauty is a quality worth pursuing when making data visualizations. 
+One visualization that he focuses on is a heat map that shows the effect of introducing vaccines on the number of polio cases in the US made by the Wall Street Journal. This particular visualization received a great deal of attention, and was sent around the internet to demonstrate the positive effects of vaccination.  After spending some time on the internet, another author named Randy Olson responded with his own article where he remade the heat map as a simple line graph.  Both versions are shown below.
+  
+
+![](images/which_is_best.png)  
+
+In his article, Cotgreave argues that the heat map was visually striking, and its novelty made him more likely to interact with it.  As someone involved in visualizations, he seen hundreds, if not thousands of line graphs, and would’ve likely skipped over the line graph version.  Cotgreave doubts that the line version would have won awards, or been virally shared as the heat map was. While Cotgreave acknowledges the readability of the line graph, he ultimately feels that there is a place for visualizations to be beautiful.
+
+The takeaway then, is that the visualization you choose to present should be tailored to your situation.  In other words, think of your audience.  If you were presenting your visualization to the internet at large, then being beautiful and novel is important.  If your visualization becomes viral, then it will advance and promote your message to exponentially more people.  On the other hand, if you have a more limited audience, like a team of managers, that wants visualizations that can be read quickly, then the line chart will be more suitable.
