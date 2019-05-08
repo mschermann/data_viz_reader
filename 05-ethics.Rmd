@@ -50,11 +50,13 @@ Data visualization is an up-and-coming field that currently does not have many e
 ### Data Collection  
 The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one. 
 
-In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields: <br />
-1. Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context. <br />
-2. False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being. <br />
-3. Even if the information is both accurate and relevant, moral pitfalls may remain. <br />
-4. To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. <br />
+In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields:
+<ol>
+<li> Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context.
+<li> False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being.
+<li> Even if the information is both accurate and relevant, moral pitfalls may remain.
+<li> To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity.
+</ol
 
 ### Data Analysis  
 This is the stage where the discoveries are made and thus, is the first opportunity to manipulate the story. There is usually a lot of data cleaning to do before creating a visual representation, but all data wrangling steps should be deliberate and reasonable. If possible the underlying code should be publicly shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these ideally should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters to perform careful analysis of the data and extract true stories from them.
