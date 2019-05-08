@@ -1,4 +1,4 @@
-﻿---
+---
 output:
   pdf_document: default
   html_document: default
@@ -273,17 +273,23 @@ They can be used if you really must but be aware that they are not always very a
 
 
 ### Analyze and Interpret
-Once the data is visualized, the next step is to learn something from the visualization that is created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: Who is the audience of the visualizations? What questions do they have? What answers does the visualization provide them? What other questions does it inspire? What conversations will result? and so on... 
+Once data is visualized, the next step is to learn something from visualization that was created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: 
+* Who is the audience of the visualizations? 
+* What questions do they have? 
+* What answers does the visualization provide them? 
+* What other questions does it inspire? 
+* What conversations will result? and so on... 
+
 The point is that the viewers should take something away from the time they spend with the visualization. [@analyze_viz]
 
-#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+#### Macro/Micro Views - Provide the user with both views (overview and detail) - (Tufte's Design Principle 2) 
 A carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
-*	What can be seen in this image? Is it what that was expected?
+*	What can be seen in this image? Is it what was expected?
 *	Are there any interesting patterns?
-*	What does this mean in the context of the data?
+*	What does this mean in context of the data?
 
-Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
+Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from the data. But there is almost always something that we can learn from any visualization, however trivial.
 
 #### Checking if the visualization is answering the intended questions
 Often times it just helps to ask what questions is the visualization trying to answer? Following which it is easier to evaluate a visualization by asking some of the following questions: [@analyze_viz]
