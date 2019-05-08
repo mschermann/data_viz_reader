@@ -326,13 +326,15 @@ It starts with the insights of learning d3.js by showing interviews with those t
 
 The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 
 
-1. a dataset
-2. a geom
-3. a set of mappings
-4. a stat
-5. a position adjustment
-6. a coordinate system
-7. a faceting scheme.
+<ol>
+<li> a dataset
+<li> a geom
+<li> a set of mappings
+<li> a stat
+<li> a position adjustment
+<li> a coordinate system
+<li> a faceting scheme.
+</ol>
 
 
 #### Aes/Mapping: Global Mapping and Local Mapping
