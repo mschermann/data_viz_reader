@@ -43,11 +43,11 @@ Source: [@cool_data].
 Map visualization is essential for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps]. 
 
 The challenges that Uber faced when crafting geospatial visualizations:
-
-1. There are great individual maps but as a whole lack of consistency across the company.
-2. Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
-3. The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
-
+<ol>
+<li> There are great individual maps but as a whole lack of consistency across the company.
+<li> Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
+<li> The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
+</ol>
 To tackle these problems, Uber started by defining base map themes by optimizing detail, color, and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.
 
 The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation of the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
