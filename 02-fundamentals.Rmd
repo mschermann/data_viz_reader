@@ -527,7 +527,8 @@ The default coordinate system is Cartesian.
 coord_flip()| It switches the x- and y-axes. Very useful if you want horizontal boxplots.
 coord_quickmap()| It sets the aspect ratio correctly for maps. This is very important if you draw a map.
 coord_polar()| It uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
-
+coord_quickmap()| sets the aspect ratio correctly for maps. This is very important if you draw a map.
+coord_polar()| uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
@@ -536,8 +537,7 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
   coord_flip()
 ```
 
-c) coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
-d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+
 
 ### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantage of using R Shiny is : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
@@ -563,29 +563,88 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
 Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata ,and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. 
 
 Tableau is a business intelligence (BI) and analytics platform created for the purposes of helping people see, understand and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis. The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
-
-The following tips for Tableau are still missing:
-
-1. Running totals
-2. Common Baseline
-3. Weighted averages
-4. Moving average
-5. Grouping by aggregates 
-6. Different years comparison
-7. Appending excel sheets
-8. Bar chart totals
-9. Fixed axis when re-drawing charts
-10. Auto-fitting screen behavior depending on data selection
  
 **Key advantages**: 
 
-1. It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
-2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
-3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
+<ol>
+<li>It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
+<li>Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes.
+<li>It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
+<li>It is possible to create new calculated fields within Tableau by using functions on existing fields
+<li>A Tableau file can be saved with the data attached so that it does not need to remain on the same hard drive/cloud as the data.
+<li>![Tableau Public]<https://public.tableau.com/s/> is available to showcase work on a user profile online
+</ol>
+
+#### Using Multiple Data Sources
+[@TableauHelp_connections]
+
+In Tableau data source there are two ways to add in data from multiple sources. The first is joining the data, which will add two datasets together at the row level related by specific columns. When joining tables, the fields being joined must be of the same data type. There are four types of joins: inner, left, right and full outer. Note that when possible perform joins outside of Tableau and import one dataset in order to maximize performance. 
+
+The second is blending multiple data sources, which keeps two or more data sources separate from each other but displays the information together. Blending allows for data to have different levels of detail such as aggregate number of transactions per month vs. individual transactions. It also is used when joins will not work, such as having transactional data in one source and quota data in another. Blending requires at least one common field between both data sources. If the field names are different but the two columns contain the same values, the relationship can be defined by changing the column names in one data source to match the other, or defining the relationship manually [@datablendingintableau]. 
+
+**Steps For Joining Data**
+<ol>
+<li>Connect the first data source (dragging the file wanted to the canvas if there are multiple options)
+<li>Add another connection (there should be two overlapping circles on the canvas where the two datasets overlap)
+<li>Click on the join relationship (the circles) to add a join type and data-match
+!(joins)[https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/joins_joindialogbox.png]
+<li>Choose from the different types of joins and then which column in each dataset that will match (ie. the orderID column in both a sales dataset and a shipping dataset)
+</ol>
+
+**Steps For Blending Data**
+<ol>
+<li>Add your first data source 
+<li>Go to Data > New Data Source 
+<li>Choose your second dataset 
+<li>Your primary data source (the first dataset used when dragging dimentions or measures in the sheet) should have a blue tick mark beside it
+<li>Secondary data source will have an orange tick mark next to it.
+<li>Tableau will try to automatically define the relationship between the two datasets using columns with the same names. 
+<li>Define the relationship manually by going to Data > Edit Relationships > Custom > Add a Relationship
+</ol>
+
+Joins and Data Blending work when it is required to append columns from one table to another. During a situation where we need to add rows from one table to another, Union functionality can be used. For instance, when data is available in separate tables for different months; each table contains the same information but only for the relevant month. Now if it's required to club these data, then in this case union functionality will be useful. 
+
+**Steps for using Union**
+<ol>
+<li> On the data source page, double-click New Union to set up the union.
+<li> Drag a table from the left pane to the Union dialog box.
+<li> Select another table from the left pane and drag it directly below the first table.
+<li> Click Apply or OK to union
+</ol>
+![](images/Tableau_Union.png)
+[@Tableau Union]
 
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
   
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+
+#### Creating Calculated Fields
+[@Tableau Calculated Fields]
+On the Data Source tab of a Tableau file there will be the complete set of data imported that is available to use for your visualizations. This list also contains the opportunity to create new fields, based on those existing.
+"You can use calculated fields for many, many reasons. 
+Some examples might include:
+<ul>
+<li>To segment data
+<li>To convert the data type of a field, such as converting a string to a date.
+<li>To aggregate data
+<li>To filter results
+<li>To calculate ratios"
+</ul> [@Tableau Calculated Fields]
+These calculated fields can also be created in the visualization pages. This allows the user to combine fields for more robust vizualizations, without the need to create another field.
+
+**Calculation Type** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Basic calculations** | Basic calculations allow you to transform values or members at the data source level of detail (a row-level calculation) or at the visualization level of detail (an aggregate calculation).
+**Level of Detail (LOD) expressions** | Just like basic calculations, LOD calculations allow you to compute values at the data source level and the visualization level. However, LOD calculations give you even more control on the level of granularity you want to compute. They can be performed at a more granular level (INCLUDE), a less granular level (EXCLUDE), or an entirely independent level (FIXED) with respect to the granularity of the visualization.
+**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau Calculated Fields]
+
+Basic Calculations are the most common, and many of the functions found in Excel can be used such as:
+<ul>
+<li>If/Then Statements and other logical functions
+<li>Date Functions
+<li>AVG, COUNT, MAX, MIN and other Aggregation functions
+<li>Functions involving simple math using two or more of the existing fields
+<ul>
 
 ### TabPy  
 [@TabPy]  
