@@ -612,14 +612,14 @@ Joins and Data Blending work when it is required to append columns from one tabl
 <li> Click Apply or OK to union
 </ol>
 ![](images/Tableau_Union.png)
-[@Tableau Union]
+[@Tableau_Union]
 
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
   
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 #### Creating Calculated Fields
-[@Tableau Calculated Fields]
+[@Tableau_Calculated_Fields]
 On the Data Source tab of a Tableau file there will be the complete set of data imported that is available to use for your visualizations. This list also contains the opportunity to create new fields, based on those existing.
 "You can use calculated fields for many, many reasons. 
 Some examples might include:
@@ -629,14 +629,14 @@ Some examples might include:
 <li>To aggregate data
 <li>To filter results
 <li>To calculate ratios"
-</ul> [@Tableau Calculated Fields]
+</ul> [@Tableau_Calculated_Fields]
 These calculated fields can also be created in the visualization pages. This allows the user to combine fields for more robust vizualizations, without the need to create another field.
 
 **Calculation Type** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Basic calculations** | Basic calculations allow you to transform values or members at the data source level of detail (a row-level calculation) or at the visualization level of detail (an aggregate calculation).
 **Level of Detail (LOD) expressions** | Just like basic calculations, LOD calculations allow you to compute values at the data source level and the visualization level. However, LOD calculations give you even more control on the level of granularity you want to compute. They can be performed at a more granular level (INCLUDE), a less granular level (EXCLUDE), or an entirely independent level (FIXED) with respect to the granularity of the visualization.
-**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau Calculated Fields]
+**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau_Calculated_Fields]
 
 Basic Calculations are the most common, and many of the functions found in Excel can be used such as:
 <ul>
