@@ -1,3 +1,307 @@
+--- 
+title: "A Reader on Data Visualization"
+author: "MSIS 2629 Spring 2019"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: mschermann/data_viz_reader
+description: "This is the class reader for MSIS 2629."
+---
+
+# Preface
+
+Placeholder
+
+
+## References
+## Images 
+## Basic Guidelines
+
+<!--chapter:end:index.Rmd-->
+
+
+# Introduction
+
+Placeholder
+
+
+## What is Data Visualization?
+## Importance of Data Exploration
+## Importance of Data Visualization
+### Increased Value for Increasing Volume of Data
+### Understanding Concepts that are Difficult to Contextualize
+### Revealing Small and Interesting Patterns
+### Easier Decision-making in Healthcare
+### Law Enforcement and Fraud Detection
+### Design and Data Literacy
+## History of Data Visualization
+### A Brief history of Data Visualization
+### Key Figures in the History of Data Visualization
+#### William Playfair (1759--1823)
+#### John Snow (1813--1858)
+#### Charles Joseph Minard (1781--1870)
+#### Florence Nightingale (1820--1910)
+#### Edmond Halley (1656--1742)
+#### Charles de Fourcroy (1766--1824)
+#### Luigi Perozzo (1856--1916)
+## Contemporary Visualists
+### Hans Rosling
+### David McCandless
+## How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example
+### A cool website: MIT Media Lab
+### Standing out categorization of information on the website.
+### Automatic visualization vs. context-specific visualization
+###  Data analytics software
+###  Data visualization can't explain data, leaving room for interpretation.
+### One great tool: D3.js.
+## Additional Resources for Aspiring Data Visualists
+### Tableau Community
+### Blogs
+### Podcasts
+### Useful Links on Data Visualization Resources, Trends, and Tutorials
+
+<!--chapter:end:01-intro.Rmd-->
+
+
+# Fundamentals
+
+Placeholder
+
+
+## Design Principles
+### Melissa Anderson's Principles of Design
+### Gestalt Principles of Design
+### Tufte's Principles of Design
+#### Principle 1: Maximizing the data-ink ratio, within reason
+#### Principle 2: Mobilize every graphical element, perhaps several times over, to show the data.
+#### Principle 3: Maximize data density and the size of the data matrix, within reason.
+#### Principle 4: Escape flatland - small multiples, parallel sequencing.
+#### Principle 5: Provide the user with an overview and details on demand.
+#### Principle 6: Utilize Layering & Separation.
+#### Principle 7: Utilize narratives of space and time.
+### Common Mistakes to Avoid:
+## Best Practices
+### Telling a Story with Insights. 
+### How to choose the best form of Visualization
+#### Choosing suitable Visualization for various types of Data Analysis
+##### Trend Analysis
+##### Correlation
+##### Part to Whole 
+### Analyze and Interpret
+#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+#### Checking if the visualization is answering the intended questions
+#### Using the right chart types
+#### Ensuring the dashboard has a holistic design
+#### Evaluating effectiveness through measures, dimensions, colors etc.
+#### Final touches
+### Document Your Insights and Steps
+### Transform Data
+### Adapt your story to a different set of audiences
+### Developing Intuitive Dashboards
+### More on Best Practices
+## Dashboards  
+## Data Visualization Tools
+### Brief Description of popular tools 
+### Interactive Data Visualization 
+### Python for Data Visualization：10 Useful Python Data Visualization Libraries 
+### R for Data Visualization: Grammar of Graphics
+#### Layered Grammar of Graphics:
+#### Aes/Mapping: Global Mapping and Local Mapping
+#### Position Adjustment
+#### Coordinate Systems
+### R Shiny
+### D3.js 
+### Tableau
+#### Using Multiple Data Sources
+#### Using Shapes as Filters in Tableau When Your Fields Are Measures  
+#### Creating Calculated Fields
+### TabPy  
+### Google chart
+## Data Visualization in Business
+### Data Visualizations in Industry
+#### Healthcare
+#### Media and Entertainment
+### How visualization impacts Industry/business
+#### Cleaning
+#### Extraction
+#### Strategizing
+### Corporate Scorecards and Data Visualization
+### Demand for Data Literacy 
+## Special Topics
+### Data Mining and Data Visualization  
+## Implications of Good Data Visualization
+### Typography and Data Visualization
+#### Preattentive visual attributes and typography
+#### Why typography is not currently popular in data visualizations 
+#### Tips for using typographic attributes in visualizations
+#### Criticisms of typography
+### Infographics vs. Data Visualizations
+#### Data Visualization
+#### Infographics
+#### Comparison
+#### When Should You Use Infographics or Data Visualization?
+### Developing a Data Visualization Style
+### Handbooks to improve your visualization design
+## Contemporary Research Results & What's Next
+
+<!--chapter:end:02-fundamentals.Rmd-->
+
+
+# Case Studies
+
+Placeholder
+
+
+## Introduction
+## Geographic Visualizations
+### Spies in the Skies
+### Two Centuries of U.S. Immigration
+### Uber: Crafting Data-Driven Maps
+## Demographic Comparisons
+### Young Voters, Class and Turnout: How Britain Voted in 2017
+### U.S. Migration Patterns
+### The American Workday
+### How People Like You Spend Their Time
+### Britain's Diet In Data
+### Selfie City
+### Evolving Demographics
+#### Millennial Generation Diversity
+#### How the Recession Reshaped the Economy, in 255 Charts
+#### An Aging Population: Projected Number of Children and Older Adults
+#### From Pyramid to Pillar: A Century of Change, Population of the U.S.
+#### Music Timeline
+## Visualizing Urban Data for Social Change
+## Animated Data Visualization
+### A Day in the Life of Americans
+### Hans Rosling’s 200 Countries, 200 Years, 4 Minutes
+## Dust in the Wind: Visualization and Environmental Problems
+### Global Carbon Emissions
+### What's really warming the world?
+### Understanding Plastic pollution using visualization
+## Language
+### Green Honey
+### Linguistic Concepts
+### State of the Union 2014 Minute by Minute on Twitter
+## Political Relationships
+### Connecting the Dots Behind the Election
+### A Guide to Who is Fighting Whom in Syria
+## Uncategorized
+### Simpson’s Paradox
+### Every Satellite Orbiting Earth
+### Malaria
+### Is it Better to Rent or Buy?
+### An Interactive Visualization of NYC Street Trees
+### Adding up the White Oscars Winners
+### Kissmetrics blog: visualization of metrics
+### Describe Artists with Emoji
+### Goldilocks Exoplanets
+### Washington Wizards’ Shooting Stars
+### Visualization of big data security: a case study on the KDD99 cup data set
+### The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development
+### Is Beauty Important? 
+
+<!--chapter:end:03-casestudies.Rmd-->
+
+
+# Patterns
+
+Placeholder
+
+
+## Data Exploration (Like, Outlier Detection) 
+## Data Explanation (Like, Storytelling)
+### What makes a chart effective?
+### How to decide which chart type to use?
+## Tips to Improve Data Visualization  
+### Comparison
+### Copy
+### Color
+### Ordering
+### Audience Perspective
+### Use Layers to Tell a Story
+### Keep It Simple
+### Graph Integrity
+## Types of data visualizations 
+### Temporal Visualizations  
+#### Line Graph  
+#### Stacked Area Chart  
+#### Bar Charts  
+#### Gantt Chart  
+#### Stream Graph  
+#### Heat Map  
+#### Polar Area Diagram  
+#### Time Series Data and Its Deceptive Potential  
+### Hierarchical Visualizations
+#### Treemap Diagram
+#### Sunburst Diagram
+#### Dendrogram
+### Multidimensional Visualizations
+#### Histograms
+#### Pie Charts
+#### Scatter Plots
+#### Pie Charts: Oportunities and Obstacles  
+### Networks
+#### Alluvial Diagrams
+#### Node-Link Diagrams
+#### Word Cloud
+### Geospatial Visualizations
+#### Tips and illustrations of good and bad maps:
+## Choosing the Right Baseline in Data Visualization  
+## Using Design Patterns to Find Greater Meaning in Your Data  
+### Comparisons
+### Connections
+### Conclusions  
+## Takeaways From Recreating One Chart Using 24 Tools  
+### Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals and Mindsets  
+### Takeaway 2: We Still Live in an 'Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World'  
+### Takeaway 3: Every Tool Forces You Down a Path  
+## Using Visualization Softwares and Libraries
+### How to Customize a Legend in Python with Matplotlib  
+#### Add a Basic Legend  
+#### Add a Legend on Different Position  
+#### Customize a Box Surrounding the Legend  
+#### Legend for Size of Points  
+#### Multiple Legends  
+#### ggplot2 code template for data viz in R
+#### Reusable Calendar View Code  
+### Creating a Diverging Bar Chart  
+
+<!--chapter:end:04-patterns.Rmd-->
+
+
+# Ethics
+
+Placeholder
+
+
+## Importance of Ethics in Visualization  
+## Ethical dimensions of Visualization
+## General Guidelines for Ethical Visuals  
+### Data Collection  
+### Data Analysis  
+### Design  
+## Data Deception and Graphic Integrity  
+## Ethical Challenges in Data Visualization  
+## Ethical Theory and Practice from Journalism and Engineering  
+## Misinformation Can be beautiful too  
+## Visual Lies
+### Size   
+### Quantity  
+### Segmentation  
+### Graph  
+### The Missing Baseline
+### The Graph is not Labeled Properly
+### Data is left Out
+### Presenting too much data
+### Treating Correlation as Causation  
+## The Data Visualization Hippocratic Oath
+
+<!--chapter:end:05-ethics.Rmd-->
+
 # Conclusion
 
 As we conclude our brief study on data visualization, it is clear that the field is rich in potential applications in diverse disciplines, at the same time we need to be aware of its practical and ethical complexities. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. In this chapter we will touch upon the future of data visualization and additional resources for data visualizers.
@@ -89,9 +393,7 @@ Since the data is visualized in a highly comprehensive and interactive manner, e
 Data visualization allows decision makers to make sense out of the visible patterns and parallel operations in terms of the overall business performance. It also allows them to establish a correlation between the daily tasks and the long-term outcomes for these in terms of business performance.
 
 
-### Helpful tips for a good visualization
-
-
+###Helpful tips for a good visualization
 * **Don’t try to be too cute.** Using all the fancy features of a visualization tool can lead to complex and confusing graphics. Just because you have a flashy hammer, it does not mean that everything is a nail. Don’t lose your purpose in your infatuation with a new tool or feature. Stick to good design principles, and keep it simple (as was mentioned in the discussion about Patterns).
 
 * **Don’t provide more data than you need to tell your story.** Humans have a tendency to want to create visualizations with multi-drill downs, filters, and tables. This is fine for ad hoc analysis, but if we are presenting a visual with a single story or argument, we must make sure every piece of data included plays a meaningful part in the story.
@@ -100,17 +402,20 @@ Data visualization allows decision makers to make sense out of the visible patte
 
 * **Deliver value in your visualization.** Many graphs may be aesthetically pleasing or exciting but deliver no value. A graph with good value should deliver important insights to aid decision-making or prompt an action. Keep in mind, the main objective of a visualization is to deliver value, and each design decision should help achieve this.
  
-* **Understanding your audience is the most difficult and important part of developing a visualization.* Different audiences will feel differently about the same chart. So when we develop the argument from the data, we should keep our intended audience in mind.
+* **Understanding your audience is the most difficult and important part of developing a visualization.** Different audiences will feel differently about the same chart. So when we develop the argument from the data, we should keep our intended audience in mind.
 
-* **Share what you have found** A visualization can be an effective influencer if used in the correct way and at the correct time. 
-
-
-* **Think as author / reader* When designing graphs, try to stand at the reader side, to check whether the graph is making sense or if there is any misleading information being showcased. As a reader, one needs to detect if there is any visualization deception in the graph. Before making any conclusion, understanding details and information the graph is providing like legend, caption, numbers, etc. is important. 
-
-* **Do Calculations* Accurate representation of data is necessary. Sometimes the original data cannot strongly support the main thesis. In that case, some extra calcuations based on the original dataset could make the idea more clear.
+* **Share what you have found.** A visualization can be an effective influencer if used in the correct way and at the correct time. 
 
 
-**It should be ethical Visualization** Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used to mislead either unintentionally or intentionally. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. So, certain standards should be followed in order to generate meaningful, accurate and ethical visuals.
+* **Think as author / reader** When designing graphs, try to stand at the reader side, to check whether the graph is making sense or if there is any misleading information being showcased. As a reader, one needs to detect if there is any visualization deception in the graph. Before making any conclusion, understanding details and information the graph is providing like legend, caption, numbers, etc. is important. 
+
+* **Do Calculations** Accurate representation of data is necessary. Sometimes the original data cannot strongly support the main thesis. In that case, some extra calcuations based on the original dataset could make the idea more clear.
+
+
+**It should be ethical Visualization**: 
+Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used to mislead either unintentionally or intentionally. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. So, certain standards should be followed in order to generate meaningful, accurate and ethical visuals.
+
+
 
 
 
@@ -149,6 +454,7 @@ One of them is Bokeh an open source interactive visualization for Python [@Bokeh
 .	Easily create interactive plots, dashboard and data applications
 
 ** Matplot [@Matplot] ** 
+
 Is a Python 2D plotting library and object oriented.
 This package can do the following:
 .	Lines, bars and markers
@@ -211,4 +517,11 @@ Tableau Blog | The Tableau blog is a source of data viz trends, issues important
 [@7_best_tools] | This article describes "The 7 Best Data Visualization Tools In 2017" | [link](https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30)
 [@strategy_impact] | This article discusses how data visualization can impact business strategy | [link](https://www.iotforall.com/data-visualization-strategy-for-business/)
 [@writers_manipulate] | This article discusses how writers can use data visualizations to manipulate their audiences | [link](https://venngage.com/blog/misleading-graphs/)
+
+
+<!--chapter:end:06-conclusion.Rmd-->
+
+# References {-}
+
+<!--chapter:end:07-references.Rmd-->
 
