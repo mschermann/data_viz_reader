@@ -617,6 +617,33 @@ Joins and Data Blending work when it is required to append columns from one tabl
 ![](images/Tableau_Union.png)
 [@Tableau_Union]
 
+#### Getting Started by Creating a First View
+
+[@Tableau Build Manual]
+
+The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data. 
+
+!()[https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png]
+
+**Element**          | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Data Pane**        | Displays the data set that is in the view and the fields (columns) in the data set that are automatically sorted into dimensions or measures (explained below).
+**Cards**            | Cards are containers for different controls available in Tableau. 
+Marks                | This is a main way of manipulating visual aspects of graphs and charts. You can encode your data fields with elements like type, color, size, shape etc. You can have multiple *measures* and *dimensions* added to the marks cards to add different properties such as different regions denoted by shapes and quantity denoted by size. 
+Summary              | The summary card is available on the *show/hide cards* toolbar menu to add summary statistics either for the data selection, or the entire data source. 
+**Shelves**          | Shelves are a type of card. 
+Rows and Columns     | Rows and columns are the shelves where you drop data fields in order to create the structure of your visualization. When creating a table visualization, the columns will create the columns of the table, while the rows would create the rows of the table. Any number of fields can be dragged onto the shelves to create a more granular picture of the data. When a *dimension* is placed on the shelf, headers for the member of the dimension are created. When a *measure* is placed on a shelf, the quantitative axes for the measure are created. 
+Filters              | The filters shelf is where you specify the data to include and exclude by dragging *measures*, and/or *dimensions*. For example, you can put your date into the filter if you only want to see revenue from the last quarter, or you can put a categorical dimension into the filter if you only want to see data for specific products. 
+Pages                | The pages shelf allows for a series of separate page views with a common axis to better analyze how a certain *measure* affects the rest of the data. When a field is added to the pages shelf a control panel is added to the right side of the view to move through the pages (either manually or automatically).
+Measure Values       | At the bottom of the *measures* data pane is a special field that contains all measures of the data collected into one field. 
+
+
+**Calculation Type** | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Dimension**        | Qualitative or categorical data that would normally appear as column headers for rows of data that normally defines the granularity that shows in the view, i.e. customer name or order date. 
+**Measure**          | Quantitative or numerical data that can be aggregated based on a given dimension, i.e. total sales (measure) per region (dimension)
+
+
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
   
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
