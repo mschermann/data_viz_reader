@@ -28,6 +28,10 @@ The main goal of data visualization is to communicate information clearly and ef
 * Flexible: The world is densely connected, so as long as there is an interesting relationship in your data somewhere, you will find value in graph visualization.
 * Insightful: Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
 
+## Importance of Data Exploration
+"Data exploration tasks are those of examining data without having an a priori understanding of what patterns, information, or knowledge it might contain." [@Data_Exploration_1] While the majority of research has been on the output of and creation of visualizations, but the important aspect of these tasks is to first understand the data that is being presented. As mentioned in [@Data_Exploration_1], the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or the opposite occurs. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based off of these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost.
+
+
 ## Importance of Data Visualization
 
 According to the World Economic Forum, the world produces 2.5 quintillion bytes of data every day, and 90% of all data has been created in the last two years. With so much data, it’s become increasingly difficult to manage and make sense of it all. It would be impossible for any single person to wade through data line-by-line and see distinct patterns and make observations. Data proliferation can be managed as part of the data science process, which includes data visualization[@data_viz_importance1]. Data visualization is the presentation of data in a pictorial or graphical format. It enables decision-makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns. With interactive visualization, you can take the concept a step further by using technology to drill down into charts and graphs for more detail, interactively changing what data you see and how it’s processed[@data_viz_importance2].
@@ -47,18 +51,18 @@ Another early adopter of graph visualization techniques was the financial servic
 
 
 Three things are consistent across both graph visualization use cases:
-
-  1. They involve highly connected data (apparently).
-  2. That highly connected data conceals risk insight.
-  3. That insight is needed to power quick and confident decision making.
-
+<ol>
+  <li> They involve highly connected data (apparently).
+  <li> That highly connected data conceals risk insight.
+  <li> That insight is needed to power quick and confident decision making.
+</ol
 When connected data insight is critical, only interactive and robust visualization tools are up to the task.
 
 ### Increased Value for Increasing Volume of Data
 
 The enormous volume of data available to companies, governments and people today means there is a vast (and growing) need for data to be presented so that it delivers value. From business decision making to route navigation, data visualization provides a simple, user-friendly approach to understanding data and making faster, better decisions.
 
-In his article on the importance of data visualization to businesses, Chris Pittenturf uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information.
+In his article on the importance of data visualization to businesses, **Chris Pittenturf** uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information.
 
 ### Understanding Concepts that are Difficult to Contextualize
 
@@ -74,9 +78,6 @@ In his TED talk, David McCandless gives an example of how expenditures or valuat
 
 
 ![](images/book_billion.jpg)
-McCandless also postulates that we all have a latent "design literacy" that is being developed every day as we continuously bombard with visuals, and that our minds and our eyes are taking in this information and processing it so that we all have an intuitive sense of design, and have actually begun to demand a visual aspect to our information. This is an interesting perspective since everyone does seem to have a sense of visual aspects of space, color, etc. Of course, the time-honored adage tells us that beauty is in the eye of the beholder, so while it might be whimsical to claim that we are all designers, there is still great value in learning formal principles of design [@viz_ted].
-
-In his article on the importance of data visualization to businesses, **Chris Pittenturf** uses the example of an energy bill to explain the impact of data visualization: *before we even read the text of the bill, we look at the graph first* [@viz_importance]. This simple example demonstrates that data visualization is in every part of our daily lives and that we are more likely to analyze and understand the visualizations before reading further along. Pittenturf further explains most data used by businesses are highly unstructured, so visualization provides a better understanding of the complex insights coming from this information.
 
 ### Revealing Small and Interesting Patterns
 
@@ -107,7 +108,7 @@ McCandless postulates that we all have a latent "design literacy" that is being 
 
 
 ### A Brief history of Data Visualization
-[@Truman] 
+[@Truman]
 
 > "The only new thing in the world is the history you do not know." Harry S Truman
 
@@ -159,7 +160,7 @@ Florence Nightingale is famous for her work as a nurse during the Crimean War, b
 
 #### Edmond Halley (1656--1742)
 
-Edmond Halley was an English astronomer, geophysicist, mathematician, meteorologist, and physicist who is best known for computing the orbit of Halley???s Comet. According to the BBC, Halley developed the use of contour lines on maps to connect and describe areas that display differences in atmospheric conditions from place to place. These lines are now commonly used to describe meteorological variation common to us from weather reports.
+Edmond Halley was an English astronomer, geophysicist, mathematician, meteorologist, and physicist who is best known for computing the orbit of Halley's Comet. According to the BBC, Halley developed the use of contour lines on maps to connect and describe areas that display differences in atmospheric conditions from place to place. These lines are now commonly used to describe meteorological variation common to us from weather reports.
 
 ![](images/Edmond.png)
 
@@ -184,13 +185,20 @@ Luigi Perozzo was an Italian mathematician and statistician who stood out for be
 ## Contemporary Visualists
 
 ### Hans Rosling
-Hans Rosling took his interest in global health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *"Asia's Rise: How and When"* [@hans]. In this video, Hans shows trends of the Western countries vs. Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+Hans Rosling was a Swedish physician, academic, statistician, and public speaker. He was the Professor of International Health at Karolinska Institute and was the co-founder and chairman of the Gapminder Foundation, which developed the Trendalyzer software system.
+
+Rosling was born in Uppsala, Sweden, on the 27th of July 1948. From 1967 to 1974 Rosling studied statistics and medicine at Uppsala University, and in 1972 he studied public health at St. John's Medical College, Bangalore, India. He became a licensed physician in 1976 and from 1979 to 1981 he served as District Medical Officer in Nacala in northern Mozambique. On 21 August 1981, Rosling began investigating an outbreak of konzo, a paralytic disease first described in the Democratic Republic of the Congo. His investigations earned him a Ph.D. at Uppsala University in 1986.
+
+Rosling took his interest in global health and developed stunning visualizations about it using statistical methods and data from the UN. He was a noted TED speaker and one of his most interesting TED talks is *"Asia's Rise: How and When"* [@hans]. In this video, Hans shows trends of the Western countries vs. Developing countries like India and China and makes predictions using stunning visualizations like the Bubble chart. He also predicts the exact date on which India and China will move ahead of USA as strong economic forces.
+
+![](images/hans_world_health_chart.png)
+
+In this chart Rosling describes the relative standings of countries in terms of Income versus Lifespan. He started his analysis from year 1856 and this is where various countries stand till now. With the current growth trends, Rosling predicted that India and China will once again be the global leaders in Income and Healthcare by the year 2048.
 
 Hans was the co-founder and developer of the Gapminder Foundation which is committed to promoting global sustainable development through the understanding of statistics and data describing issues at the local, national, and global level. One of the most important goals of the Gapminder foundation is to end ignorance in the world by developing fact-based visualizations to present the world as it is [@gapminder].
 
-As part of Gapminder, Hans Rosling has developed many interactive and intuitive  visualizations. Gapminder provides free teaching material to dismantle misconceptions and promote a fact-based worldview [@han_rosling_teaching].
+As part of Gapminder, Hans Rosling has developed many interactive and intuitive visualizations. Gapminder provides free teaching material to dismantle misconceptions and promote a fact-based worldview [@han_rosling_teaching].
 
-![](images/hans.png)
 
 ### David McCandless
 David McCandless is a British data-journalist and his blog *Information is Beautiful* [@info_beautiful] hosts some of the most visually stunning graphs, charts, and maps on a wide range of topics like science, food, dogs and countries. One such chart, *International Number Ones: Because every country is good at something (according to data),* is a captivating work that displays something each country is the best at [@country_chart]. The visualizations on this website are updated and revised whenever new data is available.
@@ -292,9 +300,9 @@ insert reference | This blog features discussion of all things data | http://bea
 
 
 ### Podcasts
-			
+
 Here are some podcasts recommended by Tableau (source: https://www.tableau.com/about/blog/2015/8/want-more-data-your-ears-here-are-6-podcasts-worth-listening-43300) and other worth listening resources:
-			
+
 **Podcast** | **Description** | **Link** |
 -------- | ------------------------------------------------ | -------- |
 Policy Viz | The host of the podcast chats with guests primarily about data visualization, open data, big data, and technology to help people communicate data better. Episodes are all 20 minutes or shorter, and it’s mostly the guests speaking, not the host. | https://policyviz.com/podcast/ |
@@ -333,6 +341,3 @@ insert reference | Data Visualization and the 9 Fundamental Design Principles, M
 insert reference | A Practitioner Guide to Best Practices in Data Visualization.Interfaces 47(6):473-488, Jeffrey D. Camm, Michael J. Fry, Jeffrey Shaffer, 2017 |  https://doi.org/10.1287/inte.2017.0916 |
 insert reference | The 7 Best Data Visualization Tools In 2017 | https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#3a12b8ea6c30 |
 insert reference |The Data Visualisation Catalogue | https://datavizcatalogue.com|
-
-
-
