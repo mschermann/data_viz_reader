@@ -1,4 +1,4 @@
-﻿---
+---
 output:
   pdf_document: default
   html_document: default
@@ -198,7 +198,7 @@ It is an analysis of the rate of growth or decline (trend) between different per
 **Examples of Trend Analysis**
  - **Time Series Chart (using line)**: A time series chart, also called a times series graph or time series plot, is tool that illustrates data points at successive intervals of time. Each point on the chart corresponds to both a time and a quantity that is being measured.
 
-  ![](images/Image1.png)
+  ![](images/Image 1.png)
   (Source: [@Time_Series_chart_line])
 
  - **Time Series Chart (using Bar)**
@@ -227,19 +227,19 @@ Discovering relationships between measures—it’s something we do all the time
 **Scatter Plot :** When two variables are numeric, a scatter plot is typically sufficient in representing their qualitative level of dependency. 
 The two plots below, for example, were generated from data in the 2009-2010 National Health and Nutrition Survey, and compare two variables, arm circumference and standing height, with BMI (Body Mass Index) for adult individuals (18-65 years of age). In the first case there is a clear association between arm circumference and BMI, while in the second comparison, standing height is most likely independent from BMI. Visually, a functional relationship between two variables can be identified quite easily, even when there is a large amount of noise in the scatter plot.
 
-![](images/3.2.2_Scatter_plot.png)
-(Source: [@Visualizing_correlations])
+  ![](images/3.2.2_Scatter_plot.png)
+  (Source: [@Visualizing_correlations])
 
 **Bubble Chart :** It's a great option if there is need to add another dimension to a scatter plot chart. Scatter plots compare two values, but you can add bubble size as the third variable and thus enable comparison. 
 A good example of a bubble chart would be a graph showing marketing expenditures vs. revenue vs. profit. A standard scatter plot might show a positive correlation for marketing costs and revenue (obviously), when a bubble chart could reveal that an increase in marketing costs is chewing on profits.
 
-![](images/3.2.2_Bubble_chart.png)
-(Source: [@DataVisualization_charts])
+  ![](images/3.2.2_Bubble_chart.png)
+  (Source: [@DataVisualization_charts])
 
 **Heatmap :** Heatmap depicts a pair-wise correlation matrix leveraged from different data attributes. This not only provides us with a numerical value of the correlation between each variable, but also provides us with an easy to understand visual representation of those numbers with high correlation to none or negative correlation. It is one of the simplest plots to create but is also one of the most informative and can guide our hand in generating other plots to investigate the numbers it has brought forward.
 
-![](images/3.2.2_Heat_map.png)
-(Source: [@Visualizing_DataAnalysis])
+  ![](images/3.2.2_Heat_map.png)
+  (Source: [@Visualizing_DataAnalysis])
 
 ##### Part to Whole 
 
@@ -248,98 +248,101 @@ There are occasions when analysis requires visualisation methods that show part 
 **Pie Chart :** They are best suited to show proportional or percentage relationships. When used appropriately, pie charts can quickly show relative value to the other data points in the measure. 
 They can be used if you really must but be aware that they are not always very accurate in depicting data. If there are more than six proportions to communicate, bar chart can be considered. It becomes too difficult to meaningfully interpret the pie pieces when the number of wedges gets too high. For example, if you didn’t have the actual data points in the pie chart below we wouldn’t be able to tell which region had more sales West or Central; as the slices of the pie are so similar in size.
 
-![](images/3.2.2_Pie_chart.png)
-(Source: [@Charts_CheatSheet])
+  ![](images/3.2.2_Pie_chart.png)
+  (Source: [@Charts_CheatSheet])
 
 **Stacked Bar Chart :** A better option for visualizing the parts-to-whole relations of a data set is the bar chart. This is because it lets us compare the different objects by their length, which is one dimensional. Comparing objects along one dimension is a lot easier than along two, which makes comparing the length of bars a lot easier than the areas of pie slices. Stacked bar chart shows data in categories that are also stratified into sub-categories. In the example below we have sum of sales by product type and further divided into region. It allows us to see more details than the regular bar chart would provide.
 
-![](images/3.2.2_Stacked_bar_chart.png)
-(Source: [@Charts_CheatSheet])
+  ![](images/3.2.2_Stacked_bar_chart.png)
+  (Source: [@Charts_CheatSheet])
 
 **Side by Side Bar Chart :** Similar to bar charts, this chart shows a side by side comparison of data. In the below example we are looking at regions and types of product (decaf vs. regular). The use of color makes it easier to compare the sum of sales within each region for different product types. The side-by-side bar chart is similar to the stacked bar chart except the bars are un-stacked and put the bars side by side along the horizontal axis.
 
-![](images/3.2.2_Stacked_bar_chart.png)
-(Source: [@Charts_CheatSheet])
+  ![](images/3.2.2_Stacked_bar_chart.png)
+  (Source: [@Charts_CheatSheet])
 
 **Treemap :** Treemap is used to show hierarchical (tree-structured) data and part-to-whole relationships. Treemapping is ideal for showing large amounts of items in a single visualization simultaneously. This view is very similar to a heat map, but the boxes are grouped by items that are close in hierarchy.
 
-![](images/3.2.2_Treemap.png)
-(Source: [@Charts_CheatSheet])
+  ![](images/3.2.2_Treemap.png)
+  (Source: [@Charts_CheatSheet])
 
 **Square Pie Charts :** Regular pie charts have their issues with the perception of angle and arc length, but their main advantage is that they represent parts of a whole. The metaphor is universally known. The square pie chart offers an alternative without sacrificing the metaphor, and are easier to read and more accurate at showing data. Designers like this one a lot when they want to focus on a single data point. It takes up a lot of space, but sometimes puts things in better perspective. Basically instead of showing each data point, you’re showing every individual count within a data point.
 
-![](images/3.2.2_Square_pie_chart.png)
-(Source: [@Square_Pie_Charts])
+  ![](images/3.2.2_Square_pie_chart.png)
+  (Source: [@Square_Pie_Charts])
 
 
 ### Analyze and Interpret
-Once the data is visualized, the next step is to learn something from the visualization that is created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: Who is the audience of the visualizations? What questions do they have? What answers does the visualization provide them? What other questions does it inspire? What conversations will result? and so on... 
+Once data is visualized, the next step is to learn something from visualization that was created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: 
+* Who is the audience of the visualizations? 
+* What questions do they have? 
+* What answers does the visualization provide them? 
+* What other questions does it inspire? 
+* What conversations will result? and so on... 
+
 The point is that the viewers should take something away from the time they spend with the visualization. [@analyze_viz]
 
-#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+#### Macro/Micro Views - Provide the user with both views (overview and detail) - (Tufte's Design Principle 2) 
 A carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
-*	What can be seen in this image? Is it what that was expected?
+*	What can be seen in this image? Is it what was expected?
 *	Are there any interesting patterns?
-*	What does this mean in the context of the data?
+*	What does this mean in context of the data?
 
-Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
+Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from the data. But there is almost always something that we can learn from any visualization, however trivial.
 
-#### Checking if the visualization is answering the intended questions
-Often times it just helps to ask what questions is the visualization trying to answer? Following which it is easier to evaluate a visualization by asking some of the following questions: [@analyze_viz]
+#### Checking if the visualization answers the intended questions
+Often it helps to ask what questions is the visualization trying to answer? Following which, it is easier to evaluate a visualization by asking some of the following questions: [@analyze_viz]
 
 **Overall message/ Warrant/ Claim**
-• What is the overall message or claim or warrant that the visualization is trying to make?
-• Does the visualization jusity the claim?
+* What is the overall message or claim or warrant that the visualization is trying to make?
+* Does the visualization jusity the claim?
 
 **Title**
-• Does the visualization include a title? Is that title simple, informative, and
-eye-catching?
-• Is the purpose of the visualization clearly explained in its title or surrounding
-text?
+* Does the visualization include a title? Is that title simple, informative, and eye-catching?
+* Is the purpose of the visualization clearly explained in its title or surrounding text?
 
 **Interpretation**
-• Can one understand the visualization in 30 seconds or less, without additional
-information?
-• Does the visualization include subtitles to guide your viewers?
-
+* Can one understand the visualization in 30 seconds or less, without additional information?
+* Does the visualization include subtitles to guide your viewers?
 
 #### Using the right chart types
 Another important aspect to consider is how effective are chart views in terms of measures & dimensions, colors, etc. It helps to ask the following questions:
 
-• What types of analysis is being performed?
-• Is the chart type(s) most suitable for the type of analysis?
-• Are there alternative chart types that could work better than the chosen ones? 
-More information on Chart Types can be referred here [@analyze_viz] and using the Tableau online documentation.
+* What types of analysis is being performed?
+* Is the chart type(s) most suitable for the type of analysis?
+* Are there alternative chart types that could work better than the chosen ones? 
+<br>
+More information on Chart Types can be referred here [@analyze_viz] and using Tableau online documentation.
 
 #### Ensuring the dashboard has a holistic design
-• Do all the views fit together to tell a single story?
-• Do all the views flow well from one to the next? Are they in a good order? 
-• Does the most important view appear in the top or top-left corner?
-• Are secondary elements in the dashboard placed well so they support the views without interrupting them?
-• Are filters in the right locations?
-• Do filters work correctly? Do views become blank or downright confusing if a filter is applied?
-• Do filters apply to the right scope?
-• Are filter titles informative? Can viewers easily understand how to be interactive with the filters?
-• Are legends close to the views they apply to?
-• Are there any filter, highlight or URL actions? If so, do they work?
-• Are legends and filters grouped and placed intuitively?
-• Are there scrollbars in the views? If so, are they acceptable ones? 
-• Are the views scrunched?
-• Do the views fit consistently well when filters are applied?
+* Do all views fit together to tell a single story?
+* Do all views flow well from one to the next? Are they in a good order? 
+* Does the most important view appear in the top or top-left corner?
+* Are secondary elements in the dashboard placed well so they support the views without interrupting them?
+* Are filters in the right locations?
+* Do filters work correctly? Do views become blank or downright confusing if a filter is applied?
+* Do filters apply to the right scope?
+* Are filter titles informative? Can viewers easily understand how to be interactive with the filters?
+* Are legends close to the views they apply to?
+* Are there any filter, highlight or URL actions? If so, do they work?
+* Are legends and filters grouped and placed intuitively?
+* Are there scrollbars in the views? If so, are they acceptable? 
+* Are the views scrunched?
+* Do the views fit consistently when filters are applied?
 
 #### Evaluating effectiveness through measures, dimensions, colors etc.
-• Are the most important data shown on the X- and Y-axes and your less important data encoded in color or shape attributes?
-• Are the views oriented intuitively—do they cater to the way the intended audience would read and perceive data?
-• Are the number of measures or dimensions limited in a single view so that users can see the data?
-• Is the usage of colors and shapes limited so that users can distinguish them and see patterns?
+* Are the most important data shown on the X and Y-axes and less important data encoded in color or shape attributes?
+* Are views oriented intuitively? Do they cater to the way the intended audience would read and perceive data?
+* Are number of measures or dimensions limited in a single view so that users can see the data?
+* Is the usage of colors and shapes limited so that users can distinguish them and see patterns?
 
 #### Final touches
-• Do all the colors on the dashboard go together without clashing?
-• Are there less than 7-10 colors on all the dashboards?
-• Are fonts used consistently in all of the dashboards/ views and there are no more than three different fonts on one dashboard?
-• Are the labels clear and concise? Are they placed optimally to help guide the viewers? Make sure subtitles are formatted to be subordinate to the main title.
-• Are tooltips informative? Do they have the right format so that they’re easy for the audience to use?
+* Do all colors on the dashboard go together without clashing?
+* Are there less than 7-10 colors on all the dashboards?
+* Are fonts used consistently in all of the dashboards/ views and there are no more than three different fonts on one dashboard?
+* Are the labels clear and concise? Are they placed optimally to help guide the viewers? Make sure subtitles are formatted to be subordinate to the main title.
+* Are tooltips informative? Do they have the right format so that they’re easy for the audience to use?
 
 ### Document Your Insights and Steps
 If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. 
@@ -439,7 +442,8 @@ Due to the rise of big data analytics, there has been an increased need for data
 **Sisense**|It can bring together multiple sources of data for easier access. It can even work with large data sets. Sisense makes it easy to share finished products across departments, ensuring everyone can get the information they need.
 **Altair**|It is a statistical visualization library for Python, based on Vega and Vega-Lite. Its sources are widely available on GitHub. With Altair, we can understand the data and its meaning in a better way. Altair’s API is very simple to use. This is simple, elegant and produces beautiful and effective visualizations with a minimal amount of code.
 **Shiny**| Shiny is an open package from RStudio, which provides a web application framework to create interactive web visualization called Shiny apps. The ease of working with Shiny has what popularized it among R users. 
-
+**Microsoft Office**| Microsoft Office uses a variety of tools and combined with their data source, excel, it can create simple, well designed, and intuitive graphs. Excel is a very popular took for viewing raw data, and there are tools within the program to create graphs based on the data.
+**Google Suite**| Google Suite includes their docs, sheets, and slides (among others). Sheets is a great tool for holding raw data, similar to Excel. Within sheets, theres are simple tools to create graphs that quickly update based on the changing data. One significant quality Google Suite provides is the interactivity and availability for collaboration on the same documents.
 
 ### Interactive Data Visualization 
 Interactive or Dynamic data visualization delivers today's complex sea of data in a graphically compelling and an easy-to-understand way. It enables direct actions on a plot to change elements and link between multiple plots. It enables users to accomplish traditional data exploration tasks by making charts interactive [@benefits_interactive_viz]. Interactive Data Visualization Software has the following benefits:
@@ -482,13 +486,15 @@ It starts with the insights of learning d3.js by showing interviews with those t
 
 The grammar of graphics is based on the implication that you can uniquely describe any plot as a combination of 
 
-1. a dataset
-2. a geom
-3. a set of mappings
-4. a stat
-5. a position adjustment
-6. a coordinate system
-7. a faceting scheme.
+<ol>
+<li> a dataset
+<li> a geom
+<li> a set of mappings
+<li> a stat
+<li> a position adjustment
+<li> a coordinate system
+<li> a faceting scheme.
+</ol>
 
 
 #### Aes/Mapping: Global Mapping and Local Mapping
@@ -524,7 +530,8 @@ The default coordinate system is Cartesian.
 coord_flip()| It switches the x- and y-axes. Very useful if you want horizontal boxplots.
 coord_quickmap()| It sets the aspect ratio correctly for maps. This is very important if you draw a map.
 coord_polar()| It uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
-
+coord_quickmap()| sets the aspect ratio correctly for maps. This is very important if you draw a map.
+coord_polar()| uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
 
 ```{r }
 ggplot(data = mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()
@@ -533,8 +540,7 @@ ggplot(data = mpg, mapping = aes(x = class, y = hwy)) +  geom_boxplot() +
   coord_flip()
 ```
 
-c) coord_quickmap() sets the aspect ratio correctly for maps. This is very important if you draw a map.
-d) coord_polar() uses polar coordinates. Polar coordinates reveal interesting connections between a bar chart and a Coxcomb chart.
+
 
 ### R Shiny
 R Shiny enables us to produce interactive data visualizations with a minimum knowledge of HTML, CSS, or Java using a simple web application framework that runs under the R statistical platform [@shiny_interactive_viz]. Standalone apps can be hosted on a webpage or embedded in R Markdown documents and dashboards can be built using R shiny. It combines the computational power of R with the interactivity of the modern web. The main advantage of using R Shiny is : Its flexibility of pulling in whatever package in R that you want to solve your problem, reaping the benefits of an open source ecosystem for R and JavaScript visualization libraries, thereby allowing to create highly custom applications and enabling timely, high quality interactive data experience without (or with much less) web development and without the limitations or cost of proprietary BI tools.
@@ -560,29 +566,115 @@ Tableau is amid the market leaders for the Big Data visualization, especially ef
 Tableau can be integrated with Amazon AWS, MySQL, Hadoop, Teradata ,and SAP, making this solution a versatile tool for creating detailed graphs and intuitive data representation. This way the C-suite and middle-chain managers are able to make grounded decisions based on informative and easily-readable Tableau graphs. 
 
 Tableau is a business intelligence (BI) and analytics platform created for the purposes of helping people see, understand and make decisions with data. It is the industry leader in interactive data visualization tools, offering a broad range of maps, charts, graphs, and more graphical data presentations. It is a painless option when cost is not a concern and you do not need advanced and complex analysis. The application is very handy for quickly visualizing trends in data, connecting to a variety of data sources, and mapping cities/regions and their associated data.
-
-The following tips for Tableau are still missing:
-
-1. Running totals
-2. Common Baseline
-3. Weighted averages
-4. Moving average
-5. Grouping by aggregates 
-6. Different years comparison
-7. Appending excel sheets
-8. Bar chart totals
-9. Fixed axis when re-drawing charts
-10. Auto-fitting screen behavior depending on data selection
  
 **Key advantages**: 
 
-1. It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
-2. Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes. 
-3. It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
+<ol>
+<li>It provides a non-technical user the ability to build complex reports and dashboard with zero coding skills. 
+<li>Using drag-n-drop functionalities of Tableau, user can create a very interactive visual within minutes.
+<li>It can handle millions of rows of data with ease and users can make live to connections to different data sources like SQL etc [@VizBP][@extremepre].
+<li>It is possible to create new calculated fields within Tableau by using functions on existing fields
+<li>A Tableau file can be saved with the data attached so that it does not need to remain on the same hard drive/cloud as the data.
+<li>![Tableau Public]<https://public.tableau.com/s/> is available to showcase work on a user profile online
+</ol>
+
+#### Using Multiple Data Sources
+[@TableauHelp_connections]
+
+In Tableau data source there are two ways to add in data from multiple sources. The first is joining the data, which will add two datasets together at the row level related by specific columns. When joining tables, the fields being joined must be of the same data type. There are four types of joins: inner, left, right and full outer. Note that when possible perform joins outside of Tableau and import one dataset in order to maximize performance. 
+
+The second is blending multiple data sources, which keeps two or more data sources separate from each other but displays the information together. Blending allows for data to have different levels of detail such as aggregate number of transactions per month vs. individual transactions. It also is used when joins will not work, such as having transactional data in one source and quota data in another. Blending requires at least one common field between both data sources. If the field names are different but the two columns contain the same values, the relationship can be defined by changing the column names in one data source to match the other, or defining the relationship manually [@datablendingintableau]. 
+
+**Steps For Joining Data**
+<ol>
+<li>Connect the first data source (dragging the file wanted to the canvas if there are multiple options)
+<li>Add another connection (there should be two overlapping circles on the canvas where the two datasets overlap)
+<li>Click on the join relationship (the circles) to add a join type and data-match
+!(joins)[https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/joins_joindialogbox.png]
+<li>Choose from the different types of joins and then which column in each dataset that will match (ie. the orderID column in both a sales dataset and a shipping dataset)
+</ol>
+
+**Steps For Blending Data**
+<ol>
+<li>Add your first data source 
+<li>Go to Data > New Data Source 
+<li>Choose your second dataset 
+<li>Your primary data source (the first dataset used when dragging dimentions or measures in the sheet) should have a blue tick mark beside it
+<li>Secondary data source will have an orange tick mark next to it.
+<li>Tableau will try to automatically define the relationship between the two datasets using columns with the same names. 
+<li>Define the relationship manually by going to Data > Edit Relationships > Custom > Add a Relationship
+</ol>
+
+Joins and Data Blending work when it is required to append columns from one table to another. During a situation where we need to add rows from one table to another, Union functionality can be used. For instance, when data is available in separate tables for different months; each table contains the same information but only for the relevant month. Now if it's required to club these data, then in this case union functionality will be useful. 
+
+**Steps for using Union**
+<ol>
+<li> On the data source page, double-click New Union to set up the union.
+<li> Drag a table from the left pane to the Union dialog box.
+<li> Select another table from the left pane and drag it directly below the first table.
+<li> Click Apply or OK to union
+</ol>
+![](images/Tableau_Union.png)
+[@Tableau_Union]
+
+#### Getting Started by Creating a First View
+
+[@Tableau_Build_Manual]
+
+The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data. 
+
+!()[https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png]
+
+**Element**          | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Data Pane**        | Displays the data set that is in the view and the fields (columns) in the data set that are automatically sorted into dimensions or measures (explained below).
+**Cards**            | Cards are containers for different controls available in Tableau. 
+Marks                | This is a main way of manipulating visual aspects of graphs and charts. You can encode your data fields with elements like type, color, size, shape etc. You can have multiple *measures* and *dimensions* added to the marks cards to add different properties such as different regions denoted by shapes and quantity denoted by size. 
+Summary              | The summary card is available on the *show/hide cards* toolbar menu to add summary statistics either for the data selection, or the entire data source. 
+**Shelves**          | Shelves are a type of card. 
+Rows and Columns     | Rows and columns are the shelves where you drop data fields in order to create the structure of your visualization. When creating a table visualization, the columns will create the columns of the table, while the rows would create the rows of the table. Any number of fields can be dragged onto the shelves to create a more granular picture of the data. When a *dimension* is placed on the shelf, headers for the member of the dimension are created. When a *measure* is placed on a shelf, the quantitative axes for the measure are created. 
+Filters              | The filters shelf is where you specify the data to include and exclude by dragging *measures*, and/or *dimensions*. For example, you can put your date into the filter if you only want to see revenue from the last quarter, or you can put a categorical dimension into the filter if you only want to see data for specific products. 
+Pages                | The pages shelf allows for a series of separate page views with a common axis to better analyze how a certain *measure* affects the rest of the data. When a field is added to the pages shelf a control panel is added to the right side of the view to move through the pages (either manually or automatically).
+Measure Values       | At the bottom of the *measures* data pane is a special field that contains all measures of the data collected into one field. 
+
+
+**Calculation Type** | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Dimension**        | Qualitative or categorical data that would normally appear as column headers for rows of data that normally defines the granularity that shows in the view, i.e. customer name or order date. 
+**Measure**          | Quantitative or numerical data that can be aggregated based on a given dimension, i.e. total sales (measure) per region (dimension)
+
 
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
   
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
+
+#### Creating Calculated Fields
+[@Tableau_Calculated_Fields]
+On the Data Source tab of a Tableau file there will be the complete set of data imported that is available to use for your visualizations. This list also contains the opportunity to create new fields, based on those existing.
+"You can use calculated fields for many, many reasons. 
+Some examples might include:
+<ul>
+<li>To segment data
+<li>To convert the data type of a field, such as converting a string to a date.
+<li>To aggregate data
+<li>To filter results
+<li>To calculate ratios"
+</ul> [@Tableau_Calculated_Fields]
+These calculated fields can also be created in the visualization pages. This allows the user to combine fields for more robust vizualizations, without the need to create another field.
+
+**Calculation Type** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Basic calculations** | Basic calculations allow you to transform values or members at the data source level of detail (a row-level calculation) or at the visualization level of detail (an aggregate calculation).
+**Level of Detail (LOD) expressions** | Just like basic calculations, LOD calculations allow you to compute values at the data source level and the visualization level. However, LOD calculations give you even more control on the level of granularity you want to compute. They can be performed at a more granular level (INCLUDE), a less granular level (EXCLUDE), or an entirely independent level (FIXED) with respect to the granularity of the visualization.
+**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau_Calculated_Fields]
+
+Basic Calculations are the most common, and many of the functions found in Excel can be used such as:
+<ul>
+<li>If/Then Statements and other logical functions
+<li>Date Functions
+<li>AVG, COUNT, MAX, MIN and other Aggregation functions
+<li>Functions involving simple math using two or more of the existing fields
+<ul>
 
 ### TabPy  
 [@TabPy]  

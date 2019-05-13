@@ -14,6 +14,9 @@ Alberto Cairo illustrates the importance of ethics in his inforgraphics. He sees
 
 Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
+
+In order to better understanding the importance of ethic, a video called 'Practicing Good Ethics in Data Visualization' by University of California, Davis video has an excellent example to explain the reason. [@Practicing_Good_Ethics_in_Data_Visualization]
+
 **Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.** While it can be a bit jarring to think of a poorly designed graphic as "morally wrong," it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
 
 ## Ethical dimensions of Visualization
@@ -50,11 +53,13 @@ Data visualization is an up-and-coming field that currently does not have many e
 ### Data Collection  
 The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one. 
 
-In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields: <br />
-1. Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context. <br />
-2. False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being. <br />
-3. Even if the information is both accurate and relevant, moral pitfalls may remain. <br />
-4. To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. <br />
+In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields:
+<ol>
+<li> Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context.
+<li> False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being.
+<li> Even if the information is both accurate and relevant, moral pitfalls may remain.
+<li> To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity.
+</ol
 
 ### Data Analysis  
 This is the stage where the discoveries are made and thus, is the first opportunity to manipulate the story. There is usually a lot of data cleaning to do before creating a visual representation, but all data wrangling steps should be deliberate and reasonable. If possible the underlying code should be publicly shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these ideally should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters to perform careful analysis of the data and extract true stories from them.
@@ -97,6 +102,24 @@ Edward Tufte already introduced the concept of graphical integrity in his book a
 * The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
 * Show data variation, not design variation.
 * Graphics must not quote data out of context.
+
+Another point to consider in the topic of data deception/integrity would include the use of absolute vs relative data.
+For example, utilizing absolute data for the purpose of creating visualization may distort the message, and does not present the whole picture thus, relative figures should be employed to provide an accurate and comprehensive message.
+In the example of the military budget visualization below, if we were to answer the question "Who has the highest military budget?" using the graph on the left, it would be evident that USA has the highest budget, using relative data. If we were to answer the question "Who has the biggest military budget as a percentage of GDP?" then the result on the right depict as very different result.
+
+![](https://github.com/mschermann/data_viz_reader/blob/syragrg_issue%231121ContentProposal/images/militarybudget.png?raw=true)
+
+There are some ways in which distorted graphs can be created:  
+[@evil_axes],[@mislead_graph_ex]
+
+**Tool** | **Description**
+-----------------------------|--------------------------------------------------------------------------------------------------------
+**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
+**Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
+**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
+**Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
+
 
 ## Ethical Challenges in Data Visualization  
 [@dataviz_for_good]
@@ -250,6 +273,7 @@ While not technically wrong, improper extraction, tactic omitting data or includ
 Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure, ethical procedures need to be practiced throughout all the steps of visualization.
 ![](images/Good_graph_extraction.png)
 
+## The Data Visualization Hippocratic Oath
 
 The question of ethics in data visualization is not something that comes to the fore when we start working. It is rarely the case that one sets out to deceive without altering data. The topic of good ethics in data visualization is very important and it is the duty of the creator to take care of it.
 

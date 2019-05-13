@@ -1,8 +1,9 @@
 # Conclusion
 
-As we conclude our brief study on data visualization, it is clear that the field is rich in potential applications in diverse disciplines, at the same time we need to be aware of its practical and ethical complexities. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. The journey from raw data to successful data visualization involves representing the data of interest, processing the data to extract relevant information for the desired argument, designing a mapping of this information to a visual representation, rendering this representation, and combining all this functionality in an easy-to-use product.
+As we conclude our brief study on data visualization, it is clear that the field is rich in potential applications in diverse disciplines, at the same time we need to be aware of its practical and ethical complexities. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. In this chapter we will touch upon the future of data visualization and additional resources for data visualizers.
 
 ## The Future of Data Visualization
+
 @future_viz
 
 Data visualization is entering a new era. Emerging sources of intelligence, theoretical developments and advances in multidimensional imaging are reshaping the potential value that analytics and insights can provide, with visualization playing a key role. The principles of effective data visualization won’t change. However, nextgen technologies and evolving cognitive frameworks are opening new horizons, moving data visualization from art to science.
@@ -17,10 +18,11 @@ Looking back, much attention has been given to the principles of effective data 
 
 (Source: @future_viz)
 
-* **More than anything else, data visualization should facilitate decision-making**, a goal that is difficult to achieve for many. According to a recent KPMG study, while data and analytics are deemed increasingly important to organizations, generating actionable insights remains a top challenge.
+* **More than anything else, data visualization should facilitate decision-making**, a goal that is difficult to achieve for many. According to a recent [KPMG study][@kpmg], while data and analytics are deemed increasingly important to organizations, generating actionable insights remains a top challenge.
 
-***Recent Developments*
-Consider the Internet of Things, Network and Complexity Theories, and recent developments in multidimensional visualization. We can clearly see how data visualization has evolved along with the field.
+### Recent Developments
+
+Consider the Internet of Things, Network and Complexity Theories, and recent developments in multidimensional visualization, we can clearly see how data visualization has evolved along with the field.
 
 The Internet has transformed the way we visualize information through a better understanding of networks and an explosion in profile, behavioral and attitudinal data. Sociograms, for example, have gone from relatively simple graphs to multifaceted relational maps, as illustrated in the following two charts, courtesy of the Journal of Social Structure and the Leadership Learning Community.
 
@@ -36,25 +38,24 @@ The Internet of Things is expected to have a similar impact, with billions of co
 
 Network Theory has been in use for decades, with its earliest applications largely in social structure analysis. More recently, Network Theory is being applied to understand relationships and interactions in a variety of domains, such as crime prevention and disease management. Dirk Brockmann and Dirk Helbling’s work modeling the spread of infectious diseases provides an example of the power that Network Theory holds.
 
-***Future Direction*
-As organizations collect more and more data, the data science field is challenged with the task of making meaningful sense out of the data. Data visualization tools slice and dice the data and present insights to scientists. Data visualization will be the center piece in the analytics domain. Few of the fields which are really pushing its limits are Artificial Intelligence, Virtual Reality, Augmented Reality and Real Time Analytics based on Live Streaming data.
+### Future Direction
 
-Below are the salient points from the Data Visualization Summit(2016) key note address highlighting the future of data visualization.
+@future_viz
+As the world becomes increasingly interconnected and interdependent, opportunities to generate value through data visualization will only increase. The Internet of Things will have a profound effect on the role that data visualization can play in organizations and society, improving our ability to understand how humans and machines interact with each other and the environment. Application of evolving cognitive frameworks, such as Network and Complexity Theories, will help us better reflect dynamic and intricate structural dependencies. Advances in multidimensional visualization will allow us to more effectively synthesize and explore spatiotemporal conditions.
 
-*Supporting big data 3 Vs at scale: like 100X for Volume, 10X for Velocity, 5X for Variety
+Below are the salient points from the Data Visualization Summit 2016 (Source:@speaker_notes) key note address highlighting the future of data visualization.
 
-*The end-to-end set up time will be much shorter, the learning curve to be a data viz expert would be within days
++ Supporting big data 3 Vs at scale: like 100X for Volume, 10X for Velocity, 5X for Variety.
++ The end-to-end set up time will be much shorter, the learning curve to be a data viz expert would be within days.
++ More flexible user interfaces with easier ways to surface complicated cases w/o any further advanced coding for discovering the underlying knowledge and relationships, such as social graphing, 3+ dimensional graphing, etc.
++ More integration could happen here, such as new intelligent features in data viz application for predictive modeling, pattern discovery, automatic alerting, etc.
++ Given the recent crazy popularity in AR technology for Pokemon Go, interesting data viz application to support AR or VR will soon become available
 
-*More flexible user interfaces with easier ways to surface complicated cases w/o any further advanced coding for discovering the underlying knowledge and relationships, such as social graphing, 3+ dimensional graphing, etc.
+With more and more data, the field of Data Science is challenged with the task of making meaningful sense out of the data. Data visualization tools slice and dice the data and present insights to scientists and data visualization will be the center piece in the analytics domain. Few of the fields which are really pushing its limits are Artificial Intelligence, Virtual Reality, Augmented Reality and Real Time Analytics based on Live Streaming data. An interesting article on the future of data visualization in the year 2019 and beyond (Source:@depictdatastudio) based on a survey from the data visualization community. 
 
-*More integration could happen here, such as new intelligent features in data viz application for predictive modeling, pattern discovery, automatic alerting, etc.
-
-*Given the recent crazy popularity in AR technology for Pokemon Go, interesting data viz application to support AR or VR will soon become available
-
-(Source:@speaker_notes)
 ## Key Lessons Going Forward
 
-###Laying the groundwork for data visualization 
+### Laying the groundwork for data visualization 
 
 [@why_dataviz_matters]  
 Before implementing new technology, there are some steps you need to take. Not only do you need to have a solid grasp on your data, you also need to **understand your goals, needs and audience.** Preparing your organization for data visualization technology requires that you first:  
@@ -66,7 +67,7 @@ Before implementing new technology, there are some steps you need to take. Not o
 
 Once you've answered those initial questions about the type of data you have and the audience who'll be consuming the information, you need to prepare for the amount of data you'll be working with. Big data brings new challenges to visualization because large volumes, different varieties and varying velocities must be taken into account. Plus, data is often generated faster that it can be managed and analyzed.  
 
-###How Is It Being Used?
+### How Is It Being Used?
 [@why_dataviz_matters]  
 Regardless of industry or size, all types of businesses are using data visualization to help make sense of their data. Here’s how.
 
@@ -144,13 +145,13 @@ The field of data visualization is huge, and the capability of linking storytell
 
 Anaconda Python provides different packages that can help with more robust data sets and provide different packages that can offer a variety of visualization solutions[@Python2019].
 
-** Bokeh ** 
+**Bokeh**
 One of them is Bokeh an open source interactive visualization for Python [@Bokeh]
 .	Elegant, concise versatile graphics
 .	High performance interactivity over large streaming data sets
 .	Easily create interactive plots, dashboard and data applications
 
-** Matplot [@Matplot] ** 
+**Matplot [@Matplot]** 
 
 Is a Python 2D plotting library and object oriented.
 This package can do the following:
@@ -164,9 +165,17 @@ This package can do the following:
 Other packages: Datashader & Holoviews
 Anaconda community [@Python2019] provides many solution and resources for all visualization packages.
 
+
+**Altair**
+Altair is a declarative statistical visualization library for Python [@Altair]
+There are gallerries and it is a powerful and concise visualization tool.
+
+
+
 ### D3.js Community
 
-The best place to start with D3.js (version 5.9.2) is the D3.js official portal itself (https://d3js.org/ ). It has features like:
+**D3** stands for **Data-Driven Documents**.The best place to start with D3.js (version 5.9.2) is the D3.js official portal itself (https://d3js.org/ ). It has features like:
+
 * Introduction, with the help of code snippets.
 * Installation guide.
 * Features guide.
@@ -175,10 +184,13 @@ The best place to start with D3.js (version 5.9.2) is the D3.js official portal 
 * Blogs which introduces D3.js with examples.
 * Video lectures which makes the learning experience more interesting.
 
-D3.js has a large and growing presence on **GitHub** .One can find all the needed materials. The content is as follows :
+D3.js has a large and growing presence on **GitHub** .One can find,clone and use all the needed materials. The content is as follows :
+
+* It has a source repository(https://github.com/d3/d3) which allows users to clone ad use the packages. 
+* It links you to vaious othrer platforms for discussion like:**stack overflow**(https://stackoverflow.com/questions/tagged/d3.js),**Google Group**(https://groups.google.com/forum/#!forum/d3-js),**Slack**(https://d3js.slack.com/).
 * It has an extensive tutorials repository on GitHub (https://github.com/d3/d3/wiki/Tutorials).
-* It also has a Gallery on GitHub with code snippets of each visualization                                                 ( https://github.com/d3/d3/wiki/Gallery)
-* Links to official ( https://github.com/d3/d3/blob/master/API.md) and community based modules( https://www.npmjs.com/search?q=keywords:d3-module) for D3.js .
+* It also has a Gallery on GitHub with code snippets for each visualization(https://github.com/d3/d3/wiki/Gallery)
+* Links to official (https://github.com/d3/d3/blob/master/API.md) and community based modules(https://www.npmjs.com/search?q=keywords:d3-module) for D3.js .
 
 
 ### Blogs
