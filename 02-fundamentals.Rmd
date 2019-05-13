@@ -1,4 +1,4 @@
-﻿---
+---
 output:
   pdf_document: default
   html_document: default
@@ -273,73 +273,76 @@ They can be used if you really must but be aware that they are not always very a
 
 
 ### Analyze and Interpret
-Once the data is visualized, the next step is to learn something from the visualization that is created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: Who is the audience of the visualizations? What questions do they have? What answers does the visualization provide them? What other questions does it inspire? What conversations will result? and so on... 
+Once data is visualized, the next step is to learn something from visualization that was created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: 
+* Who is the audience of the visualizations? 
+* What questions do they have? 
+* What answers does the visualization provide them? 
+* What other questions does it inspire? 
+* What conversations will result? and so on... 
+
 The point is that the viewers should take something away from the time they spend with the visualization. [@analyze_viz]
 
-#### Macro/Micro-Provide the user with both views (overview and detail)- (Tufte's Design Principle 2) 
+#### Macro/Micro Views - Provide the user with both views (overview and detail) - (Tufte's Design Principle 2) 
 A carefully designed view can show a macro structure (overview) as well as micro structure (detail) in one space.
 
-*	What can be seen in this image? Is it what that was expected?
+*	What can be seen in this image? Is it what was expected?
 *	Are there any interesting patterns?
-*	What does this mean in the context of the data?
+*	What does this mean in context of the data?
 
-Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from data. But there is almost always something that we can learn from any visualization, however trivial.
+Sometimes we might end up with visualization that, in spite of its beauty, might seem to tell that nothing of interest can be found from the data. But there is almost always something that we can learn from any visualization, however trivial.
 
-#### Checking if the visualization is answering the intended questions
-Often times it just helps to ask what questions is the visualization trying to answer? Following which it is easier to evaluate a visualization by asking some of the following questions: [@analyze_viz]
+#### Checking if the visualization answers the intended questions
+Often it helps to ask what questions is the visualization trying to answer? Following which, it is easier to evaluate a visualization by asking some of the following questions: [@analyze_viz]
 
 **Overall message/ Warrant/ Claim**
-• What is the overall message or claim or warrant that the visualization is trying to make?
-• Does the visualization jusity the claim?
+* What is the overall message or claim or warrant that the visualization is trying to make?
+* Does the visualization jusity the claim?
 
 **Title**
-• Does the visualization include a title? Is that title simple, informative, and
-eye-catching?
-• Is the purpose of the visualization clearly explained in its title or surrounding
-text?
+* Does the visualization include a title? Is that title simple, informative, and eye-catching?
+* Is the purpose of the visualization clearly explained in its title or surrounding text?
 
 **Interpretation**
-• Can one understand the visualization in 30 seconds or less, without additional
-information?
-• Does the visualization include subtitles to guide your viewers?
-
+* Can one understand the visualization in 30 seconds or less, without additional information?
+* Does the visualization include subtitles to guide your viewers?
 
 #### Using the right chart types
 Another important aspect to consider is how effective are chart views in terms of measures & dimensions, colors, etc. It helps to ask the following questions:
 
-• What types of analysis is being performed?
-• Is the chart type(s) most suitable for the type of analysis?
-• Are there alternative chart types that could work better than the chosen ones? 
-More information on Chart Types can be referred here [@analyze_viz] and using the Tableau online documentation.
+* What types of analysis is being performed?
+* Is the chart type(s) most suitable for the type of analysis?
+* Are there alternative chart types that could work better than the chosen ones? 
+<br>
+More information on Chart Types can be referred here [@analyze_viz] and using Tableau online documentation.
 
 #### Ensuring the dashboard has a holistic design
-• Do all the views fit together to tell a single story?
-• Do all the views flow well from one to the next? Are they in a good order? 
-• Does the most important view appear in the top or top-left corner?
-• Are secondary elements in the dashboard placed well so they support the views without interrupting them?
-• Are filters in the right locations?
-• Do filters work correctly? Do views become blank or downright confusing if a filter is applied?
-• Do filters apply to the right scope?
-• Are filter titles informative? Can viewers easily understand how to be interactive with the filters?
-• Are legends close to the views they apply to?
-• Are there any filter, highlight or URL actions? If so, do they work?
-• Are legends and filters grouped and placed intuitively?
-• Are there scrollbars in the views? If so, are they acceptable ones? 
-• Are the views scrunched?
-• Do the views fit consistently well when filters are applied?
+* Do all views fit together to tell a single story?
+* Do all views flow well from one to the next? Are they in a good order? 
+* Does the most important view appear in the top or top-left corner?
+* Are secondary elements in the dashboard placed well so they support the views without interrupting them?
+* Are filters in the right locations?
+* Do filters work correctly? Do views become blank or downright confusing if a filter is applied?
+* Do filters apply to the right scope?
+* Are filter titles informative? Can viewers easily understand how to be interactive with the filters?
+* Are legends close to the views they apply to?
+* Are there any filter, highlight or URL actions? If so, do they work?
+* Are legends and filters grouped and placed intuitively?
+* Are there scrollbars in the views? If so, are they acceptable? 
+* Are the views scrunched?
+* Do the views fit consistently when filters are applied?
 
 #### Evaluating effectiveness through measures, dimensions, colors etc.
-• Are the most important data shown on the X- and Y-axes and your less important data encoded in color or shape attributes?
-• Are the views oriented intuitively—do they cater to the way the intended audience would read and perceive data?
-• Are the number of measures or dimensions limited in a single view so that users can see the data?
-• Is the usage of colors and shapes limited so that users can distinguish them and see patterns?
+* Are the most important data shown on the X and Y-axes and less important data encoded in color or shape attributes?
+* Are views oriented intuitively? Do they cater to the way the intended audience would read and perceive data?
+* Are number of measures or dimensions limited in a single view so that users can see the data?
+* Is the usage of colors and shapes limited so that users can distinguish them and see patterns?
 
 #### Final touches
-• Do all the colors on the dashboard go together without clashing?
-• Are there less than 7-10 colors on all the dashboards?
-• Are fonts used consistently in all of the dashboards/ views and there are no more than three different fonts on one dashboard?
-• Are the labels clear and concise? Are they placed optimally to help guide the viewers? Make sure subtitles are formatted to be subordinate to the main title.
-• Are tooltips informative? Do they have the right format so that they’re easy for the audience to use?
+* Do all colors on the dashboard go together without clashing?
+* Are there less than 7-10 colors on all the dashboards?
+* Are fonts used consistently in all of the dashboards/ views and there are no more than three different fonts on one dashboard?
+* Are the labels clear and concise? Are they placed optimally to help guide the viewers? Make sure subtitles are formatted to be subordinate to the main title.
+* Are tooltips informative? Do they have the right format so that they’re easy for the audience to use?
 
 ### Document Your Insights and Steps
 If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking your first look at the data. 
@@ -612,14 +615,41 @@ Joins and Data Blending work when it is required to append columns from one tabl
 <li> Click Apply or OK to union
 </ol>
 ![](images/Tableau_Union.png)
-[@Tableau Union]
+[@Tableau_Union]
+
+#### Getting Started by Creating a First View
+
+[@Tableau_Build_Manual]
+
+The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data. 
+
+!()[https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png]
+
+**Element**          | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Data Pane**        | Displays the data set that is in the view and the fields (columns) in the data set that are automatically sorted into dimensions or measures (explained below).
+**Cards**            | Cards are containers for different controls available in Tableau. 
+Marks                | This is a main way of manipulating visual aspects of graphs and charts. You can encode your data fields with elements like type, color, size, shape etc. You can have multiple *measures* and *dimensions* added to the marks cards to add different properties such as different regions denoted by shapes and quantity denoted by size. 
+Summary              | The summary card is available on the *show/hide cards* toolbar menu to add summary statistics either for the data selection, or the entire data source. 
+**Shelves**          | Shelves are a type of card. 
+Rows and Columns     | Rows and columns are the shelves where you drop data fields in order to create the structure of your visualization. When creating a table visualization, the columns will create the columns of the table, while the rows would create the rows of the table. Any number of fields can be dragged onto the shelves to create a more granular picture of the data. When a *dimension* is placed on the shelf, headers for the member of the dimension are created. When a *measure* is placed on a shelf, the quantitative axes for the measure are created. 
+Filters              | The filters shelf is where you specify the data to include and exclude by dragging *measures*, and/or *dimensions*. For example, you can put your date into the filter if you only want to see revenue from the last quarter, or you can put a categorical dimension into the filter if you only want to see data for specific products. 
+Pages                | The pages shelf allows for a series of separate page views with a common axis to better analyze how a certain *measure* affects the rest of the data. When a field is added to the pages shelf a control panel is added to the right side of the view to move through the pages (either manually or automatically).
+Measure Values       | At the bottom of the *measures* data pane is a special field that contains all measures of the data collected into one field. 
+
+
+**Calculation Type** | **Description**
+---------------------|-------------------------------------------------------------------------------------------------------------------
+**Dimension**        | Qualitative or categorical data that would normally appear as column headers for rows of data that normally defines the granularity that shows in the view, i.e. customer name or order date. 
+**Measure**          | Quantitative or numerical data that can be aggregated based on a given dimension, i.e. total sales (measure) per region (dimension)
+
 
 #### Using Shapes as Filters in Tableau When Your Fields Are Measures  
   
 This article [@measures] introduces the methodologies on how to use shapes as filters in Tableau when your fields are measures. It teaches you how to load custom shapes as action filters and use them for showing different graphs with those filters, which can make your visualization more interesting and interactive. You can also download the Tableau file for practice.
 
 #### Creating Calculated Fields
-[@Tableau Calculated Fields]
+[@Tableau_Calculated_Fields]
 On the Data Source tab of a Tableau file there will be the complete set of data imported that is available to use for your visualizations. This list also contains the opportunity to create new fields, based on those existing.
 "You can use calculated fields for many, many reasons. 
 Some examples might include:
@@ -629,14 +659,14 @@ Some examples might include:
 <li>To aggregate data
 <li>To filter results
 <li>To calculate ratios"
-</ul> [@Tableau Calculated Fields]
+</ul> [@Tableau_Calculated_Fields]
 These calculated fields can also be created in the visualization pages. This allows the user to combine fields for more robust vizualizations, without the need to create another field.
 
 **Calculation Type** | **Description**
 ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 **Basic calculations** | Basic calculations allow you to transform values or members at the data source level of detail (a row-level calculation) or at the visualization level of detail (an aggregate calculation).
 **Level of Detail (LOD) expressions** | Just like basic calculations, LOD calculations allow you to compute values at the data source level and the visualization level. However, LOD calculations give you even more control on the level of granularity you want to compute. They can be performed at a more granular level (INCLUDE), a less granular level (EXCLUDE), or an entirely independent level (FIXED) with respect to the granularity of the visualization.
-**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau Calculated Fields]
+**Table calculations** | Table calculations allow you to transform values at the level of detail of the visualization only. [@Tableau_Calculated_Fields]
 
 Basic Calculations are the most common, and many of the functions found in Excel can be used such as:
 <ul>
