@@ -145,13 +145,13 @@ The field of data visualization is huge, and the capability of linking storytell
 
 Anaconda Python provides different packages that can help with more robust data sets and provide different packages that can offer a variety of visualization solutions[@Python2019].
 
-** Bokeh ** 
+**Bokeh**
 One of them is Bokeh an open source interactive visualization for Python [@Bokeh]
 .	Elegant, concise versatile graphics
 .	High performance interactivity over large streaming data sets
 .	Easily create interactive plots, dashboard and data applications
 
-** Matplot [@Matplot] ** 
+**Matplot [@Matplot]** 
 
 Is a Python 2D plotting library and object oriented.
 This package can do the following:
@@ -164,6 +164,13 @@ This package can do the following:
 .	Others
 Other packages: Datashader & Holoviews
 Anaconda community [@Python2019] provides many solution and resources for all visualization packages.
+
+
+**Altair**
+Altair is a declarative statistical visualization library for Python [@Altair]
+There are gallerries and it is a powerful and concise visualization tool.
+
+
 
 ### D3.js Community
 
