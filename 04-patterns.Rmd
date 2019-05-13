@@ -444,7 +444,7 @@ For generating word cloud in Python, modules needed are – matplotlib, pandas a
 **Wordle:**  [@wordle]
 Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
 
-**Tableau:** [@tableau_wordcloud]
+**Tableau:** [@Tableau_wordcloud]
 Creating a word cloud in Tableau is quite straight forward you will need the Tableau Desktop application or a Tableau Online account for the same. To generate a word cloud in Tableau, open Tableau Desktop and connect it to the desired data source. Drag the desired dimension to Text on the Marks card. Then drag the same dimension to Size on the Marks card. Now right-click on the dimension on the Size card and select Measure from Count. If needed, change the Mark type from Automatic to Text. To add color, drag the same dimension to Color on the Marks card.
 
 Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
