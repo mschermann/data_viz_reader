@@ -49,11 +49,11 @@ Source: [@cool_data].
 Map visualization is essential for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions [@uber_maps].
 
 The challenges that Uber faced when crafting geospatial visualizations:
-
-1. There are great individual maps but as a whole lack of consistency across the company.
-2. Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
-3. The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
-
+<ol>
+<li> There are great individual maps but as a whole lack of consistency across the company.
+<li> Common graphing tools like Sketch does not support GIS file, which is essential to Uber's insights.
+<li> The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
+</ol>
 To tackle these problems, Uber started by defining base map themes by optimizing detail, color, and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.
 
 The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation of the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.  
@@ -300,6 +300,9 @@ Overall, this visualization is useful in the following ways:
 ## Language
 
 ### Green Honey
+> Language shapes the way we view the world. Different languages may have vastly different ways of describing things—including color.
+
+Muyueh Lee takes this idea and expands upon it, examining the differences in describing color in Chinese and English through a helpful visualization. 
 The visualization spans a webpage [@green_honey] referenced in [@cool_data]. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue but the numbers that fall into each category — for example, what colors are the most famous "base" colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.
 Using data from the English and Chinese versions of the Wikipedia entry on color, the visualization shows the differences in how English speakers and Chinese speakers describe color. Looking at the infographic, it’s clear that English (or at least the English Wikipedia article)  has more words for color than Chinese does. Additionally, the most popular “base color words” in Chinese are red, blue and green. In English, it’s blue, green and pink. English also differs from Chinese in using place names to distinguish between colors, like in “Persian Blue.”[@Colors-in-Translation]
 ![](images/colorwords.png)
@@ -307,11 +310,11 @@ Using data from the English and Chinese versions of the Wikipedia entry on color
 Source:[@green_honey]
 
 ### Linguistic Concepts
-This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways [@lingui_data].
+This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of practical problems in feasible ways. [@lingui_data].
 
 HistoBankVis is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work [@lingui_data1]. In this paper, the visualization’s efficacy and power are illustrated utilizing a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.
 
-Much of what computational linguists fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structuresl and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.   There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes.
+Much of what computational linguists(CL) fall back upon to improve natural language processing and model language "understanding" is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures and the visible patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual 'externalizations' such as these are almost exclusively used in CL for presentation and explanation.  There are particular statistical methods, falling under the rubric of "exploratory data analysis," and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new ways for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes.
 
 ### State of the Union 2014 Minute by Minute on Twitter
 Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address [@SotU2014]. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a powerful detailed and cluttered visualization. Since the visualization is about the topic density in a specific time frame, maybe it's a good idea for us to use this kind of format  when we encounter the expression of a poisson distribution.
@@ -495,3 +498,17 @@ The editors have been selected to emphasize on essential issues by experts in th
 Contents of this publication: [@worldbankpub].
 The data is available at [@data_access].
 The code used to generate the majority of figures is available at [@worldbankcode].
+
+### Is Beauty Important? 
+
+This case study is about this article: https://www.infoworld.com/article/3048315/the-inevitability-of-data-visualization-criticism.html
+
+Andy Cotgreave is the current Senior Technical Evangelist at Tableau. In the above article he defends the use of elaborate visualizations and argues that beauty is a quality worth pursuing when making data visualizations. 
+One visualization that he focuses on is a heat map that shows the effect of introducing vaccines on the number of polio cases in the US made by the Wall Street Journal. This particular visualization received a great deal of attention, and was sent around the internet to demonstrate the positive effects of vaccination.  After spending some time on the internet, another author named Randy Olson responded with his own article where he remade the heat map as a simple line graph.  Both versions are shown below.
+  
+
+![](images/which_is_best.png)  
+
+In his article, Cotgreave argues that the heat map was visually striking, and its novelty made him more likely to interact with it.  As someone involved in visualizations, he seen hundreds, if not thousands of line graphs, and would’ve likely skipped over the line graph version.  Cotgreave doubts that the line version would have won awards, or been virally shared as the heat map was. While Cotgreave acknowledges the readability of the line graph, he ultimately feels that there is a place for visualizations to be beautiful.
+
+The takeaway then, is that the visualization you choose to present should be tailored to your situation.  In other words, think of your audience.  If you were presenting your visualization to the internet at large, then being beautiful and novel is important.  If your visualization becomes viral, then it will advance and promote your message to exponentially more people.  On the other hand, if you have a more limited audience, like a team of managers, that wants visualizations that can be read quickly, then the line chart will be more suitable.
