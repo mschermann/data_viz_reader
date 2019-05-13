@@ -1,8 +1,9 @@
-﻿# Conclusion
+# Conclusion
 
 As we conclude our brief study on data visualization, it is clear that the field is rich in potential applications in diverse disciplines, at the same time we need to be aware of its practical and ethical complexities. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. In this chapter we will touch upon the future of data visualization and additional resources for data visualizers.
 
 ## The Future of Data Visualization
+
 @future_viz
 
 Data visualization is entering a new era. Emerging sources of intelligence, theoretical developments and advances in multidimensional imaging are reshaping the potential value that analytics and insights can provide, with visualization playing a key role. The principles of effective data visualization won’t change. However, nextgen technologies and evolving cognitive frameworks are opening new horizons, moving data visualization from art to science.
@@ -39,7 +40,8 @@ Network Theory has been in use for decades, with its earliest applications large
 
 ### Future Direction
 
-As organizations collect more and more data, the data science field is challenged with the task of making meaningful sense out of the data. Data visualization tools slice and dice the data and present insights to scientists. Data visualization will be the center piece in the analytics domain. Few of the fields which are really pushing its limits are Artificial Intelligence, Virtual Reality, Augmented Reality and Real Time Analytics based on Live Streaming data.
+@future_viz
+As the world becomes increasingly interconnected and interdependent, opportunities to generate value through data visualization will only increase. The Internet of Things will have a profound effect on the role that data visualization can play in organizations and society, improving our ability to understand how humans and machines interact with each other and the environment. Application of evolving cognitive frameworks, such as Network and Complexity Theories, will help us better reflect dynamic and intricate structural dependencies. Advances in multidimensional visualization will allow us to more effectively synthesize and explore spatiotemporal conditions.
 
 Below are the salient points from the Data Visualization Summit 2016 (Source:@speaker_notes) key note address highlighting the future of data visualization.
 
@@ -48,6 +50,8 @@ Below are the salient points from the Data Visualization Summit 2016 (Source:@sp
 + More flexible user interfaces with easier ways to surface complicated cases w/o any further advanced coding for discovering the underlying knowledge and relationships, such as social graphing, 3+ dimensional graphing, etc.
 + More integration could happen here, such as new intelligent features in data viz application for predictive modeling, pattern discovery, automatic alerting, etc.
 + Given the recent crazy popularity in AR technology for Pokemon Go, interesting data viz application to support AR or VR will soon become available
+
+With more and more data, the field of Data Science is challenged with the task of making meaningful sense out of the data. Data visualization tools slice and dice the data and present insights to scientists and data visualization will be the center piece in the analytics domain. Few of the fields which are really pushing its limits are Artificial Intelligence, Virtual Reality, Augmented Reality and Real Time Analytics based on Live Streaming data. An interesting article on the future of data visualization in the year 2019 and beyond (Source:@depictdatastudio) based on a survey from the data visualization community. 
 
 ## Key Lessons Going Forward
 
