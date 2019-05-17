@@ -29,12 +29,21 @@ The main goal of data visualization is to communicate information clearly and ef
 * Insightful: Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
 
 ## Importance of Data Exploration
-kwright76_submit
-"Data exploration tasks are those of examining data without having any prior understanding of what patterns, information, or knowledge it might contain." [@Data_Exploration_1] While the majority of research has been on the output of and creation of visualizations, the important aspect of these tasks is to first understand the data that is being presented. As mentioned in [@Data_Exploration_1], the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or vice versa. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based on these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost. 
 
-The importance of data exploration in the visualization process is to pull unique analyses from the data. By doing this prior to beginning the final product, the audience can be taken into account at a more granular level than with a deeper knowledge of the data. Data exploration allows the visualizer to focus on showing the importance of the data and capture its audience in order to push the point across directly and easily.
+"Data exploration tasks are those of examining data without having an a priori understanding of what patterns, information, or knowledge it might contain." [@Data_Exploration_1] While the majority of research has been on the output of and creation of visualizations, but the important aspect of these tasks is to first understand the data that is being presented. As mentioned in [@Data_Exploration_1], the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or the opposite occurs. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based off of these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost.
+Here are some data exploration methods for references:
+Companies can conduct data exploration via a combination of automated and manual methods.
+Analysts commonly use automated tools such as data visualization software for data exploration because these tools allow users to quickly and simply view most of the relevant features of a data set. From this step, users can identify variables that are likely to have interesting observations.
+![](images/Data_exploration.jpg)
 
-Data exploration is consumed by creating visualizations that show different aspects to enable intriguing insights from nominal data sources. The first step in the process is to just get in and start playing. Create a sandbox to view different visualizations that point out unique things about the data. Next, start to formulate a knowledge of the data that will lead to new ways to intensify trivial findings. Lastly, grasp knowledge of the audience to customize the visualization more or less complex based on the audience. These three steps will guide the exploration process and show if more information is needed or support can be given from another source to validate an argument being made. 
+By displaying data graphically -- for example, through scatter plots, density plots or bar charts -- users can see if two or more variables correlate and determine if they are good candidates for further analysis, which may include:
+
+Univariate analysis: The analysis of one variable.
+Bivariate analysis: The analysis of two variables to determine their relationship.
+Multivariate analysis: The analysis of multiple outcome variables.
+Principal components analysis: The analysis and conversion of possibly correlated variables into a smaller number of uncorrelated variables.
+Manual data exploration methods may include filtering and drilling down into data in Excel spreadsheets or writing scripts to analyze raw data sets.
+
 
 ## Importance of Data Visualization
 
