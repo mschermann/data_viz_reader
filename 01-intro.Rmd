@@ -29,6 +29,7 @@ The main goal of data visualization is to communicate information clearly and ef
 * Insightful: Exploring graph data interactively allows users to gain more in-depth knowledge, understand the context and ask more questions, compared to static visualization or raw data.
 
 ## Importance of Data Exploration
+
 "Data exploration tasks are those of examining data without having an a priori understanding of what patterns, information, or knowledge it might contain." [@Data_Exploration_1] While the majority of research has been on the output of and creation of visualizations, but the important aspect of these tasks is to first understand the data that is being presented. As mentioned in [@Data_Exploration_1], the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or the opposite occurs. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based off of these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost.
 Here are some data exploration methods for references:
 Companies can conduct data exploration via a combination of automated and manual methods.
@@ -43,7 +44,6 @@ Multivariate analysis: The analysis of multiple outcome variables.
 Principal components analysis: The analysis and conversion of possibly correlated variables into a smaller number of uncorrelated variables.
 Manual data exploration methods may include filtering and drilling down into data in Excel spreadsheets or writing scripts to analyze raw data sets.
 
-After the data exploration is complete, analysts can move on to the data discovery phase to answer specific questions about a business issue. The data discovery process involves using business intelligence tools to examine trends, sequences and events and creating visualizations to present to business leaders.
 
 ## Importance of Data Visualization
 
