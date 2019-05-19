@@ -1,4 +1,4 @@
----
+﻿---
 output:
   pdf_document: default
   html_document: default
@@ -270,6 +270,16 @@ They can be used if you really must but be aware that they are not always very a
 
   ![](images/3.2.2_Square_pie_chart.png)
   (Source: [@Square_Pie_Charts])
+
+##### Geographical Data
+
+Maps are ideal to show data on location. Maps are often best when paired with another chart that details what the map displays — such as a bar chart sorted from greatest to least, a line charts showing the trends, or even just a cross-tab to show the actual data. 
+Although pie charts are not recommended for part-to-whole relationship, pie charts can be used on maps, such as in the website-traffic map below. By using pies on the map, we get a rough breakdown view of each country, which can be very useful when complemented by other chart types like the ones mentioned previously. 
+
+   ![](images/Image7.png)
+   (Source: [@DataVizBestPrac])
+
+
 
 
 ### Analyze and Interpret
