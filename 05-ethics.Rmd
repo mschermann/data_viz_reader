@@ -1,40 +1,49 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Ethics
 
-Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice as well. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges, of which we will explore many in this chapter.
+This chapter covers the ethical implication of data visualizations. Ethics refers to a set of moral principles that dictate a person’s behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges. This chapter will touch on the importance of ethics in visualization, guidelines for ethical visualization, topics relating to data deception, ethical challenges faced when creating a visualization, visualization and social change, and more.  
 
 ## Importance of Ethics in Visualization  
 [@ethical_infographics]
 
-Alberto Cairo sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
+Alberto Cairo illustrates the importance of ethics in his infographics. He sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a "rule utilitarian," he believes it is "morally right" to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
 
 Alberto Cairo addresses the ethical 'why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
-Cairo briefly addresses four guidelines that are applicable in all information gathering fields: 
-1. Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context. 
-2. False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being. 
-3. Even if the information is both accurate and relevant, moral pitfalls may remain. 
-4. To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity. 
 
-**Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.** While it can be a bit jarring to think of a poorly designed graphic as "morally wrong," it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
+In order to better understanding the importance of ethics, a video called 'Practicing Good Ethics in Data Visualization' by the University of California, Davis video has an excellent example to explain the reason. [@Practicing_Good_Ethics_in_Data_Visualization]
 
-## Implications of (Good/Bad) Data Visualization
+**Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.** While it can be a bit jarring to think of a poorly designed graphics as "morally wrong," it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
 
-Raw data is often meaningless or at the very least is difficult to derive immediate meaning from. When people face a broad set of measurements and/or in large quantities, they are unable or unwilling to spend the time required to process it. Technological advances of the Digital Age contribute to an ever-growing pool of “big data” and have dramatically improved our ability to collect such large amounts of information. Thus, filtering, visualization, and interpretation of data becomes increasingly important.
+## Ethical dimensions of Visualization
+[@ethical_dim]
+Visualizations have a potentially enormous influence on how data are used to make decisions across all areas of human endeavor. This power of visualization connects to ethical duties and moral obligations to designers, builders, and researchers of visualizations.
+There exists a familiar feeling that data and data visualization, respectively, are apolitical or somehow ethically neutral and therefore leads to a lack of moral obligations with regards to how data are collected and visualized. This tendency to view visualization as mere reporting or structuring of objective fact is more dangerous. It is essential to understand that data and visualization are not ethically neutral. Data are not unbiased; they are always collected or processed by someone, for some aim. Often the work that goes into managing and structuring data is made invisible. Furthermore, the purposes for which data are collected and used is given less importance than the collection of insights to be gathered. 
 
-We should understand how to best derive meaning from data, but first we should understand why its presentation in graphical format is so powerful. Furthermore, while the ideal purpose of data visualization is to facilitate understanding of data, visualization can also be used to mislead. Some of the main methods of doing so are omitting baselines, axis manipulation, omitting data, and ignoring graphing convention. Examples of these methods will be explored later in this chapter.
+**Obligations for professionals in the Visualization field:**
+Visualization operates at the intersection of science, communication, and engineering. Professionals in these fields have specific ethical requirements as scientists, engineers, and journalists because they possess a great deal of power over how people ultimately make use of data both in visual patterns and the conclusions they draw. Following are three ethical challenges of visualization work, related to visibility, privacy, and power. There are associated principles and limitations of each category.
 
+**Visibility:** To make the invisible visible
+* Visualize hidden labor
+* Visualize hidden uncertainty
+* Visualize hidden impacts
+Associated limitations with this principle are that visualizations are already involved and designers must frequently struggle with the comprehensibility of their designs and the literacy of their audience. Managing complexity is, therefore, a virtue in design that can be in direct opposition with the desire to visualize the invisible.
 
-**Principle** | **Description**
-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
-**1. Easy Recall** | People can process images quicker than words. When data is transformed into images, the readability and cognition of the content greatly improves. While people can only remember just 10% of what they hear and 20% of what they read, retention jumps up to 80% for visual information with interaction.
-**2. Providing Window for Perspective** | With infographics, you can pack a lot of information into a small space. Colors, shape, movement, the contrast in scale and weight, and even sound can be used to denote different aspects of the data allowing for multi-layered understanding [@image_good].
-**3. Enable Qualitative Analysis** | Color, shape, sounds, and size can make evident relationships within data very intuitive. When data points are represented as images or components of an entire scene, readers are able to see the correlation and analytical insights can be easily derived.  
-**4. Increase in User Participation** | Interactive infographics can substantially increase the amount of time someone will spend with the content and the degree to which they participate in the information, both in its collection and its dissemination.
+**Privacy:** To collect data with empathy
+* Encourage Small Data
+* Anthropomorphize data
+* Obfuscate data to protect privacy
+Associated limitations with this principle are restricting the type and amount of data that is collected has a direct impact on the quality and scope of the analyses hence obligation to provide context, and analytical power can, therefore, stand in direct opposition to the empathic collection of data.
+
+**Power:** To challenge structures of power
+* Support data due process.
+* Act as data advocates.
+* Pressure unethical analytical behavior.
+Here the limitations are that the goal of promoting truth and suppressing falsehood may require amplifying existing structures of expertise and power, and suppressing conflicts for the sake of rhetorical impact.
 
 ## General Guidelines for Ethical Visuals  
 [@ethics_code]
@@ -42,7 +51,15 @@ We should understand how to best derive meaning from data, but first we should u
 Data visualization is an up-and-coming field that currently does not have many established regulations. This makes it easy to manipulate readers without technically reporting false information. However, certain standards should be followed in order to generate meaningful and accurate visuals. The process can be broken down into three steps, each with its own set of guiding rules.
 
 ### Data Collection  
-The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one.
+The first step in any project is gathering the data. This is relatively simple and does not offer much of an opportunity to introduce confusion. The one thing to remember is to always get data from a reliable source. The data provides the foundation for the entire project and must, therefore, be trustworthy and verifiable. Furthermore, special care should be taken for identification of inherent biases while using an existing dataset or creating a new one. 
+
+In addition, Cairo briefly addresses four guidelines that are applicable in all information gathering fields:
+<ol>
+<li> Beware of selection bias when choosing preexisting datasets, validate the data, and include essential context.
+<li> False or irrelevant information does not improve anyone's decision-making capacity, so it cannot enhance well-being.
+<li> Even if the information is both accurate and relevant, moral pitfalls may remain.
+<li> To avoid the unethical trap of inscrutable or misleading graphics, Cairo exhorts us to take an evidence-based approach when possible. The purpose of the graphic dictates the form it takes; aesthetic preferences should never override clarity.
+</ol
 
 ### Data Analysis  
 This is the stage where the discoveries are made and thus, is the first opportunity to manipulate the story. There is usually a lot of data cleaning to do before creating a visual representation, but all data wrangling steps should be deliberate and reasonable. If possible the underlying code should be publicly shared so anyone can follow the entire process. It is also important to explicitly state any assumptions taken, though these ideally should be kept to a minimum. Here, it is important to look at what the source data actually shows. It is the ethical responsibility of presenters to perform careful analysis of the data and extract true stories from them.
@@ -54,11 +71,26 @@ Once a visualizer decides on an argument, it is important to present it honestly
 
 Visualization should not be used to intentionally hide or confuse the truth. It should not seek to mislead the uninformed. Visualization has great power, and as they say, with great power comes great responsibility.
 
+Guiding rules for designing the visuals according to Skau are as follows:
+* Use the visuals you chose to depict the data and analysis accurately.
+* Be attentive to labelling best practices and hierarchy of importance of visual properties, such as colors.
+* Read on topics related to visualization, study any visualizations critically, and be open to criticism.
 
-## Definitions of Data Deception and Graphic Integrity  
+There are some ways in which distorted graphs can be created:  
+[@evil_axes],[@mislead_graph_ex]
+
+**Tool** | **Description**
+-----------------------------|--------------------------------------------------------------------------------------------------------
+**Improper scaling of y-axis** | This is one of the classic way of creating misleading graphs. Instead of scale starting from zero or a baseline, the y-axis is scaled conveniently to highlight the differences among bins.
+**Improper labeling of graphs** | Lack of labels makes the graph hard to interpret for the reader and leads to wrong conclusions.
+**Paired graphs on different scale** | It is not a fair comparison if two elements are plotted side-by-side, on a different scale and compared. This makes one graph look better than the other, even when it is not.
+**Dual axis with different scales** | If we are plotting two elements on the same graph with different scales, it is assumed that both axes are on the same scale even if the axes are properly labeled. Especially if the two elements are represented in a similar way ( bargraph or line graph)
+**Incomplete data** | Short-term graphs are made to manipulate the trend, which will not be seen otherwise. Time-series data are cut intentionally to show a trend within a particular period to create a more favorable visual impression.
+
+## Data Deception and Graphic Integrity  
 [@decept_study],[@rose_tint]
 
-Data visualization is a powerful communication tool to support arguments with numbers in a way that is accessible and engaging. It is an increasingly popular way to communicate and support arguments. More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
+More people than ever before are making their own charts and infographics, creating a unique problem. Despite the availability of great charting resources and resources online to create and design amazing data products, we are witnessing an influx of poorly-designed, misleading, or downright deceptive data visualizations.
 
 What does **data deception** mean? Data deception, defined by School of Law at the New York University, is “a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.” Deceptive, misleading, or distorted graphs are those that intentionally or unintentionally skew the data, and result in a representation of incorrect conclusions.
 
@@ -70,6 +102,12 @@ Edward Tufte already introduced the concept of graphical integrity in his book a
 * The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
 * Show data variation, not design variation.
 * Graphics must not quote data out of context.
+
+Another point to consider in the topic of data deception/integrity would include the use of absolute vs relative data.
+For example, utilizing absolute data for the purpose of creating visualization may distort the message, and does not present the whole picture thus, relative figures should be employed to provide an accurate and comprehensive message.
+In the example of the military budget visualization below, if we were to answer the question "Who has the highest military budget?" using the graph on the left, it would be evident that USA has the highest budget, using relative data. If we were to answer the question "Who has the biggest military budget as a percentage of GDP?" then the result on the right depict as very different result.
+
+![](https://github.com/mschermann/data_viz_reader/blob/syragrg_issue%231121ContentProposal/images/militarybudget.png?raw=true)
 
 There are some ways in which distorted graphs can be created:  
 [@evil_axes],[@mislead_graph_ex]
@@ -88,21 +126,9 @@ There are some ways in which distorted graphs can be created:
 
 Matt Stempeck's article recaps a brainstorming session concerning data visualization ethics, and provides a fairly comprehensive list of considerations for data visualizers to use as a guide to evaluate how ethical their data products actually are. From replicability of a data visualization, to persuasiveness and ambiguity in the data, this article challenges data visualizers to assess how to ethically present data.  
 
-The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations, the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
+The discussion on perspective is an interesting one; it asks how data visualizers might show different perspectives on the same data. Clearly from the “deceptive versions” we have created for Vox’s gun violence article’s visualizations [@Vox_gun_violence], the same data can be used to show vastly different perspectives, or make extremely contrasting claims. This may counteract common opinion of data, since most people perhaps believe there is an inherent truth to the data, but the data visualizer is in control of what the audience sees; the person creating the visualization cultivates a perspective to argue the claim. The data is at the heart of this argument, but how the data visualizer presents it to the audience may or may not include the whole story or the most truthful story. Furthermore, while this challenge to show different perspectives proposed by the article clearly should be undertaken by data visualizers for the ethical good; when the goal of a data visualizer is to persuade his/her audience to accept the visualizer’s perspective, being fair and thorough in considering the other side of the argument may contradict the data visualizer’s objective.  
 
 Of course, the challenge posed by the tug-of-war between ethics and utility ( not to say that they are always contradictory in nature)  remains central in many sciences, including the data sciences, and it makes the discussion of finding a balance between the two all the more important.
-
-
-## Data Visualization: A Tool for Social Change in Cities 
-[@socialchange]
-
-One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities. With the development of a city, demographic changes, economic, environmental and social problems become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face, and engaging citizens to work toward their dream cities.
-
-Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a 'horizontal governance'. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.
-
-A great Urban Data Visualization ought to have the capacity to start "Sociological Imagination". It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion.
-
-As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.
 
 ## Ethical Theory and Practice from Journalism and Engineering  
 [@poli_social_science]
@@ -129,9 +155,9 @@ Now let's talk about data visualization, the latest fashion in numerate journali
 
 Data visualization creates powerful, elegant images from complex data. It's like good prose: a pleasure to experience and a force for good in the right hands, but also seductive and potentially deceptive. Because we have less experience of data visualization than of rhetoric, we are naive, and allow ourselves to be dazzled. Too much data visualization is the statistical equivalent of dazzle camouflage: striking looks grab our attention but either fail to convey useful information or actively misdirect us.
 
-For a relatively harmless example, consider The New Yorker's recent online subway map of inequality. "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
+For a relatively harmless example, consider The New Yorker's recent online [subway map of inequality](https://projects.newyorker.com/story/subway/). "New York has a problem with inequality," we are told. Then we are invited to click on different subway maps to see a cross-sectional graph, showing us the peaks and troughs of median income along different subway lines. The result is gorgeous but far less informative than a map would have been. It is a piece of art pretending to be a piece of statistical analysis.
 
-A more famous example is David McCandless's unforgettable animation "Debtris", in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
+A more famous example is David McCandless's unforgettable animation ["Debtris"](https://informationisbeautiful.net/2010/debtris/), in which large blocks fall slowly against an eight-bit soundtrack in homage to the addictive computer game Tetris. Their size indicates their dollar value. "\$60bn: estimated cost of Iraq war in 2003" is followed by "\$3000bn: estimated total cost of Iraq war", and then Walmart's revenue, the UN's budget, the cost of the financial crisis, and much else.
 
 The animation is pure dazzle camouflage. Statistical apples are compared with statistical oranges throughout. The Iraq comparison, for instance, is not one of "then versus now" as it first appears - but one of what the US Department of Defense once thought it would spend versus a broader estimate, including a financial value on the lives of dead soldiers, and over a trillion dollars of "macroeconomic costs". The war was a disaster- No need for a statistical bait-and-switch to make that case.
 
@@ -186,17 +212,44 @@ The above pointers are helpful when analyzing a deceptive version of a data prod
 
 Misleading graphs are sometimes deliberately misleading and sometimes, it’s just a case of people not understanding the data behind the graph they create [@andale_2014]. But some real-life misleading graphs go above and beyond the classic types. Some are intended to mislead, others are intended to shock. The “classic” types of misleading graphs include cases such as:
 
-### The Missing Baseline  
-For example, the vertical scale is too big or too small, skips numbers, or does not start at zero. For example, in the graph below, you might be thinking that the graph on the right shows that The Times makes double the sales of The Daily Telegraph. However, a closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
+### The Missing Baseline
 
-### The Graph is not Labeled Properly  
+In the data visualization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y-axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change. Truncated graphs are useful in illustrating small differences, and may also be truncated to save space. Commercial software such as MS Excel tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs makes a small difference look like a huge one, thereby changing the readers' judgement 
+
+An example of using good data in a misleading graph to fool readers comes from Fox News.
+![](images/1.png)
+
+(Source:[@datamining_vs_viz])
+
+Other examples are the vertical scale being too big or too small, skipping numbers, but most often not start at zero. In the graph below, you might be thinking that the column on the right shows that The Times makes double the sales of The Daily Telegraph. A closer look at the scale reveals that although The Times does make more sales, it is only beating the competition by about 10%.
+
+![Misleading Graphs: The Missing Baseline](images/misleading-graph-2.jpg)
+
+(source:[@missing_baseline])
+
+### The Graph is not Labeled Properly
+
+![](images/common-injuries.png)
+
+(source:[@missing_baseline])
+
 A graph may have the correct figures but still mislead its audience. This one used a big headline that suggests to its audience that 5.3% of children get spinal cord injuries, which is a pretty scary statistic for parents. But the real figure is about .0000003% (based on 2000 injuries per year out of a population of around 74,000,000). And for the figure 1 used in this article, "Misleading Graphs: Displaying a Change in One Variable Using Area or Volume" [@scaling_issues], the label for the smaller triangle in this graph says \$26.4 while the label for the larger triangle says \$114.6. \$114.6 is 4.34 times \$26.4. It certainly looks to me as if more than 4.34 smaller triangles will fit in the larger triangle. It is the altitudes of the triangles that are proportional to the numbers in the labels. 
 
-### Data is Left Out  
-Including only a part of the data is also an easy opportunity to mislead. The following graph uses temperatures of only the first half of the year to prove it was rising dramatically. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
+### Data is left Out
+Hiding relevant data or highlighting a particular data point (cherry-picking data) can lead learners to focus on a small fraction of the data story—at the expense of accurate understanding of the bigger picture. Any individual parameter or statistic can reveal interesting or useful information. But taken out of context, it can also be misleading. For more examples and inspirations on misleading or deceptive graphs refer the following articles:
 
+* Not including all the dimensions of data: [@hiding_data]
 * Bar charts without zero & evenly spaced tick marks for uneven intervals: [@whats_wrong]
-* Graphs not drawn to scale:[@scaling_issues] 
+* Graphs not drawn to scale:[@scaling_issues]
+
+### Presenting too much data
+A lot of graphs present so much data that that the message is lost. Showing the big picture can make it hard to identify salient data or stories. [@hiding_data]. The number of lines in the below visualization makes it hard to isolate any one fact or trend.
+
+![](images/many_lines.png)
+
+
+
+
 
 ### Treating Correlation as Causation  
 Even if the labels and data in your graph are correct, the conclusion is not necessarily logically correct. A correlation between X and Y does not automatically indicate that the change in one variable is caused by the change in the values of the other one, i.e. correlation does not imply causation. Viewers should bear in mind that such visuals only present the correlation between ice cream sold and murders, not than causation.
@@ -217,15 +270,10 @@ While not technically wrong, improper extraction, tactic omitting data or includ
 
 ![](images/Bad_graph_extraction.png)
 
-Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure,  ethical procedures need to be practiced throughout all the steps of visualization.
+Visualizations should be simple and easy to understand, but at the same time they should contain the essence of responsible visualization. To make final results pure, ethical procedures need to be practiced throughout all the steps of visualization.
 ![](images/Good_graph_extraction.png)
 
-In the data visualization terms, we call it truncated graph. A truncated graph (also known as a torn graph) has a y-axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.Truncated graphs are useful in illustrating small differences.[16] Graphs may also be truncated to save space. Commercial software such as MS Excel tend to truncate graphs by default if the values are all within a narrow range. Truncating graphs makes a small difference look like a huge one, thereby changing the readers' judgement 
-
-An example of using good data in a misleading graph to fool readers comes from Fox News.
-![](images/1.png)
-
-(Source:[@datamining_vs_viz])
+## The Data Visualization Hippocratic Oath
 
 The question of ethics in data visualization is not something that comes to the fore when we start working. It is rarely the case that one sets out to deceive without altering data. The topic of good ethics in data visualization is very important and it is the duty of the creator to take care of it.
 

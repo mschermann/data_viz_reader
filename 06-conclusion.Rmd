@@ -1,15 +1,16 @@
 # Conclusion
 
-As we conclude our brief survey of data visualization, it is clear that the field is rich in potential applications in diverse disciplines, as well as in practical and ethical complexities to be aware of. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. The journey from raw data to successful data visualization involves representing the data of interest, processing the data to extract relevant information for the desired argument, designing a mapping of this information to a visual representation, rendering this representation, and combining all this functionality in an easy-to-use product.
+As we conclude our brief study on data visualization, it is clear that the field is rich in potential applications in diverse disciplines, at the same time we need to be aware of its practical and ethical complexities. In the previous chapters, we have presented some important theoretical and practical principles to keep in mind when designing a data visualization. We have also discussed and critiqued several examples of data visualizations, learning common pitfalls and helpful tricks along the way. As we have seen, developing an effective and ethical data visualization is a complex process. In this chapter we will touch upon the future of data visualization and additional resources for data visualizers.
 
 ## The Future of Data Visualization
+
 @future_viz
 
 Data visualization is entering a new era. Emerging sources of intelligence, theoretical developments and advances in multidimensional imaging are reshaping the potential value that analytics and insights can provide, with visualization playing a key role. The principles of effective data visualization won’t change. However, nextgen technologies and evolving cognitive frameworks are opening new horizons, moving data visualization from art to science.
 
 Looking back, much attention has been given to the principles of effective data visualization, such as substance, context and actionability. As timeless tenets that will continue to be important, regardless of medium or format, a brief review seems in order:
 
-* **As with any form of communication, effectively conveying a message with data requires that it be substantive.** And while creative visuals can enhance interest and memory, embellishment can’t make up for lack of substance. According to purist Edward Tufte, “Every single pixel should testify directly to content.”
+* **Effective data visualization should be substantive** And while creative visuals can enhance interest and memory, embellishment can’t make up for lack of substance. According to purist Edward Tufte, “Every single pixel should testify directly to content.”
 
 * **Visualization should be accurate and contextual.** David McCandless’s Billion Dollar O’Gram provides an example of how greater meaning can be added by incorporating the bigger picture. According to McCandless, “Absolute figures in a connected world don’t give you the whole picture. They’re not as true as they could be. We need relative figures that are connected to other data so that we can see a fuller picture.” 
 
@@ -17,9 +18,11 @@ Looking back, much attention has been given to the principles of effective data 
 
 (Source: @future_viz)
 
-* **More than anything else, data visualization should facilitate decision-making**, a goal that is difficult to achieve for many. According to a recent KPMG study, while data and analytics are deemed increasingly important to organizations, generating actionable insights remains a top challenge.
+* **More than anything else, data visualization should facilitate decision-making**, a goal that is difficult to achieve for many. According to a recent [KPMG study][@kpmg], while data and analytics are deemed increasingly important to organizations, generating actionable insights remains a top challenge.
 
-Looking forward, nextgen technologies and evolving cognitive frameworks will boost the role that data visualization can play in organizations and society. Consider the Internet of Things, Network and Complexity Theories, and recent developments in multidimensional visualization:
+### Recent Developments
+
+Consider the Internet of Things, Network and Complexity Theories, and recent developments in multidimensional visualization, we can clearly see how data visualization has evolved along with the field.
 
 The Internet has transformed the way we visualize information through a better understanding of networks and an explosion in profile, behavioral and attitudinal data. Sociograms, for example, have gone from relatively simple graphs to multifaceted relational maps, as illustrated in the following two charts, courtesy of the Journal of Social Structure and the Leadership Learning Community.
 
@@ -35,30 +38,24 @@ The Internet of Things is expected to have a similar impact, with billions of co
 
 Network Theory has been in use for decades, with its earliest applications largely in social structure analysis. More recently, Network Theory is being applied to understand relationships and interactions in a variety of domains, such as crime prevention and disease management. Dirk Brockmann and Dirk Helbling’s work modeling the spread of infectious diseases provides an example of the power that Network Theory holds.
 
+### Future Direction
+
+@future_viz
+As the world becomes increasingly interconnected and interdependent, opportunities to generate value through data visualization will only increase. The Internet of Things will have a profound effect on the role that data visualization can play in organizations and society, improving our ability to understand how humans and machines interact with each other and the environment. Application of evolving cognitive frameworks, such as Network and Complexity Theories, will help us better reflect dynamic and intricate structural dependencies. Advances in multidimensional visualization will allow us to more effectively synthesize and explore spatiotemporal conditions.
+
+Below are the salient points from the Data Visualization Summit 2016 (Source:@speaker_notes) key note address highlighting the future of data visualization.
+
++ Supporting big data 3 Vs at scale: like 100X for Volume, 10X for Velocity, 5X for Variety.
++ The end-to-end set up time will be much shorter, the learning curve to be a data viz expert would be within days.
++ More flexible user interfaces with easier ways to surface complicated cases w/o any further advanced coding for discovering the underlying knowledge and relationships, such as social graphing, 3+ dimensional graphing, etc.
++ More integration could happen here, such as new intelligent features in data viz application for predictive modeling, pattern discovery, automatic alerting, etc.
++ Given the recent crazy popularity in AR technology for Pokemon Go, interesting data viz application to support AR or VR will soon become available
+
+With more and more data, the field of Data Science is challenged with the task of making meaningful sense out of the data. Data visualization tools slice and dice the data and present insights to scientists and data visualization will be the center piece in the analytics domain. Few of the fields which are really pushing its limits are Artificial Intelligence, Virtual Reality, Augmented Reality and Real Time Analytics based on Live Streaming data. An interesting article on the future of data visualization in the year 2019 and beyond (Source:@depictdatastudio) based on a survey from the data visualization community. 
+
 ## Key Lessons Going Forward
 
-* **Don’t try to be too cute.** Using all the fancy features of a visualization tool can lead to complex and confusing graphics. Just because you have a flashy hammer, it does not mean that everything is a nail. Don’t lose your purpose in your infatuation with a new tool or feature. Stick to good design principles, and keep it simple (as was mentioned in the discussion about Patterns).
-
-* **Don’t provide more data than you need to tell your story.** Humans have a tendency to want to create visualizations with multi-drill downs, filters, and tables. This is fine for ad hoc analysis, but if we are presenting a visual with a single story or argument, we must make sure every piece of data included plays a meaningful part in the story.
-
-* **Have more data to show what-ifs.** A great way to provide more information in a visualization is to use filters to provide what-if views. Having filters for different scenarios, options, and time slices provide the user a way to review and discover various perspectives on your data. Just make sure the user does not have to work too hard to get there and that they do not get lost in the data.
-
-* **Deliver value in your visualization.** Many graphs may be aesthetically pleasing or exciting but deliver no value. A graph with good value should deliver important insights to aid decision-making or prompt an action. Keep in mind, the main objective of a visualization is to deliver value, and each design decision should help achieve this.
- 
-* **Understanding your audience is the most difficult and important part of developing a visualization.** Different audiences will feel differently about the same chart. So when we develop the argument from the data, we should keep our intended audience in mind.
-
-* **Share what you have found.** A visualization can be an effective influencer if used in the correct way and at the correct time. 
-
-
-* **Think as author / reader** When designing the graph, try to stand at the reader side, to check whether the graph is make sense or is there any misleading happening? as a reader, sometimes need stand at the author side, you need to detect is there any visualization deception in the graph, before making any conclusion, understand very details and information the graph provided, legend, caption, numbers, etc. 
-
-* **Do Calculations** Represent the data accurately is necessary, but sometime the original data cannot strongly support your main thesis. Some extra calcuation based on the original dataset could make your idea more clearly.
-
-
-**It should be ethical Visualization**: 
-Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used to mislead either unintentionally or intentionally. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. So, certain standards should be followed in order to generate meaningful, accurate and ethical visuals
-
-**Laying the groundwork for data visualization**  
+### Laying the groundwork for data visualization 
 
 [@why_dataviz_matters]  
 Before implementing new technology, there are some steps you need to take. Not only do you need to have a solid grasp on your data, you also need to **understand your goals, needs and audience.** Preparing your organization for data visualization technology requires that you first:  
@@ -70,7 +67,7 @@ Before implementing new technology, there are some steps you need to take. Not o
 
 Once you've answered those initial questions about the type of data you have and the audience who'll be consuming the information, you need to prepare for the amount of data you'll be working with. Big data brings new challenges to visualization because large volumes, different varieties and varying velocities must be taken into account. Plus, data is often generated faster that it can be managed and analyzed.  
 
-**How Is It Being Used?**  
+### How Is It Being Used?
 [@why_dataviz_matters]  
 Regardless of industry or size, all types of businesses are using data visualization to help make sense of their data. Here’s how.
 
@@ -85,6 +82,38 @@ Using data visualization to discover trends – both in the business and in the 
 
 **Communicate the story to others**  
 Once a business has uncovered new insights from visual analytics, the next step is to communicate those insights to others. Using charts, graphs or other visually impactful representations of data is important in this step because it’s engaging and gets the message across quickly.
+
+**Improved collaboration among work teams**
+Data visualization makes it easier to gain vital information, identify trends, collaborate at a likeminded pace, and from there put decisions to action — all with much greater speed than is generally allowed by presentations that lack the proper visual tools.
+
+**Establish Clear Correlation Between Business Operations And Activities**
+Since the data is visualized in a highly comprehensive and interactive manner, establishing existing or possible correlations between various business operations comes in easy here. This gives business leaders a clear insight into business performance and needs for further strategies.
+Data visualization allows decision makers to make sense out of the visible patterns and parallel operations in terms of the overall business performance. It also allows them to establish a correlation between the daily tasks and the long-term outcomes for these in terms of business performance.
+
+
+###Helpful tips for a good visualization
+* **Don’t try to be too cute.** Using all the fancy features of a visualization tool can lead to complex and confusing graphics. Just because you have a flashy hammer, it does not mean that everything is a nail. Don’t lose your purpose in your infatuation with a new tool or feature. Stick to good design principles, and keep it simple (as was mentioned in the discussion about Patterns).
+
+* **Don’t provide more data than you need to tell your story.** Humans have a tendency to want to create visualizations with multi-drill downs, filters, and tables. This is fine for ad hoc analysis, but if we are presenting a visual with a single story or argument, we must make sure every piece of data included plays a meaningful part in the story.
+
+* **Have more data to show what-ifs.** A great way to provide more information in a visualization is to use filters to provide what-if views. Having filters for different scenarios, options, and time slices provide the user a way to review and discover various perspectives on your data. Just make sure the user does not have to work too hard to get there and that they do not get lost in the data.
+
+* **Deliver value in your visualization.** Many graphs may be aesthetically pleasing or exciting but deliver no value. A graph with good value should deliver important insights to aid decision-making or prompt an action. Keep in mind, the main objective of a visualization is to deliver value, and each design decision should help achieve this.
+ 
+* **Understanding your audience is the most difficult and important part of developing a visualization.** Different audiences will feel differently about the same chart. So when we develop the argument from the data, we should keep our intended audience in mind.
+
+* **Share what you have found.** A visualization can be an effective influencer if used in the correct way and at the correct time. 
+
+
+* **Think as author / reader** When designing graphs, try to stand at the reader side, to check whether the graph is making sense or if there is any misleading information being showcased. As a reader, one needs to detect if there is any visualization deception in the graph. Before making any conclusion, understanding details and information the graph is providing like legend, caption, numbers, etc. is important. 
+
+* **Do Calculations** Accurate representation of data is necessary. Sometimes the original data cannot strongly support the main thesis. In that case, some extra calcuations based on the original dataset could make the idea more clear.
+
+
+**It should be ethical Visualization**: 
+Research has found that even if viewers do not support an idea, data presented in charts can persuade viewers on the subject matter. It means that visualization can also be used to mislead either unintentionally or intentionally. Misleading, incomprehensible, or incredible data visualization can jeopardize people's trust, goodwill, or faith in research and advocacy on vital human rights issues. So, certain standards should be followed in order to generate meaningful, accurate and ethical visuals.
+
+
 
 
 
@@ -108,7 +137,61 @@ The field of data visualization is huge, and the capability of linking storytell
 * Tableau Software Fans & Friends: LinkedIn Group (45k members)
 
 
+
 [Describe Artists with Emoji](https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured). Using the data from Spotify, the author listed the 10 most distinctive emoji used in the playlists related to popular artists. The table being used in this visual is very straight-forward to link artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented. 
+
+
+**Anaconda Python for visualization [@Python2019]:**
+
+Anaconda Python provides different packages that can help with more robust data sets and provide different packages that can offer a variety of visualization solutions[@Python2019].
+
+**Bokeh**
+One of them is Bokeh an open source interactive visualization for Python [@Bokeh]
+.	Elegant, concise versatile graphics
+.	High performance interactivity over large streaming data sets
+.	Easily create interactive plots, dashboard and data applications
+
+**Matplot [@Matplot]** 
+
+Is a Python 2D plotting library and object oriented.
+This package can do the following:
+.	Lines, bars and markers
+.	Images, contours and fields
+.	Statistics graphs
+.	Pie and polar charts
+.	Text, labels and annotations
+.	Pyplot
+.	Others
+Other packages: Datashader & Holoviews
+Anaconda community [@Python2019] provides many solution and resources for all visualization packages.
+
+
+**Altair**
+Altair is a declarative statistical visualization library for Python [@Altair]
+There are gallerries and it is a powerful and concise visualization tool.
+
+
+
+### D3.js Community
+
+**D3** stands for **Data-Driven Documents**.The best place to start with D3.js (version 5.9.2) is the D3.js official portal itself (https://d3js.org/ ). It has features like:
+
+* Introduction, with the help of code snippets.
+* Installation guide.
+* Features guide.
+* It also has a reference guide.
+* Newsletters.
+* Blogs which introduces D3.js with examples.
+* Video lectures which makes the learning experience more interesting.
+
+D3.js has a large and growing presence on **GitHub** .One can find,clone and use all the needed materials. The content is as follows :
+
+* It has a source repository(https://github.com/d3/d3) which allows users to clone ad use the packages. 
+* It links you to vaious othrer platforms for discussion like:**stack overflow**(https://stackoverflow.com/questions/tagged/d3.js),**Google Group**(https://groups.google.com/forum/#!forum/d3-js),**Slack**(https://d3js.slack.com/).
+* It has an extensive tutorials repository on GitHub (https://github.com/d3/d3/wiki/Tutorials).
+* It also has a Gallery on GitHub with code snippets for each visualization(https://github.com/d3/d3/wiki/Gallery)
+* Links to official (https://github.com/d3/d3/blob/master/API.md) and community based modules(https://www.npmjs.com/search?q=keywords:d3-module) for D3.js .
+
 
 ### Blogs
 

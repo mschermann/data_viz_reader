@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>A Reader on Data Visualization</title>
+  <title>Chapter 4 Case Studies | A Reader on Data Visualization</title>
   <meta name="description" content="This is the class reader for MSIS 2629.">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="A Reader on Data Visualization" />
+  <meta property="og:title" content="Chapter 4 Case Studies | A Reader on Data Visualization" />
   <meta property="og:type" content="book" />
   
   
@@ -17,15 +17,15 @@
   <meta name="github-repo" content="mschermann/data_viz_reader" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="A Reader on Data Visualization" />
+  <meta name="twitter:title" content="Chapter 4 Case Studies | A Reader on Data Visualization" />
   
   <meta name="twitter:description" content="This is the class reader for MSIS 2629." />
   
 
-<meta name="author" content="MSIS 2629 Spring 2018">
+<meta name="author" content="MSIS 2629 Spring 2019">
 
 
-<meta name="date" content="2018-06-10">
+<meta name="date" content="2019-05-13">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="patterns.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -50,41 +51,67 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -110,32 +137,27 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-is-data-visualization"><i class="fa fa-check"></i><b>2.1</b> What is Data Visualization?</a></li>
-<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#importance-of-data-visualization"><i class="fa fa-check"></i><b>2.2</b> Importance of Data Visualization</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="introduction.html"><a href="introduction.html#increased-value-for-increasing-volume-of-data"><i class="fa fa-check"></i><b>2.2.1</b> Increased Value for Increasing Volume of Data</a></li>
-<li class="chapter" data-level="2.2.2" data-path="introduction.html"><a href="introduction.html#understanding-concepts-that-are-difficult-to-contextualize"><i class="fa fa-check"></i><b>2.2.2</b> Understanding Concepts that are Difficult to Contextualize</a></li>
-<li class="chapter" data-level="2.2.3" data-path="introduction.html"><a href="introduction.html#revealing-small-and-interesting-patterns"><i class="fa fa-check"></i><b>2.2.3</b> Revealing Small and Interesting Patterns</a></li>
-<li class="chapter" data-level="2.2.4" data-path="introduction.html"><a href="introduction.html#easier-decision-making-in-healthcare"><i class="fa fa-check"></i><b>2.2.4</b> Easier Decision-making in Healthcare</a></li>
-<li class="chapter" data-level="2.2.5" data-path="introduction.html"><a href="introduction.html#law-enforcement-and-fraud-detection"><i class="fa fa-check"></i><b>2.2.5</b> Law Enforcement and Fraud Detection</a></li>
-<li class="chapter" data-level="2.2.6" data-path="introduction.html"><a href="introduction.html#design-and-data-literacy"><i class="fa fa-check"></i><b>2.2.6</b> Design and Data Literacy</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#history-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> History of Data Visualization</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#brief-history"><i class="fa fa-check"></i><b>2.3.1</b> Brief history</a></li>
-<li class="chapter" data-level="2.3.2" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.2</b> Key Figures in the History of Data Visualization</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#importance-of-data-exploration"><i class="fa fa-check"></i><b>2.2</b> Importance of Data Exploration</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#importance-of-data-visualization"><i class="fa fa-check"></i><b>2.3</b> Importance of Data Visualization</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="introduction.html"><a href="introduction.html#key-figures-in-the-history-of-data-visualization"><i class="fa fa-check"></i><b>2.3.1</b> Key Figures in the History of Data Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#contemporary-visualists"><i class="fa fa-check"></i><b>2.4</b> Contemporary Visualists</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="introduction.html"><a href="introduction.html#hans-rosling"><i class="fa fa-check"></i><b>2.4.1</b> Hans Rosling</a></li>
 <li class="chapter" data-level="2.4.2" data-path="introduction.html"><a href="introduction.html#david-mccandless"><i class="fa fa-check"></i><b>2.4.2</b> David McCandless</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#an-example-to-back-some-of-our-theories-on-how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization"><i class="fa fa-check"></i><b>2.5</b> An example to back some of our theories on ‘how to tell stories using data visualization’ and ‘exploratory data visualization’</a></li>
+<li class="chapter" data-level="2.5" data-path="introduction.html"><a href="introduction.html#how-to-tell-stories-using-data-visualization-and-exploratory-data-visualization-theory-example"><i class="fa fa-check"></i><b>2.5</b> How to tell stories using data visualization’ and ‘exploratory data visualization’ theory example</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="introduction.html"><a href="introduction.html#a-cool-website-mit-media-lab"><i class="fa fa-check"></i><b>2.5.1</b> A cool website: MIT Media Lab</a></li>
+<li class="chapter" data-level="2.5.2" data-path="introduction.html"><a href="introduction.html#standing-out-categorization-of-information-on-the-website."><i class="fa fa-check"></i><b>2.5.2</b> Standing out categorization of information on the website.</a></li>
+<li class="chapter" data-level="2.5.3" data-path="introduction.html"><a href="introduction.html#automatic-visualization-vs.context-specific-visualization"><i class="fa fa-check"></i><b>2.5.3</b> Automatic visualization vs. context-specific visualization</a></li>
+<li class="chapter" data-level="2.5.4" data-path="introduction.html"><a href="introduction.html#data-analytics-software"><i class="fa fa-check"></i><b>2.5.4</b> Data analytics software</a></li>
+<li class="chapter" data-level="2.5.5" data-path="introduction.html"><a href="introduction.html#data-visualization-cant-explain-data-leaving-room-for-interpretation."><i class="fa fa-check"></i><b>2.5.5</b> Data visualization can’t explain data, leaving room for interpretation.</a></li>
+<li class="chapter" data-level="2.5.6" data-path="introduction.html"><a href="introduction.html#one-great-tool-d3.js."><i class="fa fa-check"></i><b>2.5.6</b> One great tool: D3.js.</a></li>
+</ul></li>
 <li class="chapter" data-level="2.6" data-path="introduction.html"><a href="introduction.html#additional-resources-for-aspiring-data-visualists"><i class="fa fa-check"></i><b>2.6</b> Additional Resources for Aspiring Data Visualists</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="introduction.html"><a href="introduction.html#tableau-community"><i class="fa fa-check"></i><b>2.6.1</b> Tableau Community</a></li>
 <li class="chapter" data-level="2.6.2" data-path="introduction.html"><a href="introduction.html#blogs"><i class="fa fa-check"></i><b>2.6.2</b> Blogs</a></li>
-<li class="chapter" data-level="2.6.3" data-path="introduction.html"><a href="introduction.html#useful-links-on-data-visualization-resources-trends-and-tutorials"><i class="fa fa-check"></i><b>2.6.3</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
-<li class="chapter" data-level="2.6.4" data-path="introduction.html"><a href="introduction.html#infographics-vs.data-visualizations"><i class="fa fa-check"></i><b>2.6.4</b> Infographics vs. Data Visualizations</a></li>
-</ul></li>
-<li class="chapter" data-level="2.7" data-path="introduction.html"><a href="introduction.html#contemporary-visualists-1"><i class="fa fa-check"></i><b>2.7</b> Contemporary Visualists</a><ul>
-<li class="chapter" data-level="2.7.1" data-path="introduction.html"><a href="introduction.html#hans-rosling-1"><i class="fa fa-check"></i><b>2.7.1</b> Hans Rosling</a></li>
-<li class="chapter" data-level="2.7.2" data-path="introduction.html"><a href="introduction.html#david-mccandless-1"><i class="fa fa-check"></i><b>2.7.2</b> David McCandless</a></li>
+<li class="chapter" data-level="2.6.3" data-path="introduction.html"><a href="introduction.html#podcasts"><i class="fa fa-check"></i><b>2.6.3</b> Podcasts</a></li>
+<li class="chapter" data-level="2.6.4" data-path="introduction.html"><a href="introduction.html#useful-links-on-data-visualization-resources-trends-and-tutorials"><i class="fa fa-check"></i><b>2.6.4</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="fundamentals.html"><a href="fundamentals.html"><i class="fa fa-check"></i><b>3</b> Fundamentals</a><ul>
@@ -146,38 +168,43 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3.1.4" data-path="fundamentals.html"><a href="fundamentals.html#common-mistakes-to-avoid"><i class="fa fa-check"></i><b>3.1.4</b> Common Mistakes to Avoid:</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="fundamentals.html"><a href="fundamentals.html#best-practices"><i class="fa fa-check"></i><b>3.2</b> Best Practices</a><ul>
-<li class="chapter" data-level="3.2.1" data-path="fundamentals.html"><a href="fundamentals.html#determine-the-story-with-insights"><i class="fa fa-check"></i><b>3.2.1</b> Determine the Story with Insights</a></li>
+<li class="chapter" data-level="3.2.1" data-path="fundamentals.html"><a href="fundamentals.html#telling-a-story-with-insights."><i class="fa fa-check"></i><b>3.2.1</b> Telling a Story with Insights.</a></li>
 <li class="chapter" data-level="3.2.2" data-path="fundamentals.html"><a href="fundamentals.html#how-to-choose-the-best-form-of-visualization"><i class="fa fa-check"></i><b>3.2.2</b> How to choose the best form of Visualization</a></li>
 <li class="chapter" data-level="3.2.3" data-path="fundamentals.html"><a href="fundamentals.html#analyze-and-interpret"><i class="fa fa-check"></i><b>3.2.3</b> Analyze and Interpret</a></li>
 <li class="chapter" data-level="3.2.4" data-path="fundamentals.html"><a href="fundamentals.html#document-your-insights-and-steps"><i class="fa fa-check"></i><b>3.2.4</b> Document Your Insights and Steps</a></li>
 <li class="chapter" data-level="3.2.5" data-path="fundamentals.html"><a href="fundamentals.html#transform-data"><i class="fa fa-check"></i><b>3.2.5</b> Transform Data</a></li>
 <li class="chapter" data-level="3.2.6" data-path="fundamentals.html"><a href="fundamentals.html#adapt-your-story-to-a-different-set-of-audiences"><i class="fa fa-check"></i><b>3.2.6</b> Adapt your story to a different set of audiences</a></li>
-<li class="chapter" data-level="3.2.7" data-path="fundamentals.html"><a href="fundamentals.html#more-on-best-practices"><i class="fa fa-check"></i><b>3.2.7</b> More on Best Practices</a></li>
+<li class="chapter" data-level="3.2.7" data-path="fundamentals.html"><a href="fundamentals.html#developing-intuitive-dashboards"><i class="fa fa-check"></i><b>3.2.7</b> Developing Intuitive Dashboards</a></li>
+<li class="chapter" data-level="3.2.8" data-path="fundamentals.html"><a href="fundamentals.html#more-on-best-practices"><i class="fa fa-check"></i><b>3.2.8</b> More on Best Practices</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-tools"><i class="fa fa-check"></i><b>3.3</b> Data Visualization Tools</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="fundamentals.html"><a href="fundamentals.html#brief-description-of-popular-tools"><i class="fa fa-check"></i><b>3.3.1</b> Brief Description of popular tools</a></li>
-<li class="chapter" data-level="3.3.2" data-path="fundamentals.html"><a href="fundamentals.html#interactive-data-visualization"><i class="fa fa-check"></i><b>3.3.2</b> Interactive Data Visualization</a></li>
-<li class="chapter" data-level="3.3.3" data-path="fundamentals.html"><a href="fundamentals.html#python-for-data-visualization10-useful-python-data-visualization-libraries"><i class="fa fa-check"></i><b>3.3.3</b> Python for Data Visualization：10 Useful Python Data Visualization Libraries</a></li>
-<li class="chapter" data-level="3.3.4" data-path="fundamentals.html"><a href="fundamentals.html#r-for-data-visualization-grammar-of-graphics"><i class="fa fa-check"></i><b>3.3.4</b> R for Data Visualization: Grammar of Graphics</a></li>
-<li class="chapter" data-level="3.3.5" data-path="fundamentals.html"><a href="fundamentals.html#r-shiny"><i class="fa fa-check"></i><b>3.3.5</b> R Shiny</a></li>
-<li class="chapter" data-level="3.3.6" data-path="fundamentals.html"><a href="fundamentals.html#d3.js"><i class="fa fa-check"></i><b>3.3.6</b> D3.js</a></li>
-<li class="chapter" data-level="3.3.7" data-path="fundamentals.html"><a href="fundamentals.html#tableau"><i class="fa fa-check"></i><b>3.3.7</b> Tableau</a></li>
-<li class="chapter" data-level="3.3.8" data-path="fundamentals.html"><a href="fundamentals.html#google-chart"><i class="fa fa-check"></i><b>3.3.8</b> Google chart</a></li>
+<li class="chapter" data-level="3.3" data-path="fundamentals.html"><a href="fundamentals.html#dashboards"><i class="fa fa-check"></i><b>3.3</b> Dashboards</a></li>
+<li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-tools"><i class="fa fa-check"></i><b>3.4</b> Data Visualization Tools</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="fundamentals.html"><a href="fundamentals.html#brief-description-of-popular-tools"><i class="fa fa-check"></i><b>3.4.1</b> Brief Description of popular tools</a></li>
+<li class="chapter" data-level="3.4.2" data-path="fundamentals.html"><a href="fundamentals.html#interactive-data-visualization"><i class="fa fa-check"></i><b>3.4.2</b> Interactive Data Visualization</a></li>
+<li class="chapter" data-level="3.4.3" data-path="fundamentals.html"><a href="fundamentals.html#python-for-data-visualization10-useful-python-data-visualization-libraries"><i class="fa fa-check"></i><b>3.4.3</b> Python for Data Visualization：10 Useful Python Data Visualization Libraries</a></li>
+<li class="chapter" data-level="3.4.4" data-path="fundamentals.html"><a href="fundamentals.html#r-for-data-visualization-grammar-of-graphics"><i class="fa fa-check"></i><b>3.4.4</b> R for Data Visualization: Grammar of Graphics</a></li>
+<li class="chapter" data-level="3.4.5" data-path="fundamentals.html"><a href="fundamentals.html#r-shiny"><i class="fa fa-check"></i><b>3.4.5</b> R Shiny</a></li>
+<li class="chapter" data-level="3.4.6" data-path="fundamentals.html"><a href="fundamentals.html#d3.js"><i class="fa fa-check"></i><b>3.4.6</b> D3.js</a></li>
+<li class="chapter" data-level="3.4.7" data-path="fundamentals.html"><a href="fundamentals.html#tableau"><i class="fa fa-check"></i><b>3.4.7</b> Tableau</a></li>
+<li class="chapter" data-level="3.4.8" data-path="fundamentals.html"><a href="fundamentals.html#tabpy"><i class="fa fa-check"></i><b>3.4.8</b> TabPy</a></li>
+<li class="chapter" data-level="3.4.9" data-path="fundamentals.html"><a href="fundamentals.html#google-chart"><i class="fa fa-check"></i><b>3.4.9</b> Google chart</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="fundamentals.html"><a href="fundamentals.html#special-topics"><i class="fa fa-check"></i><b>3.4</b> Special Topics</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>3.4.1</b> Data Mining and Data Visualization</a></li>
-</ul></li>
-<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data visualization in Business</a><ul>
+<li class="chapter" data-level="3.5" data-path="fundamentals.html"><a href="fundamentals.html#data-visualization-in-business"><i class="fa fa-check"></i><b>3.5</b> Data Visualization in Business</a><ul>
 <li class="chapter" data-level="3.5.1" data-path="fundamentals.html"><a href="fundamentals.html#data-visualizations-in-industry"><i class="fa fa-check"></i><b>3.5.1</b> Data Visualizations in Industry</a></li>
 <li class="chapter" data-level="3.5.2" data-path="fundamentals.html"><a href="fundamentals.html#how-visualization-impacts-industrybusiness"><i class="fa fa-check"></i><b>3.5.2</b> How visualization impacts Industry/business</a></li>
 <li class="chapter" data-level="3.5.3" data-path="fundamentals.html"><a href="fundamentals.html#corporate-scorecards-and-data-visualization"><i class="fa fa-check"></i><b>3.5.3</b> Corporate Scorecards and Data Visualization</a></li>
+<li class="chapter" data-level="3.5.4" data-path="fundamentals.html"><a href="fundamentals.html#demand-for-data-literacy"><i class="fa fa-check"></i><b>3.5.4</b> Demand for Data Literacy</a></li>
 </ul></li>
-<li class="chapter" data-level="3.6" data-path="fundamentals.html"><a href="fundamentals.html#special-topics-1"><i class="fa fa-check"></i><b>3.6</b> Special Topics</a><ul>
-<li class="chapter" data-level="3.6.1" data-path="fundamentals.html"><a href="fundamentals.html#typography-and-data-visualization"><i class="fa fa-check"></i><b>3.6.1</b> Typography and Data Visualization</a></li>
-<li class="chapter" data-level="3.6.2" data-path="fundamentals.html"><a href="fundamentals.html#infographics-vs.data-visualizations-1"><i class="fa fa-check"></i><b>3.6.2</b> Infographics vs. Data Visualizations</a></li>
-<li class="chapter" data-level="3.6.3" data-path="fundamentals.html"><a href="fundamentals.html#handbooks-to-improve-your-visualization-design"><i class="fa fa-check"></i><b>3.6.3</b> Handbooks to improve your visualization design</a></li>
+<li class="chapter" data-level="3.6" data-path="fundamentals.html"><a href="fundamentals.html#special-topics"><i class="fa fa-check"></i><b>3.6</b> Special Topics</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="fundamentals.html"><a href="fundamentals.html#data-mining-and-data-visualization"><i class="fa fa-check"></i><b>3.6.1</b> Data Mining and Data Visualization</a></li>
 </ul></li>
-<li class="chapter" data-level="3.7" data-path="fundamentals.html"><a href="fundamentals.html#contemporary-research-results-whats-next"><i class="fa fa-check"></i><b>3.7</b> Contemporary Research Results &amp; What’s Next</a></li>
+<li class="chapter" data-level="3.7" data-path="fundamentals.html"><a href="fundamentals.html#implications-of-good-data-visualization"><i class="fa fa-check"></i><b>3.7</b> Implications of Good Data Visualization</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="fundamentals.html"><a href="fundamentals.html#typography-and-data-visualization"><i class="fa fa-check"></i><b>3.7.1</b> Typography and Data Visualization</a></li>
+<li class="chapter" data-level="3.7.2" data-path="fundamentals.html"><a href="fundamentals.html#infographics-vs.data-visualizations"><i class="fa fa-check"></i><b>3.7.2</b> Infographics vs. Data Visualizations</a></li>
+<li class="chapter" data-level="3.7.3" data-path="fundamentals.html"><a href="fundamentals.html#developing-a-data-visualization-style"><i class="fa fa-check"></i><b>3.7.3</b> Developing a Data Visualization Style</a></li>
+<li class="chapter" data-level="3.7.4" data-path="fundamentals.html"><a href="fundamentals.html#handbooks-to-improve-your-visualization-design"><i class="fa fa-check"></i><b>3.7.4</b> Handbooks to improve your visualization design</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="fundamentals.html"><a href="fundamentals.html#contemporary-research-results-whats-next"><i class="fa fa-check"></i><b>3.8</b> Contemporary Research Results &amp; What’s Next</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
 <li class="chapter" data-level="4.1" data-path="case-studies.html"><a href="case-studies.html#introduction-1"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
@@ -195,12 +222,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="4.3.6" data-path="case-studies.html"><a href="case-studies.html#selfie-city"><i class="fa fa-check"></i><b>4.3.6</b> Selfie City</a></li>
 <li class="chapter" data-level="4.3.7" data-path="case-studies.html"><a href="case-studies.html#evolving-demographics"><i class="fa fa-check"></i><b>4.3.7</b> Evolving Demographics</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.4</b> Animated Data Visualization</a><ul>
-<li class="chapter" data-level="4.4.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.4.1</b> A Day in the Life of Americans</a></li>
-<li class="chapter" data-level="4.4.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.4.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
+<li class="chapter" data-level="4.4" data-path="case-studies.html"><a href="case-studies.html#visualizing-urban-data-for-social-change"><i class="fa fa-check"></i><b>4.4</b> Visualizing Urban Data for Social Change</a></li>
+<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#animated-data-visualization"><i class="fa fa-check"></i><b>4.5</b> Animated Data Visualization</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="case-studies.html"><a href="case-studies.html#a-day-in-the-life-of-americans"><i class="fa fa-check"></i><b>4.5.1</b> A Day in the Life of Americans</a></li>
+<li class="chapter" data-level="4.5.2" data-path="case-studies.html"><a href="case-studies.html#hans-roslings-200-countries-200-years-4-minutes"><i class="fa fa-check"></i><b>4.5.2</b> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.5</b> Dust in the Wind: Visualization and Environmental Problems</a></li>
-<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#environment-related-problems"><i class="fa fa-check"></i><b>4.6</b> Environment Related Problems</a><ul>
+<li class="chapter" data-level="4.6" data-path="case-studies.html"><a href="case-studies.html#dust-in-the-wind-visualization-and-environmental-problems"><i class="fa fa-check"></i><b>4.6</b> Dust in the Wind: Visualization and Environmental Problems</a><ul>
 <li class="chapter" data-level="4.6.1" data-path="case-studies.html"><a href="case-studies.html#global-carbon-emissions"><i class="fa fa-check"></i><b>4.6.1</b> Global Carbon Emissions</a></li>
 <li class="chapter" data-level="4.6.2" data-path="case-studies.html"><a href="case-studies.html#whats-really-warming-the-world"><i class="fa fa-check"></i><b>4.6.2</b> What’s really warming the world?</a></li>
 <li class="chapter" data-level="4.6.3" data-path="case-studies.html"><a href="case-studies.html#understanding-plastic-pollution-using-visualization"><i class="fa fa-check"></i><b>4.6.3</b> Understanding Plastic pollution using visualization</a></li>
@@ -227,35 +254,32 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="4.9.10" data-path="case-studies.html"><a href="case-studies.html#washington-wizards-shooting-stars"><i class="fa fa-check"></i><b>4.9.10</b> Washington Wizards’ Shooting Stars</a></li>
 <li class="chapter" data-level="4.9.11" data-path="case-studies.html"><a href="case-studies.html#visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set"><i class="fa fa-check"></i><b>4.9.11</b> Visualization of big data security: a case study on the KDD99 cup data set</a></li>
 <li class="chapter" data-level="4.9.12" data-path="case-studies.html"><a href="case-studies.html#the-atlas-of-sustainable-development-goals-2018---data-visualization-of-world-development"><i class="fa fa-check"></i><b>4.9.12</b> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</a></li>
+<li class="chapter" data-level="4.9.13" data-path="case-studies.html"><a href="case-studies.html#is-beauty-important"><i class="fa fa-check"></i><b>4.9.13</b> Is Beauty Important?</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="patterns.html"><a href="patterns.html"><i class="fa fa-check"></i><b>5</b> Patterns</a><ul>
-<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#outlier-detection"><i class="fa fa-check"></i><b>5.1</b> Outlier Detection</a></li>
-<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>5.2</b> Tips to Improve Data Visualization</a><ul>
-<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#comparison"><i class="fa fa-check"></i><b>5.2.1</b> Comparison</a></li>
-<li class="chapter" data-level="5.2.2" data-path="patterns.html"><a href="patterns.html#copy"><i class="fa fa-check"></i><b>5.2.2</b> Copy</a></li>
-<li class="chapter" data-level="5.2.3" data-path="patterns.html"><a href="patterns.html#color"><i class="fa fa-check"></i><b>5.2.3</b> Color</a></li>
-<li class="chapter" data-level="5.2.4" data-path="patterns.html"><a href="patterns.html#ordering"><i class="fa fa-check"></i><b>5.2.4</b> Ordering</a></li>
-<li class="chapter" data-level="5.2.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.2.5</b> Audience Perspective</a></li>
-<li class="chapter" data-level="5.2.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.2.6</b> Use Layers to Tell a Story</a></li>
-<li class="chapter" data-level="5.2.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.2.7</b> Keep It Simple</a></li>
+<li class="chapter" data-level="5.1" data-path="patterns.html"><a href="patterns.html#data-exploration-like-outlier-detection"><i class="fa fa-check"></i><b>5.1</b> Data Exploration (Like, Outlier Detection)</a></li>
+<li class="chapter" data-level="5.2" data-path="patterns.html"><a href="patterns.html#data-explanation-like-storytelling"><i class="fa fa-check"></i><b>5.2</b> Data Explanation (Like, Storytelling)</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="patterns.html"><a href="patterns.html#what-makes-a-chart-effective"><i class="fa fa-check"></i><b>5.2.1</b> What makes a chart effective?</a></li>
+<li class="chapter" data-level="5.2.2" data-path="patterns.html"><a href="patterns.html#how-to-decide-which-chart-type-to-use"><i class="fa fa-check"></i><b>5.2.2</b> How to decide which chart type to use?</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#charts"><i class="fa fa-check"></i><b>5.3</b> Charts</a><ul>
-<li class="chapter" data-level="5.3.1" data-path="patterns.html"><a href="patterns.html#pick-the-right-chart-type"><i class="fa fa-check"></i><b>5.3.1</b> Pick the Right Chart Type</a></li>
-<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#chart-types"><i class="fa fa-check"></i><b>5.3.2</b> Chart Types</a></li>
-<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.3.3</b> Temporal Visualizations</a></li>
-<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#line-graph"><i class="fa fa-check"></i><b>5.3.4</b> Line Graph</a></li>
-<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#stacked-area-chart"><i class="fa fa-check"></i><b>5.3.5</b> Stacked Area Chart</a></li>
-<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#bar-charts"><i class="fa fa-check"></i><b>5.3.6</b> Bar Charts</a></li>
-<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#column-charts-for-time-series-data"><i class="fa fa-check"></i><b>5.3.7</b> Column Charts for Time Series Data</a></li>
-<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#gantt-chart"><i class="fa fa-check"></i><b>5.3.8</b> Gantt Chart</a></li>
-<li class="chapter" data-level="5.3.9" data-path="patterns.html"><a href="patterns.html#stream-graph"><i class="fa fa-check"></i><b>5.3.9</b> Stream Graph</a></li>
-<li class="chapter" data-level="5.3.10" data-path="patterns.html"><a href="patterns.html#heat-map"><i class="fa fa-check"></i><b>5.3.10</b> Heat Map</a></li>
-<li class="chapter" data-level="5.3.11" data-path="patterns.html"><a href="patterns.html#polar-area-diagram"><i class="fa fa-check"></i><b>5.3.11</b> Polar Area Diagram</a></li>
-<li class="chapter" data-level="5.3.12" data-path="patterns.html"><a href="patterns.html#time-series-data-and-its-deceptive-potential"><i class="fa fa-check"></i><b>5.3.12</b> Time Series Data and Its Deceptive Potential</a></li>
-<li class="chapter" data-level="5.3.13" data-path="patterns.html"><a href="patterns.html#pie-chart-and-why-pie-charts-are-bad-a-comparison-with-the-bar-chart"><i class="fa fa-check"></i><b>5.3.13</b> Pie Chart and Why Pie Charts are Bad: a Comparison with the Bar Chart</a></li>
+<li class="chapter" data-level="5.3" data-path="patterns.html"><a href="patterns.html#tips-to-improve-data-visualization"><i class="fa fa-check"></i><b>5.3</b> Tips to Improve Data Visualization</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="patterns.html"><a href="patterns.html#comparison-1"><i class="fa fa-check"></i><b>5.3.1</b> Comparison</a></li>
+<li class="chapter" data-level="5.3.2" data-path="patterns.html"><a href="patterns.html#copy"><i class="fa fa-check"></i><b>5.3.2</b> Copy</a></li>
+<li class="chapter" data-level="5.3.3" data-path="patterns.html"><a href="patterns.html#color"><i class="fa fa-check"></i><b>5.3.3</b> Color</a></li>
+<li class="chapter" data-level="5.3.4" data-path="patterns.html"><a href="patterns.html#ordering"><i class="fa fa-check"></i><b>5.3.4</b> Ordering</a></li>
+<li class="chapter" data-level="5.3.5" data-path="patterns.html"><a href="patterns.html#audience-perspective"><i class="fa fa-check"></i><b>5.3.5</b> Audience Perspective</a></li>
+<li class="chapter" data-level="5.3.6" data-path="patterns.html"><a href="patterns.html#use-layers-to-tell-a-story"><i class="fa fa-check"></i><b>5.3.6</b> Use Layers to Tell a Story</a></li>
+<li class="chapter" data-level="5.3.7" data-path="patterns.html"><a href="patterns.html#keep-it-simple"><i class="fa fa-check"></i><b>5.3.7</b> Keep It Simple</a></li>
+<li class="chapter" data-level="5.3.8" data-path="patterns.html"><a href="patterns.html#graph-integrity"><i class="fa fa-check"></i><b>5.3.8</b> Graph Integrity</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#maps"><i class="fa fa-check"></i><b>5.4</b> Maps</a></li>
+<li class="chapter" data-level="5.4" data-path="patterns.html"><a href="patterns.html#types-of-data-visualizations"><i class="fa fa-check"></i><b>5.4</b> Types of data visualizations</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="patterns.html"><a href="patterns.html#temporal-visualizations"><i class="fa fa-check"></i><b>5.4.1</b> Temporal Visualizations</a></li>
+<li class="chapter" data-level="5.4.2" data-path="patterns.html"><a href="patterns.html#hierarchical-visualizations"><i class="fa fa-check"></i><b>5.4.2</b> Hierarchical Visualizations</a></li>
+<li class="chapter" data-level="5.4.3" data-path="patterns.html"><a href="patterns.html#multidimensional-visualizations"><i class="fa fa-check"></i><b>5.4.3</b> Multidimensional Visualizations</a></li>
+<li class="chapter" data-level="5.4.4" data-path="patterns.html"><a href="patterns.html#networks"><i class="fa fa-check"></i><b>5.4.4</b> Networks</a></li>
+<li class="chapter" data-level="5.4.5" data-path="patterns.html"><a href="patterns.html#geospatial-visualizations"><i class="fa fa-check"></i><b>5.4.5</b> Geospatial Visualizations</a></li>
+</ul></li>
 <li class="chapter" data-level="5.5" data-path="patterns.html"><a href="patterns.html#choosing-the-right-baseline-in-data-visualization"><i class="fa fa-check"></i><b>5.5</b> Choosing the Right Baseline in Data Visualization</a></li>
 <li class="chapter" data-level="5.6" data-path="patterns.html"><a href="patterns.html#using-design-patterns-to-find-greater-meaning-in-your-data"><i class="fa fa-check"></i><b>5.6</b> Using Design Patterns to Find Greater Meaning in Your Data</a><ul>
 <li class="chapter" data-level="5.6.1" data-path="patterns.html"><a href="patterns.html#comparisons"><i class="fa fa-check"></i><b>5.6.1</b> Comparisons</a></li>
@@ -263,53 +287,37 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.6.3" data-path="patterns.html"><a href="patterns.html#conclusions"><i class="fa fa-check"></i><b>5.6.3</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="5.7" data-path="patterns.html"><a href="patterns.html#takeaways-from-recreating-one-chart-using-24-tools"><i class="fa fa-check"></i><b>5.7</b> Takeaways From Recreating One Chart Using 24 Tools</a><ul>
-<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-goals"><i class="fa fa-check"></i><b>5.7.1</b> Takeaway 1: There Are No Perfect Tools, Just Good Tools for People with Certain Goals</a></li>
-<li class="chapter" data-level="5.7.2" data-path="patterns.html"><a href="patterns.html#takeaway-2-there-are-no-perfect-tools-just-good-tools-for-people-with-certain-mindsets"><i class="fa fa-check"></i><b>5.7.2</b> Takeaway 2: There Are No Perfect Tools, Just Good Tools for People with Certain Mindsets</a></li>
-<li class="chapter" data-level="5.7.3" data-path="patterns.html"><a href="patterns.html#takeaway-3-we-still-live-in-an-apps-are-for-the-easy-stuff-code-is-for-the-good-stuff-in-the-world"><i class="fa fa-check"></i><b>5.7.3</b> Takeaway 3: We Still Live in an ‘Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World’</a></li>
-<li class="chapter" data-level="5.7.4" data-path="patterns.html"><a href="patterns.html#takeaway-4-every-tool-forces-you-down-a-path"><i class="fa fa-check"></i><b>5.7.4</b> Takeaway 4: Every Tool Forces You Down a Path</a></li>
+<li class="chapter" data-level="5.7.1" data-path="patterns.html"><a href="patterns.html#takeaway-1-there-is-no-perfect-tool-just-good-tools-for-people-with-certain-goals-and-mindsets"><i class="fa fa-check"></i><b>5.7.1</b> Takeaway 1: There is No Perfect Tool, Just Good Tools for People with Certain Goals and Mindsets</a></li>
+<li class="chapter" data-level="5.7.2" data-path="patterns.html"><a href="patterns.html#takeaway-2-we-still-live-in-an-apps-are-for-the-easy-stuff-code-is-for-the-good-stuff-in-the-world"><i class="fa fa-check"></i><b>5.7.2</b> Takeaway 2: We Still Live in an ‘Apps Are for the Easy Stuff, Code Is for the Good Stuff in the World’</a></li>
+<li class="chapter" data-level="5.7.3" data-path="patterns.html"><a href="patterns.html#takeaway-3-every-tool-forces-you-down-a-path"><i class="fa fa-check"></i><b>5.7.3</b> Takeaway 3: Every Tool Forces You Down a Path</a></li>
 </ul></li>
-<li class="chapter" data-level="5.8" data-path="patterns.html"><a href="patterns.html#word-cloud"><i class="fa fa-check"></i><b>5.8</b> Word Cloud</a></li>
-<li class="chapter" data-level="5.9" data-path="patterns.html"><a href="patterns.html#dashboards"><i class="fa fa-check"></i><b>5.9</b> Dashboards</a><ul>
-<li class="chapter" data-level="5.9.1" data-path="patterns.html"><a href="patterns.html#rules-and-best-practices-for-developing-intuitive-dashboards"><i class="fa fa-check"></i><b>5.9.1</b> Rules and Best Practices for Developing Intuitive Dashboards</a></li>
-</ul></li>
-<li class="chapter" data-level="5.10" data-path="patterns.html"><a href="patterns.html#using-visualization-softwares-and-libraries"><i class="fa fa-check"></i><b>5.10</b> Using Visualization Softwares and Libraries</a><ul>
-<li class="chapter" data-level="5.10.1" data-path="patterns.html"><a href="patterns.html#using-shapes-as-filters-in-tableau-when-your-fields-are-measures"><i class="fa fa-check"></i><b>5.10.1</b> Using Shapes as Filters in Tableau When Your Fields Are Measures</a></li>
-<li class="chapter" data-level="5.10.2" data-path="patterns.html"><a href="patterns.html#how-to-customize-a-legend-in-python-with-matplotlib"><i class="fa fa-check"></i><b>5.10.2</b> How to Customize a Legend in Python with Matplotlib</a></li>
-<li class="chapter" data-level="5.10.3" data-path="patterns.html"><a href="patterns.html#building-advanced-analytics-application-with-tabpy"><i class="fa fa-check"></i><b>5.10.3</b> Building Advanced Analytics Application with TabPy</a></li>
-<li class="chapter" data-level="5.10.4" data-path="patterns.html"><a href="patterns.html#creating-a-diverging-bar-chart"><i class="fa fa-check"></i><b>5.10.4</b> Creating a Diverging Bar Chart</a></li>
+<li class="chapter" data-level="5.8" data-path="patterns.html"><a href="patterns.html#using-visualization-softwares-and-libraries"><i class="fa fa-check"></i><b>5.8</b> Using Visualization Softwares and Libraries</a><ul>
+<li class="chapter" data-level="5.8.1" data-path="patterns.html"><a href="patterns.html#how-to-customize-a-legend-in-python-with-matplotlib"><i class="fa fa-check"></i><b>5.8.1</b> How to Customize a Legend in Python with Matplotlib</a></li>
+<li class="chapter" data-level="5.8.2" data-path="patterns.html"><a href="patterns.html#creating-a-diverging-bar-chart"><i class="fa fa-check"></i><b>5.8.2</b> Creating a Diverging Bar Chart</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="ethics.html"><a href="ethics.html"><i class="fa fa-check"></i><b>6</b> Ethics</a><ul>
 <li class="chapter" data-level="6.1" data-path="ethics.html"><a href="ethics.html#importance-of-ethics-in-visualization"><i class="fa fa-check"></i><b>6.1</b> Importance of Ethics in Visualization</a></li>
-<li class="chapter" data-level="6.2" data-path="ethics.html"><a href="ethics.html#implications-of-goodbad-data-visualization"><i class="fa fa-check"></i><b>6.2</b> Implications of (Good/Bad) Data Visualization</a></li>
+<li class="chapter" data-level="6.2" data-path="ethics.html"><a href="ethics.html#ethical-dimensions-of-visualization"><i class="fa fa-check"></i><b>6.2</b> Ethical dimensions of Visualization</a></li>
 <li class="chapter" data-level="6.3" data-path="ethics.html"><a href="ethics.html#general-guidelines-for-ethical-visuals"><i class="fa fa-check"></i><b>6.3</b> General Guidelines for Ethical Visuals</a><ul>
 <li class="chapter" data-level="6.3.1" data-path="ethics.html"><a href="ethics.html#data-collection"><i class="fa fa-check"></i><b>6.3.1</b> Data Collection</a></li>
-<li class="chapter" data-level="6.3.2" data-path="ethics.html"><a href="ethics.html#data-analysis"><i class="fa fa-check"></i><b>6.3.2</b> Data Analysis</a></li>
-<li class="chapter" data-level="6.3.3" data-path="ethics.html"><a href="ethics.html#design"><i class="fa fa-check"></i><b>6.3.3</b> Design</a></li>
 </ul></li>
-<li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#definitions-of-data-deception-and-graphic-integrity"><i class="fa fa-check"></i><b>6.4</b> Definitions of Data Deception and Graphic Integrity</a></li>
-<li class="chapter" data-level="6.5" data-path="ethics.html"><a href="ethics.html#ethical-challenges-in-data-visualization"><i class="fa fa-check"></i><b>6.5</b> Ethical Challenges in Data Visualization</a></li>
-<li class="chapter" data-level="6.6" data-path="ethics.html"><a href="ethics.html#data-visualization-a-tool-for-social-change-in-cities"><i class="fa fa-check"></i><b>6.6</b> Data Visualization: A Tool for Social Change in Cities</a></li>
-<li class="chapter" data-level="6.7" data-path="ethics.html"><a href="ethics.html#ethical-theory-and-practice-from-journalism-and-engineering"><i class="fa fa-check"></i><b>6.7</b> Ethical Theory and Practice from Journalism and Engineering</a></li>
-<li class="chapter" data-level="6.8" data-path="ethics.html"><a href="ethics.html#misinformation-can-be-beautiful-too"><i class="fa fa-check"></i><b>6.8</b> Misinformation Can be beautiful too</a></li>
-<li class="chapter" data-level="6.9" data-path="ethics.html"><a href="ethics.html#visual-lies"><i class="fa fa-check"></i><b>6.9</b> Visual Lies</a><ul>
-<li class="chapter" data-level="6.9.1" data-path="ethics.html"><a href="ethics.html#size"><i class="fa fa-check"></i><b>6.9.1</b> Size</a></li>
-<li class="chapter" data-level="6.9.2" data-path="ethics.html"><a href="ethics.html#quantity"><i class="fa fa-check"></i><b>6.9.2</b> Quantity</a></li>
-<li class="chapter" data-level="6.9.3" data-path="ethics.html"><a href="ethics.html#segmentation"><i class="fa fa-check"></i><b>6.9.3</b> Segmentation</a></li>
-<li class="chapter" data-level="6.9.4" data-path="ethics.html"><a href="ethics.html#graph"><i class="fa fa-check"></i><b>6.9.4</b> Graph</a></li>
-<li class="chapter" data-level="6.9.5" data-path="ethics.html"><a href="ethics.html#the-missing-baseline"><i class="fa fa-check"></i><b>6.9.5</b> The Missing Baseline</a></li>
-<li class="chapter" data-level="6.9.6" data-path="ethics.html"><a href="ethics.html#the-graph-is-not-labeled-properly"><i class="fa fa-check"></i><b>6.9.6</b> The Graph is not Labeled Properly</a></li>
-<li class="chapter" data-level="6.9.7" data-path="ethics.html"><a href="ethics.html#data-is-left-out"><i class="fa fa-check"></i><b>6.9.7</b> Data is Left Out</a></li>
-<li class="chapter" data-level="6.9.8" data-path="ethics.html"><a href="ethics.html#treating-correlation-as-causation"><i class="fa fa-check"></i><b>6.9.8</b> Treating Correlation as Causation</a></li>
-</ul></li>
+<li class="chapter" data-level="6.4" data-path="ethics.html"><a href="ethics.html#the-data-visualization-hippocratic-oath"><i class="fa fa-check"></i><b>6.4</b> The Data Visualization Hippocratic Oath</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a><ul>
-<li class="chapter" data-level="7.1" data-path="conclusion.html"><a href="conclusion.html#the-future-of-data-visualization"><i class="fa fa-check"></i><b>7.1</b> The Future of Data Visualization</a></li>
-<li class="chapter" data-level="7.2" data-path="conclusion.html"><a href="conclusion.html#key-lessons-going-forward"><i class="fa fa-check"></i><b>7.2</b> Key Lessons Going Forward</a></li>
+<li class="chapter" data-level="7.1" data-path="conclusion.html"><a href="conclusion.html#the-future-of-data-visualization"><i class="fa fa-check"></i><b>7.1</b> The Future of Data Visualization</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="conclusion.html"><a href="conclusion.html#recent-developments"><i class="fa fa-check"></i><b>7.1.1</b> Recent Developments</a></li>
+<li class="chapter" data-level="7.1.2" data-path="conclusion.html"><a href="conclusion.html#future-direction"><i class="fa fa-check"></i><b>7.1.2</b> Future Direction</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="conclusion.html"><a href="conclusion.html#key-lessons-going-forward"><i class="fa fa-check"></i><b>7.2</b> Key Lessons Going Forward</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="conclusion.html"><a href="conclusion.html#laying-the-groundwork-for-data-visualization"><i class="fa fa-check"></i><b>7.2.1</b> Laying the groundwork for data visualization</a></li>
+<li class="chapter" data-level="7.2.2" data-path="conclusion.html"><a href="conclusion.html#how-is-it-being-used"><i class="fa fa-check"></i><b>7.2.2</b> How Is It Being Used?</a></li>
+</ul></li>
 <li class="chapter" data-level="7.3" data-path="conclusion.html"><a href="conclusion.html#additional-resources-for-aspiring-data-visualizers"><i class="fa fa-check"></i><b>7.3</b> Additional Resources for Aspiring Data Visualizers</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="conclusion.html"><a href="conclusion.html#tableau-community-1"><i class="fa fa-check"></i><b>7.3.1</b> Tableau Community</a></li>
-<li class="chapter" data-level="7.3.2" data-path="conclusion.html"><a href="conclusion.html#blogs-1"><i class="fa fa-check"></i><b>7.3.2</b> Blogs</a></li>
-<li class="chapter" data-level="7.3.3" data-path="conclusion.html"><a href="conclusion.html#useful-links-on-data-visualization-resources-trends-and-tutorials-1"><i class="fa fa-check"></i><b>7.3.3</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
+<li class="chapter" data-level="7.3.2" data-path="conclusion.html"><a href="conclusion.html#d3.js-community"><i class="fa fa-check"></i><b>7.3.2</b> D3.js Community</a></li>
+<li class="chapter" data-level="7.3.3" data-path="conclusion.html"><a href="conclusion.html#blogs-1"><i class="fa fa-check"></i><b>7.3.3</b> Blogs</a></li>
+<li class="chapter" data-level="7.3.4" data-path="conclusion.html"><a href="conclusion.html#useful-links-on-data-visualization-resources-trends-and-tutorials-1"><i class="fa fa-check"></i><b>7.3.4</b> Useful Links on Data Visualization Resources, Trends, and Tutorials</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
@@ -342,8 +350,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>Many of the case studies mentioned below come from the following articles:</p>
 <table>
 <colgroup>
-<col width="15%" />
-<col width="84%" />
+<col width="14%" />
+<col width="85%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -385,11 +393,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="geographic-visualizations" class="section level2">
 <h2><span class="header-section-number">4.2</span> Geographic Visualizations</h2>
+<p>Geovisualization or geovisualisation (short for geographic visualization), refers to a set of tools and techniques supporting the analysis of geospatial data through the use of interactive visualization.
+Like the related fields of scientific visualization and information visualization geovisualization emphasizes knowledge construction over knowledge storage or information transmission.To do this, geovisualization communicates geospatial information in ways that, when combined with human understanding, allow for data exploration and decision-making processes.
+Source:<span class="citation">(contributors <a href="#ref-Wikipedia">2019</a><a href="#ref-Wikipedia">a</a>)</span>
+More specifically, Geovisualization is a process that alters geographic information so that we can consume it with our eyes. Its purpose is to capitalize on our affinity for visual things and convert the seemingly random collection of information available to us into a form that can be quickly understood. Many tools can be used for Geographic Visualization, such as Mapbox,Carto,ArcGIS Online and HERE Data Lens.
+Source:<span class="citation">(Gloag, <a href="#ref-Geovisualization">n.d.</a>: Tools &amp; Techniques)</span></p>
 <p>Often, people use maps to visualize data that should not be mapped. Here are some examples of when a map visualization is a good choice.</p>
 <div id="spies-in-the-skies" class="section level3">
 <h3><span class="header-section-number">4.2.1</span> Spies in the Skies</h3>
 <p>The map below is from a Buzzfeed article <span class="citation">(Aldhous and Seife <a href="#ref-spies_sky">2016</a>)</span> that shows how common it is for the government to observe people. It was filled with red and blue lines (representing FBI and DHS aircraft, respectively) which illustrate the flight paths of the planes. When planes circle an area more than once, the circles become darker. The circles change by day and time, and individual cities can be typed into a search bar to see the flight patterns over them. The visualization rather creatively looks almost like a hand-drawn map. While presenting an ordinarily uncomfortable topic, this allows individuals to check things for themselves, hopefully providing some peace of mind.</p>
-<p>Reference: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span></p>
+<p>Source: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span></p>
 <div class="figure">
 <img src="images/NYCflights.png" alt="New York Flight Patterns" />
 <p class="caption">New York Flight Patterns</p>
@@ -398,8 +411,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="two-centuries-of-u.s.-immigration" class="section level3">
 <h3><span class="header-section-number">4.2.2</span> Two Centuries of U.S. Immigration</h3>
 <p>This interactive map from <span class="citation">(Galka <a href="#ref-immigration">2016</a>)</span> shows the rate of immigration into the U.S. from other countries over the last 200 years in 10-year segments. Each colored dot represents 10,000 people coming from the specified country. Countries then light up when they have one of the highest rates of migration. A tracker on the left indicates what countries sent the most people to the U.S. at what times.</p>
-<p>This a good visualization because it is engaging and easy to read and interpret. The movement of the dots draws the reader’s attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simple, but effective.</p>
-<p>Reference: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span>.</p>
+<p>This is a good visualization because it is engaging and easy to read and interpret. The movement of the dots draws the reader’s attention while the brightly lit countries make it easy to pick out the highest total migrations. The bright colors and dark background help the information stand out. This map is a bit simple, but effective.</p>
+<p>Source: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span>.</p>
 <div class="figure">
 <img src="images/immigration.png" alt="US Immigration" />
 <p class="caption">US Immigration</p>
@@ -408,19 +421,22 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="uber-crafting-data-driven-maps" class="section level3">
 <h3><span class="header-section-number">4.2.3</span> Uber: Crafting Data-Driven Maps</h3>
 <p>Map visualization is essential for companies like Uber that need to track metrics using geo-space points. In this article, the designer from Uber talks about the challenges of designing such visualizations and the possible solutions <span class="citation">(Klimczak <a href="#ref-uber_maps">2016</a>)</span>.</p>
-<p>The challenges that Uber faced when crafting geospatial visualizations:</p>
-<ol style="list-style-type: decimal">
-<li>There are great individual maps but as a whole lack of consistency across the company.</li>
-<li>Common graphing tools like Sketch does not support GIS file, which is essential to Uber’s insights.</li>
-<li>The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.</li>
+The challenges that Uber faced when crafting geospatial visualizations:
+<ol>
+<li>
+There are great individual maps but as a whole lack of consistency across the company.
+<li>
+Common graphing tools like Sketch does not support GIS file, which is essential to Uber’s insights.
+<li>
+The scale of the framework includes more than 400 cities in the world with a variety of different geographic features and data types.
 </ol>
 <p>To tackle these problems, Uber started by defining base map themes by optimizing detail, color, and typography. Based on that, data layers are added using scatter plots and hex bins, with careful color selection to help their team make decisions. To make it even better, Uber took a further step by adding trip lines (see images below), which became a signature visualization of Uber. Choropleths are also used to help visualize how metrics and values differ across geographic areas. Uber uses US postal codes as geographic boundaries and infuses various datasets to create the color variation.</p>
 <p>The visualization in this article is a classic problem of visualizing geographic data. The detailed explanation of the problems and how they are solved can be beneficial for people or startups trying to conceptualize and make appropriate visualizations that support the decision-making process.</p>
 <div class="figure">
-<img src="images/uber_mapping.png" alt="Uber Route Maps" />
+<img src="images/uber_map.png" alt="Uber Route Maps" />
 <p class="caption">Uber Route Maps</p>
 </div>
-<p>(Source:<span class="citation">(Klimczak <a href="#ref-uber_maps">2016</a>)</span>)</p>
+<p>Source:<span class="citation">(Klimczak <a href="#ref-uber_maps">2016</a>)</span></p>
 </div>
 </div>
 <div id="demographic-comparisons" class="section level2">
@@ -434,7 +450,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="images/Party_Votes_by_Age.png" alt="UK Party Votes by Age" />
 <p class="caption">UK Party Votes by Age</p>
 </div>
-<p>(Source: <span class="citation">(Holder, Barr, and Kommenda <a href="#ref-UKvotes2017">2017</a>)</span>)</p>
+<p>Source: <span class="citation">(Holder, Barr, and Kommenda <a href="#ref-UKvotes2017">2017</a>)</span></p>
 </div>
 <div id="u.s.-migration-patterns" class="section level3">
 <h3><span class="header-section-number">4.3.2</span> U.S. Migration Patterns</h3>
@@ -448,47 +464,40 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="images/PA_migration.png" alt="Migration from Pennsylvania" />
 <p class="caption">Migration from Pennsylvania</p>
 </div>
-<p>(Source:<span class="citation">(Aisch, Gebeloff, and Quealy <a href="#ref-migration">2014</a>)</span>)</p>
+<p>Source:<span class="citation">(Aisch, Gebeloff, and Quealy <a href="#ref-migration">2014</a>)</span></p>
 </div>
 <div id="the-american-workday" class="section level3">
 <h3><span class="header-section-number">4.3.3</span> The American Workday</h3>
 <p>NPR tapped into American Time Use Survey data to ascertain the share of workers in a wide range of industries who are at work at any given time <span class="citation">(Quoctrung Bui <a href="#ref-NPR_workday">2014</a>)</span>. The original question of when Americans work, rather than the number of hours worked, is answered in the graph. The chart overlays the traditional 9 AM-5 PM standard workday as a reference point, helping the audience draw exciting conclusions. Below is a screenshot of the data product; the original graph is more interactive and allows the audience to explore when people are working for different occupations.</p>
-<div class="figure">
-<img src="images/npr_workday.png" />
-
-</div>
-<p>Some interesting findings include: 1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon.</p>
-<div class="figure">
-<img src="images/construction.png" />
-
-</div>
+<p><img src="images/npr_workday.png" /></p>
+<p>Some interesting findings include:
+1. Construction workers both start and finish their workday earlier and generally do not work at lunch hours as there is a massive drop at noon.</p>
+<p><img src="images/construction.png" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Servers and cooks’ schedule are the opposite of all other occupations with the peak from lunch through the evening.</li>
 </ol>
-<div class="figure">
-<img src="images/server_cook.png" />
-
-</div>
+<p><img src="images/server_cook.png" /></p>
 <ol start="3" style="list-style-type: decimal">
-<li>Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations. <img src="images/protective.png" /></li>
+<li>Protective services, e.g., police officers, firefighters, and detectives, have many workers working throughout the night, which is entirely different from all other occupations.
+<img src="images/protective.png" /></li>
 </ol>
 <p>This data product is an excellent example because the analytic design has been applied to contrast specific occupations to the traditional 9-5 working hours. This is easy to understand and make particular occupations stand out more manageable. The use of color for highlighting the selected occupation in the graph helps to categorize different occupations as well.</p>
 </div>
 <div id="how-people-like-you-spend-their-time" class="section level3">
 <h3><span class="header-section-number">4.3.4</span> How People Like You Spend Their Time</h3>
 <p>This visualization from <span class="citation">(Yau <a href="#ref-spendingtime">2016</a>)</span> lists several categories such as “personal care” and “work” along one side of a graph with a line illustrating the amount of time the average person in a particular demographic spends on each subject. Entering different parameters at the top, such as changing gender or age, causes the lines to shift to feature that demographic. The simplicity of this visualization helps the information get across and avoids bogging down the statistics. Sometimes, less is more.</p>
-<p>Reference: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span></p>
-<div class="figure">
-<img src="images/SpendingTime.png" />
-
-</div>
+<p>Source: <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span></p>
+<p><img src="images/SpendingTime.png" /></p>
 </div>
 <div id="britains-diet-in-data" class="section level3">
 <h3><span class="header-section-number">4.3.5</span> Britain’s Diet In Data</h3>
 <p>This is an excellent example about how to present a significant amount of comprehensive data - distributed across different categories and measured in different metrics - in a simple yet effective manner, while still maintaining interest and aesthetics. The data product attempts to show how the average Briton’s diet has changed over the last four decades for the better <span class="citation">(Institute <a href="#ref-britain_diet_2016">2016</a>)</span>. It does this by displaying simple trend lines that show that more harmful and fatty foods are being consumed less while consumed more healthier and leaner foods. It further breaks down every major food category into tens of its constituent products, and in both the overview and deep-dive versions, provides further levers to massage more meaning out of the data. It also shows how the contribution of different foods to the typical diet has changed over the years. Here, we can toggle the year to see exactly how much of each food was consumed, again with another deep-dive into the constituents of every primary food group.</p>
-<p><img src="images/britain-diet-data-trends.PNG" /> Source: <span class="citation">(Institute <a href="#ref-britain_diet_2016">2016</a>)</span> <img src="images/britain-diet-data-typical_diet.png" /></p>
-<p>Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte : &gt;“Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.”</p>
-<p>Reference: <span class="citation">(Tufte <a href="#ref-visual_display">1983</a>)</span></p>
+<p><img src="images/britain-diet-data-trends.PNG" />
+Source: <span class="citation">(Institute <a href="#ref-britain_diet_2016">2016</a>)</span>
+<img src="images/britain-diet-data-typical_diet.png" /></p>
+<p>Such a visualization is ideal for a layman who would want to walk away with an immediate and accurate understanding of the overall dietary changes. It also provides plenty detail on demand for the more discerning viewer who might have more time and inclination to dissect and parse through the graphs. It is difficult to use the same data product to cater to both types of viewers in such an adequate capacity, which is what makes this particular data product so impressive and useful. It satisfies the principles of graphical excellence as stated by Edward Tufte :
+&gt;“Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.”</p>
+<p>Source: <span class="citation">(Tufte <a href="#ref-The-Visual-Display-of-Quantitative-Information">1986</a>)</span></p>
 </div>
 <div id="selfie-city" class="section level3">
 <h3><span class="header-section-number">4.3.6</span> Selfie City</h3>
@@ -497,7 +506,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="images/selfie_age_gender.png" alt="Estimated Age and Gender Distribution" />
 <p class="caption">Estimated Age and Gender Distribution</p>
 </div>
-<p>(Source: <span class="citation">(Manovich et al. <a href="#ref-selfie">2014</a>)</span>)</p>
+<p>Source: <span class="citation">(Manovich et al. <a href="#ref-selfie">2014</a>)</span></p>
 </div>
 <div id="evolving-demographics" class="section level3">
 <h3><span class="header-section-number">4.3.7</span> Evolving Demographics</h3>
@@ -505,136 +514,126 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="millennial-generation-diversity" class="section level4">
 <h4><span class="header-section-number">4.3.7.1</span> Millennial Generation Diversity</h4>
 <p>CNNMoney created an interactive chart using U.S. Census Data to show the size and diversity of the millennial generation compared to baby boomers <span class="citation">(Kurtz and Yellin <a href="#ref-age_groups">2018</a>)</span>. While the article’s main point is that the millennial generation is bigger and more diverse than the baby boomer generation, it also contains information about all of the other living generations. It turns hard numbers into an intriguing story, illustrating the racial makeup of different age groups from 1913 to present.</p>
-<p>The author also summarized three key findings from the graph: 1| The most common age in the US is 22 years old. 2| The median age in the US is 37.6 years old. * 3| Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.</p>
+<p>The author also summarized three key findings from the graph:
+1| The most common age in the US is 22 years old.
+2| The median age in the US is 37.6 years old. *
+3| Among the youngest generation, only 50% of the population is white with the potential of dropping from the biggest race in the US.</p>
 <div class="figure">
 <img src="images/millenials_diversity.png" alt="Racial Diversity of US Generations" />
 <p class="caption">Racial Diversity of US Generations</p>
 </div>
-<p>(Source:<span class="citation">(Kurtz and Yellin <a href="#ref-age_groups">2018</a>)</span>)</p>
+<p>Source:<span class="citation">(Kurtz and Yellin <a href="#ref-age_groups">2018</a>)</span></p>
 <p>This is an effective graph because while it contains many data points, it makes the overall trends very clear without sacrificing much detail. You can see the drop in some white people and the increasing growth of the other racial categories.</p>
 </div>
 <div id="how-the-recession-reshaped-the-economy-in-255-charts" class="section level4">
 <h4><span class="header-section-number">4.3.7.2</span> How the Recession Reshaped the Economy, in 255 Charts</h4>
 <p>The first large graph contains 255 lines to show how the number of jobs has changed for every industry in America, using color to highlight the lines and let viewers see the specifics for each industry <span class="citation">(Ashkenas and Parlapiano <a href="#ref-recession_economy">2014</a>)</span>. By hovering over a line, viewers can get the detailed information of that industry’s job trend. Keeping this extra data hidden until needd will make it easier for readers to absorb the bigger picture from this vast data visualization.<br />
 Following charts are subsets categorized by job sector and sub-industries. Readers can choose the industry or sector they are interested in and, similar to the first graph, view the more detailed information by hovering over a line.</p>
-<div class="figure">
-<img src="images/recession_jobs.png" />
-
-</div>
-<div class="figure">
-<img src="images/recession_jobs2.png" />
-
-</div>
-<p>(Source:<span class="citation">(Ashkenas and Parlapiano <a href="#ref-recession_economy">2014</a>)</span>)</p>
+<p><img src="images/recession_jobs.png" /></p>
+<p><img src="images/recession_jobs2.png" /></p>
+<p>Source:<span class="citation">(Ashkenas and Parlapiano <a href="#ref-recession_economy">2014</a>)</span></p>
 </div>
 <div id="an-aging-population-projected-number-of-children-and-older-adults" class="section level4">
 <h4><span class="header-section-number">4.3.7.3</span> An Aging Population: Projected Number of Children and Older Adults</h4>
 <p>An aging population is always a hot topic in social economics and politics <span class="citation">(United States Census Bureau <a href="#ref-aging_nation">2018</a>)</span>. Here we explore a collection of data visualizations showing the aging population in the U.S. and the world.</p>
-<div class="figure">
-<img src="images/aging_nation.jpg" />
-
-</div>
-<p>(Source:<span class="citation">(United States Census Bureau <a href="#ref-aging_nation">2018</a>)</span>)</p>
+<p><img src="images/aging_nation.jpg" /></p>
+<p>Source:<span class="citation">(United States Census Bureau <a href="#ref-aging_nation">2018</a>)</span></p>
 <p>This example includes a bar chart and a line graph to demonstrate the aging population compared with the population of children. This visualization allows easy comparison, employs color to differentiate the categories, and highlights the intersection point.</p>
 </div>
 <div id="from-pyramid-to-pillar-a-century-of-change-population-of-the-u.s." class="section level4">
 <h4><span class="header-section-number">4.3.7.4</span> From Pyramid to Pillar: A Century of Change, Population of the U.S.</h4>
-<div class="figure">
-<img src="images/Pyramid.jpg" />
-
-</div>
-<p>This is a <strong>population pyramid</strong>. “A <strong>population pyramid</strong> is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender” <span class="citation">(Bureau <a href="#ref-population_pyramid">2018</a><a href="#ref-population_pyramid">b</a>)</span>. It is good to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool to make sense of census data. <span class="citation">(“An Aging Population” NA)</span> offers an animated pyramid.</p>
+<p><img src="images/Pyramid.jpg" /></p>
+<p>This is a <strong>population pyramid</strong>. “A <strong>population pyramid</strong> is a pair of back-to-back histograms for each sex that displays the distribution of a population in all age groups and in gender” <span class="citation">(Bureau <a href="#ref-population_pyramid">2018</a><a href="#ref-population_pyramid">b</a>)</span>. It is good to visualize changes in population distributions (sex, age, year). The shape of a pyramid is also used to represent other characteristics of a population. To illustrate, A pyramid with a very wide base and a narrow top section suggests a population with both high fertility and death rates. It is a useful tool to make sense of census data. <span class="citation">(“An Aging Population,” <a href="#ref-animated_pyramid">n.d.</a>)</span> offers an animated pyramid.</p>
 <div class="figure">
 <img src="images/3_1.png" alt="Comparison of aging population in US and Japan" />
 <p class="caption">Comparison of aging population in US and Japan</p>
 </div>
-<p>(Source:<span class="citation">(“An Aging Population” NA)</span>)</p>
+<p>Source:<span class="citation">(“An Aging Population,” <a href="#ref-animated_pyramid">n.d.</a>)</span></p>
 <p>This is an animated and multiple-population pyramid. It used to compare different patterns across countries. One additional benefit for the interactive population pyramid is that it shows the shape changes by year, which is useful for time-series comparison. A similar project with R code is <a href="https://www.r-bloggers.com/who-is-old-visualizing-the-concept-of-prospective-ageing-with-animated-population-pyramids/">here</a>.</p>
 </div>
 <div id="music-timeline" class="section level4">
 <h4><span class="header-section-number">4.3.7.5</span> Music Timeline</h4>
 <p>Google’s Music Timeline illustrates a variety of music genres waxing and waning in popularity from 2010 to the present day, based on how many Google Play Music users have an artist or album in their library, and other data such as album release dates <span class="citation">(Google <a href="#ref-google_music">2014</a>)</span>. One useful feature of this graph is the reader’s ability to explore one specific genre and its subgenres at a more detailed level, as well as view the general timeline of all music. The drill-down interaction allows for more details without cluttering the overview of the visualization. Embedding the graph with names (e.g., Rock/Pop) makes similar color lines easy to distinguish.</p>
-<div class="figure">
-<img src="images/music_timeline.png" />
-
-</div>
-<div class="figure">
-<img src="images/music_timeline_rock.png" />
-
-</div>
-<p>(Source:<span class="citation">(Google <a href="#ref-google_music">2014</a>)</span>)</p>
+<p><img src="images/music_timeline.png" /></p>
+<p><img src="images/music_timeline_rock.png" /></p>
+<p>Source:<span class="citation">(Google <a href="#ref-google_music">2014</a>)</span></p>
 </div>
 </div>
+</div>
+<div id="visualizing-urban-data-for-social-change" class="section level2">
+<h2><span class="header-section-number">4.4</span> Visualizing Urban Data for Social Change</h2>
+<p><span class="citation">(Neira <a href="#ref-Socialchange">2016</a>)</span></p>
+<p>One field in which visualization can have a meaningful social impact is promoting understanding of and generating discussions around cities. With the development of a city, demographic changes, economic, environmental and social problems become important issues. Visualization plays an important role in promoting understanding of how the cities and the societies within them work, debating the problems that cities face, and engaging citizens to work toward their dream cities.</p>
+<p>Recently, as part of Habitat III side event , LlactaLAB - Sustainable Cities Research Group, presented a project called Live Infographics. It was an interactive methodology that put citizens and experts opinions about the New Urban Agenda on one platform to help generate a ‘horizontal governance’. The different opinions were materialized with a dynamic map to visualize the generated data. The primary objective of the project is to generate citizen-led data collection and to enable governments to build a better understanding of public sentiment, and then engaging people in the process.</p>
+<p><img src="images/Habitat_Village.png" /></p>
+<p>A great Urban Data Visualization ought to have the capacity to start “Sociological Imagination”. It should provoke individuals to consider how their individual choices, issues, struggles, and in general their daily lives, are a extension of society, and how their choices collectively influence public opinion. Another key aspect of these kinds of data visualizations is their ability to make the audience understand how their activities impacts the cities they live in and help them work towards the betterment of the cities.</p>
+<p>The following is an example of a visualization that is trying to effect social change. It shows how different states are populated on our way to wealth at the cost of the Environment and the percentage of adults who support the cause by estimating public opinions. Source : <span class="citation">(“We Have Poluted Our Way to the Wealth in the Expense of the Environment,” <a href="#ref-Yale_Climate_Opinion">n.d.</a>)</span></p>
+<p><img src="images\social_change.PNG" /></p>
+<p>Urbanization and the spread of information technologies transform Cities into huge data pools, that data will play a major role in understanding how city areas have changed and are likely to change in the future. Urban Data Visualization gives us a quick view of the architectural contrast of Urban changes in Cities. <span class="citation">(MORPHOCODE <a href="#ref-MORPHOCODE">2019</a>)</span></p>
+<p>This Urban Data Visualization based on the NYC Department of City Planning Data set, the result is a snapshot of Brooklyn’s evolution, revealing how development has rippled across certain neighborhoods while leaving some pockets unchanged for decades, even centuries. The visualization is interactive, the reader can check every block’s name and built year.<span class="citation">(MORPHOCODE <a href="#ref-MORPHOCODE">2019</a>)</span></p>
+<p><img src="images/urbanviz.png" /></p>
+<p>As urban areas continue to develop, diverse and complex issues evolve along with them. Disparity, isolation, loss of biodiversity and environmental quality, etc. are all important but thorny issues, and finding successful solutions will require uniting strategy producers, academics, designers, and citizens. Visualization, if done right, can help jumpstart important discussions between these diverse groups of people and help solve the issues that emerge as the world becomes more urbanized.</p>
 </div>
 <div id="animated-data-visualization" class="section level2">
-<h2><span class="header-section-number">4.4</span> Animated Data Visualization</h2>
+<h2><span class="header-section-number">4.5</span> Animated Data Visualization</h2>
 <p>Like evolving demographics, these visualizations are demographics that change over time. These, however, are self-animated instead of interactive.</p>
 <div id="a-day-in-the-life-of-americans" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> A Day in the Life of Americans</h3>
+<h3><span class="header-section-number">4.5.1</span> A Day in the Life of Americans</h3>
 <p>This animated data visualization shows the time people spend on daily activities throughout the day <span class="citation">(Nathan Yau <a href="#ref-American_life">2015</a><a href="#ref-American_life">b</a>)</span>. The plot is simple and easy to interpret, but it also includes a good number of variables including time, activity type, number of people doing each activity, and the order in which activities are done.</p>
 <p>One of the plot’s biggest strengths is that by using one dot to represent each person in the study and using animation, we can drill down to the level of an individual and follow him or her throughout the day. The accumulation of dots for each particular activity also gives us an aggregate-level view of the same data, so that we get both individual and aggregate insights.</p>
 <p>A drawback of the plot is that it is hard for our eyes to keep track of 1000 simultaneously moving dots. The author of the post addresses this by creating subsequent plots with stationary lines at crucial times of the day. This represents people’s movements from one activity to another without overwhelming the reader.</p>
 <p>Overall, this is an engaging, informative, relevant, and fun animated plot that tells a story.</p>
-<div class="figure">
-<img src="images/life_of_americans.png" />
-
-</div>
-<p>(Source:<span class="citation">(Nathan Yau <a href="#ref-American_life">2015</a><a href="#ref-American_life">b</a>)</span>)</p>
+<p><img src="images/life_of_americans.png" /></p>
+<p>Source:<span class="citation">(Nathan Yau <a href="#ref-American_life">2015</a><a href="#ref-American_life">b</a>)</span></p>
 </div>
 <div id="hans-roslings-200-countries-200-years-4-minutes" class="section level3">
-<h3><span class="header-section-number">4.4.2</span> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</h3>
+<h3><span class="header-section-number">4.5.2</span> Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</h3>
 <p>Global health data expert Hans Rosling’s famous statistical documentary “The Joy of Stats” aired on BBC in 2010, but it is still turning heads. In the remarkable segment “200 Countries, 200 Years, 4 Minutes”, Rosling uses augmented reality to explore public health data in 200 countries over 200 years using 120,000 numbers, in just four minutes <span class="citation">(Rosling, Hans <a href="#ref-hans_rosling">2010</a>)</span>.</p>
 <div class="figure">
-<img src="images/200_countries_years.png" alt="Screenshot from 200 Countries, 200 Years, 4 Minutes" />
+<img src="images/200_countries_years.png" alt="Screenshot from “200 Countries, 200 Years, 4 Minutes”" />
 <p class="caption">Screenshot from “200 Countries, 200 Years, 4 Minutes”</p>
 </div>
-<p>(Source:<span class="citation">(Rosling, Hans <a href="#ref-hans_rosling">2010</a>)</span>)</p>
+<p>Source:<span class="citation">(Rosling, Hans <a href="#ref-hans_rosling">2010</a>)</span></p>
 <p>What makes this visualization so well-known is its use of animation and narration to highlight different stories within the overall data. While the visualization could have been made as an interactive chart where the audience can select the year, instead it is a video. Rosling’s narration of how various regions have fluctuated over the last two hundred years is necessary for his argument since there is no other description or explanation.</p>
 </div>
 </div>
 <div id="dust-in-the-wind-visualization-and-environmental-problems" class="section level2">
-<h2><span class="header-section-number">4.5</span> Dust in the Wind: Visualization and Environmental Problems</h2>
+<h2><span class="header-section-number">4.6</span> Dust in the Wind: Visualization and Environmental Problems</h2>
 <p>Environmental issues can quickly become extremely complex. When dealing with assessments of site, environmental remediation design, monitoring, environmental litigation, the quantity of data involved can quickly become overwhelming. Maintaining and organizing that data and keep a balance is insufficient. Visualization is the only means for condensing and communicating vast quantities of data. Visualization provides an invaluable tool to communicate complex data in a form that makes it intelligible to all parties. There are many case studies on visualization of environment-related issues. Some of them are mentioned below:</p>
-</div>
-<div id="environment-related-problems" class="section level2">
-<h2><span class="header-section-number">4.6</span> Environment Related Problems</h2>
-<p>There are many case studies on visualizations of environment-related issues.</p>
 <div id="global-carbon-emissions" class="section level3">
 <h3><span class="header-section-number">4.6.1</span> Global Carbon Emissions</h3>
 <p>This data visualization, based on data from the World Resource Institute’s Climate Analysis Indicators Tool and the Intergovernmental Panel on Climate Change, shows how national CO₂ emissions have transformed over the last 150 years and what the future might hold. It also allows the audience to explore emissions by country for a range of different scenarios <span class="citation">(World Resources Institute <a href="#ref-CO2_emission">2014</a>)</span>.</p>
-<div class="figure">
-<img src="images/carbon_emissions.png" />
-
-</div>
-<p>(Source: <span class="citation">(World Resources Institute <a href="#ref-CO2_emission">2014</a>)</span>)</p>
+<p><img src="images/carbon_emissions.png" /></p>
+<p>Source: <span class="citation">(World Resources Institute <a href="#ref-CO2_emission">2014</a>)</span></p>
 </div>
 <div id="whats-really-warming-the-world" class="section level3">
 <h3><span class="header-section-number">4.6.2</span> What’s really warming the world?</h3>
 <p>This case study begins by clearly explaining necessary background information and the analytic questions it seeks to answer. Next, it analyzes each factor separately using both verbal explanations and dynamic graphics to compare the observed temperature movements, and then categorizes related factors into “natural factors” or “human factors.” After that, it combines all the dynamic graphics into one, which makes the results more accessible and more straightforward to compare. Lastly, the authors provide further detailed explanations of dataset sources to support their results. Overall, this case study is straightforward, easy to understand and informative <span class="citation">(Roston and Migliozzi <a href="#ref-world_warming">2015</a>)</span> <span class="citation">(Crooks <a href="#ref-int_viz_capt">2017</a>)</span>.</p>
-<div class="figure">
-<img src="images/volcano_global_warming.png" />
-
-</div>
-<p>(Source:<span class="citation">(Roston and Migliozzi <a href="#ref-world_warming">2015</a>)</span>)</p>
+<p><img src="images/volcano_global_warming.png" /></p>
+<p>Source:<span class="citation">(Roston and Migliozzi <a href="#ref-world_warming">2015</a>)</span></p>
 </div>
 <div id="understanding-plastic-pollution-using-visualization" class="section level3">
 <h3><span class="header-section-number">4.6.3</span> Understanding Plastic pollution using visualization</h3>
-<p>Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950’s, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled <span class="citation">(wikipedia)</span>.</p>
-<p><strong>Usage of plastic in last few decades</strong> <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span>: <img src="images/global_plastic_usage.png" /></p>
-<p>Plastic has become part of our daily life, and human dependence on plastic has increased over time. The visualization below shows some common plastic products undermining environmental health. <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
-<p><strong>What is plastic used for.</strong> <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span> <img src="images/use_of_plastic.png" /></p>
+<p>Plastic pollution is the accumulation of plastic products in the environment that adversely affects wildlife, wildlife habitat, or humans. Human usage of plastic has increased manifolds in last few decades. Since plastic is inexpensive and durable, it has a wide variety of uses in our everyday life. Since the 1950’s, an estimated 6.3 billion tons of plastic has been produced, of which only about 9% is recycled <span class="citation">(contributors <a href="#ref-wiki_plastic_pollution">2019</a><a href="#ref-wiki_plastic_pollution">b</a>)</span>.</p>
+<p><strong>Usage of plastic in last few decades</strong> <span class="citation">(Qualman <a href="#ref-global_plastic_production">2017</a>)</span>:
+<img src="images/Global-plastic-production-1917-to-2017.png" /></p>
+<p>Plastic has become part of our daily life, and human dependence on plastic has increased over time. The visualization below shows some common plastic products undermining environmental health. <span class="citation">(Grün <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
+<p><strong>What is plastic used for.</strong> <span class="citation">(Grün <a href="#ref-plastic_pollution_visualizations">2016</a>)</span>
+<img src="images/use_of_plastic.png" /></p>
 <p>With a share of 26 percent, China may be the largest plastic producer in the world; yet the largest plastic consumer is neighboring Japan. The people living in the island nation have consumption that exceeds that of Africa and the rest of Asia combined.</p>
-<p>Donut chart is a modern version of pie-chart which looks cleaner, and embedded visual imagery makes the distribution easy to understand. <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
-<p><strong>Plastic Use: Industrial nations top the charts</strong> <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
-<div class="figure">
-<img src="images/plastic_use.png" />
-
-</div>
+<p>Donut chart is a modern version of pie-chart which looks cleaner, and embedded visual imagery makes the distribution easy to understand.
+<span class="citation">(Grün <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
+<p><strong>Plastic Use: Industrial nations top the charts</strong> <span class="citation">(Grün <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
+<p><img src="images/plastic_use.png" /></p>
 <p>This visualization uses a simple line chart to show increasing trends. A positive aspect of this chart is the removal of the vertical grid which creates noise in the visualization when its objective is to show the trend, rather than the numbers.</p>
-<p><strong>Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.</strong><span class="citation">(Moret <a href="#ref-ocean_plastic_pollution">2014</a>)</span> <img src="images/Ocean_Plasticpollution.jpg" /></p>
-<p><strong>Infographic plastic pollution</strong> <span class="citation">(ROUTLEY <a href="#ref-plastic_pollution_infographics">2018</a>)</span> <img src="images/infographic-plastic-buildup.jpg" /></p>
-<p><strong>Infographic plastic pollution</strong> <span class="citation">(ROUTLEY <a href="#ref-plastic_pollution_infographics">2018</a>)</span> <img src="images/ocean_plastic.png" /></p>
-<p>How long does plastic remain in the ocean? <span class="citation">(Gr?n <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
+<p><strong>Visualization of Ocean Plastic collection: This worldview visualization shows how much plastic is in our oceans.</strong><span class="citation">(Moret <a href="#ref-ocean_plastic_pollution">2014</a>)</span>
+<img src="images/Ocean_Plasticpollution.jpg" /></p>
+<p>“Plastic where it shouldn’t be” combines four large-scale plastic marine pollution datasets, each published in a different scientific journal over the last five years, totaling 9,490 surface net tows. It is a symbol map shows the amounts of plastic wastes distribute in oceans. Please note: just because there is no plastic displayed in a certain region does not mean that it isn’t there. The open ocean is vast and pollution research is both time- and cost-intensive.<span class="citation">(Moret <a href="#ref-ocean_plastic_pollution">2014</a>)</span></p>
+<p><strong>Infographic plastic pollution</strong> <span class="citation">(ROUTLEY <a href="#ref-plastic_pollution_infographics">2018</a>)</span>
+<img src="images/infographic-plastic-buildup.jpg" /></p>
+<p><strong>Infographic plastic pollution</strong> <span class="citation">(ROUTLEY <a href="#ref-plastic_pollution_infographics">2018</a>)</span>
+<img src="images/ocean_plastic.png" /></p>
+<p>How long does plastic remain in the ocean? <span class="citation">(Grün <a href="#ref-plastic_pollution_visualizations">2016</a>)</span></p>
 <p>Overall, this visualization is useful in the following ways:</p>
 <ul>
 <li>It provides content: those plots serve one of the primary purposes of data visualization - storytelling. It naturally leads the audience to understand the effects of plastic pollution.</li>
@@ -647,27 +646,25 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <h2><span class="header-section-number">4.7</span> Language</h2>
 <div id="green-honey" class="section level3">
 <h3><span class="header-section-number">4.7.1</span> Green Honey</h3>
-<p>The visualization spans a webpage <span class="citation">(Lee <a href="#ref-green_honey">2016</a>)</span> referenced in <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span>. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue but the numbers that fall into each category — for example, what colors are the most famous “base” colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.</p>
-<div class="figure">
-<img src="images/colorwords.png" />
-
-</div>
-<p>(Source:<span class="citation">(Lee <a href="#ref-green_honey">2016</a>)</span>)</p>
+<blockquote>
+<p>Language shapes the way we view the world. Different languages may have vastly different ways of describing things—including color.</p>
+</blockquote>
+<p>Muyueh Lee takes this idea and expands upon it, examining the differences in describing color in Chinese and English through a helpful visualization.
+The visualization spans a webpage <span class="citation">(Lee <a href="#ref-green_honey">2016</a>)</span> referenced in <span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span>. As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors’ hue but the numbers that fall into each category — for example, what colors are the most famous “base” colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.</p>
+<p><img src="images/colorwords.png" /></p>
+<p>Source:<span class="citation">(Lee <a href="#ref-green_honey">2016</a>)</span></p>
 </div>
 <div id="linguistic-concepts" class="section level3">
 <h3><span class="header-section-number">4.7.2</span> Linguistic Concepts</h3>
-<p>This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of realistic problems in feasible ways <span class="citation">(Alm, Meyers, and Prud’hommeaux <a href="#ref-lingui_data">2017</a>)</span>.</p>
+<p>This case study is about the use of linguistic concepts; it discusses how the data is being used and how visual graphics are used to deliver the central insights. It presents an educational tool that integrates computational linguistics resources for use in non-technical undergraduate language science courses. By using the tool in conjunction with case studies, it provides opportunities for students to gain an understanding of linguistic concepts and analysis through the lens of practical problems in feasible ways. <span class="citation">(Alm, Meyers, and Prud’hommeaux <a href="#ref-lingui_data">2017</a>)</span>.</p>
 <p>HistoBankVis is a novel visualization system designed for the interactive analysis of complex, multidimensional data to facilitate historical linguistic work <span class="citation">(Michael Hund <a href="#ref-lingui_data1">2015</a>)</span>. In this paper, the visualization’s efficacy and power are illustrated utilizing a concrete case study investigating the diachronic interaction of word order and subject case in Icelandic.</p>
-<p>Much of what computational linguists fall back upon to improve natural language processing and model language “understanding” is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structuresl and the observable patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual ‘externalizations’ such as these are almost exclusively used in CL for presentation and explanation. There are particular statistical methods, falling under the rubric of “exploratory data analysis,” and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new methods for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes.</p>
+<p>Much of what computational linguists(CL) fall back upon to improve natural language processing and model language “understanding” is the structure that has, at best, only an indirect attestation in observable data. The sheer complexity of these structures and the visible patterns on which they are based, however, usually limit their accessibility, often even to the researchers creating or studying them. Traditional statistical graphs and custom-designed data illustrations fill the pages of CL papers, providing insight into linguistic and algorithmic structures, but visual ‘externalizations’ such as these are almost exclusively used in CL for presentation and explanation. There are particular statistical methods, falling under the rubric of “exploratory data analysis,” and visualization techniques just for this purpose are available. However, these are not widely used. These novel data visualization techniques offer the potential for creating new methods that reveal structure and detail in data. Visualization can provide new ways for interacting with large corpora, complex linguistic structures, and can lead to a better understanding of the states of stochastic processes.</p>
 </div>
 <div id="state-of-the-union-2014-minute-by-minute-on-twitter" class="section level3">
 <h3><span class="header-section-number">4.7.3</span> State of the Union 2014 Minute by Minute on Twitter</h3>
 <p>Twitter’s data team assembled an impressive interactive data hub that depicts how Twitter users across the globe reacted to each paragraph of President Obama’s 2014 State of the Union address <span class="citation">(Belmonte <a href="#ref-SotU2014">2014</a>)</span>. You can slice and dice the data by topic hashtag (for example, #budget, #defense, or #education) and state, resulting in a powerful detailed and cluttered visualization. Since the visualization is about the topic density in a specific time frame, maybe it’s a good idea for us to use this kind of format when we encounter the expression of a poisson distribution.</p>
-<div class="figure">
-<img src="images/SotU2014.png" />
-
-</div>
-<p>(Source:<span class="citation">(Belmonte <a href="#ref-SotU2014">2014</a>)</span>)</p>
+<p><img src="images/SotU2014.png" /></p>
+<p>Source:<span class="citation">(Belmonte <a href="#ref-SotU2014">2014</a>)</span></p>
 </div>
 </div>
 <div id="political-relationships" class="section level2">
@@ -676,7 +673,7 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <h3><span class="header-section-number">4.8.1</span> Connecting the Dots Behind the Election</h3>
 <p>This article in the New York Times lists several different candidates and creates compelling visuals that link their campaigns to previous ones <span class="citation">(Aisch and Yourish <a href="#ref-campaign_staff">2015</a>)</span><span class="citation">(Kayla Darling <a href="#ref-cool_data">2017</a>)</span>. Each visual contains several different sized dots that represent a specific campaign, administration, or other governmental organization related to the candidate’s current campaign, which is then connected by arrows. Hovering over a specific dot highlights the connections between the groups. This visual is a great way to summarize what would otherwise require a long slog through years of information into an easily accessible and viewable format so that voters can figure out where the candidates’ experiences lie.</p>
 <div class="figure">
-<img src="images/clinton_campaign.png" alt="Clinton 2016 Campaign Staff" />
+<img src="images/NewClinton.png" alt="Clinton 2016 Campaign Staff" />
 <p class="caption">Clinton 2016 Campaign Staff</p>
 </div>
 </div>
@@ -687,19 +684,19 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <img src="images/img_syria_summary.PNG" alt="Who is Fighting Whom in Syria" />
 <p class="caption">Who is Fighting Whom in Syria</p>
 </div>
-<p>(Source:<span class="citation">(Keating and Kirk <a href="#ref-syria_chart">2015</a>)</span>)</p>
+<p>Source:<span class="citation">(Keating and Kirk <a href="#ref-syria_chart">2015</a>)</span></p>
 <p>This visualization helps elucidate an extremely complicated topic like the Syrian War. It consists of 3 different emojis in three different colors, with each color and facial expression combination showing the ties and conflicts between the various groups involved in the Syrian War. When you click on each emoji, a small dialogue box pops up that explains the relationships between the various countries and rebel groups involved in the war. This is not only easy to understand but is also pleasing to the eyes.</p>
 <p>On the other hand, the inherent complexity of relationships between different groups make it difficult to understand the complete picture. If the list of involved parties could be sorted by simplified “sides” (such as Syrian Government on one end with Syrian Rebels on the other) or ranked by how liked they are, then it may be easier for a trend to emerge at first glance. Also, the table format of the visualization means that the data is duplicated, making it appear even more complicated. Instead, one side of the diagonal divide could be greyed-out to simplify the audience’s experience with this visualization.</p>
 <div class="figure">
-<img src="images/img_syria_friendly.PNG" alt="Green emoji shows Friendly relationship" />
+<img src="images/img_syria_friendly.PNG" alt="Green emoji shows ‘Friendly’ relationship" />
 <p class="caption">Green emoji shows ‘Friendly’ relationship</p>
 </div>
 <div class="figure">
-<img src="images/img_syria_enemies.PNG" alt="Red emoji shows the Enemies relationship" />
+<img src="images/img_syria_enemies.PNG" alt="Red emoji shows the ‘Enemies’ relationship" />
 <p class="caption">Red emoji shows the ‘Enemies’ relationship</p>
 </div>
 <div class="figure">
-<img src="images/img_syria_complicated.PNG" alt="Yellow emoji shows Complicated relationship" />
+<img src="images/img_syria_complicated.PNG" alt="Yellow emoji shows ‘Complicated’ relationship" />
 <p class="caption">Yellow emoji shows ‘Complicated’ relationship</p>
 </div>
 </div>
@@ -714,7 +711,7 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <img src="images/VUD_simpsons.png" alt="Simpson’s Paradox originally from vudlab.com" />
 <p class="caption">Simpson’s Paradox originally from vudlab.com</p>
 </div>
-<p>(Source:<span class="citation">(Lewis Lehe <a href="#ref-simpson_paradox">2013</a>)</span>)</p>
+<p>Source:<span class="citation">(Lewis Lehe <a href="#ref-simpson_paradox">2013</a>)</span></p>
 </div>
 <div id="every-satellite-orbiting-earth" class="section level3">
 <h3><span class="header-section-number">4.9.2</span> Every Satellite Orbiting Earth</h3>
@@ -723,29 +720,28 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <img src="images/satellites.png" alt="Low Earth Orbit Satellites" />
 <p class="caption">Low Earth Orbit Satellites</p>
 </div>
-<p>(Source:<span class="citation">(Yanofsky and Fernholz <a href="#ref-Satellite">2015</a>)</span>)</p>
-<p>Interactive graph have its own specific advantages. It helps bridge the gap between programmers and non-programmers. This plot is a good example why using interactive graph is a good idea: - It provides an intuitive way for anyone to understand the data regardless of their technical knowledge. - It helps to identifying causes and trends more quickly - It tells a consistent story through data - It improves efficiency of representing data</p>
+<p>Source:<span class="citation">(Yanofsky and Fernholz <a href="#ref-Satellite">2015</a>)</span></p>
+<p>Interactive graph have its own specific advantages. It helps bridge the gap between programmers and non-programmers. This plot is a good example why using interactive graph is a good idea:
+- It provides an intuitive way for anyone to understand the data regardless of their technical knowledge.
+- It helps to identifying causes and trends more quickly
+- It tells a consistent story through data
+- It improves efficiency of representing data</p>
 </div>
 <div id="malaria" class="section level3">
 <h3><span class="header-section-number">4.9.3</span> Malaria</h3>
-<p>The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better.</p>
-<p><img src="images/malaria_original.png" alt="Original visualization of malaria cases" /> This chart above showed relation between health facilities and community health worker in Malaria during years. From that chart we can see when summer come cases of malaria increase and it showed a quite clear trend. But through overlapping the two variables, health facilities and health worker it is hard to see each trend. The better way to improve this is use bar chart or line chart to shwo trend of each variable. Also the color it use is quite dazzling and not comfortable, if the chart mean to explain relation of summer temperature this may proper, however it is health related maybe a cool color here is better. Original Version: <span class="citation">(<span class="citeproc-not-found" data-reference-id="malaria_zambia_original"><strong>???</strong></span>)</span></p>
-<div class="figure">
-<img src="images/malaria_makeover.png" alt="Redesigned visualization of malaria cases" />
-<p class="caption">Redesigned visualization of malaria cases</p>
-</div>
-<p>New Version: <span class="citation">(<span class="citeproc-not-found" data-reference-id="malaria_cases_zambia"><strong>???</strong></span>)</span></p>
+<p>The authors of Vizwiz redesigned “The Seasonality of Confirmed Malaria Cases in Zambia Southern Province” by pointing out what works well, what could be improved, and why their new visualization will be better <span class="citation">(Andy <a href="#ref-vizwiz">2009</a>)</span>.</p>
+<p>Original Version: <img src="images/malaria_original.png" alt="Original visualization of malaria cases" />
+(<a href="https://www.path.org/visualize-no-malaria/">Source</a>)</p>
+<p>This chart below shows number of malaria cases reported for health facilities and community health workers and a comparison between the two over the years. From this chart we can clearly see that as summer approaches, cases of malaria increase indicating a seasonality. The colors are also distinct from each other.</p>
 <p>The original visualization effectively shows the seasonality of malaria cases but is unclear if the two reporting categories are stacked or one behind the other and is rather garish. The creator of the redesign made the seasonality more obvious by combining the reporting categories and explaining the spikes better.</p>
 <p>Furthermore, by adding the yearly data split by districts, we can lead to a possible actionable solution to the study of malaria cases in Zambia which is an important objective of visualization. The author has combined the data to find out what the data looks like when combined with health facilities and health workers. And the usage of the color scheme is much more effective than the previous version which makes seasonality more evident.</p>
+<p>New Version: <img src="images/malaria_makeover.png" alt="Redesigned visualization of malaria cases" /></p>
 </div>
 <div id="is-it-better-to-rent-or-buy" class="section level3">
 <h3><span class="header-section-number">4.9.4</span> Is it Better to Rent or Buy?</h3>
 <p>There are many factors involved in deciding to rent or buy a house which has led to many calculators that are supposed to simplify this decision. This calculator includes several sloping charts, each including a factor that will affect how much you will have to pay, such as the individual cost of your home and your mortgage rates <span class="citation">(Bostock, Carter, and Tse <a href="#ref-rent_or_buy">2014</a>)</span>. A movable scale along the bottom of each chart allows you to enter different data, such as changing the “cost of rent per month” on the side. This can be useful for price comparison: if you can find a similar house to rent for that much per month or less, it is more cost effective just to rent the home. This visualization is incredibly thorough and a useful tool for homeowners of any age and status.</p>
-<div class="figure">
-<img src="images/rentcalc.png" />
-
-</div>
-<p>(Source:<span class="citation">(Bostock, Carter, and Tse <a href="#ref-rent_or_buy">2014</a>)</span>)</p>
+<p><img src="images/rentcalc.png" /></p>
+<p>Source:<span class="citation">(Bostock, Carter, and Tse <a href="#ref-rent_or_buy">2014</a>)</span></p>
 </div>
 <div id="an-interactive-visualization-of-nyc-street-trees" class="section level3">
 <h3><span class="header-section-number">4.9.5</span> An Interactive Visualization of NYC Street Trees</h3>
@@ -755,7 +751,7 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <img src="images/NY_trees.png" alt="NYC Street Trees" />
 <p class="caption">NYC Street Trees</p>
 </div>
-<p>(Source:<span class="citation">(Zapata <a href="#ref-trees">2014</a>)</span>)</p>
+<p>Source:<span class="citation">(Zapata <a href="#ref-trees">2014</a>)</span></p>
 <p>The interactive visualization is an advantage that enables the display, and intuitive understanding of multidimensional data provides a variety of visualization chart types and enables the audience to accomplish traditional data exploration tasks by making charts interactive. Moreover, this visualization provides a good example: it enables the audience to explore on their own and finds exciting facts about NYC street trees.</p>
 </div>
 <div id="adding-up-the-white-oscars-winners" class="section level3">
@@ -770,57 +766,39 @@ Following charts are subsets categorized by job sector and sub-industries. Reade
 <img src="images/img_oscars_pic.PNG" alt="Best Picture" />
 <p class="caption">Best Picture</p>
 </div>
-<p>(Source:<span class="citation">(<span class="citeproc-not-found" data-reference-id="oscars_sowhite_chart"><strong>???</strong></span>)</span>)</p>
+<p>Source:<span class="citation">(“How to Build an Oscar Winner” <a href="#ref-oscars_sowhite_chart">2015</a>)</span></p>
 </div>
 <div id="kissmetrics-blog-visualization-of-metrics" class="section level3">
 <h3><span class="header-section-number">4.9.7</span> Kissmetrics blog: visualization of metrics</h3>
 <p>Kissmetrics blog is a place where people talk about analytics, marketing, and testing through narratives and visualization of metrics. Metrics are essential in the real world, especially when developing/promoting products. Visualization of metrics is also essential so that stakeholders can monitor performance, identify problems and dive deep into potential issues.</p>
 <p>This example from the Kissmetrics blog is about Facebook’s organic reach <span class="citation">(Patel <a href="#ref-facebook_organic">2018</a>)</span>. One crucial point discussed in the blog is whether the Facebook’s organic reach is decreasing drastically.</p>
 <p>The general trend shows that there is a considerable decline in Facebook’s page organic reach.</p>
-<div class="figure">
-<img src="images/facebook-page-organic-reach-decline-over-years.jpg" />
-
-</div>
+<p><img src="images/facebook-page-organic-reach-decline-over-years.jpg" /></p>
 <p>The following graphs show that the engagement is increasing; that is, while the quantity of content is decreasing, the quantity is increasing.</p>
-<div class="figure">
-<img src="images/average-facebook-reach.png" />
-
-</div>
-<div class="figure">
-<img src="images/average-facebook-daily-reach.png" />
-
-</div>
-<p>(Source:<span class="citation">(Patel <a href="#ref-facebook_organic">2018</a>)</span>)</p>
+<p><img src="images/average-facebook-reach.png" /></p>
+<p><img src="images/average-facebook-daily-reach.png" /></p>
+<p>Source:<span class="citation">(Patel <a href="#ref-facebook_organic">2018</a>)</span></p>
 <p>This resonates with what we have learned at class regarding how different perspectives of interpreting data can lead to different conclusions.</p>
 </div>
 <div id="describe-artists-with-emoji" class="section level3">
 <h3><span class="header-section-number">4.9.8</span> Describe Artists with Emoji</h3>
 <p>Using the data from Spotify, the author listed the ten most distinctive emoji used in the playlists related to favorite artists <span class="citation">(Insights <a href="#ref-artist_emoji">2017</a>)</span>. The table being used in this visual is very straightforward to link the artist to the emojis and is very easy to compare among artists. When you hover over the emoji, further information is presented.</p>
-<div class="figure">
-<img src="images/artist_emoji.png" />
-
-</div>
-<p>(Source:<span class="citation">(Insights <a href="#ref-artist_emoji">2017</a>)</span>)</p>
+<p><img src="images/artist_emoji.png" /></p>
+<p>Source:<span class="citation">(Insights <a href="#ref-artist_emoji">2017</a>)</span></p>
 </div>
 <div id="goldilocks-exoplanets" class="section level3">
 <h3><span class="header-section-number">4.9.9</span> Goldilocks Exoplanets</h3>
 <p>Using data from the Planetary Habitability Laboratory at the University of Puerto Rico, the interactive graph on Astrobiology plots planetary mass, atmospheric pressure, and temperature to determine what exoplanets might be home, or have been home at one point, to living beings <span class="citation">(Tomanio and Gonzalez Veira <a href="#ref-goldilocks_worlds">2014</a>)</span>.</p>
-<p>One highlight of the graph is how color has been used. The red dots represent planets that are too hot, the blue dots mean too cold, and the green ones mean just the right temperature. This is very intuitive for people to understand without the necessity to read through the notes. The dots are semi-transparent so the overlapping of planets does not detract from the audience’s ability to read the graph.</p>
+<p>One highlight of the graph is how color has been used. The red dots represent planets that are too hot, the blue dots mean too cold, and the green ones mean just the right temperature. This is very intuitive for people to understand without the necessity to read through the notes. The dots are semi-transparent so the overlapping of planets does not detract from the audience’s ability to read the graph.<span class="citation">(VERGANO <a href="#ref-Dan">2014</a>)</span></p>
 <p>Additionally, the size of each dot represents the radius of each planet. At first glance, one might assume that most planets are much larger than Eath, but the visualization includes a note explaining that larger planets are easier to find. This is a good example of how much explanation to include in a visualization, not so much that the audience is distracted from the graph but enough that they have the information needed to interpret it.</p>
-<div class="figure">
-<img src="images/planet.png" />
-
-</div>
-<p>(Source:[Astrobiology])</p>
+<p><img src="images/planetnew.png" /></p>
+<p>Source:[Astrobiology]</p>
 </div>
 <div id="washington-wizards-shooting-stars" class="section level3">
 <h3><span class="header-section-number">4.9.10</span> Washington Wizards’ Shooting Stars</h3>
 <p>This detailed data visualization demonstrates D.C.’s basketball team’s shooting success during the 2013 season <span class="citation">(Lindeman and Gamio <a href="#ref-basketball">2014</a>)</span>. Using statistics released by the NBA, the visualization allows viewers to examine data for each of 15 players. For example, viewers can see how successful each player was at a variety of types of shots from a range of spots on the court, compared to others in the league.</p>
-<div class="figure">
-<img src="images/wizards_shooting.png" />
-
-</div>
-<p>(Source:<span class="citation">(Lindeman and Gamio <a href="#ref-basketball">2014</a>)</span>)</p>
+<p><img src="images/wizards_shooting.png" /></p>
+<p>Source:<span class="citation">(Lindeman and Gamio <a href="#ref-basketball">2014</a>)</span></p>
 <p>Generally this is a data visualization for following reasons because it demonstrates complex infomation in a simple and topic-related format. It highlights fact numbers to tell important information. The use of colr is retrained but efficient. However, it is undefined that what is targeted audience. It can also reduce cognitive overload for lines.</p>
 </div>
 <div id="visualization-of-big-data-security-a-case-study-on-the-kdd99-cup-data-set" class="section level3">
@@ -835,10 +813,7 @@ Cybersecurity has been thrust into the limelight in the modern technological era
 <h3><span class="header-section-number">4.9.12</span> The Atlas of Sustainable Development Goals 2018 - Data Visualization of World Development</h3>
 <p><span class="citation">(TEAM <a href="#ref-world_bank_data">2018</a>)</span></p>
 <p>This is an exciting source and an excellent visual guide to data and development. It discusses trends, comparisons, and measurement issues using accessible and shareable data visualizations. As the graphs cite below, they are informative and clean:</p>
-<div class="figure">
-<img src="images/case_study_1.png" />
-
-</div>
+<p><img src="images/case_study_1.png" /></p>
 <table>
 <thead>
 <tr class="header">
@@ -853,13 +828,22 @@ Cybersecurity has been thrust into the limelight in the modern technological era
 </tr>
 </tbody>
 </table>
-<div class="figure">
-<img src="images/case_study_3.png" />
-
-</div>
-<p>The data draws on the World Development Indicators- the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas. The Atlas features maps and data visualizations, primarily drawn from World Development Indicators (WDI) - the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives.</p>
+<p><img src="images/case_study_3.png" /></p>
+<p>The data draws on the World Development Indicators- the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives. For each of the SDGs, relevant indicators have been chosen to illustrate important ideas.
+The Atlas features maps and data visualizations, primarily drawn from World Development Indicators (WDI) - the World Bank’s compilation of internationally comparable statistics about global development and the quality of people’s lives.</p>
 <p>The editors have been selected to emphasize on essential issues by experts in the World Bank’s Global Practices. The Atlas aims to reflect the breadth of the Goals themselves and presents national and regional trends and snapshots of progress towards the UN’s seventeen Sustainable Development Goals related to: poverty, hunger, health, education, gender, water, energy, jobs, infrastructure, inequalities, cities, consumption, climate, oceans, the environment, peace, institutions, and partnerships.</p>
-<p>Contents of this publication: <span class="citation">(Group <a href="#ref-worldbankpub">2018</a><a href="#ref-worldbankpub">a</a>)</span>. The data is available at <span class="citation">(Group <a href="#ref-data_access">2018</a><a href="#ref-data_access">b</a>)</span>. The code used to generate the majority of figures is available at <span class="citation">(Whitby <a href="#ref-worldbankcode">2018</a>)</span>.</p>
+<p>Contents of this publication: <span class="citation">(Group <a href="#ref-worldbankpub">2018</a><a href="#ref-worldbankpub">a</a>)</span>.
+The data is available at <span class="citation">(Group <a href="#ref-data_access">2018</a><a href="#ref-data_access">b</a>)</span>.
+The code used to generate the majority of figures is available at <span class="citation">(Whitby <a href="#ref-worldbankcode">2018</a>)</span>.</p>
+</div>
+<div id="is-beauty-important" class="section level3">
+<h3><span class="header-section-number">4.9.13</span> Is Beauty Important?</h3>
+<p>This case study is about this article: <a href="https://www.infoworld.com/article/3048315/the-inevitability-of-data-visualization-criticism.html" class="uri">https://www.infoworld.com/article/3048315/the-inevitability-of-data-visualization-criticism.html</a></p>
+<p>Andy Cotgreave is the current Senior Technical Evangelist at Tableau. In the above article he defends the use of elaborate visualizations and argues that beauty is a quality worth pursuing when making data visualizations.
+One visualization that he focuses on is a heat map that shows the effect of introducing vaccines on the number of polio cases in the US made by the Wall Street Journal. This particular visualization received a great deal of attention, and was sent around the internet to demonstrate the positive effects of vaccination. After spending some time on the internet, another author named Randy Olson responded with his own article where he remade the heat map as a simple line graph. Both versions are shown below.</p>
+<p><img src="images/which_is_best.png" /></p>
+<p>In his article, Cotgreave argues that the heat map was visually striking, and its novelty made him more likely to interact with it. As someone involved in visualizations, he seen hundreds, if not thousands of line graphs, and would’ve likely skipped over the line graph version. Cotgreave doubts that the line version would have won awards, or been virally shared as the heat map was. While Cotgreave acknowledges the readability of the line graph, he ultimately feels that there is a place for visualizations to be beautiful.</p>
+<p>The takeaway then, is that the visualization you choose to present should be tailored to your situation. In other words, think of your audience. If you were presenting your visualization to the internet at large, then being beautiful and novel is important. If your visualization becomes viral, then it will advance and promote your message to exponentially more people. On the other hand, if you have a more limited audience, like a team of managers, that wants visualizations that can be read quickly, then the line chart will be more suitable.</p>
 
 </div>
 </div>
@@ -867,148 +851,178 @@ Cybersecurity has been thrust into the limelight in the modern technological era
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-10_best">
-<p>Nathan Yau. 2015a. “10 Best Data Visualization Projects of 2015.” <a href="http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/" class="uri">http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/</a>.</p>
+<p>Nathan Yau. 2015a. “10 Best Data Visualization Projects of 2015.” <a href="http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/">http://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/</a>.</p>
 </div>
 <div id="ref-cool_data">
-<p>Kayla Darling. 2017. “15 Cool Information Graphics and Data Viz from 2016.” <a href="http://blog.visme.co/best-information-graphics-2016/" class="uri">http://blog.visme.co/best-information-graphics-2016/</a>.</p>
+<p>Kayla Darling. 2017. “15 Cool Information Graphics and Data Viz from 2016.” <a href="http://blog.visme.co/best-information-graphics-2016/">http://blog.visme.co/best-information-graphics-2016/</a>.</p>
 </div>
 <div id="ref-int_viz_capt">
-<p>Crooks, Ross. 2017. “16 Captivating Data Visualization Examples.” <a href="https://blog.hubspot.com/marketing/great-data-visualization-examples" class="uri">https://blog.hubspot.com/marketing/great-data-visualization-examples</a>.</p>
+<p>Crooks, Ross. 2017. “16 Captivating Data Visualization Examples.” <a href="https://blog.hubspot.com/marketing/great-data-visualization-examples">https://blog.hubspot.com/marketing/great-data-visualization-examples</a>.</p>
 </div>
 <div id="ref-15_mindblowing">
-<p>Stadd, Allison. 2015. “15 Data Visualizations That Will Blow Your Mind.” <a href="https://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html" class="uri">https://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html</a>.</p>
+<p>Stadd, Allison. 2015. “15 Data Visualizations That Will Blow Your Mind.” <a href="https://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html">https://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html</a>.</p>
 </div>
 <div id="ref-int_viz_current">
-<p>Chibana, Nayomi. 2016. “15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events.” <a href="http://blog.visme.co/data-visualizations-current-events/" class="uri">http://blog.visme.co/data-visualizations-current-events/</a>.</p>
+<p>Chibana, Nayomi. 2016. “15 Data Visualizations That Explain Trump, the White Oscars and Other Crazy Current Events.” <a href="http://blog.visme.co/data-visualizations-current-events/">http://blog.visme.co/data-visualizations-current-events/</a>.</p>
 </div>
 <div id="ref-vizwiz">
-<p>Andy, Kriebel. 2009. “VizWiz.” <a href="http://www.vizwiz.com/" class="uri">http://www.vizwiz.com/</a>.</p>
+<p>Andy, Kriebel. 2009. “VizWiz.” <a href="http://www.vizwiz.com/">http://www.vizwiz.com/</a>.</p>
+</div>
+<div id="ref-Wikipedia">
+<p>contributors, Wikipedia. 2019a. “Geovisualization.” <a href="https://en.wikipedia.org/wiki/Geovisualization">https://en.wikipedia.org/wiki/Geovisualization</a>.</p>
+</div>
+<div id="ref-Geovisualization">
+<p>Gloag, David. n.d. “Geovisualization: Tools &amp; Techniques.” <a href="https://study.com/academy/lesson/geovisualization-tools-techniques.html">https://study.com/academy/lesson/geovisualization-tools-techniques.html</a>.</p>
 </div>
 <div id="ref-spies_sky">
-<p>Aldhous, Peter, and Charles Seife. 2016. “Spies in the Skies.” <a href="https://www.buzzfeed.com/peteraldhous/spies-in-the-skies?utm{\_}term=.so1GQ6ZGDo{\#}.ec8kL3WkZe" class="uri">https://www.buzzfeed.com/peteraldhous/spies-in-the-skies?utm{\_}term=.so1GQ6ZGDo{\#}.ec8kL3WkZe</a>.</p>
+<p>Aldhous, Peter, and Charles Seife. 2016. “Spies in the Skies.” <a href="https://www.buzzfeed.com/peteraldhous/spies-in-the-skies?utm{\_}term=.so1GQ6ZGDo{\#}.ec8kL3WkZe">https://www.buzzfeed.com/peteraldhous/spies-in-the-skies?utm{\_}term=.so1GQ6ZGDo{\#}.ec8kL3WkZe</a>.</p>
 </div>
 <div id="ref-immigration">
-<p>Galka, Max. 2016. “Here’s Everyone Who’s Immigrated to the U.S. Since 1820.” <a href="http://metrocosm.com/animated-immigration-map/" class="uri">http://metrocosm.com/animated-immigration-map/</a>.</p>
+<p>Galka, Max. 2016. “Here’s Everyone Who’s Immigrated to the U.S. Since 1820.” <a href="http://metrocosm.com/animated-immigration-map/">http://metrocosm.com/animated-immigration-map/</a>.</p>
 </div>
 <div id="ref-uber_maps">
-<p>Klimczak, Erik. 2016. “Crafting Data-Driven Maps.” <a href="https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554" class="uri">https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554</a>.</p>
+<p>Klimczak, Erik. 2016. “Crafting Data-Driven Maps.” <a href="https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554">https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554</a>.</p>
 </div>
 <div id="ref-UKvotes2017">
-<p>Holder, Josh, Caelainn Barr, and Niko Kommenda. 2017. “Young voters, class and turnout: how Britain voted in 2017.” <a href="https://www.theguardian.com/politics/datablog/ng-interactive/2017/jun/20/young-voters-class-and-turnout-how-britain-voted-in-2017" class="uri">https://www.theguardian.com/politics/datablog/ng-interactive/2017/jun/20/young-voters-class-and-turnout-how-britain-voted-in-2017</a>.</p>
+<p>Holder, Josh, Caelainn Barr, and Niko Kommenda. 2017. “Young voters, class and turnout: how Britain voted in 2017.” <a href="https://www.theguardian.com/politics/datablog/ng-interactive/2017/jun/20/young-voters-class-and-turnout-how-britain-voted-in-2017">https://www.theguardian.com/politics/datablog/ng-interactive/2017/jun/20/young-voters-class-and-turnout-how-britain-voted-in-2017</a>.</p>
 </div>
 <div id="ref-migration">
-<p>Aisch, Gregor, Robert Gebeloff, and Kevin Quealy. 2014. “Where We Came From and Where We Went, State by State.” <a href="https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002{\&amp;}abg=0" class="uri">https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002{\&amp;}abg=0</a>.</p>
+<p>Aisch, Gregor, Robert Gebeloff, and Kevin Quealy. 2014. “Where We Came From and Where We Went, State by State.” <a href="https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002{\&amp;}abg=0">https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002{\&amp;}abg=0</a>.</p>
 </div>
 <div id="ref-NPR_workday">
-<p>Quoctrung Bui. 2014. “Who’s In The Office? The American Workday In One Graph.” <a href="https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph" class="uri">https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph</a>.</p>
+<p>Quoctrung Bui. 2014. “Who’s In The Office? The American Workday In One Graph.” <a href="https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph">https://www.npr.org/sections/money/2014/08/27/343415569/whos-in-the-office-the-american-workday-in-one-graph</a>.</p>
 </div>
 <div id="ref-spendingtime">
-<p>Yau, Nathan. 2016. “How People Like You Spend Their Time.” <a href="http://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time" class="uri">http://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time</a>.</p>
+<p>Yau, Nathan. 2016. “How People Like You Spend Their Time.” <a href="http://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time">http://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time</a>.</p>
 </div>
 <div id="ref-britain_diet_2016">
-<p>Institute, Open Data. 2016. “Britain’s Diet in Data.” <a href="http://britains-diet.labs.theodi.org/" class="uri">http://britains-diet.labs.theodi.org/</a>.</p>
+<p>Institute, Open Data. 2016. “Britain’s Diet in Data.” <a href="http://britains-diet.labs.theodi.org/">http://britains-diet.labs.theodi.org/</a>.</p>
 </div>
-<div id="ref-visual_display">
-<p>Tufte, Edward. 1983. <em>The Visual Display of Quantitative Information, Vol. 2.</em> Graphics Press.</p>
+<div id="ref-The-Visual-Display-of-Quantitative-Information">
+<p>Tufte, Edward R. 1986. <em>The Visual Display of Quantitative Information</em>. Cheshire, CT, USA: Graphics Press.</p>
 </div>
 <div id="ref-selfie">
-<p>Manovich, Lev, Moritz Stefaner, Mehrdad Yazdani, Dominikus Baur, Daniel Goddemeyer, and Alise Tifentale. 2014. “SelfieCity.” <a href="http://selfiecity.net/" class="uri">http://selfiecity.net/</a>.</p>
+<p>Manovich, Lev, Moritz Stefaner, Mehrdad Yazdani, Dominikus Baur, Daniel Goddemeyer, and Alise Tifentale. 2014. “SelfieCity.” <a href="http://selfiecity.net/">http://selfiecity.net/</a>.</p>
 </div>
 <div id="ref-age_groups">
-<p>Kurtz, Annalyn, and Tal Yellin. 2018. “Millennial generation is bigger, more diverse than boomers.” <a href="http://money.cnn.com/interactive/economy/diversity-millennials-boomers/" class="uri">http://money.cnn.com/interactive/economy/diversity-millennials-boomers/</a>.</p>
+<p>Kurtz, Annalyn, and Tal Yellin. 2018. “Millennial generation is bigger, more diverse than boomers.” <a href="http://money.cnn.com/interactive/economy/diversity-millennials-boomers/">http://money.cnn.com/interactive/economy/diversity-millennials-boomers/</a>.</p>
 </div>
 <div id="ref-recession_economy">
-<p>Ashkenas, Jeremy, and Alicia Parlapiano. 2014. “How the Recession Reshaped the Economy, in 255 Charts.” <a href="https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html" class="uri">https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html</a>.</p>
+<p>Ashkenas, Jeremy, and Alicia Parlapiano. 2014. “How the Recession Reshaped the Economy, in 255 Charts.” <a href="https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html">https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html</a>.</p>
 </div>
 <div id="ref-aging_nation">
-<p>United States Census Bureau. 2018. “An Aging Nation: Projected Number of Children and Older Adults.” <a href="https://www.census.gov/library/visualizations/2018/comm/historic-first.html" class="uri">https://www.census.gov/library/visualizations/2018/comm/historic-first.html</a>.</p>
+<p>United States Census Bureau. 2018. “An Aging Nation: Projected Number of Children and Older Adults.” <a href="https://www.census.gov/library/visualizations/2018/comm/historic-first.html">https://www.census.gov/library/visualizations/2018/comm/historic-first.html</a>.</p>
 </div>
 <div id="ref-population_pyramid">
-<p>Bureau, United States Census. 2018b. “From Pyramid to Pillar: A Century of Change, Population of the U.S.” <a href="https://www.census.gov/library/visualizations/2018/comm/century-of-change.html" class="uri">https://www.census.gov/library/visualizations/2018/comm/century-of-change.html</a>.</p>
+<p>Bureau, United States Census. 2018b. “From Pyramid to Pillar: A Century of Change, Population of the U.S.” <a href="https://www.census.gov/library/visualizations/2018/comm/century-of-change.html">https://www.census.gov/library/visualizations/2018/comm/century-of-change.html</a>.</p>
+</div>
+<div id="ref-animated_pyramid">
+<p>“An Aging Population.” n.d. <a href="https://fathom.info/aging/">https://fathom.info/aging/</a>.</p>
 </div>
 <div id="ref-google_music">
-<p>Google. 2014. “Music Timeline.” <a href="https://research.google.com/bigpicture/music/" class="uri">https://research.google.com/bigpicture/music/</a>.</p>
+<p>Google. 2014. “Music Timeline.” <a href="https://research.google.com/bigpicture/music/">https://research.google.com/bigpicture/music/</a>.</p>
+</div>
+<div id="ref-Socialchange">
+<p>Neira, Mateo. 2016. “Data Visualization: A Tool for Social Change.” <a href="https://medium.com/@mateoneira/data-visualization-a-tool-for-social-change-cefb02b7ce4a">https://medium.com/@mateoneira/data-visualization-a-tool-for-social-change-cefb02b7ce4a</a>.</p>
+</div>
+<div id="ref-Yale_Climate_Opinion">
+<p>“We Have Poluted Our Way to the Wealth in the Expense of the Environment.” n.d. <a href="https://public.tableau.com/shared/6F6TG3KJD?:display_count=yes&amp;:showVizHome=no">https://public.tableau.com/shared/6F6TG3KJD?:display_count=yes&amp;:showVizHome=no</a>.</p>
+</div>
+<div id="ref-MORPHOCODE">
+<p>MORPHOCODE. 2019. “Data and the City: Urban Visualizations.” <a href="https://morphocode.com/data-city-urban-visualizations/">https://morphocode.com/data-city-urban-visualizations/</a>.</p>
 </div>
 <div id="ref-American_life">
-<p>Nathan Yau. 2015b. “A Day in the Life of Americans.” <a href="http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/" class="uri">http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/</a>.</p>
+<p>Nathan Yau. 2015b. “A Day in the Life of Americans.” <a href="http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/</a>.</p>
 </div>
 <div id="ref-hans_rosling">
-<p>Rosling, Hans. 2010. “Hans Rosling’s 200 Countries, 200 Years, 4 Minutes - The Joy of States- BBC Four.” BBC. <a href="https://www.youtube.com/watch?v=jbkSRLYSojo" class="uri">https://www.youtube.com/watch?v=jbkSRLYSojo</a>.</p>
+<p>Rosling, Hans. 2010. “Hans Rosling’s 200 Countries, 200 Years, 4 Minutes - The Joy of States- BBC Four.” BBC. <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">https://www.youtube.com/watch?v=jbkSRLYSojo</a>.</p>
 </div>
 <div id="ref-CO2_emission">
-<p>World Resources Institute. 2014. “Carbon Emissions: past, present and future - interactive.” <a href="https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive" class="uri">https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive</a>.</p>
+<p>World Resources Institute. 2014. “Carbon Emissions: past, present and future - interactive.” <a href="https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive">https://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive</a>.</p>
 </div>
 <div id="ref-world_warming">
-<p>Roston, Eric, and Blacki Migliozzi. 2015. “What’s Really Warming the World?” <a href="https://www.bloomberg.com/graphics/2015-whats-warming-the-world/" class="uri">https://www.bloomberg.com/graphics/2015-whats-warming-the-world/</a>.</p>
+<p>Roston, Eric, and Blacki Migliozzi. 2015. “What’s Really Warming the World?” <a href="https://www.bloomberg.com/graphics/2015-whats-warming-the-world/">https://www.bloomberg.com/graphics/2015-whats-warming-the-world/</a>.</p>
+</div>
+<div id="ref-wiki_plastic_pollution">
+<p>contributors, Wikipedia. 2019b. “Plastic Pollution.” <a href="https://en.wikipedia.org/wiki/Plastic_pollution">https://en.wikipedia.org/wiki/Plastic_pollution</a>.</p>
+</div>
+<div id="ref-global_plastic_production">
+<p>Qualman, Darrin. 2017. “Global Plastic Production, 1917 to 2017.” <a href="https://www.darrinqualman.com/global-plastics-production/">https://www.darrinqualman.com/global-plastics-production/</a>.</p>
 </div>
 <div id="ref-plastic_pollution_visualizations">
-<p>Gr?n, Gianna-Carina. 2016. “Six Data Visualizations That Explain the Plastic Problem.” <a href="http://www.dw.com/en/six-data-visualizations-that-explain-the-plastic-problem/a-36861883" class="uri">http://www.dw.com/en/six-data-visualizations-that-explain-the-plastic-problem/a-36861883</a>.</p>
+<p>Grün, Gianna-Carina. 2016. “Six Data Visualizations That Explain the Plastic Problem.” <a href="http://www.dw.com/en/six-data-visualizations-that-explain-the-plastic-problem/a-36861883">http://www.dw.com/en/six-data-visualizations-that-explain-the-plastic-problem/a-36861883</a>.</p>
 </div>
 <div id="ref-ocean_plastic_pollution">
-<p>Moret, Skye. 2014. “Visualization of Ocean Plastic Collection.” <a href="https://www.northeastern.edu/visualization/allprojects/visualization-of-ocean-plastic-collection/" class="uri">https://www.northeastern.edu/visualization/allprojects/visualization-of-ocean-plastic-collection/</a>.</p>
+<p>Moret, Skye. 2014. “Visualization of Ocean Plastic Collection.” <a href="https://www.northeastern.edu/visualization/allprojects/visualization-of-ocean-plastic-collection/">https://www.northeastern.edu/visualization/allprojects/visualization-of-ocean-plastic-collection/</a>.</p>
 </div>
 <div id="ref-plastic_pollution_infographics">
-<p>ROUTLEY, NICK. 2018. “THE Plastic Problem, Visualized.” <a href="http://www.visualcapitalist.com/ocean-plastic-problem/" class="uri">http://www.visualcapitalist.com/ocean-plastic-problem/</a>.</p>
+<p>ROUTLEY, NICK. 2018. “THE Plastic Problem, Visualized.” <a href="http://www.visualcapitalist.com/ocean-plastic-problem/">http://www.visualcapitalist.com/ocean-plastic-problem/</a>.</p>
 </div>
 <div id="ref-green_honey">
-<p>Lee, Muyueh. 2016. “Green Honey.” <a href="http://muyueh.com/greenhoney/?es{\_}p=1228877" class="uri">http://muyueh.com/greenhoney/?es{\_}p=1228877</a>.</p>
+<p>Lee, Muyueh. 2016. “Green Honey.” <a href="http://muyueh.com/greenhoney/?es{\_}p=1228877">http://muyueh.com/greenhoney/?es{\_}p=1228877</a>.</p>
 </div>
 <div id="ref-lingui_data">
-<p>Alm, Cecilia Ovesdotter, Benjamin S. Meyers, and Emily Prud’hommeaux. 2017. <em>An Analysis and Visualization Tool for Case Study Learning of Linguistic Concepts</em>. Copenhagen, Denmark. <a href="http://www.aclweb.org/anthology/D17-2003" class="uri">http://www.aclweb.org/anthology/D17-2003</a>.</p>
+<p>Alm, Cecilia Ovesdotter, Benjamin S. Meyers, and Emily Prud’hommeaux. 2017. <em>An Analysis and Visualization Tool for Case Study Learning of Linguistic Concepts</em>. Copenhagen, Denmark. <a href="http://www.aclweb.org/anthology/D17-2003">http://www.aclweb.org/anthology/D17-2003</a>.</p>
 </div>
 <div id="ref-lingui_data1">
-<p>Michael Hund, Frederik L. Dennig. 2015. <em>HistoBankVis: Detecting Language Change via Data Visualization</em>. Michael, Hund. <a href="http://aclweb.org/anthology/W17-0507" class="uri">http://aclweb.org/anthology/W17-0507</a>.</p>
+<p>Michael Hund, Frederik L. Dennig. 2015. <em>HistoBankVis: Detecting Language Change via Data Visualization</em>. Michael, Hund. <a href="http://aclweb.org/anthology/W17-0507">http://aclweb.org/anthology/W17-0507</a>.</p>
 </div>
 <div id="ref-SotU2014">
-<p>Belmonte, Nicolas. 2014. “SOTU2014: See the State of The Union address minute by minute on Twitter.” <a href="http://twitter.github.io/interactive/sotu2014/" class="uri">http://twitter.github.io/interactive/sotu2014/</a>.</p>
+<p>Belmonte, Nicolas. 2014. “SOTU2014: See the State of The Union address minute by minute on Twitter.” <a href="http://twitter.github.io/interactive/sotu2014/">http://twitter.github.io/interactive/sotu2014/</a>.</p>
 </div>
 <div id="ref-campaign_staff">
-<p>Aisch, Gregor, and Karen Yourish. 2015. “Connecting the Dots Behind the 2016 Presidential Candidates.” <a href="https://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html?{\_}r=1" class="uri">https://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html?{\_}r=1</a>.</p>
+<p>Aisch, Gregor, and Karen Yourish. 2015. “Connecting the Dots Behind the 2016 Presidential Candidates.” <a href="https://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html?{\_}r=1">https://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html?{\_}r=1</a>.</p>
 </div>
 <div id="ref-syria_chart">
-<p>Keating, Joshua, and Chris Kirk. 2015. “A Guide to Who Is Fighting Whom in Syria.” <a href="http://www.slate.com/blogs/the{\_}slatest/2015/10/06/syrian{\_}conflict{\_}relationships{\_}explained.html" class="uri">http://www.slate.com/blogs/the{\_}slatest/2015/10/06/syrian{\_}conflict{\_}relationships{\_}explained.html</a>.</p>
+<p>Keating, Joshua, and Chris Kirk. 2015. “A Guide to Who Is Fighting Whom in Syria.” <a href="http://www.slate.com/blogs/the_slatest/2015/10/06/syrian_conflict_relationships_explained.html">http://www.slate.com/blogs/the_slatest/2015/10/06/syrian_conflict_relationships_explained.html</a>.</p>
 </div>
 <div id="ref-simpson_paradox">
-<p>Lewis Lehe, Victor Powell. 2013. “A Visual Explanation of Simpson’s Paradox.” <a href="https://flowingdata.com/2013/09/19/a-visual-explanation-of-simpsons-paradox/" class="uri">https://flowingdata.com/2013/09/19/a-visual-explanation-of-simpsons-paradox/</a>.</p>
+<p>Lewis Lehe, Victor Powell. 2013. “A Visual Explanation of Simpson’s Paradox.” <a href="https://flowingdata.com/2013/09/19/a-visual-explanation-of-simpsons-paradox/">https://flowingdata.com/2013/09/19/a-visual-explanation-of-simpsons-paradox/</a>.</p>
 </div>
 <div id="ref-Satellite">
-<p>Yanofsky, David, and Tim Fernholz. 2015. “This is every active satellite orbiting earth.” <a href="https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth" class="uri">https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth</a>.</p>
+<p>Yanofsky, David, and Tim Fernholz. 2015. “This is every active satellite orbiting earth.” <a href="https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth">https://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth</a>.</p>
 </div>
 <div id="ref-rent_or_buy">
-<p>Bostock, Mike, Shan Carter, and Archie Tse. 2014. “Is It Better to Rent or Buy?” <a href="https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?{\_}r=0" class="uri">https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?{\_}r=0</a>.</p>
+<p>Bostock, Mike, Shan Carter, and Archie Tse. 2014. “Is It Better to Rent or Buy?” <a href="https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?{\_}r=0">https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?{\_}r=0</a>.</p>
 </div>
 <div id="ref-trees">
-<p>Zapata, Cristian. 2014. “An Interactive Visualization of NYC Street Trees.” <a href="https://www.cloudred.com/labprojects/nyctrees/{\#}about" class="uri">https://www.cloudred.com/labprojects/nyctrees/{\#}about</a>.</p>
+<p>Zapata, Cristian. 2014. “An Interactive Visualization of NYC Street Trees.” <a href="https://www.cloudred.com/labprojects/nyctrees/">https://www.cloudred.com/labprojects/nyctrees/</a>.</p>
 </div>
 <div id="ref-adding_oscars">
-<p>“Adding up the White Oscar Winners.” 2016. <a href="https://www.bloomberg.com/graphics/2016-oscar-winners/" class="uri">https://www.bloomberg.com/graphics/2016-oscar-winners/</a>.</p>
+<p>“Adding up the White Oscar Winners.” 2016. <a href="https://www.bloomberg.com/graphics/2016-oscar-winners/">https://www.bloomberg.com/graphics/2016-oscar-winners/</a>.</p>
+</div>
+<div id="ref-oscars_sowhite_chart">
+<p>“How to Build an Oscar Winner.” 2015. <a href="http://archive-e.blogspot.com/2015/02/how-to-build-oscar-winner-if-hollywood.html">http://archive-e.blogspot.com/2015/02/how-to-build-oscar-winner-if-hollywood.html</a>.</p>
 </div>
 <div id="ref-facebook_organic">
-<p>Patel, Neil. 2018. “Is Facebook Organic Reach Really Dead?” <a href="https://blog.kissmetrics.com/is-facebook-organic-reach-dead/" class="uri">https://blog.kissmetrics.com/is-facebook-organic-reach-dead/</a>.</p>
+<p>Patel, Neil. 2018. “Is Facebook Organic Reach Really Dead?” <a href="https://blog.kissmetrics.com/is-facebook-organic-reach-dead/">https://blog.kissmetrics.com/is-facebook-organic-reach-dead/</a>.</p>
 </div>
 <div id="ref-artist_emoji">
-<p>Insights, Spotify. 2017. “What Emoji Say About Music.” <a href="https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured" class="uri">https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured</a>.</p>
+<p>Insights, Spotify. 2017. “What Emoji Say About Music.” <a href="https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured">https://public.tableau.com/en-us/s/gallery/what-emoji-say-about-music?gallery=featured</a>.</p>
 </div>
 <div id="ref-goldilocks_worlds">
-<p>Tomanio, John, and Xaquin Gonzalez Veira. 2014. “Goldilocks Worlds: Just Right for Life?” <a href="https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/" class="uri">https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/</a>.</p>
+<p>Tomanio, John, and Xaquin Gonzalez Veira. 2014. “Goldilocks Worlds: Just Right for Life?” <a href="https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/">https://www.nationalgeographic.com/astrobiology/goldilocks-worlds/</a>.</p>
+</div>
+<div id="ref-Dan">
+<p>VERGANO, DAN. 2014. “Kepler Telescope Discovers Most Earth-Like Planet yet.” <a href="https://news.nationalgeographic.com/news/2014/04/140417-earth-planet-kepler-habitable-science-nasa/?_ga=2.208654481.2018531223.1556082373-1845695105.1556082373">https://news.nationalgeographic.com/news/2014/04/140417-earth-planet-kepler-habitable-science-nasa/?_ga=2.208654481.2018531223.1556082373-1845695105.1556082373</a>.</p>
 </div>
 <div id="ref-basketball">
-<p>Lindeman, Todd, and Lazaro Gamio. 2014. “The Wizards’ Shooting Stars.” <a href="http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/" class="uri">http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/</a>.</p>
+<p>Lindeman, Todd, and Lazaro Gamio. 2014. “The Wizards’ Shooting Stars.” <a href="http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/">http://www.washingtonpost.com/wp-srv/special/sports/wizards-shooting-stars/</a>.</p>
 </div>
 <div id="ref-gapminder">
-<p>Ruan, Zichan, Yuantian Miao, Lei Pan, Nicholas Patterson, and Jun Zhang. 2017. “Visualization of big data security: a case study on the KDD99 cup data set.” <em>Digital Communications and Networks</em> 3 (4): 250–59. doi:<a href="https://doi.org/10.1016/j.dcan.2017.07.004">10.1016/j.dcan.2017.07.004</a>.</p>
+<p>Ruan, Zichan, Yuantian Miao, Lei Pan, Nicholas Patterson, and Jun Zhang. 2017. “Visualization of big data security: a case study on the KDD99 cup data set.” <em>Digital Communications and Networks</em> 3 (4): 250–59. <a href="https://doi.org/10.1016/j.dcan.2017.07.004">https://doi.org/10.1016/j.dcan.2017.07.004</a>.</p>
 </div>
 <div id="ref-world_bank_data">
-<p>TEAM, WORLD BANK DATA. 2018. “The 2018 Atlas of Sustainable Development Goals: An All-New Visual Guide to Data and Development.” <a href="http://blogs.worldbank.org/opendata/2018-atlas-sustainable-development-goals-all-new-visual-guide-data-and-development" class="uri">http://blogs.worldbank.org/opendata/2018-atlas-sustainable-development-goals-all-new-visual-guide-data-and-development</a>.</p>
+<p>TEAM, WORLD BANK DATA. 2018. “The 2018 Atlas of Sustainable Development Goals: An All-New Visual Guide to Data and Development.” <a href="http://blogs.worldbank.org/opendata/2018-atlas-sustainable-development-goals-all-new-visual-guide-data-and-development">http://blogs.worldbank.org/opendata/2018-atlas-sustainable-development-goals-all-new-visual-guide-data-and-development</a>.</p>
 </div>
 <div id="ref-worldbankpub">
-<p>Group, The World Bank. 2018a. “Atlas of Sustainable Development Goals 2018 : From World Development Indicators.” <a href="https://openknowledge.worldbank.org/handle/10986/29788" class="uri">https://openknowledge.worldbank.org/handle/10986/29788</a>.</p>
+<p>Group, The World Bank. 2018a. “Atlas of Sustainable Development Goals 2018 : From World Development Indicators.” <a href="https://openknowledge.worldbank.org/handle/10986/29788">https://openknowledge.worldbank.org/handle/10986/29788</a>.</p>
 </div>
 <div id="ref-data_access">
-<p>Group, The World Bank. 2018b. “Atlas of the Sustainable Development Goals 2018: From the World Development Indicators.” <a href="https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators" class="uri">https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators</a>.</p>
+<p>Group, The World Bank. 2018b. “Atlas of the Sustainable Development Goals 2018: From the World Development Indicators.” <a href="https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators">https://datacatalog.worldbank.org/dataset/atlas-sustainable-development-goals-2018-world-development-indicators</a>.</p>
 </div>
 <div id="ref-worldbankcode">
-<p>Whitby, Andrew. 2018. “Replication Code for the World Bank Atlas of Sustainable Development Goals 2018.” <a href="https://github.com/worldbank/sdgatlas2018" class="uri">https://github.com/worldbank/sdgatlas2018</a>.</p>
+<p>Whitby, Andrew. 2018. “Replication Code for the World Bank Atlas of Sustainable Development Goals 2018.” <a href="https://github.com/worldbank/sdgatlas2018">https://github.com/worldbank/sdgatlas2018</a>.</p>
 </div>
 </div>
             </section>
@@ -1037,7 +1051,7 @@ gitbook.start({
 "google": false,
 "linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
 "all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
@@ -1049,6 +1063,10 @@ gitbook.start({
 "edit": {
 "link": "https://github.com/rstudio/bookdown-demo/edit/master/03-casestudies.Rmd",
 "text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
 },
 "download": ["data_viz_reader.pdf", "data_viz_reader.epub"],
 "toc": {
@@ -1063,8 +1081,8 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
     script.src = src;
