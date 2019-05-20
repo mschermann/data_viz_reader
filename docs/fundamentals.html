@@ -25,7 +25,7 @@
 <meta name="author" content="MSIS 2629 Spring 2019">
 
 
-<meta name="date" content="2019-05-13">
+<meta name="date" content="2019-05-20">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -701,6 +701,13 @@ They can be used if you really must but be aware that they are not always very a
 <p><img src="images/3.2.2_Square_pie_chart.png" />
 (Source: <span class="citation">(Yau <a href="#ref-Square_Pie_Charts">2018</a>)</span>)</p>
 </div>
+<div id="geographical-data" class="section level5">
+<h5><span class="header-section-number">3.2.2.1.4</span> Geographical Data</h5>
+<p>Maps are ideal to show data on location. Maps are often best when paired with another chart that details what the map displays — such as a bar chart sorted from greatest to least, a line charts showing the trends, or even just a cross-tab to show the actual data.
+Although pie charts are not recommended for part-to-whole relationship, pie charts can be used on maps, such as in the website-traffic map below. By using pies on the map, we get a rough breakdown view of each country, which can be very useful when complemented by other chart types like the ones mentioned previously.</p>
+<p><img src="images/Image7.PNG" />
+(Source: <span class="citation">(<a href="#ref-DataVizBestPrac">n.d.</a>)</span>)</p>
+</div>
 </div>
 </div>
 <div id="analyze-and-interpret" class="section level3">
@@ -1257,7 +1264,7 @@ A Tableau file can be saved with the data attached so that it does not need to r
 </ol>
 <div id="using-multiple-data-sources" class="section level4">
 <h4><span class="header-section-number">3.4.7.1</span> Using Multiple Data Sources</h4>
-<p><span class="citation">(Tableau <a href="#ref-TableauHelp_connections">2019</a><a href="#ref-TableauHelp_connections">b</a>)</span></p>
+<p><span class="citation">(Tableau <a href="#ref-TableauHelp_connections">2019</a><a href="#ref-TableauHelp_connections">c</a>)</span></p>
 <p>In Tableau data source there are two ways to add in data from multiple sources. The first is joining the data, which will add two datasets together at the row level related by specific columns. When joining tables, the fields being joined must be of the same data type. There are four types of joins: inner, left, right and full outer. Note that when possible perform joins outside of Tableau and import one dataset in order to maximize performance.</p>
 <p>The second is blending multiple data sources, which keeps two or more data sources separate from each other but displays the information together. Blending allows for data to have different levels of detail such as aggregate number of transactions per month vs. individual transactions. It also is used when joins will not work, such as having transactional data in one source and quota data in another. Blending requires at least one common field between both data sources. If the field names are different but the two columns contain the same values, the relationship can be defined by changing the column names in one data source to match the other, or defining the relationship manually <span class="citation">(Technology mart <a href="#ref-datablendingintableau">2017</a>)</span>.</p>
 <strong>Steps For Joining Data</strong>
@@ -1308,7 +1315,7 @@ Click Apply or OK to union
 <h4><span class="header-section-number">3.4.7.2</span> Getting Started by Creating a First View</h4>
 <p><span class="citation">(Tableau.com <a href="#ref-Tableau_Build_Manual">2019</a>)</span></p>
 <p>The types of visualization will change for each dataset, but Tableau’s layout will be the same regardless, so it is important to know more about the main features for creating visual of your data.</p>
-<p>!()[<a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png" class="uri">https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png</a>]</p>
+<p><img src="images/Drag28.png" /></p>
 <table>
 <colgroup>
 <col width="15%" />
@@ -1443,6 +1450,39 @@ AVG, COUNT, MAX, MIN and other Aggregation functions
 <li>
 Functions involving simple math using two or more of the existing fields
 <ul>
+</div>
+<div id="creating-groups" class="section level4">
+<h4><span class="header-section-number">3.4.7.5</span> Creating Groups</h4>
+<p><span class="citation">(Tableau <a href="#ref-Tableau_Groups">2019</a><a href="#ref-Tableau_Groups">b</a>)</span>
+Creating a group in Tableau will combine items in a field that are related to each other in some way and allow you to visualize the new grouped data, while the old non-grouped data still remains. The paperclip icon in Tableau is used for grouping.</p>
+There are many ways to create groupings of data, and different reasons for grouping data in a certain way:
+<ol>
+<li>
+Selecting multiple data points in the view and group them together using the group icon.
+<ul>
+<li>
+For example, you might want to do this with mislabeled data from input error. i.e. columns that are titled “CA” and “California” would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset’s naming convention for states.
+<ol>
+<li>
+Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting <strong>create</strong> &gt; <strong>group</strong>. Select the members of field you want to group and click <strong>group</strong>.
+<ul>
+<li>
+For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e. If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called “small supplies”.
+<ol>
+<li>
+Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting <strong>Edit Group</strong>, and selecting <strong>Include Other</strong>.
+<ul>
+<li>
+This can help highlight certain groups against everything else. For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph.
+<img src="images/ad-hoc24.png" />
+<ol>
+<li>
+Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the <strong>Shift</strong> key to select multiple marks and click the <em>paperclip</em> (Group) button on the toolbar and select <strong>Group</strong>.
+<ul>
+<li>
+It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension.
+<li>
+<p>This is useful for showing things like outliers, or highest performers.</p>
 </div>
 </div>
 <div id="tabpy" class="section level3">
@@ -1741,8 +1781,9 @@ Repeat the above exercise of counting the number of 3s using the below figure.<b
 <p>Note how much easier and faster the same exercise when we added the colour to the number 3. Even without blinking or thinking, all six 3s become very obvious and cannot be missed. This is because in this second iteration, your iconic memory is being leveraged. The preattentive attribute of intensity of color, in this case, makes the 3s the one thing that stands out as distinct from the rest. Our brain picks up on this without us having to dedicate any conscious thought to it.</p>
 <p>This is remarkable. And profoundly powerful. What this means for us is that, if we use preattentive attributes strategically, they can help us enable our audience to see what we want them to see before they even know they’re seeing it! <span class="citation">(Hepworth <a href="#ref-kathep">2015</a>)</span></p>
 <p>Aside from colour, we can also use movement to call the audience’s attention to the point of focus in a visualization. Movement has two sub-attributes - flicker and motion. While both can be used very effectively to call someone’s attention, we should use it with caution in information visualizations, as the audience may find the motion annoying or distracting from the rest of the information that is being presented. Movement is most commonly used in banner adverts and other forms of web advertising and may be a primary reason for the rise of ad-blocking software today.</p>
+<p>Shading, or colour tints, can also be used to direct the reader’s attention by increasing darkness on elements we do not want the reader to be focusing on. On the contrary, we increase the brightness/contrast on the element we want the reader to focus on.</p>
 <center>
-<img src="images/preattentive-attr-movement.gif" width="400" /><br />
+<img src="images/preattentive-attr-shading.jpg" width="400" /><br />
 Source: <a href="https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization" class="uri">https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization</a><br />
 Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 </center>
@@ -1978,6 +2019,9 @@ Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 <div id="ref-Square_Pie_Charts">
 <p>Yau, Nathan. 2018. “How to Make Square Pie Charts in R.” <a href="https://flowingdata.com/2016/07/18/how-to-make-square-pie-charts-in-r/">https://flowingdata.com/2016/07/18/how-to-make-square-pie-charts-in-r/</a>.</p>
 </div>
+<div id="ref-DataVizBestPrac">
+<p>n.d. <a href="url\{http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf">url\{http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf</a>.</p>
+</div>
 <div id="ref-analyze_viz">
 <p>Software, Tableau. 2019. “Visual Analysis Best Practices, Simple Techniques for Making Every Data Visualization Useful and Beautiful.” <a href="http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf">http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf</a>.</p>
 </div>
@@ -2024,7 +2068,7 @@ Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 <p>“The Extreme Presentation Method.” n.d. Blog. <a href="http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html">http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html</a>.</p>
 </div>
 <div id="ref-TableauHelp_connections">
-<p>Tableau. 2019b. “Tableau Desktop and Web Authoring Help.” Website. <a href="https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm">https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm</a>.</p>
+<p>Tableau. 2019c. “Tableau Desktop and Web Authoring Help.” Website. <a href="https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm">https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm</a>.</p>
 </div>
 <div id="ref-datablendingintableau">
 <p>Technology mart. 2017. “Data Blending in Tableau.” Website. <a href="https://www.youtube.com/watch?v=dZKgIA6Pe_c">https://www.youtube.com/watch?v=dZKgIA6Pe_c</a>.</p>
@@ -2040,6 +2084,9 @@ Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 </div>
 <div id="ref-Tableau_Calculated_Fields">
 <p>Tableau. 2019a. “Get Started with Calculations in Tableau.” <a href="https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm">https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm</a>.</p>
+</div>
+<div id="ref-Tableau_Groups">
+<p>Tableau. 2019b. “Group Your Data.” <a href="https://onlinehelp.tableau.com/current/pro/desktop/en-us/sortgroup_groups_creating.htm">https://onlinehelp.tableau.com/current/pro/desktop/en-us/sortgroup_groups_creating.htm</a>.</p>
 </div>
 <div id="ref-TabPy">
 <p>Beran, Boran. 2017. “Building advanced analytics applications with TabPy.” <a href="https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916">https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916</a>.</p>

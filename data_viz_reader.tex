@@ -123,7 +123,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-05-13}
+    \date{2019-05-20}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -333,6 +333,18 @@ Confirmatory Analysis: to confirm our understanding and analysis of the data\str
 \section{Importance of Data Exploration}\label{importance-of-data-exploration}}
 
 ``Data exploration tasks are those of examining data without having an a priori understanding of what patterns, information, or knowledge it might contain.'' (Jeff Baker \protect\hyperlink{ref-Data_Exploration_1}{2009}) While the majority of research has been on the output of and creation of visualizations, but the important aspect of these tasks is to first understand the data that is being presented. As mentioned in (Jeff Baker \protect\hyperlink{ref-Data_Exploration_1}{2009}), the main aspect of exploration is the understanding of perception in comparing two measures in a data source. The contrast between object A and object B shows an ability to compare by saying A is greater than B or the opposite occurs. As a brief introduction, data exploration is the process of finding the best way to pull out an outcome that a specific audience can perceive. By understanding the different types of perceptions and studying data based off of these concepts, data exploration is pivotal in the final visualization process due to taking the audience of the viz into account first and foremost.
+Here are some data exploration methods for references:
+Companies can conduct data exploration via a combination of automated and manual methods.
+Analysts commonly use automated tools such as data visualization software for data exploration because these tools allow users to quickly and simply view most of the relevant features of a data set. From this step, users can identify variables that are likely to have interesting observations.
+\includegraphics{images/Data_exploration.jpg}
+
+By displaying data graphically -- for example, through scatter plots, density plots or bar charts -- users can see if two or more variables correlate and determine if they are good candidates for further analysis, which may include:
+
+Univariate analysis: The analysis of one variable.
+Bivariate analysis: The analysis of two variables to determine their relationship.
+Multivariate analysis: The analysis of multiple outcome variables.
+Principal components analysis: The analysis and conversion of possibly correlated variables into a smaller number of uncorrelated variables.
+Manual data exploration methods may include filtering and drilling down into data in Excel spreadsheets or writing scripts to analyze raw data sets.
 
 \hypertarget{importance-of-data-visualization}{%
 \section{Importance of Data Visualization}\label{importance-of-data-visualization}}
@@ -1484,6 +1496,15 @@ They can be used if you really must but be aware that they are not always very a
 \includegraphics{images/3.2.2_Square_pie_chart.png}
 (Source: (Yau \protect\hyperlink{ref-Square_Pie_Charts}{2018}))
 
+\hypertarget{geographical-data}{%
+\paragraph{Geographical Data}\label{geographical-data}}
+
+Maps are ideal to show data on location. Maps are often best when paired with another chart that details what the map displays --- such as a bar chart sorted from greatest to least, a line charts showing the trends, or even just a cross-tab to show the actual data.
+Although pie charts are not recommended for part-to-whole relationship, pie charts can be used on maps, such as in the website-traffic map below. By using pies on the map, we get a rough breakdown view of each country, which can be very useful when complemented by other chart types like the ones mentioned previously.
+
+\includegraphics{images/Image7.png}
+(Source: (\protect\hyperlink{ref-DataVizBestPrac}{n.d.}))
+
 \hypertarget{analyze-and-interpret}{%
 \subsection{Analyze and Interpret}\label{analyze-and-interpret}}
 
@@ -2184,7 +2205,7 @@ A Tableau file can be saved with the data attached so that it does not need to r
 \hypertarget{using-multiple-data-sources}{%
 \subsubsection{Using Multiple Data Sources}\label{using-multiple-data-sources}}
 
-(Tableau \protect\hyperlink{ref-TableauHelp_connections}{2019}\protect\hyperlink{ref-TableauHelp_connections}{b})
+(Tableau \protect\hyperlink{ref-TableauHelp_connections}{2019}\protect\hyperlink{ref-TableauHelp_connections}{c})
 
 In Tableau data source there are two ways to add in data from multiple sources. The first is joining the data, which will add two datasets together at the row level related by specific columns. When joining tables, the fields being joined must be of the same data type. There are four types of joins: inner, left, right and full outer. Note that when possible perform joins outside of Tableau and import one dataset in order to maximize performance.
 
@@ -2239,7 +2260,7 @@ Click Apply or OK to union
 
 The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data.
 
-!(){[}\url{https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png}{]}
+\includegraphics{images/Drag28.png}
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -2382,6 +2403,33 @@ Date Functions
 AVG, COUNT, MAX, MIN and other Aggregation functions
 
 Functions involving simple math using two or more of the existing fields
+
+\hypertarget{creating-groups}{%
+\subsubsection{Creating Groups}\label{creating-groups}}
+
+(Tableau \protect\hyperlink{ref-Tableau_Groups}{2019}\protect\hyperlink{ref-Tableau_Groups}{b})
+Creating a group in Tableau will combine items in a field that are related to each other in some way and allow you to visualize the new grouped data, while the old non-grouped data still remains. The paperclip icon in Tableau is used for grouping.
+
+There are many ways to create groupings of data, and different reasons for grouping data in a certain way:
+
+Selecting multiple data points in the view and group them together using the group icon.
+
+For example, you might want to do this with mislabeled data from input error. i.e.~columns that are titled ``CA'' and ``California'' would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset's naming convention for states.
+
+Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting \textbf{create} \textgreater{} \textbf{group}. Select the members of field you want to group and click \textbf{group}.
+
+For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e.~If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called ``small supplies''.
+
+Creating an ``other'' group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting \textbf{Edit Group}, and selecting \textbf{Include Other}.
+
+This can help highlight certain groups against everything else. For example, if the visualization is intended to show high performing products and low performing products, then creating an ``other'' group will help draw attention to the focus of the graph.
+\includegraphics{images/ad-hoc24.png}
+
+Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the \textbf{Shift} key to select multiple marks and click the \emph{paperclip} (Group) button on the toolbar and select \textbf{Group}.
+
+It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension.
+
+This is useful for showing things like outliers, or highest performers.
 
 \hypertarget{tabpy}{%
 \subsection{TabPy}\label{tabpy}}
@@ -2768,7 +2816,9 @@ This is remarkable. And profoundly powerful. What this means for us is that, if 
 
 Aside from colour, we can also use movement to call the audience's attention to the point of focus in a visualization. Movement has two sub-attributes - flicker and motion. While both can be used very effectively to call someone's attention, we should use it with caution in information visualizations, as the audience may find the motion annoying or distracting from the rest of the information that is being presented. Movement is most commonly used in banner adverts and other forms of web advertising and may be a primary reason for the rise of ad-blocking software today.
 
-\includegraphics[width=4.16667in,height=\textheight]{images/preattentive-attr-movement.gif}\\
+Shading, or colour tints, can also be used to direct the reader's attention by increasing darkness on elements we do not want the reader to be focusing on. On the contrary, we increase the brightness/contrast on the element we want the reader to focus on.
+
+\includegraphics[width=4.16667in,height=\textheight]{images/preattentive-attr-shading.jpg}\\
 Source: \url{https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization}\\
 Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 
@@ -3122,9 +3172,9 @@ Source: (Holder, Barr, and Kommenda \protect\hyperlink{ref-UKvotes2017}{2017})
 \hypertarget{u.s.-migration-patterns}{%
 \subsection{U.S. Migration Patterns}\label{u.s.-migration-patterns}}
 
-The New York Times data team mapped out Americans' moving patterns from 1900 to present, and the results are fascinating to interact with (Aisch, Gebeloff, and Quealy \protect\hyperlink{ref-migration}{2014}). We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania.
+The New York Times data team mapped out Americans' moving patterns from 1900 to present, and the results are fascinating to interact with (Aisch, Gebeloff, and Quealy \protect\hyperlink{ref-migration}{2014}). We can see where people living in each state were born, and where people are moving to and from. The groupings of the destinations vary based on that state's trends, preventing unnecessary clutter while still showing detail when vital, as can be seen by the difference between the charts for California and Pennsylvania. When generating interactive charts, one must always assume that the audience will not interact with it. The message of a chart has to be clear enough that anyone just viewing the generic chart can understand.
 
-Overall, this type of chart can work well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very graphic visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by region (West, South, Midwest, etc.). However, it is not completely clear why so many crossing lines are necessary for the Pennsylvania chart. The crossing lines, along with the use of the same color for different lines within the same regional categories, can introduce unnecessary complexity.
+Overall, this type of chart can work well to visualize movement in data over time, such as with migration. However, it must be done carefully to maintain clarity. Too many categories with colors and crossing lines can make it difficult for a reader to keep track of what the data is saying and it can quickly go from a very graphic visualization to a chaotic mess of lines. The designer does a pretty good job with these visualizations by limiting the number of categories in grouping states by region (West, South, Midwest, etc.). But when introducing many dimenional variables such as Migration from Pennsylvania, the chart can quickly turn convoluted and hard to read which costs the audience. Finally, it is not completely clear why so many crossing lines are necessary for the Pennsylvania chart. The crossing lines, along with the use of the same color for different lines within the same regional categories, can introduce unnecessary complexity.
 
 \begin{figure}
 \centering
@@ -3429,7 +3479,7 @@ Language shapes the way we view the world. Different languages may have vastly d
 
 Muyueh Lee takes this idea and expands upon it, examining the differences in describing color in Chinese and English through a helpful visualization.
 The visualization spans a webpage (Lee \protect\hyperlink{ref-green_honey}{2016}) referenced in (Kayla Darling \protect\hyperlink{ref-cool_data}{2017}). As you scroll down, the text changes, as do many colored dots that move over the white background. The dots are used to represent not only each colors' hue but the numbers that fall into each category --- for example, what colors are the most famous ``base'' colors for English and Chinese. The continuous flow of this visualization helps bring it together, allowing users to scroll through the information at their own pace, but also creating a seamless, creative work.
-
+Using data from the English and Chinese versions of the Wikipedia entry on color, the visualization shows the differences in how English speakers and Chinese speakers describe color. Looking at the infographic, it's clear that English (or at least the English Wikipedia article) has more words for color than Chinese does. Additionally, the most popular ``base color words'' in Chinese are red, blue and green. In English, it's blue, green and pink. English also differs from Chinese in using place names to distinguish between colors, like in ``Persian Blue.''(Kroulek, \protect\hyperlink{ref-Colors-in-Translation}{n.d.})
 \includegraphics{images/colorwords.png}
 
 Source:(Lee \protect\hyperlink{ref-green_honey}{2016})
@@ -3908,13 +3958,24 @@ Use contrasting dark and light colors. Combinations such as red--green or blue--
 \end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
 This will cause difficulty for people with color blindness.\strut
 \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+Choice of Colors\strut
+\end{minipage} & \begin{minipage}[t]{0.34\columnwidth}\raggedright
+Match the content of a color with the meaning in readers' culture.\strut
+\end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
+This helps readers understand the graphs quicker and easier. For example, green for forest and blue for lake, and red for Repulicans and blue for Democrats. But do avoid stereotypical colors, such as pink for women and blue for men.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+Number of Colors\strut
+\end{minipage} & \begin{minipage}[t]{0.34\columnwidth}\raggedright
+Do not use more than 6 colors in a single layout.\strut
+\end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
+Too many colors do not help readers distinguish categories easily, instead, readers will be confused. If more than six colors are needed, we should consider using another type of chart or categorize groups together (Rost, 2018).\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
-Choice of Colors \textbar{} Match the content of a color with the meaning in readers' culture. \textbar{} This helps readers understand the graphs quicker and easier. For example, green for forest and blue for lake, and red for Repulicans and blue for Democrats. But do avoid stereotypical colors, such as pink for women and blue for men. \textbar{}
-Number of Colors \textbar{} Do not use more than 6 colors in a single layout. \textbar{} Too many colors do not help readers distinguish categories easily, instead, readers will be confused. If more than six colors are needed, we should consider using another type of chart or categorize groups together (Rost, 2018). \textbar{}
 (Jager \protect\hyperlink{ref-Tom}{2019})
-\includegraphics{https://user-images.githubusercontent.com/49166499/56785095-98b72800-67c1-11e9-8677-64dc46fdcb6c.png}
 
 \hypertarget{ordering}{%
 \subsection{Ordering}\label{ordering}}
@@ -3927,14 +3988,7 @@ Order data intuitively. There should be a logical hierarchy. Order categories al
 Let the users lead. Know your audience. Designers should consider the way users prefer to understand the information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
 
 The following two graphs illustrate how the audience could dictates the elements of visualizations: title, name of x-axis and y-axis, chart type, legend, etc. Both graphs are based on the exact same data but for two distinct audience groups.
-\includegraphics{https://user-images.githubusercontent.com/35418915/56857056-5c004380-691d-11e9-90f0-4bb8a9e5bab6.png}
 This graph is drawn from a scientific journal. The audience of the graph above is scientists or researchers because scientific notations are used and some basic statistical background is required to understand this graph. For the density plot, the mean and left and right extremes are not shown but assumed.
-
-\begin{figure}
-\centering
-\includegraphics{https://user-images.githubusercontent.com/35418915/56857069-979b0d80-691d-11e9-8e2c-24fa0e32c447.png}
-\caption{image}
-\end{figure}
 
 The graph above is from the New York Times. The audience is the general public. This graph is not as truthful as the one before but easier to understand and more persuasive as people associate red with heat and blue with cold. The underlying idea is clear that the globe is becoming warmer.
 
@@ -3969,8 +4023,6 @@ Analytic results shouldn't be presented to 10 decimal places when the user doesn
 
 ``Graphics were used as instruments for reasoning quantitative information. With this example, graphical work has come to flourish. Graphical excellence begins with telling the truth about the data (Tufte,2001)''.
 In Tufte's ``The Visual Display of Quantitative Information'' book, an entire chapter is dedicated to graphical integrity in visualizations. Very useful and important examples can be found in the book. Following are some examples:
-\includegraphics{https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_1.png}
-\includegraphics{https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_2.png}
 
 Let's move further and review the most commonly used chart types, some example, and the dos and don'ts for each chart type.
 
@@ -4973,20 +5025,20 @@ Diverging bar charts are also convenient to create in Tableau. Below is an examp
 \hypertarget{ethics}{%
 \chapter{Ethics}\label{ethics}}
 
-This chapter covers the ethical implication to data visualizations. Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges. This chapter will touch on the importance of ethics in visualization, guidelines for ethical visualization, topics relating to data deception, ethical challenges faced when creating visualization, visualization and social change, and more.
+This chapter covers the ethical implication of data visualizations. Ethics refers to a set of moral principles that dictate a person's behavior. While the field of ethics is often considered to be a theoretical discipline, ethical conduct is an important objective in practice. In the field of data visualization, there are many opportunities to manipulate viewers with untruthful representations of data; thus, like any other discipline, data visualization faces significant ethical challenges. This chapter will touch on the importance of ethics in visualization, guidelines for ethical visualization, topics relating to data deception, ethical challenges faced when creating a visualization, visualization and social change, and more.
 
 \hypertarget{importance-of-ethics-in-visualization}{%
 \section{Importance of Ethics in Visualization}\label{importance-of-ethics-in-visualization}}
 
 (Cairo \protect\hyperlink{ref-ethical_infographics}{2014})
 
-Alberto Cairo illustrates the importance of ethics in his inforgraphics. He sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a ``rule utilitarian,'' he believes it is ``morally right'' to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
+Alberto Cairo illustrates the importance of ethics in his infographics. He sees data visualization as harmonization of journalism and engineering. From these two disciplines, he takes the journalist ethos of truth-telling and combines this with an engineering focus on efficacy and efficiency. The result is a data visualization that contains accurate and relevant information which is precisely and concisely conveyed. Cairo explains that as a ``rule utilitarian,'' he believes it is ``morally right'' to create graphics in this way. Here, it is useful to review his blog post introducing the article. In short, the responsibility of an ethical data visualizer is to create the most good while doing the least harm. As such, conveying honest and relevant information increases a person's understanding, and increased understanding and knowledge positively correlates with personal well-being.
 
 Alberto Cairo addresses the ethical `why' of data visualization in this article, while still grounding the discussion in a straightforward analysis of harmful and helpful practices. He emphasizes that the effectiveness of the display's communication of a message is as important as the information itself. This makes intuitive sense because useful information is rendered utterly useless if no one can understand it.
 
-In order to better understanding the importance of ethic, a video called `Practicing Good Ethics in Data Visualization' by University of California, Davis video has an excellent example to explain the reason. (``Practicing Good Ethics in Data Visualization,'' \protect\hyperlink{ref-Practicing_Good_Ethics_in_Data_Visualization}{n.d.})
+In order to better understanding the importance of ethics, a video called `Practicing Good Ethics in Data Visualization' by the University of California, Davis video has an excellent example to explain the reason. (``Practicing Good Ethics in Data Visualization,'' \protect\hyperlink{ref-Practicing_Good_Ethics_in_Data_Visualization}{n.d.})
 
-\textbf{Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.} While it can be a bit jarring to think of a poorly designed graphic as ``morally wrong,'' it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
+\textbf{Again, since the moral purpose is to improve well-being through understanding, a graphic that is confusing or misleading is unethical, regardless of intent, since it creates misunderstanding for the audience.} While it can be a bit jarring to think of a poorly designed graphics as ``morally wrong,'' it is essential to think of the unintended consequences that powerful yet misleading visuals may have on their viewers.
 
 \hypertarget{ethical-dimensions-of-visualization}{%
 \section{Ethical dimensions of Visualization}\label{ethical-dimensions-of-visualization}}
@@ -5256,7 +5308,7 @@ Other packages: Datashader \& Holoviews
 Anaconda community (na \protect\hyperlink{ref-Python2019}{2017}\protect\hyperlink{ref-Python2019}{b}) provides many solution and resources for all visualization packages.
 
 \textbf{Altair}
-Altair is a declarative statistical visualization library for Python (Visualization \protect\hyperlink{ref-Altair}{2019})
+Altair is a declarative statistical visualization library for Python ({\textbf{???}})
 There are gallerries and it is a powerful and concise visualization tool.
 
 \hypertarget{d3.js-community}{%
@@ -5847,6 +5899,9 @@ Kosara, Robert. 2016. ``Reflecting on the Design Criteria for Explanatory Visual
 \leavevmode\hypertarget{ref-promptcloud_2018}{}%
 Koshy, Jacob. 2018. ``8 Design Principles for Effective Data Visualization.'' \url{https://www.promptcloud.com/blog/design-principles-for-effective-data-visualization/}.
 
+\leavevmode\hypertarget{ref-Colors-in-Translation}{}%
+Kroulek, Alison. n.d. ``Colors in Translaiotn.'' \url{https://www.k-international.com/blog/colors-in-translation/}.
+
 \leavevmode\hypertarget{ref-age_groups}{}%
 Kurtz, Annalyn, and Tal Yellin. 2018. ``Millennial generation is bigger, more diverse than boomers.'' \url{http://money.cnn.com/interactive/economy/diversity-millennials-boomers/}.
 
@@ -6060,8 +6115,11 @@ tableau. n.d. ``Top 5 Best Practices for Creating Effective Dashboards and the 7
 \leavevmode\hypertarget{ref-Tableau_Calculated_Fields}{}%
 Tableau. 2019a. ``Get Started with Calculations in Tableau.'' \url{https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm}.
 
+\leavevmode\hypertarget{ref-Tableau_Groups}{}%
+---------. 2019b. ``Group Your Data.'' \url{https://onlinehelp.tableau.com/current/pro/desktop/en-us/sortgroup_groups_creating.htm}.
+
 \leavevmode\hypertarget{ref-TableauHelp_connections}{}%
-Tableau. 2019b. ``Tableau Desktop and Web Authoring Help.'' Website. \url{https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm}.
+Tableau. 2019c. ``Tableau Desktop and Web Authoring Help.'' Website. \url{https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm}.
 
 \leavevmode\hypertarget{ref-Tableau_Build_Manual}{}%
 Tableau.com. 2019. ``Shelves and Cards Reference.'' \url{https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildmanual_shelves.htm}.
@@ -6132,9 +6190,6 @@ UW Interactive Data Lab. 2015. ``Next Steps for Data Visualization Research.'' \
 \leavevmode\hypertarget{ref-Dan}{}%
 VERGANO, DAN. 2014. ``Kepler Telescope Discovers Most Earth-Like Planet yet.'' \url{https://news.nationalgeographic.com/news/2014/04/140417-earth-planet-kepler-habitable-science-nasa/?_ga=2.208654481.2018531223.1556082373-1845695105.1556082373}.
 
-\leavevmode\hypertarget{ref-Altair}{}%
-Visualization, Altair Data. 2019. ``Altair, Declarative Visualization in Python.'' \url{https://altair-viz.github.io}.
-
 \leavevmode\hypertarget{ref-great_viz}{}%
 visualizer, A great. 1982. ``A ficticious web page title.'' \href{http://great\%7B/_\%7Dviz\%7B/_\%7Dorg}{http://great\{\textbackslash{}\_\}viz\{\textbackslash{}\_\}org}.
 
@@ -6176,6 +6231,9 @@ Zapata, Cristian. 2014. ``An Interactive Visualization of NYC Street Trees.'' \u
 
 \leavevmode\hypertarget{ref-history_dataviz}{}%
 n.d. \url{https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/}.
+
+\leavevmode\hypertarget{ref-DataVizBestPrac}{}%
+n.d. \href{url/\%7Bhttp://www.dataplusscience.com/files/visual-analysis-guidebook.pdf}{url\textbackslash{}\{http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf}.
 
 \leavevmode\hypertarget{ref-dataviz_bestprac}{}%
 n.d. \href{url/\%7Bhttp://www.dataplusscience.com/files/visual-analysis-guidebook.pdf}{url\textbackslash{}\{http://www.dataplusscience.com/files/visual-analysis-guidebook.pdf}.

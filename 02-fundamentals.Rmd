@@ -271,6 +271,16 @@ They can be used if you really must but be aware that they are not always very a
   ![](images/3.2.2_Square_pie_chart.png)
   (Source: [@Square_Pie_Charts])
 
+##### Geographical Data
+
+Maps are ideal to show data on location. Maps are often best when paired with another chart that details what the map displays — such as a bar chart sorted from greatest to least, a line charts showing the trends, or even just a cross-tab to show the actual data. 
+Although pie charts are not recommended for part-to-whole relationship, pie charts can be used on maps, such as in the website-traffic map below. By using pies on the map, we get a rough breakdown view of each country, which can be very useful when complemented by other chart types like the ones mentioned previously. 
+
+   ![](images/Image7.png)
+   (Source: [@DataVizBestPrac])
+
+
+
 
 ### Analyze and Interpret
 Once data is visualized, the next step is to learn something from visualization that was created. The single most important step to make a great visualization is to know what you’re trying to say. It is vital that a visualization has a purpose and that one is selective about what to include in the visualization to fulfill that purpose. A few general questions that can be asked to determine the purpose of a visualization include: 
@@ -623,7 +633,7 @@ Joins and Data Blending work when it is required to append columns from one tabl
 
 The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data. 
 
-!()[https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png]
+![](images/Drag28.png)
 
 **Element**          | **Description**
 ---------------------|-------------------------------------------------------------------------------------------------------------------
@@ -675,6 +685,31 @@ Basic Calculations are the most common, and many of the functions found in Excel
 <li>AVG, COUNT, MAX, MIN and other Aggregation functions
 <li>Functions involving simple math using two or more of the existing fields
 <ul>
+
+#### Creating Groups
+
+[@Tableau_Groups]
+Creating a group in Tableau will combine items in a field that are related to each other in some way and allow you to visualize the new grouped data, while the old non-grouped data still remains. The paperclip icon in Tableau is used for grouping. 
+
+There are many ways to create groupings of data, and different reasons for grouping data in a certain way:
+<ol>
+<li> Selecting multiple data points in the view and group them together using the group icon.
+<ul>
+<li>For example, you might want to do this with mislabeled data from input error. i.e. columns that are titled “CA” and “California” would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset’s naming convention for states. 
+<ol> 
+<li> Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting **create** > **group**. Select the members of field you want to group and click **group**. 
+<ul>
+<li> For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e. If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called “small supplies”. 
+<ol> 
+<li> Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
+<ul>
+<li> This can help highlight certain groups against everything else.  For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph. 
+![](images/ad-hoc24.png)
+<ol> 
+<li> Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
+<ul>
+<li> It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension. 
+<li> This is useful for showing things like outliers, or highest performers.
 
 ### TabPy  
 [@TabPy]  
@@ -869,8 +904,10 @@ This is remarkable. And profoundly powerful. What this means for us is that, if 
   
 Aside from colour, we can also use movement to call the audience's attention to the point of focus in a visualization. Movement has two sub-attributes - flicker and motion. While both can be used very effectively to call someone’s attention, we should use it with caution in information visualizations, as the audience may find the motion annoying or distracting from the rest of the information that is being presented. Movement is most commonly used in banner adverts and other forms of web advertising and may be a primary reason for the rise of ad-blocking software today.
   
+Shading, or colour tints, can also be used to direct the reader's attention by increasing darkness on elements we do not want the reader to be focusing on. On the contrary, we increase the brightness/contrast on the element we want the reader to focus on.
+  
 <center>
-![](images/preattentive-attr-movement.gif){width=400px}  
+![](images/preattentive-attr-shading.jpg){width=400px}  
 Source: https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization  
 Author/Copyright holder: P.Ctnt. Copyright terms and licence: Public Domain.
 </center>
