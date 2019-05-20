@@ -633,7 +633,7 @@ Joins and Data Blending work when it is required to append columns from one tabl
 
 The types of visualization will change for each dataset, but Tableau's layout will be the same regardless, so it is important to know more about the main features for creating visual of your data. 
 
-![](https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png)
+![](images/Drag28.png)
 
 **Element**          | **Description**
 ---------------------|-------------------------------------------------------------------------------------------------------------------
@@ -704,7 +704,7 @@ There are many ways to create groupings of data, and different reasons for group
 <li> Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
 <ul>
 <li> This can help highlight certain groups against everything else.  For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph. 
-![](https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/ad-hoc24.png)
+![](images/ad-hoc24.png)
 <ol> 
 <li> Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
 <ul>
