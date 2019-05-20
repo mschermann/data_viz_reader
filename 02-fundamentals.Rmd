@@ -686,6 +686,31 @@ Basic Calculations are the most common, and many of the functions found in Excel
 <li>Functions involving simple math using two or more of the existing fields
 <ul>
 
+#### Creating Groups
+
+[@Tableau_Groups]
+Creating a group in Tableau will combine items in a field that are related to each other in some way and allow you to visualize the new grouped data, while the old non-grouped data still remains. The paperclip icon in Tableau is used for grouping. 
+
+There are many ways to create groupings of data, and different reasons for grouping data in a certain way:
+<ol>
+<li> Selecting multiple data points in the view and group them together using the group icon.
+<ul>
+<li>For example, you might want to do this with mislabeled data from input error. i.e. columns that are titled “CA” and “California” would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset’s naming convention for states. 
+<ol> 
+<li> Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting **create** > **group**. Select the members of field you want to group and click **group**. 
+<ul>
+<li> For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e. If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called “small supplies”. 
+<ol> 
+<li> Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
+<ul>
+<li> This can help highlight certain groups against everything else.  For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph. 
+![](https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/ad-hoc24.png)
+<ol> 
+<li> Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
+<ul>
+<li> It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension. 
+<li> This is useful for showing things like outliers, or highest performers.
+
 ### TabPy  
 [@TabPy]  
 Imagine a scenario where we can just enter some x values in a dashboard form, and the visualization would predict the y-variable! TabPy allows us to integrate and visualize data from Python in Tableau. 
