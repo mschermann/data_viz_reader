@@ -97,9 +97,10 @@ Numerical Scales | Color for numerical scales should be used with caution. | The
 Color Associations | Color can be used to leverage long-term memory very quickly. | We automatically associated strawberries with red. If we can leverage the how people associate different colors with different things, we will not even need a legend to explicitly match color to meaning. |
 Highlights | Bright colors can be used to highlight a certain part of the data. |Alarming colors draw the eye quickly to areas that need attention. |
 Color Combinations | Use contrasting dark and light colors. Combinations such as red–green or blue– yellow should be avoided. | This will cause difficulty for people with color blindness. | 
-Choice of Colors | Match the content of a color with the meaning in readers' culture. | This helps readers understand the graphs quicker and easier. For example, green for forest and blue for lake, and red for Repulicans and blue for Democrats. But do avoid stereotypical colors, such as pink for women and blue for men. | Number of Colors | Do not use more than 6 colors in a single layout. | Too many colors do not help readers distinguish categories easily, instead, readers will be confused. If more than six colors are needed, we should consider using another type of chart or categorize groups together (Rost, 2018). | 
+Choice of Colors | Match the content of a color with the meaning in readers' culture. | This helps readers understand the graphs quicker and easier. For example, green for forest and blue for lake, and red for Repulicans and blue for Democrats. But do avoid stereotypical colors, such as pink for women and blue for men. | 
+Number of Colors | Do not use more than 6 colors in a single layout. | Too many colors do not help readers distinguish categories easily, instead, readers will be confused. If more than six colors are needed, we should consider using another type of chart or categorize groups together (Rost, 2018). | 
 [@Tom]
-![image](https://user-images.githubusercontent.com/49166499/56785095-98b72800-67c1-11e9-8677-64dc46fdcb6c.png)
+<!-- ![image](https://user-images.githubusercontent.com/49166499/56785095-98b72800-67c1-11e9-8677-64dc46fdcb6c.png) -->
 
 ### Ordering
 Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value. Order consistently. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
@@ -108,10 +109,10 @@ Order data intuitively. There should be a logical hierarchy. Order categories al
 Let the users lead. Know your audience. Designers should consider the way users prefer to understand the information, even in choosing basic analytic approaches. For users to feel comfortable adopting and sharing insights from analytics, they must be able to explain and defend the data.
 
 The following two graphs illustrate how the audience could dictates the elements of visualizations: title, name of x-axis and y-axis, chart type, legend, etc. Both graphs are based on the exact same data but for two distinct audience groups. 
-![image](https://user-images.githubusercontent.com/35418915/56857056-5c004380-691d-11e9-90f0-4bb8a9e5bab6.png)
+<!-- ![image](https://user-images.githubusercontent.com/35418915/56857056-5c004380-691d-11e9-90f0-4bb8a9e5bab6.png) -->
 This graph is drawn from a scientific journal. The audience of the graph above is scientists or researchers because scientific notations are used and some basic statistical background is required to understand this graph. For the density plot, the mean and left and right extremes are not shown but assumed. 
 
-![image](https://user-images.githubusercontent.com/35418915/56857069-979b0d80-691d-11e9-8e2c-24fa0e32c447.png)
+<!-- ![image](https://user-images.githubusercontent.com/35418915/56857069-979b0d80-691d-11e9-8e2c-24fa0e32c447.png) -->
 
 The graph above is from the New York Times. The audience is the general public. This graph is not as truthful as the one before but easier to understand and more persuasive as people associate red with heat and blue with cold. The underlying idea is clear that the globe is becoming warmer. 
 
@@ -138,8 +139,8 @@ Analytic results shouldn’t be presented to 10 decimal places when the user doe
 ### Graph Integrity
 "Graphics were used as instruments for reasoning quantitative information. With this example, graphical work has come to flourish. Graphical excellence begins with telling the truth about the data (Tufte,2001)".
 In Tufte's "The Visual Display of Quantitative Information" book, an entire chapter is dedicated to graphical integrity in visualizations. Very useful and important examples can be found in the book. Following are some examples:
-![Image1](https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_1.png) 
-![Image2](https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_2.png)
+<!-- ![Image1](https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_1.png)  -->
+<!-- ![Image2](https://github.com/mschermann/data_viz_reader/blob/contributions/images/image_2.png) -->
 
 Let’s move further and review the most commonly used chart types, some example, and the dos and don’ts for each chart type.
 
@@ -442,7 +443,7 @@ For generating word cloud in Python, modules needed are – matplotlib, pandas a
 **Wordle:**  [@wordle]
 Wordle is a toy for generating “word clouds” from the text that you provide.  It is free and easy to use. You do need Java through Chrome. In Wordle, you generate word clouds from text you give as input. Clouds can be tweaked with different color schemes, layouts, and fonts. Images created from this tool can be saved and reused [@wordle].
 
-**Tableau:** [@tableau_wordcloud]
+**Tableau:** [@Tableau_wordcloud]
 Creating a word cloud in Tableau is quite straight forward you will need the Tableau Desktop application or a Tableau Online account for the same. To generate a word cloud in Tableau, open Tableau Desktop and connect it to the desired data source. Drag the desired dimension to Text on the Marks card. Then drag the same dimension to Size on the Marks card. Now right-click on the dimension on the Size card and select Measure from Count. If needed, change the Mark type from Automatic to Text. To add color, drag the same dimension to Color on the Marks card.
 
 Other popular tools include ABCya, Tagul, Tag Crowd and CloudArt.
