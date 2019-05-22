@@ -6,6 +6,29 @@ output:
 # How to run a data viz project
 
 
+
+## How to structure a data visualization project
+[@data_viz_idea]
+
+### Bring big data visualization up front
+
+Enterprises are finding ways to create data visualization front ends that can be explored by front-line workers.
+Rather than have developers create a purpose-built app, enterprises can wire up Google's Data Studio to their data sources, then create and style a simple UI with Analytics Canvas.
+
+###  Connect time and space
+
+Marketers use location intelligence to understand consumer preferences, behavior or loyalty based on when, where and how often someone shows up. Customer support managers use location intelligence to create better customer experiences, since physical location is usually a big part of servicing a customer -- from predicting arrival, delivering timely solutions to urgent issues and routing. Business development teams use location intelligence to reduce risk for future investments, such as where to open a new store, where to drill a new well, or where to construct a new cell tower.
+
+### Visualize the voice of the employee
+
+Large organizations realize that employee turnover is a problem, but they struggle to shift to a more personalized and prescriptive engagement strategy. With a higher demand on skilled resources, increased attrition, and costly hiring and on-boarding processes, U.S. businesses are losing millions to tens of millions of dollars every year due to turnover.
+Some employee experience elements that Acumen has built visualizations for include employee interaction analysis to visualize the drivers and satisfaction across multiple channels and workforce landscape analysis to understand workforce makeup and which types of employees are more or less loyal.
+
+### Map data visualization to the real world
+
+In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data. 
+For example, a data visualization project on flight seat analysis for a major airline. Using seat booking data from millions of transactions, the team built a visualization shaped like an airplane with the exact seating arrangement as the actual aircraft. The seats that generated more revenue appeared darker in the visualization, helping the airline identify profitable seats that could bepriced  higher, along with the poorly occupied ones that needed promotions. These visualizations were interactive and could be analyzed across several parameters to get deeper insights.
+=======
 ## General Introduction
 
 ## Important Prerequisites of data visualization project
@@ -39,7 +62,6 @@ Relatives Share and proportions:  display relationship between the parts and the
 Ranked list: although not a real data visualization, it could achieve the goal needed.
 Geographical Location: Gives user spatial and physical relationships.
 
-
 Choosing a tool to visualize:
 [@prerequisites_tools]
 
@@ -60,7 +82,5 @@ If somebody wants to venture in the coding world to build charts, R is a good st
 This section is derived because of recent innovation in interactive visualization, especially on the web. One might ask where to start to come up with interactive visualizations as good as New York Times. The answer is D3.js, many of the data visualizations running in the browser today is D3.js, created by Mike Bostock. This does mean you&#39;ll need to learn some Javascript in general and then D3.js specifically. One area to call out as a particular strength of D3 is geospatial visualizations. D3 is great at creating maps of many flavors.
 
 Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it&#39;s quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
-
-
 
 
