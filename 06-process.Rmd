@@ -84,4 +84,15 @@ This section is derived because of recent innovation in interactive visualizatio
 Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it&#39;s quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
 
 ### Useful platforms and tips for data visualization project
+Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
+1. Excel is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.
+2. Google Sheets contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.
+3. Raw is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.
+ 
+4. Google Data Studio is a relatively new product from Google that’s designed to make it easy for marketing teams to create detailed, shareable, interactive reports. It uses a simple drag-and-drop interface and templates to make putting together reports easy and quick. As you might expect, it integrates easily with data from other Google Analytics sources.
+
+5. TimelineJS provides an easy-to-use template for creating and embedding interactive timelines on the web. It’s especially great for blogs and other publications, and has been used by Time, CNN, Le Monde, and more.
+
+6. Plotly is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
+ 
