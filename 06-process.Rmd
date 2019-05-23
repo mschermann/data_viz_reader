@@ -5,8 +5,42 @@ output:
 ---
 # How to run a data viz project
 
+## Planning a Data Visualization Project
+Running a data visualization project can be a simple and easy task or a complicated and frustrating one. As with all other projects, the planning phase of a data visualization project is essential to ensure the final product of the project is an effective visualization - one that is easily understood, provides insight and perhaps stimulate an action from the reader. A well planned project also helps to reduce the number of iterations, or going back-and-forth, during the development of the visualizations and trying to make it fit with the narrative of the story being told through the visualizations.
+  
+At the core of all data visualization is its dataset. Each set of data has its own particular display needs, and the purpose for which you’re using the data set has just as much of an effect on those needs as the data itself. Understanding the characteristics of your data set can help you to determine what kind of visualization you’ll use. [@BenFry]
+  
+Some important points to keep in mind when planing a project are:  
 
+  **Too Much Information**  
+We should always remember that while we want to present information to our audience, the reader, we also do not want to present too much information that the visualization becomes challenging to understand and confuses the reader more than helps to clarify a situation.
+  
+  **Data Collection**  
+Ensure that the data is obtained from a reliable source and that breadth and depth of the data is sufficient to establish a belief in the story being presented.
+  
+  **What Is the Question? Finding the Story**  
+[@BenFry]  
+When beginning a visualization project, while it is common to focus on the data that has been collected, we need to remember that great information visualization never starts from the standpoint of the data set, but rather, it starts with questions. _Why was the data collected, what’s interesting about it, and what stories can it tell?_ Think about how the data will be used and work backward to what was collected. You collect data because you want to know something about it. If you don’t really know why you’re collecting it, you’re just hoarding it!
+  
+Be concise and specific with your questions and this will lead to clear results. When questions have a broad scope, as in “exploratory data analysis” phase, the answers themselves will be broad and often geared toward those who are themselves versed in the data. 
+  
+One of the most important (and least technical) skills in understanding data is asking good questions. An appropriate question shares an interest you have in the data, tries to convey it to others, and is curiosity-oriented rather than math-oriented. Visualizing data is just like any other type of communication: **success is defined by your audience’s ability to pick up on, and be excited about, your insight**.
+  
+Admittedly, you may have a rich set of data to which you want to provide flexible access by not defining your question too narrowly. Even then, your goal should be to highlight key findings. There is a tendency in the visualization field to borrow from the statistics field and separate problems into exploratory and expository, but for the purposes of this book, this distinction is not useful. The same methods and process are used for both.
+  
+In short, a proper visualization is a kind of narrative, providing a clear answer to a question without extraneous details. By focusing on the original intent of the question, you can eliminate such details because the question provides a benchmark for what is and is not necessary.
+  
+Ben Fry in his book on Visualizing Data, shares the 7 stages in visualizing data as follows:
 
+1. **Acquire** - Obtain the data, whether from a file on a disk or a source over a network.
+2. **Parse** - Provide some structure for the data’s meaning, and order it into categories.
+3. **Filter** - Remove all but the data of interest.
+4. **Mine** - Apply methods from statistics or data mining as a way to discern patterns or place the data in mathematical context.
+5. **Represent** - Choose a basic visual model, such as a bar graph, list, or tree.
+6. **Refine** - Improve the basic representation to make it clearer and more visually engaging.
+7. **Interact** - Add methods for manipulating the data or controlling what features are visible.
+  
+  
 ## How to structure a data visualization project
 [@data_viz_idea]
 
