@@ -95,17 +95,23 @@ Following are some of the visualizations that is common to any business. This li
 [@health_article]
 
 **Important metrics**:
-Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analysing the prevalence of disease, predicting outbreaks and discovering at-risk populations.
-Long term trends can also be analysed, such as aging populations in advanced economies.
-It can also be used by the general public to understand health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
+* Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analysing the prevalence of disease, predicting outbreaks and discovering at-risk populations.
+* Long term trends can also be analysed, such as aging populations in advanced economies.
+* It can also be used by the general public to understand relevant health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
 [@health_article]
 
 **Common types of Visualizations**:
-Currently, many health visualization tools use simple charts, such as bar charts 
-and scatter plots, that only represent few facets of data. 
-A few examples are illustrated here:
+Currently, many health visualization tools use simple charts, such as bar charts ,scatter plots etc. that only represent few facets of data and can be understood by the general population. 
 
+*A few examples are illustrated here*:
 
+![](images/multi_line_health.jpg)
+This multi-line plot depicts the life expectancy at birth for each gender and multi-racial background.
+
+![](images/teens-over.jpg)
+This stacked bar plot represents the proportion of teens being overweight from 1999 to 2009
+
+[@health_sector]
 
 
 ## Important Prerequisites of data visualization project
