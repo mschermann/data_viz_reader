@@ -83,6 +83,37 @@ Following are some of the visualizations that is common to any business. This li
 5. **Waterfall charts:** Particularly useful in accounting and qualitative analysis, waterfall charts illustrate how an initial value is affected positively and negatively by various factors. For example, a waterfall chart could clearly and efficiently communicate how an opening balance changes month by month over the course of a year.<br>
 6. **Hierarchy Diagrams:** Similar in appearance to a flow chart, a hierarchical diagram, also known as an organizational chart or an organigram, illustrates the structure of an organization, as well as the relationships within it. 
 
+### Health
+
+**In the health sector, a few of the common data being generated are**:
+1. Electronic medical records of patient
+2. Insurance information
+3. Medicine testing
+4. Population surveys 
+5. Genomic sequencing of data
+6. Social media posts on ailments
+[@health_article]
+
+**Important metrics**:
+* Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analysing the prevalence of disease, predicting outbreaks and discovering at-risk populations.
+* Long term trends can also be analysed, such as aging populations in advanced economies.
+* It can also be used by the general public to understand relevant health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
+[@health_article]
+
+**Common types of Visualizations**:
+Currently, many health visualization tools use simple charts, such as bar charts ,scatter plots etc. that only represent few facets of data and can be understood by the general population. 
+
+*A few examples are illustrated here*:
+
+![](images/multi_line_health.jpg)
+This multi-line plot depicts the life expectancy at birth for each gender and multi-racial background.
+
+![](images/teens-over.jpg)
+This stacked bar plot represents the proportion of teens being overweight from 1999 to 2009
+
+[@health_sector]
+
+
 ## Important Prerequisites of data visualization project
 
 [@prerequisites_viz]
