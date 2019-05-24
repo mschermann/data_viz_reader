@@ -1,4 +1,4 @@
----
+﻿---
 output:
   html_document: default
   pdf_document: default
@@ -193,6 +193,42 @@ Suppose your audience is composed of investors or the CFOs of your company evalu
 As we can see, the above shown dashboard shows all important metrics if it was to be shown to investors or CFOs.
 
 **Know the relationships between Data**: Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
+
+
+### Risks and pitfalls: Identify reason for failure and how to avoid them
+
+**Risks:**
+**Inappropriate selection of data visualization:**
+Different views answer different questions, and different charts tell different stories: you should choose them with care. For example selecting a pie chart to display different department of an organization will not make more sense as it is not showing any useful information
+
+![](images/RP8Image9.png)
+(Source: [@Marketing_Metrics])
+
+**Poor selection of colors:**
+Here’s an example of a poor use of colors, with a gradient of blue in the background that does not add anything but chaos to the visualization, clashing with the bright yellow and red that are too intense
+
+![](images/RP8Image8.png)
+(Source: [@Marketing_Metrics])
+
+**Unclear message and complex data visualization:**
+It is important to present information which is clear and easy to understand to make sure that the audience understand it clearly and can take actions from the visualization
+
+![](images/RP8Image10.png)
+(Source: [@Marketing_Metrics])
+
+**How to avoid these risks:**
+
+**Choose the data visualization carefully:**
+The pie chart is a popular choice to visualize percentages that add up to 100%, but it’s often not the optimal choice. Beyond a few slices, it’s hard to compare the relative size of each section. Bar charts are the workhorses of dataviz for good reason (for a longer list of variables, horizontal bar charts often work better).
+
+**Color selection (look and feel):** 
+The colors in the visualization should be meaningful and clearly indicate what does they represent. Do not add too intense colors making the visualization unattractive. Above all it is substantial to have the correct data an simple visualization that make more sense rather than colors.
+
+**Less is more!:**
+Be clear and concise about the visualization.One visualization should represent a clear message and should not leave audience in the confusion. Avoid using interactivity as most of the time audience might not be aware of it making it more confusing and useless for them. Provide clear single message with visualization at first and then can move ahead with further details on user demand.This makes it clear for user regarding what information they are looking at and what they need. This avoid any confusion to the audience
+
+
+
 
 
  
