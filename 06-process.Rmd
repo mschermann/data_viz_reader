@@ -26,7 +26,7 @@ Some employee experience elements that Acumen has built visualizations for inclu
 
 ### Map data visualization to the real world
 
-In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data. 
+In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data.
 For example, a data visualization project on flight seat analysis for a major airline. Using seat booking data from millions of transactions, the team built a visualization shaped like an airplane with the exact seating arrangement as the actual aircraft. The seats that generated more revenue appeared darker in the visualization, helping the airline identify profitable seats that could bepriced  higher, along with the poorly occupied ones that needed promotions. These visualizations were interactive and could be analyzed across several parameters to get deeper insights.
 =======
 ## General Introduction
@@ -38,14 +38,14 @@ For example, a data visualization project on flight seat analysis for a major ai
 The below are the important prerequisites of a successful data visualization project.
 
 + ** As a data visual designer, understanding the goal of the project** is very important for a successful visualization project.Sometimes you may not be aware of the project goal, but you may know the reason why you are creating the visualization. This understanding will result in a good design.
-+ ** Understanding the audience ** how they will process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. 
++ ** Understanding the audience ** how they will process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public.
 + ** Understanding the data you are trying to visualize ** such as shape and dimension of the data, is data time-series, relationship in data between entities,categorical attribute exists is also an important prerequisite.
 
 
 Defining the project:
 [@prerequisites_vizhitachi]
 
-+ ** Behind every project there is an organization need. The need could be simple or cumbersome, however you want to be able to have a measurable objective with the goal to deliver the right information. To do this you need to set requirements, design processes, schedule regular discussions with users and continue these meetings until the final project rollout. 
++ ** Behind every project there is an organization need. The need could be simple or cumbersome, however you want to be able to have a measurable objective with the goal to deliver the right information. To do this you need to set requirements, design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
 Sample questions that can help one understand the project better:
 what is the organization need you are trying to address?
 What are the main data sources you need to access?
@@ -57,7 +57,7 @@ Data Visualization Selection:
 
 + ** Selecting the right visualization is key to your project. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
 Quantities: counts or measures. Example - Count of likes or comments
-Trends and changes over time:  time series. Example - Change in sales quantity over time 
+Trends and changes over time:  time series. Example - Change in sales quantity over time
 Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
 Ranked list: although not a real data visualization, it could achieve the goal needed.
 Geographical Location: Gives user spatial and physical relationships.
@@ -65,7 +65,7 @@ Geographical Location: Gives user spatial and physical relationships.
 Choosing a tool to visualize:
 [@prerequisites_tools]
 
-The tool to be used for visualization.This depends on the person conducting the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user eg:-Tableau has a no code approach whereas D3.js ,Altair etc.These approaches are discussed in detail below: 
+The tool to be used for visualization.This depends on the person conducting the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user eg:-Tableau has a no code approach whereas D3.js ,Altair etc.These approaches are discussed in detail below:
 
 **No coding** :
 
@@ -93,15 +93,15 @@ Many free and web-based tools are very good for non-developers to design high qu
 1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.
 2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.
 3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.
- 
+
 4. **Google Data** Studio is a relatively new product from Google that’s designed to make it easy for marketing teams to create detailed, shareable, interactive reports. It uses a simple drag-and-drop interface and templates to make putting together reports easy and quick. As you might expect, it integrates easily with data from other Google Analytics sources.
 
 5. **TimelineJS** provides an easy-to-use template for creating and embedding interactive timelines on the web. It’s especially great for blogs and other publications, and has been used by Time, CNN, Le Monde, and more.
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
- 
+
 ### FOR COMPLEX PROJECTS
-Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects. 
+Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
 1. **Tableau** is an extremely popular data visualization and exploration tool used by a number of startups. It comes in a few different versions, from a full-featured Business Intelligence platform to a free cloud-based version for smaller companies and projects. It’s popular for its rich visualizations and an intuitive interface that makes it easy to use even for non-specialist. It also has a slick mobile app and can be embedded in other applications that want to make attractive analytics available to their users.
 
@@ -165,9 +165,9 @@ What data sources can you tap into to make your products stand out? What’s the
 Cryptocurrency analyst Willy Woo designs visualizations that keeps his Twitter feed fairly lively; his data visualization tweets regularly get hundreds of likes and retweets.
 
 Data visualization makes us instant mathematicians, rapidly grasping complex topics and giving us almost instant insight and understanding. Note Willy Woo’s strong use of Twitter to get his data out there–this is a particularly good promotional medium because tweets with images get more engagements than plain text tweets. (Mali, 2017)
- 
- 
-## Risks and pitfalls in a Data Vizualization Projects
+
+
+## Risks and pitfalls in a Data Visualization Projects
 
 ### Critical points of failure in data visualization projects
 Regardless of the tremendous promise of data visualization, and the discipline is in focus for years now, it is not fully grown. With the existence of numerous visualization tools at disposal associated with fancy features, impactful use of data visualization is still scarce.
@@ -175,3 +175,6 @@ At times, one wonders what makes the visual display of information so hard.
 • Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
 • Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
 • Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
+
+###Pitfalls in the different stages of visualizations
+Data visualization is trending in data science and can help a company thrive. It can convey clear messages to shareholders who are less familiar with the data, like a company’s board. It can lead to valuable insights that help improve customer satisfaction, increase profits and improve processes. However, misinterpreting data can lead to bad decisions. Below mentioned are some of the most common pitfalls in data visualization. Avoiding these pitfalls can help in clearly conveying the right message.
