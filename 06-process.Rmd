@@ -3,17 +3,20 @@ output:
   html_document: default
   pdf_document: default
 ---
-﻿---
-output:
-  html_document: default
-  pdf_document: default
----
-# How to run a data viz project
-
-
 
 ## How to structure a data visualization project
 [@data_viz_idea]
+
+Context is something universally appreciated when being presented with any type of new information, and with data visualizations, context is necessary for both basic understanding and proper interpretation.
+Background is similar to context in how critical it is needed to avoid any poor interpretation.
+
+An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, lets assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
+![Geography Matters](images/geography_matters)
+
+At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this: 
+“For poor Americans, the place they call home can be a matter of life or death.
+The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
+
 
 ### Bring big data visualization up front
 
@@ -256,9 +259,3 @@ With increasingly intense competition in digitalized industries, it is important
 (Source: [@types-of-dashboards])
 
 * Easily customizable - Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
-
-
-
-
-
- 
