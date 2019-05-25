@@ -692,24 +692,43 @@ Basic Calculations are the most common, and many of the functions found in Excel
 Creating a group in Tableau will combine items in a field that are related to each other in some way and allow you to visualize the new grouped data, while the old non-grouped data still remains. The paperclip icon in Tableau is used for grouping. 
 
 There are many ways to create groupings of data, and different reasons for grouping data in a certain way:
-<ol>
-<li> Selecting multiple data points in the view and group them together using the group icon.
+
+1. Selecting multiple data points in the view and group them together using the group icon.
 <ul>
 <li>For example, you might want to do this with mislabeled data from input error. i.e. columns that are titled “CA” and “California” would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset’s naming convention for states. 
-<ol> 
-<li> Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting **create** > **group**. Select the members of field you want to group and click **group**. 
+2. Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting **create** > **group**. Select the members of field you want to group and click **group**. 
 <ul>
 <li> For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e. If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called “small supplies”. 
-<ol> 
-<li> Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
+3. Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
 <ul>
 <li> This can help highlight certain groups against everything else.  For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph. 
 ![](images/ad-hoc24.png)
-<ol> 
-<li> Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
+4. Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
 <ul>
 <li> It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension. 
 <li> This is useful for showing things like outliers, or highest performers.
+
+#### Creating Sets
+
+[@Tableau_Sets]
+
+Sets can be used to ask questions about and compare subsets of data. Sets are a custom field that can be created to define the subsets of data. 
+
+Here are the two types of sets and how to build them:
+* Dynamic sets, which changes when the underlying data changes, but can only be based on one *dimension*
+<ol>
+<li> Click on a field in dimensions and select **Create > Set**
+<li> In the “Crete Set” dialog box you can configure your sets using the one of the 3 tabs. Under *general* you can select one or more values to consider when computing the set.  *Condition* will allow you to define rules to determine what will be included in the set either by defining the field or writing a formula. The *top* tab can be used to define limits on the members to include in the set (i.e. the top 5 products based on their sales – the same as filter limits). 
+* Fixed sets, which doesn’t change when the data changes, but can be based on multiple dimensions 
+<ol>
+<li> In the visualization you can select one or more marks or headers in the view.
+<li> Right click and select **Create Set**. 
+<li> In the “Create Set” dialogue box, enter a name for the set. 
+<li> Optionally, you can exclude the elements selected, thereby making a set of only the elements not selected
+<li> Select *Add Filters to shelf* to automatically move the set to the filters shelf once it’s created.
+* Once you make the new set and click *OK*, the new set will be added to the bottom of the data pane under the *Sets* section. 
+
+Once you make your sets, you can drag it into your visualizations just like any other field. You can either choose to show the members of the set or use the aggregate members in an *In/Out* category (i.e. members that are in the set, and members that are not in the set.) To toggle back and forth, right-click the set in the visualization workspace and either select *Show Members in Set* or *Show In/Out of Set*. 
 
 ### TabPy  
 [@TabPy]  
