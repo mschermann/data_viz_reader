@@ -176,7 +176,7 @@ At times, one wonders what makes the visual display of information so hard.
 • Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
 • Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
 
-###Pitfalls in the different stages of visualizations
+### Pitfalls in the different stages of visualizations
 Data visualization is trending in data science and can help a company thrive. It can convey clear messages to shareholders who are less familiar with the data, like a company’s board. It can lead to valuable insights that help improve customer satisfaction, increase profits and improve processes. However, misinterpreting data can lead to bad decisions[@Pitfalls2]. Below mentioned are some of the most common pitfalls in data visualization. Avoiding these pitfalls can help in clearly conveying the right message.[@Pitfalls1]
 
 1. **Color Abuse**: Color has its place but don’t overdo it in data visualizations. The wrong color can lead to confusion, or even worse, misinterpretation. For example, red is often associated with something negative. Linking the color red to data that is relatively less good than an alternative but not per se bad can cause misinterpretation.
@@ -211,3 +211,18 @@ Data visualization tools are required for analysis of data and trends but they h
 		<li>Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.</li>
 	</ui>
 2. **Using Area for the representation of numeric values:** The human eye does not perform well when it has to translate areas to numeric values. Thus it is recommended to use bar graphs to represent areas. This does not mean that area must never be used to represent a numeric variable. It means that other shapes and techniques must be before using area. For instance, the bubble chart does a good job representing the values of 3 numeric variables.
+
+## Ways to get them right!!
+Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies. Here are some ways we can get them right
+Source : [@rightviz]
+### Design
+
+1. Choose the chart that tells the story. There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
+
+2. Remove anything that doesn’t support the story. No, that doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
+
+3. Design for comprehension. Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trend line to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.
+
+4. Comparison - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
+
+5. Don’t use distracting fonts or elements. Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
