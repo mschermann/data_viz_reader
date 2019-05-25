@@ -199,6 +199,11 @@ Data visualization tools are required for analysis of data and trends but they h
 
 2.  **Deriving different insights by different user**  Each user has a different conclusion with the same visualization, based on his/her previous experience. This presents several problems for companies. On the one hand, certain users could be erroneously drawing conclusions which cost the company money and on the other, in highly regulated industries, users’ incorrect conclusions could actually put the company at risk.
 
+3.   **Lack of Guidance**   It is possible that the user who is interpreting the data lacks training. This can have huge impact on the company. At the same time, analysts could provide clients with incorrect or substandard advice. Even systems with Natural Language Query, expect the user to know what they are looking for. This works with simple data but the industry trend is towards big data, data lakes and complex analysis. It’s so complicated you might not even know what you don’t know, to paraphrase an American Defense secretary. The answer is so simple that its easy to miss.
+
+4.  **False sense of security**  Graphics are great for conveying simple ideas fast – but sometimes, they are just not enough. Graphics can make users think they are making data driven decisions or think they fully understand the data when in reality they are only seeing a picture but they don’t know the full story.
+[@Pitfalls3]
+
 ### Possible Scenarios which may create a dilemma for the user
 1. **To cut or not to cut (The Y-axis):** By its design, a bar graph emphasizes the absolute magnitude of values associated with each category, whereas a line graph emphasizes the change in the dependent variable (usually the y-axis values) as the independent variable (usually the x value) changes.
 	<ui>
