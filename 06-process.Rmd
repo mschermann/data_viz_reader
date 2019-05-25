@@ -27,7 +27,7 @@ Some employee experience elements that Acumen has built visualizations for inclu
 
 ### Map data visualization to the real world
 
-In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data. 
+In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data.
 For example, a data visualization project on flight seat analysis for a major airline. Using seat booking data from millions of transactions, the team built a visualization shaped like an airplane with the exact seating arrangement as the actual aircraft. The seats that generated more revenue appeared darker in the visualization, helping the airline identify profitable seats that could bepriced  higher, along with the poorly occupied ones that needed promotions. These visualizations were interactive and could be analyzed across several parameters to get deeper insights.
 
 ## General Introduction
@@ -173,14 +173,14 @@ Visualization tools make use of simple scatter plots and heat maps to show the o
 The below are the important prerequisites of a successful data visualization project.
 
 + ** As a data visual designer, understanding the goal of the project** is very important for a successful visualization project.Sometimes you may not be aware of the project goal, but you may know the reason why you are creating the visualization. This understanding will result in a good design.
-+ ** Understanding the audience ** how they will process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. 
++ ** Understanding the audience ** how they will process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public.
 + ** Understanding the data you are trying to visualize ** such as shape and dimension of the data, is data time-series, relationship in data between entities,categorical attribute exists is also an important prerequisite.
 
 
 Defining the project:
 [@prerequisites_vizhitachi]
 
-+ ** Behind every project there is an organization need. The need could be simple or cumbersome, however you want to be able to have a measurable objective with the goal to deliver the right information. To do this you need to set requirements, design processes, schedule regular discussions with users and continue these meetings until the final project rollout. 
++ ** Behind every project there is an organization need. The need could be simple or cumbersome, however you want to be able to have a measurable objective with the goal to deliver the right information. To do this you need to set requirements, design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
 Sample questions that can help one understand the project better:
 what is the organization need you are trying to address?
 What are the main data sources you need to access?
@@ -192,7 +192,7 @@ Data Visualization Selection:
 
 + ** Selecting the right visualization is key to your project. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
 Quantities: counts or measures. Example - Count of likes or comments
-Trends and changes over time:  time series. Example - Change in sales quantity over time 
+Trends and changes over time:  time series. Example - Change in sales quantity over time
 Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
 Ranked list: although not a real data visualization, it could achieve the goal needed.
 Geographical Location: Gives user spatial and physical relationships.
@@ -200,7 +200,7 @@ Geographical Location: Gives user spatial and physical relationships.
 Choosing a tool to visualize:
 [@prerequisites_tools]
 
-The tool to be used for visualization.This depends on the person conducting the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user eg:-Tableau has a no code approach whereas D3.js ,Altair etc.These approaches are discussed in detail below: 
+The tool to be used for visualization.This depends on the person conducting the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user eg:-Tableau has a no code approach whereas D3.js ,Altair etc.These approaches are discussed in detail below:
 
 **No coding** :
 
@@ -228,15 +228,15 @@ Many free and web-based tools are very good for non-developers to design high qu
 1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.
 2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.
 3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.
- 
+
 4. **Google Data** Studio is a relatively new product from Google that’s designed to make it easy for marketing teams to create detailed, shareable, interactive reports. It uses a simple drag-and-drop interface and templates to make putting together reports easy and quick. As you might expect, it integrates easily with data from other Google Analytics sources.
 
 5. **TimelineJS** provides an easy-to-use template for creating and embedding interactive timelines on the web. It’s especially great for blogs and other publications, and has been used by Time, CNN, Le Monde, and more.
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
- 
+
 ### FOR COMPLEX PROJECTS
-Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects. 
+Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
 1. **Tableau** is an extremely popular data visualization and exploration tool used by a number of startups. It comes in a few different versions, from a full-featured Business Intelligence platform to a free cloud-based version for smaller companies and projects. It’s popular for its rich visualizations and an intuitive interface that makes it easy to use even for non-specialist. It also has a slick mobile app and can be embedded in other applications that want to make attractive analytics available to their users.
 
@@ -302,4 +302,123 @@ What data sources can you tap into to make your products stand out? What’s the
 Cryptocurrency analyst Willy Woo designs visualizations that keeps his Twitter feed fairly lively; his data visualization tweets regularly get hundreds of likes and retweets.
 
 Data visualization makes us instant mathematicians, rapidly grasping complex topics and giving us almost instant insight and understanding. Note Willy Woo’s strong use of Twitter to get his data out there–this is a particularly good promotional medium because tweets with images get more engagements than plain text tweets. (Mali, 2017)
- 
+
+
+## Risks and pitfalls in a Data Visualization Projects
+
+### Critical points of failure in data visualization projects
+[@Fail_Reasons]
+Regardless of the tremendous promise of data visualization, and the discipline is in focus for years now, it is not fully grown. With the existence of numerous visualization tools at disposal associated with fancy features, impactful use of data visualization is still scarce.
+At times, one wonders what makes the visual display of information so hard.
+• Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
+• Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
+• Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
+
+Some of the failure points in visualization projects are as below:
+1.Ignoring End Users:
+End users are often not directly engaged while defining needs for visualization projects. This is a prime reason why visual dashboards often go unused after rollout. What matters is a mapping of user stories, and hearing how users approach business problems. This is the user's practical wisdom that can't be transferred, and which is closely linked to action ability.
+It's demanding to onboard the end users and gathers their nuanced business perspectives so that it can be built into dashboards. Build the user thoughts through interviews, map the user journey by gentle probing, and jointly sketch out the as-is business scenarios. It's also helpful to list the questions that will be answered by the visualization, and clarify on the ones that will not be.
+
+2.Attempt to include all features:
+The more features dump into an application, the lesser it will get used. While one gets a false sense of satisfaction by checking all boxes, the cognitive load could get so high that users stop using it altogether. When it comes to prioritization, the most knowledgeable users may not have the right perspective to take hard calls or the gumption to bite the bullet.
+It's necessary to play a consultative role and help whittle down the feature list to the most critical. While screen space is technically unlimited, its useful to impose constraints on data density’. Onboard stakeholders who know the priority, who can take hard decisions and also champion the many battles needed to convince other users.
+
+3.Overlooking need for data exploration :
+Retrofitting data is the root cause for ending up with non-actionable dashboards or weird-looking charts. Without exploratory analysis, maps could be skewed by outliers or worse, end up without patterns. Data also drive choice of charts.
+As part of project planning, its critical to account for data upfront. While getting the header rows is a useful start, full data is essential before crucial decisions of design can be taken. Clients must be educated that data is indeed in the critical path of visualization, and that data insights drive design decisions.
+
+4.Driving self-satisfaction over visualizations:
+At times individuals develop such a great affection with a chart, that they fatefully try extending this relationship beyond the scope of cool visualization examples. This leads to unproductive force-fitting of charts into the solution. The compromises made for this adjustment can wreak havoc on the entire project.
+Those who demand exotic or 3D charts even when use cases don’t support it are doing so for their satisfaction, and end up alienating users. The choice of the chart is a science, and there are robust disciplines to adhere to.
+
+5.Endeavoring to Make everything clickable:
+When designing navigation and interactivity, it’s a common fantasy to make everything clickable. When pushed to prioritize features within a screen, a common excuse is for users to try and hide entire dashboards behind unrelated clicks.
+Rich UI doesn’t mean many clicks; it means just the right and intuitively placed ones. It may be useful to impose some guidelines, say, no more than eight clicks per screen. Data stories can be equally compelling in the static format, so carefully question the interactivity needed. Users will be thankful for this call.
+
+6.Being opinionated in choice of colors:
+Everyone has their choice of colors, and they can get pretty extreme. Unfortunately, this can have an essential bearing on the viewer's acceptance. And the color is not just about look-and-feel. It's important to consider users with red-green color blindness.
+Color theory is more an art than science, though there are standard guidelines to handle the aesthetic, functional, and social aspects. It's best to go with the user persona and application requirements, rather than trying to please everyone. One must also take the effort to articulate choices and help resolve disconnect since most users are unable to explain their color preferences.
+
+### Pitfalls in the different stages of visualizations
+Data visualization is trending in data science and can help a company thrive. It can convey clear messages to shareholders who are less familiar with the data, like a company’s board. It can lead to valuable insights that help improve customer satisfaction, increase profits and improve processes. However, misinterpreting data can lead to bad decisions[@Pitfalls2]. Below mentioned are some of the most common pitfalls in data visualization. Avoiding these pitfalls can help in clearly conveying the right message.[@Pitfalls1]
+
+1. **Color Abuse**: Color has its place but don’t overdo it in data visualizations. The wrong color can lead to confusion, or even worse, misinterpretation. For example, red is often associated with something negative. Linking the color red to data that is relatively less good than an alternative but not per se bad can cause misinterpretation.
+[@Pitfalls1]
+
+2. **Misuse of Pie Charts**: We all love our pies. But nothing is less satisfying than a tiny sliver. If you try to squeeze too much information into a pie chart, the big picture gets lost. Too much detail leaves your audience feeling unsatisfied and confused. Avoid using pie charts side by side — it’s an awkward way to compare data.
+[@Pitfalls1]
+
+3. **Visual Clutter**: Making discoveries in a cluttered visualization is like finding a needle in a haystack. Too much information defeats the purpose of clarity. And unnecessary elements - or chartjunk crowd a visualization, obscure meaning, and lead to inaccurate conclusions.
+[@Pitfalls1]
+
+4. **Poor Design**: Design is not just what it looks like and feels like. Design is how it works. – Steve Jobs.
+Just because visualization is beautiful to look at doesn’t mean it’s effective. Effective visualizations incorporate design best practices to enhance the communication of data.[@Pitfalls1]
+
+5. **Bad Data**: Great visualizations start with great data. If your visualization reveals unexpected results, you may be the victim of bad data. Don’t let your visualization become the scapegoat for bad data.[@Pitfalls2]
+
+### Limitations of Data Visualization Tools
+Data visualization tools are required for analysis of data and trends but they have some limitations especially when datasets grow in size.
+1.  **Lack of explanation** While data visualizations can be generated in real-time, they do not provide any explanations. In fact, the process through which companies draw insight has not changed in the last 30 years. Analysts look at data and then write reports. This process is too slow for the market and too costly for the company. At the same time, data visualization tools expect the user to be an expert in all of the data and all of the corporate best practices.
+
+2.  **Deriving different insights by different user**  Each user has a different conclusion with the same visualization, based on his/her previous experience. This presents several problems for companies. On the one hand, certain users could be erroneously drawing conclusions which cost the company money and on the other, in highly regulated industries, users’ incorrect conclusions could actually put the company at risk.
+
+3.   **Lack of Guidance**   It is possible that the user who is interpreting the data lacks training. This can have huge impact on the company. At the same time, analysts could provide clients with incorrect or substandard advice. Even systems with Natural Language Query, expect the user to know what they are looking for. This works with simple data but the industry trend is towards big data, data lakes and complex analysis. It’s so complicated you might not even know what you don’t know, to paraphrase an American Defense secretary. The answer is so simple that its easy to miss.
+
+4.  **False sense of security**  Graphics are great for conveying simple ideas fast – but sometimes, they are just not enough. Graphics can make users think they are making data driven decisions or think they fully understand the data when in reality they are only seeing a picture but they don’t know the full story.
+[@Pitfalls3]
+
+### Possible Scenarios which may create a dilemma for the user
+1. **To cut or not to cut (The Y-axis):** By its design, a bar graph emphasizes the absolute magnitude of values associated with each category, whereas a line graph emphasizes the change in the dependent variable (usually the y-axis values) as the independent variable (usually the x value) changes.
+	<ui>
+		<li><Barplot: With this kind of chart there is consensus: your Y-axis should start at 0</li>
+		<li>Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.</li>
+	</ui>
+
+2. **Using Area for the representation of numeric values:** The human eye does not perform well when it has to translate areas to numeric values. Thus it is recommended to use bar graphs to represent areas. This does not mean that area must never be used to represent a numeric variable. It means that other shapes and techniques must be before using area. For instance, the bubble chart does a good job representing the values of 3 numeric variables.
+
+3. **Scaling to Radius or Area:** When working with 2d objects, the scaling must be done using the area and not the radius. Furthermore, note that areas are a poor metaphor of values, being poorly perceived by human eyes. It must be used only when better visuals have already been used on the graphic (like in bubble plot). A barplot would probably do a better job.
+
+4. **When to use a heatmap:** Heatmap is really useful to display a general view of numerical data, not to extract specific data point. Heatmap is also useful to display the result of hierarchical clustering. Basically, clustering checks which set of objects tend to have the same features on their numeric variables.
+
+Source: [@dilemma]
+
+## Ways to get them right!!
+Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies. Here are some ways we can get them right
+Source : [@rightviz]
+### Design
+
+1. Choose the chart that tells the story. There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
+
+2. Remove anything that doesn’t support the story. No, that doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
+
+3. Design for comprehension. Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trend line to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.
+
+4. Comparison - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
+
+5. Don’t use distracting fonts or elements. Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
+
+### Color
+
+1. Use a single color to represent the same type of data. If you are depicting sales month by month on a bar chart, use a single color. But if you are comparing last year’s sales to this year’s sales in a grouped chart, you should use a different color for each year. You can also use an accent color to highlight a significant data point.
+
+2. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes).
+
+3. Select colors appropriately. Some colors stand out more than others, giving unnecessary weight to that data. Instead, use a single color with varying shade or a spectrum between two analogous colors to show intensity. Remember to intuitively code color intensity according to values as well.
+
+4. Don’t use more than 6 colors in a single layout.Enough said.
+
+5. Make sure there is sufficient contrast between colors. If colors are too similar (light gray vs. light, light gray), it can be hard to tell the difference. Conversely, don’t use high-contrast color combinations such as red/green or blue/yellow.
+
+### Labelling
+
+1. Double check that everything is labeled. Make sure everything that needs a label has one—and that there are no doubles or typos.
+2. Make sure labels are visible. All labels should be unobstructed and easily identified with the corresponding data point.
+3. Label the lines directly. If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
+4. Don’t over label. If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
+5. Don’t set your type at an angle. If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably.
+
+### Ordering
+
+1. Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value.
+2. Order consistently. The ordering of items in your legend should mimic the order of your chart.
+3. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
