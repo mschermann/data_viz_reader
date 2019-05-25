@@ -3,7 +3,8 @@ output:
   html_document: default
   pdf_document: default
 ---
-# How to run a data viz project
+
+# How to run a data visualization project
 
 
 
@@ -28,8 +29,142 @@ Some employee experience elements that Acumen has built visualizations for inclu
 
 In general, visual analytics experts recommend focusing on simple charts and lines to make it easier to tease apart relationships between elements in big data.
 For example, a data visualization project on flight seat analysis for a major airline. Using seat booking data from millions of transactions, the team built a visualization shaped like an airplane with the exact seating arrangement as the actual aircraft. The seats that generated more revenue appeared darker in the visualization, helping the airline identify profitable seats that could bepriced  higher, along with the poorly occupied ones that needed promotions. These visualizations were interactive and could be analyzed across several parameters to get deeper insights.
-=======
+
 ## General Introduction
+
+While designing a data analytics project, we are often left wondering where to begin with in the first place? From data collection, cleaning, exploration, analysis and visualization, there is a lot that needs to be done in order to derive an insight that is - actionable & profitable, for the business. 
+
+There seems to be a no set way to approach this problem. However, in order to provide a framework to organize the work needed by an organization and deliver clear insights from data, it’s useful to think of it as a cycle with different stages.[@dataviz_lifecycle1]. This article explains a data science framework, breaking it down and taking us through each step of the project lifecycle to get us familiarized with the whole process in a simpler way.[@dataviz_lifecycle2]
+
+![](images/CRISP-DM.png)
+
+### Step 1: Understanding the Business Issues
+At the start of the project, the focus is to get a clear understanding of the overall scope of the work, business objectives, information the stakeholders are seeking, the type of analysis they want you to use, and the key deliverables. Defining these elements prior to beginning the analysis is important, as it helps in delivering better insights. Also, it is important to get a clarity at the beginning as there may not be another opportunity to ask questions before the completion of the project.
+
+### Step 2: Understanding Your Data Set
+This phase starts with an initial data collection and proceeds with activities like data quality checks, data exploration to discover first insights into the data, or to detect interesting subsets to form hypotheses for hidden information. There are a variety of tools we can use to understand the data. Depending on the size of the dataset, we can use Excel for manageable datasets, or use more rigid tools like R, Python, Alteryx, Tableau Prep or Tableau Desktop to explore and prepare the data for further analysis.
+
+Key things to remember would be to identify key variables of interest to study the data, look for errors (omitted data, data that doesn’t logically make sense, duplicate rows, or even spelling errors) or any missing variables that need to be amended so we can properly clean the data.
+
+### Step 3: Data Preparation
+Once the data has been organized and all the key variables have been identified, we can begin cleaning the dataset. Here, we will handle missing values (replace with means, drop the rows or replace with the most logical values), create new variables to help categorize the data, and remove duplicates. Data preparation tasks are likely to be performed multiple times, and not in any prescribed order. After this step, the final dataset is ready to be fed into a modeling tool for further analysis.
+
+### Step 4: Modeling
+In this step, we will use various modeling techniques to test the data and seek out answers to the given objectives. Typically, there are several techniques for the same data mining problem type, with some specific requirements on the form of data. Common models include linear regressions, decision trees, and random forest modeling, among others.
+
+### Step 5: Validation
+Once we are done building the model (or models) and proceed to the final deployment, it is crucial to assess the model thoroughly and review the steps executed to construct the model, to ensure that it properly achieves the business objectives. Did the models work properly? Does the data need more cleaning? Did you find the outcome the client was looking to answer? If not, you may need to go over the previous steps again. You should expect a lot of trial and error!
+
+### Step 6: Visualization
+Creation of the model is generally not the end of the project. Even if the purpose of the model is to increase knowledge of the data, the derived information will need to be organized and presented in a way that is useful to the customer. Depending on the requirements, this step can be as simple as generating a report or as complex as implementing a repeatable data scoring (e.g. segment allocation) or data mining process.
+
+In many cases, data visualization will be crucial in communicating your findings to the client. Not all clients are data savvy, and interactive visualization tools like Tableau are tremendously useful in illustrating your conclusions to clients. Being able to tell a story with your data is essential. Telling a story will help explain to the client the value of your findings.
+
+As with any other project, it is important to identify the business objectives clearly. Breaking the process into steps will ensure we get the best deliverables for our clients.
+
+## How to decide what type of visualization to use:
+
+### Business
+
+As per [this](https://www.investopedia.com/terms/b/business.asp) article: A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or non-profit organizations that operate to fulfill a charitable mission or further a social cause. 
+
+The list is far from all inclusive but depending on the type of business following are some of the types of data that can be generated:
+1. Product data 
+2. Profit and Loss data
+3. Performance data
+4. Promotions data
+5. Supplier and customer data
+
+Following are some of the visualizations that is common to any business. This list is also not exhaustive. [@graphs]
+
+1. **Flow charts:** A flow chart allows a process to be sequenced step-by-step, from beginning to end, for the purpose of analyzing, designing, documenting or managing it. The charts can even feature multiple beginnings and ends, with countless pathways in between. While a simple flow chart can certainly document a basic process from A to B to C, the diagrams are more frequently used to illustrate more complex sequences with multiple decisions or conditions along the way. Each time a condition is met, the chart diagrams the various options, then the path continues following each choice. <br>
+2. **Control charts:** Commonly known as a process-behavior chart, a control chart helps determine if a data set falls within a mean or predetermined control range. Frequently used in quality control processes, a typical control chart consists of points plotted on two axes, representing sample measurements.<br>
+3. **Stock charts:** One of the most vital of all financial graphs, stock charts help investors track the markets to determine profits and loss, as well as make buying and selling decisions. While a variety of graphs are used to represent market changes, the most common is likely the basic line graph turned histogram.<br>
+4. **Gantt charts:** Gantt charts are special types of bar graphs used to diagram projects and schedules.<br>
+5. **Waterfall charts:** Particularly useful in accounting and qualitative analysis, waterfall charts illustrate how an initial value is affected positively and negatively by various factors. For example, a waterfall chart could clearly and efficiently communicate how an opening balance changes month by month over the course of a year.<br>
+6. **Hierarchy Diagrams:** Similar in appearance to a flow chart, a hierarchical diagram, also known as an organizational chart or an organigram, illustrates the structure of an organization, as well as the relationships within it. 
+
+### Health
+
+**In the health sector, a few of the common data being generated are**:
+1. Electronic medical records of patient
+2. Insurance information
+3. Medicine testing
+4. Population surveys 
+5. Genomic sequencing of data
+6. Social media posts on ailments
+[@health_article]
+
+**Important metrics**:
+* Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analysing the prevalence of disease, predicting outbreaks and discovering at-risk populations.
+* Long term trends can also be analysed, such as aging populations in advanced economies.
+* It can also be used by the general public to understand relevant health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
+[@health_article]
+
+**Common types of Visualizations**:
+Currently, many health visualization tools use simple charts, such as bar charts ,scatter plots etc. that only represent few facets of data and can be understood by the general population. 
+
+*A few examples are illustrated here*:
+
+![](images/multi_line_health.jpg)
+This multi-line plot depicts the life expectancy at birth for each gender and multi-racial background.
+
+![](images/teens-over.jpg)
+This stacked bar plot represents the proportion of teens being overweight from 1999 to 2009
+
+[@health_sector]
+
+
+### Finance:
+
+In the Finance world, data has always been one of the most important criteria for making decisions. Finance has always been about numbers,but complex algorithms that can collect data from an ever wider number of sources help inform and support trading decisions. [@finance_reference] Also, Risk management is an enormously important area for financial institutions,responsible for company's security, trustworthiness, and strategic decisions.
+
+**In Finance, a few of the common data being generated are**:
+1. Stock prices
+2. Trading data
+3. Credit and Debit Card history
+4. Balance Sheets
+
+**Important usecases**:
+Data visulaizations used in performing various tasks for Algorithmic Trading, Risk management, Predictive analytics and Real-time analytics.
+
+**Common types of Visualizations**:
+Financial visualizations should be able to display live and historical data feeds to alert to new opportunities faster than humans can read, and discover new opportunities while gaining a competitive edge. So, we need to choose the best suited for the goal. 
+ 
+Finacial chart in general should be simple. It can be very technical and very elaborate. It should be able to show projections, predicting, what id analysis, Most of the time line charts and barcharts are enough to convey the message. Being able to quickly access and interpret market data is an essential component in the competitive trading arena.
+
+
+*A few examples are illustrated here*:
+
+![](images/Business-and-Finance-Stock-Charts.jpg)
+Business and Finance Stock Charts
+
+[@finance_sector]
+
+![](images/financial-performance-dashboard-datapine.png)
+Financial Performance Dashboard
+
+[@finance_sector]
+
+
+### Retail
+
+**common data being generated **:
+
+1. Customer related data
+2. Data about orders generated and products sold
+3. Inventory and supply chain information
+4. Store specific data
+
+
+Data Visualization tools can prove to be of great help in retail as they can help understand customer behavior, product trends, store specific performance etc. in a visual manner. This helps managers assimilate and process information quicker and arrive at decisions sooner. 
+
+**How data is being used?**
+Internet of Things shelf scanners are increasingly able to process information on whether stores are empty or full when it comes to stocks. Internal and third party data can be leveraged to understand the differences in merchandising perceptions for trends and pricing. Using in-store and online data managers can also understand customer behavior and design campaigns and order inventory accordingly.[@Retail_gen]
+
+*Common types of Visualizations*
+Visualization tools make use of simple scatter plots and heat maps to show the overall relationship in a large amount of data. Bubble charts can also be used to map out profit and sales and basic elements of demand and supply. Opportunity curves are commonly used to determine ost effecient price in terms of revenue or profit maximization. [@Retail_typesofviz]
+
 
 ## Important Prerequisites of data visualization project
 
@@ -153,6 +288,8 @@ Another approach to take is to look for a hook that really brings home your argu
 **Data visualization tip #2: Learn from the best**
 
 Netflix’s #Cokenomics campaign set out to visualise the jaw dropping statistics behind the Colombian cocaine trade to promote their popular show Narcos.
+
+![](images/narcos_img.png)
 
 The @NarcosNetflix twitter account was set up to share the beautifully done visuals and the account gained over 200,000 followers. The campaign garnered more than 100,000 likes, shares, and comments and played a big role in making Narcos the top mentioned original series on Netflix in 2015.
 
