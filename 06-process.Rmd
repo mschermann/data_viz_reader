@@ -210,7 +210,14 @@ Data visualization tools are required for analysis of data and trends but they h
 		<li><Barplot: With this kind of chart there is consensus: your Y-axis should start at 0</li>
 		<li>Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.</li>
 	</ui>
+
 2. **Using Area for the representation of numeric values:** The human eye does not perform well when it has to translate areas to numeric values. Thus it is recommended to use bar graphs to represent areas. This does not mean that area must never be used to represent a numeric variable. It means that other shapes and techniques must be before using area. For instance, the bubble chart does a good job representing the values of 3 numeric variables.
+
+3. **Scaling to Radius or Area:** When working with 2d objects, the scaling must be done using the area and not the radius. Furthermore, note that areas are a poor metaphor of values, being poorly perceived by human eyes. It must be used only when better visuals have already been used on the graphic (like in bubble plot). A barplot would probably do a better job.
+
+4. **When to use a heatmap:** Heatmap is really useful to display a general view of numerical data, not to extract specific data point. Heatmap is also useful to display the result of hierarchical clustering. Basically, clustering checks which set of objects tend to have the same features on their numeric variables.
+
+Source: [@dilemma]
 
 ## Ways to get them right!!
 Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies. Here are some ways we can get them right
