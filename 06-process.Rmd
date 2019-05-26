@@ -10,6 +10,10 @@ Every data viz project begins with a need, whether that needs come from a proble
 
 # How to run a data visualization project
 
+## Overview of process for a data visualization project
+Before launching into any project it is most important to involve the right players. These players can be business owners who have commissioned the data viz project and/or key stakeholders who will be actively using the data visualization. Participation of business representatives is most ciritical to first identify the need for the project and achieve a common ground for requirements and what would define success. Involvement and collaboration
+strongly increases the likelihood that the resultant visualization addresses business’s needs. Likewise, the organization’s data users should participate, especially when discussing the data they’re responsible for governing. Creating a data visualization should be a highly iterative and dynamic process. 
+  
 ## Planning a Data Visualization Project
 Running a data visualization project can be a simple and easy task or a complicated and frustrating one. As with all other projects, the planning phase of a data visualization project is essential to ensure the final product of the project is an effective visualization - one that is easily understood, provides insight and perhaps stimulate an action from the reader. A well planned project also helps to reduce the number of iterations, or going back-and-forth, during the development of the visualizations and trying to make it fit with the narrative of the story being told through the visualizations.
   
@@ -44,7 +48,6 @@ Ben Fry in his book on Visualizing Data, shares the 7 stages in visualizing data
 5. **Represent** - Choose a basic visual model, such as a bar graph, list, or tree.
 6. **Refine** - Improve the basic representation to make it clearer and more visually engaging.
 7. **Interact** - Add methods for manipulating the data or controlling what features are visible.
-  
   
 ## How to structure a data visualization project
 [@data_viz_idea]
@@ -84,8 +87,12 @@ This phase starts with an initial data collection and proceeds with activities l
 
 Key things to remember would be to identify key variables of interest to study the data, look for errors (omitted data, data that doesn’t logically make sense, duplicate rows, or even spelling errors) or any missing variables that need to be amended so we can properly clean the data.
 
+It is important to note here that when working in an enterprise/ business environment, it helps to involve someone with keen knowledge of the source system such as a DBA who can assist with understanding and extraction of data. 
+
 ### Step 3: Data Preparation
 Once the data has been organized and all the key variables have been identified, we can begin cleaning the dataset. Here, we will handle missing values (replace with means, drop the rows or replace with the most logical values), create new variables to help categorize the data, and remove duplicates. Data preparation tasks are likely to be performed multiple times, and not in any prescribed order. After this step, the final dataset is ready to be fed into a modeling tool for further analysis.
+
+From a business perspective, throughout the data preparation process the need is to develop an ever-increasing understanding of the data’s structure, content, relationships, and derivation rules. It is imperative to verify that the data exists in a usable state, and its flaws can be managed, and understand what it takes to convert it into a useful dataset for reporting and visualization. In such a scenario, leveraging Data profiling can help explore the actual content and relationships in the enterprise' source systems. Data profiling can be as simple as writing some SQL statements or as sophisticated as a special purpose tool. Tableau's Data Prep for instance is a great tool for profiling data for small scale projects. With enterprises, many ETL vendors offer a variety of tools can be chosend based on the need and budget of the business.
 
 ### Step 4: Modeling
 In this step, we will use various modeling techniques to test the data and seek out answers to the given objectives. Typically, there are several techniques for the same data mining problem type, with some specific requirements on the form of data. Common models include linear regressions, decision trees, and random forest modeling, among others.
@@ -93,12 +100,18 @@ In this step, we will use various modeling techniques to test the data and seek 
 ### Step 5: Validation
 Once we are done building the model (or models) and proceed to the final deployment, it is crucial to assess the model thoroughly and review the steps executed to construct the model, to ensure that it properly achieves the business objectives. Did the models work properly? Does the data need more cleaning? Did you find the outcome the client was looking to answer? If not, you may need to go over the previous steps again. You should expect a lot of trial and error!
 
+At this step, it is key to identify issues, definitions, transformation rules, and data quality challenges and document them for future reference. Such a documentation is useful from a business standpoint for future users. Maintaining a list of issues and validating new issues faced during data validation can significantly enhance the quality of the project and help improve scope for future improvements and define infrastructure needs of the business.
+
 ### Step 6: Visualization
 Creation of the model is generally not the end of the project. Even if the purpose of the model is to increase knowledge of the data, the derived information will need to be organized and presented in a way that is useful to the customer. Depending on the requirements, this step can be as simple as generating a report or as complex as implementing a repeatable data scoring (e.g. segment allocation) or data mining process.
 
 In many cases, data visualization will be crucial in communicating your findings to the client. Not all clients are data savvy, and interactive visualization tools like Tableau are tremendously useful in illustrating your conclusions to clients. Being able to tell a story with your data is essential. Telling a story will help explain to the client the value of your findings.
 
 As with any other project, it is important to identify the business objectives clearly. Breaking the process into steps will ensure we get the best deliverables for our clients.
+
+### Step 7: Documentation
+An important addition to the steps in a data visualization project is documentation. Similar to the projects done in class, this documentation should provide a brief description of the project, data sources, data profile and quality, limitations of the data or arising during the use of data, key transformations and models introduced and their impact or usefulness in enhancing the quality of visualization. 
+Lastly, this documentation should also note the issues encountered when working with the data or creating a certain visualization that can be addressed in the future.
 
 ## How to decide what type of visualization to use:
 
