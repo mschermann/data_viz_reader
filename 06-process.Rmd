@@ -385,6 +385,101 @@ Cryptocurrency analyst Willy Woo designs visualizations that keeps his Twitter f
 Data visualization makes us instant mathematicians, rapidly grasping complex topics and giving us almost instant insight and understanding. Note Willy Woo’s strong use of Twitter to get his data out there–this is a particularly good promotional medium because tweets with images get more engagements than plain text tweets. (Mali, 2017)
 
 
+## How to structure a data viz project
+
+### Hook Audience on Your Key Message
+
+A Hook is simply something that draws the reader in.  Hooks communicate to the reader right away why he/she should pay attention to your project.  They can be surprising, unusual, or controversial, but one thing’s for certain: hooks can’t be ordinary.  After all, if your project tells people things they already know, then what does your project do for them?    
+
+To help you formulate your hook, ask yourself: what is the biggest takeaway?  If someone could only remember one thing from your project, what would it be?  This takeaway could be a novel point of view, startling new research, or a bold opinion.  Often times, this is going to be the main argument of your project.  Condense your argument into a short, digestible, memorable chunk.     
+
+Journalists have to write hooks all the time: their hooks are called headlines.  Nowadays headlines have a bad reputation, but they’ve been a part of journalism since the beginning for a reason: they work.  A great headline does all the things a great hook does: it summarizes the key information of the article, and it attracts the reader’s attention so that he/she will read the article.  This isn’t to say that you should publish click-bait, but it’s important to entice your reader’s attention no matter what kind of project you’re doing.  
+
+Let’s take a look at a hook from a vox visualization project:
+
+
+![](images/vox_hook.png) 
+
+taken from:
+https://www.vox.com/2016/8/31/12368246/obesity-america-2018-charts
+
+
+This hook is great on so many levels.  It’s simple and short; the key argument is being summarized in just one sentence.  It also tackles a controversial topic of Obesity in America.  Finally, the article takes a novel stance.  Rather than blaming obesity on poor parenting, lack of willpower, or corporate greed, the article is a different approach by saying that eating healthy is inconvenient.  
+
+
+### Background and Context
+
+Context is something universally appreciated when being presented with any type of new information, and with data visualizations context is necessary for both basic understanding and proper interpretation. Background is similar to context in how critical it is needed to avoid any poor interpretation.
+
+Background begins with what drove the decision to use the subject matter. Even for purposes of work or schooling, the data used has a background which needs to be represented. Asking questions such as what history is behind this data, or where and from whom it is collected can provide the reader with the path to understanding the point of the project.
+
+Background is both the history behind data or the history project creation itself, and context furthers the readers frame of mind. This frame of mind is necessary and is done such that they can understand how the data might be represented and how it can be interpreted it given the number of ways data is now provided.
+
+An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, let’s assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
+![Geography Matters](images/geography_matters.png)
+
+At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this: 
+“For poor Americans, the place they call home can be a matter of life or death.
+The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
+
+With this background and context, the graph can serve its purpose in representing the data that drives it. Once the reader has this, they can find their way to understanding the findings.
+
+
+### Key Findings
+
+
+
+Structuring a data visualization project ultimately comes down to the key findings. What is the most important takehome message you are attemping to present to an audience. The key findings must be visually represented in conjunction with the hook, context, background, and flow as previously mentioned. Most importantly, the visualization needs to be memorable for the audience. Visualizations should be efficient, punctual, informative, peak interest, and tailored to the audience with the latter being of utmost importance. The project final visualization should forefront the most important attributes and minimize junk or aesthetic noise. In conclusion, the key finding for any visualization project should be simple, digestible, and tailored to the audience.  A visualization should exclude junk and distractions while focusing on the underlying message (Borkin et all. 2013).
+
+So how do we make a chart memorable to present key findings? In a new Harvard School of Engineering and Applied Sciences study that monitors and tracks people's eye movements as they look at graphs and visualizations, researchers have a better understanding of important visualization attributes that results in increased memory retention. [Making Visualizations More Memorable](https://www.seas.harvard.edu/news/2015/11/making-visualizations-more-memorable)
+
+Perhaps surprisingly, the general conclusion was: 
+1. Make your Title Count - while the visualizations are clearly important, this study actually reports that the audience spends the most time on the header. 
+
+2. Pictures are worth more than a few words - being text heavy will bog the reader down. The visualization should minimize the text and maximize the effectiveness of the visualization. 
+
+3. Repeat, Repeat, Repeat - as anyone will tell you, repetition is crucial to enable long term memory. 
+
+
+
+
+
+
+
+### Conclusion
+
+**Components of the conclusion:**
+* Takeaways
+* Thoughts on the Future
+* How to improve your presentation
+* References
+	
+**Takeaways:**
+The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
+
+Tips:
+* Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges. 
+* Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
+* Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
+(Source: [@Viz-project-conclusion1])
+	
+**Thoughts on the Future:**
+It would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise?
+	
+**How to improve your presentation:**
+It would be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done. 
+	
+**References:**
+Always include any references used in the project, including data soureces, inspirations.
+You must cite:
+* Facts, figures, ideas, or other information that is not common knowledge
+* Ideas, words, theories, or exact language that another person used in other publications
+* Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
+* Another person's exact words should be quoted and cited to show proper credit 
+(Source: [@Viz-project-reference])
+
+
+
 ## Risks and pitfalls in a Data Visualization Projects
 
 ### Critical points of failure in data visualization projects
@@ -503,3 +598,88 @@ Source : [@rightviz]
 1. Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value.
 2. Order consistently. The ordering of items in your legend should mimic the order of your chart.
 3. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
+
+
+## Case Study on data viz project for Marketing Analytics
+
+### Important Prerequisites for Marketing Analytics
+
+**Know your audience**: First and foremost, you need to define your audience: who are you creating your data visualization for? What kind of people or professionals are they, what do they do and what are they looking for? For example, the questions that your CEO asks and what she or he needs to know is drastically different to what your teams need to know, which is different to what a stakeholder wants to know; the developers will engage with the technical site performance, while a shop manager will have in his or her focus the E-commerce performance data such as shopping cart and conversion rate.[@data_viz_marketing] 
+
+Suppose your audience is composed of investors or the CFOs of your company evaluating performance of online marketing efforts; here are some of the metrics they could be interested in:
+
+* Number of customers originated by marketing
+
+* Customer Distribution
+
+* Return on marketing investment
+
+* Marketing spend evolution
+
+* Total marketing revenue
+
+![](images/viz_example.png)
+
+(Source: [@Marketing_Metrics])
+
+As we can see, the above shown dashboard shows all important metrics if it was to be shown to investors or CFOs.
+
+**Know the relationships between Data**: Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
+
+
+### Risks and pitfalls: Identify reason for failure and how to avoid them
+
+**Risks:**
+**Inappropriate selection of data visualization:**
+Different views answer different questions, and different charts tell different stories: you should choose them with care. For example selecting a pie chart to display different department of an organization will not make more sense as it is not showing any useful information
+
+![](images/RP8Image9.png)
+(Source: [@Marketing_Metrics])
+
+**Poor selection of colors:**
+Here’s an example of a poor use of colors, with a gradient of blue in the background that does not add anything but chaos to the visualization, clashing with the bright yellow and red that are too intense
+
+![](images/RP8Image8.png)
+(Source: [@Marketing_Metrics])
+
+**Unclear message and complex data visualization:**
+It is important to present information which is clear and easy to understand to make sure that the audience understand it clearly and can take actions from the visualization
+
+![](images/RP8Image10.png)
+(Source: [@Marketing_Metrics])
+
+**How to avoid these risks:**
+
+**Choose the data visualization carefully:**
+The pie chart is a popular choice to visualize percentages that add up to 100%, but it’s often not the optimal choice. Beyond a few slices, it’s hard to compare the relative size of each section. Bar charts are the workhorses of dataviz for good reason (for a longer list of variables, horizontal bar charts often work better).
+
+**Color selection (look and feel):** 
+The colors in the visualization should be meaningful and clearly indicate what does they represent. Do not add too intense colors making the visualization unattractive. Above all it is substantial to have the correct data an simple visualization that make more sense rather than colors.
+
+**Less is more!:**
+Be clear and concise about the visualization.One visualization should represent a clear message and should not leave audience in the confusion. Avoid using interactivity as most of the time audience might not be aware of it making it more confusing and useless for them. Provide clear single message with visualization at first and then can move ahead with further details on user demand.This makes it clear for user regarding what information they are looking at and what they need. This avoid any confusion to the audience
+
+
+### Success factors for Marketing Analytics
+
+(@perfect-marketing-dashboard)
+
+With increasingly intense competition in digitalized industries, it is important for companies to use their data for the analysis of results and the efficiency of processes. Analytics data can readily be integrated into a long-term, structured monthly reporting in companies. Like other analytics dashboard, the ideal dashboard for Marketing analytics will include following features:
+
+* Well defined goals and KPIs in the Dashboard - Goals can be defined for all processes and phases of the online sales funnel and can be checked continually using Analytics. The best practice, which large players such as Amazon show, is defining and dismantling business processes as partial processes and expressing this success in mathematical relations. The figures like company impressions and visits are certainly important for online marketing analytics, but are only indirectly relevant for success. To ensure true success lies in  the achievement of an economic profit. In E-commerce, return ratios, conversion rates, and shopping cart size decide the long-term success of an online shop. In the marketing affiliate, conversion on the partner site is decisive for success.
+
+* Target Groups for Dashboards - Decisive for the content-related conception of dashboards are the target groups for certain control parameters in the context of the analysis. The target groups also determine the level of detail and complexity of the dashboard according to their analytical understanding. If the entire workforce is addressed, easily understandable and consistent key figures should be summarized in a dashboard.
+
+* The Temporal Perspective - The temporal levels of strategic, tactical, and operative, which can be translated with long- mid-, and short-term, arise from the controlling. While individual online marketing processes are subject to long-term changes – such as the change of device usage from desktop to mobile – key performance indicators in E-commerce are overseen daily to make fast access possible. While long-term questions are best depicted through the display of data progress, values can be presented as individual values in the short-term oversight. If there are processes that can be seen as short-, middle- and long-term, the establishment of several dashboards is recommended because changed needs with regards to KPIs can arise from the change of temporal perspective. 
+
+**Strategic Dashboard** - A strategic dashboard is a reporting tool for monitoring the long-term company strategy with the help of critical success factors.
+
+![](images/StrategicDash_MSF.png)
+(Source: [@types-of-dashboards])
+
+**Operational Dashboard** - Operational dashboards are used for monitoring and managing operations that have a shorter time horizon.
+
+![](images/OperationalDash_MSF.png)
+(Source: [@types-of-dashboards])
+
+* Easily customizable - Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
