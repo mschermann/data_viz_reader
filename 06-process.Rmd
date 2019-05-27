@@ -157,17 +157,56 @@ An important addition to the steps in a data visualization project is documentat
 Lastly, this documentation should also note the issues encountered when working with the data or creating a certain visualization that can be addressed in the future.
 
 ## How to decide what type of visualization to use:
+### Understanding & Persuasion
+In order to understand the type of visualization project that you are dealing with, you must first understand the purpose of your project: Are you trying to simply understand the data, or are you trying to convey a message and provoke an action?
+
+According to Khai Nguyen, 
+
+1. Understanding is 
+
+>often a collection of basic charts and graphs. The goal is to present the data in an in-depth and unbiased way.
+
+An example of a visualization for understanding is
+![understanding](images/understanding.png)
+
+The understanding is more like 'to inform', where the main goal is to deliver knowledge effectively to the audience. The situations can be a board meeting, a earnings call, a monthly sales report and etc. Data vizs are used to present facts here. It is more appropriate to display a single number or simple and basic charts for easier understanding, instead of complex charts with advanced features. Little background of the data presented is needed here.
+
+
+2. Persuasion is 
+
+>less structured, with no obvious way to implement. The goal is to present the data in a way that can create powerful impacts on viewers.
+
+An example of a visualization for persuasion is:
+![persuasion](images/persuasion.png)
+
+For the 'to persuade' type, the main goal is to prove a point to the audience and trigger attention, change or decision making. The situations can be a proposal of business decisions, a meeting to find out why sales drops or an advocate of energy saving actions. Data vizs are used to find reasons behind facts, or compare different situations. The charts are more complicated and much background information is needed to the data presented. It is very import to tell a story with logic, explaining from begining to end carefully.
+
+This is similar to the Chicago mayor project we have done, where we are trying to give suggestions to the mayor to improve on the automated speed enforcement program.
+![chicago](images/Speed camera violation.png)
+
+
+After figuring out the purpose of your visualiation, continue to read how different sectors use visualizations differently.
 
 ### Business
 
 As per [this](https://www.investopedia.com/terms/b/business.asp) article: A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or non-profit organizations that operate to fulfill a charitable mission or further a social cause. 
 
 The list is far from all inclusive but depending on the type of business following are some of the types of data that can be generated:
+
 1. Product data 
 2. Profit and Loss data
 3. Performance data
 4. Promotions data
 5. Supplier and customer data
+
+Within the business sector, visualizations can be used very differently by different people; here's just a short list of common business users of visualizations:
+
+1. Managers 
+2. Marketing Team
+3. Sales Team
+4. Finance Team
+
+And for these different end users, the type of visualizations used will vary dramatically as the complexity and informative level required are dissimilar.
 
 Following are some of the visualizations that is common to any business. This list is also not exhaustive. [@graphs]
 
