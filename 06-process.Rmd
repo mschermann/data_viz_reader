@@ -91,7 +91,31 @@ Ben Fry in his book on Visualizing Data, shares the 7 stages in visualizing data
 5. **Represent** - Choose a basic visual model, such as a bar graph, list, or tree.
 6. **Refine** - Improve the basic representation to make it clearer and more visually engaging.
 7. **Interact** - Add methods for manipulating the data or controlling what features are visible.
-  
+
+## Finding Insights from Data Visualization
+Visualizations enable discovery of patterns and insights which might already be known and obvious or might be new and unexpected. One should seek for insights which can be used to tell stories, and not just expect the visualization to illustrate a story by itself. The insights could represent different things such as a beginning of a story or an error in data, therefore, to ensure an effective approach in finding insights from data and visualizations, the following steps is helpful and can be repeated.
+
+1. **Visualize**
+This allows a unique take on the dataset and can be done in several different ways such as charts, tables, maps, and graphs.
+
+2. **Analyse and Interpret what you see**
+In this step, ask yourself questions like:
+What can I see in this image? Is it what I expected?
+Are there any interesting patterns?
+What does this mean in the context of the data?
+These questions may not only help you find meaning within the visualization but may also show you that the visualization tells you nothing relevant about your data although the visualization might look nice.
+
+3. **Documenting your Insights and steps**
+This step of documentation can begin before you have a look at the data. Usually, we have expectations and assumptions about a dataset before we start working with it, and there is a reason on why that particular data was chosen. These thoughts can be documented to allow us to identify our preconception and lower the risk of misreading of the data by finding what we expected.
+Documentation is the most crucial yet the most skipped step. Documentation provides context in which the charts were created, thereby eradicating any confusion that may arise from looking at several set of charts. Some things to note while documenting includes:
+Why have I created this chart?
+What have I done to the data to create it?
+What does this chart tell me?
+
+4. **Transform datasets**
+This step allows for exploration of more patterns and findings. With the insights formed from previous steps, more questions regarding the data or findings might arise, and further inspection or analysis might be required. This can be done by transformation such as zooming(aggregating data points into a single group), filtering, and outlier removal.
+
+
 ## How to structure a data visualization project
 [@data_viz_idea]
 
