@@ -4,11 +4,11 @@ output:
   pdf_document: default
 ---
 
-# Introduction
+# How to run a data visualization project
 
 Every data viz project begins with a need, whether that needs come from a problem, decision, or clarification, there is a certain process for each project. Firstly, each project needs data to visualize. The data that is being used and the procurement of that data is essential as it will mold the audience, argument and metric that will all need to be evaluated throughout the steps of the project. Next, an argument needs to be made that will utilize the data to explain, answer, or convey the point the viz is made to get across. Developing a good argument requires a warrant and backing followed by a rebuttal and qualifier all to support the overall argument. Following a formed argument the visualizaiton can be constructed to establish the audience and take into account the aspects of the data that will be used. In all, a data viz project has these basic steps, but the intricacies of each use case is where complexity plays a factor. Complexity can be rivaled by using subject matter experts and practices utilized by other viz projects that are explained throughout this reader.
 
-# Important Prerequisites of data visualization project
+## Important Prerequisites of data visualization project
 
 The below are the important prerequisites of a successful data visualization project.
 [@prerequisites_vizhitachi]
@@ -50,8 +50,6 @@ This section is derived because of recent innovation in interactive visualizatio
 Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it&#39;s quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
 
 + ** Understanding the data you are trying to visualize ** such as shape and dimension of the data, is data a time-series, relationship in data between entities,categorical attribute exists is also an important prerequisite. Is this data from a single source or multiple sources. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the KPI to the end consumer should be kept in mind.
-
-# How to run a data visualization project
 
 ## Overview of process for a data visualization project
 Before launching into any project it is most important to involve the right players. These players can be business owners who have commissioned the data viz project and/or key stakeholders who will be actively using the data visualization. Participation of business representatives is most ciritical to first identify the need for the project and achieve a common ground for requirements and what would define success. Involvement and collaboration
