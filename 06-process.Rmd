@@ -164,7 +164,7 @@ Context is something universally appreciated when being presented with any type 
 Background is similar to context in how critical it is needed to avoid any poor interpretation.
 
 An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, lets assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
-![Geography Matters](images/geography_matters)
+![Geography Matters](images/geography_matters.png)
 
 At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this: 
 “For poor Americans, the place they call home can be a matter of life or death.
@@ -297,19 +297,23 @@ Visualization tools make use of simple scatter plots and heat maps to show the o
 
 
 ### Useful platforms and tips for data visualization project
-### Useful Platfomrs:
 [@platforms]
 
 ### FOR NON-DEVELOPERS
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
-1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.
-2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.
-3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.
+1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
 
-4. **Google Data** Studio is a relatively new product from Google that’s designed to make it easy for marketing teams to create detailed, shareable, interactive reports. It uses a simple drag-and-drop interface and templates to make putting together reports easy and quick. As you might expect, it integrates easily with data from other Google Analytics sources.
+2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.  
 
-5. **TimelineJS** provides an easy-to-use template for creating and embedding interactive timelines on the web. It’s especially great for blogs and other publications, and has been used by Time, CNN, Le Monde, and more.
+3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.  
+
+4. **Google Data** Studio is a relatively new product from Google that’s designed to make it easy for marketing teams to create detailed, shareable, interactive reports. It uses a simple drag-and-drop interface and templates to make putting together reports easy and quick. As you might expect, it integrates easily with data from other Google Analytics sources.  
+![](images/Google_Data_Studio.png)
+
+
+5. **TimelineJS** provides an easy-to-use template for creating and embedding interactive timelines on the web. It’s especially great for blogs and other publications, and has been used by Time, CNN, Le Monde, and more.  
+![](images/TimelineJS.png)
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
 
@@ -396,7 +400,16 @@ Cryptocurrency analyst Willy Woo designs visualizations that keeps his Twitter f
 
 Data visualization makes us instant mathematicians, rapidly grasping complex topics and giving us almost instant insight and understanding. Note Willy Woo’s strong use of Twitter to get his data out there–this is a particularly good promotional medium because tweets with images get more engagements than plain text tweets. (@viz-tips)
 
+#### Experts perspectives on visualization  
 
+David McCandless, creator of this site and author of two infographic mega-tomes, Information is Beautiful (2009) and Knowledge is Beautiful (2014).
+He has created around 540 data and information visualizations over six years. The visualization represents what he thinks are necessary for a "good" visualization.
+All four elements in his graphic seem essential. With just two, you get something prototypical and sketchy – which is okay if you’re at an early stage. With three, the end result is strangely lacking.
+See how, interestingly, if you combine information & function & visual form without story, you get “boring”. Something that looks good but isn’t that interesting.
+Similarly, if you combine visuals, information & story without considering functionality and your goal, you get something useless.
+These elements form the backbone of his process and also what he teaches in [his dataviz workshops]
+(https://informationisbeautiful.net/2015/workshops-are-beautiful-learn-our-dataviz-process/).[@what_makes_a_good_viz]
+![](https://github.com/mschermann/data_viz_reader/blob/jma/images/What-Makes-a-Good-Infoviz-frame01.png)
 
 ## How to structure a data viz project
 
