@@ -55,22 +55,22 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.
 [@prerequisites_vizhitachi]
 
-* ** Defining the project ** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
-
-Sample questions that can help one understand the project better:
-  + what is the organization need you are trying to address?
-  + What are the main data sources you need to access? 
-  + Is the data upto date or will it provide updated data in regular intervals?
-  + Is there a measurable goal you want to achieve?
-  + What are the core KPIs to convey to users if any?
-  + Which type of KPI visualization is suitable for this goal?
++ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
   
-* ** Understanding the audience ** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
-  + Quantities: counts or measures. Example - Count of likes or comments.  
-  + Trends and changes over time:  time series. For example, Change in sales quantity over time.  
-  + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
-  + Ranked list: although not a real data visualization, it could achieve the goal needed.  
-  + Geographical Location: Gives user spatial and physical relationships.  
++ Sample questions that can help one understand the project better:
+    + what is the organization need you are trying to address?
+    + What are the main data sources you need to access? 
+    + Is the data upto date or will it provide updated data in regular intervals?
+    + Is there a measurable goal you want to achieve?
+    + What are the core KPIs to convey to users if any?
+    + Which type of KPI visualization is suitable for this goal?  
+  
++ **Understanding the audience** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
+    + Quantities: counts or measures. Example - Count of likes or comments.  
+    + Trends and changes over time:  time series. For example, Change in sales quantity over time.  
+    + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
+    + Ranked list: although not a real data visualization, it could achieve the goal needed.  
+    + Geographical Location: Gives user spatial and physical relationships.  
 
 [@prerequisites_tools]
   Choosing a tool, depends on the person conducting or designing the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user and their needs. eg:-Tableau has a no code approach whereas D3.js ,Altair etc has coding approaches. These approaches help users to adopt and customize further. For example: With Tableau, users can add customization such as a new formula addition, sorting behaviors to the charts initially developed, whereas D3.js and other coding tools may not give that flexibility and the users are dependent on the designer to make further changes.
