@@ -352,6 +352,21 @@ Interactivity is also an important element for data visualization project.  Inte
 
 **Design for comprehension** Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trendline to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.[@25_tips]
 
+**Labeling** Labeling can be a minefield. Readers rely on labels to interpret data, but too many or too few can interfere.
+
+* **Double check that everything is labeled.** Make sure everything that needs a label has one—and that there are no doubles or typos.
+
+* **Make sure labels are visible.** All labels should be unobstructed and easily identified with the corresponding data point.
+
+* **Label the lines directly.** If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
+
+* **Don’t over label.** If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
+
+* **Don’t set your type at an angle.** If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably. (@viz-tips-25)
+
+![](images/viz-tips-label.png)
+
+
 **Data visualization tip #1: Think like a journalist when planning your data visualization**
 
 When it comes to creating data visualizations you need to think as much like a journalist as like a designer. Ask yourself, what angle am I going to take?
