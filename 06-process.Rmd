@@ -55,33 +55,23 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.
 [@prerequisites_vizhitachi]
 
-* ** Defining the project ** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
-
-Sample questions that can help one understand the project better:
-  + what is the organization need you are trying to address?
-  + What are the main data sources you need to access? 
-  + Is the data upto date or will it provide updated data in regular intervals?
-  + which type of data visual works best?
-  + Is there a measurable goal you want to achieve?
-  + What are the core KPIs to convey to users if any?
-  + Which type of KPI visualization is suitable for this goal?
++ **Defining the project**  
+Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
   
-
-
-+ ** Understanding the audience ** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
-  + Quantities: counts or measures. Example - Count of likes or comments
-  + Trends and changes over time:  time series. Example - Change in sales quantity over time
-  + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
-  + Ranked list: although not a real data visualization, it could achieve the goal needed.
-  + Geographical Location: Gives user spatial and physical relationships.
-
-* ** Understanding the audience ** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
-  + Quantities: counts or measures. Example - Count of likes or comments.  
-  + Trends and changes over time:  time series. For example, Change in sales quantity over time.  
-  + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
-  + Ranked list: although not a real data visualization, it could achieve the goal needed.  
-  + Geographical Location: Gives user spatial and physical relationships.  
-
++ Sample questions that can help one understand the project better:
+    + what is the organization need you are trying to address?
+    + What are the main data sources you need to access? 
+    + Is the data upto date or will it provide updated data in regular intervals?
+    + Is there a measurable goal you want to achieve?
+    + What are the core KPIs to convey to users if any?
+    + Which type of KPI visualization is suitable for this goal?  
+  
++ **Understanding the audience** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
+    + Quantities: counts or measures. Example - Count of likes or comments.  
+    + Trends and changes over time:  time series. For example, Change in sales quantity over time.  
+    + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
+    + Ranked list: although not a real data visualization, it could achieve the goal needed.  
+    + Geographical Location: Gives user spatial and physical relationships.  
 
 [@prerequisites_tools]
   Choosing a tool, depends on the person conducting or designing the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user and their needs. eg:-Tableau has a no code approach whereas D3.js ,Altair etc has coding approaches. These approaches help users to adopt and customize further. For example: With Tableau, users can add customization such as a new formula addition, sorting behaviors to the charts initially developed, whereas D3.js and other coding tools may not give that flexibility and the users are dependent on the designer to make further changes.
@@ -332,14 +322,17 @@ Because some companies such as data-heavy startups, governmental organizations, 
 ![d3js](images/d3js)
 2. **D3.js** is a JavaScript library that uses HTML, CSS, and SVG to create a wide variety of dynamic, interactive visualizations. It emphasizes web standards, allowing it to take full advantage of modern browser technologies without being tied down to any one framework. It’s been used by the New York Times for some of their rich graphical features.
 
+
 ![ggplot2](images/ggplot2s)
 3.  **ggplot2** is a visualization package for R. At its core, ggplot2 abstracts graphs into certain basic building blocks like data, scales, layers, and transformations. This makes it easier for developers to tailor their graphs to their taste without sweating the details, though this flexibility comes at a cost to speed.
 
 ![NetworkX](images/NetworkX)
 4. **NetworkX** is a Python library that allows you to create and analyze graphs and networks. It’s designed to work with both standard and nonstandard data formats, which makes it especially efficient and scalable. All this makes NetworkX especially well suited to analyzing complex social networks.
 
+
 ![matplotlib](images/matplotlib)
 5.**matplotlib** is the standard Python library for creating 2D plots and graphs. It’s pretty low-level, meaning it requires more commands to generate nice-looking graphs and figures than with some more advanced libraries. However, the flip side of that is flexibility. With enough commands, you can make just about any kind of graph you want with matplotlib.
+
 
 ![Seaborn](images/Seaborn)
 6. **Seaborn** is a popular visualization library for Python that builds on matplotlib’s foundation. The first thing you’ll notice about Seaborn is that its default styles are much more sophisticated than matplotlib’s. Beyond that, Seaborn is a higher-level library, meaning it’s easier to generate certain kinds of plots, including heat maps, time series, and violin plots.
@@ -355,6 +348,7 @@ Interactivity is also an important element for data visualization project.  Inte
 
 ![ggvis](images/ggvis)
 3. **ggvis** is an R package for producing interactive plots made by (no surprise) the same team that made ggplot2. An important feature of ggvis is that it needs to be connected to a running R session in order to work. This makes it great for data exploration because you can do anything with it that you can do in R. However, that also means it’s less well-suited to publication than many of the other tools on this list.
+
 
 ![Bokeh](images/Bokeh)
 4.**Bokeh** is a Python library that makes interactive, zoomable plots in modern web browsers using JavaScript widgets. Another nice feature of Bokeh is that it comes with three levels of interface, from high-level abstractions that allow you to quickly generate complex plots, to a low-level view that offers maximum flexibility to app developers.
