@@ -509,35 +509,41 @@ You must cite:
 ## Risks and pitfalls in a Data Visualization Projects
 
 ### Critical points of failure in data visualization projects
-[@Fail_Reasons]
+Source: [@Fail_Reasons]
+
 Regardless of the tremendous promise of data visualization, and the discipline is in focus for years now, it is not fully grown. With the existence of numerous visualization tools at disposal associated with fancy features, impactful use of data visualization is still scarce.
 At times, one wonders what makes the visual display of information so hard.
+
 • Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
+
 • Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
+
 • Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
 
+
 Some of the failure points in visualization projects are as below:
-1.Ignoring End Users:
+
+**1.Ignoring End Users:**
 End users are often not directly engaged while defining needs for visualization projects. This is a prime reason why visual dashboards often go unused after rollout. What matters is a mapping of user stories, and hearing how users approach business problems. This is the user's practical wisdom that can't be transferred, and which is closely linked to action ability.
-It's demanding to onboard the end users and gathers their nuanced business perspectives so that it can be built into dashboards. Build the user thoughts through interviews, map the user journey by gentle probing, and jointly sketch out the as-is business scenarios. It's also helpful to list the questions that will be answered by the visualization, and clarify on the ones that will not be.
+It's advisable to coordinate with the end users and gather their nuanced business perspectives so that it can be built into dashboards. Build the user thoughts through interviews, map the user journey by gentle probing, and jointly sketch out the as-is business scenarios. It's also helpful to list the questions that will be answered by the visualization, and clarify on the ones that will not be.
 
-2.Attempt to include all features:
-The more features dump into an application, the lesser it will get used. While one gets a false sense of satisfaction by checking all boxes, the cognitive load could get so high that users stop using it altogether. When it comes to prioritization, the most knowledgeable users may not have the right perspective to take hard calls or the gumption to bite the bullet.
-It's necessary to play a consultative role and help whittle down the feature list to the most critical. While screen space is technically unlimited, its useful to impose constraints on data density’. Onboard stakeholders who know the priority, who can take hard decisions and also champion the many battles needed to convince other users.
+**2.Attempt to include all features:**
+The more features dump into an application, the lesser it will get used. While one gets a false sense of satisfaction by checking all boxes, the cognitive load could get so high that users stop using it altogether. When it comes to prioritization, the most knowledgeable users may not have the right perspective to take hard calls. 
+It's necessary to play a consultative role and help deduce the feature list to just the most critical ones. While screen space is technically unlimited, its useful to impose constraints on data density. Onboard stakeholders who know the priority, who can take hard decisions and also capable to convince other users.
 
-3.Overlooking need for data exploration :
+**3.Overlooking need for data exploration:**
 Retrofitting data is the root cause for ending up with non-actionable dashboards or weird-looking charts. Without exploratory analysis, maps could be skewed by outliers or worse, end up without patterns. Data also drive choice of charts.
 As part of project planning, its critical to account for data upfront. While getting the header rows is a useful start, full data is essential before crucial decisions of design can be taken. Clients must be educated that data is indeed in the critical path of visualization, and that data insights drive design decisions.
 
-4.Driving self-satisfaction over visualizations:
+**4.Driving self-satisfaction over visualizations:**
 At times individuals develop such a great affection with a chart, that they fatefully try extending this relationship beyond the scope of cool visualization examples. This leads to unproductive force-fitting of charts into the solution. The compromises made for this adjustment can wreak havoc on the entire project.
 Those who demand exotic or 3D charts even when use cases don’t support it are doing so for their satisfaction, and end up alienating users. The choice of the chart is a science, and there are robust disciplines to adhere to.
 
-5.Endeavoring to Make everything clickable:
+**5.Endeavoring to Make everything clickable:**
 When designing navigation and interactivity, it’s a common fantasy to make everything clickable. When pushed to prioritize features within a screen, a common excuse is for users to try and hide entire dashboards behind unrelated clicks.
 Rich UI doesn’t mean many clicks; it means just the right and intuitively placed ones. It may be useful to impose some guidelines, say, no more than eight clicks per screen. Data stories can be equally compelling in the static format, so carefully question the interactivity needed. Users will be thankful for this call.
 
-6.Being opinionated in choice of colors:
+**6.Being opinionated in choice of colors:**
 Everyone has their choice of colors, and they can get pretty extreme. Unfortunately, this can have an essential bearing on the viewer's acceptance. And the color is not just about look-and-feel. It's important to consider users with red-green color blindness.
 Color theory is more an art than science, though there are standard guidelines to handle the aesthetic, functional, and social aspects. It's best to go with the user persona and application requirements, rather than trying to please everyone. One must also take the effort to articulate choices and help resolve disconnect since most users are unable to explain their color preferences.
 
