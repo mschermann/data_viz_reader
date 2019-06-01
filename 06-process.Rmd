@@ -1,4 +1,4 @@
----
+﻿---
 output:
   html_document: default
   pdf_document: default
@@ -55,7 +55,7 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.  
 [@prerequisites_vizhitachi]  
 
-+ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout. Sample questions that can help one understand the project better:  
+ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout. Sample questions that can help one understand the project better:  
     + what is the organization need you are trying to address?  
     + What are the main data sources you need to access?  
     + Is the data upto date or will it provide updated data in regular intervals?  
@@ -64,14 +64,14 @@ The below are the important prerequisites of a successful data visualization pro
     + What are the core KPIs to convey to users if any?  
     + Which type of KPI visualization is suitable for this goal?  
 
-+ **Understanding the audience** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
+ **Understanding the audience** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
     + Quantities: counts or measures. Example - Count of likes or comments
     + Trends and changes over time:  time series. Example - Change in sales quantity over time
     + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
     + Ranked list: although not a real data visualization, it could achieve the goal needed.
     + Geographical Location: Gives user spatial and physical relationships.
 
-+ **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
+ **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
 
 + **Deciding which visual is best**
 One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, Linechart, Areachart, Barchart, Scatterplots, Piechart, Treemaps, Heatmaps, Natual Language Generation, Etc.
@@ -228,14 +228,14 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 ### Conclusion
 
-#### Components of the conclusion: 
+#### Components of the conclusion
 	
 **Takeaways:**
 The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
 
 Tips:
-1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges. 
-2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
+1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges 
+2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
 (Source: [@Viz-project-conclusion1])
 	
@@ -246,11 +246,11 @@ It would make the project more meaningful if we include some thoughts on the fut
 It would be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done. 
 	
 **References:**
-Always include any references used in the project, including data soureces, inspirations.
+Always include any references used in the project, including data sources and inspirations.
 You must cite:
 1. Facts, figures, ideas, or other information that is not common knowledge
 2. Ideas, words, theories, or exact language that another person used in other publications
-3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
+3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
 4. Another person's exact words should be quoted and cited to show proper credit 
 (Source: [@Viz-project-reference])
 
@@ -359,10 +359,23 @@ Below the an example of a typical dashboard for the retail industry.
 
 ![](images/Retail-Dashboard.png)
 
-### Useful platforms and tips for data visualization project
+### Useful platforms
 [@platforms]
 
-### FOR NON-DEVELOPERS
++ Looker
++ Zoho ANalytics
++ Tableau
++ Chartio
++ Kibana
++ Plotly
++ Qlikview
++ MATLAB
++ Infogram
++ Microsoft Power BI
++ D3.js
++ SAP Analytics Cloud
+
+### For Non-Developers
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
 1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
@@ -380,7 +393,7 @@ Many free and web-based tools are very good for non-developers to design high qu
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
 
-### FOR COMPLEX PROJECTS
+### For Complex Projects
 Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
 1. **Tableau** is an extremely popular data visualization and exploration tool used by a number of startups. It comes in a few different versions, from a full-featured Business Intelligence platform to a free cloud-based version for smaller companies and projects. It’s popular for its rich visualizations and an intuitive interface that makes it easy to use even for non-specialist. It also has a slick mobile app and can be embedded in other applications that want to make attractive analytics available to their users.
@@ -395,7 +408,7 @@ Because some companies such as data-heavy startups, governmental organizations, 
 
 6. **Seaborn** is a popular visualization library for Python that builds on matplotlib’s foundation. The first thing you’ll notice about Seaborn is that its default styles are much more sophisticated than matplotlib’s. Beyond that, Seaborn is a higher-level library, meaning it’s easier to generate certain kinds of plots, including heat maps, time series, and violin plots.
 
-### FOR INTERACTIVITY
+### For Interactivity
 Interactivity is also an important element for data visualization project.  Interactive visualization focus on graphic visualizations an improving the way users can access and interact with information.  Here are some recommended tools which contains strong interactive features:
 
 1. **Dygraphs** is a highly customizable, open source Javascript charting library that places a heavy emphasis on interactivity. Zoom, pan, and mouseover are supported out of the box on just about every browser. It also supports pinch-to-zoom on mobile and tablet devices. It’s also built to be quick even when working with millions of data points.
@@ -554,9 +567,12 @@ Data visualization tools are required for analysis of data and trends but they h
 
 Source: [@dilemma]
 
-### Ways to get them right!!
-Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies. Here are some ways we can get them right
-Source : [@rightviz]
+### Tips to upgrade data visualization design
+Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies. 
+
+Following are some of the ways to upgrade data visualization design: 
+Source : [@rightviz] <br>
+
 #### Design
 
 1. Choose the chart that tells the story. There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
