@@ -295,8 +295,14 @@ Health is a huge business domain and generally comprises of three types of playe
 * **Public health** organizations which take care of population health aspects
 
 Due to difference in operations and objectives of these players, the metrics or KPIs that are relevant to each type of player are vastly different.
+
 **For healthcare providers, while the metrics fall under general areas of operations, finance, quality etc. the type of metrics are very different from a typical business organization. Some of the sample metrics under these areas are**:
+
 * **Finance** : Often also categorized as Revenue, the key metrics under this domain include revenue trend across time, share of revenue across different specialities such as cardiology, surgery, orthopedics etc., revenue by service areas which could include admissions, diagnostics, pharmacy etc. and revenue by physician, average revenue per patient and patient category and revenue by insurance payer to understand which payers are the largest insurance providers for the patients. 
+
+Following is a chart showing average revenue per patient (ARPP) at the national, state and hospital level for a hospital located in Tennessee. The chart also shows ARPP comparisons for different patient ailments such patients admitted via emergency, surgical patients and non-surgical patients and overall revenue per patient. Such a chart is useful in answering many questions - why does the hospital have a higher ARPP value for surgical patients than the state? Is it because they are renowned for complicated surgeries or have higher patient loads of in-state or out of state patients or do they simply charge higher for procedures that can be done in lower amounts at other hospitals.
+
+![](images/ARPP.png)
 
 * **Operations** : Second most important area is operations. This is the most critical of all domains because a hospital's operations determine the clinical outcomes for its patients. Hence, following standard procedures and ensuring the best outcomes are the top priorities for healthcare providers. Some of the key metrics under this domain include: number of outpatient visits by specialty and physician, number of daycare procedures, overall inpatient occupany rate and occupany by different specialties and average length of patient stay in the hospital.
 
