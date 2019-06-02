@@ -146,9 +146,9 @@ What does this chart tell me?
 4. **Transform datasets**
 This step allows for exploration of more patterns and findings. With the insights formed from previous steps, more questions regarding the data or findings might arise, and further inspection or analysis might be required. This can be done by transformation such as zooming(aggregating data points into a single group), filtering, and outlier removal.
 
-## How to structure a data viz project
+## How to Structure a Data Viz Project
 
-### Hook Audience on Your Key Message
+### Hook The Audience on Your Key Message
 
 A Hook is simply something that draws the reader in.  Hooks communicate to the reader right away why he/she should pay attention to your project.  They can be surprising, unusual, or controversial, but one thing’s for certain: hooks can’t be ordinary.  After all, if your project tells people things they already know, then what does your project do for them?    
 
@@ -160,23 +160,27 @@ Let’s take a look at a hook from a vox visualization project:
 
 ![](images/vox_hook.png)
 
-taken from:
-https://www.vox.com/2016/8/31/12368246/obesity-america-2018-charts
+taken from: [@Hook_example]
 
-This hook is great on so many levels.  It’s simple and short; the key argument is being summarized in just one sentence.  It also tackles a controversial topic of Obesity in America.  Finally, the article takes a novel stance.  Rather than blaming obesity on poor parenting, lack of willpower, or corporate greed, the article is a different approach by saying that eating healthy is inconvenient.  
+**It's easy to become obese in America**
+
+This hook is great on so many levels.  It’s simple and short; the key argument is being summarized in just one sentence.  It also tackles a controversial topic of Obesity in America.  Finally, the article takes a novel stance.  Rather than blaming obesity on poor parenting, lack of willpower, or corporate greed, the article is a different approach by saying that eating healthy is inconvenient.
+
+Since hooks only serve as introductions, the reader will need more information in order to truly understand your argument.  in order to really gain an understanding, the reader needs to understand the background and context of your project.  
 
 ### Background and Context
 
-Context is something universally appreciated when being presented with any type of new information, and with data visualizations context is necessary for both basic understanding and proper interpretation. Background is similar to context in how critical it is needed to avoid any poor interpretation.
+Context is something universally appreciated when being presented with any type of new information, and with data visualizations context is necessary for both basic understanding and proper interpretation. Context show as early as the title and hook of the article.  Background is similar to context in how critical it is needed to avoid any poor interpretation, however it shows later on as a longer description.
 
 Background begins with what drove the decision to use the subject matter. Even for purposes of work or schooling, the data used has a background which needs to be represented. Asking questions such as what history is behind this data, or where and from whom it is collected can provide the reader with the path to understanding the point of the project.
 
 Background is both the history behind data or the history project creation itself, and context furthers the readers frame of mind. This frame of mind is necessary and is done such that they can understand how the data might be represented and how it can be interpreted it given the number of ways data is now provided.
 
 An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, let’s assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
+
 ![Geography Matters](images/geography_matters.png)
 
-At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
+At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red, whereas blue is the high end of the spectrum which would be very counterintuitive. However, with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
 “For poor Americans, the place they call home can be a matter of life or death.
 The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
 
@@ -190,24 +194,19 @@ So how do we make a chart memorable to present key findings? In a new Harvard Sc
 
 Perhaps surprisingly, the general conclusion was:
 
+
 1. **Make your Title Count** - while the visualizations are clearly important, this study actually reports that the audience spends the most time on the header.
 
 2. **Pictures are worth more than a few words** - being text heavy will bog the reader down. The visualization should minimize the text and maximize the effectiveness of the visualization.
 
-3. **Repeat, Repeat, Repeat** - as anyone will tell you, repetition is crucial to enable long term memory.
+3. **Repeat, Repeat, Repeat** - as anyone will tell you, repetition is crucial to enable long term memory. 
+
+Data visualization and business intelligence is a powerful tool to showcase and visualize pertinent company information. Presenters must always identify the overarching question and proceed to create a visualization that would highlight forward progress with respect to that question. 
+
+*** 
 
 ### Integration with Business
 [@data_viz_idea]
-
-Context is something universally appreciated when being presented with any type of new information, and with data visualizations, context is necessary for both basic understanding and proper interpretation.
-Background is similar to context in how critical it is needed to avoid any poor interpretation.
-
-An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, lets assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
-![Geography Matters](images/geography_matters.png)
-
-At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
-“For poor Americans, the place they call home can be a matter of life or death.
-The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
 
 #### Bring big data visualization up front
 
@@ -229,42 +228,21 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 ### Conclusion
 
+Some possible components of the conclusion are takeaways, thoughts on the Future, how to improve your presentation, and references. 
 
-
-#### Components of the conclusion
-
-**Takeaways:**
-The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
-
-Tips:
+For takeaways, the essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” ([@Viz-project-conclusion]) Here are some tips: 
 
 1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges 
 
 2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
 
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
-(Source: [@Viz-project-conclusion1])
+([@Viz-project-conclusion1])
 
-**Thoughts on the Future:**
-It would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise?
+For thoughts on the Future, it would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise? As for how to improve your presentation, it would also be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
 
-**How to improve your presentation:**
-It would be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
+Always include any references used in the project, including data sources and inspirations. You must cite facts, figures, ideas, or other information that is not common knowledge; ideas, words, theories, or exact language that another person used in other publications. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc. Another person's exact words should be quoted and cited to show proper credit. ([@Viz-project-reference])
 
-**References:**
-Always include any references used in the project, including data sources and inspirations.
-You must cite:
-1. Facts, figures, ideas, or other information that is not common knowledge
-2. Ideas, words, theories, or exact language that another person used in other publications
-
-3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
-4. Another person's exact words should be quoted and cited to show proper credit
-
-3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
-
-4. Another person's exact words should be quoted and cited to show proper credit
-
-(Source: [@Viz-project-reference])
 
 ## How to decide what type of visualization to use:
 
