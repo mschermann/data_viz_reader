@@ -684,7 +684,7 @@ Basic Calculations are the most common, and many of the functions found in Excel
 <li>Date Functions
 <li>AVG, COUNT, MAX, MIN and other Aggregation functions
 <li>Functions involving simple math using two or more of the existing fields
-<ul>
+</ul>
 
 #### Creating Groups
 
@@ -697,16 +697,14 @@ There are many ways to create groupings of data, and different reasons for group
 <ul>
 <li>For example, you might want to do this with mislabeled data from input error. i.e. columns that are titled “CA” and “California” would be depicting the same data but would be graphed separately. We can combine these into a group and rename the group according the rest of the dataset’s naming convention for states. 
 2. Groups can be created from a field in the data pane by clicking on the field containing the data needing to be grouped and selecting **create** > **group**. Select the members of field you want to group and click **group**. 
-<ul>
 <li> For example, you might want to do this to view smaller items in a larger aggregate grouping. i.e. If expenditure on office supplies were being graphed and we wanted to put all the small items like paperclips, pencils, pens, and sticky notes in an aggregate category called “small supplies”. 
 3. Creating an “other” group when making multiple grouped categories is useful for grouping all the remaining un-grouped members. This can be done by clicking on the grouped field, and selecting **Edit Group**, and selecting **Include Other**. 
-<ul>
 <li> This can help highlight certain groups against everything else.  For example, if the visualization is intended to show high performing products and low performing products, then creating an “other” group will help draw attention to the focus of the graph. 
 ![](images/ad-hoc24.png)
 4. Coloring a view using groups helps to visually identify a group of related marks. You can select the marks directly by pressing and holding the **Shift** key to select multiple marks and click the *paperclip* (Group) button on the toolbar and select **Group**. 
-<ul>
 <li> It is possible that when creating groups this way, the marks will represent more than one dimension. You can choose to group on all dimensions or just a particular dimension. 
 <li> This is useful for showing things like outliers, or highest performers.
+</ul>
 
 #### Creating Sets
 
@@ -727,8 +725,45 @@ Here are the two types of sets and how to build them:
 <li> Optionally, you can exclude the elements selected, thereby making a set of only the elements not selected
 <li> Select *Add Filters to shelf* to automatically move the set to the filters shelf once it’s created.
 * Once you make the new set and click *OK*, the new set will be added to the bottom of the data pane under the *Sets* section. 
+</ol>
 
 Once you make your sets, you can drag it into your visualizations just like any other field. You can either choose to show the members of the set or use the aggregate members in an *In/Out* category (i.e. members that are in the set, and members that are not in the set.) To toggle back and forth, right-click the set in the visualization workspace and either select *Show Members in Set* or *Show In/Out of Set*. 
+
+#### Analytics Tools
+[@Tableau_Analytics]
+
+Reference lines, bands, distributions and box plots can help visually identify values, regions, or ranges on a continuous axis.¬ Each of these analytics tools can be found in the upper left hand corner by clicking on the *analytics* tab next to the *data* tab. 
+
+Reference Lines| Reference lines can be added either to constant or computed values and confidence intervals can also be included with the line.
+---------------|---------------------------------------------------------------------
+Reference Bands | Reference bands create a shaded area between two values. 
+----------------|---------------------------------------------------------------------
+Reference Distributions | Reference distributions create a gradient of shaded area between a distribution of values along an axis. 
+------------------------|------------------------------------------------------------- 
+Box Plots | Box plots or box and whisker charts show a distribution of values along an axis in quartiles and whiskers. 
+----------|-------------------------------------------------------------------------- 
+
+To create a reference line band or distribution:
+
+<ol>
+<li> Drag the reference line, band or distribution from the custom section under the analytics tab into the view and choose from one of the choices that appear. 
+![](https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/reference_bands_simple_drop_web.png)
+
+<li> The line, band or distribution can either be applied to the entire table, the pane or each cell. 
+![](https://onlinehelp.tableau.com/current/pro/desktop/en-us/Img/reflines_scope1.png)
+
+<li> For a reference line, select an aggregation level to place the line at either the sum, min, max, average, median, or a constant value. A confidence interval can also be added around the line at the selected level.
+
+<li> For a reference band, select two continuous fields as the basis for the area, then select a computation for each value, i.e. the sum, min, max, average, median or constant. 
+
+<li> For a reference distribution, select the computations for the distribution and the level of aggregation. Selecting percentages, percentiles, quantiles, or standard deviation, will shade between the quantities that are input. 
+</ol>
+
+To create a box plot, right-click on a quantitative axis and select *Add Reference Line*. Alternatively, in the analytics tab under the custom section, select *Box Plot* and then configure the whisker placement. 
+ 
+For more information on analytics tools in tableau, refer to:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/reference_lines.htm
+
 
 ### TabPy  
 [@TabPy]  
