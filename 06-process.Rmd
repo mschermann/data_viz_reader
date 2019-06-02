@@ -300,7 +300,7 @@ Due to difference in operations and objectives of these players, the metrics or 
 
 * **Finance** : Often also categorized as Revenue, the key metrics under this domain include revenue trend across time, share of revenue across different specialities such as cardiology, surgery, orthopedics etc., revenue by service areas which could include admissions, diagnostics, pharmacy etc. and revenue by physician, average revenue per patient and patient category and revenue by insurance payer to understand which payers are the largest insurance providers for the patients. 
 
-Following is a chart showing average revenue per patient (ARPP) at the national, state and hospital level for a hospital located in Tennessee. The chart also shows ARPP comparisons for different patient ailments such patients admitted via emergency, surgical patients and non-surgical patients and overall revenue per patient. Such a chart is useful in answering many questions - why does the hospital have a higher ARPP value for surgical patients than the state? Is it because they are renowned for complicated surgeries or have higher patient loads of in-state or out of state patients or do they simply charge higher for procedures that can be done in lower amounts at other hospitals.
+Following is a chart showing average revenue per patient (ARPP) at the national, state and hospital level for a hospital located in Tennessee. The chart also shows ARPP comparisons for different patient ailments such patients admitted via emergency, surgical patients and non-surgical patients and overall revenue per patient. Such a chart is useful in answering many questions - why does the hospital have a higher ARPP value for surgical patients than the state? Is it because they are renowned for complicated surgeries or have higher patient loads of in-state or out of state patients or do they simply charge higher for procedures that can be done in lower amounts at other hospitals.[@dexur]
 
 ![](images/ARPP.png)
 
@@ -311,6 +311,11 @@ Below is an image taken from [@hcup-us] which shows the average length of stay o
 ![](images/ALOS.png)
 
 * **Clinical Quality** : For a healthcare provider, its performance is determined not just by revenue but by the quality of treatment provided to patients. Some key quality related KPIs include - surgery infection rates, re-admission and mortality rates, sentinel events, needle stick and other bodily injuries. 
+
+
+The following chart, taken from [@ncbi] shows re-admission rates for different procedures across states in 2009. Such a chart is very useful to understand why some procedures have significantly higher re-admission rates than others. Thus, a visualization need not be the be-all end-all for a data visualization project. It can be an ongoing process of generating questions through visualizations and looking for answers to help solve business problems.
+
+![](images/ReadmissionRate.png)
 
 * **Other important KPIs**: Some of the other important KPIs for healthcare providers include, patient satisfaction scores, asset utilization for operating theatres, diagnostic and other equipment and patient footfalls.
 
