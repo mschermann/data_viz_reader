@@ -1,4 +1,4 @@
-﻿---
+---
 output:
   html_document: default
   pdf_document: default
@@ -289,6 +289,15 @@ Following are some of the visualizations that is common to any business. This li
 
 ### Health
 
+Health is a huge business domain and generally comprises of three types of players:
+* **Healthcare Providers** which includes hospitals and health systems
+* **Health insurance** companies which include most providers of health insurance 
+* **Public health** organizations which take care of population health aspects
+
+
+
+
+Due to difference in operations and objectives of these players, the metrics/ KPIs that are relevant to each type of player are vastly different.
 **In the health sector, a few of the common data being generated are**:
 1. Electronic medical records of patient
 2. Insurance information
