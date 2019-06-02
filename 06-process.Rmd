@@ -228,14 +228,19 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 ### Conclusion
 
+
+
 #### Components of the conclusion
 
 **Takeaways:**
 The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
 
 Tips:
-1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges
+
+1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges 
+
 2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
+
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
 (Source: [@Viz-project-conclusion1])
 
@@ -250,8 +255,14 @@ Always include any references used in the project, including data sources and in
 You must cite:
 1. Facts, figures, ideas, or other information that is not common knowledge
 2. Ideas, words, theories, or exact language that another person used in other publications
-3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
+
+3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
 4. Another person's exact words should be quoted and cited to show proper credit
+
+3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
+
+4. Another person's exact words should be quoted and cited to show proper credit
+
 (Source: [@Viz-project-reference])
 
 ## How to decide what type of visualization to use:
@@ -530,16 +541,30 @@ Data visualization is trending in data science and can help a company thrive. It
 1. **Color Abuse**: Color has its place but don’t overdo it in data visualizations. The wrong color can lead to confusion, or even worse, misinterpretation. For example, red is often associated with something negative. Linking the color red to data that is relatively less good than an alternative but not per se bad can cause misinterpretation.
 [@Pitfalls1]
 
+Analysis always comes first. So, despite what your branding department might say, brand colors are often not the best choice for visualizations. Consider the color blind and use shapes and colors that are easiest for people to see. Don’t rely on color alone to convey meaning.[@PitfallsRemedies]
+
 2. **Misuse of Pie Charts**: We all love our pies. But nothing is less satisfying than a tiny sliver. If you try to squeeze too much information into a pie chart, the big picture gets lost. Too much detail leaves your audience feeling unsatisfied and confused. Avoid using pie charts side by side — it’s an awkward way to compare data.
 [@Pitfalls1]
+
+Pie charts work best for limited dimensional values that let you easily distinguish each slice of the pie. Use pie charts to compare parts of a whole but don’t use them to compare different sets of data. Order your slices from largest to smallest for easier comparison.
+[@PitfallsRemedies]
 
 3. **Visual Clutter**: Making discoveries in a cluttered visualization is like finding a needle in a haystack. Too much information defeats the purpose of clarity. And unnecessary elements - or chartjunk crowd a visualization, obscure meaning, and lead to inaccurate conclusions.
 [@Pitfalls1]
 
+Limit the number of objects in a dashboard to eight or less. Too many objects are distracting, so remember to keep the visualizations simple. The less there is to interpret, the easier it is to understand. If your visual looks cluttered, try a different format. The cleanest format is usually the best.
+[@PitfallsRemedies]
+
 4. **Poor Design**: Design is not just what it looks like and feels like. Design is how it works. – Steve Jobs.
 Just because visualization is beautiful to look at doesn’t mean it’s effective. Effective visualizations incorporate design best practices to enhance the communication of data.[@Pitfalls1]
 
+Think about how your users will navigate through your apps – what do they need to see, how do they need to see it, what additional context will they require and how will they access this? It’s worth answering all these questions before building your visualization.
+[@PitfallsRemedies]
+
 5. **Bad Data**: Great visualizations start with great data. If your visualization reveals unexpected results, you may be the victim of bad data. Don’t let your visualization become the scapegoat for bad data.[@Pitfalls2]
+
+Use your charts to spot issues with your data and address those issues before presenting your data. Don’t let your visualization take the blame for bad information. It’s important to understand the difference between an unexpected discovery and a data issue.
+[@PitfallsRemedies]
 
 ### Limitations of Data Visualization Tools
 Data visualization tools are required for analysis of data and trends but they have some limitations especially when datasets grow in size.
