@@ -231,15 +231,14 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 
 #### Components of the conclusion
-	
+
 **Takeaways:**
 The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
 
 Tips:
-1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges.
-2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
 
 1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges 
+
 2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
 
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
@@ -261,7 +260,8 @@ You must cite:
 4. Another person's exact words should be quoted and cited to show proper credit
 
 3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
-4. Another person's exact words should be quoted and cited to show proper credit 
+
+4. Another person's exact words should be quoted and cited to show proper credit
 
 (Source: [@Viz-project-reference])
 
@@ -596,45 +596,45 @@ Source: [@dilemma]
 Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies.
 
 Following are some of the ways to upgrade data visualization design:
-Source : [@rightviz] <br>
+Source : [@rightviz]
 
 #### Design
 
-1. Choose the chart that tells the story. There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
+1. **Choose the chart that tells the story** - There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
 
-2. Remove anything that doesn’t support the story. No, that doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
+2. **Remove anything that doesn’t support the story** - No, that doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
 
-3. Design for comprehension. Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trend line to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.
+3. **Design for comprehension** - Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trend line to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.
 
-4. Comparison - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
+4. **Comparison** - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
 
-5. Don’t use distracting fonts or elements. Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
+5. **Don’t use distracting fonts or elements** - Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
 
 #### Color
 
-1. Use a single color to represent the same type of data. If you are depicting sales month by month on a bar chart, use a single color. But if you are comparing last year’s sales to this year’s sales in a grouped chart, you should use a different color for each year. You can also use an accent color to highlight a significant data point.
+1. **Use a single color to represent the same type of data** - If you are depicting sales month by month on a bar chart, use a single color. But if you are comparing last year’s sales to this year’s sales in a grouped chart, you should use a different color for each year. You can also use an accent color to highlight a significant data point.
 
-2. Avoid patterns. Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes).
+2. **Avoid patterns** - Stripes and polka dots sound fun, but they can be incredibly distracting. If you are trying to differentiate, say, on a map, use different saturations of the same color. On that note, only use solid-colored lines (not dashes).
 
-3. Select colors appropriately. Some colors stand out more than others, giving unnecessary weight to that data. Instead, use a single color with varying shade or a spectrum between two analogous colors to show intensity. Remember to intuitively code color intensity according to values as well.
+3. **Select colors appropriately** - Some colors stand out more than others, giving unnecessary weight to that data. Instead, use a single color with varying shade or a spectrum between two analogous colors to show intensity. Remember to intuitively code color intensity according to values as well.
 
-4. Don’t use more than 6 colors in a single layout.Enough said.
+4. **Don’t use more than 6 colors in a single layout** - Enough said.
 
-5. Make sure there is sufficient contrast between colors. If colors are too similar (light gray vs. light, light gray), it can be hard to tell the difference. Conversely, don’t use high-contrast color combinations such as red/green or blue/yellow.
+5. **Make sure there is sufficient contrast between colors** If colors are too similar (light gray vs. light, light gray), it can be hard to tell the difference. Conversely, don’t use high-contrast color combinations such as red/green or blue/yellow.
 
 #### Labelling
 
-1. Double check that everything is labeled. Make sure everything that needs a label has one—and that there are no doubles or typos.
-2. Make sure labels are visible. All labels should be unobstructed and easily identified with the corresponding data point.
-3. Label the lines directly. If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
-4. Don’t over label. If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
-5. Don’t set your type at an angle. If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably.
+1. **Double check that everything is labeled** - Make sure everything that needs a label has one—and that there are no doubles or typos.
+2. **Make sure labels are visible** - All labels should be unobstructed and easily identified with the corresponding data point.
+3. **Label the lines directly** - If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
+4. **Don’t over label** - If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
+5. **Don’t set your type at an angle** - If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably.
 
 #### Ordering
 
-1. Order data intuitively. There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value.
-2. Order consistently. The ordering of items in your legend should mimic the order of your chart.
-3. Order evenly. Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
+1. **Order data intuitively** - There should be a logical hierarchy. Order categories alphabetically, sequentially, or by value.
+2. **Order consistently** - The ordering of items in your legend should mimic the order of your chart.
+3. **Order evenly** - Use natural increments on your axes (0, 5, 10, 15, 20) instead of awkward or uneven increments (0, 3, 5, 16, 50).
 
 
 ## Case Study on data viz project for Marketing Analytics
