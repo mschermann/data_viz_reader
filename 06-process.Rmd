@@ -185,7 +185,7 @@ Visualizations enable discovery of patterns and insights which might already be 
 
 1. **Visualize**
 This allows a unique take on the dataset and can be done in several different ways such as charts, tables, maps, and graphs.
-For example, the information relayed should give invaluable insights that will help the viewer make business decisions. Jon Steel, a leader in the account planning field, said the following of looking at and understanding data: “In the context of an advertising agency, the ability of planners to look at the same information as everyone else and see something different is invaluable. They need to be able to take information of all sorts, shuffle it around, and rearrange it in new patterns until something interesting emerges.” Not only will good data visualization convey actionable information, but it will help you to see things other people maybe can’t see. [@The Art of Visualizing Data to Find Actionable Insights]
+For example, the information relayed should give invaluable insights that will help the viewer make business decisions. Jon Steel, a leader in the account planning field, said the following of looking at and understanding data: “In the context of an advertising agency, the ability of planners to look at the same information as everyone else and see something different is invaluable. They need to be able to take information of all sorts, shuffle it around, and rearrange it in new patterns until something interesting emerges.” Not only will good data visualization convey actionable information, but it will help you to see things other people maybe can’t see. [@The-Art-of-Visualizing-Data-to-Find-Actionable-Insights]
 
 2. **Analyse and Interpret what you see**
 In this step, ask yourself questions like:
@@ -521,7 +521,7 @@ Some visual tools that can be used in project management include mind mapping, p
 + Microsoft Power BI
 + D3.js
 
-### FOR NON-DEVELOPERS
+### For Non-Developers
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
 1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
@@ -539,7 +539,7 @@ Many free and web-based tools are very good for non-developers to design high qu
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
 
-### FOR COMPLEX PROJECTS
+### For Complex Projects
 Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
 ![tableau_a](images/tableau_a)
@@ -563,7 +563,7 @@ Because some companies such as data-heavy startups, governmental organizations, 
 ![Seaborn](images/Seaborn)
 6. **Seaborn** is a popular visualization library for Python that builds on matplotlib’s foundation. The first thing you’ll notice about Seaborn is that its default styles are much more sophisticated than matplotlib’s. Beyond that, Seaborn is a higher-level library, meaning it’s easier to generate certain kinds of plots, including heat maps, time series, and violin plots.
 
-### FOR INTERACTIVITY
+### For Interactivity
 Interactivity is also an important element for data visualization project.  Interactive visualization focus on graphic visualizations an improving the way users can access and interact with information.  Here are some recommended tools which contains strong interactive features:
 
 1. **Dygraphs** is a highly customizable, open source Javascript charting library that places a heavy emphasis on interactivity. Zoom, pan, and mouseover are supported out of the box on just about every browser. It also supports pinch-to-zoom on mobile and tablet devices. It’s also built to be quick even when working with millions of data points.
