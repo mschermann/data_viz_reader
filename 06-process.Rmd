@@ -713,7 +713,7 @@ Data visualization tools are required for analysis of data and trends but they h
 Source: [@dilemma]
 
 ### Tips to upgrade data visualization design
-Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies.
+Data visualization design isn’t about displaying data; it is about displaying data in a way that makes it easier to comprehend—that is where the real value lies.
 
 Following are some of the ways to upgrade data visualization design:
 Source : [@rightviz]
@@ -728,20 +728,15 @@ Source : [@rightviz]
 
 4. **Comparison** - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
 
-
-### Comparison  
+#### Comparison  
   
-1. Include a zero baseline if possible. Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances.  
+1. **Include a zero baseline if possible** - Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances.  
 
-2. Always choose the most efficient visualization. You want visual consistency so that the reader can compare at a glance. This might mean you use stacked bar charts, a grouped bar chart, or a line chart. Whatever you choose, don’t overwhelm by making the reader work to compare too many things.  
+2. **Always choose the most efficient visualization** - You want visual consistency so that the reader can compare at a glance. This might mean you use stacked bar charts, a grouped bar chart, or a line chart. Whatever you choose, don’t overwhelm by making the reader work to compare too many things.  
 
-3. Watch your placement. You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.  
+3. **Watch your placement** - You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.  
 
-4. Tell the whole story. Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.  
-
-### Color
-5. **Don’t use distracting fonts or elements** - Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
-
+4. **Tell the whole story** - Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.  
 
 #### Color
 
@@ -754,6 +749,8 @@ Source : [@rightviz]
 4. **Don’t use more than 6 colors in a single layout** - Enough said.
 
 5. **Make sure there is sufficient contrast between colors** If colors are too similar (light gray vs. light, light gray), it can be hard to tell the difference. Conversely, don’t use high-contrast color combinations such as red/green or blue/yellow.
+
+6. **Don’t use distracting fonts or elements** - Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
 
 #### Labelling
 
