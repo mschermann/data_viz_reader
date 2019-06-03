@@ -288,18 +288,46 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 Some possible components of the conclusion are takeaways, thoughts on the Future, how to improve your presentation, and references. 
 
+
+#### Components of the conclusion
+
+**Takeaways:**
+The essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” (Source: [@Viz-project-conclusion])
+
+Tips:
+
 For takeaways, the essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” ([@Viz-project-conclusion]) Here are some tips: 
 
-1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges 
 
-2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
-
+1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges. 
+2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
+
+(Source: [@Viz-project-conclusion1])
+
+**Thoughts on the Future:**
+It would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise?
+
+**How to improve your presentation:**
+It would be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
+
+**References:**
+Always include any references used in the project, including data soureces, inspirations.
+You must cite:
+1. Facts, figures, ideas, or other information that is not common knowledge
+2. Ideas, words, theories, or exact language that another person used in other publications
+3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
+4. Another person's exact words should be quoted and cited to show proper credit 
+
+
+(Source: [@Viz-project-reference])
+
 ([@Viz-project-conclusion1])
 
 For thoughts on the Future, it would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise? As for how to improve your presentation, it would also be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
 
 Always include any references used in the project, including data sources and inspirations. You must cite facts, figures, ideas, or other information that is not common knowledge; ideas, words, theories, or exact language that another person used in other publications. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc. Another person's exact words should be quoted and cited to show proper credit. ([@Viz-project-reference])
+
 
 
 ## How to decide what type of visualization to use:
@@ -453,6 +481,9 @@ Internet of Things shelf scanners are increasingly able to process information o
 **Common types of Visualizations**
 Visualization tools make use of simple scatter plots and heat maps to show the overall relationship in a large amount of data. Bubble charts can also be used to map out profit and sales and basic elements of demand and supply. Opportunity curves are commonly used to determine ost effecient price in terms of revenue or profit maximization. [@Retail_typesofviz]
 
+
+### Useful platforms and tips for data visualization project
+
 ![](images/Opportunity_Curve.png)
 
 Below the an example of a typical dashboard for the retail industry.
@@ -477,6 +508,7 @@ Some visual tools that can be used in project management include mind mapping, p
 [@PMvizpic]
 
 ### Useful platforms
+
 [@platforms]
 
 + Looker
@@ -490,9 +522,8 @@ Some visual tools that can be used in project management include mind mapping, p
 + Infogram
 + Microsoft Power BI
 + D3.js
-+ SAP Analytics Cloud
 
-### For Non-Developers
+### FOR NON-DEVELOPERS
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
 1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
@@ -510,7 +541,7 @@ Many free and web-based tools are very good for non-developers to design high qu
 
 6. **Plotly** is a web app for creating charts and dashboards that’s popular with both data scientists as well as journalists from major organizations like the Washington Post, Boston Globe, and Wired. It’s basically a GUI for D3.js, which makes it well suited to building highly responsive graphs.  For heavier duty projects, it also comes with APIs for Python, R, Matlab, and other data science tools.
 
-### For Complex Projects
+### FOR COMPLEX PROJECTS
 Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
 ![tableau_a](images/tableau_a)
@@ -534,7 +565,7 @@ Because some companies such as data-heavy startups, governmental organizations, 
 ![Seaborn](images/Seaborn)
 6. **Seaborn** is a popular visualization library for Python that builds on matplotlib’s foundation. The first thing you’ll notice about Seaborn is that its default styles are much more sophisticated than matplotlib’s. Beyond that, Seaborn is a higher-level library, meaning it’s easier to generate certain kinds of plots, including heat maps, time series, and violin plots.
 
-### For Interactivity
+### FOR INTERACTIVITY
 Interactivity is also an important element for data visualization project.  Interactive visualization focus on graphic visualizations an improving the way users can access and interact with information.  Here are some recommended tools which contains strong interactive features:
 
 1. **Dygraphs** is a highly customizable, open source Javascript charting library that places a heavy emphasis on interactivity. Zoom, pan, and mouseover are supported out of the box on just about every browser. It also supports pinch-to-zoom on mobile and tablet devices. It’s also built to be quick even when working with millions of data points.
@@ -774,7 +805,10 @@ Source : [@rightviz]
 
 ### Important Prerequisites for Marketing Analytics
 
-**Know your audience**: First and foremost, you need to define your audience: who are you creating your data visualization for? What kind of people or professionals are they, what do they do and what are they looking for? For example, the questions that your CEO asks and what she or he needs to know is drastically different to what your teams need to know, which is different to what a stakeholder wants to know; the developers will engage with the technical site performance, while a shop manager will have in his or her focus the E-commerce performance data such as shopping cart and conversion rate.[@data_viz_marketing]
+
+**Know your audience**: 
+<br/>
+First and foremost, you need to define your audience: who are you creating your data visualization for? What kind of people or professionals are they, what do they do and what are they looking for? For example, the questions that your CEO asks and what she or he needs to know is drastically different to what your teams need to know, which is different to what a stakeholder wants to know; the developers will engage with the technical site performance, while a shop manager will have in his or her focus the E-commerce performance data such as shopping cart and conversion rate.[@data_viz_marketing] 
 
 Suppose your audience is composed of investors or the CFOs of your company evaluating performance of online marketing efforts; here are some of the metrics they could be interested in:
 
@@ -794,27 +828,35 @@ Suppose your audience is composed of investors or the CFOs of your company evalu
 
 As we can see, the above shown dashboard shows all important metrics if it was to be shown to investors or CFOs.
 
-**Know the relationships between Data**: Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
+**Know the relationships between Data**: 
+<br/>
+Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
 
 Once you are aware of the data and type of data you can use many charts such as bar charts, line charts, area charts, scatterplots, etc. Choice of a particular chart type for the data visualization may also be constrained by the number of variables you want to graph, or you may want to choose your chart type based on what type of pattern you are trying to show (comparison, part-to-whole, hierarchy, etc.) [@data_viz_chart_types]
 
 
 ### Risks and Pitfalls: Identify reason for failure and how to avoid them
+<br/>
 
 **Risks:**
+<br/>
+
 **Inappropriate selection of data visualization:**
+<br/>
 Different views answer different questions, and different charts tell different stories: you should choose them with care. For example selecting a pie chart to display different department of an organization will not make more sense as it is not showing any useful information
 
 ![](images/RP8Image9.png)
 (Source: [@Marketing_Metrics])
 
 **Poor selection of colors:**
+<br/>
 Here’s an example of a poor use of colors, with a gradient of blue in the background that does not add anything but chaos to the visualization, clashing with the bright yellow and red that are too intense
 
 ![](images/RP8Image8.png)
 (Source: [@Marketing_Metrics])
 
 **Unclear message and complex data visualization:**
+<br/>
 It is important to present information which is clear and easy to understand to make sure that the audience understand it clearly and can take actions from the visualization
 
 ![](images/RP8Image10.png)
@@ -823,12 +865,16 @@ It is important to present information which is clear and easy to understand to 
 **How to avoid these risks:**
 
 **Choose the data visualization carefully:**
+<br/>
 The pie chart is a popular choice to visualize percentages that add up to 100%, but it’s often not the optimal choice. Beyond a few slices, it’s hard to compare the relative size of each section. Bar charts are the workhorses of dataviz for good reason (for a longer list of variables, horizontal bar charts often work better).
 
-**Color selection (look and feel):**
+
+**Color selection (look and feel):** 
+<br/>
 The colors in the visualization should be meaningful and clearly indicate what does they represent. Do not add too intense colors making the visualization unattractive. Above all it is substantial to have the correct data an simple visualization that make more sense rather than colors.
 
 **Less is more!:**
+<br/>
 Be clear and concise about the visualization.One visualization should represent a clear message and should not leave audience in the confusion. Avoid using interactivity as most of the time audience might not be aware of it making it more confusing and useless for them. Provide clear single message with visualization at first and then can move ahead with further details on user demand.This makes it clear for user regarding what information they are looking at and what they need. This avoid any confusion to the audience
 
 
@@ -838,20 +884,34 @@ Be clear and concise about the visualization.One visualization should represent 
 
 With increasingly intense competition in digitalized industries, it is important for companies to use their data for the analysis of results and the efficiency of processes. Analytics data can readily be integrated into a long-term, structured monthly reporting in companies. Like other analytics dashboard, the ideal dashboard for Marketing analytics will include following features:
 
-* Well defined goals and KPIs in the Dashboard - Goals can be defined for all processes and phases of the online sales funnel and can be checked continually using Analytics. The best practice, which large players such as Amazon show, is defining and dismantling business processes as partial processes and expressing this success in mathematical relations. The figures like company impressions and visits are certainly important for online marketing analytics, but are only indirectly relevant for success. To ensure true success lies in  the achievement of an economic profit. In E-commerce, return ratios, conversion rates, and shopping cart size decide the long-term success of an online shop. In the marketing affiliate, conversion on the partner site is decisive for success.
+ **Well defined goals and KPIs in the Dashboard:**
+<br/>
+Goals can be defined for all processes and phases of the online sales funnel and can be checked continually using Analytics. The best practice, which large players such as Amazon show, is defining and dismantling business processes as partial processes and expressing this success in mathematical relations. The figures like company impressions and visits are certainly important for online marketing analytics, but are only indirectly relevant for success. To ensure true success lies in  the achievement of an economic profit. In E-commerce, return ratios, conversion rates, and shopping cart size decide the long-term success of an online shop. In the marketing affiliate, conversion on the partner site is decisive for success.
 
-* Target Groups for Dashboards - Decisive for the content-related conception of dashboards are the target groups for certain control parameters in the context of the analysis. The target groups also determine the level of detail and complexity of the dashboard according to their analytical understanding. If the entire workforce is addressed, easily understandable and consistent key figures should be summarized in a dashboard.
+**Target Groups for Dashboards:** 
+<br/>
+Decisive for the content-related conception of dashboards are the target groups for certain control parameters in the context of the analysis. The target groups also determine the level of detail and complexity of the dashboard according to their analytical understanding. If the entire workforce is addressed, easily understandable and consistent key figures should be summarized in a dashboard.
 
-* The Temporal Perspective - The temporal levels of strategic, tactical, and operative, which can be translated with long- mid-, and short-term, arise from the controlling. While individual online marketing processes are subject to long-term changes – such as the change of device usage from desktop to mobile – key performance indicators in E-commerce are overseen daily to make fast access possible. While long-term questions are best depicted through the display of data progress, values can be presented as individual values in the short-term oversight. If there are processes that can be seen as short-, middle- and long-term, the establishment of several dashboards is recommended because changed needs with regards to KPIs can arise from the change of temporal perspective.
 
-**Strategic Dashboard** - A strategic dashboard is a reporting tool for monitoring the long-term company strategy with the help of critical success factors.
+**The Temporal Perspective:** 
+<br/>
+The temporal levels of strategic, tactical, and operative, which can be translated with long, mid, and short-term, arise from the controlling. While individual online marketing processes are subject to long-term changes – such as the change of device usage from desktop to mobile – key performance indicators in E-commerce are overseen daily to make fast access possible. While long-term questions are best depicted through the display of data progress, values can be presented as individual values in the short-term oversight. If there are processes that can be seen as short-, middle- and long-term, the establishment of several dashboards is recommended because changed needs with regards to KPIs can arise from the change of temporal perspective. 
+
+
+**Strategic Dashboard:** 
+<br/>
+A strategic dashboard is a reporting tool for monitoring the long-term company strategy with the help of critical success factors.
 
 ![](images/StrategicDash_MSF.png)
 (Source: [@types-of-dashboards])
 
-**Operational Dashboard** - Operational dashboards are used for monitoring and managing operations that have a shorter time horizon.
+**Operational Dashboard:**
+<br/>
+Operational dashboards are used for monitoring and managing operations that have a shorter time horizon.
 
 ![](images/OperationalDash_MSF.png)
 (Source: [@types-of-dashboards])
 
-* Easily customizable - Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
+**Easily customizable:**
+<br/>
+Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
