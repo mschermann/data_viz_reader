@@ -405,7 +405,7 @@ This stacked bar plot represents the proportion of teens being overweight from 1
 
 [@health_sector]
 
-### Finance:
+### Finance
 
 In the Finance world, data has always been one of the most important criteria for making decisions. Finance has always been about numbers, but complex algorithms that can collect data from an ever wider number of sources help inform and support trading decisions. [@finance_reference] Also, Risk management is an enormously important area for financial institutions, responsible for the company's security, trustworthiness, and strategic decisions.
 
@@ -413,8 +413,8 @@ In the Finance world, data has always been one of the most important criteria fo
 
 1. Stock prices
 2. Trading data
-3. Credit and Debit Card history
-4. Balance Sheets
+3. Credit and debit card history
+4. Balance sheets
 
 **Important usecases**:
 Data visualizations are used in performing various tasks for Algorithmic Trading, Risk Management, Predictive Analytics and Real-time Analytics.
@@ -511,7 +511,7 @@ Because some companies such as data-heavy startups, governmental organizations, 
 
 
 ![matplotlib](images/matplotlib)
-5.**matplotlib** is the standard Python library for creating 2D plots and graphs. It’s pretty low-level, meaning it requires more commands to generate nice-looking graphs and figures than with some more advanced libraries. However, the flip side of that is flexibility. With enough commands, you can make just about any kind of graph you want with matplotlib.
+5. **matplotlib** is the standard Python library for creating 2D plots and graphs. It’s pretty low-level, meaning it requires more commands to generate nice-looking graphs and figures than with some more advanced libraries. However, the flip side of that is flexibility. With enough commands, you can make just about any kind of graph you want with matplotlib.
 
 
 ![Seaborn](images/Seaborn)
@@ -530,30 +530,30 @@ Interactivity is also an important element for data visualization project.  Inte
 
 
 ![Bokeh](images/Bokeh)
-4.**Bokeh** is a Python library that makes interactive, zoomable plots in modern web browsers using JavaScript widgets. Another nice feature of Bokeh is that it comes with three levels of interface, from high-level abstractions that allow you to quickly generate complex plots, to a low-level view that offers maximum flexibility to app developers.
+4. **Bokeh** is a Python library that makes interactive, zoomable plots in modern web browsers using JavaScript widgets. Another nice feature of Bokeh is that it comes with three levels of interface, from high-level abstractions that allow you to quickly generate complex plots, to a low-level view that offers maximum flexibility to app developers.
 
 ![Basemaph](images/Basemap)
 5. **Basemap** is a Python library that adds support for simple maps to matplotlib by taking matplotlib’s coordinates and applying them to more than 25 different projections. The library Folium further builds on Basemap and allows for the creation of interactive web maps, similar to the JavaScript widgets created by Bokeh
 
 ### Tips for Data Visualization Projects
 
-**Choose the chart that tells the story** There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
+1. **Choose the chart that tells the story:** There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
 
-**Remove anything that doesn’t support the story** That doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
+2. **Remove anything that doesn’t support the story:** That doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
 
-**Design for comprehension** Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trendline to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.[@25_tips]
+3. **Design for comprehension:** Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trendline to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.[@25_tips]
 
-**Labeling** Labeling can be a minefield. Readers rely on labels to interpret data, but too many or too few can interfere.
+4. **Labeling:** Labeling can be a minefield. Readers rely on labels to interpret data, but too many or too few can interfere.
 
-* **Double check that everything is labeled.** Make sure everything that needs a label has one—and that there are no doubles or typos.
+5. **Double check that everything is labeled.** Make sure everything that needs a label has one—and that there are no doubles or typos.
 
-* **Make sure labels are visible.** All labels should be unobstructed and easily identified with the corresponding data point.
+6. **Make sure labels are visible.** All labels should be unobstructed and easily identified with the corresponding data point.
 
-* **Label the lines directly.** If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
+7. **Label the lines directly.** If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
 
-* **Don’t over label.** If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
+8. **Don’t over label.** If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
 
-* **Don’t set your type at an angle.** If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably. (@viz-tips-25)
+9. **Don’t set your type at an angle.** If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably. (@viz-tips-25)
 
 ![](images/viz-tips-label.png)
 
