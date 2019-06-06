@@ -300,7 +300,6 @@ Tips:
 
 For takeaways, the essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” ([@Viz-project-conclusion]) Here are some tips: 
 
-
 1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges. 
 2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
@@ -316,6 +315,7 @@ It would be informative to list out any currently missing but useful data in the
 **References:**
 Always include any references used in the project, including data soureces, inspirations.
 You must cite:
+
 1. Facts, figures, ideas, or other information that is not common knowledge
 2. Ideas, words, theories, or exact language that another person used in other publications
 3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
@@ -337,6 +337,7 @@ Always include any references used in the project, including data sources and in
 As per [this](https://www.investopedia.com/terms/b/business.asp) article: A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or non-profit organizations that operate to fulfill a charitable mission or further a social cause.
 
 The list is far from all inclusive but depending on the type of business following are some of the types of data that can be generated:
+
 1. Product data
 2. Profit and Loss data
 3. Performance data
@@ -528,9 +529,9 @@ Some visual tools that can be used in project management include mind mapping, p
 ### For Non-Developers
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
-1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
+1. **Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
 
-2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.  
+2. **Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.  
 
 3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.  
 
@@ -655,36 +656,34 @@ Source: [@Fail_Reasons]
 Regardless of the tremendous promise of data visualization, and the discipline is in focus for years now, it is not fully grown. With the existence of numerous visualization tools at disposal associated with fancy features, impactful use of data visualization is still scarce.
 At times, one wonders what makes the visual display of information so hard.
 
-• Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
-
-• Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
-
-• Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
+- Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
+- Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
+- Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
 
 
 Some of the failure points in visualization projects are as below:
 
-**1.Ignoring End Users:**
+1. **Ignoring End Users:**
 End users are often not directly engaged while defining needs for visualization projects. This is a prime reason why visual dashboards often go unused after rollout. What matters is a mapping of user stories, and hearing how users approach business problems. This is the user's practical wisdom that can't be transferred, and which is closely linked to action ability.
 It's advisable to coordinate with the end users and gather their nuanced business perspectives so that it can be built into dashboards. Build the user thoughts through interviews, map the user journey by gentle probing, and jointly sketch out the as-is business scenarios. It's also helpful to list the questions that will be answered by the visualization, and clarify on the ones that will not be.
 
-**2.Attempt to include all features:**
+2. **Attempt to include all features:**
 The more features dump into an application, the lesser it will get used. While one gets a false sense of satisfaction by checking all boxes, the cognitive load could get so high that users stop using it altogether. When it comes to prioritization, the most knowledgeable users may not have the right perspective to take hard calls.
 It's necessary to play a consultative role and help deduce the feature list to just the most critical ones. While screen space is technically unlimited, its useful to impose constraints on data density. Onboard stakeholders who know the priority, who can take hard decisions and also capable to convince other users.
 
-**3.Overlooking need for data exploration:**
+3. **Overlooking need for data exploration:**
 Retrofitting data is the root cause for ending up with non-actionable dashboards or weird-looking charts. Without exploratory analysis, maps could be skewed by outliers or worse, end up without patterns. Data also drive choice of charts.
 As part of project planning, its critical to account for data upfront. While getting the header rows is a useful start, full data is essential before crucial decisions of design can be taken. Clients must be educated that data is indeed in the critical path of visualization, and that data insights drive design decisions.
 
-**4.Driving self-satisfaction over visualizations:**
+4. **Driving self-satisfaction over visualizations:**
 At times individuals develop such a great affection with a chart, that they fatefully try extending this relationship beyond the scope of cool visualization examples. This leads to unproductive force-fitting of charts into the solution. The compromises made for this adjustment can wreak havoc on the entire project.
 Those who demand exotic or 3D charts even when use cases don’t support it are doing so for their satisfaction, and end up alienating users. The choice of the chart is a science, and there are robust disciplines to adhere to.
 
-**5.Endeavoring to Make everything clickable:**
+5. **Endeavoring to Make everything clickable:**
 When designing navigation and interactivity, it’s a common fantasy to make everything clickable. When pushed to prioritize features within a screen, a common excuse is for users to try and hide entire dashboards behind unrelated clicks.
 Rich UI doesn’t mean many clicks; it means just the right and intuitively placed ones. It may be useful to impose some guidelines, say, no more than eight clicks per screen. Data stories can be equally compelling in the static format, so carefully question the interactivity needed. Users will be thankful for this call.
 
-**6.Being opinionated in choice of colors:**
+6. **Being opinionated in choice of colors:**
 Everyone has their choice of colors, and they can get pretty extreme. Unfortunately, this can have an essential bearing on the viewer's acceptance. And the color is not just about look-and-feel. It's important to consider users with red-green color blindness.
 Color theory is more an art than science, though there are standard guidelines to handle the aesthetic, functional, and social aspects. It's best to go with the user persona and application requirements, rather than trying to please everyone. One must also take the effort to articulate choices and help resolve disconnect since most users are unable to explain their color preferences.
 
