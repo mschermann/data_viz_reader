@@ -3,10 +3,12 @@ output:
   html_document: default
   pdf_document: default
 ---
-
 # How to run a data visualization project
 
-Every data viz project begins with a need, whether that needs come from a problem, decision, or clarification, there is a certain process for each project. Firstly, each project needs data to visualize. The data that is being used and the procurement of that data is essential as it will mold the audience, argument and metric that will all need to be evaluated throughout the steps of the project. Next, an argument needs to be made that will utilize the data to explain, answer, or convey the point the viz is made to get across. Developing a good argument requires a warrant and backing followed by a rebuttal and qualifier all to support the overall argument. Following a formed argument the visualizaiton can be constructed to establish the audience and take into account the aspects of the data that will be used. In all, a data viz project has these basic steps, but the intricacies of each use case is where complexity plays a factor. Complexity can be rivaled by using subject matter experts and practices utilized by other viz projects that are explained throughout this reader.
+Every data viz project begins with a need, whether that needs come from a problem, decision, or clarification, there is a certain process for each project. Firstly, each project needs data to visualize. The data that is being used and the procurement of that data is essential as it will mold the audience, argument and metric that will all need to be evaluated throughout the steps of the project. Next, an argument needs to be made that will utilize the data to explain, answer, or convey the point the viz is made to get across. Developing a good argument requires a warrant and backing followed by a rebuttal and qualifier all to support the overall argument. Following a formed argument the visualization can be constructed to establish the audience and take into account the aspects of the data that will be used. In all, a data viz project has these basic steps, but the intricacies of each use case is where complexity plays a factor. Complexity can be rivaled by using subject matter experts and practices utilized by other viz projects that are explained throughout this reader.
+
+
+In each data visualization project there are many things to consider to minimize risk and ensure a successful project. This chapter will explain many of these concepts along with some use cases that can be utilized for specific types of businesses. One of the critical topics that is explored is risk, as minimizing risk is a key factor when deciding what data to utilize and how a specific chart type would characterize the data best. Along with risk there are certain limitations a team could face that do not pertain to data. The people and skills that are a part of the team need to be considered as this could limit what audience the visualization could be presented to. For example, a tableau user would most likely not have the skills to use Altair, let alone D3. These are just a few examples of items that will be found in the Health, Finance, and Retail use cases explained in the chapter.
 
 ## Introduction
 
@@ -55,40 +57,94 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.  
 [@prerequisites_vizhitachi]  
 
- **Defining the project**
- Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout. Sample questions that can help one understand the project better:  
-    + What is the organization need you are trying to address?  
++ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout. Sample questions that can help one understand the project better:  
+    + what is the organization need you are trying to address?  
     + What are the main data sources you need to access?  
-    + Is the data up to date or will it provide updated data in regular intervals?  
-    + Which type of data visual works best?  
+    + Is the data upto date or will it provide updated data in regular intervals?  
+    + which type of data visual works best?  
     + Is there a measurable goal you want to achieve?  
     + What are the core KPIs to convey to users if any?  
     + Which type of KPI visualization is suitable for this goal?  
 
- **Understanding the audience**
- How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
-    + Quantities: counts or measures. Example - Count of likes or comments
-    + Trends and changes over time:  time series. Example - Change in sales quantity over time
-    + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
-    + Ranked list: although not a real data visualization, it could achieve the goal needed.
-    + Geographical Location: Gives user spatial and physical relationships.
++ **Understanding the audience** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
+    + Quantities: counts or measures. Example - Count of likes or comments.  
+    + Trends and changes over time:  time series. Example - Change in sales quantity over time.  
+    + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
+    + Ranked list: although not a real data visualization, it could achieve the goal needed.  
+    + Geographical Location: Gives user spatial and physical relationships.  
 
- **Understanding the data you are trying to visualize**
- For instance shape and dimension of the data, data type (time-series?), relationship in data between entities, and categorical attributes are important prerequisites. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
++ **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
 
- **Deciding which visual is best**
- One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, line chart, area chart, bar chart, scatterplots, pie chart, tree maps, heat maps, Natural Language Generation, Etc.
++ **Deciding which visual is best**
+One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, Linechart, Areachart, Barchart, Scatterplots, Piechart, Treemaps, Heatmaps, Natual Language Generation, Etc. Depending upon the industry and specific department business may want to measure success based on specific goals and targets. Few of the KPI examples that can help are listed as follows:  
+    + Marketing Metrics.  
+    + Sales Metrics.  
+    + Saas Metrics and KPIs.  
+    + Digital Marketing Metrics.  
+    + Social Media Metrics.  
+    + SEO KPIs.  
+    + Financial Metrics and KPIs.  
+    + Supply Chain Metrics.  
+    + Healthcare Metrics.  
+    + Call Center Metrics.  
+    + Support Metrics.  
+    + Retail Metrics and KPIs.  
+    + Help Desk Metrics and KPIs.  
+    + Insurance Metrics.  
+    + E-Commerce Metrics and KPIs.  
+    + HR Metrics.  
+    + Devops Metrics and KPIs.  
 
- **Choosing the tool for the project**  
- [@prerequisites_tools]  
++ **Choosing the tool for the project**  
+[@prerequisites_tools]  
+    Choosing a tool, depends on the person conducting or designing the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user and their needs. eg:-Tableau has a no code approach whereas D3.js ,Altair etc has coding approaches. These approaches help users to adopt and customize further. For example: With Tableau, users can add customization such as a new formula addition, sorting behaviors to the charts initially developed, whereas D3.js and other coding tools may not give that flexibility and the users are dependent on the designer to make further changes. These approaches are discussed in detail below:  
+  + **No coding:** One can start with MS Excel and probably use pivot tables feature, in excel you come up with decent charts. If you already have some data and need a powerful tool to explore the data visually, Tableau is the tool. There is a free public version and a paid version , which students can get for free. One can publish the charts to web .To start Tableau Public website has a good number of examples to take inspiration from.  
+  + **Some coding:** If somebody wants to venture in the coding world to build charts, R is a good start. It is easy to learn, free as it is opensource.One can us the ggplot library in R to come up with visual data exploration. You can publish these charts with the help Shiny package and add a bit of interaction as well.  
+  + **More coding:** This section is derived because of recent innovation in interactive visualization, especially on the web. One might ask where to start to come up with interactive visualizations as good as New York Times. The answer is D3.js, many of the data visualizations running in the browser today is D3.js, created by Mike Bostock. This does mean you&#39;ll need to learn some Javascript in general and then D3.js specifically. One area to call out as a particular strength of D3 is geospatial visualizations. D3 is great at creating maps of many flavors. Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it&#39;s quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
 
-  Choosing a tool, depends on the person conducting or designing the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user and their needs. eg:-Tableau has a no code approach whereas D3.js ,Altair etc has coding approaches. These approaches help users to adopt and customize further. For example: With Tableau, users can add customization such as a new formula addition, sorting behaviors to the charts initially developed, whereas D3.js and other coding tools may not give that flexibility and the users are dependent on the designer to make further changes. These approaches are discussed in detail below:
-      + No coding: One can start with MS Excel and probably use pivot tables feature, in excel you come up with decent charts. If you already have some data and need a powerful tool to explore the data visually, Tableau is the tool. There is a free public version and a paid version , which students can get for free. One can publish the charts to web .To start Tableau Public website has a good number of examples to take inspiration from.  
-      + Some coding: If somebody wants to venture in the coding world to build charts, R is a good start. It is easy to learn, free as it is open source. One can us the ggplot library in R to come up with visual data exploration. You can publish these charts with the help Shiny package and add a bit of interaction as well.  
-      + More coding: This section is derived because of recent innovation in interactive visualization, especially on the web. One might ask where to start to come up with interactive visualizations as good as New York Times. The answer is D3.js, many of the data visualizations running in the browser today is D3.js, created by Mike Bostock. This does mean you'll need to learn some Javascript in general and then D3.js specifically. One area to call out as a particular strength of D3 is geospatial visualizations. D3 is great at creating maps of many flavors. Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it's quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
++ **User Interaction**  
+[@prerequisites_vizhitachi]  
+    Something to consider is wheter or not you want your project to be interactive. You can consider making your visualization dynamic with filters, drilldown capabilities and more. This provides a more engaging experience and increases user adaptation. While static and interactive visualizations have their pros and cons it is always imperative to analyze first if they will make your vixualization more effective.
+      Some interactive tools:
+   + **Filters and Selectors:** Flexibility is key
+   + **Hover and Drill Down Interaction:** Provides great opportunity for interaction
+
++ **Effective Use of Colors in a Visualization**
+
+	When coming up with a visualization one must understand the impact of colors used in a chart. Color can grab people's attention, set the mood, and influence perception.  Our brain views color in terms of lightness (black to white), saturation (dull to bright), and hue (red, orange, yellow, green, blue, purple.)
+
+	To start with here are some Dos and Don'ts:
+	[@prerequisites_colorrules]
+
+	**Dos :**
+
+	+ **Use one color to represent continuous data**  – Representing continuous data and ranges by varying the saturation or value of a color makes you chart straightforward and easy to read.
+
+	+ **Use contrasting colors for comparisons**  – Contrasting colors help the viewer differentiate the data quickly
+	+ **Use colors that appear in nature**  – People respond better to colors they are familiar with; colors that appear naturally in the world around them.
+
+	+ **Use branded colors for marketing materials or presentations**  – Customizing your data visualizations to match your company&#39;s color scheme helps you align with your brand and keeps your messaging consistent. It also helps with brand recognition.
+
+	+ **Use color to highlight your most important information**  – Color can be a great way to guide the viewer&#39;s eye to key points on your chart. We suggest using muted colors with one bright color to bring attention to your most important information.
+
+	**Don'ts:**
+
+	+ **Pick colors that are too hard to distinguish**  – It&#39;s important for your viewer to be able to understand the data you are presenting. If they need to quickly make comparisons, the colors need to be easy to distinguish.
+
+	+ **Use too many colors**  – Try to avoid the rainbow effect! Less is more. Make sure the colors you choose have a purpose and make your chart easier to read, not harder.
+
+	Some Prerequisites while choosing a color scheme for a visualization are:
+	[@prerequisites_colorchoose]
+
+	+ **Symbolism :** Symbolic colors vary by culture: for example, red is often used to represent love or passion in Western cultures, whilst Eastern cultures associate it with wealth and fortune.
+	+ **Emotional values :** for example, think of age: little ones generally appreciate brighter colors, and therefore retailers whose target audience consist of children will use cheery and vivid colors on packaging and advertisements.
+	+ **Historical experiences :** for example, if you once felt threatened by a fire, red and orange might have negative connotations for you throughout your life.
+	+ **Signaling conventions in society :** Signal colors are hues that send our minds a message. They are part of our everyday life, just take for example how we use traffic lights to regulate our drives.
+
+
 
 ## Overview of process for a data visualization project
-Before launching into any project it is most important to involve the right players. These players can be business owners who have commissioned the data viz project and/or key stakeholders who will be actively using the data visualization. Participation of business representatives is most critical to first identify the need for the project and achieve a common ground for requirements and what would define success. Involvement and collaboration
+Before launching into any project it is most important to involve the right players. These players can be business owners who have commissioned the data viz project and/or key stakeholders who will be actively using the data visualization. Participation of business representatives is most ciritical to first identify the need for the project and achieve a common ground for requirements and what would define success. Involvement and collaboration
 strongly increases the likelihood that the resultant visualization addresses business’s needs. Likewise, the organization’s data users should participate, especially when discussing the data they’re responsible for governing. Creating a data visualization should be a highly iterative and dynamic process.
 
 ## Planning a Data Visualization Project
@@ -131,6 +187,7 @@ Visualizations enable discovery of patterns and insights which might already be 
 
 1. **Visualize**
 This allows a unique take on the dataset and can be done in several different ways such as charts, tables, maps, and graphs.
+For example, the information relayed should give invaluable insights that will help the viewer make business decisions. Jon Steel, a leader in the account planning field, said the following of looking at and understanding data: “In the context of an advertising agency, the ability of planners to look at the same information as everyone else and see something different is invaluable. They need to be able to take information of all sorts, shuffle it around, and rearrange it in new patterns until something interesting emerges.” Not only will good data visualization convey actionable information, but it will help you to see things other people maybe can’t see. [@The-Art-of-Visualizing-Data-to-Find-Actionable-Insights]
 
 2. **Analyse and Interpret what you see**
 In this step, ask yourself questions like:
@@ -149,9 +206,9 @@ What does this chart tell me?
 4. **Transform datasets**
 This step allows for exploration of more patterns and findings. With the insights formed from previous steps, more questions regarding the data or findings might arise, and further inspection or analysis might be required. This can be done by transformation such as zooming(aggregating data points into a single group), filtering, and outlier removal.
 
-## How to structure a data viz project
+## How to Structure a Data Viz Project
 
-### Hook Audience on Your Key Message
+### Hook The Audience on Your Key Message
 
 A Hook is simply something that draws the reader in.  Hooks communicate to the reader right away why he/she should pay attention to your project.  They can be surprising, unusual, or controversial, but one thing’s for certain: hooks can’t be ordinary.  After all, if your project tells people things they already know, then what does your project do for them?    
 
@@ -163,23 +220,27 @@ Let’s take a look at a hook from a vox visualization project:
 
 ![](images/vox_hook.png)
 
-taken from:
-https://www.vox.com/2016/8/31/12368246/obesity-america-2018-charts
+taken from: [@Hook_example]
 
-This hook is great on so many levels.  It’s simple and short; the key argument is being summarized in just one sentence.  It also tackles a controversial topic of Obesity in America.  Finally, the article takes a novel stance.  Rather than blaming obesity on poor parenting, lack of willpower, or corporate greed, the article is a different approach by saying that eating healthy is inconvenient.  
+**It's easy to become obese in America**
+
+This hook is great on so many levels.  It’s simple and short; the key argument is being summarized in just one sentence.  It also tackles a controversial topic of Obesity in America.  Finally, the article takes a novel stance.  Rather than blaming obesity on poor parenting, lack of willpower, or corporate greed, the article is a different approach by saying that eating healthy is inconvenient.
+
+Since hooks only serve as introductions, the reader will need more information in order to truly understand your argument.  in order to really gain an understanding, the reader needs to understand the background and context of your project.  
 
 ### Background and Context
 
-Context is something universally appreciated when being presented with any type of new information, and with data visualizations context is necessary for both basic understanding and proper interpretation. Background is similar to context in how critical it is needed to avoid any poor interpretation.
+Context is something universally appreciated when being presented with any type of new information, and with data visualizations context is necessary for both basic understanding and proper interpretation. Context show as early as the title and hook of the article.  Background is similar to context in how critical it is needed to avoid any poor interpretation, however it shows later on as a longer description.
 
 Background begins with what drove the decision to use the subject matter. Even for purposes of work or schooling, the data used has a background which needs to be represented. Asking questions such as what history is behind this data, or where and from whom it is collected can provide the reader with the path to understanding the point of the project.
 
 Background is both the history behind data or the history project creation itself, and context furthers the readers frame of mind. This frame of mind is necessary and is done such that they can understand how the data might be represented and how it can be interpreted it given the number of ways data is now provided.
 
 An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, let’s assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
+
 ![Geography Matters](images/geography_matters.png)
 
-At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
+At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red, whereas blue is the high end of the spectrum which would be very counterintuitive. However, with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
 “For poor Americans, the place they call home can be a matter of life or death.
 The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
 
@@ -193,24 +254,19 @@ So how do we make a chart memorable to present key findings? In a new Harvard Sc
 
 Perhaps surprisingly, the general conclusion was:
 
+
 1. **Make your Title Count** - while the visualizations are clearly important, this study actually reports that the audience spends the most time on the header.
 
 2. **Pictures are worth more than a few words** - being text heavy will bog the reader down. The visualization should minimize the text and maximize the effectiveness of the visualization.
 
 3. **Repeat, Repeat, Repeat** - as anyone will tell you, repetition is crucial to enable long term memory.
 
+Data visualization and business intelligence is a powerful tool to showcase and visualize pertinent company information. Presenters must always identify the overarching question and proceed to create a visualization that would highlight forward progress with respect to that question.
+
+***
+
 ### Integration with Business
 [@data_viz_idea]
-
-Context is something universally appreciated when being presented with any type of new information, and with data visualizations, context is necessary for both basic understanding and proper interpretation.
-Background is similar to context in how critical it is needed to avoid any poor interpretation.
-
-An excellent example of both background and context comes from a visualization in the New York Times titled “The Rich Live Longer Everywhere. For the Poor, Geography Matters.” First, lets assume we have no background or context, including the title and hook which already provides some. Below is the graph as one would see it without any interaction or background or context:
-![Geography Matters](images/geography_matters.png)
-
-At best, some could recognize this as a division by collections of counties, and some scale between 76 and 83. What could someone take away from this? Average high temperature in the summer? Probably not, Nevada is mostly red and blue is the high end of the spectrum which is very counterintuitive. That’s all one could take away, however with proper context and background, a reader can actually interpret what the visualization means. The NYT does an excellent job at this:
-“For poor Americans, the place they call home can be a matter of life or death.
-The poor in some cities — big ones like New York and Los Angeles, and also quite a few smaller ones like Birmingham, Ala. — live nearly as long as their middle-class neighbors or have seen rising life expectancy in the 21st century. But in some other parts of the country, adults with the lowest incomes die on average as young as people in much poorer nations like Rwanda, and their life spans are getting shorter.” [@Irwin_Bui]
 
 #### Bring big data visualization up front
 
@@ -232,6 +288,7 @@ In general, visual analytics experts recommend focusing on simple charts and lin
 
 ### Conclusion
 
+Some possible components of the conclusion are takeaways, thoughts on the Future, how to improve your presentation, and references.
 
 
 #### Components of the conclusion
@@ -241,11 +298,12 @@ The essential question smart “visualization” and “visualizers” should ad
 
 Tips:
 
-1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges
+For takeaways, the essential question smart “visualization” and “visualizers” should address is not, “What’s the best and most accessible way of presenting the data?” but “What kinds of conversation and interaction should our visualization evoke?” ([@Viz-project-conclusion]) Here are some tips:
 
-2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate
-
+1. Avoid mixed messages on the same dashboard that leave the audience confused: Deliver ONE strong message by focusing the data you present to ensure a central theme emerges.
+2. Construct a good story: The way you organize and present your content can facilitate a clearer understanding. Group your visualizations so that each element within a dashboard reinforces your overall message. Ensure every metric and visualization is relevant, so viewers can easily draw the conclusion you wish to illustrate.
 3. Establish context: Often, a clear picture can say a thousand words. But are they the ones you want?  Every viewer may not have the appropriate context to draw your desired conclusions
+
 (Source: [@Viz-project-conclusion1])
 
 **Thoughts on the Future:**
@@ -255,19 +313,22 @@ It would make the project more meaningful if we include some thoughts on the fut
 It would be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
 
 **References:**
-Always include any references used in the project, including data sources and inspirations.
+Always include any references used in the project, including data soureces, inspirations.
 You must cite:
+
 1. Facts, figures, ideas, or other information that is not common knowledge
 2. Ideas, words, theories, or exact language that another person used in other publications
-
 3. Publications that must be cited include:  books, book chapters, articles, web pages, theses, etc.
 4. Another person's exact words should be quoted and cited to show proper credit
 
-3. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc.
-
-4. Another person's exact words should be quoted and cited to show proper credit
 
 (Source: [@Viz-project-reference])
+
+([@Viz-project-conclusion1])
+
+For thoughts on the Future, it would make the project more meaningful if we include some thoughts on the future of the topic, explaining to the audience where we think the results can lead us. What do we think are the next steps to take? What other questions do the results raise? As for how to improve your presentation, it would also be informative to list out any currently missing but useful data in the existing dataset for creating the visualization, or discuss some other aspects of the topic they could've done.
+
+Always include any references used in the project, including data sources and inspirations. You must cite facts, figures, ideas, or other information that is not common knowledge; ideas, words, theories, or exact language that another person used in other publications. Publications that must be cited include: books, book chapters, articles, web pages, theses, etc. Another person's exact words should be quoted and cited to show proper credit. ([@Viz-project-reference])
 
 ## How to decide what type of visualization to use:
 
@@ -276,6 +337,7 @@ You must cite:
 As per [this](https://www.investopedia.com/terms/b/business.asp) article: A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or non-profit organizations that operate to fulfill a charitable mission or further a social cause.
 
 The list is far from all inclusive but depending on the type of business following are some of the types of data that can be generated:
+
 1. Product data
 2. Profit and Loss data
 3. Performance data
@@ -284,12 +346,33 @@ The list is far from all inclusive but depending on the type of business followi
 
 Following are some of the visualizations that is common to any business. This list is also not exhaustive. [@graphs]
 
-1. **Flow charts:** A flow chart allows a process to be sequenced step-by-step, from beginning to end, for the purpose of analyzing, designing, documenting or managing it. The charts can even feature multiple beginnings and ends, with countless pathways in between. While a simple flow chart can certainly document a basic process from A to B to C, the diagrams are more frequently used to illustrate more complex sequences with multiple decisions or conditions along the way. Each time a condition is met, the chart diagrams the various options, then the path continues following each choice. <br>
-2. **Control charts:** Commonly known as a process-behavior chart, a control chart helps determine if a data set falls within a mean or predetermined control range. Frequently used in quality control processes, a typical control chart consists of points plotted on two axes, representing sample measurements.<br>
-3. **Stock charts:** One of the most vital of all financial graphs, stock charts help investors track the markets to determine profits and loss, as well as make buying and selling decisions. While a variety of graphs are used to represent market changes, the most common is likely the basic line graph turned histogram.<br>
-4. **Gantt charts:** Gantt charts are special types of bar graphs used to diagram projects and schedules.<br>
-5. **Waterfall charts:** Particularly useful in accounting and qualitative analysis, waterfall charts illustrate how an initial value is affected positively and negatively by various factors. For example, a waterfall chart could clearly and efficiently communicate how an opening balance changes month by month over the course of a year.<br>
+1. **Flow charts:** A flow chart allows a process to be sequenced step-by-step, from beginning to end, for the purpose of analyzing, designing, documenting or managing it. The charts can even feature multiple beginnings and ends, with countless pathways in between. While a simple flow chart can certainly document a basic process from A to B to C, the diagrams are more frequently used to illustrate more complex sequences with multiple decisions or conditions along the way. Each time a condition is met, the chart diagrams the various options, then the path continues following each choice.
+Below is an example of the Flow Chart:
+![](images/Flow_Chart.jpg)
+<br>
+
+2. **Control charts:** Commonly known as a process-behavior chart, a control chart helps determine if a data set falls within a mean or predetermined control range. Frequently used in quality control processes, a typical control chart consists of points plotted on two axes, representing sample measurements.
+Below is an example of the Control Chart:
+![](images/Control_Chart.jpg)
+<br>
+3. **Stock charts:** One of the most vital of all financial graphs, stock charts help investors track the markets to determine profits and loss, as well as make buying and selling decisions. While a variety of graphs are used to represent market changes, the most common is likely the basic line graph turned histogram.
+Below is an example of the Stock Chart:
+![](images/Stock_Chart.jpg)
+<br>
+
+4. **Gantt charts:** Gantt charts are special types of bar graphs used to diagram projects and schedules.
+Below is the example of Gantt Chart
+![](images/Gantt_Chart.jpg)
+<br>
+5. **Waterfall charts:** Particularly useful in accounting and qualitative analysis, waterfall charts illustrate how an initial value is affected positively and negatively by various factors. For example, a waterfall chart could clearly and efficiently communicate how an opening balance changes month by month over the course of a year.
+Below is the example of Gantt Chart
+![](images/Waterfall_Chart.jpg)
+<br>
+
 6. **Hierarchy Diagrams:** Similar in appearance to a flow chart, a hierarchical diagram, also known as an organizational chart or an organigram, illustrates the structure of an organization, as well as the relationships within it.
+Below is the example of Gantt Chart
+![](images/Hierarchy_Diagram.jpg)
+<br>
 
 ### Health
 
@@ -323,7 +406,8 @@ The following chart, taken from [@ncbi] shows re-admission rates for different p
 
 * **Other important KPIs**: Some of the other important KPIs for healthcare providers include, patient satisfaction scores, asset utilization for operating theatres, diagnostic and other equipment and patient footfalls.
 
-**In the publich health sector, a few of the common data being generated are**:
+**In the public health sector, a few of the common data being generated are**:
+
 1. Electronic medical records of patient
 2. Insurance information
 3. Medicine testing
@@ -333,9 +417,10 @@ The following chart, taken from [@ncbi] shows re-admission rates for different p
 [@health_article]
 
 **Important metrics**:
-* Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analysing the prevalence of disease, predicting outbreaks and discovering at-risk populations.
-* Long term trends can also be analysed, such as aging populations in advanced economies.
-* It can also be used by the general public to understand relevant health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
+
+1. Some of the most common metrics in the health sector are tracking the geographic distribution of diseases, analyzing the prevalence of diseases, predicting outbreaks and discovering at-risk populations.
+2. Long term trends can also be analysed, such as aging populations in advanced economies.
+3. It can also be used by the general public to understand relevant health risks, recognize biases in health information, vote on environmental issues, and make decisions about their lifestyle.
 [@health_article]
 
 **Common types of Visualizations**:
@@ -351,7 +436,7 @@ This stacked bar plot represents the proportion of teens being overweight from 1
 
 [@health_sector]
 
-### Finance:
+### Finance
 
 In the Finance world, data has always been one of the most important criteria for making decisions. Finance has always been about numbers, but complex algorithms that can collect data from an ever wider number of sources help inform and support trading decisions. [@finance_reference] Also, Risk management is an enormously important area for financial institutions, responsible for the company's security, trustworthiness, and strategic decisions.
 
@@ -359,8 +444,8 @@ In the Finance world, data has always been one of the most important criteria fo
 
 1. Stock prices
 2. Trading data
-3. Credit and Debit Card history
-4. Balance Sheets
+3. Credit and debit card history
+4. Balance sheets
 
 **Important usecases**:
 Data visualizations are used in performing various tasks for Algorithmic Trading, Risk Management, Predictive Analytics and Real-time Analytics.
@@ -384,7 +469,7 @@ Financial Performance Dashboard
 
 ### Retail
 
-**common data being generated **:
+**Common data being generated**:
 
 1. Customer related data
 2. Data about orders generated and products sold
@@ -396,7 +481,7 @@ Data Visualization tools can prove to be of great help in retail as they can hel
 **How data is being used?**
 Internet of Things shelf scanners are increasingly able to process information on whether stores are empty or full when it comes to stocks. Internal and third party data can be leveraged to understand the differences in merchandising perceptions for trends and pricing. Using in-store and online data managers can also understand customer behavior and design campaigns and order inventory accordingly.[@Retail_gen]
 
-*Common types of Visualizations*
+**Common types of Visualizations**
 Visualization tools make use of simple scatter plots and heat maps to show the overall relationship in a large amount of data. Bubble charts can also be used to map out profit and sales and basic elements of demand and supply. Opportunity curves are commonly used to determine ost effecient price in terms of revenue or profit maximization. [@Retail_typesofviz]
 
 ![](images/Opportunity_Curve.png)
@@ -405,7 +490,27 @@ Below the an example of a typical dashboard for the retail industry.
 
 ![](images/Retail-Dashboard.png)
 
+### Project Management
+
+Data visualization can be used as a tool to understand conceptual and idea-development processes. The important advantages of data visualization for project management include:
+
+1.	Enhance Communication
+2.	Boost Collaboration
+3.	Improve Clarity
+
+To get teams to collaborate and better communicate, project managers have used such visual tools and techniques as a project display wall, project collaboration wall, project social media, 3-D project environments, project gamification, etc.
+
+Rather than a meeting, conference call or email, the data visualization is shared in a common location, which fosters communications between the project manager and the team or stakeholders. The project manager can take the data visualization and target it to the needs of the audience.
+
+Some visual tools that can be used in project management include mind mapping, process mapping, storyboarding, root cause analysis, charting, diagramming, graphing, drawing, sketching, wireframing and use cases.[@PMviz]
+
+![](images/PMviz.png)
+[@PMvizpic]
+
+### Useful platforms and tips for data visualization project
+
 ### Useful platforms
+
 [@platforms]
 
 + Looker
@@ -419,14 +524,13 @@ Below the an example of a typical dashboard for the retail industry.
 + Infogram
 + Microsoft Power BI
 + D3.js
-+ SAP Analytics Cloud
 
 ### For Non-Developers
 Many free and web-based tools are very good for non-developers to design high quality visualization, especially these tools are no coding necessary.  Here is the tool list for reference:
 
-1.**Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
+1. **Excel** is one of the most widely used spreadsheet programs in the world, and comes built-in with many options for creating charts and graphs with an eye toward common business applications, from representing profit-and-loss to showing stock performance.  
 
-2.**Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.  
+2. **Google Sheets** contains a number of visualization options similar to Excel. With just a few clicks, anyone can put together a number of basic graphs, from line charts to bar graphs to scatterplots and histograms. Helpfully, Google Sheets looks at your data and grays out any options that aren’t appropriate for your spreadsheet, making it easy to quickly compare different plots.  
 
 3. **Raw** is an open, customizable tool for building vector-based graphs and charts, built on D3.js. It allows you to simply copy and paste your data from Excel or Google Sheets, select a chart type, and customize it based on the variables and relationships you want to highlight. Once it’s ready to go, you can export it as an svg, image, or JSON data model.  
 
@@ -442,16 +546,25 @@ Many free and web-based tools are very good for non-developers to design high qu
 ### For Complex Projects
 Because some companies such as data-heavy startups, governmental organizations, and major corporations are making strategic decisions and analysis on complex data set, and shows complex 2d and 3d representations. The article ‘19 tools for data visualization project  visualization tools can manage heavy duty data and projects.
 
+![tableau_a](images/tableau_a)
 1. **Tableau** is an extremely popular data visualization and exploration tool used by a number of startups. It comes in a few different versions, from a full-featured Business Intelligence platform to a free cloud-based version for smaller companies and projects. It’s popular for its rich visualizations and an intuitive interface that makes it easy to use even for non-specialist. It also has a slick mobile app and can be embedded in other applications that want to make attractive analytics available to their users.
 
+![d3js](images/d3js)
 2. **D3.js** is a JavaScript library that uses HTML, CSS, and SVG to create a wide variety of dynamic, interactive visualizations. It emphasizes web standards, allowing it to take full advantage of modern browser technologies without being tied down to any one framework. It’s been used by the New York Times for some of their rich graphical features.
 
-3. **ggplot2** is a visualization package for R. At its core, ggplot2 abstracts graphs into certain basic building blocks like data, scales, layers, and transformations. This makes it easier for developers to tailor their graphs to their taste without sweating the details, though this flexibility comes at a cost to speed.
 
+![ggplot2](images/ggplot2s)
+3.  **ggplot2** is a visualization package for R. At its core, ggplot2 abstracts graphs into certain basic building blocks like data, scales, layers, and transformations. This makes it easier for developers to tailor their graphs to their taste without sweating the details, though this flexibility comes at a cost to speed.
+
+![NetworkX](images/NetworkX)
 4. **NetworkX** is a Python library that allows you to create and analyze graphs and networks. It’s designed to work with both standard and nonstandard data formats, which makes it especially efficient and scalable. All this makes NetworkX especially well suited to analyzing complex social networks.
 
+
+![matplotlib](images/matplotlib)
 5. **matplotlib** is the standard Python library for creating 2D plots and graphs. It’s pretty low-level, meaning it requires more commands to generate nice-looking graphs and figures than with some more advanced libraries. However, the flip side of that is flexibility. With enough commands, you can make just about any kind of graph you want with matplotlib.
 
+
+![Seaborn](images/Seaborn)
 6. **Seaborn** is a popular visualization library for Python that builds on matplotlib’s foundation. The first thing you’ll notice about Seaborn is that its default styles are much more sophisticated than matplotlib’s. Beyond that, Seaborn is a higher-level library, meaning it’s easier to generate certain kinds of plots, including heat maps, time series, and violin plots.
 
 ### For Interactivity
@@ -459,33 +572,38 @@ Interactivity is also an important element for data visualization project.  Inte
 
 1. **Dygraphs** is a highly customizable, open source Javascript charting library that places a heavy emphasis on interactivity. Zoom, pan, and mouseover are supported out of the box on just about every browser. It also supports pinch-to-zoom on mobile and tablet devices. It’s also built to be quick even when working with millions of data points.
 
+![Leaflet](images/Leaflet)
 2. **Leaflet** is an open-source JavaScript library for creating interactive, mobile-friendly maps. It’s designed to be beautiful and simple, with built-in animations for zooming, panning, and fading, as well as support for retina displays. While the core library is pretty small, it can be extended with a number of plugins.
 
+![ggvis](images/ggvis)
 3. **ggvis** is an R package for producing interactive plots made by (no surprise) the same team that made ggplot2. An important feature of ggvis is that it needs to be connected to a running R session in order to work. This makes it great for data exploration because you can do anything with it that you can do in R. However, that also means it’s less well-suited to publication than many of the other tools on this list.
 
+
+![Bokeh](images/Bokeh)
 4. **Bokeh** is a Python library that makes interactive, zoomable plots in modern web browsers using JavaScript widgets. Another nice feature of Bokeh is that it comes with three levels of interface, from high-level abstractions that allow you to quickly generate complex plots, to a low-level view that offers maximum flexibility to app developers.
 
+![Basemaph](images/Basemap)
 5. **Basemap** is a Python library that adds support for simple maps to matplotlib by taking matplotlib’s coordinates and applying them to more than 25 different projections. The library Folium further builds on Basemap and allows for the creation of interactive web maps, similar to the JavaScript widgets created by Bokeh
 
 ### Tips for Data Visualization Projects
 
-**Choose the chart that tells the story** There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
+1. **Choose the chart that tells the story:** There may be more than one way to visualize the data accurately. In this case, consider what you’re trying to achieve, the message you’re communicating, who you’re trying to reach, etc.
 
-**Remove anything that doesn’t support the story** That doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
+2. **Remove anything that doesn’t support the story:** That doesn’t mean you kill half your data points. But be mindful of things like chart junk, extra copy, unnecessary illustrations, drop shadows, ornamentations, etc. The great thing about data visualization is that design can help do the heavy lifting to enhance and communicate the story. Let it do its job. (Oh, and don’t use 3D charts—they can skew perception of the visualization.)
 
-**Design for comprehension** Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trendline to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.[@25_tips]
+3. **Design for comprehension:** Once you have your visualization created, take a step back and consider what simple elements might be added, tweaked, or removed to make the data easier for the reader to understand. You might add a trendline to a line chart. You might realize you have too many slices in your pie chart (use 6 max). These subtle tweaks make a huge difference.[@25_tips]
 
-**Labeling** Labeling can be a minefield. Readers rely on labels to interpret data, but too many or too few can interfere.
+4. **Labeling:** Labeling can be a minefield. Readers rely on labels to interpret data, but too many or too few can interfere.
 
-* **Double check that everything is labeled.** Make sure everything that needs a label has one—and that there are no doubles or typos.
+5. **Double check that everything is labeled.** Make sure everything that needs a label has one—and that there are no doubles or typos.
 
-* **Make sure labels are visible.** All labels should be unobstructed and easily identified with the corresponding data point.
+6. **Make sure labels are visible.** All labels should be unobstructed and easily identified with the corresponding data point.
 
-* **Label the lines directly.** If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
+7. **Label the lines directly.** If possible, include data labels with your data points. This lets readers quickly identify lines and corresponding labels so they don’t have to go hunting for a legend or similar point.
 
-* **Don’t over label.** If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
+8. **Don’t over label.** If the precise value of a data point is important to telling your story, then include data labels to enhance comprehension. If the precise values are not important to telling your story, leave the data labels out.
 
-* **Don’t set your type at an angle.** If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably. (@viz-tips-25)
+9. **Don’t set your type at an angle.** If your axis labels are too crowded, consider removing every other label on an axis to allow the text to fit comfortably. (@viz-tips-25)
 
 ![](images/viz-tips-label.png)
 
@@ -537,36 +655,34 @@ Source: [@Fail_Reasons]
 Regardless of the tremendous promise of data visualization, and the discipline is in focus for years now, it is not fully grown. With the existence of numerous visualization tools at disposal associated with fancy features, impactful use of data visualization is still scarce.
 At times, one wonders what makes the visual display of information so hard.
 
-• Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
-
-• Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
-
-• Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
+- Conceivably it's got to do with the reduction of information design to the lame, but slick dashboards displaying an assortment of KPIs.
+- Possibly it's the fancy charts and dazzling functionalities that have somewhere lost the pulse of the users.
+- Or, 'it's the well-meaning initiatives that have gotten derailed midway due to conflicting priorities & confused execution.
 
 
 Some of the failure points in visualization projects are as below:
 
-**1.Ignoring End Users:**
+1. **Ignoring End Users:**
 End users are often not directly engaged while defining needs for visualization projects. This is a prime reason why visual dashboards often go unused after rollout. What matters is a mapping of user stories, and hearing how users approach business problems. This is the user's practical wisdom that can't be transferred, and which is closely linked to action ability.
 It's advisable to coordinate with the end users and gather their nuanced business perspectives so that it can be built into dashboards. Build the user thoughts through interviews, map the user journey by gentle probing, and jointly sketch out the as-is business scenarios. It's also helpful to list the questions that will be answered by the visualization, and clarify on the ones that will not be.
 
-**2.Attempt to include all features:**
+2. **Attempt to include all features:**
 The more features dump into an application, the lesser it will get used. While one gets a false sense of satisfaction by checking all boxes, the cognitive load could get so high that users stop using it altogether. When it comes to prioritization, the most knowledgeable users may not have the right perspective to take hard calls.
 It's necessary to play a consultative role and help deduce the feature list to just the most critical ones. While screen space is technically unlimited, its useful to impose constraints on data density. Onboard stakeholders who know the priority, who can take hard decisions and also capable to convince other users.
 
-**3.Overlooking need for data exploration:**
+3. **Overlooking need for data exploration:**
 Retrofitting data is the root cause for ending up with non-actionable dashboards or weird-looking charts. Without exploratory analysis, maps could be skewed by outliers or worse, end up without patterns. Data also drive choice of charts.
 As part of project planning, its critical to account for data upfront. While getting the header rows is a useful start, full data is essential before crucial decisions of design can be taken. Clients must be educated that data is indeed in the critical path of visualization, and that data insights drive design decisions.
 
-**4.Driving self-satisfaction over visualizations:**
+4. **Driving self-satisfaction over visualizations:**
 At times individuals develop such a great affection with a chart, that they fatefully try extending this relationship beyond the scope of cool visualization examples. This leads to unproductive force-fitting of charts into the solution. The compromises made for this adjustment can wreak havoc on the entire project.
 Those who demand exotic or 3D charts even when use cases don’t support it are doing so for their satisfaction, and end up alienating users. The choice of the chart is a science, and there are robust disciplines to adhere to.
 
-**5.Endeavoring to Make everything clickable:**
+5. **Endeavoring to Make everything clickable:**
 When designing navigation and interactivity, it’s a common fantasy to make everything clickable. When pushed to prioritize features within a screen, a common excuse is for users to try and hide entire dashboards behind unrelated clicks.
 Rich UI doesn’t mean many clicks; it means just the right and intuitively placed ones. It may be useful to impose some guidelines, say, no more than eight clicks per screen. Data stories can be equally compelling in the static format, so carefully question the interactivity needed. Users will be thankful for this call.
 
-**6.Being opinionated in choice of colors:**
+6. **Being opinionated in choice of colors:**
 Everyone has their choice of colors, and they can get pretty extreme. Unfortunately, this can have an essential bearing on the viewer's acceptance. And the color is not just about look-and-feel. It's important to consider users with red-green color blindness.
 Color theory is more an art than science, though there are standard guidelines to handle the aesthetic, functional, and social aspects. It's best to go with the user persona and application requirements, rather than trying to please everyone. One must also take the effort to articulate choices and help resolve disconnect since most users are unable to explain their color preferences.
 
@@ -614,10 +730,10 @@ Data visualization tools are required for analysis of data and trends but they h
 
 ### Possible Scenarios which may create a dilemma for the user
 1. **To cut or not to cut (The Y-axis):** By its design, a bar graph emphasizes the absolute magnitude of values associated with each category, whereas a line graph emphasizes the change in the dependent variable (usually the y-axis values) as the independent variable (usually the x value) changes.
-	<ui>
-		<li><Barplot: With this kind of chart there is consensus: your Y-axis should start at 0</li>
-		<li>Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.</li>
-	</ui>
+
+• Barplot: With this kind of chart there is consensus: your Y-axis should start at 0.
+
+• Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.
 
 2. **Using Area for the representation of numeric values:** The human eye does not perform well when it has to translate areas to numeric values. Thus it is recommended to use bar graphs to represent areas. This does not mean that area must never be used to represent a numeric variable. It means that other shapes and techniques must be before using area. For instance, the bubble chart does a good job representing the values of 3 numeric variables.
 
@@ -628,7 +744,7 @@ Data visualization tools are required for analysis of data and trends but they h
 Source: [@dilemma]
 
 ### Tips to upgrade data visualization design
-Data visualization design isn’t about displaying data; it’s about displaying data in a way that makes it easier to comprehend—that’s where the real value lies.
+Data visualization design isn’t about displaying data; it is about displaying data in a way that makes it easier to comprehend—that is where the real value lies.
 
 Following are some of the ways to upgrade data visualization design:
 Source : [@rightviz]
@@ -643,7 +759,15 @@ Source : [@rightviz]
 
 4. **Comparison** - Watch your placement You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.
 
-5. **Don’t use distracting fonts or elements** - Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
+#### Comparison  
+
+1. **Include a zero baseline if possible** - Although a line chart does not have to start at a zero baseline, it should be included if it gives more context for comparison. If relatively small fluctuations in data are meaningful (e.g., in stock market data), you may truncate the scale to showcase these variances.  
+
+2. **Always choose the most efficient visualization** - You want visual consistency so that the reader can compare at a glance. This might mean you use stacked bar charts, a grouped bar chart, or a line chart. Whatever you choose, don’t overwhelm by making the reader work to compare too many things.  
+
+3. **Watch your placement** - You may have two nice stacked bar charts that are meant to let your reader compare points, but if they’re placed too far apart to “get” the comparison, you’ve already lost.  
+
+4. **Tell the whole story** - Maybe you had a 30% sales increase in Q4. Exciting! But what’s more exciting? Showing that you’ve actually had a 100% sales increase since Q1.  
 
 #### Color
 
@@ -656,6 +780,8 @@ Source : [@rightviz]
 4. **Don’t use more than 6 colors in a single layout** - Enough said.
 
 5. **Make sure there is sufficient contrast between colors** If colors are too similar (light gray vs. light, light gray), it can be hard to tell the difference. Conversely, don’t use high-contrast color combinations such as red/green or blue/yellow.
+
+6. **Don’t use distracting fonts or elements** - Sometimes you do need to emphasize a point. If so, only use bold or italic text to emphasize a point—and don’t use them both at the same time.
 
 #### Labelling
 
@@ -676,7 +802,9 @@ Source : [@rightviz]
 
 ### Important Prerequisites for Marketing Analytics
 
-**Know your audience**: First and foremost, you need to define your audience: who are you creating your data visualization for? What kind of people or professionals are they, what do they do and what are they looking for? For example, the questions that your CEO asks and what she or he needs to know is drastically different to what your teams need to know, which is different to what a stakeholder wants to know; the developers will engage with the technical site performance, while a shop manager will have in his or her focus the E-commerce performance data such as shopping cart and conversion rate.[@data_viz_marketing]
+**Know your audience**:
+<br/>
+First and foremost, you need to define your audience: who are you creating your data visualization for? What kind of people or professionals are they, what do they do and what are they looking for? For example, the questions that your CEO asks and what she or he needs to know is drastically different to what your teams need to know, which is different to what a stakeholder wants to know; the developers will engage with the technical site performance, while a shop manager will have in his or her focus the E-commerce performance data such as shopping cart and conversion rate.[@data_viz_marketing]
 
 Suppose your audience is composed of investors or the CFOs of your company evaluating performance of online marketing efforts; here are some of the metrics they could be interested in:
 
@@ -696,25 +824,35 @@ Suppose your audience is composed of investors or the CFOs of your company evalu
 
 As we can see, the above shown dashboard shows all important metrics if it was to be shown to investors or CFOs.
 
-**Know the relationships between Data**: Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
+**Know the relationships between Data**:
+<br/>
+Looking at raw data in all its numerical, tabular, row-and-column glory is far from the most intuitive way to understand it. Knowing the data points will help you to illustrate how they are connected to one another, provide insights more quickly and identify hidden patterns and trends. [@best_data_viz_marketing]
+
+Once you are aware of the data and type of data you can use many charts such as bar charts, line charts, area charts, scatterplots, etc. Choice of a particular chart type for the data visualization may also be constrained by the number of variables you want to graph, or you may want to choose your chart type based on what type of pattern you are trying to show (comparison, part-to-whole, hierarchy, etc.) [@data_viz_chart_types]
 
 
 ### Risks and Pitfalls: Identify reason for failure and how to avoid them
+<br/>
 
 **Risks:**
+<br/>
+
 **Inappropriate selection of data visualization:**
+<br/>
 Different views answer different questions, and different charts tell different stories: you should choose them with care. For example selecting a pie chart to display different department of an organization will not make more sense as it is not showing any useful information
 
 ![](images/RP8Image9.png)
 (Source: [@Marketing_Metrics])
 
 **Poor selection of colors:**
+<br/>
 Here’s an example of a poor use of colors, with a gradient of blue in the background that does not add anything but chaos to the visualization, clashing with the bright yellow and red that are too intense
 
 ![](images/RP8Image8.png)
 (Source: [@Marketing_Metrics])
 
 **Unclear message and complex data visualization:**
+<br/>
 It is important to present information which is clear and easy to understand to make sure that the audience understand it clearly and can take actions from the visualization
 
 ![](images/RP8Image10.png)
@@ -723,12 +861,16 @@ It is important to present information which is clear and easy to understand to 
 **How to avoid these risks:**
 
 **Choose the data visualization carefully:**
+<br/>
 The pie chart is a popular choice to visualize percentages that add up to 100%, but it’s often not the optimal choice. Beyond a few slices, it’s hard to compare the relative size of each section. Bar charts are the workhorses of dataviz for good reason (for a longer list of variables, horizontal bar charts often work better).
 
+
 **Color selection (look and feel):**
+<br/>
 The colors in the visualization should be meaningful and clearly indicate what does they represent. Do not add too intense colors making the visualization unattractive. Above all it is substantial to have the correct data an simple visualization that make more sense rather than colors.
 
 **Less is more!:**
+<br/>
 Be clear and concise about the visualization.One visualization should represent a clear message and should not leave audience in the confusion. Avoid using interactivity as most of the time audience might not be aware of it making it more confusing and useless for them. Provide clear single message with visualization at first and then can move ahead with further details on user demand.This makes it clear for user regarding what information they are looking at and what they need. This avoid any confusion to the audience
 
 
@@ -738,20 +880,34 @@ Be clear and concise about the visualization.One visualization should represent 
 
 With increasingly intense competition in digitalized industries, it is important for companies to use their data for the analysis of results and the efficiency of processes. Analytics data can readily be integrated into a long-term, structured monthly reporting in companies. Like other analytics dashboard, the ideal dashboard for Marketing analytics will include following features:
 
-* Well defined goals and KPIs in the Dashboard - Goals can be defined for all processes and phases of the online sales funnel and can be checked continually using Analytics. The best practice, which large players such as Amazon show, is defining and dismantling business processes as partial processes and expressing this success in mathematical relations. The figures like company impressions and visits are certainly important for online marketing analytics, but are only indirectly relevant for success. To ensure true success lies in  the achievement of an economic profit. In E-commerce, return ratios, conversion rates, and shopping cart size decide the long-term success of an online shop. In the marketing affiliate, conversion on the partner site is decisive for success.
+ **Well defined goals and KPIs in the Dashboard:**
+<br/>
+Goals can be defined for all processes and phases of the online sales funnel and can be checked continually using Analytics. The best practice, which large players such as Amazon show, is defining and dismantling business processes as partial processes and expressing this success in mathematical relations. The figures like company impressions and visits are certainly important for online marketing analytics, but are only indirectly relevant for success. To ensure true success lies in  the achievement of an economic profit. In E-commerce, return ratios, conversion rates, and shopping cart size decide the long-term success of an online shop. In the marketing affiliate, conversion on the partner site is decisive for success.
 
-* Target Groups for Dashboards - Decisive for the content-related conception of dashboards are the target groups for certain control parameters in the context of the analysis. The target groups also determine the level of detail and complexity of the dashboard according to their analytical understanding. If the entire workforce is addressed, easily understandable and consistent key figures should be summarized in a dashboard.
+**Target Groups for Dashboards:**
+<br/>
+Decisive for the content-related conception of dashboards are the target groups for certain control parameters in the context of the analysis. The target groups also determine the level of detail and complexity of the dashboard according to their analytical understanding. If the entire workforce is addressed, easily understandable and consistent key figures should be summarized in a dashboard.
 
-* The Temporal Perspective - The temporal levels of strategic, tactical, and operative, which can be translated with long- mid-, and short-term, arise from the controlling. While individual online marketing processes are subject to long-term changes – such as the change of device usage from desktop to mobile – key performance indicators in E-commerce are overseen daily to make fast access possible. While long-term questions are best depicted through the display of data progress, values can be presented as individual values in the short-term oversight. If there are processes that can be seen as short-, middle- and long-term, the establishment of several dashboards is recommended because changed needs with regards to KPIs can arise from the change of temporal perspective.
 
-**Strategic Dashboard** - A strategic dashboard is a reporting tool for monitoring the long-term company strategy with the help of critical success factors.
+**The Temporal Perspective:**
+<br/>
+The temporal levels of strategic, tactical, and operative, which can be translated with long, mid, and short-term, arise from the controlling. While individual online marketing processes are subject to long-term changes – such as the change of device usage from desktop to mobile – key performance indicators in E-commerce are overseen daily to make fast access possible. While long-term questions are best depicted through the display of data progress, values can be presented as individual values in the short-term oversight. If there are processes that can be seen as short-, middle- and long-term, the establishment of several dashboards is recommended because changed needs with regards to KPIs can arise from the change of temporal perspective.
+
+
+**Strategic Dashboard:**
+<br/>
+A strategic dashboard is a reporting tool for monitoring the long-term company strategy with the help of critical success factors.
 
 ![](images/StrategicDash_MSF.png)
 (Source: [@types-of-dashboards])
 
-**Operational Dashboard** - Operational dashboards are used for monitoring and managing operations that have a shorter time horizon.
+**Operational Dashboard:**
+<br/>
+Operational dashboards are used for monitoring and managing operations that have a shorter time horizon.
 
 ![](images/OperationalDash_MSF.png)
 (Source: [@types-of-dashboards])
 
-* Easily customizable - Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
+**Easily customizable:**
+<br/>
+Marketing dashboards share some common characteristics with other dashboards. For a solution that’s sustainable and easy to use, a marketing dashboard should reflect business priorities and role in the department. Many platforms allow users to customize dashboards by dragging and dropping widgets onto the interface. Certain higher-level data may be restricted to managers or executives using role-based access controls.
