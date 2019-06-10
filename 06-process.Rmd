@@ -718,7 +718,8 @@ Use your charts to spot issues with your data and address those issues before pr
 [@PitfallsRemedies]
 
 ### Limitations of Data Visualization Tools
-Data visualization tools are required for analysis of data and trends but they have some limitations especially when datasets grow in size.
+Data visualization tools are required for analysis of data and trends but they have some limitations especially when datasets grow in size.  
+
 1.  **Lack of explanation** While data visualizations can be generated in real-time, they do not provide any explanations. In fact, the process through which companies draw insight has not changed in the last 30 years. Analysts look at data and then write reports. This process is too slow for the market and too costly for the company. At the same time, data visualization tools expect the user to be an expert in all of the data and all of the corporate best practices.
 
 2.  **Deriving different insights by different user**  Each user has a different conclusion with the same visualization, based on his/her previous experience. This presents several problems for companies. On the one hand, certain users could be erroneously drawing conclusions which cost the company money and on the other, in highly regulated industries, users’ incorrect conclusions could actually put the company at risk.
@@ -731,9 +732,9 @@ Data visualization tools are required for analysis of data and trends but they h
 ### Possible Scenarios which may create a dilemma for the user
 1. **To cut or not to cut (The Y-axis):** By its design, a bar graph emphasizes the absolute magnitude of values associated with each category, whereas a line graph emphasizes the change in the dependent variable (usually the y-axis values) as the independent variable (usually the x value) changes.
 
-• Barplot: With this kind of chart there is consensus: your Y-axis should start at 0.
+	• Barplot: With this kind of chart there is consensus: your Y-axis should start at 0.
 
-• Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.
+	• Line plot: Here however there is no consensus, even if in general you don’t have to start at 0.
 
 2. **Using Area for the representation of numeric values:** The human eye does not perform well when it has to translate areas to numeric values. Thus it is recommended to use bar graphs to represent areas. This does not mean that area must never be used to represent a numeric variable. It means that other shapes and techniques must be before using area. For instance, the bubble chart does a good job representing the values of 3 numeric variables.
 
