@@ -245,7 +245,9 @@ What stands out is the categorization of information on the website which enable
 
 ### Automatic visualization vs. context-specific visualization
 
-Automatic visualization is a bad idea, generally speaking. Some parts of visualization indeed should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
+Simple visualizations such as standard chart types (bar chart, line chart, etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market. However, full on automation where insight fountains out from any datasets are far-fetched at this point because it requires automated analysis. The automated analysis means that the tool or algorithm has to understand the context and also select the best visualization.
+
+Automatic visualization is generally a bad idea. Some parts of visualization indeed should be automatic, such as standard chart types and recurring geometries. Pieces of visualization, such as annotation and axis construction can be automatic.
 
 However, full-on automation where insight fountains out from any dataset is farfetched at this point because this requires automatic analysis. Analytics is usually context-specific and requires more than boilerplate statistics. The most interesting visualizations are context-specific. [@auto_viz]
 
@@ -259,9 +261,7 @@ According to Alysson Ferreira, a UI Engineer, there is an increasing need to und
 
 This is where data visualization comes in. Data visualization is the art of displaying information by combining the beauty of imagery with the conciseness of statistics, which allows us to organize complex data into useful graphical representations. In simple terms, data visualization is the art of translating complex data into meaningful information. [@future_viz]
 
-Plug in any data set into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone don't fully explain data, and so we are inundated with queries: why did the numbers fall in whatever month? Data visualization cannot explain dayta, leaving room for interpretation.
-
-Although simple visualizations such as standard chart types (bar chart, line chart, etc.) are already automated to a certain extent in Microsoft Office tools and other software available in the market, full on automation where insight fountains out from any data set are far-fetched at this point because this requires automated analysis. The automated analysis here means that the tool or algorithm has to understand the context and also select the best visualization.
+Plug in any dataset into a magic box and it spits out a beautiful visualization you can show all of your co-workers, friends, and family. That is the promise of many startups, but it does not quite work that way. The problem is that graphics alone do not fully explain data, and so we are inundated with queries such as, why did the numbers fall in whatever month? Data visualization cannot explain data, thereby leaving room for interpretation.
 
 ### One great tool: D3.js.
 
